@@ -58,6 +58,13 @@ int main(int argc, char **argv)
 		else
 			printf("while get button: -1\n");
 	}
+
+	// 异步通知功能
+	fcntl(fd, F_SETOWN, getpid());
+	flags = fcntl(fd, F_GETFL);
+	//启用异步通知信号
+	fcntl(fd, F_SETFL, flags | FASYNC);
+	// fcntl会调用gpio_key_drv_fasync函数，注册异步通知结构体button_fasync
 	
 	close(fd);
 	

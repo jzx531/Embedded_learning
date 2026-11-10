@@ -167,6 +167,7 @@ static ssize_t gpio_key_drv_read (struct file *file, char __user *buf, size_t si
 static unsigned int gpio_key_drv_poll(struct file *fp, poll_table * wait)
 {
 	printk("%s %s line %d\n", __FILE__, __FUNCTION__, __LINE__);
+	//把线程放入work queue,但是未休眠
 	poll_wait(fp, &gpio_key_wait, wait);   /* 把当前进程挂到等待队列 */
 	return is_key_buf_empty() ? 0 : POLLIN | POLLRDNORM; /* 有数据则返回可读 */
 }
@@ -174,6 +175,7 @@ static unsigned int gpio_key_drv_poll(struct file *fp, poll_table * wait)
 /* fasync函数：支持异步通知 */
 static int gpio_key_drv_fasync(int fd, struct file *file, int on)
 {
+	//fcntl会调用gpio_key_drv_fasync函数，注册异步通知结构体button_fasync
 	if (fasync_helper(fd, file, on, &button_fasync) >= 0)
 		return 0;
 	else

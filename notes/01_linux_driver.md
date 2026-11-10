@@ -65,3 +65,34 @@ obj-$(CONFIG_INFRARED_REMOTE) += infrared_s3c2410.o
 make modules_install INSTALL_MOD_PATH=/home/usr/modules
 ```
 
+### 编写可加载模块
+
+Linux内核模块必须包含下面两个接口:
+
+```c
+module_init(your_init_func); //模块初始化接口
+module_exit(your_exit_func); //模块退出接口
+```
+
+加载一个内核模块的命令是insmod,格式如下:
+
+```bash
+#insmod modulename.ko
+```
+
+卸载如下:
+```bash
+#rmmod modulename.ko
+```
+
+makefile如下；
+```makefile
+CC = arm-none-linux-gnueabi-gcc
+obj-m:=smodule.o
+KERNELDIR?=/root/fgj/linux-4.5.2
+```
+
+CC是编译器，obj-m为需要编译的目标模块,KERNELDIR为内核路径
+
+KERNELDIR的内核版本必须与运行的内核版本一致
+
