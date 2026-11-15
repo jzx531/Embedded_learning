@@ -1,6 +1,6 @@
 # Momenta 流媒体后端开发实习生面试准备
 
-> 更新日期：2026-11-14  
+> 更新日期：2026-11-15  
 > 目标岗位：Momenta 流媒体后端开发实习生（上海，360-720 元/天）  
 > 使用方式：先完成第 2 节硬条件确认，再按距离面试的时间执行第 5 节；面试前至少完成第 7、8、9 节的一次口述。
 
@@ -442,23 +442,127 @@ OCXO -> MCU 时钟 -> 主从定时器硬件同步 -> PPS、相机、雷达等输
 - [ ] 准备一个失败案例、一个协作案例和一个快速学习案例；
 - [ ] 准备 3 个针对团队实际工作的反问问题。
 
-## 14. 官方学习资料
+## 14. 视频、开源项目与在线教材
 
-按优先级阅读，面试前不必从头到尾通读全部 RFC：
+> 资源核实日期：2026-11-15。Bilibili 标题、作者、分集和时长通过站内搜索及公开元数据核实；GitHub 仓库主页和项目定位已核实。视频是辅助理解材料，协议细节以官方文档、RFC 和源码为准。
+
+### 14.1 Bilibili 视频：只看与面试任务直接相关的部分
+
+| 优先级 | 视频 | 用途 | 看完必须完成的输出 |
+|---:|---|---|---|
+| P0 | [【幼麟实验室】Golang 合辑](https://www.bilibili.com/video/BV1hv411x7we/) | 重点看 slice、map、interface、defer、GPM 和 GC，不必顺序刷完整套 | 为 slice 扩容、map 并发写、interface nil、goroutine 泄漏各写一个最小复现；运行 `go test -race ./...` |
+| P0 | [【项目实战】基于 Golang、WebRTC 实现在线会议](https://www.bilibili.com/video/BV1Ca4y1N7GU/) | 共 9 个分集，包含会议管理、鉴权、WebRTC 消息、屏幕共享和信令；适合建立完整感性认识 | 不照抄整个项目，只重做房间管理和 offer/answer/ICE 转发；补上 context、超时、单写协程和并发测试 |
+| P0 | [WebRTC ICE 运行步骤和 candidate 分类详解](https://www.bilibili.com/video/BV1yP411h7D1/) | 13 分 31 秒，快速建立 host、srflx、relay candidate 和 ICE 检查顺序 | 手画一次建连时序；在 Pion 日志中打印 candidate type 和 selected pair |
+| P1 | [基于 WebRTC 的音视频后台转发方案设计（SFU 模式）](https://www.bilibili.com/video/BV1gN4y1f7bR/) | 6 分 29 秒，用于先建立 SFU 数据路径概念 | 画 `Publisher -> SFU -> Subscribers`，标出信令面、媒体面、SSRC、RTCP 反馈和转发位置 |
+| P1 | [WebRTC JitterBuffer](https://www.bilibili.com/video/BV1nk4y1E75x/) | 19 分 44 秒，理解抖动缓冲、乱序与延迟取舍 | 写一段 200 字解释：为什么加深 buffer 能减少卡顿却会伤害远程驾驶时延 |
+| P2 | [10 分钟讲透 Kubernetes：Pod、Deployment、Service](https://www.bilibili.com/video/BV1WRjE6KEk1/) | 用于第一次建立 K8s 对象关系，不能替代官方文档和实操 | 为信令服务写 Deployment、Service、readiness/liveness；解释为何 RTC 节点还需要连接排空 |
+
+使用原则：
+
+1. 先看 P0，再根据面试剩余时间选择 P1/P2；
+2. 每看 20-30 分钟就暂停，自己画图或写代码，不连续刷课；
+3. 视频中的旧依赖、部署命令和性能结论必须重新验证；
+4. 不把“看过教程”写成项目经验，只展示自己重做、测试和解释得清的部分。
+
+### 14.2 GitHub 项目：推荐阅读顺序与动手任务
+
+#### 第一层：先跑通 Go 信令与 WebRTC
+
+1. [pion/webrtc](https://github.com/pion/webrtc)  
+   纯 Go 的 WebRTC API 实现，也是这个岗位最应优先看的仓库。先运行仓库 `examples`，重点观察 `PeerConnection`、ICE state、DataChannel、Track 和 RTCP 回调。不要一开始就通读所有源码。
+
+2. [pion/example-webrtc-applications](https://github.com/pion/example-webrtc-applications)  
+   Pion 的较完整示例集合，适合从“API 能运行”过渡到“小应用怎样组织”。选择一个双端示例运行，记录 SDP、candidate、连接状态和退出清理过程。
+
+3. [gorilla/websocket](https://github.com/gorilla/websocket)  
+   Go 中常用、经过测试的 WebSocket 实现。用它完成自己的房间信令服务，重点验证单连接单写协程、ping/pong、写超时、消息大小限制和断连清理。
+
+**第一层验收**：两个客户端能加入同一房间并交换 offer/answer/ICE；任意一端断开后，服务端 2 秒内清理成员和相关 goroutine；`go test -race ./...` 无数据竞争。
+
+#### 第二层：补 TURN、协议互转和媒体服务
+
+4. [pion/turn](https://github.com/pion/turn)  
+   Pion 的 TURN 客户端/服务端 API。目标不是重写 coturn，而是理解 allocation、relay candidate、权限和带宽代价。实验时比较 host、srflx 和 relay 三类候选路径。
+
+5. [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx)  
+   支持 WebRTC、RTSP、RTMP、LL-HLS、RTP、录制和回放的 Go 媒体服务器/代理。适合验证协议适用场景：用 FFmpeg 推一路流，分别通过 WebRTC/HLS 播放，并记录首帧时间、CPU 和端到端延迟测试方法。
+
+**第二层验收**：输出一张协议路径图和一份实验表，写清输入编码、封装、播放方式、网络条件、CPU、首帧时间及测量限制；没有测量的数据不要写进结论。
+
+#### 第三层：理解生产级 SFU 架构
+
+6. [livekit/livekit](https://github.com/livekit/livekit)  
+   Go 编写的端到端实时通信服务端。阅读目标是房间、Participant、Track 发布/订阅、节点调度和可观测性，不要求面试前读完。先从 README、架构文档和一条订阅调用链入手。
+
+7. [versatica/mediasoup](https://github.com/versatica/mediasoup)  
+   WebRTC SFU 项目，也是 JD 明确列出的加分方向。它不是 Go 项目，阅读重点是 Router、Transport、Producer、Consumer 的对象关系，以及媒体转发与业务信令分离。
+
+**第三层验收**：能用一张图比较 Pion 自建最小 SFU、LiveKit 和 mediasoup 的抽象；能回答“为什么 SFU 横向扩容不是简单增加 Pod”。
+
+#### 源码阅读方法
+
+对每个仓库只完成一条可追踪调用链：
+
+```text
+入口 API -> 状态对象 -> 网络读写 -> 超时/取消 -> 指标与错误路径
+```
+
+记录具体文件、函数、输入输出和失败分支。面试中说“我跟过哪条调用链、改过什么、怎样验证”，比说“读过某某源码”更可信。
+
+### 14.3 免费在线教材
+
+1. [《给好奇者的 WebRTC》中文版](https://webrtcforthecurious.com/zh/)  
+   由 WebRTC 实现者编写的开源书，覆盖信令、连接、安全、媒体、数据通信和调试。它不是代码教程，最适合建立协议全景。优先读“信令、连接、媒体通信、数据通信、调试”，每章整理一张图和三个面试问题。
+
+2. [A Tour of Go](https://go.dev/tour/list)  
+   官方交互式入门。已有 C++ 基础时不必看过多语法视频，直接完成 methods/interfaces、generics、concurrency 部分，并把示例改成房间广播或连接取消场景。
+
+3. [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)  
+   免费的测试驱动 Go 教材，已核实包含 arrays/slices、maps、interfaces、concurrency、select、sync、context、HTTP server 和 WebSockets。优先完成 Concurrency、Select、Sync、Context、HTTP server 和 WebSockets 六部分。
+
+4. [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/html/split/)  
+   免费 Socket 网络编程教材。重点复习 byte order、`getaddrinfo`、TCP/UDP、blocking、`poll` 和 partial send/recv；把知识映射到简历中的 epoll、lwIP 和 UDP 项目。
+
+5. [Computer Networks: A Systems Approach](https://book.systemsapproach.org/)  
+   开放网络教材。面试前只读第 5 章 End-to-End Protocols、第 6 章 Congestion Control、第 7 章 End-to-End Data 中与可靠传输、拥塞和实时数据相关的部分。
+
+学习教材时的最低产出：
+
+- 每章一页笔记，包含“问题、机制、失败场景、如何观测”；
+- 至少一个可运行实验或抓包；
+- 至少三个能脱稿回答的追问；
+- 明确哪些是自己做过、哪些只是教材知识。
+
+### 14.4 官方文档与协议
+
+按问题查阅，不必从头通读全部 RFC：
 
 - [Go Documentation](https://go.dev/doc/)：语言、模块、测试与诊断入口；
 - [Effective Go](https://go.dev/doc/effective_go)：Go 惯用写法；
 - [gRPC Go Quick Start](https://grpc.io/docs/languages/go/quickstart/)：Go gRPC 最小闭环；
 - [WebRTC Overview](https://webrtc.org/getting-started/overview)：官方 WebRTC 入门；
-- [Pion WebRTC](https://github.com/pion/webrtc)：Go WebRTC 实现与示例；
-- [RTP/RTCP - RFC 3550](https://www.rfc-editor.org/rfc/rfc3550)：RTP 数据与控制协议；
+- [RTP/RTCP - RFC 3550](https://www.rfc-editor.org/rfc/rfc3550)：序列号、时间戳、SSRC 与 RTCP；
 - [ICE - RFC 8445](https://www.rfc-editor.org/rfc/rfc8445)：候选与连通性检查；
-- [STUN - RFC 8489](https://www.rfc-editor.org/rfc/rfc8489)：NAT 穿透工具协议；
-- [TURN - RFC 8656](https://www.rfc-editor.org/rfc/rfc8656)：中继协议；
-- [WebRTC Data Channels - RFC 8831](https://www.rfc-editor.org/rfc/rfc8831)：DataChannel 协议栈；
+- [STUN - RFC 8489](https://www.rfc-editor.org/rfc/rfc8489)：NAT 映射发现与连通性检查；
+- [TURN - RFC 8656](https://www.rfc-editor.org/rfc/rfc8656)：中继机制；
+- [WebRTC Data Channels - RFC 8831](https://www.rfc-editor.org/rfc/rfc8831)：SCTP/DTLS/UDP 数据通道协议栈；
 - [Kubernetes Concepts](https://kubernetes.io/docs/concepts/)：工作负载、服务、探针和扩缩容；
-- [GStreamer Documentation](https://gstreamer.freedesktop.org/documentation/)：媒体 pipeline 与插件；
+- [GStreamer Documentation](https://gstreamer.freedesktop.org/documentation/)：media pipeline、caps 和插件；
 - [FFmpeg Documentation](https://ffmpeg.org/documentation.html)：探测、转码、封装和调试。
+
+### 14.5 七天资源使用顺序
+
+| 天数 | 主要资源 | 当天验收 |
+|---:|---|---|
+| 第 1 天 | A Tour of Go + Learn Go with Tests + Golang 合辑选集 | 完成并发、context、WebSocket 小练习，race detector 通过 |
+| 第 2 天 | 《给好奇者的 WebRTC》连接章节 + ICE 视频 | 能脱稿画建连时序，Pion 输出 selected candidate pair |
+| 第 3 天 | Go WebRTC 在线会议视频 + pion/webrtc 示例 | 自己实现房间和信令，不直接复制教程项目 |
+| 第 4 天 | SFU 视频 + Pion 示例应用 | 完成发布/订阅路径图，统计 RTP 包与 RTCP 反馈 |
+| 第 5 天 | JitterBuffer 视频 + RFC 3550 + 网络教材拥塞章节 | 完成弱网实验，记录 delay/jitter/loss 与卡顿变化 |
+| 第 6 天 | MediaMTX + FFmpeg/GStreamer 文档 | 跑通推流、播放或转码，记录命令、CPU、实时倍速和限制 |
+| 第 7 天 | LiveKit/mediasoup 架构 + Kubernetes Concepts | 完成系统图、探针、连接排空说明和一轮模拟面试 |
+
+资源选择的最终原则是：**一个能运行并能解释失败路径的小项目，优于十套看完但没有验证的视频课程。**
 
 ## 15. 最终准备策略
 
