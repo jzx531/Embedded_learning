@@ -171,7 +171,7 @@ static long oled_ioctl(struct file *file, unsigned int cmd, unsigned long arg)
 	int err;
 	
 	
-	switch (cmd & 0xff)
+	switch (cmd & 0xff)//低八位用来表示cmd
 	{
 		case OLED_SET_XY:
 		{
