@@ -47,6 +47,7 @@ void lcd_put_pixel(int x, int y, unsigned int color)
 	{
 		case 1:
 		{
+			//一个字节有八个偏移量所以要/8 == >> 3
 			pen_8 = fbmem+y*line_width+(x>>3);
 			bit = x & 0x7;
 			if (color)
