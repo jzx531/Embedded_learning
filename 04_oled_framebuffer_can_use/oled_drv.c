@@ -289,6 +289,7 @@ static int oled_probe(struct spi_device *spi)
 	/* spi oled init */
 	oled_dc = gpiod_get(&spi->dev, "dc", GPIOD_OUT_HIGH);
 
+	//再一次分配内存，建立data_buf用来作为数据传输spi的缓存
 	data_buf = dma_alloc_wc(NULL, oled_fb_info->fix.smem_len, &phy_addr,
 					 GFP_KERNEL);
 	
