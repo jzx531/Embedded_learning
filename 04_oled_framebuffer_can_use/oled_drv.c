@@ -197,6 +197,13 @@ static int get_pixel(int x, int y)
 		return 0;
 }
 
+/**
+ * OLED 控制器（如 SSD1306）通常采用页寻址（Page Addressing）模式，
+ * 即每次写入一个字节（8个垂直像素）。
+ * 而 Framebuffer 显存是光栅扫描（Raster Scan）模式，按行横向存储像素。
+这个函数的作用就是将显存中横向排列的位图数据，
+通过位运算重新组合成 OLED 需要的纵向字节数据，存入 data_buf 中。
+ */
 static void convert_fb_to_oled(void)
 {
 	unsigned char data;
