@@ -1,0 +1,830 @@
+$ findmnt /sys/kernel/debug; cat /sys/kernel/debug/regulator/regulator_summary; cat /sys/kernel/debug/clk/clk_summary; cat /sys/kernel/debug/pm_genpd/pm_genpd_summary; cat /sys/kernel/debug/wakeup_sources; cat /sys/kernel/debug/dma_buf/bufinfo
+
+TARGET            SOURCE  FSTYPE  OPTIONS
+/sys/kernel/debug debugfs debugfs rw,nosuid,nodev,noexec,relatime
+ regulator                      use open bypass  opmode voltage current     min     max
+---------------------------------------------------------------------------------------
+ regulator-dummy                  5    5      0 unknown     0mV     0mA     0mV     0mV 
+    fc000000.sata-target          1                                 0mA     0mV     0mV
+    fc000000.sata-phy             1                                 0mA     0mV     0mV
+    fc000000.sata-ahci            1                                 0mA     0mV     0mV
+    backlight-dsi0-power          1                                 0mA     0mV     0mV
+    regulator-dummy               0                                 0mA     0mV     0mV
+ dc_12v                           4    5      0 unknown 12000mV     0mA 12000mV 12000mV 
+    dc_12v                        0                                 0mA     0mV     0mV
+    vcc3v3_sys                   20   20      0 unknown  3300mV     0mA  3300mV  3300mV 
+       vcc3v3_sys                 0                                 0mA     0mV     0mV
+       pcie30_avdd0v9             1    1      0 unknown   900mV     0mA   900mV   900mV 
+          pcie30_avdd0v9          0                                 0mA     0mV     0mV
+       pcie30_avdd1v8             1    1      0 unknown  1800mV     0mA  1800mV  1800mV 
+          pcie30_avdd1v8          0                                 0mA     0mV     0mV
+       vcc2v5-sys                 1    1      0 unknown  2500mV     0mA  2500mV  2500mV 
+          vcc2v5-sys              0                                 0mA     0mV     0mV
+       vdd_logic                  1    6      0  normal   875mV     0mA   500mV  1350mV 
+          dmc-center              0                                 0mA     0mV     0mV
+          dmc-center              0                                 0mA   875mV  1350mV
+          fdf80200.rkvdec-vdec    0                                 0mA     0mV     0mV
+          fdf40000.rkvenc-venc    0                                 0mA     0mV     0mV
+          bus-npu-bus             0                                 0mA   875mV  1350mV
+          vdd_logic               0                                 0mA     0mV     0mV
+       vdd_gpu                    1    3      0  normal   850mV     0mA   500mV  1350mV 
+          fde60000.gpu-mali       0                                 0mA   850mV  1350mV
+          fde60000.gpu-mali       0                                 0mA     0mV     0mV
+          vdd_gpu                 0                                 0mA     0mV     0mV
+       vcc_ddr                    1    1      0  normal   500mV     0mA     0mV     0mV 
+          vcc_ddr                 0                                 0mA     0mV     0mV
+       vdd_npu                    1    3      0  normal   875mV     0mA   500mV  1350mV 
+          fde40000.npu-rknpu      0                                 0mA   875mV  1350mV
+          fde40000.npu-rknpu      0                                 0mA     0mV     0mV
+          vdd_npu                 0                                 0mA     0mV     0mV
+       vcc_1v8                    1    3      0 unknown  1800mV     0mA  1800mV  1800mV 
+          fdc20000.syscon:io-domains-vccio6   0                                 0mA     0mV     0mV
+          fdc20000.syscon:io-domains-vccio4   0                                 0mA     0mV     0mV
+          vcc_1v8                 0                                 0mA     0mV     0mV
+       vdda0v9_image              1    1      0 unknown   900mV     0mA   900mV   900mV 
+          vdda0v9_image           0                                 0mA     0mV     0mV
+       vdda_0v9                   1    1      0 unknown   900mV     0mA   900mV   900mV 
+          vdda_0v9                0                                 0mA     0mV     0mV
+       vdda0v9_pmu                1    1      0 unknown   900mV     0mA   900mV   900mV 
+          vdda0v9_pmu             0                                 0mA     0mV     0mV
+       vccio_acodec               1    2      0 unknown  3000mV     0mA  3000mV  3000mV 
+          fdc20000.syscon:io-domains-vccio1   0                                 0mA     0mV     0mV
+          vccio_acodec            0                                 0mA     0mV     0mV
+       vccio_sd                   1    3      0 unknown  3300mV     0mA  1800mV  3300mV 
+          fdc20000.syscon:io-domains-vccio3   0                                 0mA     0mV     0mV
+          fe2b0000.dwmmc-vqmmc    0                                 0mA     0mV     0mV
+          vccio_sd                0                                 0mA     0mV     0mV
+       vcc3v3_pmu                 1    2      0 unknown  3300mV     0mA  3300mV  3300mV 
+          fdc20000.syscon:io-domains-pmuio2   0                                 0mA     0mV     0mV
+          vcc3v3_pmu              0                                 0mA     0mV     0mV
+       vcca_1v8                   2    2      0 unknown  1800mV     0mA  1800mV  1800mV 
+          fe720000.saradc-vref    1                                 0mA     0mV     0mV
+          vcca_1v8                0                                 0mA     0mV     0mV
+       vcca1v8_pmu                1    1      0 unknown  1800mV     0mA  1800mV  1800mV 
+          vcca1v8_pmu             0                                 0mA     0mV     0mV
+       vcca1v8_image              1    1      0 unknown  1800mV     0mA  1800mV  1800mV 
+          vcca1v8_image           0                                 0mA     0mV     0mV
+       vcc_3v3                    2    4      0 unknown  3300mV     0mA     0mV     0mV 
+          fdc20000.syscon:io-domains-vccio7   0                                 0mA     0mV     0mV
+          fdc20000.syscon:io-domains-vccio5   0                                 0mA     0mV     0mV
+          vcc_3v3                 0                                 0mA     0mV     0mV
+          vcc3v3_mipi_con         1    1      0 unknown  3300mV     0mA  3300mV  3300mV 
+             vcc3v3_mipi_con      0                                 0mA     0mV     0mV
+       vcc3v3_sd                  1    2      0 unknown  3300mV     0mA     0mV     0mV 
+          fe2b0000.dwmmc-vmmc     0                                 0mA  3300mV  3400mV
+          vcc3v3_sd               0                                 0mA     0mV     0mV
+    vcc5v0_sys                    3    3      0 unknown  5000mV     0mA  5000mV  5000mV 
+       vcc5v0_sys                 0                                 0mA     0mV     0mV
+       vcc3v3_bu                  1    1      0 unknown  3300mV     0mA  3300mV  3300mV 
+          vcc3v3_bu               0                                 0mA     0mV     0mV
+       vdd_cpu                    2    2      0  normal  1125mV     0mA   712mV  1387mV 
+          cpu0-cpu                1                                 0mA  1125mV  1150mV
+          vdd_cpu                 0                                 0mA     0mV     0mV
+    vcc5v0_usb                    2    3      0 unknown  5000mV     0mA  5000mV  5000mV 
+       vcc5v0_usb                 0                                 0mA     0mV     0mV
+       vcc5v0_host                7    4      0 unknown  5000mV     0mA  5000mV  5000mV 
+          phy-fe8b0000.usb2-phy.4-phy   2                                 0mA     0mV     0mV
+          phy-fe8b0000.usb2-phy.3-phy   2                                 0mA     0mV     0mV
+          phy-fe8a0000.usb2-phy.1-phy   2                                 0mA     0mV     0mV
+          vcc5v0_host             0                                 0mA     0mV     0mV
+       vcc5v0_otg                 0    2      0 unknown  5000mV     0mA  5000mV  5000mV 
+          phy-fe8a0000.usb2-phy.2-vbus   0                                 0mA     0mV     0mV
+          vcc5v0_otg              0                                 0mA     0mV     0mV
+    vcc3v3_pcie                   0    1      0 unknown  3300mV     0mA  3300mV  3300mV 
+       vcc3v3_pcie                0                                 0mA     0mV     0mV
+ vcc1v8_cam                       1    1      0 unknown  1800mV     0mA  1800mV  1800mV 
+    vcc1v8_cam                    0                                 0mA     0mV     0mV
+ pcie3_power                      1    1      0 unknown  3300mV     0mA  3300mV  3300mV 
+    pcie3_power                   0                                 0mA     0mV     0mV
+ minipcie_power                   1    1      0 unknown  3300mV     0mA  3300mV  3300mV 
+    minipcie_power                0                                 0mA     0mV     0mV
+ vcc3v3_lcd0_n                    1    2      0 unknown     0mV     0mA     0mV     0mV 
+    fe060000.dsi.0-power          1                                 0mA     0mV     0mV
+    vcc3v3_lcd0_n                 0                                 0mA     0mV     0mV
+                                 enable  prepare  protect                                duty
+   clock                          count    count    count        rate   accuracy phase  cycle
+---------------------------------------------------------------------------------------------
+ hym8563                              1        1        0       32768          0     0  50000
+ rk808-clkout2                        2        2        0       32768          0     0  50000
+ rk808-clkout1                        0        0        0       32768          0     0  50000
+ clk_scmi_ddr                         0        0        0   780000000          0     0  50000
+ clk_scmi_npu                         0        1        0   198000000          0     0  50000
+ clk_scmi_gpu                         0        2        0   198000000          0     0  50000
+ clk_scmi_cpu                         0        0        0  1992000000          0     0  50000
+ ext_cam_25m_clk                      0        0        0    25000000          0     0  50000
+ xin32k                               0        0        0       32768          0     0  50000
+ xin24m                              27       29        0    24000000          0     0  50000
+    clk_cpu_boost                     0        0        0    24000000          0     0  50000
+    clk_optc_arb                      1        1        0    24000000          0     0  50000
+    clk_timer5                        0        0        0    24000000          0     0  50000
+    clk_timer4                        0        0        0    24000000          0     0  50000
+    clk_timer3                        0        0        0    24000000          0     0  50000
+    clk_timer2                        0        0        0    24000000          0     0  50000
+    clk_timer1                        0        0        0    24000000          0     0  50000
+    clk_timer0                        1        1        0    24000000          0     0  50000
+    dbclk_gpio                        4        4        0    24000000          0     0  50000
+       dbclk_gpio4                    1        1        0    24000000          0     0  50000
+       dbclk_gpio3                    1        1        0    24000000          0     0  50000
+       dbclk_gpio2                    1        1        0    24000000          0     0  50000
+       dbclk_gpio1                    1        1        0    24000000          0     0  50000
+    clk_pwm3_capture                  0        0        0    24000000          0     0  50000
+    clk_pwm3                          0        0        0    24000000          0     0  50000
+    clk_pwm2_capture                  0        0        0    24000000          0     0  50000
+    clk_pwm2                          0        0        0    24000000          0     0  50000
+    clk_pwm1_capture                  0        0        0    24000000          0     0  50000
+    clk_pwm1                          2        2        0    24000000          0     0  50000
+    clk_i2c                           0        5        0    24000000          0     0  50000
+       clk_i2c5                       0        1        0    24000000          0     0  50000
+       clk_i2c4                       0        1        0    24000000          0     0  50000
+       clk_i2c3                       0        1        0    24000000          0     0  50000
+       clk_i2c2                       0        1        0    24000000          0     0  50000
+       clk_i2c1                       0        1        0    24000000          0     0  50000
+    sclk_uart9_mux                    0        0        0    24000000          0     0  50000
+       sclk_uart9                     0        0        0    24000000          0     0  50000
+    sclk_uart8_mux                    0        0        0    24000000          0     0  50000
+       sclk_uart8                     0        0        0    24000000          0     0  50000
+    sclk_uart7_mux                    0        0        0    24000000          0     0  50000
+       sclk_uart7                     0        0        0    24000000          0     0  50000
+    sclk_uart6_mux                    0        0        0    24000000          0     0  50000
+       sclk_uart6                     0        0        0    24000000          0     0  50000
+    sclk_uart5_mux                    0        0        0    24000000          0     0  50000
+       sclk_uart5                     0        0        0    24000000          0     0  50000
+    sclk_uart4_mux                    0        0        0    24000000          0     0  50000
+       sclk_uart4                     0        0        0    24000000          0     0  50000
+    sclk_uart3_mux                    0        0        0    24000000          0     0  50000
+       sclk_uart3                     0        0        0    24000000          0     0  50000
+    sclk_uart2_mux                    1        1        0    24000000          0     0  50000
+       sclk_uart2                     1        1        0    24000000          0     0  50000
+    sclk_uart1_mux                    0        0        0    24000000          0     0  50000
+       sclk_uart1                     0        0        0    24000000          0     0  50000
+    tclk_wdt_ns                       1        1        0    24000000          0     0  50000
+    clk_saradc                        1        1        0    24000000          0     0  50000
+    clk_hdmi_sfr                      1        2        0    24000000          0     0  50000
+    clk_vop_pwm                       0        0        0    24000000          0     0  50000
+    clk_cam1_out                      0        0        0    24000000          0     0  50000
+    clk_cam0_out                      0        0        0    24000000          0     0  50000
+    clk_cif_out                       0        0        0    24000000          0     0  50000
+    clk_sdmmc1                        0        0        0    24000000          0     0  50000
+       sdmmc1_sample                  0        0        0    12000000          0     0  50000
+       sdmmc1_drv                     0        0        0    12000000          0   180  50000
+    clk_usb3otg1_suspend              1        1        0    24000000          0     0  50000
+    clk_usb3otg1_ref                  1        1        0    24000000          0     0  50000
+    clk_usb3otg0_suspend              1        1        0    24000000          0     0  50000
+    clk_usb3otg0_ref                  1        1        0    24000000          0     0  50000
+    clk_pcie30x2_aux_ndft             0        0        0    24000000          0     0  50000
+    clk_pcie30x1_aux_ndft             0        0        0    24000000          0     0  50000
+    clk_pcie20_aux_ndft               0        0        0    24000000          0     0  50000
+    tclk_emmc                         1        1        0    24000000          0     0  50000
+    clk_otpc_ns_sbpi                  0        0        0    24000000          0     0  50000
+    clk24_ddrmon                      0        0        0    24000000          0     0  50000
+    clk_npu_pvtm                      0        0        0    24000000          0     0  50000
+    clk_gpu_pvtm                      0        0        0    24000000          0     0  50000
+    clk_core_pvtm                     0        0        0    24000000          0     0  50000
+    xin_osc0_half                     0        0        0    12000000          0     0  50000
+       clk_otpc_ns_usr                0        0        0    12000000          0     0  50000
+       i2s3_mclkout_rx                0        0        0    12000000          0     0  50000
+          i2s3_mclkout                0        0        0    12000000          0     0  50000
+       i2s3_mclkout_tx                0        0        0    12000000          0     0  50000
+       i2s2_mclkout                   0        0        0    12000000          0     0  50000
+       i2s1_mclkout_rx                0        0        0    12000000          0     0  50000
+       i2s0_mclkout_rx                0        0        0    12000000          0     0  50000
+       i2s0_mclkout_tx                0        0        0    12000000          0     0  50000
+    clk_osc0_div_750k                 1        1        0      750000          0     0  50000
+       clk_sdmmc0                     1        1        0      750000          0     0  50000
+          sdmmc0_sample               0        0        0      375000          0     0  50000
+          sdmmc0_drv                  0        0        0      375000          0    90  50000
+       clk_osc0_div_375k              0        0        0      375000          0     0  50000
+    pll_vpll                          1        1        0   612000000          0     0  50000
+       vpll                           1        1        0   612000000          0     0  50000
+          dclk_vop1                   1        2        0    68000000          0     0  50000
+    pll_npll                          1        2        0  1200000000          0     0  50000
+       npll                           0        1        0  1200000000          0     0  50000
+          clk_npu_np5                 0        0        0   342857143          0     0  50000
+          clk_npu_src                 0        1        0   200000000          0     0  50000
+             clk_npu_pre_ndft         0        1        0   200000000          0     0  50000
+                clk_npu_pvtpll        0        0        0   200000000          0     0  50000
+                clk_npu_pvtm_core       0        0        0   200000000          0     0  50000
+                clk_npu               0        4        0   200000000          0     0  50000
+                   aclk_npu_pre       0        2        0   200000000          0     0  50000
+                      aclk_npu        0        3        0   200000000          0     0  50000
+                   pclk_npu_pre       0        1        0    33333334          0     0  50000
+                      pclk_npu_pvtm       0        0        0    33333334          0     0  50000
+                   hclk_npu_pre       0        2        0    50000000          0     0  50000
+                      hclk_npu        0        3        0    50000000          0     0  50000
+    pll_cpll                          1        1        0  1000000000          0     0  50000
+       cpll                           6        7        0  1000000000          0     0  50000
+          aclk_vop_pre                1        2        0   500000000          0     0  50000
+             aclk_vop                 1        3        0   500000000          0     0  50000
+          clk_gpu_src                 0        1        0   166666667          0     0  50000
+             clk_gpu_pvtpll           0        0        0   166666667          0     0  50000
+             clk_gpu_pvtm_core        0        0        0   166666667          0     0  50000
+             clk_gpu_pre_mux          0        3        0   166666667          0     0  50000
+                clk_gpu               0        2        0   166666667          0     0  50000
+                pclk_gpu_pre          0        1        0    33333334          0     0  50000
+                   pclk_gpu_pvtm       0        0        0    33333334          0     0  50000
+                aclk_gpu_pre          0        1        0    83333334          0     0  50000
+          cpll_25m                    0        0        0    25000000          0     0  50000
+          cpll_50m                    1        1        0    50000000          0     0  50000
+             clk_sata2_rxoob          0        0        0    50000000          0     0  50000
+             clk_sata1_rxoob          0        0        0    50000000          0     0  50000
+             clk_sata0_rxoob          1        2        0    50000000          0     0  50000
+          cpll_62p5                   2        2        0    62500000          0     0  50000
+             clk_gmac1_ptp_ref        1        1        0    62500000          0     0  50000
+             clk_gmac0_ptp_ref        1        1        0    62500000          0     0  50000
+          cpll_100m                   1        1        0   100000000          0     0  50000
+             clk_tsadc_tsen           1        1        0    16666667          0     0  50000
+                clk_tsadc             1        1        0      694445          0     0  50000
+          cpll_125m                   2        2        0   125000000          0     0  50000
+             clk_mac1_out             0        0        0   125000000          0     0  50000
+             clk_mac1_2top            1        1        0   125000000          0     0  50000
+                clk_gmac1             2        2        0   125000000          0     0  50000
+                   clk_gmac1_rgmii_speed       1        1        0   125000000          0     0  50000
+                      clk_gmac1_rx_tx       2        2        0   125000000          0     0  50000
+                   clk_gmac1_rx_div20       0        0        0     6250000          0     0  50000
+                      clk_gmac1_rmii_speed       0        0        0     6250000          0     0  50000
+                   clk_gmac1_rx_div2       0        0        0    62500000          0     0  50000
+                   clk_gmac1_tx_div50       0        0        0     2500000          0     0  50000
+                   clk_gmac1_tx_div5       0        0        0    25000000          0     0  50000
+                clk_mac1_refout       0        0        0   125000000          0     0  50000
+             clk_mac0_out             0        0        0   125000000          0     0  50000
+             clk_mac0_2top            1        1        0   125000000          0     0  50000
+                clk_gmac0             2        2        0   125000000          0     0  50000
+                   clk_gmac0_rgmii_speed       1        1        0   125000000          0     0  50000
+                      clk_gmac0_rx_tx       2        2        0   125000000          0     0  50000
+                   clk_gmac0_rx_div20       0        0        0     6250000          0     0  50000
+                      clk_gmac0_rmii_speed       0        0        0     6250000          0     0  50000
+                   clk_gmac0_rx_div2       0        0        0    62500000          0     0  50000
+                   clk_gmac0_tx_div50       0        0        0     2500000          0     0  50000
+                   clk_gmac0_tx_div5       0        0        0    25000000          0     0  50000
+                clk_mac0_refout       0        0        0   125000000          0     0  50000
+          cpll_250m                   0        0        0   250000000          0     0  50000
+          cpll_333m                   0        0        0   250000000          0     0  50000
+             dclk_vicap               0        0        0   250000000          0     0  50000
+          cpll_500m                   1        1        0   500000000          0     0  50000
+             aclk_top_high            1        1        0   500000000          0     0  50000
+    pll_gpll                          1        1        0  1188000000          0     0  50000
+       gpll                           8       17        0  1188000000          0     0  50000
+          clk_isp                     0        1        0   297000000          0     0  50000
+          mclk_spdif_8ch_src          0        0        0  1188000000          0     0  50000
+             mclk_spdif_8ch           0        0        0  1188000000          0     0  50000
+             mclk_spdif_8ch_frac       0        0        0  1188000000          0     0  50000
+          clk_i2s3_2ch_tx_src         0        0        0  1188000000          0     0  50000
+             clk_i2s3_2ch_tx          0        0        0  1188000000          0     0  50000
+                mclk_i2s3_2ch_tx       0        0        0  1188000000          0     0  50000
+                   clk_acdcdig_dac       0        0        0  1188000000          0     0  50000
+             clk_i2s3_2ch_tx_frac       0        0        0  1188000000          0     0  50000
+          clk_i2s3_2ch_rx_src         0        0        0  1188000000          0     0  50000
+             clk_i2s3_2ch_rx          0        0        0  1188000000          0     0  50000
+                mclk_i2s3_2ch_rx       0        0        0  1188000000          0     0  50000
+                   clk_acdcdig_adc       0        0        0  1188000000          0     0  50000
+             clk_i2s3_2ch_rx_frac       0        0        0  1188000000          0     0  50000
+          clk_i2s2_2ch_src            0        0        0  1188000000          0     0  50000
+             clk_i2s2_2ch             0        0        0  1188000000          0     0  50000
+                mclk_i2s2_2ch         0        0        0  1188000000          0     0  50000
+             clk_i2s2_2ch_frac        0        0        0  1188000000          0     0  50000
+          clk_i2s1_8ch_rx_src         0        0        0  1188000000          0     0  50000
+             clk_i2s1_8ch_rx_frac       0        0        0    11289600          0     0  50000
+                clk_i2s1_8ch_rx       0        0        0    11289600          0     0  50000
+                   mclk_i2s1_8ch_rx       0        0        0    11289600          0     0  50000
+          clk_i2s1_8ch_tx_src         1        1        0  1188000000          0     0  50000
+             clk_i2s1_8ch_tx_frac       1        1        0    11289600          0     0  50000
+                clk_i2s1_8ch_tx       1        1        0    11289600          0     0  50000
+                   mclk_i2s1_8ch_tx       1        1        0    11289600          0     0  50000
+                      i2s1_mclkout_tx       1        1        0    11289600          0     0  50000
+                         i2s1_mclk_tx_ioe       0        0        0    11289600          0     0  50000
+                         i2s1_mclkout       3        3        0    11289600          0     0  50000
+          clk_i2s0_8ch_rx_src         0        0        0  1188000000          0     0  50000
+             clk_i2s0_8ch_rx          0        0        0  1188000000          0     0  50000
+                mclk_i2s0_8ch_rx       0        0        0  1188000000          0     0  50000
+             clk_i2s0_8ch_rx_frac       0        0        0  1188000000          0     0  50000
+          clk_i2s0_8ch_tx_src         0        0        0  1188000000          0     0  50000
+             clk_i2s0_8ch_tx_frac       0        0        0     5644800          0     0  50000
+                clk_i2s0_8ch_tx       0        0        0     5644800          0     0  50000
+                   mclk_i2s0_8ch_tx       0        0        0     5644800          0     0  50000
+          clk_can2                    0        0        0   297000000          0     0  50000
+          clk_can1                    0        0        0   297000000          0     0  50000
+          clk_can0                    0        0        0   297000000          0     0  50000
+          clk_uart9_src               0        0        0    99000000          0     0  50000
+             clk_uart9_frac           0        0        0    99000000          0     0  50000
+          clk_uart8_src               0        0        0    99000000          0     0  50000
+             clk_uart8_frac           0        0        0    99000000          0     0  50000
+          clk_uart7_src               0        0        0    99000000          0     0  50000
+             clk_uart7_frac           0        0        0    99000000          0     0  50000
+          clk_uart6_src               0        0        0    99000000          0     0  50000
+             clk_uart6_frac           0        0        0    99000000          0     0  50000
+          clk_uart5_src               0        0        0    99000000          0     0  50000
+             clk_uart5_frac           0        0        0    99000000          0     0  50000
+          clk_uart4_src               0        0        0    99000000          0     0  50000
+             clk_uart4_frac           0        0        0    99000000          0     0  50000
+          clk_uart3_src               0        0        0    99000000          0     0  50000
+             clk_uart3_frac           0        0        0    99000000          0     0  50000
+          clk_uart2_src               0        0        0    99000000          0     0  50000
+             clk_uart2_frac           0        0        0    99000000          0     0  50000
+          clk_uart1_src               0        0        0    99000000          0     0  50000
+             clk_uart1_frac           0        0        0    99000000          0     0  50000
+          clk_rkvdec_hevc_ca          0        1        0   297000000          0     0  50000
+          clk_rkvdec_core             0        1        0   297000000          0     0  50000
+          clk_rkvdec_ca               0        1        0   297000000          0     0  50000
+          aclk_rkvdec_pre             0        2        0   297000000          0     0  50000
+             aclk_rkvdec              0        3        0   297000000          0     0  50000
+             hclk_rkvdec_pre          0        2        0   148500000          0     0  50000
+                hclk_rkvdec           0        3        0   148500000          0     0  50000
+          clk_rkvenc_core             0        1        0   297000000          0     0  50000
+          aclk_rkvenc_pre             0        2        0   297000000          0     0  50000
+             aclk_rkvenc              0        3        0   297000000          0     0  50000
+             hclk_rkvenc_pre          0        2        0    99000000          0     0  50000
+                hclk_rkvenc           0        3        0    99000000          0     0  50000
+          aclk_vpu_pre                0        2        0   297000000          0     0  50000
+             aclk_vpu                 0        3        0   297000000          0     0  50000
+             hclk_vpu_pre             0        2        0   148500000          0     0  50000
+                hclk_vpu              0        3        0   148500000          0     0  50000
+          dclk_vop2                   0        1        0   297000000          0     0  50000
+          sclk_audpwm_src             0        0        0    99000000          0     0  50000
+             sclk_audpwm              0        0        0    99000000          0     0  50000
+             sclk_audpwm_frac         0        0        0    99000000          0     0  50000
+          gpll_20m                    1        1        0    19800000          0     0  50000
+             clk_sata2_pmalive        0        0        0    19800000          0     0  50000
+             clk_sata1_pmalive        0        0        0    19800000          0     0  50000
+             clk_sata0_pmalive        1        2        0    19800000          0     0  50000
+          gpll_75m                    0        0        0    74250000          0     0  50000
+          gpll_100m                   2        2        0    99000000          0     0  50000
+             pclk_top                 4        5        0    99000000          0     0  50000
+                pclk_edpphy_grf       0        1        0    99000000          0     0  50000
+                pclk_otpphy           0        0        0    99000000          0     0  50000
+                pclk_cpu_boost        0        0        0    99000000          0     0  50000
+                pclk_pipephy2         0        0        0    99000000          0     0  50000
+                pclk_pipephy1         1        1        0    99000000          0     0  50000
+                pclk_pipephy0         1        1        0    99000000          0     0  50000
+                pclk_mipidsiphy1       0        0        0    99000000          0     0  50000
+                pclk_mipidsiphy0       1        2        0    99000000          0     0  50000
+                pclk_mipicsiphy       0        0        0    99000000          0     0  50000
+                pclk_pcie30phy        0        0        0    99000000          0     0  50000
+             pclk_bus                11       16        0    99000000          0     0  50000
+                pclk_timer            1        1        0    99000000          0     0  50000
+                pclk_gpio4            1        1        0    99000000          0     0  50000
+                pclk_gpio3            1        1        0    99000000          0     0  50000
+                pclk_gpio2            1        1        0    99000000          0     0  50000
+                pclk_gpio1            1        1        0    99000000          0     0  50000
+                pclk_pwm3             0        0        0    99000000          0     0  50000
+                pclk_pwm2             0        0        0    99000000          0     0  50000
+                pclk_pwm1             1        2        0    99000000          0     0  50000
+                pclk_spi3             0        0        0    99000000          0     0  50000
+                pclk_spi2             0        0        0    99000000          0     0  50000
+                pclk_spi1             0        0        0    99000000          0     0  50000
+                pclk_spi0             0        0        0    99000000          0     0  50000
+                pclk_i2c5             0        1        0    99000000          0     0  50000
+                pclk_i2c4             0        1        0    99000000          0     0  50000
+                pclk_i2c3             0        1        0    99000000          0     0  50000
+                pclk_i2c2             0        1        0    99000000          0     0  50000
+                pclk_i2c1             0        1        0    99000000          0     0  50000
+                pclk_can2             0        0        0    99000000          0     0  50000
+                pclk_can1             0        0        0    99000000          0     0  50000
+                pclk_can0             0        0        0    99000000          0     0  50000
+                pclk_uart9            0        0        0    99000000          0     0  50000
+                pclk_uart8            0        0        0    99000000          0     0  50000
+                pclk_uart7            0        0        0    99000000          0     0  50000
+                pclk_uart6            0        0        0    99000000          0     0  50000
+                pclk_uart5            0        0        0    99000000          0     0  50000
+                pclk_uart4            0        0        0    99000000          0     0  50000
+                pclk_uart3            0        0        0    99000000          0     0  50000
+                pclk_uart2            1        1        0    99000000          0     0  50000
+                pclk_uart1            0        0        0    99000000          0     0  50000
+                pclk_mailbox          0        0        0    99000000          0     0  50000
+                pclk_intmux           0        0        0    99000000          0     0  50000
+                pclk_wdt_ns           1        1        0    99000000          0     0  50000
+                pclk_scr              0        0        0    99000000          0     0  50000
+                pclk_saradc           1        1        0    99000000          0     0  50000
+                pclk_tsadc            1        1        0    99000000          0     0  50000
+             sclk_sfc                 0        0        0    99000000          0     0  50000
+             dclk_sdmmc_buffer        0        0        0    99000000          0     0  50000
+          gpll_150m                   8        8        0   148500000          0     0  50000
+             hclk_top                 1        1        0   148500000          0     0  50000
+             aclk_bus                 1        3        0   148500000          0     0  50000
+                aclk_mcu              0        0        0   148500000          0     0  50000
+             hclk_perimid             1        1        0   148500000          0     0  50000
+             hclk_usb                 6        6        0   148500000          0     0  50000
+                hclk_sdmmc2           1        1        0   148500000          0     0  50000
+                hclk_usb2host1_arb       2        2        0   148500000          0     0  50000
+                hclk_usb2host1        2        2        0   148500000          0     0  50000
+                hclk_usb2host0_arb       2        2        0   148500000          0     0  50000
+                hclk_usb2host0        2        2        0   148500000          0     0  50000
+             hclk_php                 2        2        0   148500000          0     0  50000
+                hclk_sdmmc1           0        0        0   148500000          0     0  50000
+                hclk_sdmmc0           1        1        0   148500000          0     0  50000
+             nclk_nandc               0        0        0   148500000          0     0  50000
+             clk_crypto_ns_core       0        0        0   148500000          0     0  50000
+             hclk_secure_flash        2        2        0   148500000          0     0  50000
+                hclk_emmc             1        1        0   148500000          0     0  50000
+                hclk_sfc_xip          0        0        0   148500000          0     0  50000
+                hclk_sfc              0        0        0   148500000          0     0  50000
+                hclk_nandc            0        0        0   148500000          0     0  50000
+                pclk_otpc_ns          0        0        0   148500000          0     0  50000
+                clk_trng_ns           0        0        0   148500000          0     0  50000
+                hclk_trng_ns          0        0        0   148500000          0     0  50000
+                clk_crypto_ns_rng       0        0        0   148500000          0     0  50000
+                hclk_crypto_ns        0        0        0   148500000          0     0  50000
+             hclk_gic_audio           2        2        0   148500000          0     0  50000
+                hclk_acdcdig          0        0        0   148500000          0     0  50000
+                hclk_audpwm           0        0        0   148500000          0     0  50000
+                hclk_spdif_8ch        0        0        0   148500000          0     0  50000
+                hclk_vad              0        0        0   148500000          0     0  50000
+                hclk_pdm              0        0        0   148500000          0     0  50000
+                hclk_i2s3_2ch         0        0        0   148500000          0     0  50000
+                hclk_i2s2_2ch         0        0        0   148500000          0     0  50000
+                hclk_i2s1_8ch         1        1        0   148500000          0     0  50000
+                hclk_i2s0_8ch         1        1        0   148500000          0     0  50000
+                hclk_sdmmc_buffer       0        0        0   148500000          0     0  50000
+             aclk_core_niu2bus        1        1        0   148500000          0     0  50000
+          gpll_200m                   3        3        0   198000000          0     0  50000
+             cclk_emmc                1        1        0   198000000          0     0  50000
+                emmc_sample           0        0        0    99000000          0     0  50000
+                emmc_drv              0        0        0    99000000          0   180  50000
+             clk_spi3                 0        0        0   198000000          0     0  50000
+             clk_spi2                 0        0        0   198000000          0     0  50000
+             clk_spi1                 0        0        0   198000000          0     0  50000
+             clk_spi0                 0        0        0   198000000          0     0  50000
+             clk_edp_200m             0        0        0   198000000          0     0  50000
+             clk_xpcs_eee             0        0        0   198000000          0     0  50000
+             bclk_emmc                1        1        0   198000000          0     0  50000
+             aclk_secure_flash        2        2        0   198000000          0     0  50000
+                aclk_emmc             1        1        0   198000000          0     0  50000
+                aclk_crypto_ns        0        0        0   198000000          0     0  50000
+             clk_acdcdig_i2c          0        0        0   198000000          0     0  50000
+             aclk_gic_audio           0        0        0   198000000          0     0  50000
+                aclk_spinlock         0        0        0   198000000          0     0  50000
+                aclk_gic600           0        0        0   198000000          0     0  50000
+          gpll_300m                   4        7        0   297000000          0     0  50000
+             clk_iep_core             0        1        0   297000000          0     0  50000
+             clk_rga_core             0        1        0   297000000          0     0  50000
+             aclk_rga_pre             0        6        0   297000000          0     0  50000
+                aclk_jenc             0        3        0   297000000          0     0  50000
+                aclk_jdec             0        3        0   297000000          0     0  50000
+                aclk_iep              0        3        0   297000000          0     0  50000
+                aclk_rga              0        1        0   297000000          0     0  50000
+                pclk_rga_pre          0        1        0    99000000          0     0  50000
+                   pclk_eink          0        0        0    99000000          0     0  50000
+                hclk_rga_pre          0        5        0   148500000          0     0  50000
+                   hclk_eink          0        0        0   148500000          0     0  50000
+                   hclk_jenc          0        3        0   148500000          0     0  50000
+                   hclk_jdec          0        3        0   148500000          0     0  50000
+                   hclk_ebc           0        0        0   148500000          0     0  50000
+                   hclk_iep           0        3        0   148500000          0     0  50000
+                   hclk_rga           0        1        0   148500000          0     0  50000
+             aclk_vo                  2        2        0   297000000          0     0  50000
+                aclk_hdcp             0        0        0   297000000          0     0  50000
+                pclk_vo               2        3        0    74250000          0     0  50000
+                   pclk_edp_ctrl       0        0        0    74250000          0     0  50000
+                   pclk_dsitx_1       0        0        0    74250000          0     0  50000
+                   pclk_dsitx_0       1        3        0    74250000          0     0  50000
+                   pclk_hdmi_host       1        2        0    74250000          0     0  50000
+                   pclk_hdcp          0        0        0    74250000          0     0  50000
+                hclk_vo               2        4        0   148500000          0     0  50000
+                   hclk_hdcp          0        0        0   148500000          0     0  50000
+                   hclk_vop           2        5        0   148500000          0     0  50000
+             aclk_perimid             1        1        0   297000000          0     0  50000
+             aclk_usb                 2        2        0   297000000          0     0  50000
+                aclk_gmac1            1        1        0   297000000          0     0  50000
+                pclk_usb              6        6        0    99000000          0     0  50000
+                   pclk_gmac1         2        2        0    99000000          0     0  50000
+             aclk_php                 2        2        0   297000000          0     0  50000
+                aclk_gmac0            1        1        0   297000000          0     0  50000
+                pclk_php              2        2        0    99000000          0     0  50000
+                   pclk_gmac0         2        2        0    99000000          0     0  50000
+             clk_crypto_ns_pka        0        0        0   297000000          0     0  50000
+             mclk_pdm                 0        0        0   297000000          0     0  50000
+          gpll_400m                   3        4        0   396000000          0     0  50000
+             clk_sdmmc2               1        1        0   396000000          0     0  50000
+                sdmmc2_sample         0        0        0   198000000          0     0  50000
+                sdmmc2_drv            0        0        0   198000000          0   180  50000
+             aclk_pipe                4        4        0   396000000          0     0  50000
+                aclk_usb3otg1         1        1        0   396000000          0     0  50000
+                aclk_usb3otg0         1        1        0   396000000          0     0  50000
+                aclk_sata2            0        0        0   396000000          0     0  50000
+                aclk_sata1            0        0        0   396000000          0     0  50000
+                aclk_sata0            1        2        0   396000000          0     0  50000
+                aclk_pcie30x2_dbi       0        0        0   396000000          0     0  50000
+                aclk_pcie30x2_slv       0        0        0   396000000          0     0  50000
+                aclk_pcie30x2_mst       0        0        0   396000000          0     0  50000
+                aclk_pcie30x1_dbi       0        0        0   396000000          0     0  50000
+                aclk_pcie30x1_slv       0        0        0   396000000          0     0  50000
+                aclk_pcie30x1_mst       0        0        0   396000000          0     0  50000
+                aclk_pcie20_dbi       0        0        0   396000000          0     0  50000
+                aclk_pcie20_slv       0        0        0   396000000          0     0  50000
+                aclk_pcie20_mst       0        0        0   396000000          0     0  50000
+                pclk_pipe             4        5        0    99000000          0     0  50000
+                   pclk_xpcs          0        0        0    99000000          0     0  50000
+                   pclk_pcie30x2       0        0        0    99000000          0     0  50000
+                   pclk_pcie30x1       0        0        0    99000000          0     0  50000
+                   pclk_pcie20        0        0        0    99000000          0     0  50000
+             aclk_top_low             1        1        0   396000000          0     0  50000
+             dclk_ebc                 0        0        0   396000000          0     0  50000
+             aclk_vi                  0        3        0   396000000          0     0  50000
+                aclk_isp              0        3        0   396000000          0     0  50000
+                aclk_vicap            0        0        0   396000000          0     0  50000
+                pclk_vi               0        1        0    99000000          0     0  50000
+                   pclk_csi2host1       0        0        0    99000000          0     0  50000
+                hclk_vi               0        2        0   198000000          0     0  50000
+                   hclk_isp           0        3        0   198000000          0     0  50000
+                   hclk_vicap         0        0        0   198000000          0     0  50000
+    pll_dpll                          0        0        0   390000000          0     0  50000
+       dpll                           0        0        0   390000000          0     0  50000
+          clk_ddrphy1x_src            0        0        0   390000000          0     0  50000
+             clk_ddr1x                0        0        0   390000000          0     0  50000
+                clk_msch              0        0        0   390000000          0     0  50000
+    pll_apll                          1        1        0  1992000000          0     0  50000
+       apll                           2        2        0  1992000000          0     0  50000
+          sclk_core_src               2        2        0  1992000000          0     0  50000
+             sclk_core                2        2        0  1992000000          0     0  50000
+                aclk_core             1        1        0   996000000          0     0  50000
+          armclk                      4        4        0  1992000000          0     0  50000
+             clk_core_pvtpll          0        0        0  1992000000          0     0  50000
+             clk_core_pvtm_core       0        0        0  1992000000          0     0  50000
+             periphclk_core_pre       3        3        0   284571429          0     0  50000
+                cntclk_core           1        1        0   142285715          0     0  50000
+                tsclk_core            1        1        0   142285715          0     0  50000
+             pclk_core_pre            1        1        0   284571429          0     0  50000
+                pclk_core_pvtm        0        0        0   284571429          0     0  50000
+             gicclk_core              1        1        0   284571429          0     0  50000
+             atclk_core               1        1        0   284571429          0     0  50000
+    xin_osc0_edpphy_g                 0        0        0    24000000          0     0  50000
+    clk_pciephy2_osc0                 0        0        0    24000000          0     0  50000
+    clk_pciephy1_osc0                 0        0        0    24000000          0     0  50000
+    clk_pciephy0_osc0                 0        0        0    24000000          0     0  50000
+    clk_wifi_osc0                     0        0        0    24000000          0     0  50000
+       clk_wifi                       0        0        0    24000000          0     0  50000
+    xin_osc0_mipidsiphy1_g            0        0        0    24000000          0     0  50000
+       clk_mipidsiphy1_ref            0        0        0    24000000          0     0  50000
+    xin_osc0_mipidsiphy0_g            1        1        0    24000000          0     0  50000
+       clk_mipidsiphy0_ref            1        2        0    24000000          0     0  50000
+    xin_osc0_usbphy1_g                1        1        0    24000000          0     0  50000
+       clk_usbphy1_ref                2        2        0    24000000          0     0  50000
+          clk_usbphy_480m             5        5        0   480000000          0     0  50000
+    xin_osc0_usbphy0_g                1        1        0    24000000          0     0  50000
+       clk_usbphy0_ref                2        2        0    24000000          0     0  50000
+          usb480m_phy                 2        2        0   480000000          0     0  50000
+             usb480m                  0        0        0   480000000          0     0  50000
+    clk_core_pmupvtm                  0        0        0    24000000          0     0  50000
+    clk_pmupvtm                       0        0        0    24000000          0     0  50000
+    clk_capture_pwm0_ndft             0        0        0    24000000          0     0  50000
+    clk_pwm0                          0        1        0    12000000          0     0  50000
+    dbclk_gpio0                       1        1        0    24000000          0     0  50000
+    sclk_uart0_mux                    0        0        0    24000000          0     0  50000
+       sclk_uart0                     0        0        0    24000000          0     0  50000
+    xin_osc0_div                      0        0        0    24000000          0     0  50000
+    clk_rtc32k_frac                   1        1        0       32768          0     0  50000
+       clk_rtc_32k                    1        1        0       32768          0     0  50000
+          clk_hdmi_cec                1        2        0       32768          0     0  50000
+          clk_32k_ioe                 0        0        0       32768          0     0  50000
+    clk_pmu                           1        1        0    24000000          0     0  50000
+    pll_hpll                          0        0        0   594000000          0     0  50000
+    hpll                              1        3        0    24000000          0     0  50000
+       dclk_vop0                      0        1        0    24000000          0     0  50000
+       clk_hdmi_ref                   0        0        0    24000000          0     0  50000
+       hpll_ph0                       0        0        0    12000000          0     0  50000
+    pll_ppll                          1        1        0   200000000          0     0  50000
+       ppll                           2        2        0   200000000          0     0  50000
+          sclk_uart0_div              0        0        0   200000000          0     0  50000
+             sclk_uart0_frac          0        0        0   200000000          0     0  50000
+          clk_pdpmu                   1        2        0   200000000          0     0  50000
+             clk_wifi_div             0        0        0    33333334          0     0  50000
+             clk_ref24m               0        0        0    20000000          0     0  50000
+             clk_i2c0                 0        1        0   100000000          0     0  50000
+             pclk_pdpmu               3        5        0   100000000          0     0  50000
+                pclk_pmupvtm          0        0        0   100000000          0     0  50000
+                pclk_pwm0             0        1        0   100000000          0     0  50000
+                pclk_gpio0            1        1        0   100000000          0     0  50000
+                pclk_uart0            0        0        0   100000000          0     0  50000
+                pclk_i2c0             0        1        0   100000000          0     0  50000
+                pclk_pmu              1        1        0   100000000          0     0  50000
+          ppll_ph180                  0        0        0   100000000          0     0  50000
+             clk_pcie30phy_ref_n       0        0        0   100000000          0     0  50000
+          ppll_ph0                    2        2        0   100000000          0     0  50000
+             clk_pcie30phy_ref_m       0        0        0   100000000          0     0  50000
+             clk_pciephy2_div         0        0        0   100000000          0     0  50000
+                clk_pciephy2_ref       0        0        0   100000000          0     0  50000
+             clk_pciephy1_div         1        1        0   100000000          0     0  50000
+                clk_pciephy1_ref       1        1        0   100000000          0     0  50000
+             clk_pciephy0_div         1        1        0   100000000          0     0  50000
+                clk_pciephy0_ref       1        1        0   100000000          0     0  50000
+ mpll                                 0        0        0   800000000          0     0  50000
+ i2s3_mclkin                          0        0        0    12288000          0     0  50000
+    i2s3_mclk_ioe                     0        0        0    12288000          0     0  50000
+ i2s2_mclkin                          0        0        0    12288000          0     0  50000
+    i2s2_mclk_ioe                     0        0        0    12288000          0     0  50000
+ i2s1_mclkin_tx                       0        0        0    12288000          0     0  50000
+ i2s1_mclkin_rx                       0        0        0    12288000          0     0  50000
+    i2s1_mclk_rx_ioe                  0        0        0    12288000          0     0  50000
+ clk_gmac1_xpcs_mii                   0        0        0   125000000          0     0  50000
+ clk_gmac0_xpcs_mii                   0        0        0   125000000          0     0  50000
+ gmac1_clkin                          0        0        0   125000000          0     0  50000
+ gmac0_clkin                          0        0        0   125000000          0     0  50000
+ iclk_vicap_g                         0        0        0           0          0     0  50000
+domain                          status          children
+    /device                                             runtime status
+----------------------------------------------------------------------
+pipe                            on              
+    /devices/platform/fc000000.sata                     active
+    /devices/platform/usbdrd/fcc00000.dwc3              active
+    /devices/platform/usbhost/fd000000.dwc3             active
+rkvenc                          off-0           
+    /devices/platform/fdf40f00.iommu                    suspended
+    /devices/platform/fdf40000.rkvenc                   suspended
+rkvdec                          off-0           
+    /devices/platform/fdf80800.iommu                    suspended
+    /devices/platform/fdf80200.rkvdec                   suspended
+vpu                             off-0           
+    /devices/platform/fdea0800.iommu                    suspended
+    /devices/platform/fdea0400.vdpu                     suspended
+rga                             off-0           
+    /devices/platform/fded0480.iommu                    suspended
+    /devices/platform/fdee0800.iommu                    suspended
+    /devices/platform/fdef0800.iommu                    suspended
+    /devices/platform/fdee0000.vepu                     suspended
+    /devices/platform/fdef0000.iep                      suspended
+    /devices/platform/fded0000.jpegd                    suspended
+    /devices/platform/fdeb0000.rk_rga                   suspended
+vo                              on              
+    /devices/platform/fe850000.phy                      active
+    /devices/platform/fe040000.vop                      active
+    /devices/platform/fe0a0000.hdmi                     active
+    /devices/platform/fe060000.dsi                      active
+vi                              off-0           
+    /devices/platform/fdff1a00.iommu                    suspended
+    /devices/platform/fdff0000.rkisp                    suspended
+gpu                             off-0           
+    /devices/platform/fde60000.gpu                      suspended
+npu                             off-0           
+    /devices/platform/fde4b000.iommu                    suspended
+    /devices/platform/fde40000.npu                      suspended
+name		active_count	event_count	wakeup_count	expire_count	active_since	total_time	max_time	last_change	prevent_suspend_time
+skwifi_cmd  	699		699		0		0		0		1349		55		1724824		0
+skw_sdio_r_wakelock	0		0		0		0		0		0		0		0		0
+gpu         	158		158		0		0		0		119380		8531		1700596		0
+fdf80200.rkvdec	0		0		0		0		0		0		0		0		0
+fdf40000.rkvenc	0		0		0		0		0		0		0		0		0
+5-1         	0		0		0		0		0		0		0		0		0
+fdeb0000.rk_rga	0		0		0		0		0		0		0		0		0
+rfkill_rk_irq_wl	0		0		0		0		0		0		0		0		0
+rfkill_wlan_wake	0		0		0		0		0		0		0		0		0
+mmc0        	0		0		0		0		0		0		0		0		0
+mmc1        	0		0		0		0		0		0		0		0		0
+mmc3        	0		0		0		0		0		0		0		0		0
+fcc00000.dwc3	0		0		0		0		0		0		0		0		0
+alarmtimer.1.auto	0		0		0		0		0		0		0		0		0
+rk808-rtc   	187		187		0		0		0		433		11		1727663		0
+rk805-pwrkey	0		0		0		0		0		0		0		0		0
+0-0020      	0		0		0		0		0		0		0		0		0
+rockchip_pwm_remote	0		0		0		0		0		0		0		0		0
+fe6e0030.pwm	0		0		0		0		0		0		0		0		0
+fded0000.jpegd	0		0		0		0		0		0		0		0		0
+fdef0000.iep	0		0		0		0		0		0		0		0		0
+fdee0000.vepu	0		0		0		0		0		0		0		0		0
+fdea0400.vdpu	0		0		0		0		0		0		0		0		0
+rockchip_otg	1		1		0		0		1725256		1725256		1725256		2416		0
+serial-debug	1		1		0		0		0		506		506		1546		0
+deleted     	0		0		0		0		0		0		0		0		0
+
+Dma-buf Objects:
+size    	flags   	mode    	count   	exp_name	ino     
+00004096	00000000	00080005	00000006	rockchipdrm	00000750	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000722	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000720	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000718	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000716	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000148	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000146	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000144	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000142	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000136	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000135	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000134	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000133	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000132	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000131	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000130	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000129	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000128	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000127	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000126	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00004096	00000000	00080005	00000006	rockchipdrm	00000125	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+00643072	00000000	00080005	00000006	rockchipdrm	00000002	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+	fde60000.gpu
+Total 2 devices attached
+
+04096000	00000000	00080005	00000004	rockchipdrm	00000001	872-Xorg
+	Attached Devices:
+	fde60000.gpu
+Total 1 devices attached
+
+
+Total 23 objects, 4825088 bytes
+
+
+[collector exit_code=0; error=; seconds=0.039]

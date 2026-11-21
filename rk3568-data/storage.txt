@@ -1,0 +1,84 @@
+$ lsblk -b -O; blkid; df -hT; cat /proc/partitions; cat /proc/mtd; ls -l /dev/disk/by-*
+
+NAME         KNAME        PATH              MAJ:MIN     FSAVAIL      FSSIZE FSTYPE     FSUSED FSUSE% MOUNTPOINT LABEL UUID                                 PTUUID                               PTTYPE PARTTYPE                             PARTLABEL PARTUUID                             PARTFLAGS  RA RO RM HOTPLUG MODEL SERIAL            SIZE STATE OWNER GROUP MODE       ALIGNMENT MIN-IO OPT-IO PHY-SEC LOG-SEC ROTA SCHED       RQ-SIZE TYPE DISC-ALN DISC-GRAN  DISC-MAX DISC-ZERO WSAME WWN RAND PKNAME  HCTL TRAN SUBSYSTEMS                   REV VENDOR ZONED
+mmcblk0      mmcblk0      /dev/mmcblk0      179:0                                                                                                          0a620000-0000-4a2c-8000-66d200006d1d gpt                                                                                                  128  0  0       1       0x55551211 31268536320       root  disk  brw-rw----         0    512      0     512     512    0 mq-deadline     128 disk        0   4194304 116391936         0     0        0                   block:mmc:mmc_host:platform  0x8        none
+├─mmcblk0p1  mmcblk0p1    /dev/mmcblk0p1    179:1                                                                                                          0a620000-0000-4a2c-8000-66d200006d1d gpt    90000000-0000-4122-8000-087500003cee uboot     e5620000-0000-446d-8000-0ff800004595           128  0  0       1                      4194304       root  disk  brw-rw----         0    512      0     512     512    0 mq-deadline     128 part        0   4194304 116391936         0     0        0 mmcblk0           block:mmc:mmc_host:platform             none
+├─mmcblk0p2  mmcblk0p2    /dev/mmcblk0p2    179:2                                                                                                          0a620000-0000-4a2c-8000-66d200006d1d gpt    fa4c0000-0000-4651-8000-3dea000057f1 misc      ff330000-0000-461b-8000-721e00003325           128  0  0       1                      4194304       root  disk  brw-rw----         0    512      0     512     512    0 mq-deadline     128 part        0   4194304 116391936         0     0        0 mmcblk0           block:mmc:mmc_host:platform             none
+├─mmcblk0p3  mmcblk0p3    /dev/mmcblk0p3    179:3                                                                                                          0a620000-0000-4a2c-8000-66d200006d1d gpt    65140000-0000-4670-8000-78a400005692 boot      de3e0000-0000-471e-8000-58cd000050d8           128  0  0       1                     67108864       root  disk  brw-rw----         0    512      0     512     512    0 mq-deadline     128 part        0   4194304 116391936         0     0        0 mmcblk0           block:mmc:mmc_host:platform             none
+├─mmcblk0p4  mmcblk0p4    /dev/mmcblk0p4    179:4                                                                                                          0a620000-0000-4a2c-8000-66d200006d1d gpt    5b260000-0000-4a6a-8000-272a000012d8 recovery  0c340000-0000-4f61-8000-548b00003ab3           128  0  0       1                    134217728       root  disk  brw-rw----         0    512      0     512     512    0 mq-deadline     128 part        0   4194304 116391936         0     0        0 mmcblk0           block:mmc:mmc_host:platform             none
+├─mmcblk0p5  mmcblk0p5    /dev/mmcblk0p5    179:5                                                                                                          0a620000-0000-4a2c-8000-66d200006d1d gpt    63140000-0000-492b-8000-7c03000069cb backup    11080000-0000-4755-8000-38e3000010c0           128  0  0       1                     33554432       root  disk  brw-rw----         0    512      0     512     512    0 mq-deadline     128 part        0   4194304 116391936         0     0        0 mmcblk0           block:mmc:mmc_host:platform             none
+└─mmcblk0p6  mmcblk0p6    /dev/mmcblk0p6    179:6   25227649024 30454521856 ext4   3935268864    13% /                9c7696c6-d295-4021-935f-1c94754f3f7b 0a620000-0000-4a2c-8000-66d200006d1d gpt    06330000-0000-4b25-8000-6eba00003f73 rootfs    614e0000-0000-4b53-8000-1d28000054a9           128  0  0       1                  31016861184       root  disk  brw-rw----         0    512      0     512     512    0 mq-deadline     128 part        0   4194304 116391936         0     0        0 mmcblk0           block:mmc:mmc_host:platform             none
+mmcblk0boot0 mmcblk0boot0 /dev/mmcblk0boot0 179:32                                                                                                         0a620000-0000-4a2c-8000-66d200006d1d gpt                                                                                                  128  1  0       1                      4194304       root  disk  brw-rw----         0    512      0     512     512    0 mq-deadline     128 disk        0   4194304 116391936         0     0        0                   block:mmc:mmc_host:platform             none
+mmcblk0boot1 mmcblk0boot1 /dev/mmcblk0boot1 179:64                                                                                                         0a620000-0000-4a2c-8000-66d200006d1d gpt                                                                                                  128  1  0       1                      4194304       root  disk  brw-rw----         0    512      0     512     512    0 mq-deadline     128 disk        0   4194304 116391936         0     0        0                   block:mmc:mmc_host:platform             none
+/dev/mmcblk0p1: PARTLABEL="uboot" PARTUUID="e5620000-0000-446d-8000-0ff800004595"
+/dev/mmcblk0p2: PARTLABEL="misc" PARTUUID="ff330000-0000-461b-8000-721e00003325"
+/dev/mmcblk0p3: PARTLABEL="boot" PARTUUID="de3e0000-0000-471e-8000-58cd000050d8"
+/dev/mmcblk0p4: PARTLABEL="recovery" PARTUUID="0c340000-0000-4f61-8000-548b00003ab3"
+/dev/mmcblk0p5: PARTLABEL="backup" PARTUUID="11080000-0000-4755-8000-38e3000010c0"
+/dev/mmcblk0p6: UUID="9c7696c6-d295-4021-935f-1c94754f3f7b" TYPE="ext4" PARTLABEL="rootfs" PARTUUID="614e0000-0000-4b53-8000-1d28000054a9"
+Filesystem     Type      Size  Used Avail Use% Mounted on
+/dev/root      ext4       29G  3.7G   24G  14% /
+devtmpfs       devtmpfs  1.9G  8.0K  1.9G   1% /dev
+tmpfs          tmpfs     2.0G     0  2.0G   0% /dev/shm
+tmpfs          tmpfs     391M  1.1M  390M   1% /run
+tmpfs          tmpfs     5.0M     0  5.0M   0% /run/lock
+tmpfs          tmpfs     2.0G     0  2.0G   0% /sys/fs/cgroup
+tmpfs          tmpfs     391M   12K  391M   1% /run/user/1001
+tmpfs          tmpfs     391M     0  391M   0% /run/user/0
+major minor  #blocks  name
+
+   1        0       4096 ram0
+ 179        0   30535680 mmcblk0
+ 179        1       4096 mmcblk0p1
+ 179        2       4096 mmcblk0p2
+ 179        3      65536 mmcblk0p3
+ 179        4     131072 mmcblk0p4
+ 179        5      32768 mmcblk0p5
+ 179        6   30289903 mmcblk0p6
+dev:    size   erasesize  name
+/dev/disk/by-id:
+total 0
+lrwxrwxrwx 1 root root 13 Nov 21 12:39 mmc-BJTD4R_0x55551211 -> ../../mmcblk0
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 mmc-BJTD4R_0x55551211-part1 -> ../../mmcblk0p1
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 mmc-BJTD4R_0x55551211-part2 -> ../../mmcblk0p2
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 mmc-BJTD4R_0x55551211-part3 -> ../../mmcblk0p3
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 mmc-BJTD4R_0x55551211-part4 -> ../../mmcblk0p4
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 mmc-BJTD4R_0x55551211-part5 -> ../../mmcblk0p5
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 mmc-BJTD4R_0x55551211-part6 -> ../../mmcblk0p6
+
+/dev/disk/by-partlabel:
+total 0
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 backup -> ../../mmcblk0p5
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 boot -> ../../mmcblk0p3
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 misc -> ../../mmcblk0p2
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 recovery -> ../../mmcblk0p4
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 rootfs -> ../../mmcblk0p6
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 uboot -> ../../mmcblk0p1
+
+/dev/disk/by-partuuid:
+total 0
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 0c340000-0000-4f61-8000-548b00003ab3 -> ../../mmcblk0p4
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 11080000-0000-4755-8000-38e3000010c0 -> ../../mmcblk0p5
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 614e0000-0000-4b53-8000-1d28000054a9 -> ../../mmcblk0p6
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 de3e0000-0000-471e-8000-58cd000050d8 -> ../../mmcblk0p3
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 e5620000-0000-446d-8000-0ff800004595 -> ../../mmcblk0p1
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 ff330000-0000-461b-8000-721e00003325 -> ../../mmcblk0p2
+
+/dev/disk/by-path:
+total 0
+lrwxrwxrwx 1 root root 13 Nov 21 12:39 platform-fe310000.sdhci -> ../../mmcblk0
+lrwxrwxrwx 1 root root 18 Nov 21 12:39 platform-fe310000.sdhci-boot0 -> ../../mmcblk0boot0
+lrwxrwxrwx 1 root root 18 Nov 21 12:39 platform-fe310000.sdhci-boot1 -> ../../mmcblk0boot1
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 platform-fe310000.sdhci-part1 -> ../../mmcblk0p1
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 platform-fe310000.sdhci-part2 -> ../../mmcblk0p2
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 platform-fe310000.sdhci-part3 -> ../../mmcblk0p3
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 platform-fe310000.sdhci-part4 -> ../../mmcblk0p4
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 platform-fe310000.sdhci-part5 -> ../../mmcblk0p5
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 platform-fe310000.sdhci-part6 -> ../../mmcblk0p6
+
+/dev/disk/by-uuid:
+total 0
+lrwxrwxrwx 1 root root 15 Nov 21 12:39 9c7696c6-d295-4021-935f-1c94754f3f7b -> ../../mmcblk0p6
+
+
+[collector exit_code=0; error=; seconds=0.102]

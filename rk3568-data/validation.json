@@ -1,0 +1,4681 @@
+{
+  "collected_at": "2026-11-21T05:08:21.777867+00:00",
+  "fdt_bytes": 118784,
+  "fdt_version": 17,
+  "fdt_nodes": 763,
+  "live_nodes": 763,
+  "fdt_properties": 3775,
+  "live_properties": 4538,
+  "property_encoding_roundtrip": "all properties preserved",
+  "fdt_live_differences": [
+    {
+      "path": "/",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "00"
+    },
+    {
+      "path": "/adc-keys",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6164632d6b65797300"
+    },
+    {
+      "path": "/adc-keys/vol-up-key",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "766f6c2d75702d6b657900"
+    },
+    {
+      "path": "/aliases",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "616c696173657300"
+    },
+    {
+      "path": "/arm-pmu",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "61726d2d706d7500"
+    },
+    {
+      "path": "/audiopwmout-diff",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "617564696f70776d6f75742d6469666600"
+    },
+    {
+      "path": "/audiopwmout-diff/simple-audio-card,codec",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73696d706c652d617564696f2d636172642c636f64656300"
+    },
+    {
+      "path": "/audiopwmout-diff/simple-audio-card,cpu",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73696d706c652d617564696f2d636172642c63707500"
+    },
+    {
+      "path": "/audpwm@fe470000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "61756470776d00"
+    },
+    {
+      "path": "/backlight-dsi0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6261636b6c696768742d6473693000"
+    },
+    {
+      "path": "/bus-npu",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6275732d6e707500"
+    },
+    {
+      "path": "/bus-npu-opp-table",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6275732d6e70752d6f70702d7461626c6500"
+    },
+    {
+      "path": "/bus-npu-opp-table/opp-1000000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d3130303030303030303000"
+    },
+    {
+      "path": "/bus-npu-opp-table/opp-700000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d37303030303030303000"
+    },
+    {
+      "path": "/bus-npu-opp-table/opp-900000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d39303030303030303000"
+    },
+    {
+      "path": "/can@fe570000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63616e00"
+    },
+    {
+      "path": "/can@fe580000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63616e00"
+    },
+    {
+      "path": "/can@fe590000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63616e00"
+    },
+    {
+      "path": "/chosen",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63686f73656e00"
+    },
+    {
+      "path": "/clock-controller@fdd00000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "636c6f636b2d636f6e74726f6c6c657200"
+    },
+    {
+      "path": "/clock-controller@fdd20000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "636c6f636b2d636f6e74726f6c6c657200"
+    },
+    {
+      "path": "/codec-digital@fe478000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "636f6465632d6469676974616c00"
+    },
+    {
+      "path": "/cpu0-opp-table",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "637075302d6f70702d7461626c6500"
+    },
+    {
+      "path": "/cpu0-opp-table/opp-1104000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d3131303430303030303000"
+    },
+    {
+      "path": "/cpu0-opp-table/opp-1416000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d3134313630303030303000"
+    },
+    {
+      "path": "/cpu0-opp-table/opp-1608000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d3136303830303030303000"
+    },
+    {
+      "path": "/cpu0-opp-table/opp-1800000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d3138303030303030303000"
+    },
+    {
+      "path": "/cpu0-opp-table/opp-1992000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d3139393230303030303000"
+    },
+    {
+      "path": "/cpu0-opp-table/opp-408000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d34303830303030303000"
+    },
+    {
+      "path": "/cpu0-opp-table/opp-600000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d36303030303030303000"
+    },
+    {
+      "path": "/cpu0-opp-table/opp-816000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d38313630303030303000"
+    },
+    {
+      "path": "/cpu0-opp-table/opp-j-1008000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d6a2d3130303830303030303000"
+    },
+    {
+      "path": "/cpu0-opp-table/opp-j-1416000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d6a2d3134313630303030303000"
+    },
+    {
+      "path": "/cpu0-opp-table/opp-m-1608000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d6d2d3136303830303030303000"
+    },
+    {
+      "path": "/cpuinfo",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "637075696e666f00"
+    },
+    {
+      "path": "/cpus",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6370757300"
+    },
+    {
+      "path": "/cpus/cpu@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63707500"
+    },
+    {
+      "path": "/cpus/cpu@100",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63707500"
+    },
+    {
+      "path": "/cpus/cpu@200",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63707500"
+    },
+    {
+      "path": "/cpus/cpu@300",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63707500"
+    },
+    {
+      "path": "/cpus/idle-states",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69646c652d73746174657300"
+    },
+    {
+      "path": "/cpus/idle-states/cpu-sleep",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6370752d736c65657000"
+    },
+    {
+      "path": "/crypto@fe380000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63727970746f00"
+    },
+    {
+      "path": "/csi2-dphy-hw@fe870000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "637369322d647068792d687700"
+    },
+    {
+      "path": "/csi2-dphy0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "637369322d647068793000"
+    },
+    {
+      "path": "/csi2-dphy0/ports",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f72747300"
+    },
+    {
+      "path": "/csi2-dphy0/ports/port@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/csi2-dphy0/ports/port@0/endpoint@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/csi2-dphy0/ports/port@0/endpoint@2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/csi2-dphy0/ports/port@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/csi2-dphy0/ports/port@1/endpoint@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/csi2-dphy1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "637369322d647068793100"
+    },
+    {
+      "path": "/csi2-dphy2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "637369322d647068793200"
+    },
+    {
+      "path": "/cspmu@fd90c000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6373706d7500"
+    },
+    {
+      "path": "/dc-12v",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "64632d31327600"
+    },
+    {
+      "path": "/ddr3-params",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "646472332d706172616d7300"
+    },
+    {
+      "path": "/ddr4-params",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "646472342d706172616d7300"
+    },
+    {
+      "path": "/debug@fd904000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "646562756700"
+    },
+    {
+      "path": "/dfi@fe230000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "64666900"
+    },
+    {
+      "path": "/display-subsystem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "646973706c61792d73756273797374656d00"
+    },
+    {
+      "path": "/display-subsystem/route",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726f75746500"
+    },
+    {
+      "path": "/display-subsystem/route/route-dsi0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726f7574652d6473693000"
+    },
+    {
+      "path": "/display-subsystem/route/route-dsi1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726f7574652d6473693100"
+    },
+    {
+      "path": "/display-subsystem/route/route-edp",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726f7574652d65647000"
+    },
+    {
+      "path": "/display-subsystem/route/route-hdmi",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726f7574652d68646d6900"
+    },
+    {
+      "path": "/display-subsystem/route/route-lvds",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726f7574652d6c76647300"
+    },
+    {
+      "path": "/display-subsystem/route/route-lvds1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726f7574652d6c7664733100"
+    },
+    {
+      "path": "/display-subsystem/route/route-rgb",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726f7574652d72676200"
+    },
+    {
+      "path": "/dmac@fe530000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "646d616300"
+    },
+    {
+      "path": "/dmac@fe550000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "646d616300"
+    },
+    {
+      "path": "/dmc",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "646d6300"
+    },
+    {
+      "path": "/dmc-fsp",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "646d632d66737000"
+    },
+    {
+      "path": "/dmc-opp-table",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "646d632d6f70702d7461626c6500"
+    },
+    {
+      "path": "/dmc-opp-table/opp-1560000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d3135363030303030303000"
+    },
+    {
+      "path": "/dmc-opp-table/opp-j-m-1560000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d6a2d6d2d3135363030303030303000"
+    },
+    {
+      "path": "/dsi@fe060000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "64736900"
+    },
+    {
+      "path": "/dsi@fe060000/panel@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70616e656c00"
+    },
+    {
+      "path": "/dsi@fe060000/panel@0/display-timings",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "646973706c61792d74696d696e677300"
+    },
+    {
+      "path": "/dsi@fe060000/panel@0/display-timings/timing0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "74696d696e673000"
+    },
+    {
+      "path": "/dsi@fe060000/panel@0/ports",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f72747300"
+    },
+    {
+      "path": "/dsi@fe060000/panel@0/ports/port@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/dsi@fe060000/panel@0/ports/port@0/endpoint",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/dsi@fe060000/ports",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f72747300"
+    },
+    {
+      "path": "/dsi@fe060000/ports/port@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/dsi@fe060000/ports/port@0/endpoint@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/dsi@fe060000/ports/port@0/endpoint@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/dsi@fe060000/ports/port@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/dsi@fe060000/ports/port@1/endpoint",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/dsi@fe070000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "64736900"
+    },
+    {
+      "path": "/dsi@fe070000/ports",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f72747300"
+    },
+    {
+      "path": "/dsi@fe070000/ports/port@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/dsi@fe070000/ports/port@0/endpoint@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/dsi@fe070000/ports/port@0/endpoint@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/dummy-codec",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "64756d6d792d636f64656300"
+    },
+    {
+      "path": "/dwmmc@fe000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "64776d6d6300"
+    },
+    {
+      "path": "/dwmmc@fe2b0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "64776d6d6300"
+    },
+    {
+      "path": "/dwmmc@fe2c0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "64776d6d6300"
+    },
+    {
+      "path": "/ebc@fdec0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "65626300"
+    },
+    {
+      "path": "/edac",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6564616300"
+    },
+    {
+      "path": "/edp@fe0c0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "65647000"
+    },
+    {
+      "path": "/edp@fe0c0000/ports",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f72747300"
+    },
+    {
+      "path": "/edp@fe0c0000/ports/port@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/edp@fe0c0000/ports/port@0/endpoint@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/edp@fe0c0000/ports/port@0/endpoint@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/eink@fdf00000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "65696e6b00"
+    },
+    {
+      "path": "/ethernet@fe010000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "65746865726e657400"
+    },
+    {
+      "path": "/ethernet@fe010000/mdio",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d64696f00"
+    },
+    {
+      "path": "/ethernet@fe010000/mdio/phy@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70687900"
+    },
+    {
+      "path": "/ethernet@fe010000/rx-queues-config",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "72782d7175657565732d636f6e66696700"
+    },
+    {
+      "path": "/ethernet@fe010000/rx-queues-config/queue0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "71756575653000"
+    },
+    {
+      "path": "/ethernet@fe010000/stmmac-axi-config",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73746d6d61632d6178692d636f6e66696700"
+    },
+    {
+      "path": "/ethernet@fe010000/tx-queues-config",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "74782d7175657565732d636f6e66696700"
+    },
+    {
+      "path": "/ethernet@fe010000/tx-queues-config/queue0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "71756575653000"
+    },
+    {
+      "path": "/ethernet@fe2a0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "65746865726e657400"
+    },
+    {
+      "path": "/ethernet@fe2a0000/mdio",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d64696f00"
+    },
+    {
+      "path": "/ethernet@fe2a0000/mdio/phy@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70687900"
+    },
+    {
+      "path": "/ethernet@fe2a0000/rx-queues-config",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "72782d7175657565732d636f6e66696700"
+    },
+    {
+      "path": "/ethernet@fe2a0000/rx-queues-config/queue0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "71756575653000"
+    },
+    {
+      "path": "/ethernet@fe2a0000/stmmac-axi-config",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73746d6d61632d6178692d636f6e66696700"
+    },
+    {
+      "path": "/ethernet@fe2a0000/tx-queues-config",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "74782d7175657565732d636f6e66696700"
+    },
+    {
+      "path": "/ethernet@fe2a0000/tx-queues-config/queue0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "71756575653000"
+    },
+    {
+      "path": "/external-camera-25m-clock",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "65787465726e616c2d63616d6572612d32356d2d636c6f636b00"
+    },
+    {
+      "path": "/external-gmac0-clock",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "65787465726e616c2d676d6163302d636c6f636b00"
+    },
+    {
+      "path": "/external-gmac1-clock",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "65787465726e616c2d676d6163312d636c6f636b00"
+    },
+    {
+      "path": "/fiq-debugger",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6669712d646562756767657200"
+    },
+    {
+      "path": "/firmware",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6669726d7761726500"
+    },
+    {
+      "path": "/firmware/scmi",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73636d6900"
+    },
+    {
+      "path": "/firmware/scmi/protocol@14",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70726f746f636f6c00"
+    },
+    {
+      "path": "/firmware/sdei",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7364656900"
+    },
+    {
+      "path": "/gpio-regulator",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f2d726567756c61746f7200"
+    },
+    {
+      "path": "/gpu@fde60000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "67707500"
+    },
+    {
+      "path": "/gpu@fde60000/power-model",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f7765722d6d6f64656c00"
+    },
+    {
+      "path": "/hdmi-sound",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "68646d692d736f756e6400"
+    },
+    {
+      "path": "/hdmi-sound/simple-audio-card,codec",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73696d706c652d617564696f2d636172642c636f64656300"
+    },
+    {
+      "path": "/hdmi-sound/simple-audio-card,cpu",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73696d706c652d617564696f2d636172642c63707500"
+    },
+    {
+      "path": "/hdmi@fe0a0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "68646d6900"
+    },
+    {
+      "path": "/hdmi@fe0a0000/ports",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f72747300"
+    },
+    {
+      "path": "/hdmi@fe0a0000/ports/port@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/hdmi@fe0a0000/ports/port@0/endpoint@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/hdmi@fe0a0000/ports/port@0/endpoint@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/i2c@fdd40000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69326300"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706d696300"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/codec",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "636f64656300"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/pinctrl_rk8xx",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70696e6374726c5f726b38787800"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/pinctrl_rk8xx/rk817_slppin_null",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b3831375f736c7070696e5f6e756c6c00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/pinctrl_rk8xx/rk817_slppin_pwrdn",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b3831375f736c7070696e5f707772646e00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/pinctrl_rk8xx/rk817_slppin_rst",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b3831375f736c7070696e5f72737400"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/pinctrl_rk8xx/rk817_slppin_slp",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b3831375f736c7070696e5f736c7000"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/pwrkey",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7077726b657900"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f727300"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/DCDC_REG1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "444344435f5245473100"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/DCDC_REG1/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/DCDC_REG2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "444344435f5245473200"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/DCDC_REG2/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/DCDC_REG3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "444344435f5245473300"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/DCDC_REG3/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/DCDC_REG4",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "444344435f5245473400"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/DCDC_REG4/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/DCDC_REG5",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "444344435f5245473500"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/DCDC_REG5/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "4c444f5f5245473100"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG1/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "4c444f5f5245473200"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG2/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "4c444f5f5245473300"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG3/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG4",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "4c444f5f5245473400"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG4/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG5",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "4c444f5f5245473500"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG5/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG6",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "4c444f5f5245473600"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG6/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG7",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "4c444f5f5245473700"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG7/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG8",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "4c444f5f5245473800"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG8/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG9",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "4c444f5f5245473900"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/LDO_REG9/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/SWITCH_REG1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "5357495443485f5245473100"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/SWITCH_REG1/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/SWITCH_REG2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "5357495443485f5245473200"
+    },
+    {
+      "path": "/i2c@fdd40000/pmic@20/regulators/SWITCH_REG2/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fdd40000/tcs4525@1c",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7463733435323500"
+    },
+    {
+      "path": "/i2c@fdd40000/tcs4525@1c/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/i2c@fe5a0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69326300"
+    },
+    {
+      "path": "/i2c@fe5a0000/gt9xx@5d",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "677439787800"
+    },
+    {
+      "path": "/i2c@fe5b0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69326300"
+    },
+    {
+      "path": "/i2c@fe5c0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69326300"
+    },
+    {
+      "path": "/i2c@fe5d0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69326300"
+    },
+    {
+      "path": "/i2c@fe5d0000/gc5035@37",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "67633530333500"
+    },
+    {
+      "path": "/i2c@fe5d0000/gc5035@37/port",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/i2c@fe5d0000/gc5035@37/port/endpoint",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/i2c@fe5d0000/ov5647@36",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f763536343700"
+    },
+    {
+      "path": "/i2c@fe5d0000/ov5647@36/port",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/i2c@fe5d0000/ov5647@36/port/endpoint",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/i2c@fe5e0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69326300"
+    },
+    {
+      "path": "/i2c@fe5e0000/hym8563@51",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "68796d3835363300"
+    },
+    {
+      "path": "/i2s1-mclkin-rx",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273312d6d636c6b696e2d727800"
+    },
+    {
+      "path": "/i2s1-mclkin-tx",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273312d6d636c6b696e2d747800"
+    },
+    {
+      "path": "/i2s2-mclkin",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273322d6d636c6b696e00"
+    },
+    {
+      "path": "/i2s3-mclkin",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273332d6d636c6b696e00"
+    },
+    {
+      "path": "/i2s@fe400000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69327300"
+    },
+    {
+      "path": "/i2s@fe410000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69327300"
+    },
+    {
+      "path": "/i2s@fe420000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69327300"
+    },
+    {
+      "path": "/i2s@fe430000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69327300"
+    },
+    {
+      "path": "/iep@fdef0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69657000"
+    },
+    {
+      "path": "/interrupt-controller@fd400000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696e746572727570742d636f6e74726f6c6c657200"
+    },
+    {
+      "path": "/interrupt-controller@fd400000/interrupt-controller@fd440000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696e746572727570742d636f6e74726f6c6c657200"
+    },
+    {
+      "path": "/iommu@fde4b000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696f6d6d7500"
+    },
+    {
+      "path": "/iommu@fdea0800",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696f6d6d7500"
+    },
+    {
+      "path": "/iommu@fded0480",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696f6d6d7500"
+    },
+    {
+      "path": "/iommu@fdee0800",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696f6d6d7500"
+    },
+    {
+      "path": "/iommu@fdef0800",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696f6d6d7500"
+    },
+    {
+      "path": "/iommu@fdf40f00",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696f6d6d7500"
+    },
+    {
+      "path": "/iommu@fdf80800",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696f6d6d7500"
+    },
+    {
+      "path": "/iommu@fdfe0800",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696f6d6d7500"
+    },
+    {
+      "path": "/iommu@fdff1a00",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696f6d6d7500"
+    },
+    {
+      "path": "/iommu@fe043e00",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696f6d6d7500"
+    },
+    {
+      "path": "/jpegd@fded0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6a7065676400"
+    },
+    {
+      "path": "/leds",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6c65647300"
+    },
+    {
+      "path": "/leds/fan",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "66616e00"
+    },
+    {
+      "path": "/leds/gpio1a4",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f31613400"
+    },
+    {
+      "path": "/leds/gpio1b0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f31623000"
+    },
+    {
+      "path": "/leds/gpio1b1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f31623100"
+    },
+    {
+      "path": "/leds/gpio1b2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f31623200"
+    },
+    {
+      "path": "/leds/gpio1d0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f31643000"
+    },
+    {
+      "path": "/leds/gpio1d4",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f31643400"
+    },
+    {
+      "path": "/leds/gpio3b5",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f33623500"
+    },
+    {
+      "path": "/leds/gpio3b6",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f33623600"
+    },
+    {
+      "path": "/leds/gpio4c4",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f34633400"
+    },
+    {
+      "path": "/leds/gpio4c6",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f34633600"
+    },
+    {
+      "path": "/leds/work-led",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "776f726b2d6c656400"
+    },
+    {
+      "path": "/lpddr3-params",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6c70646472332d706172616d7300"
+    },
+    {
+      "path": "/lpddr4-params",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6c70646472342d706172616d7300"
+    },
+    {
+      "path": "/lpddr4x-params",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6c7064647234782d706172616d7300"
+    },
+    {
+      "path": "/mailbox@fe780000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d61696c626f7800"
+    },
+    {
+      "path": "/memory",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d656d6f727900"
+    },
+    {
+      "path": "/minipcie-regulator",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d696e69706369652d726567756c61746f7200"
+    },
+    {
+      "path": "/mipi-csi2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d6970692d6373693200"
+    },
+    {
+      "path": "/mipi-csi2-hw@fdfb0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d6970692d637369322d687700"
+    },
+    {
+      "path": "/mpll",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d706c6c00"
+    },
+    {
+      "path": "/mpp-srv",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d70702d73727600"
+    },
+    {
+      "path": "/nandc@fe330000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e616e646300"
+    },
+    {
+      "path": "/nandc@fe330000/nand@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e616e6400"
+    },
+    {
+      "path": "/nocp-cpu@fe102000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e6f63702d63707500"
+    },
+    {
+      "path": "/nocp-gpu-vpu-rga-venc@fe102400",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e6f63702d6770752d7670752d7267612d76656e6300"
+    },
+    {
+      "path": "/nocp-vdec@fe102800",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e6f63702d7664656300"
+    },
+    {
+      "path": "/nocp-vi-usb-peri-pipe@fe102c00",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e6f63702d76692d7573622d706572692d7069706500"
+    },
+    {
+      "path": "/nocp-vo@fe103000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e6f63702d766f00"
+    },
+    {
+      "path": "/npu-opp-table",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e70752d6f70702d7461626c6500"
+    },
+    {
+      "path": "/npu-opp-table/opp-1000000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d3130303030303030303000"
+    },
+    {
+      "path": "/npu-opp-table/opp-200000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d32303030303030303000"
+    },
+    {
+      "path": "/npu-opp-table/opp-300000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d33303030303030303000"
+    },
+    {
+      "path": "/npu-opp-table/opp-400000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d34303030303030303000"
+    },
+    {
+      "path": "/npu-opp-table/opp-600000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d36303030303030303000"
+    },
+    {
+      "path": "/npu-opp-table/opp-700000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d37303030303030303000"
+    },
+    {
+      "path": "/npu-opp-table/opp-800000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d38303030303030303000"
+    },
+    {
+      "path": "/npu-opp-table/opp-900000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d39303030303030303000"
+    },
+    {
+      "path": "/npu-opp-table/opp-j-600000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d6a2d36303030303030303000"
+    },
+    {
+      "path": "/npu-opp-table/opp-m-900000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d6d2d39303030303030303000"
+    },
+    {
+      "path": "/npu@fde40000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e707500"
+    },
+    {
+      "path": "/opp-table2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d7461626c653200"
+    },
+    {
+      "path": "/opp-table2/opp-200000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d32303030303030303000"
+    },
+    {
+      "path": "/opp-table2/opp-300000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d33303030303030303000"
+    },
+    {
+      "path": "/opp-table2/opp-400000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d34303030303030303000"
+    },
+    {
+      "path": "/opp-table2/opp-600000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d36303030303030303000"
+    },
+    {
+      "path": "/opp-table2/opp-700000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d37303030303030303000"
+    },
+    {
+      "path": "/opp-table2/opp-800000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d38303030303030303000"
+    },
+    {
+      "path": "/opp-table2/opp-j-600000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d6a2d36303030303030303000"
+    },
+    {
+      "path": "/opp-table2/opp-m-800000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d6d2d38303030303030303000"
+    },
+    {
+      "path": "/otp@fe38c000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f747000"
+    },
+    {
+      "path": "/otp@fe38c000/core-pvtm@2a",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "636f72652d7076746d00"
+    },
+    {
+      "path": "/otp@fe38c000/cpu-code@2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6370752d636f646500"
+    },
+    {
+      "path": "/otp@fe38c000/cpu-leakage@1a",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6370752d6c65616b61676500"
+    },
+    {
+      "path": "/otp@fe38c000/cpu-opp-info@36",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6370752d6f70702d696e666f00"
+    },
+    {
+      "path": "/otp@fe38c000/cpu-tsadc-trim-h@2f",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6370752d74736164632d7472696d2d6800"
+    },
+    {
+      "path": "/otp@fe38c000/cpu-tsadc-trim-l@2e",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6370752d74736164632d7472696d2d6c00"
+    },
+    {
+      "path": "/otp@fe38c000/cpu-version@8",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6370752d76657273696f6e00"
+    },
+    {
+      "path": "/otp@fe38c000/dmc-opp-info@48",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "646d632d6f70702d696e666f00"
+    },
+    {
+      "path": "/otp@fe38c000/gpu-leakage@1d",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770752d6c65616b61676500"
+    },
+    {
+      "path": "/otp@fe38c000/gpu-opp-info@3c",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770752d6f70702d696e666f00"
+    },
+    {
+      "path": "/otp@fe38c000/id@a",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696400"
+    },
+    {
+      "path": "/otp@fe38c000/log-leakage@1b",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6c6f672d6c65616b61676500"
+    },
+    {
+      "path": "/otp@fe38c000/mbist-vmin@9",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d626973742d766d696e00"
+    },
+    {
+      "path": "/otp@fe38c000/npu-leakage@1c",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e70752d6c65616b61676500"
+    },
+    {
+      "path": "/otp@fe38c000/npu-opp-info@42",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e70752d6f70702d696e666f00"
+    },
+    {
+      "path": "/otp@fe38c000/npu-tsadc-trim-h@31",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e70752d74736164632d7472696d2d6800"
+    },
+    {
+      "path": "/otp@fe38c000/npu-tsadc-trim-l@30",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e70752d74736164632d7472696d2d6c00"
+    },
+    {
+      "path": "/otp@fe38c000/remark-spec-serial-number@56",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "72656d61726b2d737065632d73657269616c2d6e756d62657200"
+    },
+    {
+      "path": "/otp@fe38c000/specification-serial-number@7",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73706563696669636174696f6e2d73657269616c2d6e756d62657200"
+    },
+    {
+      "path": "/otp@fe38c000/tsadc-trim-base-frac@31",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "74736164632d7472696d2d626173652d6672616300"
+    },
+    {
+      "path": "/otp@fe38c000/tsadc-trim-base@32",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "74736164632d7472696d2d6261736500"
+    },
+    {
+      "path": "/pcie3-regulator",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70636965332d726567756c61746f7200"
+    },
+    {
+      "path": "/pcie30-avdd0v9",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7063696533302d6176646430763900"
+    },
+    {
+      "path": "/pcie30-avdd1v8",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7063696533302d6176646431763800"
+    },
+    {
+      "path": "/pcie@fe260000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7063696500"
+    },
+    {
+      "path": "/pcie@fe260000/legacy-interrupt-controller",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6c65676163792d696e746572727570742d636f6e74726f6c6c657200"
+    },
+    {
+      "path": "/pcie@fe270000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7063696500"
+    },
+    {
+      "path": "/pcie@fe270000/legacy-interrupt-controller",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6c65676163792d696e746572727570742d636f6e74726f6c6c657200"
+    },
+    {
+      "path": "/pcie@fe280000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7063696500"
+    },
+    {
+      "path": "/pcie@fe280000/legacy-interrupt-controller",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6c65676163792d696e746572727570742d636f6e74726f6c6c657200"
+    },
+    {
+      "path": "/pdm-mic-array",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70646d2d6d69632d617272617900"
+    },
+    {
+      "path": "/pdm-mic-array/simple-audio-card,codec",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73696d706c652d617564696f2d636172642c636f64656300"
+    },
+    {
+      "path": "/pdm-mic-array/simple-audio-card,cpu",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73696d706c652d617564696f2d636172642c63707500"
+    },
+    {
+      "path": "/pdm@fe440000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70646d00"
+    },
+    {
+      "path": "/phy@fe820000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70687900"
+    },
+    {
+      "path": "/phy@fe830000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70687900"
+    },
+    {
+      "path": "/phy@fe840000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70687900"
+    },
+    {
+      "path": "/phy@fe850000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70687900"
+    },
+    {
+      "path": "/phy@fe860000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70687900"
+    },
+    {
+      "path": "/phy@fe8c0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70687900"
+    },
+    {
+      "path": "/pinctrl",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70696e6374726c00"
+    },
+    {
+      "path": "/pinctrl/acodec",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "61636f64656300"
+    },
+    {
+      "path": "/pinctrl/acodec/acodec-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "61636f6465632d70696e7300"
+    },
+    {
+      "path": "/pinctrl/audiopwm",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "617564696f70776d00"
+    },
+    {
+      "path": "/pinctrl/bt1120",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "62743131323000"
+    },
+    {
+      "path": "/pinctrl/bt656",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "627436353600"
+    },
+    {
+      "path": "/pinctrl/cam",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63616d00"
+    },
+    {
+      "path": "/pinctrl/cam/camera-pwr",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63616d6572612d70777200"
+    },
+    {
+      "path": "/pinctrl/can0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63616e3000"
+    },
+    {
+      "path": "/pinctrl/can0/can0m1-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63616e306d312d70696e7300"
+    },
+    {
+      "path": "/pinctrl/can1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63616e3100"
+    },
+    {
+      "path": "/pinctrl/can1/can1m1-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63616e316d312d70696e7300"
+    },
+    {
+      "path": "/pinctrl/can2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63616e3200"
+    },
+    {
+      "path": "/pinctrl/can2/can2m1-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63616e326d312d70696e7300"
+    },
+    {
+      "path": "/pinctrl/cif",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63696600"
+    },
+    {
+      "path": "/pinctrl/cif/cif-clk",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6369662d636c6b00"
+    },
+    {
+      "path": "/pinctrl/clk32k",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "636c6b33326b00"
+    },
+    {
+      "path": "/pinctrl/clk32k/clk32k-out0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "636c6b33326b2d6f75743000"
+    },
+    {
+      "path": "/pinctrl/cpu",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "63707500"
+    },
+    {
+      "path": "/pinctrl/ebc",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "65626300"
+    },
+    {
+      "path": "/pinctrl/ebc/ebc-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6562632d70696e7300"
+    },
+    {
+      "path": "/pinctrl/edpdp",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656470647000"
+    },
+    {
+      "path": "/pinctrl/emmc",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656d6d6300"
+    },
+    {
+      "path": "/pinctrl/eth0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6574683000"
+    },
+    {
+      "path": "/pinctrl/eth1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6574683100"
+    },
+    {
+      "path": "/pinctrl/flash",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "666c61736800"
+    },
+    {
+      "path": "/pinctrl/fspi",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6673706900"
+    },
+    {
+      "path": "/pinctrl/gmac-txc-level2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d61632d7478632d6c6576656c3200"
+    },
+    {
+      "path": "/pinctrl/gmac-txd-level3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d61632d7478642d6c6576656c3300"
+    },
+    {
+      "path": "/pinctrl/gmac0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d61633000"
+    },
+    {
+      "path": "/pinctrl/gmac0/gmac0-miim",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d6163302d6d69696d00"
+    },
+    {
+      "path": "/pinctrl/gmac0/gmac0-rgmii-bus",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d6163302d72676d69692d62757300"
+    },
+    {
+      "path": "/pinctrl/gmac0/gmac0-rgmii-clk",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d6163302d72676d69692d636c6b00"
+    },
+    {
+      "path": "/pinctrl/gmac0/gmac0-rx-bus2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d6163302d72782d6275733200"
+    },
+    {
+      "path": "/pinctrl/gmac0/gmac0-tx-bus2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d6163302d74782d6275733200"
+    },
+    {
+      "path": "/pinctrl/gmac1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d61633100"
+    },
+    {
+      "path": "/pinctrl/gmac1/gmac1m1-miim",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d6163316d312d6d69696d00"
+    },
+    {
+      "path": "/pinctrl/gmac1/gmac1m1-rgmii-bus",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d6163316d312d72676d69692d62757300"
+    },
+    {
+      "path": "/pinctrl/gmac1/gmac1m1-rgmii-clk",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d6163316d312d72676d69692d636c6b00"
+    },
+    {
+      "path": "/pinctrl/gmac1/gmac1m1-rx-bus2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d6163316d312d72782d6275733200"
+    },
+    {
+      "path": "/pinctrl/gmac1/gmac1m1-tx-bus2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "676d6163316d312d74782d6275733200"
+    },
+    {
+      "path": "/pinctrl/gpio-func",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f2d66756e6300"
+    },
+    {
+      "path": "/pinctrl/gpio-func/tsadc-gpio-func",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "74736164632d6770696f2d66756e6300"
+    },
+    {
+      "path": "/pinctrl/gpio0@fdd60000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f3000"
+    },
+    {
+      "path": "/pinctrl/gpio1@fe740000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f3100"
+    },
+    {
+      "path": "/pinctrl/gpio2@fe750000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f3200"
+    },
+    {
+      "path": "/pinctrl/gpio3@fe760000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f3300"
+    },
+    {
+      "path": "/pinctrl/gpio4@fe770000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770696f3400"
+    },
+    {
+      "path": "/pinctrl/gpu",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "67707500"
+    },
+    {
+      "path": "/pinctrl/hdmitx",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "68646d69747800"
+    },
+    {
+      "path": "/pinctrl/hdmitx/hdmitx-scl",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "68646d6974782d73636c00"
+    },
+    {
+      "path": "/pinctrl/hdmitx/hdmitx-sda",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "68646d6974782d73646100"
+    },
+    {
+      "path": "/pinctrl/hdmitx/hdmitxm0-cec",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "68646d6974786d302d63656300"
+    },
+    {
+      "path": "/pinctrl/headphone",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6865616470686f6e6500"
+    },
+    {
+      "path": "/pinctrl/headphone/hp-det",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "68702d64657400"
+    },
+    {
+      "path": "/pinctrl/i2c0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6932633000"
+    },
+    {
+      "path": "/pinctrl/i2c0/i2c0-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693263302d7866657200"
+    },
+    {
+      "path": "/pinctrl/i2c1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6932633100"
+    },
+    {
+      "path": "/pinctrl/i2c1/i2c1-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693263312d7866657200"
+    },
+    {
+      "path": "/pinctrl/i2c2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6932633200"
+    },
+    {
+      "path": "/pinctrl/i2c2/i2c2m1-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693263326d312d7866657200"
+    },
+    {
+      "path": "/pinctrl/i2c3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6932633300"
+    },
+    {
+      "path": "/pinctrl/i2c3/i2c3m0-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693263336d302d7866657200"
+    },
+    {
+      "path": "/pinctrl/i2c4",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6932633400"
+    },
+    {
+      "path": "/pinctrl/i2c4/i2c4m0-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693263346d302d7866657200"
+    },
+    {
+      "path": "/pinctrl/i2c5",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6932633500"
+    },
+    {
+      "path": "/pinctrl/i2c5/i2c5m0-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693263356d302d7866657200"
+    },
+    {
+      "path": "/pinctrl/i2s1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6932733100"
+    },
+    {
+      "path": "/pinctrl/i2s1/i2s1m0-lrcktx",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273316d302d6c72636b747800"
+    },
+    {
+      "path": "/pinctrl/i2s1/i2s1m0-mclk",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273316d302d6d636c6b00"
+    },
+    {
+      "path": "/pinctrl/i2s1/i2s1m0-sclktx",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273316d302d73636c6b747800"
+    },
+    {
+      "path": "/pinctrl/i2s1/i2s1m0-sdi0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273316d302d7364693000"
+    },
+    {
+      "path": "/pinctrl/i2s1/i2s1m0-sdo0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273316d302d73646f3000"
+    },
+    {
+      "path": "/pinctrl/i2s2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6932733200"
+    },
+    {
+      "path": "/pinctrl/i2s2/i2s2m0-lrcktx",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273326d302d6c72636b747800"
+    },
+    {
+      "path": "/pinctrl/i2s2/i2s2m0-sclktx",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273326d302d73636c6b747800"
+    },
+    {
+      "path": "/pinctrl/i2s2/i2s2m0-sdi",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273326d302d73646900"
+    },
+    {
+      "path": "/pinctrl/i2s2/i2s2m0-sdo",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273326d302d73646f00"
+    },
+    {
+      "path": "/pinctrl/i2s3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6932733300"
+    },
+    {
+      "path": "/pinctrl/i2s3/i2s3m0-lrck",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273336d302d6c72636b00"
+    },
+    {
+      "path": "/pinctrl/i2s3/i2s3m0-sclk",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273336d302d73636c6b00"
+    },
+    {
+      "path": "/pinctrl/i2s3/i2s3m0-sdi",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273336d302d73646900"
+    },
+    {
+      "path": "/pinctrl/i2s3/i2s3m0-sdo",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "693273336d302d73646f00"
+    },
+    {
+      "path": "/pinctrl/isp",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69737000"
+    },
+    {
+      "path": "/pinctrl/jtag",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6a74616700"
+    },
+    {
+      "path": "/pinctrl/lcdc",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6c63646300"
+    },
+    {
+      "path": "/pinctrl/lcdc/lcdc-ctl",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6c6364632d63746c00"
+    },
+    {
+      "path": "/pinctrl/mcu",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d637500"
+    },
+    {
+      "path": "/pinctrl/minipcie",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d696e697063696500"
+    },
+    {
+      "path": "/pinctrl/minipcie/minipcie-power-en",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d696e69706369652d706f7765722d656e00"
+    },
+    {
+      "path": "/pinctrl/npu",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6e707500"
+    },
+    {
+      "path": "/pinctrl/pcfg-output-low",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706366672d6f75747075742d6c6f7700"
+    },
+    {
+      "path": "/pinctrl/pcfg-pull-down",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706366672d70756c6c2d646f776e00"
+    },
+    {
+      "path": "/pinctrl/pcfg-pull-none",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706366672d70756c6c2d6e6f6e6500"
+    },
+    {
+      "path": "/pinctrl/pcfg-pull-none-drv-level-1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706366672d70756c6c2d6e6f6e652d6472762d6c6576656c2d3100"
+    },
+    {
+      "path": "/pinctrl/pcfg-pull-none-drv-level-2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706366672d70756c6c2d6e6f6e652d6472762d6c6576656c2d3200"
+    },
+    {
+      "path": "/pinctrl/pcfg-pull-none-drv-level-3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706366672d70756c6c2d6e6f6e652d6472762d6c6576656c2d3300"
+    },
+    {
+      "path": "/pinctrl/pcfg-pull-none-smt",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706366672d70756c6c2d6e6f6e652d736d7400"
+    },
+    {
+      "path": "/pinctrl/pcfg-pull-up",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706366672d70756c6c2d757000"
+    },
+    {
+      "path": "/pinctrl/pcfg-pull-up-drv-level-1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706366672d70756c6c2d75702d6472762d6c6576656c2d3100"
+    },
+    {
+      "path": "/pinctrl/pcfg-pull-up-drv-level-2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706366672d70756c6c2d75702d6472762d6c6576656c2d3200"
+    },
+    {
+      "path": "/pinctrl/pcie20",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70636965323000"
+    },
+    {
+      "path": "/pinctrl/pcie3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706369653300"
+    },
+    {
+      "path": "/pinctrl/pcie3/pcie3-power-en",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70636965332d706f7765722d656e00"
+    },
+    {
+      "path": "/pinctrl/pcie30x1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706369653330783100"
+    },
+    {
+      "path": "/pinctrl/pcie30x2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706369653330783200"
+    },
+    {
+      "path": "/pinctrl/pdm",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70646d00"
+    },
+    {
+      "path": "/pinctrl/pdm/pdmm0-clk",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70646d6d302d636c6b00"
+    },
+    {
+      "path": "/pinctrl/pdm/pdmm0-clk1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70646d6d302d636c6b3100"
+    },
+    {
+      "path": "/pinctrl/pdm/pdmm0-sdi0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70646d6d302d7364693000"
+    },
+    {
+      "path": "/pinctrl/pdm/pdmm0-sdi1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70646d6d302d7364693100"
+    },
+    {
+      "path": "/pinctrl/pdm/pdmm0-sdi2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70646d6d302d7364693200"
+    },
+    {
+      "path": "/pinctrl/pdm/pdmm0-sdi3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70646d6d302d7364693300"
+    },
+    {
+      "path": "/pinctrl/pmic",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706d696300"
+    },
+    {
+      "path": "/pinctrl/pmic/pmic_int",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706d69635f696e7400"
+    },
+    {
+      "path": "/pinctrl/pmic/soc_slppin_gpio",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "736f635f736c7070696e5f6770696f00"
+    },
+    {
+      "path": "/pinctrl/pmic/soc_slppin_rst",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "736f635f736c7070696e5f72737400"
+    },
+    {
+      "path": "/pinctrl/pmic/soc_slppin_slp",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "736f635f736c7070696e5f736c7000"
+    },
+    {
+      "path": "/pinctrl/pmu",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706d7500"
+    },
+    {
+      "path": "/pinctrl/pwm0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d3000"
+    },
+    {
+      "path": "/pinctrl/pwm0/pwm0m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d306d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d3100"
+    },
+    {
+      "path": "/pinctrl/pwm1/pwm1m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d316d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm10",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d313000"
+    },
+    {
+      "path": "/pinctrl/pwm10/pwm10m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d31306d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm11",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d313100"
+    },
+    {
+      "path": "/pinctrl/pwm11/pwm11m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d31316d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm12",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d313200"
+    },
+    {
+      "path": "/pinctrl/pwm12/pwm12m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d31326d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm13",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d313300"
+    },
+    {
+      "path": "/pinctrl/pwm13/pwm13m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d31336d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm14",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d313400"
+    },
+    {
+      "path": "/pinctrl/pwm14/pwm14m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d31346d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm15",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d313500"
+    },
+    {
+      "path": "/pinctrl/pwm15/pwm15m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d31356d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d3200"
+    },
+    {
+      "path": "/pinctrl/pwm2/pwm2m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d326d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d3300"
+    },
+    {
+      "path": "/pinctrl/pwm3/pwm3-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d332d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm4",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d3400"
+    },
+    {
+      "path": "/pinctrl/pwm4/pwm4-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d342d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm5",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d3500"
+    },
+    {
+      "path": "/pinctrl/pwm5/pwm5-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d352d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm6",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d3600"
+    },
+    {
+      "path": "/pinctrl/pwm6/pwm6-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d362d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm7",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d3700"
+    },
+    {
+      "path": "/pinctrl/pwm7/pwm7-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d372d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm8",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d3800"
+    },
+    {
+      "path": "/pinctrl/pwm8/pwm8m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d386d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/pwm9",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d3900"
+    },
+    {
+      "path": "/pinctrl/pwm9/pwm9m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d396d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/refclk",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726566636c6b00"
+    },
+    {
+      "path": "/pinctrl/sata",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7361746100"
+    },
+    {
+      "path": "/pinctrl/sata0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "736174613000"
+    },
+    {
+      "path": "/pinctrl/sata1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "736174613100"
+    },
+    {
+      "path": "/pinctrl/sata2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "736174613200"
+    },
+    {
+      "path": "/pinctrl/scr",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73637200"
+    },
+    {
+      "path": "/pinctrl/scr/scr-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7363722d70696e7300"
+    },
+    {
+      "path": "/pinctrl/sdio-pwrseq",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7364696f2d70777273657100"
+    },
+    {
+      "path": "/pinctrl/sdio-pwrseq/wifi-enable-h",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "776966692d656e61626c652d6800"
+    },
+    {
+      "path": "/pinctrl/sdmmc0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73646d6d633000"
+    },
+    {
+      "path": "/pinctrl/sdmmc0/sdmmc0-bus4",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73646d6d63302d6275733400"
+    },
+    {
+      "path": "/pinctrl/sdmmc0/sdmmc0-clk",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73646d6d63302d636c6b00"
+    },
+    {
+      "path": "/pinctrl/sdmmc0/sdmmc0-cmd",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73646d6d63302d636d6400"
+    },
+    {
+      "path": "/pinctrl/sdmmc0/sdmmc0-det",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73646d6d63302d64657400"
+    },
+    {
+      "path": "/pinctrl/sdmmc1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73646d6d633100"
+    },
+    {
+      "path": "/pinctrl/sdmmc2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73646d6d633200"
+    },
+    {
+      "path": "/pinctrl/sdmmc2/sdmmc2m0-bus4",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73646d6d63326d302d6275733400"
+    },
+    {
+      "path": "/pinctrl/sdmmc2/sdmmc2m0-clk",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73646d6d63326d302d636c6b00"
+    },
+    {
+      "path": "/pinctrl/sdmmc2/sdmmc2m0-cmd",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73646d6d63326d302d636d6400"
+    },
+    {
+      "path": "/pinctrl/spdif",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737064696600"
+    },
+    {
+      "path": "/pinctrl/spdif/spdifm0-tx",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73706469666d302d747800"
+    },
+    {
+      "path": "/pinctrl/spi0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7370693000"
+    },
+    {
+      "path": "/pinctrl/spi0-hs",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069302d687300"
+    },
+    {
+      "path": "/pinctrl/spi0-hs/spi0m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069306d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/spi0/spi0m0-cs0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069306d302d63733000"
+    },
+    {
+      "path": "/pinctrl/spi0/spi0m0-cs1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069306d302d63733100"
+    },
+    {
+      "path": "/pinctrl/spi0/spi0m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069306d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/spi1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7370693100"
+    },
+    {
+      "path": "/pinctrl/spi1-hs",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069312d687300"
+    },
+    {
+      "path": "/pinctrl/spi1-hs/spi1m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069316d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/spi1/spi1m0-cs0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069316d302d63733000"
+    },
+    {
+      "path": "/pinctrl/spi1/spi1m0-cs1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069316d302d63733100"
+    },
+    {
+      "path": "/pinctrl/spi1/spi1m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069316d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/spi2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7370693200"
+    },
+    {
+      "path": "/pinctrl/spi2-hs",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069322d687300"
+    },
+    {
+      "path": "/pinctrl/spi2-hs/spi2m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069326d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/spi2/spi2m0-cs0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069326d302d63733000"
+    },
+    {
+      "path": "/pinctrl/spi2/spi2m0-cs1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069326d302d63733100"
+    },
+    {
+      "path": "/pinctrl/spi2/spi2m0-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069326d302d70696e7300"
+    },
+    {
+      "path": "/pinctrl/spi3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7370693300"
+    },
+    {
+      "path": "/pinctrl/spi3-hs",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069332d687300"
+    },
+    {
+      "path": "/pinctrl/spi3-hs/spi3m1-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069336d312d70696e7300"
+    },
+    {
+      "path": "/pinctrl/spi3/spi3m1-pins",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737069336d312d70696e7300"
+    },
+    {
+      "path": "/pinctrl/touch1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "746f7563683100"
+    },
+    {
+      "path": "/pinctrl/touch1/touch-gpio",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "746f7563682d6770696f00"
+    },
+    {
+      "path": "/pinctrl/tsadc",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "747361646300"
+    },
+    {
+      "path": "/pinctrl/tsadc/tsadc-shutorg",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "74736164632d736875746f726700"
+    },
+    {
+      "path": "/pinctrl/uart0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "756172743000"
+    },
+    {
+      "path": "/pinctrl/uart0/uart0-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75617274302d7866657200"
+    },
+    {
+      "path": "/pinctrl/uart1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "756172743100"
+    },
+    {
+      "path": "/pinctrl/uart1/uart1m0-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75617274316d302d7866657200"
+    },
+    {
+      "path": "/pinctrl/uart2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "756172743200"
+    },
+    {
+      "path": "/pinctrl/uart2/uart2m0-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75617274326d302d7866657200"
+    },
+    {
+      "path": "/pinctrl/uart3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "756172743300"
+    },
+    {
+      "path": "/pinctrl/uart3/uart3m1-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75617274336d312d7866657200"
+    },
+    {
+      "path": "/pinctrl/uart4",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "756172743400"
+    },
+    {
+      "path": "/pinctrl/uart4/uart4m1-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75617274346d312d7866657200"
+    },
+    {
+      "path": "/pinctrl/uart5",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "756172743500"
+    },
+    {
+      "path": "/pinctrl/uart5/uart5m0-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75617274356d302d7866657200"
+    },
+    {
+      "path": "/pinctrl/uart6",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "756172743600"
+    },
+    {
+      "path": "/pinctrl/uart6/uart6m0-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75617274366d302d7866657200"
+    },
+    {
+      "path": "/pinctrl/uart7",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "756172743700"
+    },
+    {
+      "path": "/pinctrl/uart7/uart7m1-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75617274376d312d7866657200"
+    },
+    {
+      "path": "/pinctrl/uart8",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "756172743800"
+    },
+    {
+      "path": "/pinctrl/uart8/uart8m0-ctsn",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75617274386d302d6374736e00"
+    },
+    {
+      "path": "/pinctrl/uart8/uart8m0-rtsn",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75617274386d302d7274736e00"
+    },
+    {
+      "path": "/pinctrl/uart8/uart8m0-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75617274386d302d7866657200"
+    },
+    {
+      "path": "/pinctrl/uart9",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "756172743900"
+    },
+    {
+      "path": "/pinctrl/uart9/uart9m0-xfer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75617274396d302d7866657200"
+    },
+    {
+      "path": "/pinctrl/usb",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75736200"
+    },
+    {
+      "path": "/pinctrl/usb/vcc5v0-host-en",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7663633576302d686f73742d656e00"
+    },
+    {
+      "path": "/pinctrl/usb/vcc5v0-otg-en",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7663633576302d6f74672d656e00"
+    },
+    {
+      "path": "/pinctrl/vop",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "766f7000"
+    },
+    {
+      "path": "/pinctrl/wireless-bluetooth",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "776972656c6573732d626c7565746f6f746800"
+    },
+    {
+      "path": "/pinctrl/wireless-bluetooth/uart8-gpios",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75617274382d6770696f7300"
+    },
+    {
+      "path": "/pinctrl/wireless-wlan",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "776972656c6573732d776c616e00"
+    },
+    {
+      "path": "/pinctrl/wireless-wlan/wifi-host-wake-irq",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "776966692d686f73742d77616b652d69727100"
+    },
+    {
+      "path": "/power-management@fdd90000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f7765722d6d616e6167656d656e7400"
+    },
+    {
+      "path": "/power-management@fdd90000/power-controller",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f7765722d636f6e74726f6c6c657200"
+    },
+    {
+      "path": "/power-management@fdd90000/power-controller/pd_gpu@7",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70645f67707500"
+    },
+    {
+      "path": "/power-management@fdd90000/power-controller/pd_npu@6",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70645f6e707500"
+    },
+    {
+      "path": "/power-management@fdd90000/power-controller/pd_pipe@15",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70645f7069706500"
+    },
+    {
+      "path": "/power-management@fdd90000/power-controller/pd_rga@10",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70645f72676100"
+    },
+    {
+      "path": "/power-management@fdd90000/power-controller/pd_rkvdec@13",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70645f726b7664656300"
+    },
+    {
+      "path": "/power-management@fdd90000/power-controller/pd_rkvenc@14",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70645f726b76656e6300"
+    },
+    {
+      "path": "/power-management@fdd90000/power-controller/pd_vi@8",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70645f766900"
+    },
+    {
+      "path": "/power-management@fdd90000/power-controller/pd_vo@9",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70645f766f00"
+    },
+    {
+      "path": "/power-management@fdd90000/power-controller/pd_vpu@11",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70645f76707500"
+    },
+    {
+      "path": "/psci",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7073636900"
+    },
+    {
+      "path": "/pvtm@fde00000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7076746d00"
+    },
+    {
+      "path": "/pvtm@fde00000/pvtm@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7076746d00"
+    },
+    {
+      "path": "/pvtm@fde80000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7076746d00"
+    },
+    {
+      "path": "/pvtm@fde80000/pvtm@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7076746d00"
+    },
+    {
+      "path": "/pvtm@fde90000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7076746d00"
+    },
+    {
+      "path": "/pvtm@fde90000/pvtm@2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7076746d00"
+    },
+    {
+      "path": "/pwm@fdd70000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fdd70010",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fdd70020",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fdd70030",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fe6e0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fe6e0010",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fe6e0020",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fe6e0030",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fe6e0030/ir_key1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69725f6b65793100"
+    },
+    {
+      "path": "/pwm@fe6e0030/ir_key2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69725f6b65793200"
+    },
+    {
+      "path": "/pwm@fe6e0030/ir_key3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69725f6b65793300"
+    },
+    {
+      "path": "/pwm@fe6e0030/ir_key4",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69725f6b65793400"
+    },
+    {
+      "path": "/pwm@fe6e0030/ir_key5",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69725f6b65793500"
+    },
+    {
+      "path": "/pwm@fe6e0030/ir_key6",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69725f6b65793600"
+    },
+    {
+      "path": "/pwm@fe6e0030/ir_key7",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69725f6b65793700"
+    },
+    {
+      "path": "/pwm@fe6e0030/ir_key8",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69725f6b65793800"
+    },
+    {
+      "path": "/pwm@fe6e0030/ir_key9",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "69725f6b65793900"
+    },
+    {
+      "path": "/pwm@fe6f0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fe6f0010",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fe6f0020",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fe6f0030",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fe700000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fe700010",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fe700020",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/pwm@fe700030",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "70776d00"
+    },
+    {
+      "path": "/qos@fe128000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe138080",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe138100",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe138180",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe148000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe148080",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe148100",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe150000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe158000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe158100",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe158180",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe158200",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe158280",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe158300",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe180000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe190000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe190080",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe190100",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe190200",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe190280",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe190300",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe190380",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe190400",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe198000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe1a8000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe1a8080",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/qos@fe1a8100",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "716f7300"
+    },
+    {
+      "path": "/reserved-memory",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "72657365727665642d6d656d6f727900"
+    },
+    {
+      "path": "/reserved-memory/drm-cubic-lut@00000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "64726d2d63756269632d6c757400"
+    },
+    {
+      "path": "/reserved-memory/drm-logo@00000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "64726d2d6c6f676f00"
+    },
+    {
+      "path": "/reserved-memory/ramoops@110000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "72616d6f6f707300"
+    },
+    {
+      "path": "/rk809-sound",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b3830392d736f756e6400"
+    },
+    {
+      "path": "/rk_rga@fdeb0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b5f72676100"
+    },
+    {
+      "path": "/rkcif@fdfe0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b63696600"
+    },
+    {
+      "path": "/rkcif_dvp",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b6369665f64767000"
+    },
+    {
+      "path": "/rkcif_dvp_sditf",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b6369665f6476705f736469746600"
+    },
+    {
+      "path": "/rkcif_mipi_lvds",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b6369665f6d6970695f6c76647300"
+    },
+    {
+      "path": "/rkcif_mipi_lvds_sditf",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b6369665f6d6970695f6c7664735f736469746600"
+    },
+    {
+      "path": "/rkisp-vir0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b6973702d7669723000"
+    },
+    {
+      "path": "/rkisp-vir0/port",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/rkisp-vir0/port/endpoint@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/rkisp-vir1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b6973702d7669723100"
+    },
+    {
+      "path": "/rkisp@fdff0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b69737000"
+    },
+    {
+      "path": "/rkscr@fe560000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b73637200"
+    },
+    {
+      "path": "/rkvdec-opp-table",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b766465632d6f70702d7461626c6500"
+    },
+    {
+      "path": "/rkvdec-opp-table/opp-297000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d32393730303030303000"
+    },
+    {
+      "path": "/rkvdec-opp-table/opp-400000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d34303030303030303000"
+    },
+    {
+      "path": "/rkvdec@fdf80200",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b7664656300"
+    },
+    {
+      "path": "/rkvenc-opp-table",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b76656e632d6f70702d7461626c6500"
+    },
+    {
+      "path": "/rkvenc-opp-table/opp-297000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d32393730303030303000"
+    },
+    {
+      "path": "/rkvenc-opp-table/opp-400000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f70702d34303030303030303000"
+    },
+    {
+      "path": "/rkvenc@fdf40000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b76656e6300"
+    },
+    {
+      "path": "/rng@fe388000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726e6700"
+    },
+    {
+      "path": "/rockchip-suspend",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726f636b636869702d73757370656e6400"
+    },
+    {
+      "path": "/rockchip-system-monitor",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726f636b636869702d73797374656d2d6d6f6e69746f7200"
+    },
+    {
+      "path": "/saradc@fe720000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73617261646300"
+    },
+    {
+      "path": "/sata@fc000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7361746100"
+    },
+    {
+      "path": "/sata@fc400000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7361746100"
+    },
+    {
+      "path": "/sata@fc800000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7361746100"
+    },
+    {
+      "path": "/scmi-shmem@10f000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73636d692d73686d656d00"
+    },
+    {
+      "path": "/sdhci@fe310000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "736468636900"
+    },
+    {
+      "path": "/sdio-pwrseq",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7364696f2d70777273657100"
+    },
+    {
+      "path": "/serial@fdd50000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73657269616c00"
+    },
+    {
+      "path": "/serial@fe650000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73657269616c00"
+    },
+    {
+      "path": "/serial@fe660000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73657269616c00"
+    },
+    {
+      "path": "/serial@fe670000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73657269616c00"
+    },
+    {
+      "path": "/serial@fe680000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73657269616c00"
+    },
+    {
+      "path": "/serial@fe690000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73657269616c00"
+    },
+    {
+      "path": "/serial@fe6a0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73657269616c00"
+    },
+    {
+      "path": "/serial@fe6b0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73657269616c00"
+    },
+    {
+      "path": "/serial@fe6c0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73657269616c00"
+    },
+    {
+      "path": "/serial@fe6d0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73657269616c00"
+    },
+    {
+      "path": "/spdif@fe460000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737064696600"
+    },
+    {
+      "path": "/spi@fe300000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73706900"
+    },
+    {
+      "path": "/spi@fe610000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73706900"
+    },
+    {
+      "path": "/spi@fe620000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73706900"
+    },
+    {
+      "path": "/spi@fe630000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73706900"
+    },
+    {
+      "path": "/spi@fe640000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "73706900"
+    },
+    {
+      "path": "/spi@fe640000/spi_test@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7370695f7465737400"
+    },
+    {
+      "path": "/sram@fdcc0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7372616d00"
+    },
+    {
+      "path": "/sram@fdcc0000/rkvdec-sram@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726b766465632d7372616d00"
+    },
+    {
+      "path": "/syscon@fda00000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737973636f6e00"
+    },
+    {
+      "path": "/syscon@fdc20000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737973636f6e00"
+    },
+    {
+      "path": "/syscon@fdc20000/io-domains",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696f2d646f6d61696e7300"
+    },
+    {
+      "path": "/syscon@fdc20000/reboot-mode",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7265626f6f742d6d6f646500"
+    },
+    {
+      "path": "/syscon@fdc50000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737973636f6e00"
+    },
+    {
+      "path": "/syscon@fdc60000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737973636f6e00"
+    },
+    {
+      "path": "/syscon@fdc60000/io-domains",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "696f2d646f6d61696e7300"
+    },
+    {
+      "path": "/syscon@fdc60000/lvds",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6c76647300"
+    },
+    {
+      "path": "/syscon@fdc60000/lvds/ports",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f72747300"
+    },
+    {
+      "path": "/syscon@fdc60000/lvds/ports/port@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/syscon@fdc60000/lvds/ports/port@0/endpoint@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/syscon@fdc60000/lvds/ports/port@0/endpoint@2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/syscon@fdc60000/lvds1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6c7664733100"
+    },
+    {
+      "path": "/syscon@fdc60000/lvds1/ports",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f72747300"
+    },
+    {
+      "path": "/syscon@fdc60000/lvds1/ports/port@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/syscon@fdc60000/lvds1/ports/port@0/endpoint@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/syscon@fdc60000/lvds1/ports/port@0/endpoint@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/syscon@fdc60000/rgb",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "72676200"
+    },
+    {
+      "path": "/syscon@fdc60000/rgb/ports",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f72747300"
+    },
+    {
+      "path": "/syscon@fdc60000/rgb/ports/port@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/syscon@fdc60000/rgb/ports/port@0/endpoint@2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/syscon@fdc70000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737973636f6e00"
+    },
+    {
+      "path": "/syscon@fdc80000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737973636f6e00"
+    },
+    {
+      "path": "/syscon@fdc90000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737973636f6e00"
+    },
+    {
+      "path": "/syscon@fdca0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737973636f6e00"
+    },
+    {
+      "path": "/syscon@fdca8000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737973636f6e00"
+    },
+    {
+      "path": "/syscon@fdcb0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737973636f6e00"
+    },
+    {
+      "path": "/syscon@fdcb0000/edp-phy",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6564702d70687900"
+    },
+    {
+      "path": "/syscon@fdcb8000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "737973636f6e00"
+    },
+    {
+      "path": "/thermal-zones",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "746865726d616c2d7a6f6e657300"
+    },
+    {
+      "path": "/thermal-zones/gpu-thermal",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6770752d746865726d616c00"
+    },
+    {
+      "path": "/thermal-zones/soc-thermal",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "736f632d746865726d616c00"
+    },
+    {
+      "path": "/thermal-zones/soc-thermal/cooling-maps",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "636f6f6c696e672d6d61707300"
+    },
+    {
+      "path": "/thermal-zones/soc-thermal/cooling-maps/map0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d61703000"
+    },
+    {
+      "path": "/thermal-zones/soc-thermal/cooling-maps/map1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6d61703100"
+    },
+    {
+      "path": "/thermal-zones/soc-thermal/trips",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "747269707300"
+    },
+    {
+      "path": "/thermal-zones/soc-thermal/trips/soc-crit",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "736f632d6372697400"
+    },
+    {
+      "path": "/thermal-zones/soc-thermal/trips/trip-point-0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "747269702d706f696e742d3000"
+    },
+    {
+      "path": "/thermal-zones/soc-thermal/trips/trip-point-1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "747269702d706f696e742d3100"
+    },
+    {
+      "path": "/timer",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "74696d657200"
+    },
+    {
+      "path": "/timer@fe5f0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "74696d657200"
+    },
+    {
+      "path": "/tsadc@fe710000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "747361646300"
+    },
+    {
+      "path": "/tsadc@fe710000/tsadc@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "747361646300"
+    },
+    {
+      "path": "/tsadc@fe710000/tsadc@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "747361646300"
+    },
+    {
+      "path": "/uio@fe010000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75696f00"
+    },
+    {
+      "path": "/uio@fe2a0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75696f00"
+    },
+    {
+      "path": "/usb2-phy@fe8a0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "757362322d70687900"
+    },
+    {
+      "path": "/usb2-phy@fe8a0000/host-port",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "686f73742d706f727400"
+    },
+    {
+      "path": "/usb2-phy@fe8a0000/otg-port",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f74672d706f727400"
+    },
+    {
+      "path": "/usb2-phy@fe8b0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "757362322d70687900"
+    },
+    {
+      "path": "/usb2-phy@fe8b0000/host-port",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "686f73742d706f727400"
+    },
+    {
+      "path": "/usb2-phy@fe8b0000/otg-port",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6f74672d706f727400"
+    },
+    {
+      "path": "/usb@fd800000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75736200"
+    },
+    {
+      "path": "/usb@fd840000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75736200"
+    },
+    {
+      "path": "/usb@fd880000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75736200"
+    },
+    {
+      "path": "/usb@fd8c0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75736200"
+    },
+    {
+      "path": "/usbdrd",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "75736264726400"
+    },
+    {
+      "path": "/usbdrd/dwc3@fcc00000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6477633300"
+    },
+    {
+      "path": "/usbhost",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "757362686f737400"
+    },
+    {
+      "path": "/usbhost/dwc3@fd000000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "6477633300"
+    },
+    {
+      "path": "/vad-sound",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7661642d736f756e6400"
+    },
+    {
+      "path": "/vad@fe450000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "76616400"
+    },
+    {
+      "path": "/vcc1v8-cam",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7663633176382d63616d00"
+    },
+    {
+      "path": "/vcc2v5-ddr",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7663633276352d64647200"
+    },
+    {
+      "path": "/vcc3v3-bu",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7663633376332d627500"
+    },
+    {
+      "path": "/vcc3v3-lcd0-n",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7663633376332d6c6364302d6e00"
+    },
+    {
+      "path": "/vcc3v3-lcd0-n/regulator-state-mem",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "726567756c61746f722d73746174652d6d656d00"
+    },
+    {
+      "path": "/vcc3v3-mipi-con",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7663633376332d6d6970692d636f6e00"
+    },
+    {
+      "path": "/vcc3v3-sys",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7663633376332d73797300"
+    },
+    {
+      "path": "/vcc5v0-host-regulator",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7663633576302d686f73742d726567756c61746f7200"
+    },
+    {
+      "path": "/vcc5v0-otg-regulator",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7663633576302d6f74672d726567756c61746f7200"
+    },
+    {
+      "path": "/vcc5v0-sys",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7663633576302d73797300"
+    },
+    {
+      "path": "/vcc5v0-usb",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7663633576302d75736200"
+    },
+    {
+      "path": "/vdpu@fdea0400",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7664707500"
+    },
+    {
+      "path": "/vepu@fdee0000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7665707500"
+    },
+    {
+      "path": "/vop@fe040000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "766f7000"
+    },
+    {
+      "path": "/vop@fe040000/ports",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f72747300"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@0/endpoint@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@0/endpoint@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@0/endpoint@2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@0/endpoint@3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@1/endpoint@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@1/endpoint@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@1/endpoint@2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@1/endpoint@3",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@1/endpoint@4",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@1/endpoint@5",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "706f727400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@2/endpoint@0",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@2/endpoint@1",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/vop@fe040000/ports/port@2/endpoint@2",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "656e64706f696e7400"
+    },
+    {
+      "path": "/watchdog@fe600000",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "7761746368646f6700"
+    },
+    {
+      "path": "/wireless-bluetooth",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "776972656c6573732d626c7565746f6f746800"
+    },
+    {
+      "path": "/wireless-wlan",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "776972656c6573732d776c616e00"
+    },
+    {
+      "path": "/xin24m",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "78696e32346d00"
+    },
+    {
+      "path": "/xin32k",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "78696e33326b00"
+    },
+    {
+      "path": "/xpcs-gmac0-clock",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "787063732d676d6163302d636c6f636b00"
+    },
+    {
+      "path": "/xpcs-gmac1-clock",
+      "property": "name",
+      "fdt_hex": null,
+      "live_hex": "787063732d676d6163312d636c6f636b00"
+    }
+  ],
+  "effective_status_counts": {
+    "okay": 661,
+    "disabled": 102
+  },
+  "bus_counts": {
+    "amba": 2,
+    "cec": 1,
+    "clockevents": 5,
+    "clocksource": 1,
+    "cpu": 4,
+    "edac": 1,
+    "event_source": 5,
+    "gpio": 6,
+    "hid": 3,
+    "i2c": 12,
+    "iio": 2,
+    "mdio_bus": 2,
+    "media": 1,
+    "mipi-dsi": 1,
+    "mmc": 2,
+    "mmc_rpmb": 1,
+    "nvmem": 1,
+    "platform": 204,
+    "scmi_protocol": 1,
+    "scsi": 1,
+    "sdio": 1,
+    "spi": 1,
+    "usb": 16,
+    "workqueue": 9
+  },
+  "class_counts": {
+    "android_usb": 1,
+    "ata_device": 1,
+    "ata_link": 1,
+    "ata_port": 1,
+    "backlight": 1,
+    "bdi": 14,
+    "block": 19,
+    "bluetooth": 1,
+    "btcom": 5,
+    "devcoredump": 1,
+    "devfreq": 5,
+    "devfreq-event": 6,
+    "devlink": 173,
+    "dma": 64,
+    "dma_heap": 6,
+    "drm": 8,
+    "extcon": 4,
+    "gpio": 8,
+    "graphics": 2,
+    "hidraw": 3,
+    "hwmon": 2,
+    "i2c-adapter": 7,
+    "i2c-dev": 7,
+    "ieee80211": 1,
+    "input": 24,
+    "iommu": 9,
+    "leds": 16,
+    "mdio_bus": 3,
+    "mem": 8,
+    "misc": 20,
+    "mmc_host": 3,
+    "mpp_class": 1,
+    "net": 5,
+    "phy": 9,
+    "ppp": 1,
+    "ptp": 2,
+    "pwm": 2,
+    "regulator": 34,
+    "rfkill": 3,
+    "rkwifi": 3,
+    "rtc": 2,
+    "scsi_host": 1,
+    "skwbtlog_port": 1,
+    "sound": 9,
+    "spi_master": 1,
+    "spidev": 1,
+    "thermal": 4,
+    "tty": 73,
+    "ubi": 1,
+    "udc": 1,
+    "usbmon": 7,
+    "vc": 21,
+    "video4linux": 13,
+    "vtconsole": 2,
+    "wakeup": 18,
+    "watchdog": 1,
+    "xt_idletimer": 1,
+    "zram-control": 2
+  },
+  "commands_with_timeout": []
+}

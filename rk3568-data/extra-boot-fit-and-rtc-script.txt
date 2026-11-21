@@ -1,0 +1,69 @@
+head -c 1536 /dev/mmcblk0p3 | strings; sed -n '1,160p'
+' /usr/bin/rtc_ntp.sh
+U-Boot FIT source file for arm
+images
+flat_dt
+arm64
+none
+hash
+,sha256
+kernel
+kernel
+arm64
+1linux
+none
+hash
+l^<l
+I761
+,sha256
+resource
+multi
+arm64
+none
+hash
+,sha256
+configurations
+:conf
+conf
+Qfdt
+Ukernel
+\resource
+signature
+,sha256,rsa2048
+bpss
+jdev
+xfdt
+kernel
+multi
+        description
+data
+type
+arch
+compression
+load
+algo
+entry
+default
+rollback-index
+kernel
+multi
+padding
+key-name-hint
+sign-images
+data-position
+data-size
+timestamp
+totalsize
+version
+value
+ENTRrk3568-k
+#!/bin/bash
+
+# check if NTP service is running
+ntp_status=$(service ntp status)
+
+if [[ $ntp_status == *"active (running)"* ]] ;then
+        # NTP service is running,sync the RTC with NTP
+        hwclock -w
+fi
+root@kickpi:/home/kickpi#

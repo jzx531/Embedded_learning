@@ -1,0 +1,42 @@
+$ file -s /dev/mmcblk0p3; head -c 128 /dev/mmcblk0p3 | od -Ax -tx1z; cat /etc/profile.d/depmod.sh /etc/profile.d/dmesg.sh; systemctl cat rtc_ntp.service rtc_ntp.timer; systemctl show rtc_ntp.service -p ActiveState -p SubState -p Result -p NRestarts -p ExecStart; cat /sys/kernel/debug/devices_deferred
+
+/dev/mmcblk0p3: Device Tree Blob version 17, size=1536, boot CPU=0, string block size=190, DT structure block size=1004
+000000 d0 0d fe ed 00 00 06 00 00 00 00 58 00 00 04 44  >...........X...D<
+000010 00 00 00 28 00 00 00 11 00 00 00 10 00 00 00 00  >...(............<
+000020 00 00 00 be 00 00 03 ec 00 00 7f 43 a7 53 40 00  >...........C.S@.<
+000030 00 00 00 00 00 00 06 00 00 00 7f 43 a7 53 30 00  >...........C.S0.<
+000040 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 00  >................<
+000050 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00  >................<
+000060 00 00 00 03 00 00 00 04 00 00 00 b0 00 00 00 00  >................<
+000070 00 00 00 03 00 00 00 04 00 00 00 a6 02 98 84 00  >................<
+000080
+depmod -a
+dmesg -n 1
+# /lib/systemd/system/rtc_ntp.service
+[Unit]
+Description=Network RTC Time Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/rtc_ntp.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+# /lib/systemd/system/rtc_ntp.timer
+[Unit]
+Description=Network RTC Time Timer
+
+[Timer]
+OnBootSec=10s
+OnUnitActiveSec=10s
+
+[Install]
+WantedBy=timer.target
+Result=start-limit-hit
+NRestarts=5
+ExecStart={ path=/usr/bin/rtc_ntp.sh ; argv[]=/usr/bin/rtc_ntp.sh ; ignore_errors=no ; start_time=[Sat 2026-11-21 13:12:01 CST] ; stop_time=[Sat 2026-11-21 13:12:02 CST] ; pid=5173 ; code=exited ; status=0 }
+ActiveState=failed
+SubState=failed
+mtd_vendor_storage	

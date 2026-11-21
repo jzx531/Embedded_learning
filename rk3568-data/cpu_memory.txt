@@ -1,0 +1,220 @@
+$ lscpu; cat /proc/cpuinfo; free -b; cat /proc/meminfo; cat /proc/iomem; cat /proc/swaps
+
+Architecture:                    aarch64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+CPU(s):                          4
+On-line CPU(s) list:             0-3
+Thread(s) per core:              1
+Core(s) per socket:              4
+Socket(s):                       1
+Vendor ID:                       ARM
+Model:                           0
+Model name:                      Cortex-A55
+Stepping:                        r2p0
+CPU max MHz:                     1992.0000
+CPU min MHz:                     408.0000
+BogoMIPS:                        48.00
+Vulnerability Itlb multihit:     Not affected
+Vulnerability L1tf:              Not affected
+Vulnerability Mds:               Not affected
+Vulnerability Meltdown:          Not affected
+Vulnerability Mmio stale data:   Not affected
+Vulnerability Retbleed:          Not affected
+Vulnerability Spec store bypass: Not affected
+Vulnerability Spectre v1:        Mitigation; __user pointer sanitization
+Vulnerability Spectre v2:        Not affected
+Vulnerability Srbds:             Not affected
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+processor	: 0
+BogoMIPS	: 48.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x2
+CPU part	: 0xd05
+CPU revision	: 0
+
+processor	: 1
+BogoMIPS	: 48.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x2
+CPU part	: 0xd05
+CPU revision	: 0
+
+processor	: 2
+BogoMIPS	: 48.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x2
+CPU part	: 0xd05
+CPU revision	: 0
+
+processor	: 3
+BogoMIPS	: 48.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x2
+CPU part	: 0xd05
+CPU revision	: 0
+
+Serial		: f069fdac44de5a25
+              total        used        free      shared  buff/cache   available
+Mem:     4090871808   477650944  3159355392    10657792   453865472  3560992768
+Swap:             0           0           0
+MemTotal:        3994992 kB
+MemFree:         3085308 kB
+MemAvailable:    3477532 kB
+Buffers:           17544 kB
+Cached:           385236 kB
+SwapCached:            0 kB
+Active:            79812 kB
+Inactive:         648260 kB
+Active(anon):        808 kB
+Inactive(anon):   334908 kB
+Active(file):      79004 kB
+Inactive(file):   313352 kB
+Unevictable:        8808 kB
+Mlocked:              64 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:               420 kB
+Writeback:             0 kB
+AnonPages:        334128 kB
+Mapped:           187668 kB
+Shmem:             10408 kB
+KReclaimable:      40448 kB
+Slab:              84220 kB
+SReclaimable:      40448 kB
+SUnreclaim:        43772 kB
+KernelStack:        5536 kB
+PageTables:         8536 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1997496 kB
+Committed_AS:    1827124 kB
+VmallocTotal:   263061440 kB
+VmallocUsed:       13932 kB
+VmallocChunk:          0 kB
+Percpu:             1792 kB
+CmaTotal:          16384 kB
+CmaAllocated:       2684 kB
+CmaReleased:       13700 kB
+CmaFree:               4 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+00110000-0012ffff : ramoops:dmesg
+00130000-001affff : ramoops:console
+001b0000-001fffff : ramoops:pmsg
+00200000-083fffff : System RAM
+  00200000-01e8ffff : Kernel code
+  01e90000-0261ffff : reserved
+  02620000-02a9ffff : Kernel data
+  08300000-0831cfff : reserved
+09400000-efffffff : System RAM
+  e9f00000-edfb7fff : reserved
+  eec00000-efbfffff : reserved
+  eff00000-eff07fff : reserved
+fc000000-fc000fff : fc000000.sata sata@fc000000
+fcc0c100-fcffffff : fcc00000.dwc3 dwc3@fcc00000
+fd000000-fd007fff : dwc3@fd000000
+  fd000000-fd007fff : xhci-hcd.0.auto dwc3@fd000000
+fd00c100-fd3fffff : fd000000.dwc3 dwc3@fd000000
+fd800000-fd83ffff : fd800000.usb usb@fd800000
+fd840000-fd87ffff : fd840000.usb usb@fd840000
+fd880000-fd8bffff : fd880000.usb usb@fd880000
+fd8c0000-fd8fffff : fd8c0000.usb usb@fd8c0000
+fdcc0000-fdccafff : fdcc0000.sram sram@fdcc0000
+fdd40000-fdd40fff : fdd40000.i2c i2c@fdd40000
+fdd50000-fdd5001f : serial
+fdd60000-fdd600ff : fdd60000.gpio0 gpio0@fdd60000
+fde00000-fde000ff : fde00000.pvtm pvtm@fde00000
+fde4b000-fde4b03f : fde4b000.iommu iommu@fde4b000
+fde60000-fde63fff : fde60000.gpu
+fde80000-fde800ff : fde80000.pvtm pvtm@fde80000
+fde90000-fde900ff : fde90000.pvtm pvtm@fde90000
+fdea0800-fdea083f : fdea0800.iommu iommu@fdea0800
+fded0480-fded04bf : fded0480.iommu iommu@fded0480
+fdee0800-fdee083f : fdee0800.iommu iommu@fdee0800
+fdef0800-fdef08ff : fdef0800.iommu iommu@fdef0800
+fdf40f00-fdf40f3f : fdf40f00.iommu iommu@fdf40f00
+fdf40f40-fdf40f7f : fdf40f00.iommu iommu@fdf40f00
+fdf80800-fdf8083f : fdf80800.iommu iommu@fdf80800
+fdf80840-fdf8087f : fdf80800.iommu iommu@fdf80800
+fdfb0000-fdfbffff : fdfb0000.mipi-csi2-hw csihost_regs
+fdff1a00-fdff1aff : fdff1a00.iommu iommu@fdff1a00
+fe000000-fe003fff : fe000000.dwmmc dwmmc@fe000000
+fe010000-fe01ffff : fe010000.ethernet ethernet@fe010000
+fe040000-fe042fff : fe040000.vop regs
+fe043e00-fe043eff : fe043e00.iommu iommu@fe043e00
+fe043f00-fe043fff : fe043e00.iommu iommu@fe043e00
+fe044000-fe044fff : fe040000.vop gamma_lut
+fe060000-fe06ffff : fe060000.dsi dsi@fe060000
+fe0a0000-fe0bffff : fe0a0000.hdmi hdmi@fe0a0000
+fe102000-fe1023ff : fe102000.nocp-cpu nocp-cpu@fe102000
+fe102400-fe1027ff : fe102400.nocp-gpu-vpu-rga-venc nocp-gpu-vpu-rga-venc@fe102400
+fe102800-fe102bff : fe102800.nocp-vdec nocp-vdec@fe102800
+fe102c00-fe102fff : fe102c00.nocp-vi-usb-peri-pipe nocp-vi-usb-peri-pipe@fe102c00
+fe103000-fe1033ff : fe103000.nocp-vo nocp-vo@fe103000
+fe230000-fe2303ff : fe230000.dfi dfi@fe230000
+fe2a0000-fe2affff : fe2a0000.ethernet ethernet@fe2a0000
+fe2b0000-fe2b3fff : fe2b0000.dwmmc dwmmc@fe2b0000
+fe310000-fe31ffff : fe310000.sdhci sdhci@fe310000
+fe388000-fe389fff : fe388000.rng rng@fe388000
+fe38c000-fe38ffff : fe38c000.otp otp@fe38c000
+fe400000-fe400fff : fe400000.i2s i2s@fe400000
+fe410000-fe410fff : fe410000.i2s i2s@fe410000
+fe530000-fe533fff : dmac@fe530000
+  fe530000-fe533fff : fe530000.dmac dmac@fe530000
+fe550000-fe553fff : dmac@fe550000
+  fe550000-fe553fff : fe550000.dmac dmac@fe550000
+fe5a0000-fe5a0fff : fe5a0000.i2c i2c@fe5a0000
+fe5b0000-fe5b0fff : fe5b0000.i2c i2c@fe5b0000
+fe5c0000-fe5c0fff : fe5c0000.i2c i2c@fe5c0000
+fe5d0000-fe5d0fff : fe5d0000.i2c i2c@fe5d0000
+fe5e0000-fe5e0fff : fe5e0000.i2c i2c@fe5e0000
+fe600000-fe6000ff : fe600000.watchdog watchdog@fe600000
+fe640000-fe640fff : fe640000.spi spi@fe640000
+fe670000-fe67001f : serial
+fe680000-fe68001f : serial
+fe6b0000-fe6b001f : serial
+fe6c0000-fe6c001f : serial
+fe6e0030-fe6e003f : fe6e0030.pwm pwm@fe6e0030
+fe710000-fe7100ff : fe710000.tsadc tsadc@fe710000
+fe720000-fe7200ff : fe720000.saradc saradc@fe720000
+fe740000-fe7400ff : fe740000.gpio1 gpio1@fe740000
+fe750000-fe7500ff : fe750000.gpio2 gpio2@fe750000
+fe760000-fe7600ff : fe760000.gpio3 gpio3@fe760000
+fe770000-fe7700ff : fe770000.gpio4 gpio4@fe770000
+fe820000-fe8200ff : fe820000.phy phy@fe820000
+fe830000-fe8300ff : fe830000.phy phy@fe830000
+fe840000-fe8400ff : fe840000.phy phy@fe840000
+fe850000-fe85ffff : fe850000.phy phy
+fe870000-fe870fff : fe870000.csi2-dphy-hw csi2-dphy-hw@fe870000
+fe8a0000-fe8affff : fe8a0000.usb2-phy usb2-phy@fe8a0000
+fe8b0000-fe8bffff : fe8b0000.usb2-phy usb2-phy@fe8b0000
+fe8c0000-fe8dffff : fe8c0000.phy phy@fe8c0000
+1f0000000-1ffffffff : System RAM
+  1fb000000-1ff5fffff : reserved
+  1ff68d000-1ff6ecfff : reserved
+  1ff6ed000-1ff6edfff : reserved
+  1ff6ee000-1ff769fff : reserved
+  1ff76c000-1ff76cfff : reserved
+  1ff76d000-1ff76dfff : reserved
+  1ff76e000-1ff77ffff : reserved
+  1ff780000-1ff80cfff : reserved
+  1ff80d000-1ffffffff : reserved
+Filename				Type		Size		Used		Priority
+
+
+[collector exit_code=0; error=; seconds=0.048]

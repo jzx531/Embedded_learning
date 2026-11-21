@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-11-21T14:33:22.024788+00:00",
+  "host": "192.168.3.181",
+  "validation": {
+    "windows_tcp_3389": true,
+    "rdp_authentication": "kickpi login succeeded on display :10",
+    "remote_wm": "GNOME Shell",
+    "remote_terminal_exit": 0,
+    "remote_render": "Mesa llvmpipe",
+    "screenshot": "kickpi-ubuntu-rdp-app.png",
+    "test_session_cleanup": "loginctl terminate-session c7"
+  },
+  "os": {
+    "exit_code": 0,
+    "output": "PRETTY_NAME=\"Ubuntu 24.04.4 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.4 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\nID_LIKE=\"ubuntu\"\nRK_BUILD_INFO=\"root@kickpi Fri Sep 11 10:44:40 CST 2026\"\nLinux kickpi 6.1.141 #4 SMP Wed Sep  2 15:59:40 CST 2026 aarch64 aarch64 aarch64 GNU/Linux\n"
+  },
+  "packages": {
+    "exit_code": 0,
+    "output": "gnome-shell\t46.0-0ubuntu6~24.04.17\ngnome-shell-extension-ubuntu-dock\t90ubuntu3\ngnome-terminal\t3.52.0-1ubuntu2\nubuntu-desktop-minimal\t1.539.2\nubuntu-session\t46.0-1ubuntu4\nxorgxrdp\t1:0.9.19-1\nxrdp\t0.9.24-4ubuntu0.1\n"
+  },
+  "services": {
+    "exit_code": 0,
+    "output": "active\nactive\nactive\nenabled\nenabled\n"
+  },
+  "listeners": {
+    "exit_code": 0,
+    "output": "LISTEN 0      0              [::1]:3350            *:*    users:((\"xrdp-sesman\",pid=13730,fd=11))                  \nLISTEN 0      0                  *:3389            *:*    users:((\"xrdp\",pid=13745,fd=11))                         \n"
+  },
+  "sessions": {
+    "exit_code": 0,
+    "output": "SESSION  UID USER   SEAT  TTY     STATE  IDLE SINCE\n     c2 1000 kickpi -     ttyFIQ0 active yes  -\n     c3 1000 kickpi -     -       active no   -\n     c6 1000 kickpi seat0 tty7    active no   -\n\n3 sessions listed.\n15831 /usr/bin/gnome-shell\n15939 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications\n16175 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver\n17020 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app\n18339 /bin/sh -c loginctl list-sessions; pgrep -af gnome-shell\n"
+  },
+  "default_desktop": {
+    "exit_code": 0,
+    "output": "   [Seat:*]\nA  allow-guest=false\nC  greeter-wrapper=/usr/lib/lightdm/lightdm-greeter-session\nD  guest-wrapper=/usr/lib/lightdm/lightdm-guest-session\nL  user-session=ubuntu-xorg\nI  greeter-session=lightdm-gtk-greeter\nG  xserver-command=X -core\nH  greeter-setup-script=xubuntu-numlockx\nK  autologin-user=kickpi\nK  autologin-user-timeout=0\nL  autologin-session=ubuntu-xorg\n\n   [LightDM]\nB  backup-logs=false\n\nSources:\nA  /usr/share/lightdm/lightdm.conf.d/50-disable-guest.conf\nB  /usr/share/lightdm/lightdm.conf.d/50-disable-log-backup.conf\nC  /usr/share/lightdm/lightdm.conf.d/50-greeter-wrapper.conf\nD  /usr/share/lightdm/lightdm.conf.d/50-guest-wrapper.conf\nE  /usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf\nF  /usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf\nG  /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf\nH  /usr/share/lightdm/lightdm.conf.d/50-xubuntu-numlock.conf\nI  /usr/share/lightdm/lightdm.conf.d/60-lightdm-gtk-greeter.conf\nJ  /usr/share/lightdm/lightdm.conf.d/60-xubuntu.conf\nK  /etc/lightdm/lightdm.conf.d/50-myconfig.conf\nL  /etc/lightdm/lightdm.conf.d/90-ubuntu-gnome.conf\n"
+  },
+  "package_health": {
+    "exit_code": 0,
+    "output": "2348\n"
+  },
+  "resources": {
+    "exit_code": 0,
+    "output": "               total        used        free      shared  buff/cache   available\nMem:           3.8Gi       1.1Gi       599Mi       7.9Mi       2.2Gi       2.7Gi\nSwap:             0B          0B          0B\nFilesystem      Size  Used Avail Use% Mounted on\n/dev/root        29G  6.4G   21G  24% /\n"
+  }
+}

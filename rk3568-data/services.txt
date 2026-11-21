@@ -1,0 +1,546 @@
+$ systemctl --failed --no-pager; systemctl list-units --type=service --all --no-pager; systemctl list-unit-files --state=enabled --no-pager; systemctl get-default; ps -eo pid,comm,args; journalctl -b -p warning --no-pager -n 160
+
+  UNIT LOAD ACTIVE SUB DESCRIPTION
+0 loaded units listed.
+  UNIT                                 LOAD      ACTIVE   SUB     DESCRIPTION                                                                     
+  alsa-restore.service                 loaded    active   exited  Save/Restore Sound Card State                                                   
+  alsa-state.service                   loaded    inactive dead    Manage Sound Card State (restore and store)                                     
+  anacron.service                      loaded    inactive dead    Run anacron jobs                                                                
+  apt-daily-upgrade.service            loaded    inactive dead    Daily apt upgrade and clean activities                                          
+  apt-daily.service                    loaded    inactive dead    Daily apt download activities                                                   
+● auditd.service                       not-found inactive dead    auditd.service                                                                  
+  binfmt-support.service               loaded    active   exited  Enable support for additional executable binary formats                         
+  blueman-mechanism.service            loaded    inactive dead    Bluetooth management mechanism                                                  
+  bluetooth.service                    loaded    active   running Bluetooth service                                                               
+● connman.service                      not-found inactive dead    connman.service                                                                 
+● console-screen.service               not-found inactive dead    console-screen.service                                                          
+  console-setup.service                loaded    active   exited  Set console font and keymap                                                     
+  cpufrequtils.service                 loaded    active   exited  LSB: set CPUFreq kernel parameters                                              
+  dbus.service                         loaded    active   running D-Bus System Message Bus                                                        
+  dmesg.service                        loaded    inactive dead    Save initial kernel messages after boot                                         
+  e2scrub_all.service                  loaded    inactive dead    Online ext4 Metadata Check for All Filesystems                                  
+  e2scrub_reap.service                 loaded    inactive dead    Remove Stale Online ext4 Metadata Check Snapshots                               
+  emergency.service                    loaded    inactive dead    Emergency Shell                                                                 
+  fstrim.service                       loaded    inactive dead    Discard unused blocks on filesystems from /etc/fstab                            
+  getty-static.service                 loaded    inactive dead    getty on tty2-tty6 if dbus and logind are not available                         
+  getty@tty1.service                   loaded    active   running Getty on tty1                                                                   
+  hardware-optimize.service            loaded    active   exited  hardware optimization                                                           
+● kbd.service                          not-found inactive dead    kbd.service                                                                     
+  keyboard-setup.service               loaded    active   exited  Set the console keyboard layout                                                 
+  kmod-static-nodes.service            loaded    inactive dead    Create list of static device nodes for the current kernel                       
+  loadcpufreq.service                  loaded    active   exited  LSB: Load kernel modules needed to enable cpufreq scaling                       
+  mobilenet.service                    loaded    active   running mobilenet                                                                       
+  modprobe@chromeos_pstore.service     loaded    inactive dead    Load Kernel Module chromeos_pstore                                              
+  modprobe@drm.service                 loaded    inactive dead    Load Kernel Module drm                                                          
+  modprobe@efi_pstore.service          loaded    inactive dead    Load Kernel Module efi_pstore                                                   
+  modprobe@pstore_blk.service          loaded    inactive dead    Load Kernel Module pstore_blk                                                   
+  modprobe@pstore_zone.service         loaded    inactive dead    Load Kernel Module pstore_zone                                                  
+  modprobe@ramoops.service             loaded    inactive dead    Load Kernel Module ramoops                                                      
+  motd-news.service                    loaded    inactive dead    Message of the Day                                                              
+  netplan-ovs-cleanup.service          loaded    inactive dead    OpenVSwitch configuration for cleanup                                           
+  NetworkManager-wait-online.service   loaded    active   exited  Network Manager Wait Online                                                     
+  NetworkManager.service               loaded    active   running Network Manager                                                                 
+  ntp-systemd-netif.service            loaded    inactive dead    ntp-systemd-netif.service                                                       
+  ntp.service                          loaded    active   running Network Time Service                                                            
+  ondemand.service                     loaded    inactive dead    Set the CPU Frequency Scaling governor                                          
+  openvpn.service                      loaded    active   exited  OpenVPN service                                                                 
+● ovsdb-server.service                 not-found inactive dead    ovsdb-server.service                                                            
+● plymouth-quit-wait.service           not-found inactive dead    plymouth-quit-wait.service                                                      
+● plymouth-quit.service                not-found inactive dead    plymouth-quit.service                                                           
+● plymouth-start.service               not-found inactive dead    plymouth-start.service                                                          
+  polkit.service                       loaded    active   running Authorization Manager                                                           
+  pppd-dns.service                     loaded    inactive dead    Restore /etc/resolv.conf if the system crashed before the ppp link was shut down
+  rc-local.service                     loaded    active   exited  /etc/rc.local Compatibility                                                     
+  rescue.service                       loaded    inactive dead    Rescue Shell                                                                    
+  resize2fs.service                    loaded    inactive dead    resize2fs rootfs by rpdzkj                                                      
+  resolvconf-pull-resolved.service     loaded    inactive dead    resolvconf-pull-resolved.service                                                
+  resolvconf.service                   loaded    active   exited  Nameserver information manager                                                  
+  rkaiq_3A.service                     loaded    inactive dead    Enable Rockchip camera engine rkaiq                                             
+  rkwifibt.service                     loaded    inactive dead    Setup rockchip platform environment                                             
+  rockchip.service                     loaded    inactive dead    Setup rockchip platform environment                                             
+  rsyslog.service                      loaded    active   running System Logging Service                                                          
+  rtc_ntp.service                      loaded    active   running Network RTC Time Service                                                        
+  serial-getty@ttyFIQ0.service         loaded    active   running Serial Getty on ttyFIQ0                                                         
+  setvtrgb.service                     loaded    active   exited  Set console scheme                                                              
+  slim.service                         loaded    active   running SLiM Simple Login Manager                                                       
+  ssh.service                          loaded    active   running OpenBSD Secure Shell server                                                     
+  strongswan-starter.service           loaded    active   running strongSwan IPsec IKEv1/IKEv2 daemon using ipsec.conf                            
+  systemd-ask-password-console.service loaded    inactive dead    Dispatch Password Requests to Console                                           
+  systemd-ask-password-wall.service    loaded    inactive dead    Forward Password Requests to Wall                                               
+  systemd-binfmt.service               loaded    inactive dead    Set Up Additional Binary Formats                                                
+  systemd-boot-system-token.service    loaded    inactive dead    Store a System Token in an EFI Variable                                         
+  systemd-fsck-root.service            loaded    inactive dead    File System Check on Root Device                                                
+  systemd-fsckd.service                loaded    inactive dead    File System Check Daemon to report status                                       
+  systemd-hostnamed.service            loaded    active   running Hostname Service                                                                
+  systemd-hwdb-update.service          loaded    inactive dead    Rebuild Hardware Database                                                       
+  systemd-initctl.service              loaded    inactive dead    initctl Compatibility Daemon                                                    
+  systemd-journal-flush.service        loaded    active   exited  Flush Journal to Persistent Storage                                             
+  systemd-journald.service             loaded    active   running Journal Service                                                                 
+  systemd-logind.service               loaded    active   running Login Service                                                                   
+  systemd-machine-id-commit.service    loaded    inactive dead    Commit a transient machine-id on disk                                           
+  systemd-modules-load.service         loaded    active   exited  Load Kernel Modules                                                             
+  systemd-networkd.service             loaded    inactive dead    Network Service                                                                 
+  systemd-pstore.service               loaded    inactive dead    Platform Persistent Storage Archival                                            
+  systemd-random-seed.service          loaded    active   exited  Load/Save Random Seed                                                           
+  systemd-remount-fs.service           loaded    active   exited  Remount Root and Kernel File Systems                                            
+  systemd-resolved.service             loaded    active   running Network Name Resolution                                                         
+  systemd-rfkill.service               loaded    inactive dead    Load/Save RF Kill Switch Status                                                 
+  systemd-sysctl.service               loaded    active   exited  Apply Kernel Variables                                                          
+  systemd-sysusers.service             loaded    active   exited  Create System Users                                                             
+  systemd-timedated.service            loaded    active   running Time & Date Service                                                             
+● systemd-timesyncd.service            masked    inactive dead    systemd-timesyncd.service                                                       
+  systemd-tmpfiles-clean.service       loaded    inactive dead    Cleanup of Temporary Directories                                                
+  systemd-tmpfiles-setup-dev.service   loaded    active   exited  Create Static Device Nodes in /dev                                              
+  systemd-tmpfiles-setup.service       loaded    active   exited  Create Volatile Files and Directories                                           
+  systemd-udev-trigger.service         loaded    active   exited  udev Coldplug all Devices                                                       
+  systemd-udevd.service                loaded    active   running udev Kernel Device Manager                                                      
+● systemd-update-done.service          not-found inactive dead    systemd-update-done.service                                                     
+  systemd-update-utmp-runlevel.service loaded    inactive dead    Update UTMP about System Runlevel Changes                                       
+  systemd-update-utmp.service          loaded    active   exited  Update UTMP about System Boot/Shutdown                                          
+  systemd-user-sessions.service        loaded    active   exited  Permit User Sessions                                                            
+● systemd-vconsole-setup.service       not-found inactive dead    systemd-vconsole-setup.service                                                  
+  udisks2.service                      loaded    active   running Disk Manager                                                                    
+  usbdevice.service                    loaded    active   running Manage USB device functions                                                     
+  user-runtime-dir@0.service           loaded    active   exited  User Runtime Directory /run/user/0                                              
+  user-runtime-dir@1001.service        loaded    active   exited  User Runtime Directory /run/user/1001                                           
+  user@0.service                       loaded    active   running User Manager for UID 0                                                          
+  user@1001.service                    loaded    active   running User Manager for UID 1001                                                       
+  wpa_supplicant.service               loaded    active   running WPA supplicant                                                                  
+  xl2tpd.service                       loaded    active   running LSB: layer 2 tunelling protocol daemon                                          
+● zram-setup@zram0.service             not-found inactive dead    zram-setup@zram0.service                                                        
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+105 loaded units listed.
+To show all installed unit files use 'systemctl list-unit-files'.
+UNIT FILE                                  STATE   VENDOR PRESET
+ntp-systemd-netif.path                     enabled enabled      
+resolvconf-pull-resolved.path              enabled enabled      
+anacron.service                            enabled enabled      
+autovt@.service                            enabled enabled      
+binfmt-support.service                     enabled enabled      
+blueman-mechanism.service                  enabled enabled      
+bluetooth.service                          enabled enabled      
+console-setup.service                      enabled enabled      
+dbus-fi.w1.wpa_supplicant1.service         enabled enabled      
+dbus-org.bluez.service                     enabled enabled      
+dbus-org.freedesktop.nm-dispatcher.service enabled enabled      
+dbus-org.freedesktop.resolve1.service      enabled enabled      
+dmesg.service                              enabled enabled      
+e2scrub_reap.service                       enabled enabled      
+getty@.service                             enabled enabled      
+hardware-optimize.service                  enabled enabled      
+ipsec.service                              enabled enabled      
+k8d-wifibt-resume.service                  enabled enabled      
+keyboard-setup.service                     enabled enabled      
+mobilenet.service                          enabled enabled      
+network-manager.service                    enabled enabled      
+NetworkManager-dispatcher.service          enabled enabled      
+NetworkManager-wait-online.service         enabled enabled      
+NetworkManager.service                     enabled enabled      
+ntp.service                                enabled enabled      
+ondemand.service                           enabled enabled      
+openvpn.service                            enabled enabled      
+pppd-dns.service                           enabled enabled      
+resize2fs.service                          enabled enabled      
+resolvconf.service                         enabled enabled      
+rkaiq_3A.service                           enabled enabled      
+rkwifibt.service                           enabled enabled      
+rsyslog.service                            enabled enabled      
+rtc_ntp.service                            enabled enabled      
+setvtrgb.service                           enabled enabled      
+ssh.service                                enabled enabled      
+sshd.service                               enabled enabled      
+strongswan-starter.service                 enabled enabled      
+syslog.service                             enabled enabled      
+systemd-pstore.service                     enabled enabled      
+systemd-resolved.service                   enabled enabled      
+udisks2.service                            enabled enabled      
+usbdevice.service                          enabled enabled      
+wpa_supplicant.service                     enabled enabled      
+remote-fs.target                           enabled enabled      
+anacron.timer                              enabled enabled      
+apt-daily-upgrade.timer                    enabled enabled      
+apt-daily.timer                            enabled enabled      
+e2scrub_all.timer                          enabled enabled      
+fstrim.timer                               enabled enabled      
+motd-news.timer                            enabled enabled      
+rtc_ntp.timer                              enabled enabled      
+
+52 unit files listed.
+graphical.target
+    PID COMMAND         COMMAND
+      1 systemd         /sbin/init
+      2 kthreadd        [kthreadd]
+      3 rcu_gp          [rcu_gp]
+      4 rcu_par_gp      [rcu_par_gp]
+      6 kworker/0:0H-kb [kworker/0:0H-kblockd]
+      7 kworker/u8:0-de [kworker/u8:0-devfreq_workq]
+      8 mm_percpu_wq    [mm_percpu_wq]
+      9 rcu_tasks_rude_ [rcu_tasks_rude_]
+     10 rcu_tasks_trace [rcu_tasks_trace]
+     11 ksoftirqd/0     [ksoftirqd/0]
+     12 rcu_sched       [rcu_sched]
+     13 migration/0     [migration/0]
+     14 cpuhp/0         [cpuhp/0]
+     15 cpuhp/1         [cpuhp/1]
+     16 migration/1     [migration/1]
+     17 ksoftirqd/1     [ksoftirqd/1]
+     20 cpuhp/2         [cpuhp/2]
+     21 migration/2     [migration/2]
+     22 ksoftirqd/2     [ksoftirqd/2]
+     25 cpuhp/3         [cpuhp/3]
+     26 migration/3     [migration/3]
+     27 ksoftirqd/3     [ksoftirqd/3]
+     30 kdevtmpfs       [kdevtmpfs]
+     31 netns           [netns]
+     36 kauditd         [kauditd]
+     37 oom_reaper      [oom_reaper]
+     38 writeback       [writeback]
+     83 kblockd         [kblockd]
+     84 blkcg_punt_bio  [blkcg_punt_bio]
+     85 kconsole        [kconsole]
+     86 tpm_dev_wq      [tpm_dev_wq]
+     87 edac-poller     [edac-poller]
+     88 devfreq_wq      [devfreq_wq]
+     89 watchdogd       [watchdogd]
+     90 kworker/u8:1-sk [kworker/u8:1-skw_evt_wq.1]
+     92 rpciod          [rpciod]
+     94 xprtiod         [xprtiod]
+     95 cfg80211        [cfg80211]
+     96 irq/92-rockchip [irq/92-rockchip]
+    116 kswapd0         [kswapd0]
+    117 nfsiod          [nfsiod]
+    118 xfsalloc        [xfsalloc]
+    119 xfs_mru_cache   [xfs_mru_cache]
+    121 kthrotld        [kthrotld]
+    122 irq/94-rockchip [irq/94-rockchip]
+    124 kworker/3:3-eve [kworker/3:3-events]
+    125 irq/95-rockchip [irq/95-rockchip]
+    129 queue_work0     [queue_work0]
+    130 queue_work1     [queue_work1]
+    131 queue_work2     [queue_work2]
+    132 queue_work3     [queue_work3]
+    133 queue_work4     [queue_work4]
+    134 queue_work5     [queue_work5]
+    135 irq/32-fdea0400 [irq/32-fdea0400]
+    136 irq/37-fdee0000 [irq/37-fdee0000]
+    138 irq/39-fdef0000 [irq/39-fdef0000]
+    139 kworker/2:3-eve [kworker/2:3-events]
+    140 irq/35-fded0000 [irq/35-fded0000]
+    141 hwrng           [hwrng]
+    142 kworker/1:2+eve [kworker/1:2+events]
+    146 dmabuf-deferred [dmabuf-deferred]
+    147 nvme-wq         [nvme-wq]
+    148 nvme-reset-wq   [nvme-reset-wq]
+    149 nvme-delete-wq  [nvme-delete-wq]
+    150 scsi_eh_0       [scsi_eh_0]
+    151 scsi_tmf_0      [scsi_tmf_0]
+    152 spi3            [spi3]
+    153 stmmac_wq       [stmmac_wq]
+    156 stmmac_wq       [stmmac_wq]
+    161 kworker/0:4-eve [kworker/0:4-events]
+    162 uas             [uas]
+    163 goodix_wq       [goodix_wq]
+    164 goodix_wq       [goodix_wq]
+    165 irq/105-rk817   [irq/105-rk817]
+    166 goodix_resume   [goodix_resume]
+    167 dm_bufio_cache  [dm_bufio_cache]
+    168 cfinteractive   [cfinteractive]
+    172 sdhci           [sdhci]
+    173 irq/71-mmc0     [irq/71-mmc0]
+    174 cryptodev_queue [cryptodev_queue]
+    175 irq/131-headset [irq/131-headset]
+    176 ipv6_addrconf   [ipv6_addrconf]
+    177 krfcommd        [krfcommd]
+    179 irq/34-rga2     [irq/34-rga2]
+    180 mmc_complete    [mmc_complete]
+    181 iommu_wq        [iommu_wq]
+    182 irq/40-fdf40000 [irq/40-fdf40000]
+    183 gpu_power_off_w [gpu_power_off_w]
+    184 free_pages_work [free_pages_work]
+    185 kbase_job_fault [kbase_job_fault]
+    187 hpd_queue       [hpd_queue]
+    188 irq/55-fe0a0000 [irq/55-fe0a0000]
+    189 cec-dw_hdmi     [cec-dw_hdmi]
+    190 irq/55-dw-hdmi- [irq/55-dw-hdmi-]
+    191 card0-crtc0     [card0-crtc0]
+    192 card0-crtc1     [card0-crtc1]
+    193 card0-crtc2     [card0-crtc2]
+    195 rknpu_power_off [rknpu_power_off]
+    200 jbd2/mmcblk0p6- [jbd2/mmcblk0p6-]
+    201 ext4-rsv-conver [ext4-rsv-conver]
+    225 systemd-journal /lib/systemd/systemd-journald
+    260 systemd-udevd   /lib/systemd/systemd-udevd
+    310 kworker/1:2H-sk [kworker/1:2H-skwifid_dywq.1]
+    316 systemd-resolve /lib/systemd/systemd-resolved
+    402 dbus-daemon     /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    408 NetworkManager  /usr/sbin/NetworkManager --no-daemon
+    421 kworker/2:2H-kb [kworker/2:2H-kblockd]
+    422 rpdzkj-mobilene /bin/bash /etc/init.d/rpdzkj-mobilenet.sh
+    440 rsyslogd        /usr/sbin/rsyslogd -n -iNONE
+    449 systemd-logind  /lib/systemd/systemd-logind
+    450 udisksd         /usr/lib/udisks2/udisksd
+    452 wpa_supplicant  /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+    518 usbdevice       /bin/sh /usr/bin/usbdevice start
+    526 adbd            /usr/bin/adbd
+    594 irq/103-dwc3    [irq/103-dwc3]
+    621 polkitd         /usr/lib/policykit-1/polkitd --no-debug
+    693 skw_sdio_rx_thr [skw_sdio_rx_thr]
+    736 ntpd            /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 109:114
+    750 sshd            sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+    819 slim            /usr/bin/slim -nodaemon
+    856 skw_evt_wq.1    [skw_evt_wq.1]
+    857 skw_rx.1        [skw_rx.1]
+    872 Xorg            /usr/lib/xorg/Xorg -nolisten tcp -auth /var/run/slim.auth
+    907 bluetoothd      /usr/lib/bluetooth/bluetoothd
+    910 kworker/u9:2-sk [kworker/u9:2-skw_txwq.1]
+    972 kbase_event     [kbase_event]
+   1069 systemd         /lib/systemd/systemd --user
+   1070 (sd-pam)        (sd-pam)
+   1076 pulseaudio      /usr/bin/pulseaudio --daemonize=no --log-target=journal
+   1078 tracker-miner-f /usr/libexec/tracker-miner-fs
+   1079 xfce4-session   xfce4-session
+   1096 dbus-daemon     /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1103 gvfsd           /usr/libexec/gvfsd
+   1117 gvfs-udisks2-vo /usr/libexec/gvfs-udisks2-volume-monitor
+   1179 ssh-agent       /usr/bin/ssh-agent x-session-manager
+   1264 at-spi-bus-laun /usr/libexec/at-spi-bus-launcher
+   1269 dbus-daemon     /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+   1273 xfconfd         /usr/lib/aarch64-linux-gnu/xfce4/xfconf/xfconfd
+   1279 at-spi2-registr /usr/libexec/at-spi2-registryd --use-gnome-session
+   1285 gpg-agent       /usr/bin/gpg-agent --supervised
+   1287 xfwm4           xfwm4
+   1293 starter         /usr/lib/ipsec/starter --daemon charon --nofork
+   1301 agetty          /sbin/agetty -o -p -- \u --noclear tty1 linux
+   1302 login           /bin/login -f
+   1303 charon          /usr/lib/ipsec/charon
+   1311 xl2tpd          /usr/sbin/xl2tpd
+   1335 systemd         /lib/systemd/systemd --user
+   1337 (sd-pam)        (sd-pam)
+   1344 bash            -bash
+   1375 xfsettingsd     xfsettingsd
+   1376 xfce4-panel     xfce4-panel
+   1382 Thunar          Thunar --daemon
+   1388 xfdesktop       xfdesktop
+   1392 panel-6-systray /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libsystray.so 6 14680072 systray Notification Area Area where notification icons appear
+   1393 panel-8-pulseau /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 8 14680073 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+   1394 panel-10-notifi /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 10 14680074 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+   1395 panel-14-action /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libactions.so 14 14680075 actions Action Buttons Log out, lock or other system actions
+   1403 blueman-applet  /usr/bin/python3 /usr/bin/blueman-applet
+   1404 udiskie         /usr/bin/python3 /usr/bin/udiskie -n -s
+   1405 evolution-alarm /usr/libexec/evolution-data-server/evolution-alarm-notify
+   1409 agent           /usr/libexec/geoclue-2.0/demos/agent
+   1413 nm-applet       nm-applet
+   1418 onboard         /usr/bin/python3 /usr/bin/onboard
+   1425 gvfsd-trash     /usr/libexec/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+   1434 gvfsd-metadata  /usr/libexec/gvfsd-metadata
+   1462 evolution-sourc /usr/libexec/evolution-source-registry
+   1467 xfce4-notifyd   /usr/lib/aarch64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+   1482 evolution-calen /usr/libexec/evolution-calendar-factory
+   1493 blueman-tray    /usr/bin/python3 /usr/bin/blueman-tray
+   1503 dconf-service   /usr/libexec/dconf-service
+   1507 evolution-addre /usr/libexec/evolution-addressbook-factory
+   1514 obexd           /usr/lib/bluetooth/obexd
+   1984 sshd            sshd: kickpi [priv]
+   2034 sshd            sshd: kickpi@pts/0
+   2035 bash            -bash
+   2065 sudo            sudo su
+   2114 su              su
+   2115 bash            bash
+   2414 kworker/3:1H    [kworker/3:1H]
+   2546 sshd            sshd: kickpi [priv]
+   2677 sshd            sshd: kickpi@pts/1
+   2678 bash            -bash
+   2712 sudo            sudo -S -p [sudo] password:  bash
+   2713 bash            bash
+   2797 kworker/u9:0-ma [kworker/u9:0-mali_jd]
+   2816 kworker/u8:4-de [kworker/u8:4-devfreq_wq]
+   3372 kworker/2:0-cgr [kworker/2:0-cgroup_destroy]
+   3373 kworker/0:0-pm  [kworker/0:0-pm]
+   3380 kworker/1:0-cgr [kworker/1:0-cgroup_destroy]
+   3477 kworker/3:0-cgr [kworker/3:0-cgroup_destroy]
+   3590 kworker/1:0H-kb [kworker/1:0H-kblockd]
+   3591 kworker/3:0H-kb [kworker/3:0H-kblockd]
+   3592 kworker/0:1H-kb [kworker/0:1H-kblockd]
+   3654 kworker/u8:3-sk [kworker/u8:3-skw_evt_wq.1]
+   3661 kworker/2:1H    [kworker/2:1H]
+   3928 kworker/1:1-cgr [kworker/1:1-cgroup_destroy]
+   3929 kworker/2:1-eve [kworker/2:1-events]
+   4027 kworker/3:1-cgr [kworker/3:1-cgroup_destroy]
+   4072 kworker/u9:1-sk [kworker/u9:1-skw_txwq.1]
+   4264 kworker/1:1H    [kworker/1:1H]
+   4323 kworker/0:2H    [kworker/0:2H]
+   4334 sleep           sleep 10
+   4342 python3         python3 -
+   4353 systemd-hostnam /lib/systemd/systemd-hostnamed
+   4360 systemd-timedat /lib/systemd/systemd-timedated
+   4543 kworker/0:1-eve [kworker/0:1-events]
+   4726 sh              /bin/sh -c systemctl --failed --no-pager; systemctl list-units --type=service --all --no-pager; systemctl list-unit-files --state=enabled --no-pager; systemctl get-default; ps -eo pid,comm,args; journalctl -b -p warning --no-pager -n 160
+   4731 ps              ps -eo pid,comm,args
+-- Logs begin at Thu 2023-03-02 20:58:02 CST, end at Sat 2026-11-21 13:08:27 CST. --
+Nov 21 13:01:25 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+Nov 21 13:01:26 kickpi systemd[1]: rtc_ntp.service: Start request repeated too quickly.
+Nov 21 13:01:26 kickpi systemd[1]: rtc_ntp.service: Failed with result 'start-limit-hit'.
+Nov 21 13:01:26 kickpi systemd[1]: Failed to start Network RTC Time Service.
+Nov 21 13:01:26 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+Nov 21 13:01:27 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+Nov 21 13:01:36 kickpi kernel: [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+Nov 21 13:01:39 kickpi kernel: [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 176
+Nov 21 13:01:39 kickpi kernel: [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+Nov 21 13:01:52 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:01:53 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+Nov 21 13:01:54 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+Nov 21 13:01:56 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:01:57 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+Nov 21 13:01:58 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:02:02 kickpi systemd[1]: rtc_ntp.service: Start request repeated too quickly.
+Nov 21 13:02:02 kickpi systemd[1]: rtc_ntp.service: Failed with result 'start-limit-hit'.
+Nov 21 13:02:02 kickpi systemd[1]: Failed to start Network RTC Time Service.
+Nov 21 13:02:09 kickpi kernel: [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+Nov 21 13:02:10 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+Nov 21 13:02:15 kickpi kernel: [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 254
+Nov 21 13:02:15 kickpi kernel: [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+Nov 21 13:02:23 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:02:24 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:02:25 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+Nov 21 13:02:27 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:02:28 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:02:29 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:02:45 kickpi kernel: [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+Nov 21 13:02:49 kickpi kernel: [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 175
+Nov 21 13:02:49 kickpi kernel: [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+Nov 21 13:02:53 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:02:54 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:02:55 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:02:57 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:02:58 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+Nov 21 13:02:59 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:03:02 kickpi systemd[1]: rtc_ntp.service: Start request repeated too quickly.
+Nov 21 13:03:02 kickpi systemd[1]: rtc_ntp.service: Failed with result 'start-limit-hit'.
+Nov 21 13:03:02 kickpi systemd[1]: Failed to start Network RTC Time Service.
+Nov 21 13:03:19 kickpi kernel: [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+Nov 21 13:03:23 kickpi kernel: [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 171
+Nov 21 13:03:23 kickpi kernel: [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+Nov 21 13:03:24 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+Nov 21 13:03:25 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+Nov 21 13:03:26 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+Nov 21 13:03:28 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:03:29 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+Nov 21 13:03:30 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:03:53 kickpi kernel: [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+Nov 21 13:03:55 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+Nov 21 13:03:56 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+Nov 21 13:03:56 kickpi kernel: [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 147
+Nov 21 13:03:56 kickpi kernel: [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+Nov 21 13:03:57 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+Nov 21 13:03:59 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:04:00 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+Nov 21 13:04:00 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+Nov 21 13:04:02 kickpi systemd[1]: rtc_ntp.service: Start request repeated too quickly.
+Nov 21 13:04:02 kickpi systemd[1]: rtc_ntp.service: Failed with result 'start-limit-hit'.
+Nov 21 13:04:02 kickpi systemd[1]: Failed to start Network RTC Time Service.
+Nov 21 13:04:26 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:04:26 kickpi kernel: [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+Nov 21 13:04:30 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+Nov 21 13:04:31 kickpi kernel: [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 172
+Nov 21 13:04:31 kickpi kernel: [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+Nov 21 13:04:31 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+Nov 21 13:04:32 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+Nov 21 13:04:57 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:04:58 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:04:59 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+Nov 21 13:05:01 kickpi kernel: [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+Nov 21 13:05:01 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+Nov 21 13:05:01 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+Nov 21 13:05:02 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+Nov 21 13:05:02 kickpi systemd[1]: rtc_ntp.service: Start request repeated too quickly.
+Nov 21 13:05:02 kickpi systemd[1]: rtc_ntp.service: Failed with result 'start-limit-hit'.
+Nov 21 13:05:02 kickpi systemd[1]: Failed to start Network RTC Time Service.
+Nov 21 13:05:04 kickpi kernel: [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 167
+Nov 21 13:05:04 kickpi kernel: [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+Nov 21 13:05:27 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+Nov 21 13:05:28 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+Nov 21 13:05:29 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+Nov 21 13:05:31 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+Nov 21 13:05:32 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+Nov 21 13:05:33 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+Nov 21 13:05:34 kickpi kernel: [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+Nov 21 13:05:34 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+Nov 21 13:05:38 kickpi kernel: [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 140
+Nov 21 13:05:38 kickpi kernel: [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+Nov 21 13:05:58 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:05:59 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+Nov 21 13:06:00 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:06:02 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:06:02 kickpi systemd[1]: rtc_ntp.service: Start request repeated too quickly.
+Nov 21 13:06:02 kickpi systemd[1]: rtc_ntp.service: Failed with result 'start-limit-hit'.
+Nov 21 13:06:02 kickpi systemd[1]: Failed to start Network RTC Time Service.
+Nov 21 13:06:03 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+Nov 21 13:06:04 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+Nov 21 13:06:08 kickpi kernel: [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+Nov 21 13:06:12 kickpi kernel: [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 183
+Nov 21 13:06:12 kickpi kernel: [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+Nov 21 13:06:28 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+Nov 21 13:06:29 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:06:30 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:06:32 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+Nov 21 13:06:33 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:06:34 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+Nov 21 13:06:42 kickpi kernel: [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+Nov 21 13:06:46 kickpi kernel: [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 170
+Nov 21 13:06:46 kickpi kernel: [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+Nov 21 13:06:59 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+Nov 21 13:07:00 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+Nov 21 13:07:01 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+Nov 21 13:07:02 kickpi systemd[1]: rtc_ntp.service: Start request repeated too quickly.
+Nov 21 13:07:02 kickpi systemd[1]: rtc_ntp.service: Failed with result 'start-limit-hit'.
+Nov 21 13:07:02 kickpi systemd[1]: Failed to start Network RTC Time Service.
+Nov 21 13:07:03 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:07:04 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:07:05 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+Nov 21 13:07:16 kickpi kernel: [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+Nov 21 13:07:21 kickpi kernel: [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 226
+Nov 21 13:07:21 kickpi kernel: [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+Nov 21 13:07:28 kickpi systemd[1]: rtc_ntp.service: Start request repeated too quickly.
+Nov 21 13:07:28 kickpi systemd[1]: rtc_ntp.service: Failed with result 'start-limit-hit'.
+Nov 21 13:07:28 kickpi systemd[1]: Failed to start Network RTC Time Service.
+Nov 21 13:07:30 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:07:31 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+Nov 21 13:07:32 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:07:34 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:07:35 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:07:36 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+Nov 21 13:07:39 kickpi kernel: [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 901, sa: 64:d6:9a:9f:f2:d1
+Nov 21 13:07:44 kickpi kernel: [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 903, sa: 64:d6:9a:9f:f2:d1
+Nov 21 13:07:51 kickpi kernel: [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+Nov 21 13:07:55 kickpi kernel: [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 172
+Nov 21 13:07:55 kickpi kernel: [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+Nov 21 13:08:00 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+Nov 21 13:08:01 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+Nov 21 13:08:02 kickpi systemd[1]: rtc_ntp.service: Start request repeated too quickly.
+Nov 21 13:08:02 kickpi systemd[1]: rtc_ntp.service: Failed with result 'start-limit-hit'.
+Nov 21 13:08:02 kickpi systemd[1]: Failed to start Network RTC Time Service.
+Nov 21 13:08:02 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+Nov 21 13:08:04 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+Nov 21 13:08:05 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+Nov 21 13:08:06 kickpi kernel: [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+Nov 21 13:08:21 kickpi kernel: [SKWIFI6621S DBG] skw_ifa4_notifier: action: 1
+Nov 21 13:08:21 kickpi kernel: [SKWIFI6621S DBG] skw_ifa6_notifier: action: 1
+Nov 21 13:08:22 kickpi systemd-timedated[4360]: /dev/rtc is busy. Is somebody keeping it open continuously? That's not a good idea... Returning a bogus RTC timestamp.
+Nov 21 13:08:24 kickpi systemd[1]: Configuration file /lib/systemd/system/mobilenet.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+Nov 21 13:08:24 kickpi systemd[1]: Configuration file /lib/systemd/system/rkisp_demo.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+Nov 21 13:08:24 kickpi systemd[1]: Configuration file /lib/systemd/system/rtc_ntp.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+Nov 21 13:08:24 kickpi systemd[1]: Configuration file /lib/systemd/system/rtc_ntp.timer is marked executable. Please remove executable permission bits. Proceeding anyway.
+Nov 21 13:08:25 kickpi kernel: [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+Nov 21 13:08:25 kickpi systemd[1]: Configuration file /lib/systemd/system/wifibt-init.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+Nov 21 13:08:25 kickpi systemd[1]: Configuration file /lib/systemd/system/rkaiq_3A.service is marked world-writable. Please remove world writability permission bits. Proceeding anyway.
+Nov 21 13:08:25 kickpi systemd[1]: Configuration file /lib/systemd/system/k8d-wifibt-resume.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+Nov 21 13:08:25 kickpi systemd[1]: Configuration file /lib/systemd/system/k8d-wifibt-resume.service is marked world-writable. Please remove world writability permission bits. Proceeding anyway.
+Nov 21 13:08:26 kickpi systemd[1]: Configuration file /lib/systemd/system/rkisp_demo.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+Nov 21 13:08:27 kickpi systemd[1]: Configuration file /lib/systemd/system/wifibt-init.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+
+
+[collector exit_code=0; error=; seconds=4.146]

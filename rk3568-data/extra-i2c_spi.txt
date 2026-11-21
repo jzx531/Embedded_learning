@@ -1,0 +1,18 @@
+$ i2cdetect -l; ls -l /dev/i2c-* /dev/spidev*; cat /sys/bus/spi/devices/spi3.0/modalias
+
+i2c-3	i2c       	rk3x-i2c                        	I2C adapter
+i2c-1	i2c       	rk3x-i2c                        	I2C adapter
+i2c-6	i2c       	DesignWare HDMI                 	I2C adapter
+i2c-4	i2c       	rk3x-i2c                        	I2C adapter
+i2c-2	i2c       	rk3x-i2c                        	I2C adapter
+i2c-0	i2c       	rk3x-i2c                        	I2C adapter
+i2c-5	i2c       	rk3x-i2c                        	I2C adapter
+crw-rw---- 1 root i2c   89, 0 Nov 21 12:39 /dev/i2c-0
+crw-rw---- 1 root i2c   89, 1 Nov 21 12:39 /dev/i2c-1
+crw-rw---- 1 root i2c   89, 2 Nov 21 12:39 /dev/i2c-2
+crw-rw---- 1 root i2c   89, 3 Nov 21 12:39 /dev/i2c-3
+crw-rw---- 1 root i2c   89, 4 Nov 21 12:39 /dev/i2c-4
+crw-rw---- 1 root i2c   89, 5 Nov 21 12:39 /dev/i2c-5
+crw-rw---- 1 root i2c   89, 6 Nov 21 12:39 /dev/i2c-6
+crw------- 1 root root 153, 0 Nov 21 12:39 /dev/spidev3.0
+spi:spidev

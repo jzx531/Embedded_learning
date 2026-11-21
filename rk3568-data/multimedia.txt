@@ -1,0 +1,96 @@
+$ cat /proc/asound/cards /proc/asound/pcm /proc/asound/devices; aplay -l; arecord -l; v4l2-ctl --list-devices; ls -l /sys/class/drm; for d in /sys/class/drm/card*-*; do echo DRM:$d; cat $d/status $d/enabled $d/modes 2>/dev/null; done; ls -l /sys/class/video4linux /sys/class/media /sys/class/graphics; cat /proc/fb; ls -l /dev/mali* /dev/dri /dev/rga* /dev/mpp* /dev/rknpu*
+
+ 0 [rockchiprk809  ]: rockchip-rk809 - rockchip-rk809
+                      rockchip-rk809
+ 1 [rockchiphdmi   ]: rockchip_hdmi - rockchip,hdmi
+                      rockchip,hdmi
+00-00: dailink-multicodecs rk817-hifi-0 : dailink-multicodecs rk817-hifi-0 : playback 1 : capture 1
+01-00: fe400000.i2s-i2s-hifi i2s-hifi-0 : fe400000.i2s-i2s-hifi i2s-hifi-0 : playback 1
+  1:        : sequencer
+  2: [ 0- 0]: digital audio playback
+  3: [ 0- 0]: digital audio capture
+  4: [ 0]   : control
+  5: [ 1- 0]: digital audio playback
+  6: [ 1]   : control
+ 33:        : timer
+**** List of PLAYBACK Hardware Devices ****
+card 0: rockchiprk809 [rockchip-rk809], device 0: dailink-multicodecs rk817-hifi-0 [dailink-multicodecs rk817-hifi-0]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 1: rockchiphdmi [rockchip,hdmi], device 0: fe400000.i2s-i2s-hifi i2s-hifi-0 [fe400000.i2s-i2s-hifi i2s-hifi-0]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+**** List of CAPTURE Hardware Devices ****
+card 0: rockchiprk809 [rockchip-rk809], device 0: dailink-multicodecs rk817-hifi-0 [dailink-multicodecs rk817-hifi-0]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+rkisp-statistics (platform: rkisp):
+	/dev/video8
+	/dev/video9
+
+rkisp_mainpath (platform:rkisp-vir0):
+	/dev/video0
+	/dev/video1
+	/dev/video2
+	/dev/video3
+	/dev/video4
+	/dev/video5
+	/dev/video6
+	/dev/video7
+	/dev/media0
+
+total 0
+lrwxrwxrwx 1 root root    0 Nov 21 12:39 card0 -> ../../devices/platform/display-subsystem/drm/card0
+lrwxrwxrwx 1 root root    0 Nov 21 12:39 card0-DSI-1 -> ../../devices/platform/display-subsystem/drm/card0/card0-DSI-1
+lrwxrwxrwx 1 root root    0 Nov 21 12:39 card0-HDMI-A-1 -> ../../devices/platform/display-subsystem/drm/card0/card0-HDMI-A-1
+lrwxrwxrwx 1 root root    0 Nov 21 12:39 card0-Writeback-1 -> ../../devices/platform/display-subsystem/drm/card0/card0-Writeback-1
+lrwxrwxrwx 1 root root    0 Nov 21 12:39 card1 -> ../../devices/platform/fde40000.npu/drm/card1
+lrwxrwxrwx 1 root root    0 Nov 21 12:39 renderD128 -> ../../devices/platform/display-subsystem/drm/renderD128
+lrwxrwxrwx 1 root root    0 Nov 21 12:39 renderD129 -> ../../devices/platform/fde40000.npu/drm/renderD129
+-r--r--r-- 1 root root 4096 Nov 21 12:39 version
+DRM:/sys/class/drm/card0-DSI-1
+connected
+enabled
+800x1280
+DRM:/sys/class/drm/card0-HDMI-A-1
+disconnected
+disabled
+DRM:/sys/class/drm/card0-Writeback-1
+unknown
+disabled
+ls: cannot access '/sys/class/media': No such file or directory
+/sys/class/graphics:
+total 0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 fb0 -> ../../devices/platform/display-subsystem/graphics/fb0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 fbcon -> ../../devices/virtual/graphics/fbcon
+
+/sys/class/video4linux:
+total 0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 v4l-subdev0 -> ../../devices/platform/rkisp-vir0/video4linux/v4l-subdev0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 v4l-subdev1 -> ../../devices/platform/rkisp-vir0/video4linux/v4l-subdev1
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 v4l-subdev2 -> ../../devices/platform/csi2-dphy0/video4linux/v4l-subdev2
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 video0 -> ../../devices/platform/rkisp-vir0/video4linux/video0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 video1 -> ../../devices/platform/rkisp-vir0/video4linux/video1
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 video2 -> ../../devices/platform/rkisp-vir0/video4linux/video2
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 video3 -> ../../devices/platform/rkisp-vir0/video4linux/video3
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 video4 -> ../../devices/platform/rkisp-vir0/video4linux/video4
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 video5 -> ../../devices/platform/rkisp-vir0/video4linux/video5
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 video6 -> ../../devices/platform/rkisp-vir0/video4linux/video6
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 video7 -> ../../devices/platform/rkisp-vir0/video4linux/video7
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 video8 -> ../../devices/platform/rkisp-vir0/video4linux/video8
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 video9 -> ../../devices/platform/rkisp-vir0/video4linux/video9
+0 rockchipdrmfb
+ls: cannot access '/dev/rknpu*': No such file or directory
+crw-rw---- 1 root video  10, 122 Nov 21 12:39 /dev/mali0
+crw-rw---- 1 root video 241,   0 Nov 21 12:39 /dev/mpp_service
+crw-rw---- 1 root video  10, 124 Nov 21 12:39 /dev/rga
+
+/dev/dri:
+total 0
+crw-rw----+ 1 root video  226,   0 Nov 21 12:39 card0
+crw-rw----+ 1 root video  226,   1 Nov 21 12:39 card1
+crw-rw----+ 1 root render 226, 128 Nov 21 12:39 renderD128
+crw-rw----+ 1 root render 226, 129 Nov 21 12:39 renderD129
+
+
+[collector exit_code=2; error=; seconds=0.101]

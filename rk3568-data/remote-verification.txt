@@ -1,0 +1,22 @@
+Verification through the existing root sudo SSH session, 2026-11-21 Asia/Shanghai.
+
+$ sha256sum /sys/firmware/fdt /tmp/rk3568-inventory-20261121.json /tmp/rk3568-extra-20261121.json
+d13648b079ae32e85bf677b23391915b620610c761dcf30285ef2d4f62859e06  /sys/firmware/fdt
+4fd41041c977fbf87b89e3cc314c9d07d86b087a8e0d7c4b28a8b69de209b355  /tmp/rk3568-inventory-20261121.json
+e056d52cb86ce4f87960f504362a0b1150517ad68f4962eace6c668281e4836e  /tmp/rk3568-extra-20261121.json
+
+$ for c in dtc gpioinfo cmake gcc g++ make git python3 media-ctl v4l2-ctl bluetoothctl; do printf '%s: ' "$c"; command -v "$c" || true; done
+dtc: [not found]
+gpioinfo: [not found]
+cmake: [not found]
+gcc: /usr/bin/gcc
+g++: /usr/bin/g++
+make: /usr/bin/make
+git: /usr/bin/git
+python3: /usr/bin/python3
+media-ctl: /usr/bin/media-ctl
+v4l2-ctl: /usr/bin/v4l2-ctl
+bluetoothctl: /usr/bin/bluetoothctl
+
+Line wrapping and terminal control sequences were removed for readability.
+The [not found] markers describe command -v producing no output.

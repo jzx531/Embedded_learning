@@ -1,0 +1,323 @@
+$ ls -l /dev; cat /proc/devices; cat /proc/tty/driver/serial; cat /proc/tty/drivers; ls -l /dev/serial/by-*
+
+total 8
+crw-------  1 root root    234,   1 Nov 21 12:39 ATC
+crw-------  1 root root    234,  13 Nov 21 12:39 BTBOOT
+crw-------  1 root root    234,  10 Nov 21 12:39 LOG
+crw-------  1 root root    234,   2 Nov 21 12:39 LOOPCHECK
+crw-------  1 root root    511,   1 Nov 21 12:39 SKWBT_LOG
+crw-------  1 root root    234,  14 Nov 21 12:39 SKWDUMP
+drwxr-xr-x  3 root root         440 Nov 21 12:39 block
+crw-rw----  1 root disk     10, 234 Nov 21 12:39 btrfs-control
+drwxr-xr-x  3 root root          60 Jan  1  1970 bus
+crw-rw----  1 root video   248,   0 Nov 21 12:39 cec0
+drwxr-xr-x  2 root root        4300 Nov 21 12:39 char
+crw-------  1 root root      5,   1 Nov 21 12:39 console
+crw-------  1 root root     10, 125 Nov 21 12:39 cpu_dma_latency
+crw-rw-rw-  1 root root     10, 126 Nov 21 12:39 crypto
+drwxr-xr-x  7 root root         140 Nov 21 12:39 disk
+drwxr-xr-x  2 root root         160 Jan  1  1970 dma_heap
+drwxr-xr-x  2 root root         120 Nov 21 12:39 dri
+crw-rw----  1 root video    29,   0 Nov 21 12:39 fb0
+lrwxrwxrwx  1 root root          13 Nov 21 12:39 fd -> /proc/self/fd
+crw-rw-rw-  1 root root      1,   7 Nov 21 12:39 full
+crw-rw-rw-  1 root root     10, 229 Nov 21 12:39 fuse
+crw-------  1 root root    254,   0 Nov 21 12:39 gpiochip0
+crw-------  1 root root    254,   1 Nov 21 12:39 gpiochip1
+crw-------  1 root root    254,   2 Nov 21 12:39 gpiochip2
+crw-------  1 root root    254,   3 Nov 21 12:39 gpiochip3
+crw-------  1 root root    254,   4 Nov 21 12:39 gpiochip4
+crw-------  1 root root    254,   5 Nov 21 12:39 gpiochip5
+crw-rw-rw-  1 root root     10, 120 Nov 21 12:39 hdmi_hdcp1x
+crw-------  1 root root    235,   0 Nov 21 12:39 hidraw0
+crw-------  1 root root    235,   1 Nov 21 12:39 hidraw1
+crw-------  1 root root    235,   2 Nov 21 12:39 hidraw2
+drwxr-xr-x  2 root root           0 Nov 21 12:39 hugepages
+crw-------  1 root root     10, 183 Nov 21 12:39 hwrng
+crw-rw----  1 root i2c      89,   0 Nov 21 12:39 i2c-0
+crw-rw----  1 root i2c      89,   1 Nov 21 12:39 i2c-1
+crw-rw----  1 root i2c      89,   2 Nov 21 12:39 i2c-2
+crw-rw----  1 root i2c      89,   3 Nov 21 12:39 i2c-3
+crw-rw----  1 root i2c      89,   4 Nov 21 12:39 i2c-4
+crw-rw----  1 root i2c      89,   5 Nov 21 12:39 i2c-5
+crw-rw----  1 root i2c      89,   6 Nov 21 12:39 i2c-6
+crw-------  1 root root    245,   0 Nov 21 12:39 iio:device0
+lrwxrwxrwx  1 root root          12 Nov 21 12:39 initctl -> /run/initctl
+drwxr-xr-x  4 root root         320 Nov 21 12:39 input
+crw-r--r--  1 root root      1,  11 Nov 21 12:39 kmsg
+lrwxrwxrwx  1 root root          28 Nov 21 12:39 log -> /run/systemd/journal/dev-log
+crw-rw----  1 root disk     10, 237 Nov 21 12:39 loop-control
+brw-rw----  1 root disk      7,   0 Nov 21 12:39 loop0
+brw-rw----  1 root disk      7,   1 Nov 21 12:39 loop1
+brw-rw----  1 root disk      7,   2 Nov 21 12:39 loop2
+brw-rw----  1 root disk      7,   3 Nov 21 12:39 loop3
+brw-rw----  1 root disk      7,   4 Nov 21 12:39 loop4
+brw-rw----  1 root disk      7,   5 Nov 21 12:39 loop5
+brw-rw----  1 root disk      7,   6 Nov 21 12:39 loop6
+brw-rw----  1 root disk      7,   7 Nov 21 12:39 loop7
+crw-rw----  1 root video    10, 122 Nov 21 12:39 mali0
+drwxr-xr-x  2 root root          60 Nov 21 12:39 mapper
+crw-rw----  1 root video   249,   0 Nov 21 12:39 media0
+crw-r-----  1 root kmem      1,   1 Nov 21 12:39 mem
+brw-rw----  1 root disk    179,   0 Nov 21 12:39 mmcblk0
+brw-rw----  1 root disk    179,  32 Nov 21 12:39 mmcblk0boot0
+brw-rw----  1 root disk    179,  64 Nov 21 12:39 mmcblk0boot1
+brw-rw----  1 root disk    179,   1 Nov 21 12:39 mmcblk0p1
+brw-rw----  1 root disk    179,   2 Nov 21 12:39 mmcblk0p2
+brw-rw----  1 root disk    179,   3 Nov 21 12:39 mmcblk0p3
+brw-rw----  1 root disk    179,   4 Nov 21 12:39 mmcblk0p4
+brw-rw----  1 root disk    179,   5 Nov 21 12:39 mmcblk0p5
+brw-rw----  1 root disk    179,   6 Nov 21 12:39 mmcblk0p6
+crw-------  1 root root    236,   0 Nov 21 12:39 mmcblk0rpmb
+crw-rw----  1 root video   241,   0 Nov 21 12:39 mpp_service
+drwxrwxrwt  2 root root          40 Jan  1  1970 mqueue
+drwxr-xr-x  2 root root          60 Jan  1  1970 net
+crw-rw-rw-  1 root root      1,   3 Nov 21 12:39 null
+crw-r-----  1 root kmem      1,   4 Nov 21 12:39 port
+crw-------  1 root root    108,   0 Nov 21 12:39 ppp
+crw-rw-rw-  1 root tty       5,   2 Nov 21 13:08 ptmx
+crw-------  1 root root    246,   0 Nov 21 12:39 ptp0
+crw-------  1 root root    246,   1 Nov 21 12:39 ptp1
+drwxr-xr-x  2 root root           0 Nov 21 12:39 pts
+brw-rw----  1 root disk      1,   0 Nov 21 12:39 ram0
+crw-rw-rw-  1 root root      1,   8 Nov 21 12:39 random
+crw-rw-r--+ 1 root root     10, 242 Nov 21 12:39 rfkill
+crw-rw----  1 root video    10, 124 Nov 21 12:39 rga
+crw-rw-rw-  1 root root     10, 121 Nov 21 12:39 rk_cec
+lrwxrwxrwx  1 root root           4 Nov 21 12:39 rtc -> rtc0
+crw-------  1 root root    250,   0 Nov 21 12:39 rtc0
+crw-------  1 root root    250,   1 Nov 21 12:39 rtc1
+drwxrwxrwt  2 root root          40 Nov 21 12:39 shm
+drwxr-xr-x  3 root root         200 Nov 21 12:39 snd
+crw-------  1 root root    153,   0 Nov 21 12:39 spidev3.0
+lrwxrwxrwx  1 root root          15 Nov 21 12:39 stderr -> /proc/self/fd/2
+lrwxrwxrwx  1 root root          15 Nov 21 12:39 stdin -> /proc/self/fd/0
+lrwxrwxrwx  1 root root          15 Nov 21 12:39 stdout -> /proc/self/fd/1
+crw-------  1 root root     10, 127 Nov 21 12:39 sw_sync
+crw-rw-rw-  1 root tty       5,   0 Nov 21 12:44 tty
+crw--w----  1 root tty       4,   0 Nov 21 12:39 tty0
+crw--w----  1 root tty       4,   1 Nov 21 12:39 tty1
+crw--w----  1 root tty       4,  10 Nov 21 12:39 tty10
+crw--w----  1 root tty       4,  11 Nov 21 12:39 tty11
+crw--w----  1 root tty       4,  12 Nov 21 12:39 tty12
+crw--w----  1 root tty       4,  13 Nov 21 12:39 tty13
+crw--w----  1 root tty       4,  14 Nov 21 12:39 tty14
+crw--w----  1 root tty       4,  15 Nov 21 12:39 tty15
+crw--w----  1 root tty       4,  16 Nov 21 12:39 tty16
+crw--w----  1 root tty       4,  17 Nov 21 12:39 tty17
+crw--w----  1 root tty       4,  18 Nov 21 12:39 tty18
+crw--w----  1 root tty       4,  19 Nov 21 12:39 tty19
+crw--w----  1 root tty       4,   2 Nov 21 12:39 tty2
+crw--w----  1 root tty       4,  20 Nov 21 12:39 tty20
+crw--w----  1 root tty       4,  21 Nov 21 12:39 tty21
+crw--w----  1 root tty       4,  22 Nov 21 12:39 tty22
+crw--w----  1 root tty       4,  23 Nov 21 12:39 tty23
+crw--w----  1 root tty       4,  24 Nov 21 12:39 tty24
+crw--w----  1 root tty       4,  25 Nov 21 12:39 tty25
+crw--w----  1 root tty       4,  26 Nov 21 12:39 tty26
+crw--w----  1 root tty       4,  27 Nov 21 12:39 tty27
+crw--w----  1 root tty       4,  28 Nov 21 12:39 tty28
+crw--w----  1 root tty       4,  29 Nov 21 12:39 tty29
+crw--w----  1 root tty       4,   3 Nov 21 12:39 tty3
+crw--w----  1 root tty       4,  30 Nov 21 12:39 tty30
+crw--w----  1 root tty       4,  31 Nov 21 12:39 tty31
+crw--w----  1 root tty       4,  32 Nov 21 12:39 tty32
+crw--w----  1 root tty       4,  33 Nov 21 12:39 tty33
+crw--w----  1 root tty       4,  34 Nov 21 12:39 tty34
+crw--w----  1 root tty       4,  35 Nov 21 12:39 tty35
+crw--w----  1 root tty       4,  36 Nov 21 12:39 tty36
+crw--w----  1 root tty       4,  37 Nov 21 12:39 tty37
+crw--w----  1 root tty       4,  38 Nov 21 12:39 tty38
+crw--w----  1 root tty       4,  39 Nov 21 12:39 tty39
+crw--w----  1 root tty       4,   4 Nov 21 12:39 tty4
+crw--w----  1 root tty       4,  40 Nov 21 12:39 tty40
+crw--w----  1 root tty       4,  41 Nov 21 12:39 tty41
+crw--w----  1 root tty       4,  42 Nov 21 12:39 tty42
+crw--w----  1 root tty       4,  43 Nov 21 12:39 tty43
+crw--w----  1 root tty       4,  44 Nov 21 12:39 tty44
+crw--w----  1 root tty       4,  45 Nov 21 12:39 tty45
+crw--w----  1 root tty       4,  46 Nov 21 12:39 tty46
+crw--w----  1 root tty       4,  47 Nov 21 12:39 tty47
+crw--w----  1 root tty       4,  48 Nov 21 12:39 tty48
+crw--w----  1 root tty       4,  49 Nov 21 12:39 tty49
+crw--w----  1 root tty       4,   5 Nov 21 12:39 tty5
+crw--w----  1 root tty       4,  50 Nov 21 12:39 tty50
+crw--w----  1 root tty       4,  51 Nov 21 12:39 tty51
+crw--w----  1 root tty       4,  52 Nov 21 12:39 tty52
+crw--w----  1 root tty       4,  53 Nov 21 12:39 tty53
+crw--w----  1 root tty       4,  54 Nov 21 12:39 tty54
+crw--w----  1 root tty       4,  55 Nov 21 12:39 tty55
+crw--w----  1 root tty       4,  56 Nov 21 12:39 tty56
+crw--w----  1 root tty       4,  57 Nov 21 12:39 tty57
+crw--w----  1 root tty       4,  58 Nov 21 12:39 tty58
+crw--w----  1 root tty       4,  59 Nov 21 12:39 tty59
+crw--w----  1 root tty       4,   6 Nov 21 12:39 tty6
+crw--w----  1 root tty       4,  60 Nov 21 12:39 tty60
+crw--w----  1 root tty       4,  61 Nov 21 12:39 tty61
+crw--w----  1 root tty       4,  62 Nov 21 12:39 tty62
+crw--w----  1 root tty       4,  63 Nov 21 12:39 tty63
+crw--w----  1 root tty       4,   7 Nov 21 12:39 tty7
+crw--w----  1 root tty       4,   8 Nov 21 12:39 tty8
+crw--w----  1 root tty       4,   9 Nov 21 12:39 tty9
+crw-------  1 root tty     253,   0 Nov 21 12:39 ttyFIQ0
+crw-rw----  1 root dialout   4,  64 Nov 21 12:39 ttyS0
+crw-rw----  1 root dialout   4,  67 Nov 21 12:39 ttyS3
+crw-rw----  1 root dialout   4,  68 Nov 21 12:39 ttyS4
+crw-rw----  1 root dialout   4,  71 Nov 21 12:39 ttyS7
+crw-rw----  1 root dialout   4,  72 Nov 21 12:39 ttyS8
+crw-------  1 root root     10, 119 Nov 21 12:39 ubi_ctrl
+crw-------  1 root root     10, 239 Nov 21 12:39 uhid
+crw-------  1 root root     10, 223 Nov 21 12:39 uinput
+crw-rw-rw-  1 root root      1,   9 Nov 21 12:39 urandom
+drwxr-xr-x  3 root root          60 Nov 21 12:39 usb-ffs
+crw-------  1 root root    238,   0 Nov 21 12:39 usbmon0
+crw-------  1 root root    238,   1 Nov 21 12:39 usbmon1
+crw-------  1 root root    238,   2 Nov 21 12:39 usbmon2
+crw-------  1 root root    238,   3 Nov 21 12:39 usbmon3
+crw-------  1 root root    238,   4 Nov 21 12:39 usbmon4
+crw-------  1 root root    238,   5 Nov 21 12:39 usbmon5
+crw-------  1 root root    238,   6 Nov 21 12:39 usbmon6
+drwxr-xr-x  3 root root          60 Nov 21 12:39 v4l
+crw-rw----+ 1 root video    81,  10 Nov 21 12:39 v4l-subdev0
+crw-rw----+ 1 root video    81,  11 Nov 21 12:39 v4l-subdev1
+crw-rw----+ 1 root video    81,  12 Nov 21 12:39 v4l-subdev2
+crw-rw----  1 root tty       7,   0 Nov 21 12:39 vcs
+crw-rw----  1 root tty       7,   1 Nov 21 12:39 vcs1
+crw-rw----  1 root tty       7,   2 Nov 21 12:39 vcs2
+crw-rw----  1 root tty       7,   3 Nov 21 12:39 vcs3
+crw-rw----  1 root tty       7,   4 Nov 21 12:39 vcs4
+crw-rw----  1 root tty       7,   5 Nov 21 12:39 vcs5
+crw-rw----  1 root tty       7,   6 Nov 21 12:39 vcs6
+crw-rw----  1 root tty       7, 128 Nov 21 12:39 vcsa
+crw-rw----  1 root tty       7, 129 Nov 21 12:39 vcsa1
+crw-rw----  1 root tty       7, 130 Nov 21 12:39 vcsa2
+crw-rw----  1 root tty       7, 131 Nov 21 12:39 vcsa3
+crw-rw----  1 root tty       7, 132 Nov 21 12:39 vcsa4
+crw-rw----  1 root tty       7, 133 Nov 21 12:39 vcsa5
+crw-rw----  1 root tty       7, 134 Nov 21 12:39 vcsa6
+crw-rw----  1 root tty       7,  64 Nov 21 12:39 vcsu
+crw-rw----  1 root tty       7,  65 Nov 21 12:39 vcsu1
+crw-rw----  1 root tty       7,  66 Nov 21 12:39 vcsu2
+crw-rw----  1 root tty       7,  67 Nov 21 12:39 vcsu3
+crw-rw----  1 root tty       7,  68 Nov 21 12:39 vcsu4
+crw-rw----  1 root tty       7,  69 Nov 21 12:39 vcsu5
+crw-rw----  1 root tty       7,  70 Nov 21 12:39 vcsu6
+crw-------  1 root root     10, 123 Nov 21 12:39 vendor_storage
+crw-------  1 root root     10, 137 Nov 21 12:39 vhci
+lrwxrwxrwx  1 root root           6 Nov 21 12:39 video-camera0 -> video0
+-rw-rw----  1 root video          4 Nov 21 12:39 video-dec0
+-rw-rw----  1 root video          4 Nov 21 12:39 video-enc0
+crw-rw----+ 1 root video    81,   0 Nov 21 12:39 video0
+crw-rw----+ 1 root video    81,   1 Nov 21 12:39 video1
+crw-rw----+ 1 root video    81,   2 Nov 21 12:39 video2
+crw-rw----+ 1 root video    81,   3 Nov 21 12:39 video3
+crw-rw----+ 1 root video    81,   4 Nov 21 12:39 video4
+crw-rw----+ 1 root video    81,   5 Nov 21 12:39 video5
+crw-rw----+ 1 root video    81,   6 Nov 21 12:39 video6
+crw-rw----+ 1 root video    81,   7 Nov 21 12:39 video7
+crw-rw----+ 1 root video    81,   8 Nov 21 12:39 video8
+crw-rw----+ 1 root video    81,   9 Nov 21 12:39 video9
+crw-------  1 root root     10, 130 Nov 21 12:39 watchdog
+crw-------  1 root root    243,   0 Nov 21 12:39 watchdog0
+crw-rw-rw-  1 root root      1,   5 Nov 21 12:39 zero
+brw-rw----  1 root disk    254,   0 Nov 21 12:39 zram0
+Character devices:
+  1 mem
+  4 /dev/vc/0
+  4 tty
+  4 ttyS
+  5 /dev/tty
+  5 /dev/console
+  5 /dev/ptmx
+  7 vcs
+ 10 misc
+ 13 input
+ 29 fb
+ 81 video4linux
+ 89 i2c
+ 90 mtd
+108 ppp
+116 alsa
+128 ptm
+136 pts
+153 spi
+166 ttyACM
+180 usb
+188 ttyUSB
+189 usb_device
+212 DVB
+226 drm
+234 ATC
+234 LOOPCHECK
+234 LOG
+234 BTBOOT
+234 SKWDUMP
+235 hidraw
+236 rpmb
+237 ttyGS
+238 usbmon
+239 nvme
+240 aux
+241 mpp_service
+242 bsg
+243 watchdog
+244 tee
+245 iio
+246 ptp
+247 pps
+248 cec
+249 media
+250 rtc
+251 dma_heap
+252 tpm
+253 ttyFIQ
+254 gpiochip
+511 SKWBT_LOG
+
+Block devices:
+  1 ramdisk
+  7 loop
+  8 sd
+ 11 sr
+ 31 mtdblock
+ 65 sd
+ 66 sd
+ 67 sd
+ 68 sd
+ 69 sd
+ 70 sd
+ 71 sd
+128 sd
+129 sd
+130 sd
+131 sd
+132 sd
+133 sd
+134 sd
+135 sd
+179 mmc
+253 device-mapper
+254 zram
+259 blkext
+serinfo:1.0 driver revision:
+0: uart:16550A mmio:0xFDD50000 irq:25 tx:0 rx:0
+3: uart:16550A mmio:0xFE670000 irq:86 tx:0 rx:0 CTS
+4: uart:16550A mmio:0xFE680000 irq:87 tx:0 rx:0 CTS
+7: uart:16550A mmio:0xFE6B0000 irq:88 tx:0 rx:0 CTS
+8: uart:16550A mmio:0xFE6C0000 irq:89 tx:88 rx:0
+/dev/tty             /dev/tty        5       0 system:/dev/tty
+/dev/console         /dev/console    5       1 system:console
+/dev/ptmx            /dev/ptmx       5       2 system
+/dev/vc/0            /dev/vc/0       4       0 system:vtmaster
+g_serial             /dev/ttyGS    237 0-7 serial
+usbserial            /dev/ttyUSB   188 0-511 serial
+acm                  /dev/ttyACM   166 0-255 serial
+serial               /dev/ttyS       4 64-73 serial
+pty_slave            /dev/pts      136 0-1048575 pty:slave
+pty_master           /dev/ptm      128 0-1048575 pty:master
+unknown              /dev/tty        4 1-63 console
+fiq-debugger         /dev/ttyFIQ   253       0 serial
+ls: cannot access '/dev/serial/by-*': No such file or directory
+
+
+[collector exit_code=2; error=; seconds=0.028]

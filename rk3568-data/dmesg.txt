@@ -1,0 +1,1807 @@
+$ dmesg --color=never
+
+[    1.567092] Booting Linux on physical CPU 0x0000000000 [0x412fd050]
+[    1.567117] Linux version 5.10.160 (xie@kickpi) (aarch64-none-linux-gnu-gcc (GNU Toolchain for the A-profile Architecture 10.3-2021.07 (arm-10.29)) 10.3.1 20210621, GNU ld (GNU Toolchain for the A-profile Architecture 10.3-2021.07 (arm-10.29)) 2.36.1.20210621) #96 SMP Thu Jul 16 17:15:52 CST 2026
+[    1.571054] Machine model: Rockchip RK3568 KICKPI K1A Board
+[    1.571116] earlycon: uart8250 at MMIO32 0x00000000fe660000 (options '')
+[    1.575308] printk: bootconsole [uart8250] enabled
+[    1.576658] efi: UEFI not found.
+[    1.631779] Zone ranges:
+[    1.632033]   DMA      [mem 0x0000000000200000-0x00000000ffffffff]
+[    1.632616]   DMA32    empty
+[    1.632889]   Normal   [mem 0x0000000100000000-0x00000001ffffffff]
+[    1.633469] Movable zone start for each node
+[    1.633872] Early memory node ranges
+[    1.634209]   node   0: [mem 0x0000000000200000-0x00000000083fffff]
+[    1.634799]   node   0: [mem 0x0000000009400000-0x00000000efffffff]
+[    1.635388]   node   0: [mem 0x00000001f0000000-0x00000001ffffffff]
+[    1.635978] Initmem setup node 0 [mem 0x0000000000200000-0x00000001ffffffff]
+[    1.636642] On node 0 totalpages: 1043968
+[    1.636645]   DMA zone: 15288 pages used for memmap
+[    1.636648]   DMA zone: 0 pages reserved
+[    1.636651]   DMA zone: 978432 pages, LIFO batch:63
+[    1.636654]   Normal zone: 1024 pages used for memmap
+[    1.636656]   Normal zone: 65536 pages, LIFO batch:15
+[    1.655103] cma: Reserved 16 MiB at 0x00000000eec00000
+[    1.655667] psci: probing for conduit method from DT.
+[    1.656151] psci: PSCIv1.1 detected in firmware.
+[    1.656585] psci: Using standard PSCI v0.2 function IDs
+[    1.657080] psci: Trusted OS migration not required
+[    1.657541] psci: SMC Calling Convention v1.2
+[    1.658285] percpu: Embedded 31 pages/cpu s88024 r8192 d30760 u126976
+[    1.658916] pcpu-alloc: s88024 r8192 d30760 u126976 alloc=31*4096
+[    1.658923] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+[    1.659000] Detected VIPT I-cache on CPU0
+[    1.659413] CPU features: detected: GIC system register CPU interface
+[    1.660018] CPU features: detected: Virtualization Host Extensions
+[    1.660603] CPU features: detected: ARM errata 1165522, 1319367, or 1530923
+[    1.661263] alternatives: patching kernel code
+[    1.663707] Built 1 zonelists, mobility grouping on.  Total pages: 1027656
+[    1.664360] Kernel command line: storagemedia=emmc androidboot.storagemedia=emmc androidboot.mode=normal  androidboot.verifiedbootstate=orange rw rootwait earlycon=uart8250,mmio32,0xfe660000 console=ttyFIQ0 root=PARTUUID=614e0000-0000
+[    1.667550] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[    1.668781] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    1.669508] mem auto-init: stack:off, heap alloc:off, heap free:off
+[    1.685996] software IO TLB: mapped [mem 0x00000000e9f00000-0x00000000edf00000] (64MB)
+[    1.729009] Memory: 3970128K/4175872K available (22144K kernel code, 3880K rwdata, 7016K rodata, 7744K init, 657K bss, 189360K reserved, 16384K cma-reserved)
+[    1.730440] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    1.731083] ftrace: allocating 68071 entries in 266 pages
+[    1.816603] ftrace: allocated 266 pages with 3 groups
+[    1.817359] rcu: Hierarchical RCU implementation.
+[    1.817811] rcu: 	RCU event tracing is enabled.
+[    1.818240] rcu: 	RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=4.
+[    1.818854] 	Rude variant of Tasks RCU enabled.
+[    1.819281] 	Tracing variant of Tasks RCU enabled.
+[    1.819734] rcu: RCU calculated value of scheduler-enlistment delay is 30 jiffies.
+[    1.820446] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[    1.825663] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    1.827291] GICv3: GIC: Using split EOI/Deactivate mode
+[    1.827792] GICv3: 320 SPIs implemented
+[    1.828155] GICv3: 0 Extended SPIs implemented
+[    1.828608] GICv3: Distributor has no Range Selector support
+[    1.829148] GICv3: 16 PPIs implemented
+[    1.829539] GICv3: CPU0: found redistributor 0 region 0:0x00000000fd460000
+[    1.830295] ITS [mem 0xfd440000-0xfd45ffff]
+[    1.830757] ITS@0x00000000fd440000: allocated 8192 Devices @2c10000 (indirect, esz 8, psz 64K, shr 0)
+[    1.831656] ITS@0x00000000fd440000: allocated 32768 Interrupt Collections @2c20000 (flat, esz 2, psz 64K, shr 0)
+[    1.832615] ITS: using cache flushing for cmd queue
+[    1.833346] GICv3: using LPI property table @0x0000000002c30000
+[    1.834012] GIC: using cache flushing for LPI property table
+[    1.834549] GICv3: CPU0: using allocated LPI pending table @0x0000000002c40000
+[    1.862876] arch_timer: cp15 timer(s) running at 24.00MHz (phys).
+[    1.863465] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x588fe9dc0, max_idle_ns: 440795202592 ns
+[    1.864485] sched_clock: 56 bits at 24MHz, resolution 41ns, wraps every 4398046511097ns
+[    1.866021] Console: colour dummy device 80x25
+[    1.866472] Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=80000)
+[    1.867444] pid_max: default: 32768 minimum: 301
+[    1.867956] LSM: Security Framework initializing
+[    1.868451] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+[    1.869163] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+[    1.871455] rcu: Hierarchical SRCU implementation.
+[    1.872645] Platform MSI: interrupt-controller@fd440000 domain created
+[    1.873641] PCI/MSI: /interrupt-controller@fd400000/interrupt-controller@fd440000 domain created
+[    1.874700] EFI services will not be available.
+[    1.875449] smp: Bringing up secondary CPUs ...
+[    1.877146] Detected VIPT I-cache on CPU1
+[    1.877178] GICv3: CPU1: found redistributor 100 region 0:0x00000000fd480000
+[    1.877196] GICv3: CPU1: using allocated LPI pending table @0x0000000002c50000
+[    1.877244] CPU1: Booted secondary processor 0x0000000100 [0x412fd050]
+[    1.878535] Detected VIPT I-cache on CPU2
+[    1.878560] GICv3: CPU2: found redistributor 200 region 0:0x00000000fd4a0000
+[    1.878576] GICv3: CPU2: using allocated LPI pending table @0x0000000002c60000
+[    1.878613] CPU2: Booted secondary processor 0x0000000200 [0x412fd050]
+[    1.879870] Detected VIPT I-cache on CPU3
+[    1.879893] GICv3: CPU3: found redistributor 300 region 0:0x00000000fd4c0000
+[    1.879908] GICv3: CPU3: using allocated LPI pending table @0x0000000002c70000
+[    1.879943] CPU3: Booted secondary processor 0x0000000300 [0x412fd050]
+[    1.880046] smp: Brought up 1 node, 4 CPUs
+[    1.887436] SMP: Total of 4 processors activated.
+[    1.887881] CPU features: detected: Privileged Access Never
+[    1.888406] CPU features: detected: User Access Override
+[    1.888908] CPU features: detected: 32-bit EL0 Support
+[    1.889393] CPU features: detected: Common not Private translations
+[    1.889982] CPU features: detected: RAS Extension Support
+[    1.890499] CPU features: detected: Data cache clean to the PoU not required for I/D coherence
+[    1.891310] CPU features: detected: CRC32 instructions
+[    1.891794] CPU features: detected: Speculative Store Bypassing Safe (SSBS)
+[    1.892450] CPU features: detected: RCpc load-acquire (LDAPR)
+[    1.893056] CPU: All CPU(s) started at EL2
+[    1.894461] devtmpfs: initialized
+[    1.908942] Registered cp15_barrier emulation handler
+[    1.909437] Registered setend emulation handler
+[    1.910016] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370867519511994 ns
+[    1.910969] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+[    1.912156] pinctrl core: initialized pinctrl subsystem
+[    1.913121] DMI not present or invalid.
+[    1.913869] NET: Registered protocol family 16
+[    1.915795] DMA: preallocated 512 KiB GFP_KERNEL pool for atomic allocations
+[    1.916612] DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    1.917444] audit: initializing netlink subsys (disabled)
+[    1.918127] audit: type=2000 audit(0.053:1): state=initialized audit_enabled=0 res=1
+[    1.919618] Registered FIQ tty driver
+[    1.920273] thermal_sys: Registered thermal governor 'fair_share'
+[    1.920277] thermal_sys: Registered thermal governor 'step_wise'
+[    1.920884] thermal_sys: Registered thermal governor 'user_space'
+[    1.921452] thermal_sys: Registered thermal governor 'power_allocator'
+[    1.922252] thermal thermal_zone1: power_allocator: sustainable_power will be estimated
+[    1.923671] cpuidle: using governor menu
+[    1.924342] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[    1.925096] ASID allocator initialised with 65536 entries
+[    1.927554] ramoops: dmesg-0	0x20000@0x0000000000110000
+[    1.928105] ramoops: console	0x80000@0x0000000000130000
+[    1.928609] ramoops: pmsg	0x50000@0x00000000001b0000
+[    1.929449] printk: console [ramoops-1] enabled
+[    1.929879] pstore: Registered ramoops as persistent store backend
+[    1.930464] ramoops: using 0xf0000@0x110000, ecc: 0
+[    1.964565] rockchip-gpio fdd60000.gpio0: probed /pinctrl/gpio0@fdd60000
+[    1.965669] rockchip-gpio fe740000.gpio1: probed /pinctrl/gpio1@fe740000
+[    1.966802] rockchip-gpio fe750000.gpio2: probed /pinctrl/gpio2@fe750000
+[    1.968002] rockchip-gpio fe760000.gpio3: probed /pinctrl/gpio3@fe760000
+[    1.969050] rockchip-gpio fe770000.gpio4: probed /pinctrl/gpio4@fe770000
+[    1.969766] rockchip-pinctrl pinctrl: probed pinctrl
+[    1.988921] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+[    1.989570] HugeTLB registered 32.0 MiB page size, pre-allocated 0 pages
+[    1.990205] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[    1.990838] HugeTLB registered 64.0 KiB page size, pre-allocated 0 pages
+[    2.051244] raid6: neonx8   gen()  2520 MB/s
+[    2.107976] raid6: neonx8   xor()  2015 MB/s
+[    2.164720] raid6: neonx4   gen()  2574 MB/s
+[    2.221464] raid6: neonx4   xor()  1996 MB/s
+[    2.278208] raid6: neonx2   gen()  2297 MB/s
+[    2.334945] raid6: neonx2   xor()  1831 MB/s
+[    2.391693] raid6: neonx1   gen()  1853 MB/s
+[    2.448430] raid6: neonx1   xor()  1468 MB/s
+[    2.505172] raid6: int64x8  gen()  1724 MB/s
+[    2.561921] raid6: int64x8  xor()   932 MB/s
+[    2.618655] raid6: int64x4  gen()  1860 MB/s
+[    2.675392] raid6: int64x4  xor()  1004 MB/s
+[    2.732137] raid6: int64x2  gen()  1652 MB/s
+[    2.788877] raid6: int64x2  xor()   897 MB/s
+[    2.845631] raid6: int64x1  gen()  1171 MB/s
+[    2.902372] raid6: int64x1  xor()   611 MB/s
+[    2.902780] raid6: using algorithm neonx4 gen() 2574 MB/s
+[    2.903298] raid6: .... xor() 1996 MB/s, rmw enabled
+[    2.903769] raid6: using neon recovery algorithm
+[    2.905401] fiq_debugger fiq_debugger.0: IRQ fiq not found
+[    2.905933] fiq_debugger fiq_debugger.0: IRQ wakeup not found
+[    2.906484] fiq_debugger_probe: could not install nmi irq handler
+[    2.907154] printk: console [ttyFIQ0] enabled
+[    2.907954] printk: bootconsole [uart8250] disabled
+[    2.908582] Registered fiq debugger ttyFIQ0
+[    2.909409] vcc3v3_sys: supplied by dc_12v
+[    2.909692] vcc5v0_sys: supplied by dc_12v
+[    2.909954] vcc5v0_usb: supplied by dc_12v
+[    2.910570] vcc5v0_host: supplied by vcc5v0_usb
+[    2.910987] vcc5v0_otg: supplied by vcc5v0_usb
+[    2.911155] pcie30_avdd0v9: supplied by vcc3v3_sys
+[    2.911398] pcie30_avdd1v8: supplied by vcc3v3_sys
+[    2.911758] vcc3v3_pcie: supplied by dc_12v
+[    2.911990] reg-fixed-voltage pcie3-regulator: nonexclusive access to GPIO for pcie3-regulator
+[    2.912511] vcc2v5-sys: supplied by vcc3v3_sys
+[    2.912769] vcc3v3_bu: supplied by vcc5v0_sys
+[    2.913871] iommu: Default domain type: Translated 
+[    2.917169] SCSI subsystem initialized
+[    2.917218] libata version 3.00 loaded.
+[    2.917364] usbcore: registered new interface driver usbfs
+[    2.917405] usbcore: registered new interface driver hub
+[    2.917444] usbcore: registered new device driver usb
+[    2.917529] mc: Linux media interface: v0.10
+[    2.917559] videodev: Linux video capture interface: v2.00
+[    2.917627] pps_core: LinuxPPS API ver. 1 registered
+[    2.917636] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    2.917652] PTP clock support registered
+[    2.917687] EDAC MC: Ver: 3.0.0
+[    2.918580] arm-scmi firmware:scmi: SCMI Notifications - Core Enabled.
+[    2.918644] arm-scmi firmware:scmi: SCMI Protocol v2.0 'rockchip:' Firmware version 0x0
+[    2.920479] Advanced Linux Sound Architecture Driver Initialized.
+[    2.920894] Bluetooth: Core ver 2.22
+[    2.920934] NET: Registered protocol family 31
+[    2.920942] Bluetooth: HCI device and connection manager initialized
+[    2.920954] Bluetooth: HCI socket layer initialized
+[    2.920963] Bluetooth: L2CAP socket layer initialized
+[    2.920981] Bluetooth: SCO socket layer initialized
+[    2.921450] rockchip-cpuinfo cpuinfo: SoC		: 35685000
+[    2.921462] rockchip-cpuinfo cpuinfo: Serial		: f069fdac44de5a25
+[    2.922235] clocksource: Switched to clocksource arch_sys_counter
+[    3.341914] NET: Registered protocol family 2
+[    3.342175] IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[    3.343856] tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+[    3.343953] TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    3.344114] TCP bind hash table entries: 32768 (order: 7, 524288 bytes, linear)
+[    3.344486] TCP: Hash tables configured (established 32768 bind 32768)
+[    3.344595] UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[    3.344648] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[    3.344830] NET: Registered protocol family 1
+[    3.345274] RPC: Registered named UNIX socket transport module.
+[    3.345284] RPC: Registered udp transport module.
+[    3.345290] RPC: Registered tcp transport module.
+[    3.345296] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    3.346243] PCI: CLS 0 bytes, default 64
+[    3.348781] rockchip-thermal fe710000.tsadc: tsadc is probed successfully!
+[    3.349774] hw perfevents: enabled with armv8_cortex_a55 PMU driver, 7 counters available
+[    3.353686] Initialise system trusted keyrings
+[    3.353861] workingset: timestamp_bits=46 max_order=20 bucket_order=0
+[    3.357870] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    3.358515] NFS: Registering the id_resolver key type
+[    3.358553] Key type id_resolver registered
+[    3.358561] Key type id_legacy registered
+[    3.358591] ntfs: driver 2.1.32 [Flags: R/W DEBUG].
+[    3.358723] jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+[    3.358957] fuse: init (API version 7.32)
+[    3.359295] SGI XFS with security attributes, no debug enabled
+[    3.389079] NET: Registered protocol family 38
+[    3.389105] xor: measuring software checksum speed
+[    3.392597]    8regs           :  2844 MB/sec
+[    3.395447]    32regs          :  3469 MB/sec
+[    3.398719]    arm64_neon      :  3106 MB/sec
+[    3.398734] xor: using function: 32regs (3469 MB/sec)
+[    3.398750] Key type asymmetric registered
+[    3.398758] Asymmetric key parser 'x509' registered
+[    3.398811] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+[    3.398965] io scheduler mq-deadline registered
+[    3.398986] io scheduler kyber registered
+[    3.399652] rockchip-csi2-dphy-hw fe870000.csi2-dphy-hw: csi2 dphy hw probe successfully!
+[    3.400480] rockchip-csi2-dphy csi2-dphy0: csi2 dphy0 probe successfully!
+[    3.408995] rockchip-snps-pcie3-phy fe8c0000.phy: failed to find rockchip,pipe_grf regmap
+[    3.411653] rk-pcie 3c0000000.pcie: invalid prsnt-gpios property in node
+[    3.412020] rk-pcie 3c0800000.pcie: invalid prsnt-gpios property in node
+[    3.412499] rk-pcie 3c0000000.pcie: IRQ msi not found
+[    3.412516] rk-pcie 3c0000000.pcie: use outband MSI support
+[    3.412525] rk-pcie 3c0000000.pcie: Missing *config* reg space
+[    3.412544] rk-pcie 3c0000000.pcie: host bridge /pcie@fe260000 ranges:
+[    3.412573] rk-pcie 3c0000000.pcie:      err 0x00f4000000..0x00f40fffff -> 0x00f4000000
+[    3.412581] pwm-backlight backlight-dsi0: supply power not found, using dummy regulator
+[    3.412589] rk-pcie 3c0000000.pcie:       IO 0x00f4100000..0x00f41fffff -> 0x00f4100000
+[    3.412601] rk-pcie 3c0000000.pcie:      MEM 0x00f4200000..0x00f5ffffff -> 0x00f4200000
+[    3.412618] rk-pcie 3c0000000.pcie:      MEM 0x0300000000..0x033fffffff -> 0x0300000000
+[    3.412655] rk-pcie 3c0000000.pcie: Missing *config* reg space
+[    3.412688] rk-pcie 3c0000000.pcie: invalid resource
+[    3.412922] kickpi lcd create backlight
+[    3.413305] iep: Module initialized.
+[    3.413375] mpp_service mpp-srv: 50160c63d0 author: tanzh 2023-11-01 update sdk version to rkr6
+[    3.413385] mpp_service mpp-srv: probe start
+[    3.415274] mpp_vdpu2 fdea0400.vdpu: Adding to iommu group 1
+[    3.415478] mpp_vdpu2 fdea0400.vdpu: probe device
+[    3.415977] mpp_vdpu2 fdea0400.vdpu: probing finish
+[    3.416521] mpp_vepu2 fdee0000.vepu: Adding to iommu group 3
+[    3.416706] mpp_vepu2 fdee0000.vepu: probing start
+[    3.417104] mpp_vepu2 fdee0000.vepu: probing finish
+[    3.417770] mpp-iep2 fdef0000.iep: Adding to iommu group 4
+[    3.417953] mpp-iep2 fdef0000.iep: probe device
+[    3.418010] rockchip_p3phy_rk3568_init: lock failed 0x6890000, check input refclk and power supply
+[    3.418028] phy phy-fe8c0000.phy.8: phy init failed --> -110
+[    3.418037] rk-pcie 3c0800000.pcie: fail to init phy, err -110
+[    3.418044] rk-pcie 3c0800000.pcie: phy init failed
+[    3.418218] mpp-iep2 fdef0000.iep: allocate roi buffer failed
+[    3.418444] mpp-iep2 fdef0000.iep: probing finish
+[    3.419008] mpp_jpgdec fded0000.jpegd: Adding to iommu group 2
+[    3.419162] mpp_jpgdec fded0000.jpegd: probe device
+[    3.419610] mpp_jpgdec fded0000.jpegd: probing finish
+[    3.420876] mpp_service mpp-srv: probe success
+[    3.425081] dma-pl330 fe530000.dmac: Loaded driver for PL330 DMAC-241330
+[    3.425107] dma-pl330 fe530000.dmac: 	DBUFF-128x8bytes Num_Chans-8 Num_Peri-32 Num_Events-16
+[    3.426776] dma-pl330 fe550000.dmac: Loaded driver for PL330 DMAC-241330
+[    3.426792] dma-pl330 fe550000.dmac: 	DBUFF-128x8bytes Num_Chans-8 Num_Peri-32 Num_Events-16
+[    3.427536] rockchip-pvtm fde00000.pvtm: pvtm@0 probed
+[    3.427680] rockchip-pvtm fde80000.pvtm: pvtm@1 probed
+[    3.427787] rockchip-pvtm fde90000.pvtm: pvtm@2 probed
+[    3.428378] rockchip-system-monitor rockchip-system-monitor: system monitor probe
+[    3.429042] arm-scmi firmware:scmi: Failed. SCMI protocol 22 not active.
+[    3.429299] Serial: 8250/16550 driver, 10 ports, IRQ sharing disabled
+[    3.429874] fdd50000.serial: ttyS0 at MMIO 0xfdd50000 (irq = 25, base_baud = 1500000) is a 16550A
+[    3.430530] fe670000.serial: ttyS3 at MMIO 0xfe670000 (irq = 86, base_baud = 1500000) is a 16550A
+[    3.431111] fe680000.serial: ttyS4 at MMIO 0xfe680000 (irq = 87, base_baud = 1500000) is a 16550A
+[    3.431686] fe6b0000.serial: ttyS7 at MMIO 0xfe6b0000 (irq = 88, base_baud = 1500000) is a 16550A
+[    3.432144] fe6c0000.serial: ttyS8 at MMIO 0xfe6c0000 (irq = 89, base_baud = 1500000) is a 16550A
+[    3.434466] random: crng init done
+[    3.435072] rockchip-vop2 fe040000.vop: Adding to iommu group 8
+[    3.442887] rockchip-vop2 fe040000.vop: [drm:vop2_bind] vp0 assign plane mask: 0x22, primary plane phy id: 5
+[    3.442929] rockchip-vop2 fe040000.vop: [drm:vop2_bind] vp1 assign plane mask: 0x15, primary plane phy id: 4
+[    3.442941] rockchip-vop2 fe040000.vop: [drm:vop2_bind] vp2 assign plane mask: 0x8, primary plane phy id: 3
+[    3.443227] [drm] failed to init overlay plane Cluster0-win1
+[    3.443272] [drm] failed to init overlay plane Cluster1-win1
+[    3.443438] rockchip-drm display-subsystem: bound fe040000.vop (ops 0xffffffc0096d9318)
+[    3.443704] dwhdmi-rockchip fe0a0000.hdmi: Detected HDMI TX controller v2.11a with HDCP (DWC HDMI 2.0 TX PHY)
+[    3.444228] dwhdmi-rockchip fe0a0000.hdmi: registered DesignWare HDMI I2C bus driver
+[    3.444446] dwhdmi-rockchip fe0a0000.hdmi: IRQ index 1 not found
+[    3.444823] rockchip-drm display-subsystem: bound fe0a0000.hdmi (ops 0xffffffc0096e7ea8)
+[    3.444907] dw-mipi-dsi-rockchip fe060000.dsi: failed to find panel or bridge: -517
+[    3.449535] panel-simple-dsi fe060000.dsi.0: kernel_rst_unprepare property does not exist
+[    3.451445] cacheinfo: Unable to detect cache hierarchy for CPU 0
+[    3.452133] brd: module loaded
+[    3.456698] loop: module loaded
+[    3.457073] zram: Added device: zram0
+[    3.457286] lkdtm: No crash points registered, enable through debugfs
+[    3.457892] system_heap: orders[0] = 6
+[    3.457902] system_heap: orders[1] = 4
+[    3.457908] system_heap: orders[2] = 0
+[    3.459415] ahci fc000000.sata: supply ahci not found, using dummy regulator
+[    3.459545] ahci fc000000.sata: supply phy not found, using dummy regulator
+[    3.459676] ahci fc000000.sata: supply target not found, using dummy regulator
+[    3.459800] ahci fc000000.sata: forcing port_map 0x0 -> 0x1
+[    3.459844] ahci fc000000.sata: AHCI 0001.0300 32 slots 1 ports 6 Gbps 0x1 impl platform mode
+[    3.459856] ahci fc000000.sata: flags: ncq sntf pm led clo only pmp fbs pio slum part ccc apst 
+[    3.459873] ahci fc000000.sata: port 0 is not capable of FBS
+[    3.460735] scsi host0: ahci
+[    3.460984] ata1: SATA max UDMA/133 mmio [mem 0xfc000000-0xfc000fff] port 0x100 irq 19
+[    3.463464] rockchip-spi fe640000.spi: probed, poll=0, rsd=0, cs-inactive=0, ready=0
+[    3.465108] tun: Universal TUN/TAP device driver, 1.6
+[    3.465265] CAN device driver interface
+[    3.466846] rk_gmac-dwmac fe010000.ethernet: IRQ eth_lpi not found
+[    3.467107] rk_gmac-dwmac fe010000.ethernet: no regulator found
+[    3.467121] rk_gmac-dwmac fe010000.ethernet: clock input or output? (output).
+[    3.467130] rk_gmac-dwmac fe010000.ethernet: TX delay(0x2f).
+[    3.467138] rk_gmac-dwmac fe010000.ethernet: RX delay(0x39).
+[    3.467151] rk_gmac-dwmac fe010000.ethernet: integrated PHY? (no).
+[    3.467406] rk_gmac-dwmac fe010000.ethernet: init for RGMII
+[    3.467595] rk_gmac-dwmac fe010000.ethernet: User ID: 0x30, Synopsys ID: 0x51
+[    3.467609] rk_gmac-dwmac fe010000.ethernet: 	DWMAC4/5
+[    3.467619] rk_gmac-dwmac fe010000.ethernet: DMA HW capability register supported
+[    3.467627] rk_gmac-dwmac fe010000.ethernet: RX Checksum Offload Engine supported
+[    3.467633] rk_gmac-dwmac fe010000.ethernet: TX Checksum insertion supported
+[    3.467639] rk_gmac-dwmac fe010000.ethernet: Wake-Up On Lan supported
+[    3.467700] rk_gmac-dwmac fe010000.ethernet: TSO supported
+[    3.467709] rk_gmac-dwmac fe010000.ethernet: Enable RX Mitigation via HW Watchdog Timer
+[    3.467717] rk_gmac-dwmac fe010000.ethernet: TSO feature enabled
+[    3.467725] rk_gmac-dwmac fe010000.ethernet: Using 32 bits DMA width
+[    3.600344] maxio_mae0621a_probe clkmode(crystal) PHY_ID: 0x7b744411
+[    3.620031] rk-pcie 3c0000000.pcie: PCIe Linking... LTSSM is 0x3
+[    3.645571] rk-pcie 3c0000000.pcie: PCIe Linking... LTSSM is 0x3
+[    3.672241] rk-pcie 3c0000000.pcie: PCIe Linking... LTSSM is 0x3
+[    3.698903] rk-pcie 3c0000000.pcie: PCIe Linking... LTSSM is 0x3
+[    3.702051] rk_gmac-dwmac fe2a0000.ethernet: IRQ eth_lpi not found
+[    3.702377] rk_gmac-dwmac fe2a0000.ethernet: no regulator found
+[    3.702391] rk_gmac-dwmac fe2a0000.ethernet: clock input or output? (output).
+[    3.702400] rk_gmac-dwmac fe2a0000.ethernet: TX delay(0x21).
+[    3.702408] rk_gmac-dwmac fe2a0000.ethernet: RX delay(0x3c).
+[    3.702421] rk_gmac-dwmac fe2a0000.ethernet: integrated PHY? (no).
+[    3.702680] rk_gmac-dwmac fe2a0000.ethernet: init for RGMII
+[    3.702865] rk_gmac-dwmac fe2a0000.ethernet: User ID: 0x30, Synopsys ID: 0x51
+[    3.702879] rk_gmac-dwmac fe2a0000.ethernet: 	DWMAC4/5
+[    3.702889] rk_gmac-dwmac fe2a0000.ethernet: DMA HW capability register supported
+[    3.702897] rk_gmac-dwmac fe2a0000.ethernet: RX Checksum Offload Engine supported
+[    3.702903] rk_gmac-dwmac fe2a0000.ethernet: TX Checksum insertion supported
+[    3.702910] rk_gmac-dwmac fe2a0000.ethernet: Wake-Up On Lan supported
+[    3.702969] rk_gmac-dwmac fe2a0000.ethernet: TSO supported
+[    3.702978] rk_gmac-dwmac fe2a0000.ethernet: Enable RX Mitigation via HW Watchdog Timer
+[    3.702986] rk_gmac-dwmac fe2a0000.ethernet: TSO feature enabled
+[    3.702994] rk_gmac-dwmac fe2a0000.ethernet: Using 32 bits DMA width
+[    3.725582] rk-pcie 3c0000000.pcie: PCIe Linking... LTSSM is 0x3
+[    3.752250] rk-pcie 3c0000000.pcie: PCIe Linking... LTSSM is 0x3
+[    3.771908] ata1: SATA link down (SStatus 0 SControl 300)
+[    3.778917] rk-pcie 3c0000000.pcie: PCIe Linking... LTSSM is 0x3
+[    3.805583] rk-pcie 3c0000000.pcie: PCIe Linking... LTSSM is 0x3
+[    3.832248] rk-pcie 3c0000000.pcie: PCIe Linking... LTSSM is 0x3
+[    3.836916] maxio_mae0621a_probe clkmode(crystal) PHY_ID: 0x7b744411
+[    3.858906] rk-pcie 3c0000000.pcie: PCIe Linking... LTSSM is 0x3
+[    3.938568] PPP generic driver version 2.4.2
+[    3.938751] PPP BSD Compression module registered
+[    3.938761] PPP Deflate Compression module registered
+[    3.938785] PPP MPPE Compression module registered
+[    3.938793] NET: Registered protocol family 24
+[    3.938974] usbcore: registered new interface driver rtl8150
+[    3.939072] usbcore: registered new interface driver r8152
+[    3.939115] usbcore: registered new interface driver asix
+[    3.939173] usbcore: registered new interface driver ax88179_178a
+[    3.939218] usbcore: registered new interface driver cdc_ether
+[    3.939261] usbcore: registered new interface driver net1080
+[    3.939301] usbcore: registered new interface driver cdc_subset
+[    3.939344] usbcore: registered new interface driver zaurus
+[    3.939388] usbcore: registered new interface driver cdc_ncm
+[    3.939424] usbcore: registered new interface driver qmi_wwan_q
+[    3.949493] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    3.949538] ehci-pci: EHCI PCI platform driver
+[    3.949627] ehci-platform: EHCI generic platform driver
+[    3.950040] phy phy-fe8b0000.usb2-phy.4: illegal mode
+[    3.952090] ehci-platform fd800000.usb: EHCI Host Controller
+[    3.952281] ehci-platform fd800000.usb: new USB bus registered, assigned bus number 1
+[    3.952401] ehci-platform fd800000.usb: irq 20, io mem 0xfd800000
+[    3.965573] ehci-platform fd800000.usb: USB 2.0 started, EHCI 1.00
+[    3.965760] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.10
+[    3.965771] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.965779] usb usb1: Product: EHCI Host Controller
+[    3.965786] usb usb1: Manufacturer: Linux 5.10.160 ehci_hcd
+[    3.965792] usb usb1: SerialNumber: fd800000.usb
+[    3.966178] hub 1-0:1.0: USB hub found
+[    3.966216] hub 1-0:1.0: 1 port detected
+[    3.968876] ehci-platform fd880000.usb: EHCI Host Controller
+[    3.969040] ehci-platform fd880000.usb: new USB bus registered, assigned bus number 2
+[    3.969152] ehci-platform fd880000.usb: irq 22, io mem 0xfd880000
+[    3.982244] ehci-platform fd880000.usb: USB 2.0 started, EHCI 1.00
+[    3.982402] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.10
+[    3.982414] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.982421] usb usb2: Product: EHCI Host Controller
+[    3.982428] usb usb2: Manufacturer: Linux 5.10.160 ehci_hcd
+[    3.982435] usb usb2: SerialNumber: fd880000.usb
+[    3.982780] hub 2-0:1.0: USB hub found
+[    3.982816] hub 2-0:1.0: 1 port detected
+[    3.983465] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    3.983486] ohci-platform: OHCI generic platform driver
+[    3.983763] phy phy-fe8b0000.usb2-phy.4: illegal mode
+[    3.983780] ohci-platform fd840000.usb: Generic Platform OHCI controller
+[    3.983919] ohci-platform fd840000.usb: new USB bus registered, assigned bus number 3
+[    3.984043] ohci-platform fd840000.usb: irq 21, io mem 0xfd840000
+[    4.043059] usb usb3: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.10
+[    4.043079] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    4.043088] usb usb3: Product: Generic Platform OHCI controller
+[    4.043095] usb usb3: Manufacturer: Linux 5.10.160 ohci_hcd
+[    4.043102] usb usb3: SerialNumber: fd840000.usb
+[    4.043470] hub 3-0:1.0: USB hub found
+[    4.043507] hub 3-0:1.0: 1 port detected
+[    4.044004] ohci-platform fd8c0000.usb: Generic Platform OHCI controller
+[    4.044152] ohci-platform fd8c0000.usb: new USB bus registered, assigned bus number 4
+[    4.044255] ohci-platform fd8c0000.usb: irq 23, io mem 0xfd8c0000
+[    4.103051] usb usb4: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.10
+[    4.103069] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    4.103077] usb usb4: Product: Generic Platform OHCI controller
+[    4.103084] usb usb4: Manufacturer: Linux 5.10.160 ohci_hcd
+[    4.103091] usb usb4: SerialNumber: fd8c0000.usb
+[    4.103455] hub 4-0:1.0: USB hub found
+[    4.103491] hub 4-0:1.0: 1 port detected
+[    4.104735] xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[    4.104895] xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus number 5
+[    4.105029] xhci-hcd xhci-hcd.0.auto: hcc params 0x0220fe64 hci version 0x110 quirks 0x0000200002010010
+[    4.105080] xhci-hcd xhci-hcd.0.auto: irq 104, io mem 0xfd000000
+[    4.105334] usb usb5: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.10
+[    4.105346] usb usb5: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    4.105353] usb usb5: Product: xHCI Host Controller
+[    4.105360] usb usb5: Manufacturer: Linux 5.10.160 xhci-hcd
+[    4.105367] usb usb5: SerialNumber: xhci-hcd.0.auto
+[    4.105746] hub 5-0:1.0: USB hub found
+[    4.105782] hub 5-0:1.0: 1 port detected
+[    4.106048] xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[    4.106188] xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus number 6
+[    4.106207] xhci-hcd xhci-hcd.0.auto: Host supports USB 3.0 SuperSpeed
+[    4.106269] usb usb6: We don't know the algorithms for LPM for this host, disabling LPM.
+[    4.106375] usb usb6: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.10
+[    4.106386] usb usb6: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    4.106394] usb usb6: Product: xHCI Host Controller
+[    4.106401] usb usb6: Manufacturer: Linux 5.10.160 xhci-hcd
+[    4.106408] usb usb6: SerialNumber: xhci-hcd.0.auto
+[    4.106754] hub 6-0:1.0: USB hub found
+[    4.106790] hub 6-0:1.0: 1 port detected
+[    4.107198] usbcore: registered new interface driver cdc_acm
+[    4.107208] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    4.107272] usbcore: registered new interface driver cdc_wdm
+[    4.107498] usbcore: registered new interface driver uas
+[    4.107583] usbcore: registered new interface driver usb-storage
+[    4.107677] usbcore: registered new interface driver usbserial_generic
+[    4.107703] usbserial: USB Serial support registered for generic
+[    4.107749] usbcore: registered new interface driver aircable
+[    4.107772] usbserial: USB Serial support registered for aircable
+[    4.107815] usbcore: registered new interface driver ark3116
+[    4.107838] usbserial: USB Serial support registered for ark3116
+[    4.107882] usbcore: registered new interface driver belkin_sa
+[    4.107904] usbserial: USB Serial support registered for Belkin / Peracom / GoHubs USB Serial Adapter
+[    4.107952] usbcore: registered new interface driver ch341
+[    4.107975] usbserial: USB Serial support registered for ch341-uart
+[    4.108018] usbcore: registered new interface driver cp210x
+[    4.108039] usbserial: USB Serial support registered for cp210x
+[    4.108101] usbcore: registered new interface driver cyberjack
+[    4.108125] usbserial: USB Serial support registered for Reiner SCT Cyberjack USB card reader
+[    4.108167] usbcore: registered new interface driver cypress_m8
+[    4.108190] usbserial: USB Serial support registered for DeLorme Earthmate USB
+[    4.108210] usbserial: USB Serial support registered for HID->COM RS232 Adapter
+[    4.108234] usbserial: USB Serial support registered for Nokia CA-42 V2 Adapter
+[    4.108277] usbcore: registered new interface driver usb_debug
+[    4.108300] usbserial: USB Serial support registered for debug
+[    4.108320] usbserial: USB Serial support registered for xhci_dbc
+[    4.108363] usbcore: registered new interface driver digi_acceleport
+[    4.108385] usbserial: USB Serial support registered for Digi 2 port USB adapter
+[    4.108405] usbserial: USB Serial support registered for Digi 4 port USB adapter
+[    4.108448] usbcore: registered new interface driver io_edgeport
+[    4.108470] usbserial: USB Serial support registered for Edgeport 2 port adapter
+[    4.108490] usbserial: USB Serial support registered for Edgeport 4 port adapter
+[    4.108515] usbserial: USB Serial support registered for Edgeport 8 port adapter
+[    4.108538] usbserial: USB Serial support registered for EPiC device
+[    4.108585] usbcore: registered new interface driver io_ti
+[    4.108608] usbserial: USB Serial support registered for Edgeport TI 1 port adapter
+[    4.108630] usbserial: USB Serial support registered for Edgeport TI 2 port adapter
+[    4.108676] usbcore: registered new interface driver empeg
+[    4.108699] usbserial: USB Serial support registered for empeg
+[    4.108743] usbcore: registered new interface driver f81534a_ctrl
+[    4.108788] usbcore: registered new interface driver f81232
+[    4.108816] usbserial: USB Serial support registered for f81232
+[    4.108837] usbserial: USB Serial support registered for f81534a
+[    4.108882] usbcore: registered new interface driver f81534
+[    4.108936] usbserial: USB Serial support registered for Fintek F81532/F81534
+[    4.108982] usbcore: registered new interface driver ftdi_sio
+[    4.109007] usbserial: USB Serial support registered for FTDI USB Serial Device
+[    4.109119] usbcore: registered new interface driver garmin_gps
+[    4.109143] usbserial: USB Serial support registered for Garmin GPS usb/tty
+[    4.109191] usbcore: registered new interface driver ipaq
+[    4.109219] usbserial: USB Serial support registered for PocketPC PDA
+[    4.109297] usbcore: registered new interface driver ipw
+[    4.109320] usbserial: USB Serial support registered for IPWireless converter
+[    4.109363] usbcore: registered new interface driver ir_usb
+[    4.109386] usbserial: USB Serial support registered for IR Dongle
+[    4.109431] usbcore: registered new interface driver iuu_phoenix
+[    4.109455] usbserial: USB Serial support registered for iuu_phoenix
+[    4.109499] usbcore: registered new interface driver keyspan
+[    4.109523] usbserial: USB Serial support registered for Keyspan - (without firmware)
+[    4.109550] usbserial: USB Serial support registered for Keyspan 1 port adapter
+[    4.109572] usbserial: USB Serial support registered for Keyspan 2 port adapter
+[    4.109593] usbserial: USB Serial support registered for Keyspan 4 port adapter
+[    4.109641] usbcore: registered new interface driver keyspan_pda
+[    4.109666] usbserial: USB Serial support registered for Keyspan PDA
+[    4.109688] usbserial: USB Serial support registered for Keyspan PDA - (prerenumeration)
+[    4.109719] usbserial: USB Serial support registered for Xircom / Entrega PGS - (prerenumeration)
+[    4.109765] usbcore: registered new interface driver kl5kusb105
+[    4.109790] usbserial: USB Serial support registered for KL5KUSB105D / PalmConnect
+[    4.109833] usbcore: registered new interface driver kobil_sct
+[    4.109863] usbserial: USB Serial support registered for KOBIL USB smart card terminal
+[    4.109908] usbcore: registered new interface driver mct_u232
+[    4.109932] usbserial: USB Serial support registered for MCT U232
+[    4.109974] usbcore: registered new interface driver metro_usb
+[    4.109999] usbserial: USB Serial support registered for Metrologic USB to Serial
+[    4.110043] usbcore: registered new interface driver mos7720
+[    4.110067] usbserial: USB Serial support registered for Moschip 2 port adapter
+[    4.110111] usbcore: registered new interface driver mos7840
+[    4.110135] usbserial: USB Serial support registered for Moschip 7840/7820 USB Serial Driver
+[    4.110190] usbcore: registered new interface driver mxuport
+[    4.110215] usbserial: USB Serial support registered for MOXA UPort
+[    4.110261] usbcore: registered new interface driver navman
+[    4.110288] usbserial: USB Serial support registered for navman
+[    4.110332] usbcore: registered new interface driver omninet
+[    4.110356] usbserial: USB Serial support registered for ZyXEL - omni.net lcd plus usb
+[    4.110400] usbcore: registered new interface driver opticon
+[    4.110425] usbserial: USB Serial support registered for opticon
+[    4.110468] usbcore: registered new interface driver option
+[    4.110497] usbserial: USB Serial support registered for GSM modem (1-port)
+[    4.110647] usbcore: registered new interface driver oti6858
+[    4.110672] usbserial: USB Serial support registered for oti6858
+[    4.110716] usbcore: registered new interface driver pl2303
+[    4.110740] usbserial: USB Serial support registered for pl2303
+[    4.110790] usbcore: registered new interface driver qcaux
+[    4.110814] usbserial: USB Serial support registered for qcaux
+[    4.110860] usbcore: registered new interface driver qcserial
+[    4.110885] usbserial: USB Serial support registered for Qualcomm USB modem
+[    4.110944] usbcore: registered new interface driver quatech2
+[    4.110972] usbserial: USB Serial support registered for Quatech 2nd gen USB to Serial Driver
+[    4.111017] usbcore: registered new interface driver safe_serial
+[    4.111044] usbserial: USB Serial support registered for safe_serial
+[    4.111089] usbcore: registered new interface driver sierra
+[    4.111115] usbserial: USB Serial support registered for Sierra USB modem
+[    4.111165] usbcore: registered new interface driver usb_serial_simple
+[    4.111191] usbserial: USB Serial support registered for carelink
+[    4.111215] usbserial: USB Serial support registered for zio
+[    4.111238] usbserial: USB Serial support registered for funsoft
+[    4.111265] usbserial: USB Serial support registered for flashloader
+[    4.111289] usbserial: USB Serial support registered for google
+[    4.111311] usbserial: USB Serial support registered for libtransistor
+[    4.111333] usbserial: USB Serial support registered for vivopay
+[    4.111355] usbserial: USB Serial support registered for moto_modem
+[    4.111377] usbserial: USB Serial support registered for motorola_tetra
+[    4.111399] usbserial: USB Serial support registered for nokia
+[    4.111424] usbserial: USB Serial support registered for novatel_gps
+[    4.111448] usbserial: USB Serial support registered for hp4x
+[    4.111469] usbserial: USB Serial support registered for suunto
+[    4.111491] usbserial: USB Serial support registered for siemens_mpi
+[    4.111543] usbcore: registered new interface driver spcp8x5
+[    4.111569] usbserial: USB Serial support registered for SPCP8x5
+[    4.111616] usbcore: registered new interface driver ssu100
+[    4.111641] usbserial: USB Serial support registered for Quatech SSU-100 USB to Serial Driver
+[    4.111687] usbcore: registered new interface driver symbolserial
+[    4.111711] usbserial: USB Serial support registered for symbol
+[    4.111762] usbcore: registered new interface driver ti_usb_3410_5052
+[    4.111789] usbserial: USB Serial support registered for TI USB 3410 1 port adapter
+[    4.111814] usbserial: USB Serial support registered for TI USB 5052 2 port adapter
+[    4.111866] usbcore: registered new interface driver upd78f0730
+[    4.111892] usbserial: USB Serial support registered for upd78f0730
+[    4.111936] usbcore: registered new interface driver visor
+[    4.111965] usbserial: USB Serial support registered for Handspring Visor / Palm OS
+[    4.111989] usbserial: USB Serial support registered for Sony Clie 5.0
+[    4.112013] usbserial: USB Serial support registered for Sony Clie 3.5
+[    4.112060] usbcore: registered new interface driver wishbone_serial
+[    4.112087] usbserial: USB Serial support registered for wishbone_serial
+[    4.112132] usbcore: registered new interface driver whiteheat
+[    4.112163] usbserial: USB Serial support registered for Connect Tech - WhiteHEAT - (prerenumeration)
+[    4.112188] usbserial: USB Serial support registered for Connect Tech - WhiteHEAT
+[    4.112272] usbcore: registered new interface driver xsens_mt
+[    4.112303] usbserial: USB Serial support registered for xsens_mt
+[    4.113428] [FTS_TS]fts_ts_i2c_init: Enter
+[    4.113447] [FTS_TS]fts_ts_i2c_init: Exit(321)
+[    4.113464] <<-GTP-INFO->> GTP driver installing...
+[    4.113662] <<-GTP-INFO->> GTP driver installing...
+[    4.113880] usbcore: registered new interface driver usbtouchscreen
+[    4.113893] [ILITEK][MSG] add ILITEK touch device driver
+[    4.114423] .. rk pwm remotectl v2.0 init
+[    4.114677] input: fe6e0030.pwm as /devices/platform/fe6e0030.pwm/input/input0
+[    4.115020] remotectl-pwm fe6e0030.pwm: pwm version is 0x2130000
+[    4.115070] remotectl-pwm fe6e0030.pwm: Controller support pwrkey capture
+[    4.115699] i2c /dev entries driver
+[    4.117652] fan53555-regulator 0-001c: FAN53555 Option[12] Rev[15] Detected!
+[    4.119537] vdd_cpu: supplied by vcc5v0_sys
+[    4.125707] rk808 0-0020: chip id: 0x8090
+[    4.125754] rk808 0-0020: No cache defaults, reading back from HW
+[    4.149438] rk808 0-0020: source: on=0x80, off=0x80
+[    4.149454] rk808 0-0020: support dcdc3 fb mode:-22, 1
+[    4.149464] rk808 0-0020: support pmic reset mode:0,0
+[    4.154897] rk808-regulator rk808-regulator: there is no dvs0 gpio
+[    4.154929] rk808-regulator rk808-regulator: there is no dvs1 gpio
+[    4.155471] vdd_logic: supplied by vcc3v3_sys
+[    4.156473] vdd_gpu: supplied by vcc3v3_sys
+[    4.157071] vcc_ddr: supplied by vcc3v3_sys
+[    4.157648] vdd_npu: supplied by vcc3v3_sys
+[    4.158579] vcc_1v8: supplied by vcc3v3_sys
+[    4.159160] vdda0v9_image: supplied by vcc3v3_sys
+[    4.160583] vdda_0v9: supplied by vcc3v3_sys
+[    4.161686] vdda0v9_pmu: supplied by vcc3v3_sys
+[    4.162771] vccio_acodec: supplied by vcc3v3_sys
+[    4.164177] vccio_sd: supplied by vcc3v3_sys
+[    4.165273] vcc3v3_pmu: supplied by vcc3v3_sys
+[    4.166704] vcca_1v8: supplied by vcc3v3_sys
+[    4.167779] vcca1v8_pmu: supplied by vcc3v3_sys
+[    4.168874] vcca1v8_image: supplied by vcc3v3_sys
+[    4.170329] vcc_3v3: supplied by vcc3v3_sys
+[    4.171205] vcc3v3_sd: supplied by vcc3v3_sys
+[    4.171774] rk817-battery: Failed to locate of_node [id: -1]
+[    4.171926] rk817-battery rk817-battery: Failed to find matching dt id
+[    4.172045] rk817-charger: Failed to locate of_node [id: -1]
+[    4.172157] rk817-charger rk817-charger: Failed to find matching dt id
+[    4.175236] input: rk805 pwrkey as /devices/platform/fdd40000.i2c/i2c-0/0-0020/rk805-pwrkey/input/input1
+[    4.181409] rk808-rtc rk808-rtc: registered as rtc0
+[    4.183127] rk808-rtc rk808-rtc: setting system clock to 2026-11-21T04:39:44 UTC (1795235984)
+[    4.185465] <<-GTP-INFO->> GTP Driver Version: V2.4<2014/11/28>
+[    4.185484] <<-GTP-INFO->> GTP I2C Address: 0x5d
+[    4.185608] <<-GTP-INFO->> Guitar reset
+[    4.293790] <<-GTP-INFO->> IC Version: 911_1060
+[    4.315911] create_singlethread_workqueue goodix_resume.
+[    4.318244] <<-GTP-INFO->> Sensor_ID: 0
+[    4.318260] sensor_id = 0
+[    4.318268] <<-GTP-INFO->> get goodix,cfg-group0
+[    4.318277] <<-GTP-INFO->> Config group0 used,length: 186
+[    4.319364] <<-GTP-INFO->> Driver send config.
+[    4.341346] <<-GTP-INFO->> X_MAX: 800, Y_MAX: 1280, TRIGGER: 0x01
+[    4.355587] <<-GTP-INFO->> create proc entry gt9xx_config success
+[    4.355593] usb 5-1: new full-speed USB device number 2 using xhci-hcd
+[    4.355730] input: goodix-ts as /devices/virtual/input/input2
+[    4.355955] <<-GTP-INFO->> GTP works in interrupt mode.
+[    4.360016] rtc-hym8563 5-0051: rtc information is valid
+[    4.365301] rtc-hym8563 5-0051: registered as rtc1
+[    4.367451] ov5647 4-0036: driver version: 00.01.01
+[    4.367541] ov5647_init_controls(1566) 123!
+[    4.367555] ov5647 4-0036: OV5647 power on
+[    4.368751] ov5647 4-0036: OV5647 power off
+[    4.371047] rockchip-mipi-csi2-hw fdfb0000.mipi-csi2-hw: enter mipi csi2 hw probe!
+[    4.371217] rockchip-mipi-csi2-hw fdfb0000.mipi-csi2-hw: probe success, v4l2_dev:mipi-csi2-hw!
+[    4.372595] rkisp_hw fdff0000.rkisp: Adding to iommu group 7
+[    4.372822] rkisp_hw fdff0000.rkisp: is_thunderboot: 0
+[    4.372853] rkisp_hw fdff0000.rkisp: can't request region for resource [mem 0xfdff0000-0xfdffffff]
+[    4.372882] rkisp_hw fdff0000.rkisp: max input:0x0@0fps
+[    4.373031] rkisp_hw fdff0000.rkisp: no find phandle sram
+[    4.373523] rkisp rkisp-vir0: rkisp driver version: v02.03.00
+[    4.373620] rkisp rkisp-vir0: No memory-region-thunderboot specified
+[    4.373795] rkisp rkisp-vir0: Entity type for entity rkisp-isp-subdev was not initialized!
+[    4.373815] rkisp rkisp-vir0: Entity type for entity rkisp-csi-subdev was not initialized!
+[    4.376382] usbcore: registered new interface driver uvcvideo
+[    4.376396] USB Video Class driver (1.1.1)
+[    4.378331] device-mapper: ioctl: 4.44.0-ioctl (2021-02-01) initialised: dm-devel@redhat.com
+[    4.378778] usbcore: registered new interface driver bfusb
+[    4.378835] usbcore: registered new interface driver btusb
+[    4.379814] cpu cpu0: bin=0
+[    4.379862] cpu cpu0: leakage=33
+[    4.379902] cpu cpu0: pvtm = 92760, from nvmem
+[    4.379919] cpu cpu0: pvtm-volt-sel=3
+[    4.379986] cpu cpu0: soc version=0, speed=3
+[    4.381495] cpu cpu0: adjust opp-table by otp: min=1104M, max=1992M, volt=25mV
+[    4.381542] cpu cpu0: avs=0
+[    4.381656] cpu cpu0: EM: OPP:600000 is inefficient
+[    4.381662] cpu cpu0: EM: OPP:408000 is inefficient
+[    4.381802] cpu cpu0: EM: created perf domain
+[    4.381863] cpu cpu0: l=0 h=2147483647 hyst=5000 l_limit=1800000000 h_limit=0 h_table=0
+[    4.387451] sdhci: Secure Digital Host Controller Interface driver
+[    4.387487] sdhci: Copyright(c) Pierre Ossman
+[    4.387496] Synopsys Designware Multimedia Card Interface Driver
+[    4.388451] sdhci-pltfm: SDHCI platform and OF driver helper
+[    4.388956] dwmmc_rockchip fe000000.dwmmc: No normal pinctrl state
+[    4.388988] dwmmc_rockchip fe000000.dwmmc: No idle pinctrl state
+[    4.389031] dwmmc_rockchip fe2b0000.dwmmc: No normal pinctrl state
+[    4.389044] dwmmc_rockchip fe2b0000.dwmmc: No idle pinctrl state
+[    4.389147] dwmmc_rockchip fe000000.dwmmc: IDMAC supports 32-bit address mode.
+[    4.389156] dwmmc_rockchip fe2b0000.dwmmc: IDMAC supports 32-bit address mode.
+[    4.389184] dwmmc_rockchip fe000000.dwmmc: Using internal DMA controller.
+[    4.389194] dwmmc_rockchip fe2b0000.dwmmc: Using internal DMA controller.
+[    4.389198] dwmmc_rockchip fe000000.dwmmc: Version ID is 270a
+[    4.389216] dwmmc_rockchip fe2b0000.dwmmc: Version ID is 270a
+[    4.389255] dwmmc_rockchip fe000000.dwmmc: DW MMC controller at irq 56,32 bit host data width,256 deep fifo
+[    4.389273] dwmmc_rockchip fe2b0000.dwmmc: DW MMC controller at irq 70,32 bit host data width,256 deep fifo
+[    4.389715] dwmmc_rockchip fe000000.dwmmc: allocated mmc-pwrseq
+[    4.389737] mmc_host mmc3: card is non-removable.
+[    4.392040] ledtrig-cpu: registered to indicate activity on CPUs
+[    4.392109] arm-scmi firmware:scmi: Failed. SCMI protocol 17 not active.
+[    4.392200] SMCCC: SOC_ID: ARCH_SOC_ID not implemented, skipping ....
+[    4.393328] cryptodev: driver 1.12 loaded.
+[    4.393415] hid: raw HID events driver (C) Jiri Kosina
+[    4.393902] usbcore: registered new interface driver usbhid
+[    4.393914] usbhid: USB HID core driver
+[    4.395085] rockchip,bus bus-npu: bin=0
+[    4.395107] rockchip,bus bus-npu: Failed to get leakage
+[    4.395166] rockchip,bus bus-npu: pvtm = 92760, from nvmem
+[    4.395183] rockchip,bus bus-npu: pvtm-volt-sel=2
+[    4.395435] rockchip,bus bus-npu: avs=0
+[    4.402521] mmc_host mmc1: Bus speed (slot 0) = 375000Hz (slot req 400000Hz, actual 375000HZ div = 0)
+[    4.403478] usbcore: registered new interface driver snd-usb-audio
+[    4.404975] rk817-codec rk817-codec: DMA mask not set
+[    4.409584] rk-multicodecs rk809-sound: Failed to get ADC channel
+[    4.409746] rk-multicodecs rk809-sound: ASoC: Property 'rockchip,audio-routing' does not exist or its length is not even
+[    4.409753] rk-multicodecs rk809-sound: Audio routing invalid/unspecified
+[    4.410894] rk817-codec rk817-codec: rk817_probe: chip_name:0x80, chip_ver:0x9a
+[    4.419871] input: rockchip-rk809 Headset as /devices/platform/rk809-sound/sound/card0/input3
+[    4.421150] xt_time: kernel timezone is -0000
+[    4.421183] IPVS: Registered protocols (TCP, UDP)
+[    4.421212] IPVS: Connection hash table configured (size=4096, memory=32Kbytes)
+[    4.421296] IPVS: ipvs loaded.
+[    4.421304] IPVS: [rr] scheduler registered.
+[    4.421541] ipt_CLUSTERIP: ClusterIP Version 0.8 loaded successfully
+[    4.421577] Initializing XFRM netlink socket
+[    4.421615] mmc0: SDHCI controller on fe310000.sdhci [fe310000.sdhci] using ADMA
+[    4.421848] NET: Registered protocol family 10
+[    4.422540] Segment Routing with IPv6
+[    4.422775] NET: Registered protocol family 17
+[    4.422796] NET: Registered protocol family 15
+[    4.422837] Bridge firewalling registered
+[    4.422845] can: controller area network core
+[    4.422875] NET: Registered protocol family 29
+[    4.422880] can: raw protocol
+[    4.422887] can: broadcast manager protocol
+[    4.422897] can: netlink gateway - max_hops=1
+[    4.423148] Bluetooth: RFCOMM socket layer initialized
+[    4.423178] Bluetooth: RFCOMM ver 1.11
+[    4.423188] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+[    4.423197] Bluetooth: HIDP socket layer initialized
+[    4.423229] 8021q: 802.1Q VLAN Support v1.8
+[    4.423247] [BT_RFKILL]: Enter rfkill_rk_init
+[    4.423253] [WLAN_RFKILL]: Enter rfkill_wlan_init
+[    4.423725] [WLAN_RFKILL]: Enter rfkill_wlan_probe
+[    4.423757] [WLAN_RFKILL]: wlan_platdata_parse_dt: wifi_chip_type = rtl8822cs
+[    4.423764] [WLAN_RFKILL]: wlan_platdata_parse_dt: enable wifi power control.
+[    4.423769] [WLAN_RFKILL]: wlan_platdata_parse_dt: wifi power controled by gpio.
+[    4.423788] [WLAN_RFKILL]: wlan_platdata_parse_dt: WIFI,poweren_gpio = 125 flags = 0.
+[    4.423804] [WLAN_RFKILL]: wlan_platdata_parse_dt: WIFI,host_wake_irq = 124, flags = 0.
+[    4.423813] [WLAN_RFKILL]: wlan_platdata_parse_dt: The ref_wifi_clk not found !
+[    4.423818] [WLAN_RFKILL]: rfkill_wlan_probe: init gpio
+[    4.423825] [WLAN_RFKILL]: rfkill_set_wifi_bt_power: 1
+[    4.423830] [WLAN_RFKILL]: Exit rfkill_wlan_probe
+[    4.424319] [BT_RFKILL]: bluetooth_platdata_parse_dt: get property: uart_rts_gpios = 73.
+[    4.424337] [BT_RFKILL]: bluetooth_platdata_parse_dt: get property: BT,power_gpio = 96.
+[    4.424351] [BT_RFKILL]: bluetooth_platdata_parse_dt: get property: BT,wake_gpio = 97.
+[    4.424362] [BT_RFKILL]: bluetooth_platdata_parse_dt: get property: BT,wake_host_irq = 98.
+[    4.424407] [BT_RFKILL]: Request irq for bt wakeup host
+[    4.424481] [BT_RFKILL]: ** disable irq
+[    4.424606] [BT_RFKILL]: bt_default device registered.
+[    4.424728] Key type dns_resolver registered
+[    4.425994] Loading compiled-in X.509 certificates
+[    4.427538] Btrfs loaded, crc32c=crc32c-generic
+[    4.427701] pstore: Using crash dump compression: deflate
+[    4.428558] rga: rga2, irq = 34, match scheduler
+[    4.428940] rga: rga2 hardware loaded successfully, hw_version:3.2.63318.
+[    4.428964] rga: rga2 probe successfully
+[    4.429220] rga_iommu: IOMMU binding successfully, default mapping core[0x4]
+[    4.429448] rga: Module initialized. v1.3.0
+[    4.458014] mmc0: Host Software Queue enabled
+[    4.458053] mmc0: new HS200 MMC card at address 0001
+[    4.458589] mmcblk0: mmc0:0001 BJTD4R 29.1 GiB 
+[    4.458768] mmcblk0boot0: mmc0:0001 BJTD4R partition 1 4.00 MiB
+[    4.458953] mmcblk0boot1: mmc0:0001 BJTD4R partition 2 4.00 MiB
+[    4.459094] mmcblk0rpmb: mmc0:0001 BJTD4R partition 3 4.00 MiB, chardev (236:0)
+[    4.461209]  mmcblk0: p1 p2 p3 p4 p5 p6
+[    4.503475] usb 5-1: New USB device found, idVendor=1532, idProduct=006e, bcdDevice= 2.00
+[    4.503511] usb 5-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    4.503521] usb 5-1: Product: Razer DeathAdder Essential
+[    4.503529] usb 5-1: Manufacturer: Razer
+[    4.517583] input: Razer Razer DeathAdder Essential as /devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.0/0003:1532:006E.0001/input/input4
+[    4.518227] hid-generic 0003:1532:006E.0001: input,hidraw0: USB HID v1.11 Mouse [Razer Razer DeathAdder Essential] on usb-xhci-hcd.0.auto-1/input0
+[    4.521392] input: Razer Razer DeathAdder Essential Keyboard as /devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.1/0003:1532:006E.0002/input/input5
+[    4.532544] vendor storage:20190527 ret = 0
+[    4.576811] input: Razer Razer DeathAdder Essential Consumer Control as /devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.1/0003:1532:006E.0002/input/input6
+[    4.577718] input: Razer Razer DeathAdder Essential System Control as /devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.1/0003:1532:006E.0002/input/input7
+[    4.578564] input: Razer Razer DeathAdder Essential as /devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.1/0003:1532:006E.0002/input/input8
+[    4.579651] hid-generic 0003:1532:006E.0002: input,hidraw1: USB HID v1.11 Keyboard [Razer Razer DeathAdder Essential] on usb-xhci-hcd.0.auto-1/input1
+[    4.583623] input: Razer Razer DeathAdder Essential as /devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.2/0003:1532:006E.0003/input/input9
+[    4.609704] mmc_host mmc3: Bus speed (slot 0) = 375000Hz (slot req 400000Hz, actual 375000HZ div = 0)
+[    4.623313] vcc3v3_mipi_con: supplied by vcc_3v3
+[    4.625975] mpp_rkvenc fdf40000.rkvenc: Adding to iommu group 5
+[    4.626563] mpp_rkvenc fdf40000.rkvenc: probing start
+[    4.627661] mpp_rkvenc fdf40000.rkvenc: bin=0
+[    4.627741] mpp_rkvenc fdf40000.rkvenc: Failed to get leakage
+[    4.627853] mpp_rkvenc fdf40000.rkvenc: pvtm = 92760, from nvmem
+[    4.627899] mpp_rkvenc fdf40000.rkvenc: pvtm-volt-sel=2
+[    4.628411] mpp_rkvenc fdf40000.rkvenc: avs=0
+[    4.628742] mpp_rkvenc fdf40000.rkvenc: failed to find power_model node
+[    4.628777] mpp_rkvenc fdf40000.rkvenc: failed to initialize power model
+[    4.628800] mpp_rkvenc fdf40000.rkvenc: failed to get dynamic-coefficient
+[    4.630676] mpp_rkvenc fdf40000.rkvenc: probing finish
+[    4.631502] mpp_rkvdec2 fdf80200.rkvdec: Adding to iommu group 6
+[    4.632085] mpp_rkvdec2 fdf80200.rkvdec: rkvdec, probing start
+[    4.632778] mpp_rkvdec2 fdf80200.rkvdec: shared_niu_a is not found!
+[    4.632791] rkvdec2_init:1022: No niu aclk reset resource define
+[    4.632799] mpp_rkvdec2 fdf80200.rkvdec: shared_niu_h is not found!
+[    4.632805] rkvdec2_init:1025: No niu hclk reset resource define
+[    4.633015] mpp_rkvdec2 fdf80200.rkvdec: bin=0
+[    4.633115] mpp_rkvdec2 fdf80200.rkvdec: leakage=57
+[    4.633129] mpp_rkvdec2 fdf80200.rkvdec: leakage-volt-sel=0
+[    4.633165] mpp_rkvdec2 fdf80200.rkvdec: pvtm = 92760, from nvmem
+[    4.633177] mpp_rkvdec2 fdf80200.rkvdec: pvtm-volt-sel=1
+[    4.633355] mpp_rkvdec2 fdf80200.rkvdec: avs=0
+[    4.633475] mpp_rkvdec2 fdf80200.rkvdec: failed to find power_model node
+[    4.633486] mpp_rkvdec2 fdf80200.rkvdec: failed to initialize power model
+[    4.633493] mpp_rkvdec2 fdf80200.rkvdec: failed to get dynamic-coefficient
+[    4.633621] mpp_rkvdec2 fdf80200.rkvdec: sram_start 0x00000000fdcc0000
+[    4.633630] mpp_rkvdec2 fdf80200.rkvdec: rcb_iova 0x0000000010000000
+[    4.633637] mpp_rkvdec2 fdf80200.rkvdec: sram_size 45056
+[    4.633643] mpp_rkvdec2 fdf80200.rkvdec: rcb_size 65536
+[    4.633651] mpp_rkvdec2 fdf80200.rkvdec: min_width 512
+[    4.633710] mpp_rkvdec2 fdf80200.rkvdec: link mode probe finish
+[    4.633777] mpp_rkvdec2 fdf80200.rkvdec: probing finish
+[    4.634721] mali fde60000.gpu: Kernel DDK version g18p0-01eac0
+[    4.635095] rockchip-dmc dmc: bin=0
+[    4.635197] rockchip-dmc dmc: leakage=57
+[    4.635213] rockchip-dmc dmc: leakage-volt-sel=0
+[    4.635219] mali fde60000.gpu: bin=0
+[    4.635252] mali fde60000.gpu: leakage=8
+[    4.635273] rockchip-dmc dmc: pvtm = 92760, from nvmem
+[    4.635288] rockchip-dmc dmc: pvtm-volt-sel=1
+[    4.635294] mali fde60000.gpu: pvtm = 92760, from nvmem
+[    4.635309] mali fde60000.gpu: pvtm-volt-sel=3
+[    4.635312] rockchip-dmc dmc: soc version=0, speed=1
+[    4.635330] mali fde60000.gpu: soc version=0, speed=3
+[    4.635496] rockchip-dmc dmc: avs=0
+[    4.635516] rockchip-dmc dmc: current ATF version 0x102
+[    4.635847] mali fde60000.gpu: adjust opp-table by otp: min=600M, max=800M, volt=25mV
+[    4.635886] mali fde60000.gpu: avs=0
+[    4.635908] W : [File] : drivers/gpu/arm/bifrost/platform/rk/mali_kbase_config_rk.c; [Line] : 143; [Func] : kbase_platform_rk_init(); power-off-delay-ms not available.
+[    4.636265] rockchip-dmc dmc: normal_rate = 780000000
+[    4.636278] rockchip-dmc dmc: reboot_rate = 1056000000
+[    4.636286] rockchip-dmc dmc: suspend_rate = 324000000
+[    4.636294] rockchip-dmc dmc: video_4k_rate = 780000000
+[    4.636302] rockchip-dmc dmc: video_4k_10b_rate = 780000000
+[    4.636310] rockchip-dmc dmc: boost_rate = 1056000000
+[    4.636317] rockchip-dmc dmc: fixed_rate(isp|cif0|cif1|dualview) = 1056000000
+[    4.636325] rockchip-dmc dmc: performance_rate = 1056000000
+[    4.636341] mali fde60000.gpu: GPU identified as 0x2 arch 7.4.0 r1p0 status 0
+[    4.636347] rockchip-dmc dmc: failed to get vop pn to msch rl
+[    4.636427] mali fde60000.gpu: No priority control manager is configured
+[    4.636524] rockchip-dmc dmc: l=0 h=2147483647 hyst=5000 l_limit=0 h_limit=0 h_table=0
+[    4.636673] mali fde60000.gpu: No memory group manager is configured
+[    4.637873] mali fde60000.gpu: l=0 h=2147483647 hyst=5000 l_limit=0 h_limit=0 h_table=0
+[    4.639293] mali fde60000.gpu: Probed as mali0
+[    4.639530] hid-generic 0003:1532:006E.0003: input,hidraw2: USB HID v1.11 Keyboard [Razer Razer DeathAdder Essential] on usb-xhci-hcd.0.auto-1/input2
+[    4.644880] mmc_host mmc3: Bus speed (slot 0) = 198000000Hz (slot req 200000000Hz, actual 198000000HZ div = 0)
+[    4.647941] dwmmc_rockchip fe000000.dwmmc: Successfully tuned phase to 360
+[    4.648212] mmc3: new ultra high speed SDR104 SDIO card at address 0001
+[    4.695681] rockchip-dmc dmc: could not find power_model node
+[    4.703349] rockchip-iodomain fdc20000.syscon:io-domains: pmuio2(3300000 uV) supplied by vcc3v3_pmu
+[    4.703580] rockchip-iodomain fdc20000.syscon:io-domains: vccio1(3000000 uV) supplied by vccio_acodec
+[    4.703778] rockchip-iodomain fdc20000.syscon:io-domains: vccio3(3300000 uV) supplied by vccio_sd
+[    4.703941] rockchip-iodomain fdc20000.syscon:io-domains: vccio4(1800000 uV) supplied by vcc_1v8
+[    4.704114] rockchip-iodomain fdc20000.syscon:io-domains: vccio5(3300000 uV) supplied by vcc_3v3
+[    4.704189] rockchip-iodomain fdc20000.syscon:io-domains: vccio6(1800000 uV) supplied by vcc_1v8
+[    4.704283] rockchip-iodomain fdc20000.syscon:io-domains: vccio7(3300000 uV) supplied by vcc_3v3
+[    4.714212] rockchip-vop2 fe040000.vop: [drm:vop2_bind] vp0 assign plane mask: 0x22, primary plane phy id: 5
+[    4.714320] rockchip-vop2 fe040000.vop: [drm:vop2_bind] vp1 assign plane mask: 0x15, primary plane phy id: 4
+[    4.714346] rockchip-vop2 fe040000.vop: [drm:vop2_bind] vp2 assign plane mask: 0x8, primary plane phy id: 3
+[    4.715007] [drm] failed to init overlay plane Cluster0-win1
+[    4.715112] [drm] failed to init overlay plane Cluster1-win1
+[    4.715518] rockchip-drm display-subsystem: bound fe040000.vop (ops 0xffffffc0096d9318)
+[    4.716100] dwhdmi-rockchip fe0a0000.hdmi: Detected HDMI TX controller v2.11a with HDCP (DWC HDMI 2.0 TX PHY)
+[    4.718512] dwhdmi-rockchip fe0a0000.hdmi: registered DesignWare HDMI I2C bus driver
+[    4.719868] dwhdmi-rockchip fe0a0000.hdmi: IRQ index 1 not found
+[    4.721254] input: hdmi_cec_key as /devices/platform/fe0a0000.hdmi/dw-hdmi-cec.4.auto/input/input10
+[    4.722625] rockchip-drm display-subsystem: bound fe0a0000.hdmi (ops 0xffffffc0096e7ea8)
+[    4.722874] rockchip-drm display-subsystem: bound fe060000.dsi (ops 0xffffffc0096e9800)
+[    4.725020] rockchip-drm display-subsystem: route-hdmi: failed to get logo,offset
+[    4.787852] Console: switching to colour frame buffer device 100x80
+[    4.822064] rockchip-drm display-subsystem: [drm] fb0: rockchipdrmfb frame buffer device
+[    4.824162] [drm] Initialized rockchip 3.0.0 20140818 for display-subsystem on minor 0
+[    4.825407] input: adc-keys as /devices/platform/adc-keys/input/input11
+[    4.838613] RKNPU fde40000.npu: Adding to iommu group 0
+[    4.840372] RKNPU fde40000.npu: RKNPU: rknpu iommu is enabled, using iommu mode
+[    4.840843] RKNPU fde40000.npu: can't request region for resource [mem 0xfde40000-0xfde4ffff]
+[    4.841572] [drm] Initialized rknpu 0.9.8 20240828 for fde40000.npu on minor 1
+[    4.842519] RKNPU fde40000.npu: bin=0
+[    4.842559] RKNPU fde40000.npu: leakage=4
+[    4.842595] RKNPU fde40000.npu: pvtm = 92760, from nvmem
+[    4.842613] RKNPU fde40000.npu: pvtm-volt-sel=3
+[    4.842633] RKNPU fde40000.npu: soc version=0, speed=3
+[    4.843192] RKNPU fde40000.npu: adjust opp-table by otp: min=600M, max=1000M, volt=25mV
+[    4.843229] RKNPU fde40000.npu: avs=0
+[    4.843477] RKNPU fde40000.npu: l=0 h=2147483647 hyst=5000 l_limit=0 h_limit=0 h_table=0
+[    4.844188] RKNPU fde40000.npu: failed to find power_model node
+[    4.844205] RKNPU fde40000.npu: RKNPU: failed to initialize power model
+[    4.844212] RKNPU fde40000.npu: RKNPU: failed to get dynamic-coefficient
+[    4.846012] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    4.848353] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    4.849595] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[    4.849638] cfg80211: failed to load regulatory.db
+[    4.850396] rockchip-pm rockchip-suspend: not set pwm-regulator-config
+[    4.851236] rockchip-suspend not set sleep-mode-config for mem-lite
+[    4.851246] rockchip-suspend not set wakeup-config for mem-lite
+[    4.851255] rockchip-suspend not set sleep-mode-config for mem-ultra
+[    4.851261] rockchip-suspend not set wakeup-config for mem-ultra
+[    4.852898] I : [File] : drivers/gpu/arm/mali400/mali/linux/mali_kernel_linux.c; [Line] : 406; [Func] : mali_module_init(); svn_rev_string_from_arm of this mali_ko is '', rk_ko_ver is '5', built at '16:28:31', on 'Jan 28 2026'.
+[    4.853655] Mali: 
+[    4.853659] Mali device driver loaded
+[    4.853688] rkisp rkisp-vir0: clear unready subdev num: 2
+[    4.854232] rkisp-vir0: update sensor failed
+[    4.854251] ALSA device list:
+[    4.854263]   #0: rockchip-rk809
+[    4.854270]   #1: rockchip,hdmi
+[    4.866524] EXT4-fs (mmcblk0p6): mounted filesystem with ordered data mode. Opts: (null)
+[    4.866705] VFS: Mounted root (ext4 filesystem) on device 179:6.
+[    4.867414] devtmpfs: mounted
+[    4.877353] Freeing unused kernel memory: 7744K
+[    4.909156] Run /sbin/init as init process
+[    4.909197]   with arguments:
+[    4.909201]     /sbin/init
+[    4.909204]   with environment:
+[    4.909209]     HOME=/
+[    4.909212]     TERM=linux
+[    5.110336] systemd[1]: Failed to find module 'autofs4'
+[    5.140890] systemd[1]: systemd 245.4-4ubuntu3.20 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=hybrid)
+[    5.142157] systemd[1]: Detected architecture arm64.
+[    5.150680] systemd[1]: Set hostname to <kickpi>.
+[    5.483802] systemd[1]: Configuration file /lib/systemd/system/rkaiq_3A.service is marked world-writable. Please remove world writability permission bits. Proceeding anyway.
+[    5.533734] systemd[1]: Configuration file /lib/systemd/system/rtc_ntp.timer is marked executable. Please remove executable permission bits. Proceeding anyway.
+[    5.534627] systemd[1]: Configuration file /lib/systemd/system/rtc_ntp.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+[    5.543451] systemd[1]: Configuration file /lib/systemd/system/mobilenet.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+[    5.569448] systemd[1]: Created slice system-modprobe.slice.
+[    5.570725] systemd[1]: Created slice system-serial\x2dgetty.slice.
+[    5.571620] systemd[1]: Created slice User and Session Slice.
+[    5.571927] systemd[1]: Started ntp-systemd-netif.path.
+[    5.572287] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    5.572612] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    5.572870] systemd[1]: Condition check resulted in Arbitrary Executable File Formats File System Automount Point being skipped.
+[    5.572980] systemd[1]: Reached target Local Encrypted Volumes.
+[    5.573205] systemd[1]: Reached target Remote File Systems.
+[    5.573316] systemd[1]: Reached target Slices.
+[    5.573444] systemd[1]: Reached target Swap.
+[    5.574000] systemd[1]: Listening on Syslog Socket.
+[    5.574328] systemd[1]: Listening on initctl Compatibility Named Pipe.
+[    5.575089] systemd[1]: Listening on Journal Audit Socket.
+[    5.575522] systemd[1]: Listening on Journal Socket (/dev/log).
+[    5.576234] systemd[1]: Listening on Journal Socket.
+[    5.576796] systemd[1]: Listening on udev Control Socket.
+[    5.577164] systemd[1]: Listening on udev Kernel Socket.
+[    5.580810] systemd[1]: Mounting Huge Pages File System...
+[    5.585050] systemd[1]: Mounting POSIX Message Queue File System...
+[    5.589762] systemd[1]: Mounting Kernel Debug File System...
+[    5.595191] systemd[1]: Mounting Kernel Trace File System...
+[    5.604319] systemd[1]: Starting Journal Service...
+[    5.612832] systemd[1]: Starting Set the console keyboard layout...
+[    5.613715] systemd[1]: Condition check resulted in Create list of static device nodes for the current kernel being skipped.
+[    5.622957] systemd[1]: Starting Load Kernel Module chromeos_pstore...
+[    5.623835] systemd[1]: Condition check resulted in Load Kernel Module drm being skipped.
+[    5.624484] systemd[1]: Condition check resulted in Load Kernel Module efi_pstore being skipped.
+[    5.633649] systemd[1]: Starting Load Kernel Module pstore_blk...
+[    5.643465] systemd[1]: Starting Load Kernel Module pstore_zone...
+[    5.644717] systemd[1]: Condition check resulted in Load Kernel Module ramoops being skipped.
+[    5.654127] systemd[1]: Started Nameserver information manager.
+[    5.656791] systemd[1]: Reached target Network (Pre).
+[    5.663148] systemd[1]: Starting Enable Rockchip camera engine rkaiq...
+[    5.670532] systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+[    5.677327] systemd[1]: Starting Load Kernel Modules...
+[    5.682165] systemd[1]: Starting Remount Root and Kernel File Systems...
+[    5.686815] systemd[1]: Starting udev Coldplug all Devices...
+[    5.693680] systemd[1]: Mounted Huge Pages File System.
+[    5.694894] systemd[1]: Mounted POSIX Message Queue File System.
+[    5.696017] systemd[1]: Mounted Kernel Debug File System.
+[    5.697055] systemd[1]: Mounted Kernel Trace File System.
+[    5.698656] systemd[1]: modprobe@chromeos_pstore.service: Succeeded.
+[    5.700361] systemd[1]: Finished Load Kernel Module chromeos_pstore.
+[    5.702605] systemd[1]: modprobe@pstore_blk.service: Succeeded.
+[    5.704084] systemd[1]: Finished Load Kernel Module pstore_blk.
+[    5.705985] systemd[1]: modprobe@pstore_zone.service: Succeeded.
+[    5.707673] systemd[1]: Finished Load Kernel Module pstore_zone.
+[    5.713185] systemd[1]: Finished Load Kernel Modules.
+[    5.719039] systemd[1]: Mounting FUSE Control File System...
+[    5.724839] systemd[1]: Mounting Kernel Configuration File System...
+[    5.730491] systemd[1]: Starting Apply Kernel Variables...
+[    5.734199] systemd[1]: Started Enable Rockchip camera engine rkaiq.
+[    5.736893] systemd[1]: Finished Remount Root and Kernel File Systems.
+[    5.738140] systemd[1]: Mounted FUSE Control File System.
+[    5.741646] systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+[    5.741953] systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+[    5.746212] systemd[1]: Starting Load/Save Random Seed...
+[    5.762487] Freeing drm_logo memory: 736K
+[    5.765493] systemd[1]: Starting Create System Users...
+[    5.776670] systemd[1]: Mounted Kernel Configuration File System.
+[    5.807796] systemd[1]: Finished Create System Users.
+[    5.811277] systemd[1]: Finished Apply Kernel Variables.
+[    5.818204] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    5.822516] systemd[1]: Finished Load/Save Random Seed.
+[    5.833619] systemd[1]: rkaiq_3A.service: Succeeded.
+[    5.857618] systemd[1]: Finished Create Static Device Nodes in /dev.
+[    5.861319] systemd[1]: Starting udev Kernel Device Manager...
+[    5.895413] systemd[1]: Finished Set the console keyboard layout.
+[    5.896321] systemd[1]: Reached target Local File Systems (Pre).
+[    5.896588] systemd[1]: Reached target Local File Systems.
+[    5.900467] systemd[1]: Starting Enable support for additional executable binary formats...
+[    5.904529] systemd[1]: Starting Set console font and keymap...
+[    5.905039] systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+[    5.905221] systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+[    5.909649] systemd[1]: Starting Manage USB device functions...
+[    5.922155] systemd[1]: Finished Enable support for additional executable binary formats.
+[    5.946718] systemd[1]: Finished Set console font and keymap.
+[    5.981848] systemd[1]: Started udev Kernel Device Manager.
+[    5.996540] systemd[1]: Started Journal Service.
+[    6.030329] systemd-journald[225]: Received client request to flush runtime journal.
+[    6.305861] rk-pcie 3c0000000.pcie: PCIe Link Fail
+[    6.305875] rk-pcie 3c0000000.pcie: failed to initialize host
+[    7.026689] [BT_RFKILL]: bt shut off power
+[    7.183202] file system registered
+[    7.747597] process '/usr/bin/adbd' started with executable stack
+[    7.787884] read descriptors
+[    7.787904] read strings
+[    8.224776] dwc3 fcc00000.dwc3: device reset
+[    8.271521] skw_sdio_lite: loading out-of-tree module taints kernel.
+[    8.275237] skw_sdio_mmc_scan:[1]
+[    8.275247] skw_sdio_mmc_scan: no need skw self scan!!
+[    8.275256] [SKWSDIO INFO] skw_sdio_scan_card: sdio_scan_card
+[    8.275513] [SKWSDIO INFO] skw_sdio_probe: : func->class=0, vendor=0x1ffe, device=0x6621, func_num=0x0001, clock=200000000 blksize=0x200 max_blkcnt 2048
+[    8.282574] [SKWSDIO INFO] skw_sdio_probe: sdio_enable_func ret=0 type 0
+[    8.282634] [SKWSDIO INFO] skw_sdio_probe: enable func1 done
+[    8.282704] [SKWSDIO INFO] check_chipid: Chip id:SV6160LITE used SDIO20 
+[    8.282707] [SKWSDIO INFO] skw_sdio_probe: SV6160LITE chip
+[    8.282724] [SKWSDIO INFO] skw_sdio_probe: nonremovable card detected
+[    8.283804] [SKWSDIO INFO] skw_sdio_bind_btseekwave_driver: alloc LOOPCHECK TX buffer success
+[    8.283820] [SKWSDIO INFO] skw_sdio_bind_btseekwave_driver: alloc LOOPCHECK TX buffer success
+[    8.283825] [SKWSDIO INFO] skw_sdio_bind_btseekwave_driver: alloc LOOPCHECK TX buffer success
+[    8.284248] [SKWBOOT]:seekwave_boot_init: enter chip_id=SV6160LITE
+[    8.290213] android_work: sent uevent USB_STATE=CONNECTED
+[    8.290419] [SKWBOOT]:skw_ucom_probe:class prt = 00000000352bbc8b, name = btcom
+[    8.290705] [SKWLOG]:skw_bt_state_event_init enter  ret=0
+[    8.294703] android_work: sent uevent USB_STATE=CONFIGURED
+[    8.296503] [SKWBOOT_WARN]:no BT_antenna setting
+[    8.296513] [SKWBOOT_WARN]:no DTS setting
+[    8.296516] [SKWBOOT]:seekwave_boot_parse_dt,modem boot setting::=>
+[    8.296519] [SKWBOOT]:chipen=125
+[    8.296521] [SKWBOOT]:hst_wak_wf=-1
+[    8.296523] [SKWBOOT]:wf_wak_hst=-1
+[    8.296525] [SKWBOOT]:dma_type=1
+[    8.296527] [SKWBOOT]:bt_antenna=0
+[    8.296552] [SKWBOOT]:seekwave_boot_parse_dt,chipen=125, gpio_out:-1 gpio_in:-1 ret = 0
+[    8.296558] [SKWBOOT]:request_firmware SWT6621S_DRAM_SDIO.bin
+[    8.304491] [SKWBOOT]:boot data dram_img_data 00000000a410bbd6
+[    8.315717] [SKWBOOT]:request_firmware SWT6621S_IRAM_SDIO.bin
+[    8.362663] [SKWBOOT]:boot data iram_img_data 00000000498dae2f
+[    8.362675] [SKWBOOT]:request_firmware SWT6621S_NV_SDIO.bin
+[    8.367185] (NULL device *): Direct firmware load for SWT6621S_NV_SDIO.bin failed with error -2
+[    8.367206] [SKWBOOT_ERR]:request_firmware SWT6621S_NV_SDIO.bin fail
+[    8.367209] [SKWBOOT]:request_firmware SWT6621S_DRAM_SDIO.bin
+[    8.374850] [SKWBOOT]:boot data dram_img_data 00000000a410bbd6
+[    8.386010] [SKWBOOT]:request_firmware SWT6621S_IRAM_SDIO.bin
+[    8.434890] [SKWBOOT]:boot data iram_img_data 00000000498dae2f
+[    8.434901] [SKWBOOT]:request_firmware SEEKWAVE_NV_SWT6621S.bin
+[    8.455523] [BT_RFKILL]: rfkill_rk_set_power: set bt wake_host high!
+[    8.462363] (NULL device *): Direct firmware load for SEEKWAVE_NV_SWT6621S.bin failed with error -2
+[    8.462382] [SKWBOOT_ERR]:request_firmware SEEKWAVE_NV_SWT6621S.bin fail
+[    8.462388] [SKWBOOT]:image_size=360128,193468, ret=2
+[    8.462397] [SKWBOOT]:skw_boot_init line:1108,the tail_offset ---0x14c, the head_offset --0xf8 ,iram_addr=0x100000,dram_addr=0x20200000, 					nv_head_addr:0xc8,nv_tail_addr:0xe8,nv_size=28
+[    8.462399] [SKWBOOT]:skw_boot_init line:1119 analysis the img module
+[    8.462403] [SKWBOOT]:skw_boot_init line:1134 dl_addr=0x110000, write_addr=0x110000, index=0x1,data_size=0x50d8
+[    8.462406] [SKWBOOT]:skw_boot_init line:1134 dl_addr=0x20228000, write_addr=0x20228000, index=0x1,data_size=0x731c
+[    8.462409] [SKWBOOT]:skw_boot_init line:1134 dl_addr=0x115400, write_addr=0x115400, index=0x2,data_size=0x2b574
+[    8.462411] [SKWBOOT]:skw_boot_init line:1134 dl_addr=0x202178f8, write_addr=0x202178f8, index=0x2,data_size=0x2628
+[    8.462413] [SKWBOOT]:skw_boot_init line:1134 dl_addr=0x20210000, write_addr=0x20210000, index=0x2,data_size=0x6478
+[    8.462416] [SKWBOOT]:skw_boot_init line:1134 dl_addr=0x141000, write_addr=0x141000, index=0x3,data_size=0x16ec0
+[    8.462418] [SKWBOOT]:skw_boot_init line:1134 dl_addr=0x20202910, write_addr=0x20202910, index=0x3,data_size=0x2bd0
+[    8.462421] [SKWBOOT]:skw_boot_init line:1137 bsp_index count:2, bt_index_count=2, wifi_index_count=3 
+[    8.464607] [SKWSDIO INFO] skw_sdio_set_dma_type: dma_type=1,adma_rx_enable:1
+[    8.464722] [SKWSDIO INFO] skw_sdio_slp_feature_en: no-sleep_support_enable:1 
+[    8.464728] [SKWSDIO INFO] skw_sdio_boot_cp: line:1301 dram_dl_size = 193468 iram_dl_size = 360128 iram_dl_addr = 0x100000, dram_dl_addr = 0x20200000
+[    8.523451] [SKWSDIO INFO] skw_sdio_boot_cp: line:1336 write the download done flag
+[    8.532380] [BT_RFKILL]: rfkill_rk_set_power: set bt wake_host input!
+[    8.532428] [BT_RFKILL]: ENABLE UART_RTS
+[    8.639018] [BT_RFKILL]: DISABLE UART_RTS
+[    8.639069] [BT_RFKILL]: bt turn on power
+[    8.639093] [BT_RFKILL]: Request irq for bt wakeup host
+[    8.639131] [BT_RFKILL]: ** disable irq
+[    8.764126] [SKWSDIO INFO] skw_sdio2_handle_packet: LOOPCHECK channel received: trunk_W26.10.6.1-rev40549-rev40826-rev40724 20260307-01:02:24, slp=0
+
+[    8.764196] [SKWSDIO WARN] skw_sdio_gpio_irq_pre_ops:  no support gpio irq!!!
+[    8.764236] [SKWSDIO INFO] skw_sdio_chk_cp_gpio_cfg: gpio_in and gpio_out no config
+[    8.764257] [SKWSDIO INFO] skw_sdio_bind_WIFI_driver:  wifi_pdata bus_type:0x3 
+[    8.764657] [SKWSDIO INFO] skw_sdio_boot_cp: boot cp pass!!
+[    8.764675] [SKWSDIO INFO] skw_boot_loader: boot loader ops end!!!
+[    8.914943] [SKWIFI6621S INFO] VERSION: 2.0.260303.eb237de (5.10.160)
+[    8.915529] [SKWIFI6621S DBG] skw_load_config: swt6621s_wifi.dat
+[    8.916198] [SKWIFI6621S INFO] skw_drv_probe: chip: 1, MAC: 00:00:00:00:00:00
+[    8.918274] [SKWIFI6621S DBG] skw_register_rx_callback: register cmd port: 6, data port bitmap: 0x80
+[    8.918660] [SKWIFI6621S DBG] skw_hw_xmit_init: dma: 0
+[    8.918983] [SKWIFI6621S DBG] skw_tx_vring_init: size:5126
+[    8.919008] [SKWIFI6621S DBG] skw_tx_vring_init: queue_mem:000000006e111b80
+[    8.919024] [SKWIFI6621S DBG] skw_tx_vring_init: size:5126
+[    8.919041] [SKWIFI6621S DBG] skw_tx_vring_init: queue_mem:0000000029fdaa9c
+[    8.919098] [SKWSDIO INFO] wifi_service_start: the ---debug---line:2504 
+[    8.919107] [SKWBOOT]:skw_start_wifi_service Enter cp_state =0 
+[    8.919114] [SKWBOOT]:skw_download_signal_ops line:1006 download data ops done the dl_count=2 
+[    8.919122] [SKWSDIO INFO] skw_WIFI_service_start: Enter STARTWIFI cp_state:0
+[    8.919130] [SKWSDIO INFO] send_modem_service_command: service = 0 cmd 1
+[    8.919271] [SKWSDIO INFO] send_modem_service_command: ret = 0 command 0
+[    8.919614] [SKWSDIO INFO] skw_sdio2_handle_packet: LOOPCHECK channel received: WIFIREADY
+[    8.922417] [SKWSDIO INFO] skw_sdio_cp_service_ops: -----WIFI SERIVCE START
+[    8.922446] [SKWSDIO INFO] skw_boot_loader: boot loader ops end!!!
+[    8.922453] [SKWBOOT]:skw_start_wifi_service wifi boot sucessfull
+[    8.932760] [SKWIFI6621S DBG] skw_sync_chip_info: efuse mac: 60:48:9c:b6:ec:0e, valid
+[    8.932798] [WLAN_RFKILL]: rockchip_wifi_mac_addr: enter.
+[    8.932807] [WLAN_RFKILL]: get_wifi_addr_vendor: rk_vendor_read wifi mac address failed (-1)
+[    8.932815] [SKWIFI6621S DBG] skw_setup_mac_address: addr[0]: 60:48:9c:b6:ec:0e
+[    8.932820] [SKWIFI6621S DBG] skw_setup_mac_address: addr[1]: 62:48:9c:b4:ec:0e
+[    8.932826] [SKWIFI6621S DBG] skw_setup_mac_address: addr[2]: 62:48:9c:b2:ec:0e
+[    8.932831] [SKWIFI6621S DBG] skw_setup_mac_address: addr[3]: 62:48:9c:be:ec:0e
+[    8.933522] [SKWIFI6621S INFO] skw_calib_download: SWT6621S_SEEKWAVE_R00001.bin, size: 2372
+[    8.933551] [SKWIFI6621S DBG] skw_calib_bin_download: bb_file remain: 1860, seq: 0 len: 512 end: 0
+[    8.936611] [SKWIFI6621S DBG] skw_calib_bin_download: bb_file remain: 1348, seq: 1 len: 512 end: 0
+[    8.937449] [SKWIFI6621S DBG] skw_calib_bin_download: bb_file remain: 836, seq: 2 len: 512 end: 0
+[    8.938294] [SKWIFI6621S DBG] skw_calib_bin_download: bb_file remain: 324, seq: 3 len: 512 end: 0
+[    8.939208] [SKWIFI6621S DBG] skw_calib_bin_download: bb_file remain: 0, seq: 4 len: 324 end: 1
+[    8.994833] [SKWIFI6621S DBG] skw_sync_band_capa: BW capa: 0x1f, flags: 0x100
+[    8.994875] [SKWIFI6621S INFO] skw_setup_wiphy: 2g_only:0
+[    8.994878] [SKWIFI6621S DBG] skw_sync_band_capa: BW capa: 0x1f, flags: 0x100
+[    9.018608] [SKWIFI6621S INFO] skw_add_iface: STA, inst: 0, mac: 60:48:9c:b6:ec:0e, bitmap: 0x1
+[    9.018665] [SKWIFI6621S DBG] skw_iface_setup: STA, addr: 60:48:9c:b6:ec:0e
+[    9.018676] [SKWIFI6621S DBG] skw_cmd_open_dev: STA, inst: 0, mac: 60:48:9c:b6:ec:0e, flags: 0x0
+[    9.026637] [SKWIFI6621S DBG] skw_add_vif: iface: 0x0, bitmap: 0x1
+[    9.034329] [BT_RFKILL]: rfkill_rk_set_power: set bt wake_host high!
+[    9.059017] [BT_RFKILL]: rfkill_rk_set_power: set bt wake_host input!
+[    9.059091] [BT_RFKILL]: ENABLE UART_RTS
+[    9.071077] [SKWIFI6621S DBG] wlan0.skw_ndo_open: type: STA, flags: 0x29300
+[    9.071134] [SKWIFI6621S DBG] wlan0.skw_ndo_set_rx_mode: mc: 1, uc: 0
+[    9.071888] [SKWIFI6621S DBG] wlan0.skw_ndo_set_rx_mode: mc: 2, uc: 0
+[    9.071941] [SKWIFI6621S DBG] wlan0.skw_set_power_mgmt: enabled: 0, timeout: -1
+[    9.144397] [SKWBT_INFO] Seekwave Bluetooth driver ver 0.1
+[    9.144908] [SKWBT_INFO] btseekwave_probe pdev name LOOPCHECK
+[    9.165659] [BT_RFKILL]: DISABLE UART_RTS
+[    9.165746] [BT_RFKILL]: bt turn on power
+[    9.165780] [BT_RFKILL]: Request irq for bt wakeup host
+[    9.165820] [BT_RFKILL]: ** disable irq
+[    9.166123] [SKWBT_INFO] Seekwave Bluetooth Log init
+[    9.166144] [SKWBT_INFO] btseekwave_open enter...
+[    9.166166] [SKWBT_INFO] btseekwave_open, cmd_port:2, mode data_port:5, audio_port:3
+[    9.166180] [SKWSDIO INFO] open_sdio_port: kworker/u9:0(93) open_sdio_port portno = 2
+[    9.166187] [SKWSDIO INFO] open_sdio_port: kworker/u9:0(93) open_sdio_port portno = 5
+[    9.166194] [SKWSDIO INFO] open_sdio_port: kworker/u9:0(93) open_sdio_port portno = 3
+[    9.166201] [SKWBOOT]:skw_start_bt_service Enter cp_state =0 
+[    9.166208] [SKWBOOT]:skw_download_signal_ops line:1006 download data ops done the dl_count=3 
+[    9.166215] [SKWSDIO INFO] skw_BT_service_start: Enter cpstate=0
+[    9.166222] [SKWSDIO INFO] send_modem_service_command: service = 1 cmd 4
+[    9.166887] [SKWBT_INFO] skwbt_log_port_set_pdata, pdata:00000000e771054d, skwbt_log_port_info:000000001dde771f
+[    9.167458] [SKWSDIO INFO] send_modem_service_command: ret = 0 command 0
+[    9.177182] [SKWSDIO INFO] skw_sdio2_handle_packet: LOOPCHECK channel received: BTREADY
+[    9.177260] [SKWSDIO INFO] skw_boot_loader: boot loader ops end!!!
+[    9.177272] [SKWBOOT]:skw_start_bt_service line:1351 , boot bt sucessfully!
+[    9.177280] [SKWBT_INFO] btseekwave_download_nv
+[    9.178560] [SKWBT_INFO] btseekwave_rx_complete, chip version:0x5302
+[    9.178608] [SKWBT_INFO] init cmd response: 0x100101 
+[    9.179313] [SKWBT_INFO] btseekwave_download_nv log_disable from NV:1, skwbt_log_disable:1
+[    9.183842] [SKWBT_INFO] init cmd response: 0xfc8001 
+[    9.183878] [SKWBT_INFO] btseekwave_setup
+[    9.200211] MAXIO_PHY_VER: v1.8.1.1 
+[    9.220890] MAE0621A READY
+[    9.355702] rk_gmac-dwmac fe010000.ethernet eth0: PHY [stmmac-1:00] driver [MAE0621A-Q2C Gigabit Ethernet] (irq=POLL)
+[    9.357997] dwmac4: Master AXI performs any burst length
+[    9.358023] rk_gmac-dwmac fe010000.ethernet eth0: No Safety Features support found
+[    9.358048] rk_gmac-dwmac fe010000.ethernet eth0: IEEE 1588-2008 Advanced Timestamp supported
+[    9.358353] rk_gmac-dwmac fe010000.ethernet eth0: registered PTP clock
+[    9.365986] rk_gmac-dwmac fe010000.ethernet eth0: configuring for phy/rgmii link mode
+[    9.454197] MAXIO_PHY_VER: v1.8.1.1 
+[    9.470491] MAE0621A READY
+[    9.602600] rk_gmac-dwmac fe2a0000.ethernet eth1: PHY [stmmac-0:00] driver [MAE0621A-Q2C Gigabit Ethernet] (irq=POLL)
+[    9.605581] dwmac4: Master AXI performs any burst length
+[    9.605611] rk_gmac-dwmac fe2a0000.ethernet eth1: No Safety Features support found
+[    9.605694] rk_gmac-dwmac fe2a0000.ethernet eth1: IEEE 1588-2008 Advanced Timestamp supported
+[    9.605997] rk_gmac-dwmac fe2a0000.ethernet eth1: registered PTP clock
+[    9.610994] rk_gmac-dwmac fe2a0000.ethernet eth1: configuring for phy/rgmii link mode
+[    9.721123] [SKWIFI6621S DBG] wlan0.skw_ndo_set_rx_mode: mc: 2, uc: 0
+[    9.768756] [SKWIFI6621S DBG] skw_mgmt_frame_register: STA add filter ACTION
+[    9.843123] [SKWIFI6621S DBG] skw_add_virtual_intf: p2p-dev-wlan0(P2P_DEVICE), mac: 00:00:00:00:00:00
+[    9.843142] [SKWIFI6621S INFO] skw_add_iface: P2P_DEVICE, inst: 3, mac: 00:00:00:00:00:00, bitmap: 0x9
+[    9.843149] [SKWIFI6621S DBG] skw_iface_setup: P2P_DEVICE, addr: 62:48:9c:be:ec:0e
+[    9.843154] [SKWIFI6621S DBG] skw_cmd_open_dev: P2P_DEVICE, inst: 3, mac: 62:48:9c:be:ec:0e, flags: 0x0
+[    9.844733] [SKWIFI6621S DBG] skw_add_vif: iface: 0x3, bitmap: 0x9
+[    9.857067] [SKWIFI6621S DBG] skw_mgmt_frame_register: P2P_DEVICE add filter ACTION
+[    9.859886] [SKWIFI6621S DBG] skw_start_p2p_device: traced
+[    9.916356] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[   11.232510] [BT_RFKILL]: bt shut off power
+[   12.238902] [BT_RFKILL]: rfkill_rk_set_power: set bt wake_host high!
+[   12.319202] [BT_RFKILL]: rfkill_rk_set_power: set bt wake_host input!
+[   12.319242] [BT_RFKILL]: ENABLE UART_RTS
+[   12.425968] [BT_RFKILL]: DISABLE UART_RTS
+[   12.426021] [BT_RFKILL]: bt turn on power
+[   12.426052] [BT_RFKILL]: Request irq for bt wakeup host
+[   12.426091] [BT_RFKILL]: ** disable irq
+[   12.764035] dwhdmi-rockchip fe0a0000.hdmi: Rate 0 missing; compute N dynamically
+[   12.780590] dwhdmi-rockchip fe0a0000.hdmi: Rate 0 missing; compute N dynamically
+[   12.788761] dwhdmi-rockchip fe0a0000.hdmi: Rate 0 missing; compute N dynamically
+[   13.159699] [SKWIFI6621S DBG] skw_ifa6_notifier: action: 2
+[   13.159828] [SKWIFI6621S DBG] skw_ifa4_notifier: action: 2
+[   13.446727] of_dma_request_slave_channel: dma-names property of node '/serial@fe6c0000' missing or empty
+[   13.446747] dw-apb-uart fe6c0000.serial: failed to request DMA, use interrupt mode
+[   13.778997] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 118
+[   13.779959] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[   13.949568] [SKWIFI6621S DBG] wlan0.skw_ndo_set_rx_mode: mc: 2, uc: 0
+[   13.950316] [SKWIFI6621S DBG] wlan0.skw_set_power_mgmt: enabled: 1, timeout: -1
+[   13.959957] [SKWIFI6621S INFO] wlan0.skw_auth: bssid: d8:10:9f:6d:8c:40, auth type: 0, state: NONE
+[   13.959970] [SKWIFI6621S DBG] skw_abort_scan: inst: 0, scanning: 0
+[   13.959983] [SKWIFI6621S DBG] skw_parse_center_chn: band: 1, ppe: 0x71c71c79, phy_cap_info[0]: 0x4
+[   13.959985] [SKWIFI6621S DBG] skw_parse_center_chn: cc->bw:1 cc->band:1
+[   13.960840] [SKWIFI6621S DBG] wlan0.skw_cmd_join: bssid: d8:10:9f:6d:8c:40(idx: 0, ind: 0), chn: 44(46, 0), bw: 1 band: 1
+[   13.965603] [SKWIFI6621S DBG] skw_peer_ctx_bind: ctx: 0, bind
+[   13.965618] [SKWIFI6621S STATE] inst: 0, STA -> d8:10:9f:6d:8c:40, state: NONE -> AUTHING
+[   13.989651] [SKWIFI6621S DBG] skw_event_rx_mgmt: AUTH(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[   13.989664] [SKWIFI6621S STATE] inst: 0, STA -> d8:10:9f:6d:8c:40, state: AUTHING -> AUTHED
+[   13.990250] [SKWIFI6621S DBG] wlan0.skw_assoc: bssid: d8:10:9f:6d:8c:40
+[   13.990268] [SKWIFI6621S STATE] inst: 0, STA -> d8:10:9f:6d:8c:40, state: AUTHED -> ASSOCING
+[   13.990770] [SKWIFI6621S DBG] skw_event_tx_frame: iface: 0, fc: 0x0, len: 236
+[   13.990850] [SKWIFI6621S DBG] skw_event_tx_frame: ht_cap: 2d  1a  6f   1
+[   14.015640] [SKWIFI6621S DBG] skw_event_rx_mgmt: ASSOC_RESP(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[   14.015657] [SKWIFI6621S STATE] inst: 0, STA -> d8:10:9f:6d:8c:40, state: ASSOCING -> ASSOCED
+[   14.015665] [SKWIFI6621S DBG] skw_iface_set_wmm_capa: aci: 0, aifsn: 2, txop_limit: 47, factor: 0
+[   14.015669] [SKWIFI6621S DBG] skw_iface_set_wmm_capa: aci: 1, aifsn: 2, txop_limit: 94, factor: 0
+[   14.015671] [SKWIFI6621S DBG] skw_iface_set_wmm_capa: aci: 2, aifsn: 3, txop_limit: 0, factor: 0
+[   14.015674] [SKWIFI6621S DBG] skw_iface_set_wmm_capa: aci: 3, aifsn: 7, txop_limit: 0, factor: 0
+[   14.015677] [SKWIFI6621S DBG] skw_iface_set_wmm_capa: wmm_acm: 0x0
+[   14.020103] [SKWIFI6621S DBG] wlan0.skw_change_station: STA, mac: d8:10:9f:6d:8c:40, flags_set: 0x2
+[   14.020119] [SKWIFI6621S STATE] inst: 0, STA -> d8:10:9f:6d:8c:40, state: ASSOCED -> COMPLETED
+[   14.020311] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[   14.020573] [SKWIFI6621S DBG] wlan0.skw_set_cqm_rssi_config: thold: -70, hyst: 4
+[   14.021540] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[   14.021957] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[   14.042375] [SKWIFI6621S DBG] wlan0.skw_ndo_set_rx_mode: mc: 1, uc: 0
+[   14.043576] [SKWIFI6621S DBG] wlan0.skw_ndo_set_rx_mode: mc: 2, uc: 0
+[   14.047556] [SKWIFI6621S DBG] skw_ifa6_notifier: action: 1
+[   14.047571] [SKWIFI6621S INFO] wlan0.skw_set_ip_to_fw: ip addr: fe80:0000:0000:0000:d21e:a551:839f:b61a
+[   14.047732] [SKWIFI6621S DBG] wlan0.skw_ndo_set_rx_mode: mc: 3, uc: 0
+[   14.050808] [SKWIFI6621S DBG] wlan0.skw_udp_filter: DHCP, port: 67
+[   14.050851] [SKWIFI6621S DBG] wlan0.skw_ndo_xmit: proto: 0x800, udp filter: 1, 802.3 frame: 0
+[   14.050914] [SKWIFI6621S DBG] skw_work_process: SKW_WORK_SETUP_TXBA, iface: 0, peer: 0, tid: 6
+[   14.056079] [SKWIFI6621S DBG] skw_work_process: SKW_WORK_SETUP_TXBA, iface: 0, peer: 0, tid: 0
+[   14.057698] [SKWIFI6621S ERROR] skw_work_process: setup TXBA failed, ret: -1
+[   14.065661] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[   14.066441] [SKWIFI6621S DBG] skw_event_ba_action: ADD_TX_BA, lmac_id :0 peer: 0, tid: 6, status: 0, win start: 0, win size: 0
+[   14.066506] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[   14.107654] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[   14.107799] [SKWIFI6621S DBG] skw_event_ba_action: ADD_RX_BA, lmac_id :0 peer: 0, tid: 0, status: 0, win start: 0, win size: 256
+[   14.107805] [SKWIFI6621S DBG] skw_add_tid_rx: peer: 0, tid: 0, ssn: 0, win size: 256
+[   14.146149] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 11, sn: 1, sa: 00:00:5e:00:01:03
+[   14.153799] [SKWIFI6621S DBG] skw_ifa4_notifier: action: 1
+[   14.153817] [SKWIFI6621S INFO] wlan0.skw_set_ip_to_fw: ip addr: 10.203.155.1
+[   14.153822] [SKWIFI6621S INFO] wlan0.skw_set_ip_to_fw: ip addr: fe80:0000:0000:0000:d21e:a551:839f:b61a
+[   14.214808] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6900
+[   14.226363] [SKWIFI6621S DBG] skw_work_process: SKW_WORK_SETUP_TXBA, iface: 0, peer: 0, tid: 0
+[   14.228787] [SKWIFI6621S DBG] skw_event_ba_action: ADD_TX_BA, lmac_id :0 peer: 0, tid: 0, status: 0, win start: 0, win size: 0
+[   14.228919] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6900
+[   14.272707] [SKWIFI6621S DBG] skw_sta_work: inst: 0, state: COMPLETED, retry: 0 jiff: 1431368169 step_start: 1431367886 ctx_start: 1431367886 auth_start: 1431367859 redo:0 not_first:1
+[   14.272739] [SKWIFI6621S DBG] skw_sta_work: state: COMPLETED, connect failed: 0, run again: 0
+[   14.344294] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6900
+[   14.467637] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6900
+[   15.368540] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7100
+[   15.726968] ttyFIQ ttyFIQ0: tty_port_close_start: tty->count = 1 port count = 2
+[   15.889914] [SKWIFI6621S DBG] wlan0.skw_udp_filter: DHCP, port: 547
+[   15.889935] [SKWIFI6621S DBG] wlan0.skw_ndo_xmit: proto: 0x86dd, udp filter: 1, 802.3 frame: 0
+[   15.890973] [SKWIFI6621S DBG] skw_ifa6_notifier: action: 1
+[   15.890991] [SKWIFI6621S INFO] wlan0.skw_set_ip_to_fw: ip addr: 10.203.155.1
+[   15.890995] [SKWIFI6621S INFO] wlan0.skw_set_ip_to_fw: ip addr: fe80:0000:0000:0000:d21e:a551:839f:b61a
+[   15.890997] [SKWIFI6621S INFO] wlan0.skw_set_ip_to_fw: ip addr: 240c:c603:000c:2363:03dc:f973:1591:0098
+[   15.891071] [SKWIFI6621S DBG] skw_ifa6_notifier: action: 1
+[   15.891077] [SKWIFI6621S INFO] wlan0.skw_set_ip_to_fw: ip addr: 10.203.155.1
+[   15.891080] [SKWIFI6621S INFO] wlan0.skw_set_ip_to_fw: ip addr: fe80:0000:0000:0000:d21e:a551:839f:b61a
+[   15.891083] [SKWIFI6621S INFO] wlan0.skw_set_ip_to_fw: ip addr: 240c:c603:000c:2363:03dc:f973:1591:0098
+[   15.891085] [SKWIFI6621S INFO] wlan0.skw_set_ip_to_fw: ip addr: 240c:c603:000c:2363:f301:34f3:a18d:25bb
+[   15.891733] [SKWIFI6621S DBG] wlan0.skw_ndo_set_rx_mode: mc: 4, uc: 0
+[   15.891776] [SKWIFI6621S DBG] wlan0.skw_ndo_set_rx_mode: mc: 5, uc: 0
+[   15.898454] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7100
+[   15.899393] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7100
+[   15.916794] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 12, sn: 5, sa: 00:00:5e:00:01:03
+[   16.362299] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7000
+[   18.440685] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6900
+[   19.463797] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[   20.493081] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[   39.412681] [SKWIFI6621S DBG] skw_ifa6_notifier: action: 2
+[   39.413069] [SKWIFI6621S DBG] skw_ifa4_notifier: action: 2
+[   45.473945] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6900
+[   46.498241] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6900
+[   47.521918] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[   49.631614] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7000
+[   50.592076] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[   51.619331] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+[   74.432764] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 6, sa: 00:00:5e:00:01:03
+[   74.433330] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 6, sa: 00:00:5e:00:01:03
+[   74.444383] [SKWIFI6621S DBG] skw_work_process: SKW_WORK_SETUP_TXBA, iface: 0, peer: 0, tid: 4
+[   74.446810] [SKWIFI6621S DBG] skw_event_ba_action: ADD_TX_BA, lmac_id :0 peer: 0, tid: 4, status: 0, win start: 0, win size: 0
+[   74.446888] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7300
+[   76.585338] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7200
+[   77.462630] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7000
+[   77.462712] [SKWIFI6621S DBG] skw_event_ba_action: ADD_RX_BA, lmac_id :0 peer: 0, tid: 3, status: 0, win start: 0, win size: 256
+[   77.462721] [SKWIFI6621S DBG] skw_add_tid_rx: peer: 0, tid: 3, ssn: 0, win size: 256
+[   77.582027] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7000
+[   78.581979] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7100
+[   80.581677] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7300
+[   81.581876] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7100
+[   82.100129] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[   82.136552] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7100
+[   82.582057] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7300
+[   88.386769] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 337
+[   88.389315] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[   92.319493] [SKWIFI6621S DBG] skw_event_cqm: cqm_status:1 cqm_rssi:-71 chan:13 band:0 d8:10:9f:6d:97:f0
+[   92.319508] [SKWIFI6621S DBG] skw_event_cqm: recv cqm low event bssid:d8:10:9f:6d:97:f0
+[   92.320486] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[   92.321090] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[   92.321107] [SKWIFI6621S DBG] skw_cqm_bg_scan: only 13
+[   92.325438] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7100
+[   93.090957] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 69
+[   93.091977] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  106.712125] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7000
+[  107.736084] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7800
+[  108.761591] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7100
+[  110.807452] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+[  111.844214] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7100
+[  112.858536] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7100
+[  123.099253] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  123.296977] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -7200
+[  127.504182] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 203
+[  127.506882] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  128.441780] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 94, sa: 00:00:5e:00:01:03
+[  137.849654] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  139.072115] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  139.894122] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  141.797278] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  142.760665] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+[  143.784999] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  157.525036] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  157.528401] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  163.966747] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 309
+[  163.969042] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  168.004793] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  168.973588] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  169.996263] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  171.839540] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+[  172.860980] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+[  173.886844] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  190.523573] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 124, sa: 00:00:5e:00:01:03
+[  193.981652] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  194.160708] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  197.420668] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 153
+[  197.423292] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  199.076550] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  200.100151] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+[  200.920321] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6900
+[  202.967213] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+[  203.993373] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  205.013769] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  227.436771] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  227.544546] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  229.179775] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  231.417807] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 168
+[  231.420102] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  231.441402] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  234.102559] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+[  235.124449] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+[  260.110808] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  261.130521] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  261.427740] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  263.386096] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  264.820014] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+[  265.230225] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  265.539896] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 193
+[  265.542139] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  266.457004] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  290.068895] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  291.241582] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  292.066503] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  294.086295] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  295.125526] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  295.553157] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  297.585463] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  300.562128] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 245
+[  300.564795] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  321.343915] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  322.367361] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  323.189039] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  325.231945] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  326.257268] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  327.288738] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  330.577339] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  334.843262] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 194
+[  334.845915] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  347.558052] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 344, sa: 00:00:5e:00:01:03
+[  352.266124] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  353.291478] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  354.322092] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  356.225261] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+[  357.387727] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  358.629516] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6900
+[  364.856583] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  368.635898] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 177
+[  368.638360] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  382.375454] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  383.414053] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  384.423117] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  386.265138] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  387.294204] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  387.662297] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 359, sa: 00:00:5e:00:01:03
+[  388.317282] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  398.647336] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  402.348910] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 169
+[  402.351534] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  413.503695] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  414.327109] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  415.348460] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  417.399366] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  418.420941] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  419.445607] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  432.361503] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  436.425818] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 187
+[  436.428111] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  444.430456] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  445.452924] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  446.478824] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  448.525330] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  449.554211] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  450.369412] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  456.561448] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 376, sa: 00:00:5e:00:01:03
+[  466.442277] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  470.138497] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 180
+[  470.140909] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  474.449959] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  475.450001] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  476.585281] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  478.836760] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  479.449175] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  480.678133] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  500.146346] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  504.010591] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 198
+[  504.013130] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  505.665412] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  506.689614] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  507.509320] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  509.559102] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  510.582260] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  511.605464] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  525.472905] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 392, sa: 00:00:5e:00:01:03
+[  534.026375] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  537.208440] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  537.803114] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 206
+[  537.805482] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  537.819565] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[  538.845264] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  540.649198] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  541.711658] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  542.733310] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  558.509308] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 416, sa: 00:00:5e:00:01:03
+[  566.901480] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  567.820786] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  569.768248] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  570.995175] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  571.595594] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 177
+[  571.598209] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  571.829725] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  572.844741] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  598.033677] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  598.851527] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  599.873548] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  601.608226] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  603.564988] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  603.973454] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  605.308818] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 176
+[  605.311405] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  611.662987] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 425, sa: 00:00:5e:00:01:03
+[  628.142544] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  628.920168] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  629.986976] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  632.029316] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  633.053620] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  634.084111] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  635.323720] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  639.795279] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 214
+[  639.797850] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  659.062452] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  660.088765] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  661.019628] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  663.161975] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  664.185412] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  665.207759] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  669.804746] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  674.201831] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 224
+[  674.204146] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  689.170271] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  690.196927] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  691.120255] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  693.119735] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  694.292842] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  695.316798] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  704.215434] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  708.403810] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 204
+[  708.406441] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  720.299119] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  721.158849] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  722.345356] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  724.192221] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  725.219944] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  726.239265] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  738.412743] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  742.117749] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 177
+[  742.118958] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  751.252058] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  752.454617] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+[  753.273648] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+[  755.321665] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+[  756.398582] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  757.370051] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  772.125383] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  776.193889] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 175
+[  776.196676] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  781.538209] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  782.562275] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  783.381583] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  785.426623] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[  786.470446] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  787.476097] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  806.206207] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  810.191834] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 175
+[  810.194039] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  812.460941] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  813.486577] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  814.507844] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  816.557835] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  817.577735] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  818.609081] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  840.200142] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  842.570542] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  843.593763] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  844.110086] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 176
+[  844.112799] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  844.615018] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  846.665453] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  847.683437] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  848.714027] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  873.697019] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  874.125534] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  876.360471] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  877.901502] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 180
+[  877.904345] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  878.202652] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  878.816573] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  879.633897] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  904.827032] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  905.853454] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  906.875519] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  907.917823] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  909.948916] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  909.950075] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  911.177848] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  911.774251] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 166
+[  911.776847] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  934.932013] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  935.953366] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  936.795177] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  938.824556] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  939.855127] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  940.877419] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  941.784944] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  945.486894] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 163
+[  945.489290] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  966.074581] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  966.895501] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  968.113059] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  969.964377] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  970.982847] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  972.011945] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[  975.498880] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[  979.767868] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 180
+[  979.770316] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[  996.175350] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[  997.195356] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[  997.197714] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 565, sa: 00:00:5e:00:01:03
+[  998.013738] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1000.061234] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1001.149534] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1002.036151] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1009.776596] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1013.480847] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 159
+[ 1013.483479] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1027.298606] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1028.119405] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1029.148246] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1031.096071] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1032.215273] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1033.237791] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1043.493910] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1047.478671] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 168
+[ 1047.481246] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1058.227128] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[ 1059.256413] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1060.277821] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1062.322067] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1063.142782] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1064.165188] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1077.495501] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1081.760291] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 195
+[ 1081.762881] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1088.333957] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1089.354647] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1090.382670] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1092.429518] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1093.247788] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1094.278009] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1111.771594] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1116.166846] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 195
+[ 1116.169097] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1119.458390] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1120.489255] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1121.303939] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1123.350872] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1124.378218] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1125.406032] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1146.182127] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1150.164696] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 184
+[ 1150.167055] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1150.593532] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1151.411018] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1153.464002] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1154.482960] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1155.507006] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1180.172605] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1182.133812] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+[ 1182.753404] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1184.082853] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 180
+[ 1184.085540] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1184.585956] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1185.613398] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1186.645339] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1210.804712] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1211.832948] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1212.855169] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1214.094226] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1216.144544] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1216.145061] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1216.743319] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1218.080053] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 178
+[ 1218.082166] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1241.933607] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+[ 1242.957222] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[ 1243.779276] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1245.822974] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+[ 1246.847725] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1247.877020] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1248.094468] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1252.156504] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 169
+[ 1252.158904] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1273.064853] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1274.093731] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1275.113524] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1276.962606] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1277.984732] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1279.006850] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1282.163928] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1282.472059] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1287.587733] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 233
+[ 1287.590276] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1303.221837] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1304.000148] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1305.217789] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1307.066073] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1308.089364] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1309.108928] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1317.601806] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1321.301016] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 176
+[ 1321.303619] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1334.097777] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1335.114765] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1336.145609] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1338.256268] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1339.212917] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1340.236654] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1351.310611] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1351.613354] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1357.015514] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 254
+[ 1357.018176] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1365.227172] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1366.250176] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1367.271523] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1369.330686] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1370.347561] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1371.164467] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1387.030455] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1390.934013] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 175
+[ 1390.936693] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1395.329957] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1396.354533] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1397.379578] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1399.427835] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1400.452563] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1401.460616] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1420.942783] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1424.805027] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 171
+[ 1424.807633] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1426.460893] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1427.492006] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1428.517884] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1430.355928] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1431.383747] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6600
+[ 1432.399280] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1454.821223] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1457.185366] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[ 1457.792942] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[ 1458.518425] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 147
+[ 1458.520536] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1458.681703] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1460.664034] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1461.686321] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1462.510617] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[ 1487.702351] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1488.525299] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1491.592186] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[ 1492.595229] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 172
+[ 1492.597658] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1492.614409] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6700
+[ 1493.637697] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6800
+[ 1518.622985] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1519.651144] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1520.670184] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[ 1522.602939] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1523.133601] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+[ 1523.135470] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+[ 1523.744108] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1526.308637] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 167
+[ 1526.310876] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1548.727758] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1549.762957] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+[ 1550.779147] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+[ 1553.029925] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1553.642528] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+[ 1554.668626] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1556.322036] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1556.509054] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+[ 1559.770702] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 140
+[ 1559.773033] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1579.868979] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1580.886601] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+[ 1582.114166] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1583.758833] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1584.773223] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+[ 1585.803524] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+[ 1589.783685] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1593.901295] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 183
+[ 1593.903801] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1609.966100] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+[ 1610.991170] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1612.012294] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1614.072577] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+[ 1615.088626] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1615.905598] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[ 1623.909212] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1627.891132] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 170
+[ 1627.893719] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1641.096633] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[ 1642.122519] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6500
+[ 1643.146447] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1645.193806] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1646.215537] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1647.248848] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+[ 1657.904599] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1662.786107] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 226
+[ 1662.788579] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1672.222186] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1673.249651] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+[ 1674.040014] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1676.125579] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1677.207451] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1678.231464] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6200
+[ 1680.622473] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 901, sa: 64:d6:9a:9f:f2:d1
+[ 1685.796857] [SKWIFI6621S DBG] skw_rx_data_handler: filter: 2, sn: 903, sa: 64:d6:9a:9f:f2:d1
+[ 1692.796120] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+[ 1696.704746] [SKWIFI6621S DBG] skw_scan_done: inst: 0, aborted: 0, scan result: 172
+[ 1696.707255] [SKWIFI6621S DBG] wlan0.skw_dump_survey: last idx: 0
+[ 1702.328980] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+[ 1703.154318] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1704.119676] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+[ 1706.222745] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6100
+[ 1707.252988] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6400
+[ 1708.269294] [SKWIFI6621S DBG] skw_event_rx_mgmt: ACTION(inst: 0), sa: d8:10:9f:6d:8c:40, chn: 44, band: 1, signal: -6300
+[ 1723.435592] [SKWIFI6621S DBG] skw_ifa4_notifier: action: 1
+[ 1723.436031] [SKWIFI6621S DBG] skw_ifa6_notifier: action: 1
+[ 1726.716267] [SKWIFI6621S DBG] skw_scan: STA: nr_chan: 39, n_ssids: 1, ie_len: 0
+
+
+[collector exit_code=0; error=; seconds=0.042]

@@ -1,0 +1,55 @@
+$ lsmod; cat /proc/modules; ls -la /lib/modules; find /lib/modules/$(uname -r) -maxdepth 2 -type f; cat /etc/modules; ls -l /etc/modules-load.d /etc/modprobe.d
+
+Module                  Size  Used by
+skwbt                  28672  0
+swt6621s_wifi         499712  0
+skw_sdio_lite         143360  0
+skwbt 28672 0 - Live 0xffffffc00164f000 (O)
+swt6621s_wifi 499712 0 - Live 0xffffffc0015d4000 (O)
+skw_sdio_lite 143360 0 - Live 0xffffffc0015b0000 (O)
+total 34980
+drwxrwxrwx  3 kickpi kickpi     4096 Feb  4  2026 .
+drwxr-xr-x 80   1000   1000     4096 Nov 21 12:39 ..
+drwxr-xr-x  2 root   root       4096 Nov 21 12:39 5.10.160
+-rw-r--r--  1   1000   1000  2885408 Aug 27 15:42 skw_sdio_lite.ko
+-rw-rw-r--  1 kickpi kickpi  2259160 Feb  2  2026 skw_usb_lite.ko
+-rw-r--r--  1   1000   1000  1077456 Aug 27 15:42 skwbt_sdio.ko
+-rw-rw-r--  1 kickpi kickpi  1076904 Feb  2  2026 skwbt_usb.ko
+-rw-r--r--  1   1000   1000 14295192 Apr  2  2026 swt6621s_wifi.ko
+-rw-rw-r--  1 kickpi kickpi 14199712 Feb  2  2026 swt6621u_wifi.ko
+/lib/modules/5.10.160/modules.dep
+/lib/modules/5.10.160/modules.devname
+/lib/modules/5.10.160/modules.symbols
+/lib/modules/5.10.160/modules.order
+/lib/modules/5.10.160/modules.dep.bin
+/lib/modules/5.10.160/modules.symbols.bin
+/lib/modules/5.10.160/modules.alias
+/lib/modules/5.10.160/rtkm.ko
+/lib/modules/5.10.160/modules.builtin.alias.bin
+/lib/modules/5.10.160/modules.builtin.bin
+/lib/modules/5.10.160/hci_uart.ko
+/lib/modules/5.10.160/8852be.ko
+/lib/modules/5.10.160/modules.softdep
+/lib/modules/5.10.160/modules.builtin
+/lib/modules/5.10.160/RTL8822CS.ko
+/lib/modules/5.10.160/modules.alias.bin
+# /etc/modules: kernel modules to load at boot time.
+#
+# This file contains the names of kernel modules that should be loaded
+# at boot time, one per line. Lines beginning with "#" are ignored.
+
+/etc/modprobe.d:
+total 24
+-rw-r--r-- 1 root root  325 Jan 28  2022 blacklist-ath_pci.conf
+-rw-r--r-- 1 root root  210 Jan 28  2022 blacklist-firewire.conf
+-rw-r--r-- 1 root root  677 Jan 28  2022 blacklist-framebuffer.conf
+-rw-r--r-- 1 root root  583 Jan 28  2022 blacklist-rare-network.conf
+-rw-r--r-- 1 root root 1518 Jan 28  2022 blacklist.conf
+-rw-r--r-- 1 root root  347 Jan 28  2022 iwlwifi.conf
+
+/etc/modules-load.d:
+total 0
+lrwxrwxrwx 1 root root 10 Mar  2  2023 modules.conf -> ../modules
+
+
+[collector exit_code=0; error=; seconds=0.034]

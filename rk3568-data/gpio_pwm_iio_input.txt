@@ -1,0 +1,237 @@
+$ cat /sys/kernel/debug/gpio; cat /sys/kernel/debug/pwm; cat /proc/bus/input/devices; ls -l /sys/class/gpio /sys/class/pwm /sys/bus/iio/devices /sys/class/leds /sys/class/rtc /sys/class/watchdog; for d in /sys/class/rtc/rtc*; do echo RTC:$d; cat $d/name $d/date $d/time 2>/dev/null; done
+
+gpiochip0: GPIOs 0-31, parent: platform/fdd60000.gpio0, gpio0:
+ gpio-5   (                    |vcc5v0-otg-regulator) out lo 
+ gpio-6   (                    |vcc5v0-host-regulato) out hi 
+ gpio-14  (                    |GTP RST PORT        ) in  hi 
+ gpio-23  (                    |vcc3v3-lcd0-n       ) out hi 
+ gpio-28  (                    |gpio-regulator      ) out hi 
+ gpio-29  (                    |work-led            ) out lo 
+ gpio-30  (                    |fan                 ) out hi 
+
+gpiochip1: GPIOs 32-63, parent: platform/fe740000.gpio1, gpio1:
+ gpio-36  (                    |gpio1a4             ) out lo 
+ gpio-40  (                    |gpio1b0             ) out lo 
+ gpio-41  (                    |gpio1b1             ) out lo 
+ gpio-42  (                    |gpio1b2             ) out lo 
+ gpio-56  (                    |gpio1d0             ) out lo 
+ gpio-59  (                    |hp-det              ) in  lo 
+ gpio-60  (                    |gpio1d4             ) out lo 
+
+gpiochip2: GPIOs 64-95, parent: platform/fe750000.gpio2, gpio2:
+ gpio-73  (                    |bt_default_rts      ) out hi 
+ gpio-91  (                    |snps,reset          ) out hi ACTIVE LOW
+
+gpiochip3: GPIOs 96-127, parent: platform/fe760000.gpio3, gpio3:
+ gpio-96  (                    |bt_default_poweron  ) out hi 
+ gpio-97  (                    |bt_default_wake     ) out hi 
+ gpio-98  (                    |bt_default_wake_host) in  lo 
+ gpio-99  (                    |GTP INT IRQ         ) in  hi 
+ gpio-100 (                    |reset               ) out hi ACTIVE LOW
+ gpio-103 (                    |snps,reset          ) out hi ACTIVE LOW
+ gpio-109 (                    |gpio3b5             ) out lo 
+ gpio-110 (                    |gpio3b6             ) out lo 
+ gpio-115 (                    |minipcie-regulator  ) out hi 
+ gpio-125 (                    |CHIP_EN             ) out hi 
+
+gpiochip4: GPIOs 128-159, parent: platform/fe770000.gpio4, gpio4:
+ gpio-144 (                    |vcc1v8-cam          ) out hi 
+ gpio-148 (                    |gpio4c4             ) out lo 
+ gpio-150 (                    |gpio4c6             ) out lo 
+ gpio-154 (                    |vcc3v3-mipi-con     ) out hi 
+
+gpiochip5: GPIOs 511-511, parent: platform/rk805-pinctrl, rk817-gpio, can sleep:
+platform/fe6e0000.pwm, 1 PWM device
+ pwm-0   (backlight-dsi0      ): requested enabled period: 25000 ns duty: 19607 ns polarity: normal
+
+platform/fdd70030.pwm, 1 PWM device
+ pwm-0   ((null)              ): period: 0 ns duty: 0 ns polarity: normal
+I: Bus=0019 Vendor=524b Product=0006 Version=0100
+N: Name="fe6e0030.pwm"
+P: Phys=gpio-keys/remotectl
+S: Sysfs=/devices/platform/fe6e0030.pwm/input/input0
+U: Uniq=
+H: Handlers=kbd event0 dmcfreq cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=e 0 10 0 0 60310 0 0 10002000000 384040a800 1e16c001000007 f010000010004ffc
+
+I: Bus=0019 Vendor=0000 Product=0000 Version=0000
+N: Name="rk805 pwrkey"
+P: Phys=rk805_pwrkey/input0
+S: Sysfs=/devices/platform/fdd40000.i2c/i2c-0/0-0020/rk805-pwrkey/input/input1
+U: Uniq=
+H: Handlers=kbd event1 dmcfreq cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=10000000000000 0
+
+I: Bus=0018 Vendor=dead Product=beef Version=28bb
+N: Name="goodix-ts"
+P: Phys=input/ts
+S: Sysfs=/devices/virtual/input/input2
+U: Uniq=
+H: Handlers=kbd event2 dmcfreq cpufreq 
+B: PROP=2
+B: EV=b
+B: KEY=40000800 10004000000000 0
+B: ABS=265800000000000
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="rockchip-rk809 Headset"
+P: Phys=ALSA
+S: Sysfs=/devices/platform/rk809-sound/sound/card0/input3
+U: Uniq=
+H: Handlers=event3 
+B: PROP=0
+B: EV=21
+B: SW=14
+
+I: Bus=0003 Vendor=1532 Product=006e Version=0111
+N: Name="Razer Razer DeathAdder Essential"
+P: Phys=usb-xhci-hcd.0.auto-1/input0
+S: Sysfs=/devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.0/0003:1532:006E.0001/input/input4
+U: Uniq=
+H: Handlers=event4 dmcfreq cpufreq 
+B: PROP=0
+B: EV=17
+B: KEY=1f0000 0 0 0 0
+B: REL=903
+B: MSC=10
+
+I: Bus=0003 Vendor=1532 Product=006e Version=0111
+N: Name="Razer Razer DeathAdder Essential Keyboard"
+P: Phys=usb-xhci-hcd.0.auto-1/input1
+S: Sysfs=/devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.1/0003:1532:006E.0002/input/input5
+U: Uniq=
+H: Handlers=sysrq kbd event5 dmcfreq cpufreq 
+B: PROP=0
+B: EV=100013
+B: KEY=1000000000007 ff9f207ac14057ff febeffdfffefffff fffffffffffffffe
+B: MSC=10
+
+I: Bus=0003 Vendor=1532 Product=006e Version=0111
+N: Name="Razer Razer DeathAdder Essential Consumer Control"
+P: Phys=usb-xhci-hcd.0.auto-1/input1
+S: Sysfs=/devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.1/0003:1532:006E.0002/input/input6
+U: Uniq=
+H: Handlers=kbd event6 dmcfreq cpufreq 
+B: PROP=0
+B: EV=1f
+B: KEY=306ff 0 0 483ffff17aff32d bfd4444600000000 1 130c730b17c000 267bfad9415fed 9e168000004400 10000002
+B: REL=1040
+B: ABS=100000000
+B: MSC=10
+
+I: Bus=0003 Vendor=1532 Product=006e Version=0111
+N: Name="Razer Razer DeathAdder Essential System Control"
+P: Phys=usb-xhci-hcd.0.auto-1/input1
+S: Sysfs=/devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.1/0003:1532:006E.0002/input/input7
+U: Uniq=
+H: Handlers=kbd event7 dmcfreq cpufreq 
+B: PROP=0
+B: EV=13
+B: KEY=c000 10000000000000 0
+B: MSC=10
+
+I: Bus=0003 Vendor=1532 Product=006e Version=0111
+N: Name="Razer Razer DeathAdder Essential"
+P: Phys=usb-xhci-hcd.0.auto-1/input1
+S: Sysfs=/devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.1/0003:1532:006E.0002/input/input8
+U: Uniq=
+H: Handlers=event8 
+B: PROP=0
+B: EV=9
+B: ABS=10000000000
+
+I: Bus=0003 Vendor=1532 Product=006e Version=0111
+N: Name="Razer Razer DeathAdder Essential"
+P: Phys=usb-xhci-hcd.0.auto-1/input2
+S: Sysfs=/devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.2/0003:1532:006E.0003/input/input9
+U: Uniq=
+H: Handlers=sysrq kbd leds event9 dmcfreq cpufreq 
+B: PROP=0
+B: EV=120013
+B: KEY=1000000000007 ff9f207ac14057ff febeffdfffefffff fffffffffffffffe
+B: MSC=10
+B: LED=7
+
+I: Bus=0019 Vendor=0001 Product=0001 Version=0100
+N: Name="hdmi_cec_key"
+P: Phys=hdmi_cec_key/input0
+S: Sysfs=/devices/platform/fe0a0000.hdmi/dw-hdmi-cec.4.auto/input/input10
+U: Uniq=
+H: Handlers=event10 cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=10000000000000 0
+
+I: Bus=0019 Vendor=0001 Product=0001 Version=0100
+N: Name="adc-keys"
+P: Phys=adc-keys/input0
+S: Sysfs=/devices/platform/adc-keys/input/input11
+U: Uniq=
+H: Handlers=kbd event11 dmcfreq cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=8000000000000 0
+
+/sys/bus/iio/devices:
+total 0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 iio:device0 -> ../../../devices/platform/fe720000.saradc/iio:device0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 iio_sysfs_trigger -> ../../../devices/iio_sysfs_trigger
+
+/sys/class/gpio:
+total 0
+--w------- 1 root root 4096 Nov 21 12:39 export
+lrwxrwxrwx 1 root root    0 Nov 21 12:39 gpiochip0 -> ../../devices/platform/pinctrl/fdd60000.gpio0/gpio/gpiochip0
+lrwxrwxrwx 1 root root    0 Nov 21 12:39 gpiochip128 -> ../../devices/platform/pinctrl/fe770000.gpio4/gpio/gpiochip128
+lrwxrwxrwx 1 root root    0 Nov 21 12:39 gpiochip32 -> ../../devices/platform/pinctrl/fe740000.gpio1/gpio/gpiochip32
+lrwxrwxrwx 1 root root    0 Nov 21 12:39 gpiochip511 -> ../../devices/platform/fdd40000.i2c/i2c-0/0-0020/rk805-pinctrl/gpio/gpiochip511
+lrwxrwxrwx 1 root root    0 Nov 21 12:39 gpiochip64 -> ../../devices/platform/pinctrl/fe750000.gpio2/gpio/gpiochip64
+lrwxrwxrwx 1 root root    0 Nov 21 12:39 gpiochip96 -> ../../devices/platform/pinctrl/fe760000.gpio3/gpio/gpiochip96
+--w------- 1 root root 4096 Nov 21 12:39 unexport
+
+/sys/class/leds:
+total 0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 fan -> ../../devices/platform/leds/leds/fan
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 gpio1a4 -> ../../devices/platform/leds/leds/gpio1a4
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 gpio1b0 -> ../../devices/platform/leds/leds/gpio1b0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 gpio1b1 -> ../../devices/platform/leds/leds/gpio1b1
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 gpio1b2 -> ../../devices/platform/leds/leds/gpio1b2
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 gpio1d0 -> ../../devices/platform/leds/leds/gpio1d0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 gpio1d4 -> ../../devices/platform/leds/leds/gpio1d4
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 gpio3b5 -> ../../devices/platform/leds/leds/gpio3b5
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 gpio3b6 -> ../../devices/platform/leds/leds/gpio3b6
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 gpio4c4 -> ../../devices/platform/leds/leds/gpio4c4
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 gpio4c6 -> ../../devices/platform/leds/leds/gpio4c6
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 input9::capslock -> ../../devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.2/0003:1532:006E.0003/input/input9/input9::capslock
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 input9::numlock -> ../../devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.2/0003:1532:006E.0003/input/input9/input9::numlock
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 input9::scrolllock -> ../../devices/platform/usbhost/fd000000.dwc3/xhci-hcd.0.auto/usb5/5-1/5-1:1.2/0003:1532:006E.0003/input/input9/input9::scrolllock
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 mmc0:: -> ../../devices/platform/fe310000.sdhci/leds/mmc0::
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 work-led -> ../../devices/platform/leds/leds/work-led
+
+/sys/class/pwm:
+total 0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 pwmchip0 -> ../../devices/platform/fdd70030.pwm/pwm/pwmchip0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 pwmchip1 -> ../../devices/platform/fe6e0000.pwm/pwm/pwmchip1
+
+/sys/class/rtc:
+total 0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 rtc0 -> ../../devices/platform/fdd40000.i2c/i2c-0/0-0020/rk808-rtc/rtc/rtc0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 rtc1 -> ../../devices/platform/fe5e0000.i2c/i2c-5/5-0051/rtc/rtc1
+
+/sys/class/watchdog:
+total 0
+lrwxrwxrwx 1 root root 0 Nov 21 12:39 watchdog0 -> ../../devices/platform/fe600000.watchdog/watchdog/watchdog0
+RTC:/sys/class/rtc/rtc0
+rk808-rtc rk808-rtc
+2026-11-21
+05:08:28
+RTC:/sys/class/rtc/rtc1
+rtc-hym8563 5-0051
+2021-01-01
+12:35:31
+
+
+[collector exit_code=0; error=; seconds=0.032]

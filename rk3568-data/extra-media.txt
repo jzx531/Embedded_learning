@@ -1,0 +1,170 @@
+$ media-ctl -p -d /dev/media0; v4l2-ctl -D -d /dev/video0; cat /sys/kernel/debug/rknpu/version /sys/kernel/debug/rknpu/load; cat /sys/kernel/debug/dri/0/summary
+
+Media controller API version 5.10.160
+
+Media device information
+------------------------
+driver          rkisp-vir0
+model           rkisp0
+serial          
+bus info        
+hw revision     0x0
+driver version  5.10.160
+
+Device topology
+- entity 1: rkisp-isp-subdev (4 pads, 8 links)
+            type V4L2 subdev subtype Unknown flags 0
+            device node name /dev/v4l-subdev0
+	pad0: Sink
+		[fmt:SRGGB8_1X8/800x600 field:none
+		 crop.bounds:(0,0)/800x600
+		 crop:(0,0)/800x600]
+		<- "rkisp-csi-subdev":1 [ENABLED]
+		<- "rkisp_rawrd0_m":0 []
+		<- "rkisp_rawrd2_s":0 []
+	pad1: Sink
+		<- "rkisp-input-params":0 [ENABLED]
+	pad2: Source
+		[fmt:YUYV8_2X8/800x600 field:none colorspace:smpte170m quantization:full-range
+		 crop.bounds:(0,0)/800x600
+		 crop:(0,0)/800x600]
+		-> "rkisp_mainpath":0 [ENABLED]
+		-> "rkisp_selfpath":0 [ENABLED]
+		-> "rkisp_iqtool":0 [ENABLED]
+	pad3: Source
+		-> "rkisp-statistics":0 [ENABLED]
+
+- entity 6: rkisp-csi-subdev (6 pads, 5 links)
+            type V4L2 subdev subtype Unknown flags 0
+            device node name /dev/v4l-subdev1
+	pad0: Sink
+		<- "rockchip-csi2-dphy0":1 [ENABLED]
+	pad1: Source
+		-> "rkisp-isp-subdev":0 [ENABLED]
+	pad2: Source
+		-> "rkisp_rawwr0":0 [ENABLED]
+	pad3: Source
+	pad4: Source
+		-> "rkisp_rawwr2":0 [ENABLED]
+	pad5: Source
+		-> "rkisp_rawwr3":0 [ENABLED]
+
+- entity 13: rkisp_mainpath (1 pad, 1 link)
+             type Node subtype V4L flags 0
+             device node name /dev/video0
+	pad0: Sink
+		<- "rkisp-isp-subdev":2 [ENABLED]
+
+- entity 19: rkisp_selfpath (1 pad, 1 link)
+             type Node subtype V4L flags 0
+             device node name /dev/video1
+	pad0: Sink
+		<- "rkisp-isp-subdev":2 [ENABLED]
+
+- entity 25: rkisp_rawwr0 (1 pad, 1 link)
+             type Node subtype V4L flags 0
+             device node name /dev/video2
+	pad0: Sink
+		<- "rkisp-csi-subdev":2 [ENABLED]
+
+- entity 31: rkisp_rawwr2 (1 pad, 1 link)
+             type Node subtype V4L flags 0
+             device node name /dev/video3
+	pad0: Sink
+		<- "rkisp-csi-subdev":4 [ENABLED]
+
+- entity 37: rkisp_rawwr3 (1 pad, 1 link)
+             type Node subtype V4L flags 0
+             device node name /dev/video4
+	pad0: Sink
+		<- "rkisp-csi-subdev":5 [ENABLED]
+
+- entity 43: rkisp_iqtool (1 pad, 1 link)
+             type Node subtype V4L flags 0
+             device node name /dev/video5
+	pad0: Sink
+		<- "rkisp-isp-subdev":2 [ENABLED]
+
+- entity 49: rkisp_rawrd0_m (1 pad, 1 link)
+             type Node subtype V4L flags 0
+             device node name /dev/video6
+	pad0: Source
+		-> "rkisp-isp-subdev":0 []
+
+- entity 55: rkisp_rawrd2_s (1 pad, 1 link)
+             type Node subtype V4L flags 0
+             device node name /dev/video7
+	pad0: Source
+		-> "rkisp-isp-subdev":0 []
+
+- entity 61: rkisp-statistics (1 pad, 1 link)
+             type Node subtype V4L flags 0
+             device node name /dev/video8
+	pad0: Sink
+		<- "rkisp-isp-subdev":3 [ENABLED]
+
+- entity 67: rkisp-input-params (1 pad, 1 link)
+             type Node subtype V4L flags 0
+             device node name /dev/video9
+	pad0: Source
+		-> "rkisp-isp-subdev":1 [ENABLED]
+
+- entity 73: rockchip-csi2-dphy0 (2 pads, 1 link)
+             type V4L2 subdev subtype Unknown flags 0
+             device node name /dev/v4l-subdev2
+	pad0: Sink
+	pad1: Source
+		-> "rkisp-csi-subdev":0 [ENABLED]
+
+Driver Info:
+	Driver name      : rkisp_v5
+	Card type        : rkisp_mainpath
+	Bus info         : platform:rkisp-vir0
+	Driver version   : 2.3.0
+	Capabilities     : 0x84201000
+		Video Capture Multiplanar
+		Streaming
+		Extended Pix Format
+		Device Capabilities
+	Device Caps      : 0x04201000
+		Video Capture Multiplanar
+		Streaming
+		Extended Pix Format
+Media Driver Info:
+	Driver name      : rkisp-vir0
+	Model            : rkisp0
+	Serial           : 
+	Bus info         : 
+	Media version    : 5.10.160
+	Hardware revision: 0x00000000 (0)
+	Driver version   : 5.10.160
+Interface Info:
+	ID               : 0x0300000e
+	Type             : V4L Video
+Entity Info:
+	ID               : 0x0000000d (13)
+	Name             : rkisp_mainpath
+	Function         : V4L2 I/O
+	Pad 0x01000010   : 0: Sink
+	  Link 0x02000011: from remote pad 0x1000004 of entity 'rkisp-isp-subdev': Data, Enabled
+RKNPU driver: v0.9.8
+NPU load:  0%
+Video Port0: DISABLED
+Video Port1: ACTIVE
+    Connector: DSI-1
+	bus_format[100a]: RGB888_1X24
+	overlay_mode[0] output_mode[0] color_space[0], eotf:0
+    Display mode: 800x1280p58
+	clk[68000] real_clk[68000] type[48] flag[a]
+	H: 800 840 860 880
+	V: 1280 1300 1304 1324
+    Smart0-win0: ACTIVE
+	win_id: 0
+	format: XR24 little-endian (0x34325258) SDR[0] color_space[0] glb_alpha[0xff]
+	rotate: xmirror: 0 ymirror: 0 rotate_90: 0 rotate_270: 0
+	csc: y2r[0] r2y[0] csc mode[0]
+	zpos: 1
+	src: pos[0, 0] rect[800 x 1280]
+	dst: pos[0, 0] rect[800 x 1280]
+	buf[0]: addr: 0x00000000ee3a0000 pitch: 3200 offset: 0
+Video Port2: DISABLED

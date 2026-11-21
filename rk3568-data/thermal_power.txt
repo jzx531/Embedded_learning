@@ -1,0 +1,53 @@
+$ for d in /sys/class/thermal/thermal_zone*; do echo ZONE:$d; cat $d/type $d/temp $d/trip_point* 2>/dev/null; done; for d in /sys/devices/system/cpu/cpufreq/policy*; do echo CPUFREQ:$d; cat $d/scaling_driver $d/scaling_governor $d/scaling_available_governors $d/scaling_available_frequencies $d/cpuinfo_min_freq $d/cpuinfo_max_freq $d/scaling_cur_freq 2>/dev/null; done; for d in /sys/class/devfreq/*; do echo DEVFREQ:$d; cat $d/name $d/governor $d/available_frequencies $d/cur_freq 2>/dev/null; done
+
+ZONE:/sys/class/thermal/thermal_zone0
+soc-thermal
+49444
+2000
+75000
+passive
+2000
+85000
+passive
+2000
+115000
+critical
+ZONE:/sys/class/thermal/thermal_zone1
+gpu-thermal
+43125
+CPUFREQ:/sys/devices/system/cpu/cpufreq/policy0
+cpufreq-dt
+interactive
+interactive conservative ondemand userspace powersave performance schedutil 
+408000 600000 816000 1104000 1416000 1608000 1800000 1992000 
+408000
+1992000
+1992000
+DEVFREQ:/sys/class/devfreq/dmc
+dmc
+dmc_ondemand
+324000000 528000000 780000000 1056000000
+324000000
+DEVFREQ:/sys/class/devfreq/fde40000.npu
+fde40000.npu
+rknpu_ondemand
+200000000 297000000 400000000 600000000 700000000 800000000 900000000
+600000000
+DEVFREQ:/sys/class/devfreq/fde60000.gpu
+fde60000.gpu
+simple_ondemand
+800000000 700000000 600000000 400000000 300000000 200000000
+200000000
+DEVFREQ:/sys/class/devfreq/fdf40000.rkvenc
+fdf40000.rkvenc
+venc_ondemand
+297000000 400000000
+0
+DEVFREQ:/sys/class/devfreq/fdf80200.rkvdec
+fdf80200.rkvdec
+vdec2_ondemand
+297000000 400000000
+0
+
+
+[collector exit_code=0; error=; seconds=0.051]

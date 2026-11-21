@@ -1,0 +1,50 @@
+$ hciconfig -a; iw dev wlan0 link; for f in /sys/bus/iio/devices/iio:device0/in_*; do echo ATTR:$f; cat $f; done; cat /sys/class/backlight/*/brightness /sys/class/backlight/*/max_brightness; cat /sys/class/watchdog/watchdog0/identity /sys/class/watchdog/watchdog0/state /sys/class/watchdog/watchdog0/timeout
+
+hci0:	Type: Primary  Bus: SDIO
+	BD Address: 60:48:9C:B6:EC:0F  ACL MTU: 1021:6  SCO MTU: 255:4
+	UP RUNNING 
+	RX bytes:0 acl:0 sco:0 events:68 errors:0
+	TX bytes:4596 acl:0 sco:0 commands:70 errors:0
+	Features: 0xbf 0xee 0x0d 0xfe 0xdb 0xfd 0x7b 0x87
+	Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV3 
+	Link policy: RSWITCH SNIFF 
+	Link mode: SLAVE ACCEPT 
+	Name: 'kickpi'
+	Class: 0x1c0000
+	Service Classes: Rendering, Capturing, Object Transfer
+	Device Class: Miscellaneous, 
+	HCI Version:  (0xd)  Revision: 0x5302
+	LMP Version:  (0xd)  Subversion: 0xd
+	Manufacturer: not assigned (3149)
+
+Connected to d8:10:9f:6d:8c:40 (on wlan0)
+	SSID: SEU-WLAN
+	freq: 5220
+	RX: 65192915 bytes (205005 packets)
+	TX: 1276151 bytes (1988 packets)
+	signal: -64 dBm
+	rx bitrate: 172.0 MBit/s 40MHz HE-MCS 7 HE-NSS 1 HE-GI 0 HE-DCM 0
+	tx bitrate: 172.0 MBit/s 40MHz HE-MCS 7 HE-NSS 1 HE-GI 0 HE-DCM 0
+ATTR:/sys/bus/iio/devices/iio:device0/in_voltage0_raw
+1023
+ATTR:/sys/bus/iio/devices/iio:device0/in_voltage1_raw
+1023
+ATTR:/sys/bus/iio/devices/iio:device0/in_voltage2_raw
+1023
+ATTR:/sys/bus/iio/devices/iio:device0/in_voltage3_raw
+1023
+ATTR:/sys/bus/iio/devices/iio:device0/in_voltage4_raw
+575
+ATTR:/sys/bus/iio/devices/iio:device0/in_voltage5_raw
+191
+ATTR:/sys/bus/iio/devices/iio:device0/in_voltage6_raw
+1023
+ATTR:/sys/bus/iio/devices/iio:device0/in_voltage7_raw
+595
+ATTR:/sys/bus/iio/devices/iio:device0/in_voltage_scale
+1.757812500
+200
+255
+cat: /sys/class/watchdog/watchdog0/identity: No such file or directory
+cat: /sys/class/watchdog/watchdog0/state: No such file or directory
+cat: /sys/class/watchdog/watchdog0/timeout: No such file or directory

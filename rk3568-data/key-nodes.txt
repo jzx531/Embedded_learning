@@ -1,0 +1,961 @@
+/
+  serial-number = "522550335edea2ab";
+  compatible = "rockchip,rk3568-kickpi-k1a", "rockchip,rk3568";
+  interrupt-parent = <0x1>;
+  #address-cells = <0x2>;
+  #size-cells = <0x2>;
+  model = "Rockchip RK3568 KICKPI K1A Board";
+/aliases
+  csi2dphy0 = "/csi2-dphy0";
+  csi2dphy1 = "/csi2-dphy1";
+  csi2dphy2 = "/csi2-dphy2";
+  dsi0 = "/dsi@fe060000";
+  dsi1 = "/dsi@fe070000";
+  ethernet0 = "/ethernet@fe2a0000";
+  ethernet1 = "/ethernet@fe010000";
+  gpio0 = "/pinctrl/gpio0@fdd60000";
+  gpio1 = "/pinctrl/gpio1@fe740000";
+  gpio2 = "/pinctrl/gpio2@fe750000";
+  gpio3 = "/pinctrl/gpio3@fe760000";
+  gpio4 = "/pinctrl/gpio4@fe770000";
+  i2c0 = "/i2c@fdd40000";
+  i2c1 = "/i2c@fe5a0000";
+  i2c2 = "/i2c@fe5b0000";
+  i2c3 = "/i2c@fe5c0000";
+  i2c4 = "/i2c@fe5d0000";
+  i2c5 = "/i2c@fe5e0000";
+  mmc0 = "/sdhci@fe310000";
+  mmc1 = "/dwmmc@fe2b0000";
+  mmc2 = "/dwmmc@fe2c0000";
+  mmc3 = "/dwmmc@fe000000";
+  serial0 = "/serial@fdd50000";
+  serial1 = "/serial@fe650000";
+  serial2 = "/serial@fe660000";
+  serial3 = "/serial@fe670000";
+  serial4 = "/serial@fe680000";
+  serial5 = "/serial@fe690000";
+  serial6 = "/serial@fe6a0000";
+  serial7 = "/serial@fe6b0000";
+  serial8 = "/serial@fe6c0000";
+  serial9 = "/serial@fe6d0000";
+  spi0 = "/spi@fe610000";
+  spi1 = "/spi@fe620000";
+  spi2 = "/spi@fe630000";
+  spi3 = "/spi@fe640000";
+  lvds0 = "/syscon@fdc60000/lvds";
+  lvds1 = "/syscon@fdc60000/lvds1";
+/reserved-memory
+  #address-cells = <0x2>;
+  #size-cells = <0x2>;
+  ranges;
+/reserved-memory/drm-logo@00000000
+  compatible = "rockchip,drm-logo";
+  reg = <0x0 0xedf00000 0x0 0xb8000>;
+  phandle = <0x13>;
+/reserved-memory/drm-cubic-lut@00000000
+  compatible = "rockchip,drm-cubic-lut";
+  reg = <0x0 0xeff00000 0x0 0x8000>;
+  phandle = <0x14>;
+/reserved-memory/ramoops@110000
+  compatible = "ramoops";
+  reg = <0x0 0x110000 0x0 0xf0000>;
+  record-size = <0x20000>;
+  console-size = <0x80000>;
+  ftrace-size = <0x0>;
+  pmsg-size = <0x50000>;
+/i2c@fdd40000
+  compatible = "rockchip,rk3399-i2c";
+  reg = <0x0 0xfdd40000 0x0 0x1000>;
+  clocks = <0x39 0x7 0x39 0x2d>;
+  clock-names = "i2c", "pclk";
+  interrupts = <0x0 0x2e 0x4>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x3c>;
+  #address-cells = <0x1>;
+  #size-cells = <0x0>;
+  status = "okay";
+/i2c@fdd40000/tcs4525@1c
+  compatible = "tcs,tcs4525";
+  reg = <0x1c>;
+  vin-supply = <0x3d>;
+  regulator-compatible = "fan53555-reg";
+  regulator-name = "vdd_cpu";
+  regulator-min-microvolt = <0xadf34>;
+  regulator-max-microvolt = <0x1535b0>;
+  regulator-init-microvolt = <0xdbba0>;
+  regulator-ramp-delay = <0x8fc>;
+  fcs,suspend-voltage-selector = <0x1>;
+  regulator-boot-on;
+  regulator-always-on;
+  phandle = <0x5>;
+/i2c@fdd40000/tcs4525@1c/regulator-state-mem
+  regulator-off-in-suspend;
+/i2c@fdd40000/pmic@20
+  compatible = "rockchip,rk809";
+  reg = <0x20>;
+  interrupt-parent = <0x3e>;
+  interrupts = <0x3 0x8>;
+  pinctrl-names = "default", "pmic-sleep", "pmic-power-off", "pmic-reset";
+  pinctrl-0 = <0x3f>;
+  pinctrl-1 = <0x40 0x41>;
+  pinctrl-2 = <0x42 0x43>;
+  pinctrl-3 = <0x42 0x44>;
+  rockchip,system-power-controller;
+  wakeup-source;
+  #clock-cells = <0x1>;
+  clock-output-names = "rk808-clkout1", "rk808-clkout2";
+  pmic-reset-func = <0x0>;
+  not-save-power-en = <0x1>;
+  vcc1-supply = <0x45>;
+  vcc2-supply = <0x45>;
+  vcc3-supply = <0x45>;
+  vcc4-supply = <0x45>;
+  vcc5-supply = <0x45>;
+  vcc6-supply = <0x45>;
+  vcc7-supply = <0x45>;
+  vcc8-supply = <0x45>;
+  vcc9-supply = <0x45>;
+  phandle = <0x146>;
+/i2c@fdd40000/pmic@20/pwrkey
+  status = "okay";
+/i2c@fdd40000/pmic@20/pinctrl_rk8xx
+  gpio-controller;
+  #gpio-cells = <0x2>;
+/i2c@fdd40000/pmic@20/pinctrl_rk8xx/rk817_slppin_null
+  pins = "gpio_slp";
+  function = "pin_fun0";
+/i2c@fdd40000/pmic@20/pinctrl_rk8xx/rk817_slppin_slp
+  pins = "gpio_slp";
+  function = "pin_fun1";
+  phandle = <0x41>;
+/i2c@fdd40000/pmic@20/pinctrl_rk8xx/rk817_slppin_pwrdn
+  pins = "gpio_slp";
+  function = "pin_fun2";
+  phandle = <0x43>;
+/i2c@fdd40000/pmic@20/pinctrl_rk8xx/rk817_slppin_rst
+  pins = "gpio_slp";
+  function = "pin_fun3";
+  phandle = <0x44>;
+/i2c@fdd40000/pmic@20/regulators
+/i2c@fdd40000/pmic@20/regulators/DCDC_REG1
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-min-microvolt = <0x7a120>;
+  regulator-max-microvolt = <0x149970>;
+  regulator-init-microvolt = <0xdbba0>;
+  regulator-ramp-delay = <0x1771>;
+  regulator-initial-mode = <0x2>;
+  regulator-name = "vdd_logic";
+  phandle = <0x6e>;
+/i2c@fdd40000/pmic@20/regulators/DCDC_REG1/regulator-state-mem
+  regulator-off-in-suspend;
+/i2c@fdd40000/pmic@20/regulators/DCDC_REG2
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-min-microvolt = <0x7a120>;
+  regulator-max-microvolt = <0x149970>;
+  regulator-init-microvolt = <0xdbba0>;
+  regulator-ramp-delay = <0x1771>;
+  regulator-initial-mode = <0x2>;
+  regulator-name = "vdd_gpu";
+  phandle = <0x70>;
+/i2c@fdd40000/pmic@20/regulators/DCDC_REG2/regulator-state-mem
+  regulator-off-in-suspend;
+/i2c@fdd40000/pmic@20/regulators/DCDC_REG3
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-initial-mode = <0x2>;
+  regulator-name = "vcc_ddr";
+/i2c@fdd40000/pmic@20/regulators/DCDC_REG3/regulator-state-mem
+  regulator-on-in-suspend;
+/i2c@fdd40000/pmic@20/regulators/DCDC_REG4
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-min-microvolt = <0x7a120>;
+  regulator-max-microvolt = <0x149970>;
+  regulator-init-microvolt = <0xdbba0>;
+  regulator-ramp-delay = <0x1771>;
+  regulator-initial-mode = <0x2>;
+  regulator-name = "vdd_npu";
+  phandle = <0x6a>;
+/i2c@fdd40000/pmic@20/regulators/DCDC_REG4/regulator-state-mem
+  regulator-off-in-suspend;
+/i2c@fdd40000/pmic@20/regulators/LDO_REG1
+  regulator-boot-on;
+  regulator-always-on;
+  regulator-min-microvolt = <0xdbba0>;
+  regulator-max-microvolt = <0xdbba0>;
+  regulator-name = "vdda0v9_image";
+/i2c@fdd40000/pmic@20/regulators/LDO_REG1/regulator-state-mem
+  regulator-off-in-suspend;
+/i2c@fdd40000/pmic@20/regulators/LDO_REG2
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-min-microvolt = <0xdbba0>;
+  regulator-max-microvolt = <0xdbba0>;
+  regulator-name = "vdda_0v9";
+/i2c@fdd40000/pmic@20/regulators/LDO_REG2/regulator-state-mem
+  regulator-off-in-suspend;
+/i2c@fdd40000/pmic@20/regulators/LDO_REG3
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-min-microvolt = <0xdbba0>;
+  regulator-max-microvolt = <0xdbba0>;
+  regulator-name = "vdda0v9_pmu";
+/i2c@fdd40000/pmic@20/regulators/LDO_REG3/regulator-state-mem
+  regulator-on-in-suspend;
+  regulator-suspend-microvolt = <0xdbba0>;
+/i2c@fdd40000/pmic@20/regulators/LDO_REG4
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-min-microvolt = <0x2dc6c0>;
+  regulator-max-microvolt = <0x2dc6c0>;
+  regulator-name = "vccio_acodec";
+  phandle = <0x30>;
+/i2c@fdd40000/pmic@20/regulators/LDO_REG4/regulator-state-mem
+  regulator-off-in-suspend;
+/i2c@fdd40000/pmic@20/regulators/LDO_REG5
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-min-microvolt = <0x1b7740>;
+  regulator-max-microvolt = <0x325aa0>;
+  regulator-name = "vccio_sd";
+  phandle = <0x31>;
+/i2c@fdd40000/pmic@20/regulators/LDO_REG5/regulator-state-mem
+  regulator-off-in-suspend;
+/i2c@fdd40000/pmic@20/regulators/LDO_REG6
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-min-microvolt = <0x325aa0>;
+  regulator-max-microvolt = <0x325aa0>;
+  regulator-name = "vcc3v3_pmu";
+  phandle = <0x2f>;
+/i2c@fdd40000/pmic@20/regulators/LDO_REG6/regulator-state-mem
+  regulator-on-in-suspend;
+  regulator-suspend-microvolt = <0x325aa0>;
+/i2c@fdd40000/pmic@20/regulators/LDO_REG7
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-min-microvolt = <0x1b7740>;
+  regulator-max-microvolt = <0x1b7740>;
+  regulator-name = "vcca_1v8";
+  phandle = <0x121>;
+/i2c@fdd40000/pmic@20/regulators/LDO_REG7/regulator-state-mem
+  regulator-off-in-suspend;
+/i2c@fdd40000/pmic@20/regulators/LDO_REG8
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-min-microvolt = <0x1b7740>;
+  regulator-max-microvolt = <0x1b7740>;
+  regulator-name = "vcca1v8_pmu";
+/i2c@fdd40000/pmic@20/regulators/LDO_REG8/regulator-state-mem
+  regulator-on-in-suspend;
+  regulator-suspend-microvolt = <0x1b7740>;
+/i2c@fdd40000/pmic@20/regulators/LDO_REG9
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-min-microvolt = <0x1b7740>;
+  regulator-max-microvolt = <0x1b7740>;
+  regulator-name = "vcca1v8_image";
+/i2c@fdd40000/pmic@20/regulators/LDO_REG9/regulator-state-mem
+  regulator-off-in-suspend;
+/i2c@fdd40000/pmic@20/regulators/DCDC_REG5
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-min-microvolt = <0x1b7740>;
+  regulator-max-microvolt = <0x1b7740>;
+  regulator-name = "vcc_1v8";
+  phandle = <0x32>;
+/i2c@fdd40000/pmic@20/regulators/DCDC_REG5/regulator-state-mem
+  regulator-off-in-suspend;
+/i2c@fdd40000/pmic@20/regulators/SWITCH_REG1
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-name = "vcc_3v3";
+  phandle = <0x33>;
+/i2c@fdd40000/pmic@20/regulators/SWITCH_REG1/regulator-state-mem
+  regulator-off-in-suspend;
+/i2c@fdd40000/pmic@20/regulators/SWITCH_REG2
+  regulator-always-on;
+  regulator-boot-on;
+  regulator-name = "vcc3v3_sd";
+  phandle = <0xcb>;
+/i2c@fdd40000/pmic@20/regulators/SWITCH_REG2/regulator-state-mem
+  regulator-off-in-suspend;
+/i2c@fdd40000/pmic@20/codec
+  #sound-dai-cells = <0x1>;
+  compatible = "rockchip,rk809-codec", "rockchip,rk817-codec";
+  clocks = <0x24 0x1a3>;
+  clock-names = "mclk";
+  assigned-clocks = <0x24 0x1a3 0x24 0x1a6>;
+  assigned-clock-rates = <0xbb8000>;
+  assigned-clock-parents = <0x24 0x48 0x24 0x48>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x46>;
+  hp-volume = <0x0>;
+  spk-volume = <0x0>;
+  mic-in-differential;
+  status = "okay";
+  rockchip,hp-analog-cfg = <0x16>;
+  phandle = <0x140>;
+/serial@fdd50000
+  compatible = "rockchip,rk3568-uart", "snps,dw-apb-uart";
+  reg = <0x0 0xfdd50000 0x0 0x100>;
+  interrupts = <0x0 0x74 0x4>;
+  clocks = <0x39 0xb 0x39 0x2c>;
+  clock-names = "baudclk", "apb_pclk";
+  reg-shift = <0x2>;
+  reg-io-width = <0x4>;
+  dmas = <0x47 0x0 0x47 0x1>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x48>;
+  status = "okay";
+/dsi@fe060000/panel@0/display-timings/timing0
+  clock-frequency = <0x40d9900>;
+  hactive = <0x320>;
+  vactive = <0x500>;
+  hback-porch = <0x14>;
+  hfront-porch = <0x28>;
+  vback-porch = <0x14>;
+  vfront-porch = <0x14>;
+  hsync-len = <0x14>;
+  vsync-len = <0x4>;
+  hsync-active = <0x0>;
+  vsync-active = <0x0>;
+  de-active = <0x0>;
+  pixelclk-active = <0x0>;
+  phandle = <0xa3>;
+/dwmmc@fe000000
+  compatible = "rockchip,rk3568-dw-mshc", "rockchip,rk3288-dw-mshc";
+  reg = <0x0 0xfe000000 0x0 0x4000>;
+  interrupts = <0x0 0x64 0x4>;
+  max-frequency = <0xbebc200>;
+  clocks = <0x24 0xc1 0x24 0xc2 0x24 0x18e 0x24 0x18f>;
+  clock-names = "biu", "ciu", "ciu-drive", "ciu-sample";
+  fifo-depth = <0x100>;
+  resets = <0x24 0xeb>;
+  reset-names = "reset";
+  status = "okay";
+  no-sd;
+  no-mmc;
+  bus-width = <0x4>;
+  disable-wp;
+  cap-sd-highspeed;
+  cap-sdio-irq;
+  keep-power-in-suspend;
+  mmc-pwrseq = <0xac>;
+  non-removable;
+  pinctrl-names = "default";
+  pinctrl-0 = <0xad 0xae 0xaf>;
+  sd-uhs-sdr104;
+/dmc
+  compatible = "rockchip,rk3568-dmc";
+  interrupts = <0x0 0xa 0x4>;
+  interrupt-names = "complete";
+  devfreq-events = <0xb0 0xb1>;
+  clocks = <0x2 0x3>;
+  clock-names = "dmc_clk";
+  operating-points-v2 = <0xb2>;
+  vop-bw-dmc-freq = <0x0 0x11e 0x4f1a0 0x11f 0x1869f 0x80e80>;
+  vop-frame-bw-dmc-freq = <0x0 0x26c 0x4f1a0 0x26d 0x1869f 0xbe6e0>;
+  cpu-bw-dmc-freq = <0x0 0x15e 0x4f1a0 0x15f 0x190 0x80e80 0x191 0x1869f 0xbe6e0>;
+  upthreshold = <0x28>;
+  downdifferential = <0x14>;
+  system-status-level = <0x1 0x4 0x8 0x8 0x2 0x1 0x10 0x4 0x10000 0x4 0x1000 0x8 0x4000 0x8 0x2000 0x8 0xc00 0x8>;
+  auto-min-freq = <0x4f1a0>;
+  auto-freq-en = <0x1>;
+  #cooling-cells = <0x2>;
+  status = "okay";
+  center-supply = <0x6e>;
+  phandle = <0x16>;
+/pcie@fe260000
+  compatible = "rockchip,rk3568-pcie", "snps,dw-pcie";
+  #address-cells = <0x3>;
+  #size-cells = <0x2>;
+  bus-range = <0x0 0xf>;
+  clocks = <0x24 0x81 0x24 0x82 0x24 0x83 0x24 0x84 0x24 0x85>;
+  clock-names = "aclk_mst", "aclk_slv", "aclk_dbi", "pclk", "aux";
+  device_type = "pci";
+  interrupts = <0x0 0x4b 0x4 0x0 0x4a 0x4 0x0 0x49 0x4 0x0 0x48 0x4 0x0 0x47 0x4>;
+  interrupt-names = "sys", "pmc", "msg", "legacy", "err";
+  #interrupt-cells = <0x1>;
+  interrupt-map-mask = <0x0 0x0 0x0 0x7>;
+  interrupt-map = <0x0 0x0 0x0 0x1 0xb9 0x0 0x0 0x0 0x0 0x2 0xb9 0x1 0x0 0x0 0x0 0x3 0xb9 0x2 0x0 0x0 0x0 0x4 0xb9 0x3>;
+  linux,pci-domain = <0x0>;
+  num-ib-windows = <0x6>;
+  num-viewport = <0x8>;
+  num-ob-windows = <0x2>;
+  max-link-speed = <0x2>;
+  msi-map = <0x0 0xba 0x0 0x1000>;
+  num-lanes = <0x1>;
+  phys = <0x28 0x2>;
+  phy-names = "pcie-phy";
+  power-domains = <0x26 0xf>;
+  ranges = <0x800 0x0 0xf4000000 0x0 0xf4000000 0x0 0x100000 0x81000000 0x0 0xf4100000 0x0 0xf4100000 0x0 0x100000 0x82000000 0x0 0xf4200000 0x0 0xf4200000 0x0 0x1e00000 0xc3000000 0x3 0x0 0x3 0x0 0x0 0x40000000>;
+  reg = <0x3 0xc0000000 0x0 0x400000 0x0 0xfe260000 0x0 0x10000>;
+  reg-names = "pcie-dbi", "pcie-apb";
+  resets = <0x24 0xa1>;
+  reset-names = "pipe";
+  status = "okay";
+  reset-gpios = <0x8a 0x11 0x0>;
+  disable-gpios = <0x8a 0x12 0x0>;
+  vpcie3v3-supply = <0xbb>;
+/pcie@fe260000/legacy-interrupt-controller
+  interrupt-controller;
+  #address-cells = <0x0>;
+  #interrupt-cells = <0x1>;
+  interrupt-parent = <0x1>;
+  interrupts = <0x0 0x48 0x1>;
+  phandle = <0xb9>;
+/pcie@fe270000
+  compatible = "rockchip,rk3568-pcie", "snps,dw-pcie";
+  #address-cells = <0x3>;
+  #size-cells = <0x2>;
+  bus-range = <0x10 0x1f>;
+  clocks = <0x24 0x88 0x24 0x89 0x24 0x8a 0x24 0x8b 0x24 0x8c>;
+  clock-names = "aclk_mst", "aclk_slv", "aclk_dbi", "pclk", "aux";
+  device_type = "pci";
+  interrupts = <0x0 0xa0 0x4 0x0 0x9f 0x4 0x0 0x9e 0x4 0x0 0x9d 0x4 0x0 0x9c 0x4>;
+  interrupt-names = "sys", "pmc", "msg", "legacy", "err";
+  #interrupt-cells = <0x1>;
+  interrupt-map-mask = <0x0 0x0 0x0 0x7>;
+  interrupt-map = <0x0 0x0 0x0 0x1 0xbc 0x0 0x0 0x0 0x0 0x2 0xbc 0x1 0x0 0x0 0x0 0x3 0xbc 0x2 0x0 0x0 0x0 0x4 0xbc 0x3>;
+  linux,pci-domain = <0x1>;
+  num-ib-windows = <0x6>;
+  num-ob-windows = <0x2>;
+  num-viewport = <0x8>;
+  max-link-speed = <0x3>;
+  msi-map = <0x1000 0xba 0x1000 0x1000>;
+  num-lanes = <0x1>;
+  phys = <0xbd>;
+  phy-names = "pcie-phy";
+  power-domains = <0x26 0xf>;
+  ranges = <0x800 0x0 0xf2000000 0x0 0xf2000000 0x0 0x100000 0x81000000 0x0 0xf2100000 0x0 0xf2100000 0x0 0x100000 0x82000000 0x0 0xf2200000 0x0 0xf2200000 0x0 0x1e00000 0xc3000000 0x3 0x40000000 0x3 0x40000000 0x0 0x40000000>;
+  reg = <0x3 0xc0400000 0x0 0x400000 0x0 0xfe270000 0x0 0x10000>;
+  reg-names = "pcie-dbi", "pcie-apb";
+  resets = <0x24 0xb1>;
+  reset-names = "pipe";
+  status = "disabled";
+/pcie@fe270000/legacy-interrupt-controller
+  interrupt-controller;
+  #address-cells = <0x0>;
+  #interrupt-cells = <0x1>;
+  interrupt-parent = <0x1>;
+  interrupts = <0x0 0x9d 0x1>;
+  phandle = <0xbc>;
+/pcie@fe280000
+  compatible = "rockchip,rk3568-pcie", "snps,dw-pcie";
+  #address-cells = <0x3>;
+  #size-cells = <0x2>;
+  bus-range = <0x20 0x2f>;
+  clocks = <0x24 0x8f 0x24 0x90 0x24 0x91 0x24 0x92 0x24 0x93>;
+  clock-names = "aclk_mst", "aclk_slv", "aclk_dbi", "pclk", "aux";
+  device_type = "pci";
+  interrupts = <0x0 0xa5 0x4 0x0 0xa4 0x4 0x0 0xa3 0x4 0x0 0xa2 0x4 0x0 0xa1 0x4>;
+  interrupt-names = "sys", "pmc", "msg", "legacy", "err";
+  #interrupt-cells = <0x1>;
+  interrupt-map-mask = <0x0 0x0 0x0 0x7>;
+  interrupt-map = <0x0 0x0 0x0 0x1 0xbe 0x0 0x0 0x0 0x0 0x2 0xbe 0x1 0x0 0x0 0x0 0x3 0xbe 0x2 0x0 0x0 0x0 0x4 0xbe 0x3>;
+  linux,pci-domain = <0x2>;
+  num-ib-windows = <0x6>;
+  num-viewport = <0x8>;
+  num-ob-windows = <0x2>;
+  max-link-speed = <0x3>;
+  msi-map = <0x2000 0xba 0x2000 0x1000>;
+  num-lanes = <0x2>;
+  phys = <0xbd>;
+  phy-names = "pcie-phy";
+  power-domains = <0x26 0xf>;
+  ranges = <0x800 0x0 0xf0000000 0x0 0xf0000000 0x0 0x100000 0x81000000 0x0 0xf0100000 0x0 0xf0100000 0x0 0x100000 0x82000000 0x0 0xf0200000 0x0 0xf0200000 0x0 0x1e00000 0xc3000000 0x3 0x80000000 0x3 0x80000000 0x0 0x40000000>;
+  reg = <0x3 0xc0800000 0x0 0x400000 0x0 0xfe280000 0x0 0x10000>;
+  reg-names = "pcie-dbi", "pcie-apb";
+  resets = <0x24 0xc1>;
+  reset-names = "pipe";
+  status = "okay";
+  reset-gpios = <0xbf 0x1e 0x0>;
+  vpcie3v3-supply = <0xc0>;
+/pcie@fe280000/legacy-interrupt-controller
+  interrupt-controller;
+  #address-cells = <0x0>;
+  #interrupt-cells = <0x1>;
+  interrupt-parent = <0x1>;
+  interrupts = <0x0 0xa2 0x1>;
+  phandle = <0xbe>;
+/dwmmc@fe2b0000
+  compatible = "rockchip,rk3568-dw-mshc", "rockchip,rk3288-dw-mshc";
+  reg = <0x0 0xfe2b0000 0x0 0x4000>;
+  interrupts = <0x0 0x62 0x4>;
+  max-frequency = <0x8f0d180>;
+  clocks = <0x24 0xb0 0x24 0xb1 0x24 0x18a 0x24 0x18b>;
+  clock-names = "biu", "ciu", "ciu-drive", "ciu-sample";
+  fifo-depth = <0x100>;
+  resets = <0x24 0xd4>;
+  reset-names = "reset";
+  status = "okay";
+  no-sdio;
+  no-mmc;
+  bus-width = <0x4>;
+  cap-mmc-highspeed;
+  cap-sd-highspeed;
+  disable-wp;
+  sd-uhs-sdr104;
+  vmmc-supply = <0xcb>;
+  vqmmc-supply = <0x31>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0xcc 0xcd 0xce 0xcf>;
+/dwmmc@fe2c0000
+  compatible = "rockchip,rk3568-dw-mshc", "rockchip,rk3288-dw-mshc";
+  reg = <0x0 0xfe2c0000 0x0 0x4000>;
+  interrupts = <0x0 0x63 0x4>;
+  max-frequency = <0x8f0d180>;
+  clocks = <0x24 0xb2 0x24 0xb3 0x24 0x18c 0x24 0x18d>;
+  clock-names = "biu", "ciu", "ciu-drive", "ciu-sample";
+  fifo-depth = <0x100>;
+  resets = <0x24 0xd6>;
+  reset-names = "reset";
+  status = "disabled";
+/spi@fe300000
+  compatible = "rockchip,sfc";
+  reg = <0x0 0xfe300000 0x0 0x4000>;
+  interrupts = <0x0 0x65 0x4>;
+  clocks = <0x24 0x78 0x24 0x76>;
+  clock-names = "clk_sfc", "hclk_sfc";
+  assigned-clocks = <0x24 0x78>;
+  assigned-clock-rates = <0x5f5e100>;
+  #address-cells = <0x1>;
+  #size-cells = <0x0>;
+  status = "disabled";
+/sdhci@fe310000
+  compatible = "rockchip,rk3568-dwcmshc", "rockchip,dwcmshc-sdhci";
+  reg = <0x0 0xfe310000 0x0 0x10000>;
+  interrupts = <0x0 0x13 0x4>;
+  assigned-clocks = <0x24 0x7b 0x24 0x7d 0x24 0x7c>;
+  assigned-clock-rates = <0xbebc200 0x16e3600 0xbebc200>;
+  clocks = <0x24 0x7c 0x24 0x7a 0x24 0x79 0x24 0x7b 0x24 0x7d>;
+  clock-names = "core", "bus", "axi", "block", "timer";
+  resets = <0x24 0x78 0x24 0x76 0x24 0x75 0x24 0x77 0x24 0x79>;
+  reset-names = "core", "bus", "axi", "block", "timer";
+  status = "okay";
+  bus-width = <0x8>;
+  no-sdio;
+  no-sd;
+  non-removable;
+  max-frequency = <0xbebc200>;
+/can@fe570000
+  compatible = "rockchip,rk3568-can-2.0";
+  reg = <0x0 0xfe570000 0x0 0x1000>;
+  interrupts = <0x0 0x1 0x4>;
+  clocks = <0x24 0x141 0x24 0x140>;
+  clock-names = "baudclk", "apb_pclk";
+  resets = <0x24 0x155 0x24 0x154>;
+  reset-names = "can", "can-apb";
+  tx-fifo-depth = <0x1>;
+  rx-fifo-depth = <0x6>;
+  status = "disabled";
+  assigned-clocks = <0x24 0x141>;
+  assigned-clock-rates = <0x8f0d180>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0xe7>;
+/can@fe580000
+  compatible = "rockchip,rk3568-can-2.0";
+  reg = <0x0 0xfe580000 0x0 0x1000>;
+  interrupts = <0x0 0x2 0x4>;
+  clocks = <0x24 0x143 0x24 0x142>;
+  clock-names = "baudclk", "apb_pclk";
+  resets = <0x24 0x157 0x24 0x156>;
+  reset-names = "can", "can-apb";
+  tx-fifo-depth = <0x1>;
+  rx-fifo-depth = <0x6>;
+  status = "disabled";
+  assigned-clocks = <0x24 0x143>;
+  assigned-clock-rates = <0x8f0d180>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0xe8>;
+/can@fe590000
+  compatible = "rockchip,rk3568-can-2.0";
+  reg = <0x0 0xfe590000 0x0 0x1000>;
+  interrupts = <0x0 0x3 0x4>;
+  clocks = <0x24 0x145 0x24 0x144>;
+  clock-names = "baudclk", "apb_pclk";
+  resets = <0x24 0x159 0x24 0x158>;
+  reset-names = "can", "can-apb";
+  tx-fifo-depth = <0x1>;
+  rx-fifo-depth = <0x6>;
+  status = "disabled";
+  assigned-clocks = <0x24 0x145>;
+  assigned-clock-rates = <0x8f0d180>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0xe9>;
+/i2c@fe5a0000
+  compatible = "rockchip,rk3399-i2c";
+  reg = <0x0 0xfe5a0000 0x0 0x1000>;
+  clocks = <0x24 0x148 0x24 0x147>;
+  clock-names = "i2c", "pclk";
+  interrupts = <0x0 0x2f 0x4>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0xea>;
+  #address-cells = <0x1>;
+  #size-cells = <0x0>;
+  status = "okay";
+/i2c@fe5a0000/gt9xx@5d
+  compatible = "goodix,gt9xx";
+  status = "okay";
+  reg = <0x5d>;
+  gtp_resolution_x = <0x320>;
+  gtp_resolution_y = <0x500>;
+  gtp_int_tarigger = <0x1>;
+  gtp_change_x2y = <0x0>;
+  gtp_overturn_x = <0x0>;
+  gtp_overturn_y = <0x0>;
+  gtp_send_cfg = <0x1>;
+  gtp_touch_wakeup = <0x1>;
+  goodix_rst_gpio = <0x3e 0xe 0x0>;
+  goodix_irq_gpio = <0x8a 0x3 0x8>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0xeb>;
+  goodix,cfg-group0 = [70 20 03 00 05 05 35 00 01 0a 28 0f 5a 3c 03 05 00 00 00 00 00 00 06 18 1a 1e 14 8c 2e 0e b0 b2 b2 04 00 00 00 98 02 1c 00 01 00 00 00 03 64 32 00 00 00 a0 f5 94 d5 02 07 00 00 04 83 a7 00 7e b5 00 78 c6 00 73 d7 00 6f ea 00 6f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 1c 1a 18 16 14 12 10 0e 0c 0a 08 06 04 02 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 00 02 04 06 08 0a 0c 0f 10 12 13 14 16 2a 29 28 26 24 22 21 20 1f 1e 1d 1c 18 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff fc 01];
+/i2c@fe5b0000
+  compatible = "rockchip,rk3399-i2c";
+  reg = <0x0 0xfe5b0000 0x0 0x1000>;
+  clocks = <0x24 0x14a 0x24 0x149>;
+  clock-names = "i2c", "pclk";
+  interrupts = <0x0 0x30 0x4>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0xec>;
+  #address-cells = <0x1>;
+  #size-cells = <0x0>;
+  status = "okay";
+/i2c@fe5c0000
+  compatible = "rockchip,rk3399-i2c";
+  reg = <0x0 0xfe5c0000 0x0 0x1000>;
+  clocks = <0x24 0x14c 0x24 0x14b>;
+  clock-names = "i2c", "pclk";
+  interrupts = <0x0 0x31 0x4>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0xed>;
+  #address-cells = <0x1>;
+  #size-cells = <0x0>;
+  status = "okay";
+/i2c@fe5d0000
+  compatible = "rockchip,rk3399-i2c";
+  reg = <0x0 0xfe5d0000 0x0 0x1000>;
+  clocks = <0x24 0x14e 0x24 0x14d>;
+  clock-names = "i2c", "pclk";
+  interrupts = <0x0 0x32 0x4>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0xee>;
+  #address-cells = <0x1>;
+  #size-cells = <0x0>;
+  status = "okay";
+/i2c@fe5d0000/ov5647@36
+  compatible = "ovti,ov5647";
+  status = "okay";
+  reg = <0x36>;
+  clocks = <0xef>;
+  clock-names = "xvclk";
+  rockchip,camera-module-index = <0x0>;
+  rockchip,camera-module-facing = "back";
+  rockchip,camera-module-name = "default";
+  rockchip,camera-module-lens-name = "default";
+/i2c@fe5d0000/ov5647@36/port
+/i2c@fe5d0000/ov5647@36/port/endpoint
+  remote-endpoint = <0xf0>;
+  data-lanes = <0x1 0x2>;
+  phandle = <0x128>;
+/i2c@fe5d0000/gc5035@37
+  compatible = "galaxycore,gc5035";
+  status = "disabled";
+  reg = <0x37>;
+  clocks = <0x24 0xd6>;
+  clock-names = "xvclk";
+  power-domains = <0x26 0x8>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0xf1>;
+  reset-gpios = <0x3e 0xf 0x0>;
+  pwdn-gpios = <0xf2 0x19 0x0>;
+  rockchip,camera-module-index = <0x0>;
+  rockchip,camera-module-facing = "front";
+  rockchip,camera-module-name = "default";
+  rockchip,camera-module-lens-name = "PC5322-M5";
+/i2c@fe5d0000/gc5035@37/port
+/i2c@fe5d0000/gc5035@37/port/endpoint
+  remote-endpoint = <0xf3>;
+  data-lanes = <0x1 0x2>;
+  phandle = <0x127>;
+/i2c@fe5e0000
+  compatible = "rockchip,rk3399-i2c";
+  reg = <0x0 0xfe5e0000 0x0 0x1000>;
+  clocks = <0x24 0x150 0x24 0x14f>;
+  clock-names = "i2c", "pclk";
+  interrupts = <0x0 0x33 0x4>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0xf4>;
+  #address-cells = <0x1>;
+  #size-cells = <0x0>;
+  status = "okay";
+/i2c@fe5e0000/hym8563@51
+  compatible = "haoyu,hym8563";
+  reg = <0x51>;
+  #clock-cells = <0x0>;
+  clock-frequency = <0x8000>;
+  clock-output-names = "hym8563";
+  rtc-irq-gpio = <0x3e 0x1b 0x2>;
+/spi@fe610000
+  compatible = "rockchip,rk3066-spi";
+  reg = <0x0 0xfe610000 0x0 0x1000>;
+  interrupts = <0x0 0x67 0x4>;
+  #address-cells = <0x1>;
+  #size-cells = <0x0>;
+  clocks = <0x24 0x152 0x24 0x151>;
+  clock-names = "spiclk", "apb_pclk";
+  dmas = <0x47 0x14 0x47 0x15>;
+  dma-names = "tx", "rx";
+  pinctrl-names = "default", "high_speed";
+  pinctrl-0 = <0xf5 0xf6 0xf7>;
+  pinctrl-1 = <0xf5 0xf6 0xf8>;
+  num-cs = <0x2>;
+  status = "disabled";
+/spi@fe620000
+  compatible = "rockchip,rk3066-spi";
+  reg = <0x0 0xfe620000 0x0 0x1000>;
+  interrupts = <0x0 0x68 0x4>;
+  #address-cells = <0x1>;
+  #size-cells = <0x0>;
+  clocks = <0x24 0x154 0x24 0x153>;
+  clock-names = "spiclk", "apb_pclk";
+  dmas = <0x47 0x16 0x47 0x17>;
+  dma-names = "tx", "rx";
+  pinctrl-names = "default", "high_speed";
+  pinctrl-0 = <0xf9 0xfa 0xfb>;
+  pinctrl-1 = <0xf9 0xfa 0xfc>;
+  num-cs = <0x2>;
+  status = "disabled";
+/spi@fe630000
+  compatible = "rockchip,rk3066-spi";
+  reg = <0x0 0xfe630000 0x0 0x1000>;
+  interrupts = <0x0 0x69 0x4>;
+  #address-cells = <0x1>;
+  #size-cells = <0x0>;
+  clocks = <0x24 0x156 0x24 0x155>;
+  clock-names = "spiclk", "apb_pclk";
+  dmas = <0x47 0x18 0x47 0x19>;
+  dma-names = "tx", "rx";
+  pinctrl-names = "default", "high_speed";
+  pinctrl-0 = <0xfd 0xfe 0xff>;
+  pinctrl-1 = <0xfd 0xfe 0x100>;
+  num-cs = <0x2>;
+  status = "disabled";
+/spi@fe640000
+  compatible = "rockchip,rk3066-spi";
+  reg = <0x0 0xfe640000 0x0 0x1000>;
+  interrupts = <0x0 0x6a 0x4>;
+  #address-cells = <0x1>;
+  #size-cells = <0x0>;
+  clocks = <0x24 0x158 0x24 0x157>;
+  clock-names = "spiclk", "apb_pclk";
+  dmas = <0x47 0x1a 0x47 0x1b>;
+  dma-names = "tx", "rx";
+  pinctrl-names = "default", "high_speed";
+  pinctrl-0 = <0x101>;
+  pinctrl-1 = <0x102>;
+  num-cs = <0x2>;
+  status = "okay";
+/spi@fe640000/spi_test@0
+  compatible = "rockchip,spidev";
+  reg = <0x0>;
+  spi-max-frequency = <0x16e3600>;
+/serial@fe650000
+  compatible = "rockchip,rk3568-uart", "snps,dw-apb-uart";
+  reg = <0x0 0xfe650000 0x0 0x100>;
+  interrupts = <0x0 0x75 0x4>;
+  clocks = <0x24 0x11f 0x24 0x11c>;
+  clock-names = "baudclk", "apb_pclk";
+  reg-shift = <0x2>;
+  reg-io-width = <0x4>;
+  dmas = <0x47 0x2 0x47 0x3>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x103>;
+  status = "disabled";
+/serial@fe660000
+  compatible = "rockchip,rk3568-uart", "snps,dw-apb-uart";
+  reg = <0x0 0xfe660000 0x0 0x100>;
+  interrupts = <0x0 0x76 0x4>;
+  clocks = <0x24 0x123 0x24 0x120>;
+  clock-names = "baudclk", "apb_pclk";
+  reg-shift = <0x2>;
+  reg-io-width = <0x4>;
+  dmas = <0x47 0x4 0x47 0x5>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x104>;
+  status = "disabled";
+/serial@fe670000
+  compatible = "rockchip,rk3568-uart", "snps,dw-apb-uart";
+  reg = <0x0 0xfe670000 0x0 0x100>;
+  interrupts = <0x0 0x77 0x4>;
+  clocks = <0x24 0x127 0x24 0x124>;
+  clock-names = "baudclk", "apb_pclk";
+  reg-shift = <0x2>;
+  reg-io-width = <0x4>;
+  dmas = <0x47 0x6 0x47 0x7>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x105>;
+  status = "okay";
+/serial@fe680000
+  compatible = "rockchip,rk3568-uart", "snps,dw-apb-uart";
+  reg = <0x0 0xfe680000 0x0 0x100>;
+  interrupts = <0x0 0x78 0x4>;
+  clocks = <0x24 0x12b 0x24 0x128>;
+  clock-names = "baudclk", "apb_pclk";
+  reg-shift = <0x2>;
+  reg-io-width = <0x4>;
+  dmas = <0x47 0x8 0x47 0x9>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x106>;
+  status = "okay";
+/serial@fe690000
+  compatible = "rockchip,rk3568-uart", "snps,dw-apb-uart";
+  reg = <0x0 0xfe690000 0x0 0x100>;
+  interrupts = <0x0 0x79 0x4>;
+  clocks = <0x24 0x12f 0x24 0x12c>;
+  clock-names = "baudclk", "apb_pclk";
+  reg-shift = <0x2>;
+  reg-io-width = <0x4>;
+  dmas = <0x47 0xa 0x47 0xb>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x107>;
+  status = "disabled";
+/serial@fe6a0000
+  compatible = "rockchip,rk3568-uart", "snps,dw-apb-uart";
+  reg = <0x0 0xfe6a0000 0x0 0x100>;
+  interrupts = <0x0 0x7a 0x4>;
+  clocks = <0x24 0x133 0x24 0x130>;
+  clock-names = "baudclk", "apb_pclk";
+  reg-shift = <0x2>;
+  reg-io-width = <0x4>;
+  dmas = <0x47 0xc 0x47 0xd>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x108>;
+  status = "disabled";
+/serial@fe6b0000
+  compatible = "rockchip,rk3568-uart", "snps,dw-apb-uart";
+  reg = <0x0 0xfe6b0000 0x0 0x100>;
+  interrupts = <0x0 0x7b 0x4>;
+  clocks = <0x24 0x137 0x24 0x134>;
+  clock-names = "baudclk", "apb_pclk";
+  reg-shift = <0x2>;
+  reg-io-width = <0x4>;
+  dmas = <0x47 0xe 0x47 0xf>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x109>;
+  status = "okay";
+/serial@fe6c0000
+  compatible = "rockchip,rk3568-uart", "snps,dw-apb-uart";
+  reg = <0x0 0xfe6c0000 0x0 0x100>;
+  interrupts = <0x0 0x7c 0x4>;
+  clocks = <0x24 0x13b 0x24 0x138>;
+  clock-names = "baudclk", "apb_pclk";
+  reg-shift = <0x2>;
+  reg-io-width = <0x4>;
+  dmas = <0x47 0x10 0x47 0x11>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x10a 0x10b>;
+  status = "okay";
+/serial@fe6d0000
+  compatible = "rockchip,rk3568-uart", "snps,dw-apb-uart";
+  reg = <0x0 0xfe6d0000 0x0 0x100>;
+  interrupts = <0x0 0x7d 0x4>;
+  clocks = <0x24 0x13f 0x24 0x13c>;
+  clock-names = "baudclk", "apb_pclk";
+  reg-shift = <0x2>;
+  reg-io-width = <0x4>;
+  dmas = <0x47 0x12 0x47 0x13>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x10c>;
+  status = "disabled";
+/adc-keys
+  compatible = "adc-keys";
+  io-channels = <0x139 0x0>;
+  io-channel-names = "buttons";
+  keyup-threshold-microvolt = <0x1b7740>;
+  poll-interval = <0x64>;
+/adc-keys/vol-up-key
+  label = "volume up";
+  linux,code = <0x73>;
+  press-threshold-microvolt = <0x6d6>;
+/leds
+  compatible = "gpio-leds";
+/leds/work-led
+  gpios = <0x3e 0x1d 0x0>;
+  linux,default-trigger = "heartbeat";
+/leds/gpio1a4
+  gpios = <0xf2 0x4 0x0>;
+  default-state = "off";
+/leds/gpio1b0
+  gpios = <0xf2 0x8 0x0>;
+  default-state = "off";
+/leds/gpio1b1
+  gpios = <0xf2 0x9 0x0>;
+  default-state = "off";
+/leds/gpio1b2
+  gpios = <0xf2 0xa 0x0>;
+  default-state = "off";
+/leds/gpio4c4
+  gpios = <0x13d 0x14 0x0>;
+  default-state = "off";
+/leds/gpio4c6
+  gpios = <0x13d 0x16 0x0>;
+  default-state = "off";
+/leds/gpio3b6
+  gpios = <0x8a 0xe 0x0>;
+  default-state = "off";
+/leds/gpio1d0
+  gpios = <0xf2 0x18 0x0>;
+  default-state = "off";
+/leds/gpio1d4
+  gpios = <0xf2 0x1c 0x0>;
+  default-state = "off";
+/leds/gpio3b5
+  gpios = <0x8a 0xd 0x0>;
+  default-state = "off";
+/leds/fan
+  gpios = <0x3e 0x1e 0x0>;
+  default-state = "on";
+/wireless-wlan
+  compatible = "wlan-platdata";
+  rockchip,grf = <0x3a>;
+  wifi_chip_type = "rtl8822cs";
+  WIFI,poweren_gpio = <0x8a 0x1d 0x0>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x148>;
+  WIFI,host_wake_irq = <0x8a 0x1c 0x0>;
+  status = "okay";
+/wireless-bluetooth
+  compatible = "bluetooth-platdata";
+  clocks = <0x146 0x1>;
+  clock-names = "ext_clock";
+  uart_rts_gpios = <0xbf 0x9 0x1>;
+  pinctrl-names = "default", "rts_gpio";
+  pinctrl-0 = <0x149>;
+  pinctrl-1 = <0x14a>;
+  BT,power_gpio = <0x8a 0x0 0x0>;
+  BT,wake_gpio = <0x8a 0x1 0x0>;
+  BT,wake_host_irq = <0x8a 0x2 0x0>;
+  status = "okay";
+/backlight-dsi0
+  compatible = "pwm-backlight";
+  pwms = <0x150 0x0 0x61a8 0x0>;
+  brightness-levels = [omitted here; 1024 bytes; see full DTS];
+  default-brightness-level = <0xc8>;
+  phandle = <0xa1>;
+/chosen
+  bootargs = "storagemedia=emmc androidboot.storagemedia=emmc androidboot.mode=normal  androidboot.verifiedbootstate=orange rw rootwait earlycon=uart8250,mmio32,0xfe660000 console=ttyFIQ0 root=PARTUUID=614e0000-0000";
+/fiq-debugger
+  compatible = "rockchip,fiq-debugger";
+  rockchip,serial-id = <0x2>;
+  rockchip,wake-irq = <0x0>;
+  rockchip,irq-mode-enable = <0x1>;
+  rockchip,baudrate = <0x16e360>;
+  interrupts = <0x0 0xfc 0x8>;
+  pinctrl-names = "default";
+  pinctrl-0 = <0x104>;
+  status = "okay";
