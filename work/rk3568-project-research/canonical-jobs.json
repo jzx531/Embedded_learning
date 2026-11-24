@@ -1,0 +1,1141 @@
+[
+  {
+    "absolute_url": "https://job-boards.greenhouse.io/canonical/jobs/6224403",
+    "data_compliance": [
+      {
+        "type": "gdpr",
+        "requires_consent": false,
+        "requires_processing_consent": false,
+        "requires_retention_consent": false,
+        "retention_period": null,
+        "demographic_data_consent_applies": false
+      }
+    ],
+    "education": "education_optional",
+    "internal_job_id": 1387427,
+    "location": {
+      "name": "Home Based - APAC"
+    },
+    "metadata": [
+      {
+        "id": 186225,
+        "name": "People management responsibilities?",
+        "value": false,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 149021,
+        "name": "Employment Length",
+        "value": "Full-time",
+        "value_type": "single_select"
+      },
+      {
+        "id": 675557,
+        "name": "Core skills",
+        "value": [
+          "Competitor",
+          "Designer",
+          "Doer",
+          "Generalist",
+          "Helper",
+          "Problem Solver",
+          "Seller",
+          "Teacher",
+          "Technologist",
+          "Traveller"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739136,
+        "name": "External Departments (website)",
+        "value": [
+          "Engineering"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739137,
+        "name": "One line job description",
+        "value": "We raise the bar on IoT security and applications – we help our customers build trains, drones, factories, or robots with snaps and Ubuntu Core.",
+        "value_type": "long_text"
+      },
+      {
+        "id": 3209541,
+        "name": "Canonical site",
+        "value": [],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 3587161,
+        "name": "LinkedIn Posting Level",
+        "value": "Associate",
+        "value_type": "single_select"
+      },
+      {
+        "id": 11961371,
+        "name": "Featured job (Talent Team to complete)",
+        "value": true,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 54742858,
+        "name": "Business Unit Type",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 54743567,
+        "name": "Req Category",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 56835606,
+        "name": "Discipline/Track",
+        "value": null,
+        "value_type": "single_select"
+      }
+    ],
+    "id": 6224403,
+    "updated_at": "2026-08-06T06:23:33+08:00",
+    "requisition_id": "463",
+    "title": "Embedded Linux Consultant - Japan",
+    "company_name": "Canonical",
+    "first_published": "2024-08-31T03:27:17+08:00",
+    "language": "en",
+    "application_deadline": null,
+    "content": "&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Job Description&lt;/span&gt;&lt;/h2&gt;\n&lt;p&gt;Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world&#39;s leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1000+ colleagues in 70+ countries and very few office based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.&lt;/p&gt;\n&lt;p&gt;The company is founder led, profitable and growing.&lt;/p&gt;\n&lt;p&gt;We are hiring an &lt;strong&gt;Embedded Linux Field Engineer for Devices/IoT &lt;/strong&gt;to expand our reach in mission-critical industries such as Automotive, Medical Devices, Industrial Systems, Robotics, and Telco, as well as Consumer Electronics. We are looking for candidates who are accomplished Linux plumbers. If you are someone passionate about Linux, who knows the plumbing of the OS inside and out, who is proficient with distribution packaging, software design, system debugging, and bringing customer&#39;s ideas to life, then please keep on reading - this may be a uniquely exciting opportunity for you.&lt;/p&gt;\n&lt;p&gt;The server edition of Ubuntu is already very widely used in connected devices and industrial PC&#39;s. Our newer edition of Ubuntu for IoT, called Ubuntu Core, represents the state of the art in security and resilience for high end appliances and equipment. Our customers include global brands in consumer and industrial electronics as well as automotive and robotics. We continue to expand our range of offerings to bring our security, management and developer experience to the smallest Linux environments and devices. We recently added a real-time Linux capability and are working towards a range of certifications for these offerings. Together, this portfolio is Linux reinvented for optimal reliability, security, developer productivity and footprint.&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;This career opportunity requires a unique blend of skills. Successful candidates will know Linux well and be proficient coders and scripters. They will have experience of low-level Linux boot, BIOS, firmware and embedded software development methodologies. They also enjoy the pace of change and diversity of client engagements with driven and ambitious technology entrepreneurs. Competitive, business-focused technologists at heart, they are also dedicated team players that take pride in team and company wins.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;We often say that our field engineers have &#39;the hardest job at Canonical&#39; because customers can ask about any aspect of our solutions and products and expect a thoughtful, well-informed answer. We always want to do the best thing for our partners and customers, regardless of our company interests, and field engineers are the people we trust to ensure that is true.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; This role will be based remotely in Japan (preferably in Tokyo or Osaka area)&lt;/p&gt;\n&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;nbsp;What your day will look like&lt;/span&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Engage customers during presales to gather requirements and explain our technology&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Elaborate solutions to be proposed to prospective clients&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Participate to the delivery of select projects related to Embedded Linux&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Convey market requirements to key stakeholders in our organization, and sometimes participate to the development or refining of generic solutions to unlock market potential&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Be both a customer advocate and a trusted advisor to Canonical&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;What we are looking for in you&lt;/span&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bachelors degree in Computer Science or related technical field&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Extensive Linux experience - Debian or Ubuntu preferred&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Solid embedded Linux experience (Yocto, Buildroot...) or RTOS&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Fluency in at least one of Golang, Python, C, C++, or Rust&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Professional written and spoken English in addition to the local language&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Excellent communication and presentation skills&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Result-oriented, ability to multi-task&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A personal drive to meet commitments&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;An humble learner and quick study&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Albeit many projects can be done remotely, the successful candidate will be willing to&amp;nbsp; travel up to 30% of the time for customer meetings, company events, and conferences&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;strong&gt;For positions in Japan and Korea, the successful candidates will also be able to speak and write the local language at a professional level.&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Additional skills that you might also bring&lt;/span&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Experience with customer engagements a plus, but not a requirement&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What we offer colleagues&lt;/h2&gt;\n&lt;p&gt;We consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognise outstanding performance. In addition to base pay, we offer a performance-driven annual bonus or commission. We provide all team members with additional benefits, which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Distributed work environment with twice-yearly team sprints in person&lt;/li&gt;\n&lt;li&gt;Personal learning and development budget of USD 2,000 per year&lt;/li&gt;\n&lt;li&gt;Annual compensation review&lt;/li&gt;\n&lt;li&gt;Recognition rewards&lt;/li&gt;\n&lt;li&gt;Annual holiday leave&lt;/li&gt;\n&lt;li&gt;Maternity and paternity leave&lt;/li&gt;\n&lt;li&gt;Employee Assistance Programme&lt;/li&gt;\n&lt;li&gt;Opportunity to travel to new locations to meet colleagues&lt;/li&gt;\n&lt;li&gt;Priority Pass, and travel upgrades for long haul company events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;About Canonical&lt;/h3&gt;\n&lt;p&gt;Canonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open source projects and the platform for AI, IoT and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence - in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since its inception in 2004.​ Working here is a step into the future, and will challenge you to think differently, work smarter, learn new skills, and raise your game.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Canonical is an equal opportunity employer&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. &lt;a href=&quot;https://canonical.com/careers/diversity/identity&quot;&gt;Whatever your identity, we will give your application fair consideration.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;#LI-remote&lt;/p&gt;",
+    "departments": [
+      {
+        "id": 82563,
+        "name": "Field Engineering",
+        "child_ids": [],
+        "parent_id": null
+      }
+    ],
+    "offices": [
+      {
+        "id": 44282,
+        "name": "Home Based - Worldwide",
+        "location": null,
+        "child_ids": [],
+        "parent_id": 73277
+      }
+    ],
+    "ai_disclaimer": null,
+    "include_ai_disclaimer": null,
+    "ai_opt_out_request_url": null
+  },
+  {
+    "absolute_url": "https://job-boards.greenhouse.io/canonical/jobs/3362765",
+    "data_compliance": [
+      {
+        "type": "gdpr",
+        "requires_consent": false,
+        "requires_processing_consent": false,
+        "requires_retention_consent": false,
+        "retention_period": null,
+        "demographic_data_consent_applies": false
+      }
+    ],
+    "education": "education_optional",
+    "internal_job_id": 1387427,
+    "location": {
+      "name": "Home based - Worldwide"
+    },
+    "metadata": [
+      {
+        "id": 186225,
+        "name": "People management responsibilities?",
+        "value": false,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 149021,
+        "name": "Employment Length",
+        "value": "Full-time",
+        "value_type": "single_select"
+      },
+      {
+        "id": 675557,
+        "name": "Core skills",
+        "value": [
+          "Competitor",
+          "Designer",
+          "Doer",
+          "Generalist",
+          "Helper",
+          "Problem Solver",
+          "Seller",
+          "Teacher",
+          "Technologist",
+          "Traveller"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739136,
+        "name": "External Departments (website)",
+        "value": [
+          "Engineering"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739137,
+        "name": "One line job description",
+        "value": "We raise the bar on IoT security and applications – we help our customers build trains, drones, factories, or robots with snaps and Ubuntu Core.",
+        "value_type": "long_text"
+      },
+      {
+        "id": 3209541,
+        "name": "Canonical site",
+        "value": [],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 3587161,
+        "name": "LinkedIn Posting Level",
+        "value": "Associate",
+        "value_type": "single_select"
+      },
+      {
+        "id": 11961371,
+        "name": "Featured job (Talent Team to complete)",
+        "value": true,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 54742858,
+        "name": "Business Unit Type",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 54743567,
+        "name": "Req Category",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 56835606,
+        "name": "Discipline/Track",
+        "value": null,
+        "value_type": "single_select"
+      }
+    ],
+    "id": 3362765,
+    "updated_at": "2026-08-06T06:23:33+08:00",
+    "requisition_id": "463",
+    "title": "Embedded Linux Field Engineer for Devices/IoT",
+    "company_name": "Canonical",
+    "first_published": "2021-08-05T01:32:15+08:00",
+    "language": "en",
+    "application_deadline": null,
+    "content": "&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Job Description&lt;/span&gt;&lt;/h2&gt;\n&lt;p&gt;Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world&#39;s leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1000+ colleagues in 70+ countries and very few office based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.&lt;/p&gt;\n&lt;p&gt;The company is founder led, profitable and growing.&lt;/p&gt;\n&lt;p&gt;We are hiring an &lt;strong&gt;Embedded Linux Field Engineer for Devices/IoT &lt;/strong&gt;to expand our reach in mission-critical industries such as Automotive, Medical Devices, Industrial Systems, Robotics, and Telco, as well as Consumer Electronics. We are looking for candidates who are accomplished Linux plumbers. If you are someone passionate about Linux, who knows the plumbing of the OS inside and out, who is proficient with distribution packaging, software design, system debugging, and bringing customer&#39;s ideas to life, then please keep on reading - this may be a uniquely exciting opportunity for you.&lt;/p&gt;\n&lt;p&gt;The server edition of Ubuntu is already very widely used in connected devices and industrial PC&#39;s. Our edition of Ubuntu tailored for IoT, called Ubuntu Core, represents the state of the art in security and resilience for high end appliances and equipment. Our customers include global brands in consumer and industrial electronics as well as automotive and robotics. We continue to expand our range of offerings to bring our security, management and developer experience to the smallest Linux environments and devices. We recently added a real-time Linux capability and are working towards a range of certifications for these offerings. Together, this portfolio is Linux reinvented for optimal reliability, security, developer productivity and footprint.&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;This career opportunity requires a unique blend of skills. Successful candidates will know Linux well and be proficient coders and scripters. They will have experience of low-level Linux boot, BIOS, EFI, Secure Boot, firmware, OS Distribution packaging and generally speaking embedded software development methodologies. They also enjoy the pace of change and diversity of client engagements with driven and ambitious technology entrepreneurs. Competitive, business-focused technologists at heart, they are also dedicated team players that take pride in team and company wins.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;We often say that our field engineers have &#39;the hardest job at Canonical&#39; because customers can ask about any aspect of our solutions and products and expect a thoughtful, well-informed answer. We always want to do the best thing for our partners and customers, regardless of our company interests, and field engineers are the people we trust to ensure that is true.&lt;/p&gt;\n&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;What your day will look like&lt;/span&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Engage customers during presales to gather requirements and explain our technology&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Elaborate solutions to be proposed to prospective clients&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Participate to the delivery of select projects related to Embedded Linux&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Convey market requirements to key stakeholders in our organization, and sometimes participate to the development or refining of generic solutions to unlock market potential&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Be both a customer advocate and a trusted advisor to Canonical&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;What we are looking for in you&lt;/span&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bachelors degree in Computer Science or related technical field&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Extensive Linux experience - Debian or Ubuntu preferred&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Distribution / Packaging experience (deb, rpm, ...)&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Solid embedded Linux experience (Yocto, Buildroot...)&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Fluency in at least one of Golang, Python, C, C++, or Rust&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Professional written and spoken English in addition to the local language&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Excellent communication and presentation skills&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Result-oriented, ability to multi-task&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A personal drive to meet commitments&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;An humble learner and quick study&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Albeit many projects can be done remotely, the successful candidate will be willing to&amp;nbsp; travel up to 30% of the time for customer meetings, company events, and conferences&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;strong&gt;For positions in Japan and Korea, the successful candidates will also be able to speak and write the local language at a professional level.&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Additional skills that you might also bring&lt;/span&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Experience with customer engagements a plus, but not a requirement&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What we offer colleagues&lt;/h2&gt;\n&lt;p&gt;We consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognise outstanding performance. In addition to base pay, we offer a performance-driven annual bonus or commission. We provide all team members with additional benefits, which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Distributed work environment with twice-yearly team sprints in person&lt;/li&gt;\n&lt;li&gt;Personal learning and development budget of USD 2,000 per year&lt;/li&gt;\n&lt;li&gt;Annual compensation review&lt;/li&gt;\n&lt;li&gt;Recognition rewards&lt;/li&gt;\n&lt;li&gt;Annual holiday leave&lt;/li&gt;\n&lt;li&gt;Maternity and paternity leave&lt;/li&gt;\n&lt;li&gt;Employee Assistance Programme&lt;/li&gt;\n&lt;li&gt;Opportunity to travel to new locations to meet colleagues&lt;/li&gt;\n&lt;li&gt;Priority Pass, and travel upgrades for long haul company events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;About Canonical&lt;/h3&gt;\n&lt;p&gt;Canonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open source projects and the platform for AI, IoT and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence - in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since its inception in 2004.​ Working here is a step into the future, and will challenge you to think differently, work smarter, learn new skills, and raise your game.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Canonical is an equal opportunity employer&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. &lt;a href=&quot;https://canonical.com/careers/diversity/identity&quot;&gt;Whatever your identity, we will give your application fair consideration.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;#LI-remote&lt;/p&gt;",
+    "departments": [
+      {
+        "id": 82563,
+        "name": "Field Engineering",
+        "child_ids": [],
+        "parent_id": null
+      }
+    ],
+    "offices": [
+      {
+        "id": 44282,
+        "name": "Home Based - Worldwide",
+        "location": null,
+        "child_ids": [],
+        "parent_id": 73277
+      }
+    ],
+    "ai_disclaimer": null,
+    "include_ai_disclaimer": null,
+    "ai_opt_out_request_url": null
+  },
+  {
+    "absolute_url": "https://job-boards.greenhouse.io/canonical/jobs/6994398",
+    "data_compliance": [
+      {
+        "type": "gdpr",
+        "requires_consent": false,
+        "requires_processing_consent": false,
+        "requires_retention_consent": false,
+        "retention_period": null,
+        "demographic_data_consent_applies": false
+      }
+    ],
+    "education": "education_optional",
+    "internal_job_id": 1387427,
+    "location": {
+      "name": "Home Based - APAC"
+    },
+    "metadata": [
+      {
+        "id": 186225,
+        "name": "People management responsibilities?",
+        "value": false,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 149021,
+        "name": "Employment Length",
+        "value": "Full-time",
+        "value_type": "single_select"
+      },
+      {
+        "id": 675557,
+        "name": "Core skills",
+        "value": [
+          "Competitor",
+          "Designer",
+          "Doer",
+          "Generalist",
+          "Helper",
+          "Problem Solver",
+          "Seller",
+          "Teacher",
+          "Technologist",
+          "Traveller"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739136,
+        "name": "External Departments (website)",
+        "value": [
+          "Engineering"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739137,
+        "name": "One line job description",
+        "value": "We raise the bar on IoT security and applications – we help our customers build trains, drones, factories, or robots with snaps and Ubuntu Core.",
+        "value_type": "long_text"
+      },
+      {
+        "id": 3209541,
+        "name": "Canonical site",
+        "value": [],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 3587161,
+        "name": "LinkedIn Posting Level",
+        "value": "Associate",
+        "value_type": "single_select"
+      },
+      {
+        "id": 11961371,
+        "name": "Featured job (Talent Team to complete)",
+        "value": true,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 54742858,
+        "name": "Business Unit Type",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 54743567,
+        "name": "Req Category",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 56835606,
+        "name": "Discipline/Track",
+        "value": null,
+        "value_type": "single_select"
+      }
+    ],
+    "id": 6994398,
+    "updated_at": "2026-08-06T06:23:33+08:00",
+    "requisition_id": "463",
+    "title": "Embedded Linux Field Engineer (Mandarin speaking)",
+    "company_name": "Canonical",
+    "first_published": "2025-06-18T20:47:28+08:00",
+    "language": "en",
+    "application_deadline": null,
+    "content": "&lt;p&gt;Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world&#39;s leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.&lt;/p&gt;\n&lt;p&gt;The company is founder-led, profitable, and growing.&lt;/p&gt;\n&lt;p&gt;We are hiring a &lt;strong&gt;Mandarin Speaking&lt;/strong&gt; &lt;strong&gt;Embedded Linux Field Engineer for Devices/IoT &lt;/strong&gt;to expand our reach in mission-critical industries such as Automotive, Medical Devices, Industrial Systems, Robotics, and Telco, as well as Consumer Electronics. We are looking for candidates who are accomplished Linux plumbers. If you are someone passionate about Linux, who knows the plumbing of the OS inside and out, who is proficient with distribution packaging, software design, system debugging, and bringing customer&#39;s ideas to life, then please keep on reading - this may be a uniquely exciting opportunity for you.&lt;/p&gt;\n&lt;p&gt;The server edition of Ubuntu is already very widely used in connected devices and industrial PC&#39;s. Our edition of Ubuntu for IoT, called Ubuntu Core, represents the state of the art in security and resilience for high end appliances and equipment. Our customers include global brands in consumer and industrial electronics as well as automotive and robotics. We continue to expand our range of offerings to bring our security, management and developer experience to the smallest Linux environments and devices. We recently added a real-time Linux capability and are working towards a range of certifications for these offerings. Together, this portfolio is Linux reinvented for optimal reliability, security, developer productivity and footprint.&lt;/p&gt;\n&lt;p&gt;This career opportunity requires a unique blend of skills. Successful candidates will know Linux well and be proficient coders and scripters. They will have experience of low-level Linux boot, BIOS, firmware and embedded software development methodologies. They also enjoy the pace of change and diversity of client engagements with driven and ambitious technology entrepreneurs. Competitive, business-focused technologists at heart, they are also dedicated team players that take pride in team and company wins.&lt;/p&gt;\n&lt;p&gt;We often say that our field engineers have &#39;the hardest job at Canonical&#39; because customers can ask about any aspect of our solutions and products and expect a thoughtful, well-informed answer. We always want to do the best thing for our partners and customers, regardless of our company interests, and field engineers are the people we trust to ensure that is true.&lt;/p&gt;\n&lt;p&gt;Location: This role will be based remotely in the APAC region, except in locations where we have an office, such as Taipei and Beijing&lt;/p&gt;\n&lt;h2&gt;What your day will look like&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Engage customers during presales to gather requirements and explain our technology&lt;/li&gt;\n&lt;li&gt;Elaborate solutions to be proposed to prospective clients&lt;/li&gt;\n&lt;li&gt;Participate to the delivery of select projects related to Embedded Linux&lt;/li&gt;\n&lt;li&gt;Convey market requirements to key stakeholders in our organization, and sometimes participate to the development or refining of generic solutions to unlock market potential&lt;/li&gt;\n&lt;li&gt;Be both a customer advocate and a trusted advisor to Canonical&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What we are looking for in you&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;The candidate needs to be fluent in Mandarin and willing to travel to China regularly&lt;/li&gt;\n&lt;li&gt;Bachelors degree in Computer Science or related technical field&lt;/li&gt;\n&lt;li&gt;Extensive Linux experience - Debian or Ubuntu preferred&lt;/li&gt;\n&lt;li&gt;Distribution / Packaging experience (deb, rpm, ...)&lt;/li&gt;\n&lt;li&gt;Solid embedded Linux experience (Yocto, Buildroot...)&lt;/li&gt;\n&lt;li&gt;Fluency in at least one of Golang, Python, C, C++, or Rust&lt;/li&gt;\n&lt;li&gt;Professional written and spoken English in addition to the local language&lt;/li&gt;\n&lt;li&gt;Excellent communication and presentation skills&lt;/li&gt;\n&lt;li&gt;Result-oriented, ability to multi-task&lt;/li&gt;\n&lt;li&gt;A personal drive to meet commitments&lt;/li&gt;\n&lt;li&gt;An humble learner and quick study&lt;/li&gt;\n&lt;li&gt;Albeit many projects can be done remotely, the successful candidate will be willing to&amp;nbsp; travel up to 30% of the time for customer meetings, company events, and conferences&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Additional skills that you might also bring&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with customer engagements is a plus&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What we offer colleagues&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognise outstanding performance. In addition to base pay, we offer a performance-driven annual bonus or commission. We provide all team members with additional benefits, which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Distributed work environment with twice-yearly team sprints in person&lt;/li&gt;\n&lt;li&gt;Personal learning and development budget of USD 2,000 per year&lt;/li&gt;\n&lt;li&gt;Annual compensation review&lt;/li&gt;\n&lt;li&gt;Recognition rewards&lt;/li&gt;\n&lt;li&gt;Annual holiday leave&lt;/li&gt;\n&lt;li&gt;Maternity and paternity leave&lt;/li&gt;\n&lt;li&gt;Employee Assistance Programme&lt;/li&gt;\n&lt;li&gt;Opportunity to travel to new locations to meet colleagues&lt;/li&gt;\n&lt;li&gt;Priority Pass, and travel upgrades for long haul company events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;&lt;strong&gt;About Canonical&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Canonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open source projects and the platform for AI, IoT and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence - in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since its inception in 2004.​ Working here is a step into the future, and will challenge you to think differently, work smarter, learn new skills, and raise your game.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Canonical is an equal opportunity employer&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products.&lt;a href=&quot;https://canonical.com/careers/diversity/identity&quot;&gt; Whatever your identity, we will give your application fair consideration.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;#LI-remote&lt;/p&gt;",
+    "departments": [
+      {
+        "id": 82563,
+        "name": "Field Engineering",
+        "child_ids": [],
+        "parent_id": null
+      }
+    ],
+    "offices": [
+      {
+        "id": 44282,
+        "name": "Home Based - Worldwide",
+        "location": null,
+        "child_ids": [],
+        "parent_id": 73277
+      }
+    ],
+    "ai_disclaimer": null,
+    "include_ai_disclaimer": null,
+    "ai_opt_out_request_url": null
+  },
+  {
+    "absolute_url": "https://job-boards.greenhouse.io/canonical/jobs/6189337",
+    "data_compliance": [
+      {
+        "type": "gdpr",
+        "requires_consent": false,
+        "requires_processing_consent": false,
+        "requires_retention_consent": false,
+        "retention_period": null,
+        "demographic_data_consent_applies": false
+      }
+    ],
+    "education": "education_optional",
+    "internal_job_id": 2105655,
+    "location": {
+      "name": "Home based - Worldwide"
+    },
+    "metadata": [
+      {
+        "id": 186225,
+        "name": "People management responsibilities?",
+        "value": false,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 149021,
+        "name": "Employment Length",
+        "value": "Full-time",
+        "value_type": "single_select"
+      },
+      {
+        "id": 675557,
+        "name": "Core skills",
+        "value": [
+          "Analysers",
+          "Competitor",
+          "Contributor",
+          "Developer",
+          "Doer",
+          "Generalist",
+          "Helper",
+          "Inventor",
+          "Leader",
+          "Problem Solver",
+          "Spokesperson",
+          "Stalwart",
+          "Technologist"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739136,
+        "name": "External Departments (website)",
+        "value": [
+          "Engineering"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739137,
+        "name": "One line job description",
+        "value": "Integrate new features and optimisations for the latest silicon platforms and software stacks, to bring the best Ubuntu experience for small IoT and edge devices, networking, automotive, server and hyperconverged systems.",
+        "value_type": "long_text"
+      },
+      {
+        "id": 3209541,
+        "name": "Canonical site",
+        "value": [],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 3587161,
+        "name": "LinkedIn Posting Level",
+        "value": "Mid-Senior",
+        "value_type": "single_select"
+      },
+      {
+        "id": 11961371,
+        "name": "Featured job (Talent Team to complete)",
+        "value": null,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 54742858,
+        "name": "Business Unit Type",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 54743567,
+        "name": "Req Category",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 56835606,
+        "name": "Discipline/Track",
+        "value": null,
+        "value_type": "single_select"
+      }
+    ],
+    "id": 6189337,
+    "updated_at": "2026-08-06T06:23:33+08:00",
+    "requisition_id": "829",
+    "title": "Embedded Linux Senior Software Engineer - Optimisation",
+    "company_name": "Canonical",
+    "first_published": "2025-02-11T08:06:02+08:00",
+    "language": "en",
+    "application_deadline": null,
+    "content": "&lt;p&gt;Work across the full Linux stack from kernel through GUI to optimise Ubuntu, the world’s most widely used Linux desktop and server, for the latest silicon.&lt;/p&gt;\n&lt;p&gt;The role is a fast-paced, problem-solving role that’s challenging yet very exciting. The right candidate must be resourceful, articulate, and able to deliver on a wide variety of solutions across PC and IoT technologies. Our teams partner with specialist engineers from major silicon companies to integrate next-generation features and performance enhancements for upcoming hardware.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; &lt;/span&gt;&lt;em&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;This is a Globally remote role&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;What your day will look like&lt;/span&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Design and implement the best Ubuntu integration for the latest IoT and server-class hardware platforms and software stacks&lt;/li&gt;\n&lt;li&gt;Work with partners to deliver a delightful, optimised, first class Ubuntu experience on their platforms&lt;/li&gt;\n&lt;li&gt;Take a holistic approach to the Ubuntu experience on partner platforms with inputs on technical plans, testing strategy, quality metrics&lt;/li&gt;\n&lt;li&gt;Participate as technical lead on complex customer engagements involving complete system architectures from cloud to edge&lt;/li&gt;\n&lt;li&gt;Help our customers integrate their apps, SDKs, build device OS images, optimize applications with Ubuntu Core, Desktop and Server&lt;/li&gt;\n&lt;li&gt;Work with the most advanced operating systems and application technologies available in the enterprise world.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Joining Canonical, you will partner with bright minds from all over the world, and work with an exciting set of new technologies in a fast growing company with a truly unique and ambitious vision to build a better platform with free software. You will work with customers on exciting IoT and server platforms and technologies, built to support different verticals: from robots to data centers, from telco to retail.&lt;/p&gt;\n&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;What we are looking for in you&lt;/span&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;You love technology and working with brilliant people&lt;/li&gt;\n&lt;li&gt;You have a Bachelor’s degree in Computer Science, STEM or similar&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;You have experience with Linux packaging (Debian, RPM, Yocto)&lt;/li&gt;\n&lt;li&gt;You have experience working with open source communities and licences&lt;/li&gt;\n&lt;li&gt;You have experience working with C, C++&lt;/li&gt;\n&lt;li&gt;You can work in a globally distributed team through self-discipline and self-motivation.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Additional skills that you might also bring&lt;/span&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with graphics stacks&lt;/li&gt;\n&lt;li&gt;Good understanding of networking - TCP/IP, DHCP, HTTP/REST&lt;/li&gt;\n&lt;li&gt;Basic understanding of security best practices in IoT or server environments&lt;/li&gt;\n&lt;li&gt;Good communication skills, ideally public speaking experience&lt;/li&gt;\n&lt;li&gt;IoT / Embedded experience – from board and SoC, BMCs, bootloaders and firmware to OS, through apps and services&lt;/li&gt;\n&lt;li&gt;Some experience with Docker/OCI containers/K8s&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;What we offer you&lt;/span&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Your base pay will depend on various factors including your geographical location, level of experience, knowledge and skills. In addition to the benefits above, certain roles are also eligible for additional benefits and rewards including annual bonuses and sales incentives based on revenue or utilisation. Our compensation philosophy is to ensure equity right across our global workforce.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In addition to a competitive base pay, we provide all team members with additional benefits, which reflect our values and ideals. Please note that additional benefits may apply depending on the work location and, for more information on these, you can ask in the later stages of the recruitment process.&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Fully remote working environment - we’ve been working remotely since 2004!&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Personal learning and development budget of 2,000USD per annum&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Annual compensation review&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Recognition rewards&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Annual holiday leave&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Parental Leave&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Employee Assistance Programme&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Opportunity to travel to new locations to meet colleagues at ‘sprints’&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Priority Pass for travel and travel upgrades for long haul company events&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;About Canonical&lt;/span&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Canonical is a pioneering tech firm that is at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open source projects and the platform for AI, IoT and the cloud, we are changing the world on a daily basis. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence - in order to succeed, we need to be the best at what we do.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Canonical has been a remote-first company since its inception in 2004.​ Work at Canonical is a step into the future, and will challenge you to think differently, work smarter, learn new skills, and raise your game. Canonical provides a unique window into the world of 21st-century digital business.&lt;/span&gt;&lt;/p&gt;\n&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Canonical is an equal opportunity employer&lt;/span&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. &lt;/span&gt;&lt;a href=&quot;https://canonical.com/careers/diversity/identity&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Whatever your identity, we will give your application fair consideration.&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;#LI-remote&amp;nbsp;&lt;/span&gt;&lt;/p&gt;",
+    "departments": [
+      {
+        "id": 224931,
+        "name": "Devices Engineering",
+        "child_ids": [],
+        "parent_id": null
+      }
+    ],
+    "offices": [
+      {
+        "id": 44282,
+        "name": "Home Based - Worldwide",
+        "location": null,
+        "child_ids": [],
+        "parent_id": 73277
+      }
+    ],
+    "ai_disclaimer": null,
+    "include_ai_disclaimer": null,
+    "ai_opt_out_request_url": null
+  },
+  {
+    "absolute_url": "https://job-boards.greenhouse.io/canonical/jobs/5370815",
+    "data_compliance": [
+      {
+        "type": "gdpr",
+        "requires_consent": false,
+        "requires_processing_consent": false,
+        "requires_retention_consent": false,
+        "retention_period": null,
+        "demographic_data_consent_applies": false
+      }
+    ],
+    "education": "education_optional",
+    "internal_job_id": 2679523,
+    "location": {
+      "name": "Home based - Worldwide"
+    },
+    "metadata": [
+      {
+        "id": 186225,
+        "name": "People management responsibilities?",
+        "value": false,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 149021,
+        "name": "Employment Length",
+        "value": "Permanent",
+        "value_type": "single_select"
+      },
+      {
+        "id": 675557,
+        "name": "Core skills",
+        "value": [
+          "Analysers",
+          "Contributor",
+          "Developer",
+          "Doer",
+          "Problem Solver",
+          "Technologist",
+          "Tester"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739136,
+        "name": "External Departments (website)",
+        "value": [
+          "Engineering"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739137,
+        "name": "One line job description",
+        "value": "Delivering the most reliable Linux kernels in the world, at scale.",
+        "value_type": "long_text"
+      },
+      {
+        "id": 3209541,
+        "name": "Canonical site",
+        "value": [],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 3587161,
+        "name": "LinkedIn Posting Level",
+        "value": "Entry level",
+        "value_type": "single_select"
+      },
+      {
+        "id": 11961371,
+        "name": "Featured job (Talent Team to complete)",
+        "value": null,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 54742858,
+        "name": "Business Unit Type",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 54743567,
+        "name": "Req Category",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 56835606,
+        "name": "Discipline/Track",
+        "value": null,
+        "value_type": "single_select"
+      }
+    ],
+    "id": 5370815,
+    "updated_at": "2026-08-06T06:23:33+08:00",
+    "requisition_id": "1120",
+    "title": "Junior Linux Kernel Engineer - Ubuntu",
+    "company_name": "Canonical",
+    "first_published": "2024-02-26T11:35:49+08:00",
+    "language": "en",
+    "application_deadline": null,
+    "content": "&lt;p&gt;Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world&#39;s leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.&lt;/p&gt;\n&lt;p&gt;The company is founder-led, profitable, and growing.&lt;/p&gt;\n&lt;p&gt;Every year we select new junior professionals into the Canonical Kernel Team, to work on the Linux kernel for Ubuntu. If you’ve enjoyed operating systems in your coursework or current role, you are confident in your ability to write high quality C and possibly Rust, and are ready to take the plunge and see how it all works, then this would be a great place to pursue your next career stage. We are a global team working to ship the world&#39;s most widely used Linux kernel, across the very latest silicon and cloud, where you can apply and grow your software engineering skills.&lt;/p&gt;\n&lt;p&gt;The Canonical Kernel Team builds and maintains all supported Ubuntu Linux kernels for a variety of platforms and architectures from small embedded devices to standard desktop/server systems to large-scale cloud environments. In your first year you will tackle serious initiatives, which include but are not limited to:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Optimized solutions for key Silicon and Cloud partner platforms&lt;/li&gt;\n&lt;li&gt;Developer platforms such as Raspberry Pi and RISC-V&lt;/li&gt;\n&lt;li&gt;Enabling Ubuntu on a wide range of embedded systems&lt;/li&gt;\n&lt;li&gt;Security hardening and exploit mitigation&lt;/li&gt;\n&lt;li&gt;Third-party driver integration and distribution, such as graphics&lt;/li&gt;\n&lt;li&gt;Expanded driver support for bleeding-edge PC platforms&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We select candidates that are recent university graduates or early career professionals who are enthusiastic to develop kernel-level software in multiple areas including security updates, patching, and testing. The successful candidate will have a background in software engineering, be motivated to work in a distributed team and willing and able to travel globally twice a year for company engineering events.&lt;/p&gt;\n&lt;p&gt;These are full-time positions available to prospective or recently graduated students.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; We have home-based Kernel Teams in every timezone.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;The role entails&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Collaborate regularly and proactively with a globally distributed team&lt;/li&gt;\n&lt;li&gt;Learn from senior mentors to demystify the inner workings of the Linux kernel and how it is distributed&lt;/li&gt;\n&lt;li&gt;Work closely with external silicon, cloud, or hardware manufacturer delivery teams on bleeding-edge platforms&lt;/li&gt;\n&lt;li&gt;Diagnose and resolve issues in the kernel reported by customers, the community, and discovered by your own rigorous testing&lt;/li&gt;\n&lt;li&gt;Take personal responsibility for the delivery of various flavors of the Ubuntu Linux kernel&lt;/li&gt;\n&lt;li&gt;Improve tooling and automation for delivery and test of Ubuntu Linux kernels&lt;/li&gt;\n&lt;li&gt;Submit, review, and apply kernel patches, working with both internal and external upstream maintainers&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What we are looking for in you&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Well-organized and motivated self-starter able to thrive in a remote work environment&lt;/li&gt;\n&lt;li&gt;Professional manner with colleagues, business partners, and the open-source community&lt;/li&gt;\n&lt;li&gt;Ability to communicate effectively in English, both written and verbal&lt;/li&gt;\n&lt;li&gt;Programming experience in C and/or Rust&lt;/li&gt;\n&lt;li&gt;Familiarity with version control practices, ideally with git&lt;/li&gt;\n&lt;li&gt;Understanding of operating system kernel fundamentals&lt;/li&gt;\n&lt;li&gt;Ability to travel twice a year for company events of up to two weeks length&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Nice-to-have skills&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Interest and experience in Rust&lt;/li&gt;\n&lt;li&gt;Python and Bash scripting ability&lt;/li&gt;\n&lt;li&gt;Prior experience with Ubuntu/Debian/Snap packaging&lt;/li&gt;\n&lt;li&gt;Demonstrated experience with kernel patching and debugging&lt;/li&gt;\n&lt;li&gt;Strong grasp of device drivers, BSP’s, and other low level system engineering&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What we offer colleagues&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognize outstanding performance. In addition to base pay, we offer a performance-driven annual bonus or commission. We provide all team members with additional benefits which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Distributed work environment with twice-yearly team sprints in person&lt;/li&gt;\n&lt;li&gt;Personal learning and development budget of USD 2,000 per year&lt;/li&gt;\n&lt;li&gt;Annual compensation review&lt;/li&gt;\n&lt;li&gt;Recognition rewards&lt;/li&gt;\n&lt;li&gt;Annual holiday leave&lt;/li&gt;\n&lt;li&gt;Maternity and paternity leave&lt;/li&gt;\n&lt;li&gt;Team Member Assistance Program &amp;amp; Wellness Platform&lt;/li&gt;\n&lt;li&gt;Opportunity to travel to new locations to meet colleagues&lt;/li&gt;\n&lt;li&gt;Priority Pass and travel upgrades for long-haul company events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;About Canonical&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Canonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open-source projects and the platform for AI, IoT, and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence; in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since our inception in 2004.​ Working here is a step into the future and will challenge you to think differently, work smarter, learn new skills, and raise your game.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Canonical is an equal opportunity employer&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products.&amp;nbsp;&lt;a href=&quot;https://canonical.com/careers/diversity/identity&quot;&gt;Whatever your identity, we will give your application fair consideration.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;#LI-remote&lt;/p&gt;",
+    "departments": [
+      {
+        "id": 224931,
+        "name": "Devices Engineering",
+        "child_ids": [],
+        "parent_id": null
+      }
+    ],
+    "offices": [
+      {
+        "id": 44282,
+        "name": "Home Based - Worldwide",
+        "location": null,
+        "child_ids": [],
+        "parent_id": 73277
+      }
+    ],
+    "ai_disclaimer": null,
+    "include_ai_disclaimer": null,
+    "ai_opt_out_request_url": null
+  },
+  {
+    "absolute_url": "https://job-boards.greenhouse.io/canonical/jobs/6010955",
+    "data_compliance": [
+      {
+        "type": "gdpr",
+        "requires_consent": false,
+        "requires_processing_consent": false,
+        "requires_retention_consent": false,
+        "retention_period": null,
+        "demographic_data_consent_applies": false
+      }
+    ],
+    "education": "education_optional",
+    "internal_job_id": 1388780,
+    "location": {
+      "name": "Home based - Worldwide"
+    },
+    "metadata": [
+      {
+        "id": 186225,
+        "name": "People management responsibilities?",
+        "value": false,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 149021,
+        "name": "Employment Length",
+        "value": "Full-time",
+        "value_type": "single_select"
+      },
+      {
+        "id": 675557,
+        "name": "Core skills",
+        "value": [
+          "Analysers",
+          "Contributor",
+          "Developer",
+          "Doer",
+          "Problem Solver",
+          "Technologist",
+          "Tester"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739136,
+        "name": "External Departments (website)",
+        "value": [
+          "Engineering"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739137,
+        "name": "One line job description",
+        "value": "Work with our global public cloud partners to deliver and maintain high-quality, high-performance Ubuntu kernels for the best possible open-source experience for our mutual customers.",
+        "value_type": "long_text"
+      },
+      {
+        "id": 3209541,
+        "name": "Canonical site",
+        "value": [],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 3587161,
+        "name": "LinkedIn Posting Level",
+        "value": "Mid-Senior",
+        "value_type": "single_select"
+      },
+      {
+        "id": 11961371,
+        "name": "Featured job (Talent Team to complete)",
+        "value": null,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 54742858,
+        "name": "Business Unit Type",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 54743567,
+        "name": "Req Category",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 56835606,
+        "name": "Discipline/Track",
+        "value": null,
+        "value_type": "single_select"
+      }
+    ],
+    "id": 6010955,
+    "updated_at": "2026-08-06T06:23:33+08:00",
+    "requisition_id": "466",
+    "title": "Lead Linux Kernel Engineer - Ubuntu",
+    "company_name": "Canonical",
+    "first_published": "2024-06-03T13:12:50+08:00",
+    "language": "en",
+    "application_deadline": null,
+    "content": "&lt;p&gt;Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world&#39;s leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.&lt;/p&gt;\n&lt;p&gt;The company is founder-led, profitable, and growing.&lt;/p&gt;\n&lt;p&gt;The Canonical Kernel Team is seeking exceptionally talented technology experts and industry veterans with a proven track record in operating systems kernel development or low level system engineering to take the lead in the architecture, implementation, and ongoing delivery of the following (but not limited to) aspects of the Ubuntu Linux kernel:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Driving engagements for key Silicon and Cloud partners to provide optimal solutions for their platforms&lt;/li&gt;\n&lt;li&gt;Leading the mitigation of common vulnerabilities and exposures for Ubuntu Linux as well as driving active hardening in the kernel&lt;/li&gt;\n&lt;li&gt;Architecting enhancements to performance and correctness to make Ubuntu Linux the most reliable and highest performing Linux kernel available today&lt;/li&gt;\n&lt;li&gt;Streamlining the packaging and distribution of particularly troublesome third-party components for optimal experience by end users&lt;/li&gt;\n&lt;li&gt;Developing new means to deliver Ubuntu Linux at scale to the strict quality standards and delivery schedules expected by end users&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;While not a formal managerial role, the successful candidate will possess strong people skills and natural ability to lead engineers within the team, as well as working with other external teams to coordinate adoption and delivery.&lt;/p&gt;\n&lt;p&gt;We are looking for individuals with not only an incredibly deep technical background in operating system kernels and distributions, but also a strong flair for leadership and taking initiative to drive ideas and the associated delivery teams to completion.&lt;/p&gt;\n&lt;p&gt;While we hesitate to put a specific number of years of experience as a requirement for an applicant as that does not take into account relative ability or circumstances, for a comparative guideline we would be seeking candidates with the demonstrated technical equivalent of 15+ years of industry experience.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; We have home-based lead kernel engineer roles in every timezone, although the individual aspects as listed above may be linked to a specific geographic region.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What the role entails&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Set the technical direction and lead the delivery of a team of junior and mid-career engineers for a key aspect of Ubuntu Linux&lt;/li&gt;\n&lt;li&gt;Work closely with management within and outside the team to track and coordinate initiatives to delivery&lt;/li&gt;\n&lt;li&gt;Collaborate daily with other senior technical leadership on the Kernel Team on how best to ensure Ubuntu stays at the pinnacle of Linux distributions&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What we are looking for in you&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Well-organised and motivated self-starter able to thrive in a remote work environment&lt;/li&gt;\n&lt;li&gt;Strong communication skills in English, both written and verbal&lt;/li&gt;\n&lt;li&gt;Expert understanding of the C programming language&lt;/li&gt;\n&lt;li&gt;Demonstrated expertise working in a *nix-based operating system kernel and distribution. While direct Linux experience would be ideal, it is not required.&lt;/li&gt;\n&lt;li&gt;Python and Bash scripting ability&lt;/li&gt;\n&lt;li&gt;Powerful grasp of the capabilities and nuances of the git version control system&lt;/li&gt;\n&lt;li&gt;Prior experience developing with software packaging formats, with direct Ubuntu/Debian/Snap experience being highly regarded&lt;/li&gt;\n&lt;li&gt;Ability to travel internationally at least twice a year for company events of up to two weeks length&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Nice-to-have skills&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong background in RTOS and real-time performance analysis&lt;/li&gt;\n&lt;li&gt;Demonstrated experience with kernel patching and debugging&lt;/li&gt;\n&lt;li&gt;Strong grasp of device drivers, BSP’s, and other low level system engineering&lt;/li&gt;\n&lt;li&gt;Prior experience with Rust, ideally as it pertains to the Linux kernel&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What we offer colleagues&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognize outstanding performance. In addition to base pay, we offer a performance-driven annual bonus or commission. We provide all team members with additional benefits which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Distributed work environment with twice-yearly team sprints in person&lt;/li&gt;\n&lt;li&gt;Personal learning and development budget of USD 2,000 per year&lt;/li&gt;\n&lt;li&gt;Annual compensation review&lt;/li&gt;\n&lt;li&gt;Recognition rewards&lt;/li&gt;\n&lt;li&gt;Annual holiday leave&lt;/li&gt;\n&lt;li&gt;Maternity and paternity leave&lt;/li&gt;\n&lt;li&gt;Team Member Assistance Program &amp;amp; Wellness Platform&lt;/li&gt;\n&lt;li&gt;Opportunity to travel to new locations to meet colleagues&lt;/li&gt;\n&lt;li&gt;Priority Pass and travel upgrades for long-haul company events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;About Canonical&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Canonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open-source projects and the platform for AI, IoT, and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence; in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since our inception in 2004.​ Working here is a step into the future and will challenge you to think differently, work smarter, learn new skills, and raise your game.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Canonical is an equal opportunity employer&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products.&lt;a href=&quot;https://canonical.com/careers/diversity/identity&quot;&gt; Whatever your identity, we will give your application fair consideration.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;#LI-remote&lt;/p&gt;",
+    "departments": [
+      {
+        "id": 224931,
+        "name": "Devices Engineering",
+        "child_ids": [],
+        "parent_id": null
+      }
+    ],
+    "offices": [
+      {
+        "id": 44282,
+        "name": "Home Based - Worldwide",
+        "location": null,
+        "child_ids": [],
+        "parent_id": 73277
+      }
+    ],
+    "ai_disclaimer": null,
+    "include_ai_disclaimer": null,
+    "ai_opt_out_request_url": null
+  },
+  {
+    "absolute_url": "https://job-boards.greenhouse.io/canonical/jobs/5151903",
+    "data_compliance": [
+      {
+        "type": "gdpr",
+        "requires_consent": false,
+        "requires_processing_consent": false,
+        "requires_retention_consent": false,
+        "retention_period": null,
+        "demographic_data_consent_applies": false
+      }
+    ],
+    "education": "education_optional",
+    "internal_job_id": 2578843,
+    "location": {
+      "name": "Home based - Worldwide"
+    },
+    "metadata": [
+      {
+        "id": 186225,
+        "name": "People management responsibilities?",
+        "value": false,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 149021,
+        "name": "Employment Length",
+        "value": "Permanent",
+        "value_type": "single_select"
+      },
+      {
+        "id": 675557,
+        "name": "Core skills",
+        "value": [
+          "Analysers",
+          "Developer",
+          "Inventor",
+          "Problem Solver",
+          "Technologist",
+          "Tester"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739136,
+        "name": "External Departments (website)",
+        "value": [
+          "Engineering"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739137,
+        "name": "One line job description",
+        "value": "Delivering the most reliable Linux kernels in the world, at scale.",
+        "value_type": "long_text"
+      },
+      {
+        "id": 3209541,
+        "name": "Canonical site",
+        "value": [],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 3587161,
+        "name": "LinkedIn Posting Level",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 11961371,
+        "name": "Featured job (Talent Team to complete)",
+        "value": null,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 54742858,
+        "name": "Business Unit Type",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 54743567,
+        "name": "Req Category",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 56835606,
+        "name": "Discipline/Track",
+        "value": null,
+        "value_type": "single_select"
+      }
+    ],
+    "id": 5151903,
+    "updated_at": "2026-08-06T06:23:33+08:00",
+    "requisition_id": "1091",
+    "title": "Linux Kernel Engineer",
+    "company_name": "Canonical",
+    "first_published": "2023-10-18T13:26:16+08:00",
+    "language": "en",
+    "application_deadline": null,
+    "content": "&lt;p&gt;This is a general track for applications to any team at Canonical that works with the Linux kernel, across all seniority levels. Apply here if you are an exceptional software engineer who wants to work on both stable and cutting edge Linux kernels for Ubuntu and its wider ecosystem.&lt;/p&gt;\n&lt;p&gt;Canonical has a large and rapidly growing kernel team that underpins Ubuntu and open source more widely across a very wide range of hardware and use cases. We partner with the biggest kernel contributors - the silicon companies - to ensure that their work reaches the widest possible audience as quickly&amp;nbsp; as possible, with a 10 year enterprise security commitment.&lt;/p&gt;\n&lt;p&gt;The Canonical Linux Kernel Organization has teams in every time zone. We have opportunities for technical leadership, engineering management, and engineering directorships. The team is responsible for all supported Ubuntu Linux kernels, on all platforms and architectures from small embedded devices to standard desktop/server systems to large scale cloud environments, mainframes and supercomputers.&lt;/p&gt;\n&lt;p&gt;We care most about hardware and virtualization enablement, security, reliability and performance. There are a number of areas where we lead upstream, but for the most part we are interested in ensuring production readiness and performance for the latest patchsets, rather than subsystem maintenance or evolution.&lt;/p&gt;\n&lt;p&gt;Kernel Team projects include but are not limited to:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Ubuntu Linux kernel plan, execution, benchmarking and stress testing&lt;/li&gt;\n&lt;li&gt;Optimised kernels for key silicon and cloud partners&lt;/li&gt;\n&lt;li&gt;Confidential computing and next-generation security primitives&lt;/li&gt;\n&lt;li&gt;Developer platforms such as Raspberry Pi and RISC-V&lt;/li&gt;\n&lt;li&gt;Enabling Ubuntu on a wide range of embedded systems&lt;/li&gt;\n&lt;li&gt;Kernel Livepatch, which delivers critical kernel fixes without rebooting&lt;/li&gt;\n&lt;li&gt;FIPS compliance&lt;/li&gt;\n&lt;li&gt;Real-Time and Low Latency kernel variants and patchsets&lt;/li&gt;\n&lt;li&gt;Virtualisation or abstraction engines&lt;/li&gt;\n&lt;li&gt;Container technology&lt;/li&gt;\n&lt;li&gt;Security with AppArmor, SECCOMP, namespaces and more&lt;/li&gt;\n&lt;li&gt;Networking - in particular performance and security&lt;/li&gt;\n&lt;li&gt;Storage - we are particularly interested in Ceph and DRBD&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We hire candidates of all experience levels from recent university graduates through seasoned industry experts. We select those who are enthusiastic to work in multiple areas including security mitigation, feature development, patching and test.&amp;nbsp; You must have outstanding academic results, a background in software engineering, be motivated to work in a distributed team and willing to travel globally twice a year for company engineering events.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Working from home, worldwide.&amp;nbsp; &amp;nbsp;We have kernel teams and openings in every time zone and with the notable exception of Taipei, Taiwan, have no offices and therefore no pressure to work from an office.&lt;/p&gt;\n&lt;h2&gt;What your day will look like&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Collaborate regularly and proactively with a globally distributed team&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Work closely with silicon, cloud, or hardware manufacturers&lt;/li&gt;\n&lt;li&gt;Diagnose and resolve issues in the kernel&lt;/li&gt;\n&lt;li&gt;Take personal responsibility for a flavour of the Ubuntu Linux kernel&lt;/li&gt;\n&lt;li&gt;Improve tooling and automation for delivery and test of Ubuntu Linux kernels&lt;/li&gt;\n&lt;li&gt;Submit, review, and apply kernel patches&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What we are looking for in you&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;An exceptional academic track record from both high school and university&lt;/li&gt;\n&lt;li&gt;Undergraduate degree in Computer Science or STEM, or a compelling narrative about your alternative path&lt;/li&gt;\n&lt;li&gt;Drive and a track record of going above-and-beyond expectations&lt;/li&gt;\n&lt;li&gt;Well-organised, self-starting and able to deliver to fixed schedules&lt;/li&gt;\n&lt;li&gt;Professional manner interacting with colleagues, partners, and community&lt;/li&gt;\n&lt;li&gt;Ability to communicate effectively in English, both written and oral&lt;/li&gt;\n&lt;li&gt;Significant programming experience in C&lt;/li&gt;\n&lt;li&gt;Solid background with git&lt;/li&gt;\n&lt;li&gt;Broad knowledge of the Linux kernel and kernel subsystems&lt;/li&gt;\n&lt;li&gt;Demonstrated experience with kernel patching and debugging&lt;/li&gt;\n&lt;li&gt;Understanding of Linux kernel upstream processes and release cycle&lt;/li&gt;\n&lt;li&gt;Strong grasp of device drivers, BSP’s, and other low level system engineering&lt;/li&gt;\n&lt;li&gt;Professional written and spoken English&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience with Linux (Debian or Ubuntu preferred)&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Excellent interpersonal skills, curiosity, flexibility, and accountability&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Passion, thoughtfulness, and self-motivation&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Excellent communication and presentation skills&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Result-oriented, with a personal drive to meet commitments&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Ability to travel twice a year, for company events up to two weeks each&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Additional skills that you might also bring&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Python and Bash scripting&lt;/li&gt;\n&lt;li&gt;Prior experience with Ubuntu/Debian/Snap packaging&lt;/li&gt;\n&lt;li&gt;Performance engineering and security experience&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What we offer you&lt;/h2&gt;\n&lt;p&gt;We consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognise outstanding performance. In addition to base pay, we offer a performance-driven annual bonus. We provide all team members with additional benefits, which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Distributed work environment with twice-yearly team sprints in person&lt;/li&gt;\n&lt;li&gt;Personal learning and development budget of USD 2,000 per year&lt;/li&gt;\n&lt;li&gt;Annual compensation review&lt;/li&gt;\n&lt;li&gt;Recognition rewards&lt;/li&gt;\n&lt;li&gt;Annual holiday leave&lt;/li&gt;\n&lt;li&gt;Maternity and paternity leave&lt;/li&gt;\n&lt;li&gt;Employee Assistance Programme&lt;/li&gt;\n&lt;li&gt;Opportunity to travel to new locations to meet colleagues&lt;/li&gt;\n&lt;li&gt;Priority Pass, and travel upgrades for long haul company events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;About Canonical&lt;/h2&gt;\n&lt;p&gt;Canonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open source projects and the platform for AI, IoT and the cloud, we are changing the world on a daily basis. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence - in order to succeed, we need to be the best at what we do. Canonical has been a remote-first company since its inception in 2004.​ Working here is a step into the future, and will challenge you to think differently, work smarter, learn new skills, and raise your game.&lt;/p&gt;\n&lt;h2&gt;Canonical is an equal opportunity employer&lt;/h2&gt;\n&lt;p&gt;We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products.&lt;a href=&quot;https://canonical.com/careers/diversity/identity&quot;&gt; Whatever your identity, we will give your application fair consideration.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;#LI-remote&lt;/p&gt;",
+    "departments": [
+      {
+        "id": 224932,
+        "name": "Engineering Fast Track",
+        "child_ids": [],
+        "parent_id": null
+      }
+    ],
+    "offices": [
+      {
+        "id": 44282,
+        "name": "Home Based - Worldwide",
+        "location": null,
+        "child_ids": [],
+        "parent_id": 73277
+      }
+    ],
+    "ai_disclaimer": null,
+    "include_ai_disclaimer": null,
+    "ai_opt_out_request_url": null
+  },
+  {
+    "absolute_url": "https://job-boards.greenhouse.io/canonical/jobs/6076942",
+    "data_compliance": [
+      {
+        "type": "gdpr",
+        "requires_consent": false,
+        "requires_processing_consent": false,
+        "requires_retention_consent": false,
+        "retention_period": null,
+        "demographic_data_consent_applies": false
+      }
+    ],
+    "education": "education_optional",
+    "internal_job_id": 1388780,
+    "location": {
+      "name": "Home Based - APAC"
+    },
+    "metadata": [
+      {
+        "id": 186225,
+        "name": "People management responsibilities?",
+        "value": false,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 149021,
+        "name": "Employment Length",
+        "value": "Full-time",
+        "value_type": "single_select"
+      },
+      {
+        "id": 675557,
+        "name": "Core skills",
+        "value": [
+          "Analysers",
+          "Contributor",
+          "Developer",
+          "Doer",
+          "Problem Solver",
+          "Technologist",
+          "Tester"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739136,
+        "name": "External Departments (website)",
+        "value": [
+          "Engineering"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739137,
+        "name": "One line job description",
+        "value": "Work with our global public cloud partners to deliver and maintain high-quality, high-performance Ubuntu kernels for the best possible open-source experience for our mutual customers.",
+        "value_type": "long_text"
+      },
+      {
+        "id": 3209541,
+        "name": "Canonical site",
+        "value": [],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 3587161,
+        "name": "LinkedIn Posting Level",
+        "value": "Mid-Senior",
+        "value_type": "single_select"
+      },
+      {
+        "id": 11961371,
+        "name": "Featured job (Talent Team to complete)",
+        "value": null,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 54742858,
+        "name": "Business Unit Type",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 54743567,
+        "name": "Req Category",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 56835606,
+        "name": "Discipline/Track",
+        "value": null,
+        "value_type": "single_select"
+      }
+    ],
+    "id": 6076942,
+    "updated_at": "2026-08-06T06:23:33+08:00",
+    "requisition_id": "466",
+    "title": "Ubuntu Linux Kernel Engineer - BIOS/Firmware",
+    "company_name": "Canonical",
+    "first_published": "2024-06-28T07:38:34+08:00",
+    "language": "en",
+    "application_deadline": null,
+    "content": "&lt;p&gt;With a proven track record now spanning decades, Ubuntu is now the go-to Linux distribution for x86/amd64 environments.&amp;nbsp; To stay at the forefront of consumer choice, Canonical - the company behind Ubuntu Linux - is expanding its investment into PC platform stability, reliability, and performance.&amp;nbsp; The Canonical Kernel Team - those responsible for the build, maintenance, and distribution of the Linux kernel for Ubuntu - is looking for an individual to take ownership of aspects pertaining to the boot process, BIOS, UEFI, ACPI, and other platform firmware components as they pertain to the Ubuntu Linux kernel.&lt;/p&gt;\n&lt;p&gt;The successful candidate will be able to demonstrate a strong understanding of ACPI, ideally from the Linux kernel perspective, as well as enough familiarity with BIOS/UEFI to resolve issues as they are reported from PC platform vendors or the community at large.&amp;nbsp; Prior work experience with a major PC platform firmware vendor or active participation in the Coreboot project would be a significant advantage.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;The role entails&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Collaborate regularly and proactively with a globally distributed team&lt;/li&gt;\n&lt;li&gt;Work closely with our PC platform enablement team and vendors to resolve issues involving BIOS, UEFI, ACPI, or other problems involving boot and configuration of the Linux kernel&lt;/li&gt;\n&lt;li&gt;Become a primary contributor and maintainer to the Firmware Test Suite (FWTS)&lt;/li&gt;\n&lt;li&gt;Improve tooling and automation for comprehensive verification of Ubuntu Linux on x86 platforms&lt;/li&gt;\n&lt;li&gt;Submit, review, and apply kernel patches, working with both internal and external upstream maintainers&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What we are looking for in you&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Well-organised and motivated self-starter able to thrive in a remote work environment&lt;/li&gt;\n&lt;li&gt;Professional manner with colleagues, business partners, and the open-source community&lt;/li&gt;\n&lt;li&gt;Ability to communicate effectively in English, both written and verbal&lt;/li&gt;\n&lt;li&gt;Significant programming ability in C&lt;/li&gt;\n&lt;li&gt;Demonstrated software development background involving UEFI and/or ACPI, with in-depth understanding of AML.&lt;/li&gt;\n&lt;li&gt;Solid background with git&lt;/li&gt;\n&lt;li&gt;Familiarity with the x86 bootstrap process&lt;/li&gt;\n&lt;li&gt;Understanding of operating system kernel fundamentals, with a focus on ACPI and UEFI interaction&lt;/li&gt;\n&lt;li&gt;Ability to travel internationally twice a year for company events of up to two weeks length&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Additional skills that you might also bring&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Python and Bash scripting ability&lt;/li&gt;\n&lt;li&gt;Prior background with the coreboot project&lt;/li&gt;\n&lt;li&gt;Ubuntu/Debian/Snap packaging&lt;/li&gt;\n&lt;li&gt;Experience with Linux kernel patching and debugging&lt;/li&gt;\n&lt;li&gt;Familiarity with Devicetree, SystemReady, u-boot, or other non-x86 platform bootstrap or configuration mechanisms&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What we offer colleagues&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognize outstanding performance. In addition to base pay, we offer a performance-driven annual bonus or commission. We provide all team members with additional benefits which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Distributed work environment with twice-yearly team sprints in person&lt;/li&gt;\n&lt;li&gt;Personal learning and development budget of USD 2,000 per year&lt;/li&gt;\n&lt;li&gt;Annual compensation review&lt;/li&gt;\n&lt;li&gt;Recognition rewards&lt;/li&gt;\n&lt;li&gt;Annual holiday leave&lt;/li&gt;\n&lt;li&gt;Maternity and paternity leave&lt;/li&gt;\n&lt;li&gt;Team Member Assistance Program &amp;amp; Wellness Platform&lt;/li&gt;\n&lt;li&gt;Opportunity to travel to new locations to meet colleagues&lt;/li&gt;\n&lt;li&gt;Priority Pass and travel upgrades for long-haul company events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;About Canonical&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Canonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open-source projects and the platform for AI, IoT, and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence; in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since our inception in 2004.​ Working here is a step into the future and will challenge you to think differently, work smarter, learn new skills, and raise your game.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Canonical is an equal opportunity employer&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products.&lt;a href=&quot;https://canonical.com/careers/diversity/identity&quot;&gt; Whatever your identity, we will give your application fair consideration.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;#LI-remote&lt;/p&gt;",
+    "departments": [
+      {
+        "id": 224931,
+        "name": "Devices Engineering",
+        "child_ids": [],
+        "parent_id": null
+      }
+    ],
+    "offices": [
+      {
+        "id": 44282,
+        "name": "Home Based - Worldwide",
+        "location": null,
+        "child_ids": [],
+        "parent_id": 73277
+      }
+    ],
+    "ai_disclaimer": null,
+    "include_ai_disclaimer": null,
+    "ai_opt_out_request_url": null
+  },
+  {
+    "absolute_url": "https://job-boards.greenhouse.io/canonical/jobs/6076909",
+    "data_compliance": [
+      {
+        "type": "gdpr",
+        "requires_consent": false,
+        "requires_processing_consent": false,
+        "requires_retention_consent": false,
+        "retention_period": null,
+        "demographic_data_consent_applies": false
+      }
+    ],
+    "education": "education_optional",
+    "internal_job_id": 1388780,
+    "location": {
+      "name": "Home based - Worldwide"
+    },
+    "metadata": [
+      {
+        "id": 186225,
+        "name": "People management responsibilities?",
+        "value": false,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 149021,
+        "name": "Employment Length",
+        "value": "Full-time",
+        "value_type": "single_select"
+      },
+      {
+        "id": 675557,
+        "name": "Core skills",
+        "value": [
+          "Analysers",
+          "Contributor",
+          "Developer",
+          "Doer",
+          "Problem Solver",
+          "Technologist",
+          "Tester"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739136,
+        "name": "External Departments (website)",
+        "value": [
+          "Engineering"
+        ],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 2739137,
+        "name": "One line job description",
+        "value": "Work with our global public cloud partners to deliver and maintain high-quality, high-performance Ubuntu kernels for the best possible open-source experience for our mutual customers.",
+        "value_type": "long_text"
+      },
+      {
+        "id": 3209541,
+        "name": "Canonical site",
+        "value": [],
+        "value_type": "multi_select"
+      },
+      {
+        "id": 3587161,
+        "name": "LinkedIn Posting Level",
+        "value": "Mid-Senior",
+        "value_type": "single_select"
+      },
+      {
+        "id": 11961371,
+        "name": "Featured job (Talent Team to complete)",
+        "value": null,
+        "value_type": "yes_no"
+      },
+      {
+        "id": 54742858,
+        "name": "Business Unit Type",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 54743567,
+        "name": "Req Category",
+        "value": null,
+        "value_type": "single_select"
+      },
+      {
+        "id": 56835606,
+        "name": "Discipline/Track",
+        "value": null,
+        "value_type": "single_select"
+      }
+    ],
+    "id": 6076909,
+    "updated_at": "2026-10-08T04:19:58+08:00",
+    "requisition_id": "466",
+    "title": "Ubuntu Linux Kernel Engineer - Silicon Enablement",
+    "company_name": "Canonical",
+    "first_published": "2024-06-28T07:38:36+08:00",
+    "language": "en",
+    "application_deadline": null,
+    "content": "&lt;p&gt;Ubuntu Linux is already the most popular Linux distribution in the world, and its mission is to remain at the forefront of the global software ecosystem. As the industry evolves, we are expanding our support for a wider array of System on Chip (SoC) platforms to ensure that every user receives a high-performance and reliable experience. There is growing and vital demand from major silicon manufacturers such as NVIDIA, AMD, Qualcomm, MediaTek, and Renesas to provide Ubuntu Linux as the foundational platform for their next-generation hardware.&lt;/p&gt;\n&lt;p&gt;The Canonical Kernel Team is responsible for the build, maintenance, and distribution of the Linux kernel for Ubuntu. We are looking for engineers who share our passion for building high-quality, robust software foundations that others can rely upon. This role sits at a critical junction in the software stack, ensuring that the underlying hardware is seamlessly integrated, optimized and prepared to meet the demands of modern computing.&lt;/p&gt;\n&lt;p&gt;While direct experience with the Linux kernel would be an advantage, it is not a hard requirement. Candidates with RTOS or bare-metal experience and demonstrable hardware experience are encouraged to apply.&lt;/p&gt;\n&lt;p&gt;We welcome applications from engineers at various stages of their careers, from those beginning their journey in hardware-level development to seasoned industry veterans.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;This is a globally remote role.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What the role entails&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Drive the integration of platform support from our silicon partners into the Ubuntu Linux kernel&lt;/li&gt;\n&lt;li&gt;Lead the identification and resolution of complex kernel issues reported by partners, customers, or discovered through rigorous testing&lt;/li&gt;\n&lt;li&gt;Own the delivery of distinct, silicon-optimized variants of the Ubuntu Linux kernel to the global community&lt;/li&gt;\n&lt;li&gt;Develop and refine the tooling and automation required for the reliable delivery and testing of our kernels&lt;/li&gt;\n&lt;li&gt;Manage the submission and review process for upstream patches, collaborating effectively with both internal and external maintainers&lt;/li&gt;\n&lt;li&gt;Identify new methodologies and strategies for maximizing performance on partner silicon&lt;/li&gt;\n&lt;li&gt;Collaborate proactively within a globally distributed engineering team to ensure cohesive outcomes across the organization&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What we are looking for in you&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Proficiency in C programming, particularly for low-level system development&lt;/li&gt;\n&lt;li&gt;A strong grasp of device drivers, BSPs, and other aspects of hardware-level system engineering&lt;/li&gt;\n&lt;li&gt;Deep understanding of operating system kernel fundamentals&lt;/li&gt;\n&lt;li&gt;Professional proficiency with Git for version control and collaborative development&lt;/li&gt;\n&lt;li&gt;Ability to communicate effectively in English, both written and verbal, within a professional context&lt;/li&gt;\n&lt;li&gt;A professional approach to collaborating with business partners and the open-source community&lt;/li&gt;\n&lt;li&gt;Ability to travel twice a year for company events of up to two weeks in length&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Nice-to-have skills&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with Python or Bash scripting for automation and tooling&lt;/li&gt;\n&lt;li&gt;Prior experience working with major SoC families (e.g., NVIDIA, Intel, AMD, Qualcomm, MediaTek, Renesas)&lt;/li&gt;\n&lt;li&gt;Familiarity with Ubuntu, Debian, or Snap packaging&lt;/li&gt;\n&lt;li&gt;Demonstrated expertise in Linux kernel patching and debugging&lt;/li&gt;\n&lt;li&gt;A deep understanding of performance optimization techniques for silicon platforms&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What we offer you&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognise outstanding performance. In addition to base pay, we offer a performance-driven annual bonus. We provide all team members with additional benefits, which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Home-based work environment with twice-yearly team sprints in person&lt;/li&gt;\n&lt;li&gt;Personal learning and development budget of USD 2,000 per year&lt;/li&gt;\n&lt;li&gt;Annual compensation review&lt;/li&gt;\n&lt;li&gt;Recognition rewards&lt;/li&gt;\n&lt;li&gt;Annual holiday leave&lt;/li&gt;\n&lt;li&gt;Maternity and paternity leave&lt;/li&gt;\n&lt;li&gt;Employee Assistance Programme&lt;/li&gt;\n&lt;li&gt;Opportunity to travel to new locations to meet colleagues&lt;/li&gt;\n&lt;li&gt;Priority Pass, and travel upgrades for long haul company events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;About Canonical&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Canonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open source projects and the platform for AI, IoT and the cloud, we are changing the world on a daily basis. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence - in order to succeed, we need to be the best at what we do. Canonical has been a remote-first company since its inception in 2004.​ Working here is a step into the future, and will challenge you to think differently, work smarter, learn new skills, and raise your game.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Canonical is an equal opportunity employer&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;https://canonical.com/careers/diversity/identity&quot;&gt;Whatever your identity, we will give your application fair consideration.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;#LI-remote&lt;/p&gt;",
+    "departments": [
+      {
+        "id": 224931,
+        "name": "Devices Engineering",
+        "child_ids": [],
+        "parent_id": null
+      }
+    ],
+    "offices": [
+      {
+        "id": 44282,
+        "name": "Home Based - Worldwide",
+        "location": null,
+        "child_ids": [],
+        "parent_id": 73277
+      }
+    ],
+    "ai_disclaimer": null,
+    "include_ai_disclaimer": null,
+    "ai_opt_out_request_url": null
+  }
+]

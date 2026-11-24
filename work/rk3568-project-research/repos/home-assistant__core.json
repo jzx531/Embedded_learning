@@ -1,0 +1,23 @@
+{
+  "requested_repo": "home-assistant/core",
+  "fetched_at_utc": "2026-11-21T16:42:35.7339502Z",
+  "metadata": {
+    "full_name": "home-assistant/core",
+    "html_url": "https://github.com/home-assistant/core",
+    "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
+    "default_branch": "dev",
+    "stargazers_count": 92413,
+    "archived": false,
+    "pushed_at": "2026-11-21T16:30:18Z",
+    "language": "Python",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "readme_url": "https://github.com/home-assistant/core/blob/dev/README.rst",
+  "readme": "Home Assistant |Chat Status|\n=================================================================================\n\nOpen source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.\n\nCheck out `home-assistant.io <https://home-assistant.io>`__ for `a\ndemo <https://demo.home-assistant.io>`__, `installation instructions <https://home-assistant.io/getting-started/>`__,\n`tutorials <https://home-assistant.io/getting-started/automation/>`__ and `documentation <https://home-assistant.io/docs/>`__.\n\n|screenshot-states|\n\nFeatured integrations\n---------------------\n\n|screenshot-integrations|\n\nThe system is built using a modular approach so support for other devices or actions can be implemented easily. See also the `section on architecture <https://contributors.home-assistant.io/architecture/big-picture/>`__ and the `section on creating your own\ncomponents <https://contributors.home-assistant.io/core/integrations/create/>`__.\n\nIf you run into issues while using Home Assistant or during development\nof a component, check the `Home Assistant help section <https://home-assistant.io/help/>`__ of our website for further help and information.\n\n|ohf-logo|\n\n.. |Chat Status| image:: https://img.shields.io/discord/330944238910963714.svg\n   :target: https://www.home-assistant.io/join-chat/\n.. |screenshot-states| image:: https://raw.githubusercontent.com/home-assistant/core/dev/.github/assets/screenshot-states.png\n   :target: https://demo.home-assistant.io\n.. |screenshot-integrations| image:: https://raw.githubusercontent.com/home-assistant/core/dev/.github/assets/screenshot-integrations.png\n   :target: https://home-assistant.io/integrations/\n.. |ohf-logo| image:: https://www.openhomefoundation.org/badges/home-assistant.png\n   :alt: Home Assistant - A project from the Open Home Foundation\n   :target: https://www.openhomefoundation.org/\n"
+}

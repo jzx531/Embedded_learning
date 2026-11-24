@@ -1,0 +1,23 @@
+{
+  "requested_repo": "OpenEtherCATsociety/SOEM",
+  "fetched_at_utc": "2026-11-21T16:42:34.4854081Z",
+  "metadata": {
+    "full_name": "OpenEtherCATsociety/SOEM",
+    "html_url": "https://github.com/OpenEtherCATsociety/SOEM",
+    "description": "Simple Open Source EtherCAT Master",
+    "default_branch": "master",
+    "stargazers_count": 2144,
+    "archived": false,
+    "pushed_at": "2026-10-15T12:26:09Z",
+    "language": "C",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "readme_url": "https://github.com/OpenEtherCATsociety/SOEM/blob/master/README.md",
+  "readme": "# Simple Open EtherCAT Master Library\n\n* Copyright (C) 2005-2025 Speciaal Machinefabriek Ketels v.o.f.\n* Copyright (C) 2005-2025 Arthur Ketels\n* Copyright (C) 2009-2025 RT-Labs AB, Sweden\n\nSOEM (Simple Open EtherCAT Master) is a software library for\ndeveloping EtherCAT MainDevices.\n\nThis library is specifically designed for real-time communication in\nembedded systems. Its lightweight architecture minimizes resource\nconsumption, making it suitable for environments with limited\nresources. SOEM can also be utilized on both Linux and Windows\nsystems.\n\nAs a library rather than a standalone application, SOEM provides\nflexibility and customization for developers looking to implement\nEtherCAT technology. \n\n# Documentation\n\nSee https://docs.rt-labs.com/soem\n\n# Contributions\n\nContributions are welcome. If you want to contribute you will need to\nsign a Contributor License Agreement and send it to us either by\ne-mail or by physical mail. More information is available on\n[https://rt-labs.com/contribution](https://rt-labs.com/contribution).\n"
+}

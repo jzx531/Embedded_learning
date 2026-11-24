@@ -1,0 +1,3047 @@
+{
+  "repository": "suharvest/edge-security-kit",
+  "fetched_at_utc": "2026-11-23T05:07:44.6418722Z",
+  "metadata": {
+    "id": 1338083448,
+    "node_id": "R_kgDOT8GIeA",
+    "name": "edge-security-kit",
+    "full_name": "suharvest/edge-security-kit",
+    "private": false,
+    "owner": {
+      "login": "suharvest",
+      "id": 66322898,
+      "node_id": "MDQ6VXNlcjY2MzIyODk4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66322898?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/suharvest",
+      "html_url": "https://github.com/suharvest",
+      "followers_url": "https://api.github.com/users/suharvest/followers",
+      "following_url": "https://api.github.com/users/suharvest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/suharvest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/suharvest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/suharvest/subscriptions",
+      "organizations_url": "https://api.github.com/users/suharvest/orgs",
+      "repos_url": "https://api.github.com/users/suharvest/repos",
+      "events_url": "https://api.github.com/users/suharvest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/suharvest/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/suharvest/edge-security-kit",
+    "description": "Intrusion, line-crossing and loitering detection for edge devices: detectors on Jetson/RK3588/CPU report over one MQTT contract to a hub that judges rules and serves the workbench",
+    "fork": false,
+    "url": "https://api.github.com/repos/suharvest/edge-security-kit",
+    "forks_url": "https://api.github.com/repos/suharvest/edge-security-kit/forks",
+    "keys_url": "https://api.github.com/repos/suharvest/edge-security-kit/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/suharvest/edge-security-kit/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/suharvest/edge-security-kit/teams",
+    "hooks_url": "https://api.github.com/repos/suharvest/edge-security-kit/hooks",
+    "issue_events_url": "https://api.github.com/repos/suharvest/edge-security-kit/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/suharvest/edge-security-kit/events",
+    "assignees_url": "https://api.github.com/repos/suharvest/edge-security-kit/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/suharvest/edge-security-kit/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/suharvest/edge-security-kit/tags",
+    "blobs_url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/suharvest/edge-security-kit/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/suharvest/edge-security-kit/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/suharvest/edge-security-kit/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/suharvest/edge-security-kit/languages",
+    "stargazers_url": "https://api.github.com/repos/suharvest/edge-security-kit/stargazers",
+    "contributors_url": "https://api.github.com/repos/suharvest/edge-security-kit/contributors",
+    "subscribers_url": "https://api.github.com/repos/suharvest/edge-security-kit/subscribers",
+    "subscription_url": "https://api.github.com/repos/suharvest/edge-security-kit/subscription",
+    "commits_url": "https://api.github.com/repos/suharvest/edge-security-kit/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/suharvest/edge-security-kit/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/suharvest/edge-security-kit/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/suharvest/edge-security-kit/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/suharvest/edge-security-kit/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/suharvest/edge-security-kit/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/suharvest/edge-security-kit/merges",
+    "archive_url": "https://api.github.com/repos/suharvest/edge-security-kit/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/suharvest/edge-security-kit/downloads",
+    "issues_url": "https://api.github.com/repos/suharvest/edge-security-kit/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/suharvest/edge-security-kit/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/suharvest/edge-security-kit/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/suharvest/edge-security-kit/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/suharvest/edge-security-kit/labels{/name}",
+    "releases_url": "https://api.github.com/repos/suharvest/edge-security-kit/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/suharvest/edge-security-kit/deployments",
+    "created_at": "2026-08-18T07:00:31Z",
+    "updated_at": "2026-10-01T04:23:34Z",
+    "pushed_at": "2026-10-01T04:23:29Z",
+    "git_url": "git://github.com/suharvest/edge-security-kit.git",
+    "ssh_url": "git@github.com:suharvest/edge-security-kit.git",
+    "clone_url": "https://github.com/suharvest/edge-security-kit.git",
+    "svn_url": "https://github.com/suharvest/edge-security-kit",
+    "homepage": null,
+    "size": 7990,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 0,
+    "subscribers_count": 0
+  },
+  "readme_path": "README.md",
+  "readme": "# edge-security-kit\n\nIntrusion, line-crossing and loitering detection for edge devices, with the\ndetector and the rule engine split across a published MQTT contract.\n\nDetectors run on the hardware that suits the site — a Jetson Orin, an RK3588\nboard, a plain CPU — and report over one payload schema. The hub judges the\nrules, keeps the alert history and serves the workbench. One hub can carry\ndetectors of different platforms at once; a single board can also carry both.\n\n## What it detects\n\nPerson detection (COCO class 0) plus three rules:\n\n| Rule | Fires when |\n|---|---|\n| `zone_enter` | a tracked person's centroid enters a drawn polygon |\n| `loitering` | that person stays inside it past `dwell_seconds` |\n| `line_cross` | a track crosses a drawn line, optionally only in one direction |\n\nRules are drawn in the browser on a live frame and stored in normalized\ncoordinates, so they survive a change of resolution.\n\n## Measured\n\nSame 1280×720 H.264 source, same truth video, same assertions.\n\n| | Jetson Orin NX 16GB | Radxa Rock 5T (RK3588) | LubanCat-3 (RK3576) | reCamera Pro (RV1126B) | Raspberry Pi 5 + Hailo-8 |\n|---|---|---|---|---|---|\n| Accelerator | TensorRT 10.3, FP16 | RKNN 2.3.2, int8 | RKNN 2.3.2, int8 | RKNN 2.3.2, int8 | HailoRT 4.21.0, HEF int8 (PTQ) |\n| Inference p50, in pipeline | 4.16 ms | 36.2–44.5 ms | 23.9 ms | 36.6 ms (32.3 ms clock-pinned) | 7.7 ms † |\n| Inference p95, in pipeline | 4.19 ms | 55.8–56.2 ms | 27.9 ms | 46.8 ms (36.3 ms clock-pinned) | 8.4 ms † |\n| Full pipeline p50 | 6.99 ms | 38.1–46.3 ms | 26.2 ms | 39.7 ms (camera path) | 9.5 ms |\n| Detector CPU | 5.5% of one core | 16.4–17.9% of one core | 8.6–14.0% of one core | 27% of one core | 8.7–13.0% of one core |\n| Detector RSS | 310 MB | 214 MB at start | 200 MB | — | 127–131 MB |\n| Accelerator busy | GR3D 0% in 215 of 239 1 s samples | NPU Core0 8–11%, cores 1–2 idle | NPU Core0 5–6%, Core1 idle | — | not measured |\n| Board state while measured | idle, load avg 0.00 | 8 containers, 2 above 1% CPU | idle, no containers | — | 10 unrelated containers |\n| Decode | NVDEC, confirmed in-kernel | Rockchip MPP, confirmed in-kernel | Rockchip MPP, confirmed in-kernel | none — ISP dma-buf, zero-copy | ffmpeg software — the Pi 5 has no H.264 decoder |\n| Single-stream ceiling | 167 inferences/s | 31.4 inferences/s | not measured | not measured | 84.6 frames/s end to end; 319 inferences/s (`hailortcli run`, idle NPU — not the pipeline apparatus) |\n| Multi-stream capacity, 720p @ 5 fps | 8 streams, derived from a 236 inf/s ceiling — no 8-stream run | 16 streams at full rate; knee between 24 and 32 | not measured | not measured | not measured |\n| Sustained fps | 5.0 (source-limited) | 5.0 (source-limited) | 5.0 (source-limited) | 18.8 (compute-limited) | 5.0 (source-limited) |\n\n**The reCamera Pro column is not like-for-like.** The other boards decode a\nreplay clip at a 5 fps source rate; the camera takes ISP frames over dma-buf,\ndecodes nothing at all, and runs compute-limited at 18.8 fps, so neither its\npipeline figure nor its fps compares directly.\n\n**† The Pi 5 inference figures do not span the same work as the other\ncolumns.** At `5ef1f6c` the detector asks HailoRT for `UINT8` outputs and\ndequantizes only the anchors that survive the confidence threshold, so\ndequantization sits outside the timer here and inside it everywhere else. The\npre-optimization figure on the same apparatus, with dequantization inside, was\n9.7 ms p50. The full-pipeline row spans the change and is the one to compare.\n\n**Nor is the Pi 5 column, on the pipeline row.** The Pi 5 has no H.264 decoder —\nVideoCore VII is HEVC-only — so its 17.4 ms full-pipeline p50 carries a software\ndecode that the Jetson and both Rockchip boards hand to dedicated silicon. The\ninference row is comparable; the pipeline row is not, and the gap widens with\nresolution. Its `Detector CPU` figure is the same story: 8.7–13.0% of one core\nbuys decode as well as inference.\n\nIts inference number is quoted twice because the shipped `interactive` governor\nmakes it a moving target. Pinned measurements, ~5 min each with the frequency\nsampled rather than read once: 594 MHz → 47.8 ms, `interactive` (mean 1017 MHz)\n→ 36.6 ms, 1.608 GHz → 32.3 ms. **32% of the inference time at 594 MHz is the\ndownclock**, and the call decomposes as 23.2 ms clock-invariant NPU work plus a\nCPU-bound host share of 9.1 ms at 1.608 GHz or 24.6 ms at 594 MHz. Pinning is\nnot recommended as a product setting: the policy covers all four cores, so it\nholds the whole SoC at maximum to buy 4.4 ms of p50 that nothing downstream is\nwaiting on.\n\nThe Orin NX and RK3588 columns were re-measured on 2026-08-18 under the method\nbelow. The RK3576 and reCamera Pro columns are earlier runs on their own boards\nand have not been repeated, so read them as indicative rather than as part of\nthe controlled comparison.\n\n### How these were measured\n\nBoth re-measured boards ran the same 1280×720 H.264 truth clip at 5 fps,\nrepublished on the board itself with `-c copy` so no re-encode sits between the\nfixture and the decoder, at `conf 0.35` / `iou 0.45` and a 640 input. Each run\nis a 30 s warmup followed by a 120 s sample of the published\n`sensecraft.detection/1` payloads — `inference_time_ms` and `pipeline_ms` are\nread off the contract fields, so the two platforms are compared on identical\ndefinitions. Detector CPU is `utime+stime` deltas from `/proc/<pid>/stat` over\n5 s intervals, as a percentage of one core; RSS is `/proc/<pid>/statm`.\n\n**Two numbers per board, not one.** Every board was measured twice: `as-found`,\nwith whatever else the device was running left alone, and `quiesced`, after\nstopping the co-tenants that measurably used CPU. Deployments rarely get a\nboard to themselves, so the as-found figure is the one a site will see and the\nquiesced figure is the ceiling. On these two boards the gap turned out to be\nnil, and the per-board READMEs give the pairs:\n\n* **Orin NX** had no co-tenant to stop. `docker stats` showed only this\n  project's own RTSP fixture, at 0.16 % of one core; load average was 0.00.\n  as-found and quiesced are the same state.\n* **RK3588** carried eight containers, of which six measured at or under 1 % of\n  one core (`openvoicestream` 1.00 %, `ovs-llm` 0.40 %, `ovs-agent` 0.07 %,\n  `wyoming-slv` 0.00 %) and were left running. Stopping the two that did use\n  CPU — an unrelated RTSP fixture pair at 3.18 % and 5.36 % — moved inference\n  p50 the wrong way, from 36.2 ms to 39.6 and 44.5 ms across the next two\n  windows, while p95 stayed inside 55.8–56.2 ms. That 8 ms spread is this\n  board's window-to-window variation, not contention: the NPU held 1.0 GHz, the\n  DDR controller held 534 MHz and `npu-thermal` sat at 62 °C throughout. **Quote\n  RK3588 p50 as a range across runs; its p95 is the reproducible number.**\n\n**A benchmark loop is not a latency figure.** Running the model flat out\namortizes weight traffic that a 5 fps stream re-pays on every frame, so a loop\nalways reads faster than the pipeline it is supposed to describe — but by how\nmuch is platform-specific, and the gap is not a constant you can correct for:\n\n| | flat-out loop p50 | in-pipeline p50 | loop is optimistic by |\n|---|---:|---:|---|\n| Orin NX, fp16 | 3.82 ms | 4.16 ms | 8 % |\n| RK3588, int8, full loop (preprocess + infer + decode) | 34.24 ms | 36.2–44.5 ms | 6–30 % |\n| RK3588, int8, pure `rknn.inference()` loop | 26.84 ms | 36.2–44.5 ms | 35–66 % |\n\nThe narrower the loop, the more it flatters the board: on RK3588, dropping the\nhead decode out of the loop takes 7 ms off the apparent per-inference cost that\nthe real pipeline still pays. The single-stream ceilings in the table above are\nthe *full* loop on both boards — one process, flat out, preprocess + infer +\nhead decode — so 167 and 31.4 inferences/s are measured by the same recipe.\n\nRK3576 and RK3588 run one implementation — `platforms/rknn/` has no chip branch,\nonly a different `.rknn` — and RK3576 turns in roughly half to two-thirds of\nRK3588's per-frame latency on the same model built from the same ONNX and\ncalibration set.\n\nThe load explanation for that gap was tested and does not hold. RK3588 was\nmeasured with eight containers on the board and RK3576 with none, so the\nsuspicion was contention; stopping the RK3588 co-tenants that measurably used\nCPU moved its inference p50 the wrong way, from 36.2 ms to 39.6 and 44.5 ms,\nand never toward RK3576's 23.9 ms. NPU occupancy says the same thing from the\nother side: Core0 reads 8–11 % on RK3588 against 5–6 % on RK3576, and a\ncontainer competing for CPU cannot inflate NPU busy time.\n\nWhat remains uncontrolled is the boards themselves: different kernels,\ndifferent days, no attempt to hold thermals or DVFS equal, and RK3576's figure\nis one 70 s window with no repeat while RK3588's p50 is known to move 8 ms\nbetween windows. So it is a result about these two systems, not a per-TOPS\nranking of the two NPUs. Board detail:\n`lubancat-rk3576-debian12-gnome-20250721`, kernel `6.1.99-rk3576`, RKNPU driver\n0.9.8.\n\nThe hub costs 3.7% of one core and 52.8 MB RSS on the RK3588 board while that\nboard also runs a detector, so the aggregation host does not need to be a\nserver.\n\nMulti-stream on Orin NX, measured: the GPU saturates at 236 inferences/s and\neach extra detector process costs 208 MB. One process per stream needs no new\ncode up to 8 streams. Beyond that, dynamic batching, then DeepStream. The CPU\ncost at 8×1080p@15fps and NVDEC's session ceiling are extrapolated — **needs\nverifying**.\n\nMulti-stream on RK3588, measured to 32 streams on 2026-08-20: **16 streams of\n720p at 5 fps run at full source rate** — worst p95 46.9 ms, NPU at 41% of its\nthree-core capacity, 1.4 of eight CPU cores, 7.3 GB of RAM free. 24 streams\nstill deliver 119.9 inferences/s with four streams losing one to three frames in\n120 s; at 32 the board delivers 157 of a demanded 160, fourteen streams lose\nframes and inference p50 spreads from 33 to 99 ms.\n\nThree things about that ladder are worth carrying into a hardware choice:\n\n* **One process per stream does use all three NPU cores.** Core1 lights up at 4\n  streams and Core2 at 6, with `npu_core_mask` left `null` — the runtime places\n  each process's context on a core at `init_runtime`. It places them unevenly:\n  at 24 streams the cores read 79.5 / 61.3 / 42.6 %.\n* **RGA gives out before the NPU does.** The frame loss at 32 streams is\n  `RGA_BLIT fail` in the decode-time scaler, not NPU saturation — the failure\n  count per stream predicts which streams drop frames, and the NPU's effect is\n  latency rather than loss. Hardware decode itself never fell back: all 32\n  streams ran on `mppvideodec`.\n* **More streams make each stream faster, up to 24.** At 16 streams every\n  stream's p50 and p95 beat the single-stream figures, because a lone detector\n  at 5 fps re-pays weight traffic that a busy NPU amortizes. Latency is\n  therefore not a load indicator on this board.\n\nThe binding constraint for a real deployment is memory, not throughput. Fresh\nprocesses hold 173–226 MB, but the rknnlite reference cycles make a process grow\n— the two-day-old detector in these runs measured 1 839 MB. Sixteen of those do\nnot fit in 16 GB, so multi-stream on RK3588 requires the ctypes backend or a\nperiodic `gc.collect()`.\n\nint8 on RK3588 costs 0.52 AP@.5:.95 against fp16 on 500 COCO person images\n(0.61 on small targets) and returns 37% of the inference latency. Its failure\nmode is extra low-confidence boxes rather than missed people, so raise the\nthreshold before reaching for fp16.\n\n## Layout\n\n```\ncontracts/     MQTT payload schema, semantics, conformance fixtures + gate\nhub/           rule engine, alert lifecycle, SQLite, REST/WS API, cookie sessions\nweb/           workbench, video wall, rule editor, device page (Preact + htm, no build step)\nmedia/         capture sets backing what the docs claim the UI does\nplatforms/\n  jetson/      NVDEC + TensorRT, all Python\n  rknn/        MPP + RGA + RKNN, int8 and fp16, RK3588 and RK3576\n  generic/     CPU / ONNX Runtime, the reference implementation and test rig\n  recamera-pro/ RV1126B, RKNN int8 on the camera itself, broker and hub included\ntools/\n  rtsp-fixture/ mediamtx, the truth-video generator and the acceptance harness\n```\n\n## The console\n\nFour screens: the alert workbench, a video wall, the rule editor and the device\npage. The wall is the one an operator leaves on a screen — an adaptive 1/2/4/6/9\ngrid, each tile carrying the detector's boxes and the stream's own zone and line\ndrawn over the picture, `F` for fullscreen on an HDMI display.\n\nTwo settings are changed from there rather than from a config file, because both\nare things someone decides while looking at the scene: a per-stream confidence\nthreshold, and which cameras a detector is watching. Both travel as\n`cmd/control` and are answered by the detector, so the console can say whether\nthe change is live rather than whether the request was sent. `media/` has the\ncaptures.\n\n**The video does not pass through the hub.** Tiles embed the stream's own\n`live_url` and the browser fetches it directly; the hub carries the overlay JSON\nand a cached single frame for a tile the browser cannot reach. Its cost is flat\nin the number of people watching, which is the property that separates this from\na VMS — see HUB_SPEC §11.\n\n## The contract\n\nEvery detector publishes `sensecraft.detection/1`. Three requirements are worth\nknowing before writing a new one:\n\n- Coordinates are `frame_norm` — the letterbox pad must be reversed before\n  normalizing. A square test source will pass a broken inverse; on a 720p frame\n  an unreversed box is 261 px short while its x coordinates look correct.\n- `track_id` starts at 1. A detector without tracking cannot feed hub-side\n  rules, because dwell and crossing are per-track state.\n- `session_id` changes on every process start, so the hub can tell a restarted\n  device from a continuing one and reset its rule state.\n\n`contracts/check_fixtures.sh` validates captured payloads from two independent\nplatforms against the schema. Adding a platform means adding its fixture.\n\n## Verification\n\n`tools/rtsp-fixture/` builds a video whose trajectory is known per frame and\nasserts against it: crossing instants within 0.5 s and in the right direction,\na forward-only line silent on a backward crossing, dwell within 1 s, snapshots\nthat are real frames. Both shipped detectors pass it on their own hardware.\n\nThis is how the rule engine is checked rather than watched. It is also what\ncaught a line drawn down the middle of the frame never firing: the RK\npreprocessor quantizes cx to a 1/640 grid and 0.5 lands exactly on it, so the\ncentroid sat on the line and no sign flip occurred.\n\n## Status\n\nJetson, RK3588, RK3576 and the hub are verified on hardware; Jetson and RK3588\nincluding containerised deployment. RK3576 is verified as of 2026-08-19 on an\nEmbedFire LubanCat-3: NPU inference at 23.9 ms p50, MPP decode confirmed from\nthe kernel side, the truth-video assertions passing with no failures, and\nbroker, hub and detector all on the board. Its caveat is that no accuracy sweep\nwas run there — the COCO numbers are RK3588's, and the graph and calibration set\nare identical, but that is an argument rather than a measurement. The RKNPU2\ncontainer image now carries both SoCs' models; it has not been rebuilt since.\nreCamera Pro is verified too, as of 2026-08-19: the truth-video assertions pass\nwith no failures, and broker, hub and detector all run on the camera. It takes\nISP frames over dma-buf and letterboxes on RGA, so on the camera path it decodes\nnothing — that halved per-frame CPU time, from 85.8 ms to 44.9 ms.\n\nTwo caveats stay attached. It carries no accuracy sweep. And the RSS growth\nthat shows up on the rknnlite path — 42.4 kB per inference — needed a correction\nto what we first published about it.\n\nIt is **cyclic garbage, not a C-level leak**. Each `RKNNLite.inference()` call\nleaves a reference cycle holding that call's ctypes buffers; refcounting cannot\nfree a cycle, so RSS climbs until the automatic collector catches up. The cycles\nare built inside `rknn_runtime.cpython-311-*.so` — Cython-compiled, reaching\n`librknnrt` through ctypes — so a `del` on the caller's side does nothing.\n\nThe decisive measurement is an intervention, not an observation: an explicit\n`gc.collect()` every 5 inferences takes the rate from 42.43 to **0.158 kB per\ninference**, and a manual collect every 100 inferences returns RSS to exactly\n64 632 kB five times running. `librknnrt` itself is clean — driving the same API\nsequence through ctypes gives 0.054 kB per inference over 14 551 iterations.\n\nOur earlier reading of this as a missing `free` came from observations —\ntracked-object counts flat, mapping count unchanged, growth all in anonymous\n`[heap]` — that are all true of cyclic garbage as well. See\n`docs/rknn-leak-postmortem.md`, and `tools/rknn-leak-repro/` for scripts that\nreproduce both readings on any RKNPU board.\n\nThe kit ships a ctypes backend that avoids the cycles entirely and is also\nfaster; a periodic `gc.collect()` is the one-line alternative, at +23% inference\np50.\n\nMulti-stream capacity is measured on one accelerator and derived on another. A\nfull 1→32 ladder was run on RK3588: it puts the knee between 24 and 32, with RGA\nrather than the NPU as the first thing to give out. The Orin NX figure of 8\nstreams is derived from its measured 236 inf/s ceiling and per-process cost, not\nfrom an 8-stream run. RK3576, reCamera Pro and Hailo remain single-stream only.\n\nNot built: nothing. Not measured: NPU occupancy on Hailo, multi-stream on\nHailo, RK3576 or reCamera Pro, and any source above 5 fps on RK3588.\n",
+  "tree": {
+    "sha": "8575796d82322e9b0e11a1cfd55557963a104b68",
+    "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/8575796d82322e9b0e11a1cfd55557963a104b68",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3e9aa3c6ce1d839d79e619cf04d685b2fce1302",
+        "size": 99,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f3e9aa3c6ce1d839d79e619cf04d685b2fce1302"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6905ebd722f959ff6a4daae81c94db179a5bc77d",
+        "size": 17766,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/6905ebd722f959ff6a4daae81c94db179a5bc77d"
+      },
+      {
+        "path": "contracts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cde426f43ac1b1e8162c0d36a056f694ab19e2b9",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/cde426f43ac1b1e8162c0d36a056f694ab19e2b9"
+      },
+      {
+        "path": "contracts/MQTT.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b5eb9c1555f91b8356940dd89a86467c475062cf",
+        "size": 15574,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/b5eb9c1555f91b8356940dd89a86467c475062cf"
+      },
+      {
+        "path": "contracts/check_fixtures.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "b6003d4fabeb4789df439e9dca8746409992256f",
+        "size": 1076,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/b6003d4fabeb4789df439e9dca8746409992256f"
+      },
+      {
+        "path": "contracts/fixtures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "30791185d9b5d9fb6c28f5bc30efd057ccbd74a7",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/30791185d9b5d9fb6c28f5bc30efd057ccbd74a7"
+      },
+      {
+        "path": "contracts/fixtures/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ffa3b8e18b44c304115d76b53fdfd309f31da0c",
+        "size": 4800,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/2ffa3b8e18b44c304115d76b53fdfd309f31da0c"
+      },
+      {
+        "path": "contracts/fixtures/ack-add-stream-failed-generic.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38f2648ee1f7cc434334446eabb347dd96fee3e7",
+        "size": 301,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/38f2648ee1f7cc434334446eabb347dd96fee3e7"
+      },
+      {
+        "path": "contracts/fixtures/ack-set-conf-generic.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "abadf233620c15377b998a6e5363b1320efb3f51",
+        "size": 309,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/abadf233620c15377b998a6e5363b1320efb3f51"
+      },
+      {
+        "path": "contracts/fixtures/command-add-stream-hub.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8cf75b74fb64887db689478a0393ac75ef6eaad",
+        "size": 314,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/a8cf75b74fb64887db689478a0393ac75ef6eaad"
+      },
+      {
+        "path": "contracts/fixtures/command-set-conf-hub.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7c30dee1f01abc95533359a88fef9e120d98b48",
+        "size": 242,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/b7c30dee1f01abc95533359a88fef9e120d98b48"
+      },
+      {
+        "path": "contracts/fixtures/detection-generic-720p.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae330b0b9bc6a65d314e296aa4c14d3e41286a52",
+        "size": 640,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ae330b0b9bc6a65d314e296aa4c14d3e41286a52"
+      },
+      {
+        "path": "contracts/fixtures/detection-hailo-720p.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ccaeed315edce3c6c3d75ae5b8b14a99fc22c57",
+        "size": 640,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/8ccaeed315edce3c6c3d75ae5b8b14a99fc22c57"
+      },
+      {
+        "path": "contracts/fixtures/detection-rknn-720p.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1769c98a67eff4ace7ec2ad4ca55e17b7840c28d",
+        "size": 632,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/1769c98a67eff4ace7ec2ad4ca55e17b7840c28d"
+      },
+      {
+        "path": "contracts/fixtures/event-line-cross-hub.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86b922c10b2ad131dc2cc1ae0c0d7bc48f22e36f",
+        "size": 413,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/86b922c10b2ad131dc2cc1ae0c0d7bc48f22e36f"
+      },
+      {
+        "path": "contracts/fixtures/event-loitering-hub.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a078e082ffc4761296b993335853585b57ba8a08",
+        "size": 413,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/a078e082ffc4761296b993335853585b57ba8a08"
+      },
+      {
+        "path": "contracts/fixtures/event-zone-enter-device.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd9e2a03cb8de0b5bdf4397a194e29193aa0f820",
+        "size": 404,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/fd9e2a03cb8de0b5bdf4397a194e29193aa0f820"
+      },
+      {
+        "path": "contracts/fixtures/event-zone-enter-hub.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37312e8e10e33b9fa54a6eee2ebb3d394f900003",
+        "size": 394,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/37312e8e10e33b9fa54a6eee2ebb3d394f900003"
+      },
+      {
+        "path": "contracts/fixtures/status-generic-lwt.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa04b6fd24d43bb9460f07d2f1a4317dcf99a471",
+        "size": 149,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/fa04b6fd24d43bb9460f07d2f1a4317dcf99a471"
+      },
+      {
+        "path": "contracts/fixtures/status-generic.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b3ccf647069e688ee182d7ac47bdfa8af98a06c8",
+        "size": 558,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/b3ccf647069e688ee182d7ac47bdfa8af98a06c8"
+      },
+      {
+        "path": "contracts/fixtures/status-hailo-lwt.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b78c20d35f32ffece4eb80b8b471f2c3b45e92a",
+        "size": 153,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/3b78c20d35f32ffece4eb80b8b471f2c3b45e92a"
+      },
+      {
+        "path": "contracts/fixtures/status-hailo.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "87b85a56c4614da6e69c9cdf4d2b42fc43cd1789",
+        "size": 616,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/87b85a56c4614da6e69c9cdf4d2b42fc43cd1789"
+      },
+      {
+        "path": "contracts/fixtures/status-rknn-lwt.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efe509efe4fe67a3b26f211224ed77b0093dc540",
+        "size": 148,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/efe509efe4fe67a3b26f211224ed77b0093dc540"
+      },
+      {
+        "path": "contracts/fixtures/status-rknn.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68c2910cdaf512a7519b0fe9bd681501b9995802",
+        "size": 622,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/68c2910cdaf512a7519b0fe9bd681501b9995802"
+      },
+      {
+        "path": "contracts/mqtt-detection.schema.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61c55288c5651808b272c6cbd65b8be60df836d1",
+        "size": 12647,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/61c55288c5651808b272c6cbd65b8be60df836d1"
+      },
+      {
+        "path": "contracts/validate_payload.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bfad57bce59416fea8381fff6887dc6b6f2133f7",
+        "size": 11356,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/bfad57bce59416fea8381fff6887dc6b6f2133f7"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7d16835b7ecd0d66a561c1ebbc89a0764a050bb1",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/7d16835b7ecd0d66a561c1ebbc89a0764a050bb1"
+      },
+      {
+        "path": "docs/FRONTEND_SPEC.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7bbcd9822be400e30201e842620279495afb543c",
+        "size": 29012,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7bbcd9822be400e30201e842620279495afb543c"
+      },
+      {
+        "path": "docs/HUB_SPEC.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bad3d46f86d79a8e47330fa7ae725d58a8f7af67",
+        "size": 31421,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/bad3d46f86d79a8e47330fa7ae725d58a8f7af67"
+      },
+      {
+        "path": "docs/rknn-leak-postmortem.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c3b0e98a7435e7bb383b20ecdbf5a8913fa6656",
+        "size": 12794,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/0c3b0e98a7435e7bb383b20ecdbf5a8913fa6656"
+      },
+      {
+        "path": "hub",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "70490d953f20dce6012553d8ae5cac7d47e6871b",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/70490d953f20dce6012553d8ae5cac7d47e6871b"
+      },
+      {
+        "path": "hub/Dockerfile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7c6fe749bdfdb9db47b077dd94de127aeba894c",
+        "size": 2780,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/d7c6fe749bdfdb9db47b077dd94de127aeba894c"
+      },
+      {
+        "path": "hub/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1272ca7f676aaecd89d2b4be6f7b574b8ba9d70c",
+        "size": 1148,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/1272ca7f676aaecd89d2b4be6f7b574b8ba9d70c"
+      },
+      {
+        "path": "hub/docker-compose.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36a4832f9f0125fe7302fe6a94d12102ad24e4d8",
+        "size": 837,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/36a4832f9f0125fe7302fe6a94d12102ad24e4d8"
+      },
+      {
+        "path": "hub/edge_hub",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ec786c64c29d0f7a8004f90ca452fcc64cdc0c5d",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/ec786c64c29d0f7a8004f90ca452fcc64cdc0c5d"
+      },
+      {
+        "path": "hub/edge_hub/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdd92985ed35f192bf02f4ef0d08a9ad7d60af81",
+        "size": 87,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/bdd92985ed35f192bf02f4ef0d08a9ad7d60af81"
+      },
+      {
+        "path": "hub/edge_hub/__main__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "beaba678dcde326ccfd1af1558d052776a68d3c7",
+        "size": 487,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/beaba678dcde326ccfd1af1558d052776a68d3c7"
+      },
+      {
+        "path": "hub/edge_hub/alert_manager.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c758acce3057de93ce7993eb163e88bf7d9d5fa7",
+        "size": 15369,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c758acce3057de93ce7993eb163e88bf7d9d5fa7"
+      },
+      {
+        "path": "hub/edge_hub/app.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c54318f0204dbf5d62148c5ba8cb7604803111c6",
+        "size": 14978,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c54318f0204dbf5d62148c5ba8cb7604803111c6"
+      },
+      {
+        "path": "hub/edge_hub/auth.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b091814eb20490d4dcbeef7067176c7c8d0dc52",
+        "size": 5160,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/0b091814eb20490d4dcbeef7067176c7c8d0dc52"
+      },
+      {
+        "path": "hub/edge_hub/clock.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e444e850f8bca2c0c8ab699525861a17dce0d1fa",
+        "size": 1164,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/e444e850f8bca2c0c8ab699525861a17dce0d1fa"
+      },
+      {
+        "path": "hub/edge_hub/config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5900bdf502f3d83c9a3e3249236c6d0081be8340",
+        "size": 4690,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/5900bdf502f3d83c9a3e3249236c6d0081be8340"
+      },
+      {
+        "path": "hub/edge_hub/control.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0290875ad0dafa2bde65939ffc8eb8b46f19d220",
+        "size": 5577,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/0290875ad0dafa2bde65939ffc8eb8b46f19d220"
+      },
+      {
+        "path": "hub/edge_hub/device_registry.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c857905bf1b4ad57da91ccbe27c3e03baba8b473",
+        "size": 8054,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c857905bf1b4ad57da91ccbe27c3e03baba8b473"
+      },
+      {
+        "path": "hub/edge_hub/http_api.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "233fd669a4f6ec65294dd2a72c509f04d84a92d5",
+        "size": 29975,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/233fd669a4f6ec65294dd2a72c509f04d84a92d5"
+      },
+      {
+        "path": "hub/edge_hub/mqtt_ingest.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de4e34c12ffba28970cf64105cf0d045874fb8ae",
+        "size": 8481,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/de4e34c12ffba28970cf64105cf0d045874fb8ae"
+      },
+      {
+        "path": "hub/edge_hub/rules",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "431955abb7588bc9765dc5e052ad7f4136d02dbf",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/431955abb7588bc9765dc5e052ad7f4136d02dbf"
+      },
+      {
+        "path": "hub/edge_hub/rules/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77bbd157b24665a5f2432b32a382a194305b3391",
+        "size": 403,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/77bbd157b24665a5f2432b32a382a194305b3391"
+      },
+      {
+        "path": "hub/edge_hub/rules/engine.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ee0405d8b1305869fc76564b7c6c525972380aa5",
+        "size": 5944,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ee0405d8b1305869fc76564b7c6c525972380aa5"
+      },
+      {
+        "path": "hub/edge_hub/rules/geometry.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae00f97614f61c37768a5610bf0fa65448858916",
+        "size": 3196,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ae00f97614f61c37768a5610bf0fa65448858916"
+      },
+      {
+        "path": "hub/edge_hub/rules/line.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c9684cfd6e432a361913d3f1d7bf6281bb0965a9",
+        "size": 5193,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c9684cfd6e432a361913d3f1d7bf6281bb0965a9"
+      },
+      {
+        "path": "hub/edge_hub/rules/state.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec57f3306b016fb12b2ad05c35227a631d8dc0ca",
+        "size": 3485,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ec57f3306b016fb12b2ad05c35227a631d8dc0ca"
+      },
+      {
+        "path": "hub/edge_hub/rules/zone.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efcd379bb2fe0dd549dc6ed8788d0b0112692027",
+        "size": 2339,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/efcd379bb2fe0dd549dc6ed8788d0b0112692027"
+      },
+      {
+        "path": "hub/edge_hub/rules_schema.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "705cccfae48c7b9463787b3b23da22dd5309b0b0",
+        "size": 5845,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/705cccfae48c7b9463787b3b23da22dd5309b0b0"
+      },
+      {
+        "path": "hub/edge_hub/storage.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c885d49ea7d12fd51c6ae67fa3505ec6f3022b3e",
+        "size": 28169,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c885d49ea7d12fd51c6ae67fa3505ec6f3022b3e"
+      },
+      {
+        "path": "hub/edge_hub/validation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c06d7209dd730c4ae267e917414f9945fb6a1d7",
+        "size": 4387,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7c06d7209dd730c4ae267e917414f9945fb6a1d7"
+      },
+      {
+        "path": "hub/pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab8d31a24b3daf855429cb072a92c16790fcf5db",
+        "size": 661,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ab8d31a24b3daf855429cb072a92c16790fcf5db"
+      },
+      {
+        "path": "hub/tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9031b413b5b459c3ee0248e64c9263e9e0effca3",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/9031b413b5b459c3ee0248e64c9263e9e0effca3"
+      },
+      {
+        "path": "hub/tests/conftest.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5f39460e2deac6f72c2b9326dcc0d7cad54fb9fa",
+        "size": 5893,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/5f39460e2deac6f72c2b9326dcc0d7cad54fb9fa"
+      },
+      {
+        "path": "hub/tests/test_alert_manager.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f38ab3b99f0b2862271e3e1b2715b36f17f3e48",
+        "size": 10145,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/0f38ab3b99f0b2862271e3e1b2715b36f17f3e48"
+      },
+      {
+        "path": "hub/tests/test_config_client_id.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8df05d3d693a4b5ef7ae0889d44d85d545147b5b",
+        "size": 2728,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/8df05d3d693a4b5ef7ae0889d44d85d545147b5b"
+      },
+      {
+        "path": "hub/tests/test_contract_validator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fbc7a4b80d0c5f31599ad29b6f8a4251d29a38c9",
+        "size": 2781,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/fbc7a4b80d0c5f31599ad29b6f8a4251d29a38c9"
+      },
+      {
+        "path": "hub/tests/test_control.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "047a4ef5f88e9db3fe049fe4666b5a98df267515",
+        "size": 10785,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/047a4ef5f88e9db3fe049fe4666b5a98df267515"
+      },
+      {
+        "path": "hub/tests/test_device_backend_field.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7355a7b2c326dc051bf74dd07d0b1a0ea3bc18a8",
+        "size": 2350,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7355a7b2c326dc051bf74dd07d0b1a0ea3bc18a8"
+      },
+      {
+        "path": "hub/tests/test_dwell_field.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "296f2426b3486cbb8ea021fe220e2acf095066f0",
+        "size": 4086,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/296f2426b3486cbb8ea021fe220e2acf095066f0"
+      },
+      {
+        "path": "hub/tests/test_engine_boundaries.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f230d3f9a870bba31eb991c3d82d66bdf0019a2f",
+        "size": 4719,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f230d3f9a870bba31eb991c3d82d66bdf0019a2f"
+      },
+      {
+        "path": "hub/tests/test_generation_reset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "269a12351c8c6ec487fe2977e5445d0fbd399dd9",
+        "size": 5104,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/269a12351c8c6ec487fe2977e5445d0fbd399dd9"
+      },
+      {
+        "path": "hub/tests/test_geometry.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff51e1ccce0488a17e86e47cb998e1129c534a98",
+        "size": 1847,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ff51e1ccce0488a17e86e47cb998e1129c534a98"
+      },
+      {
+        "path": "hub/tests/test_http_api.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b53ace42391c89d94a2c5adb9ffcae5125dbab5",
+        "size": 25583,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/0b53ace42391c89d94a2c5adb9ffcae5125dbab5"
+      },
+      {
+        "path": "hub/tests/test_live_all.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "305d9db219b344cbaa524f3f1103df62f4a1b8b4",
+        "size": 2912,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/305d9db219b344cbaa524f3f1103df62f4a1b8b4"
+      },
+      {
+        "path": "hub/tests/test_preview_proxy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e67a5b029baee5025c37b25a6e5641244000334d",
+        "size": 5826,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/e67a5b029baee5025c37b25a6e5641244000334d"
+      },
+      {
+        "path": "hub/tests/test_rules_line.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1341b0c82c5db501eea079de5ae0b6710f7547e2",
+        "size": 7996,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/1341b0c82c5db501eea079de5ae0b6710f7547e2"
+      },
+      {
+        "path": "hub/tests/test_rules_zone.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "428060dbe952cbf62b2bb69e614ca602fc2c993f",
+        "size": 4586,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/428060dbe952cbf62b2bb69e614ca602fc2c993f"
+      },
+      {
+        "path": "hub/tests/test_session_persistence.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f937e5a39e649a57a8ac56834efa04460f9ec689",
+        "size": 4343,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f937e5a39e649a57a8ac56834efa04460f9ec689"
+      },
+      {
+        "path": "hub/tests/test_storage.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7df22af4f52f7ff240af45947eee31c21fd94b0d",
+        "size": 9588,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7df22af4f52f7ff240af45947eee31c21fd94b0d"
+      },
+      {
+        "path": "hub/tests/test_validation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba077e8219707a51631601610b00f3d578d9653f",
+        "size": 5954,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ba077e8219707a51631601610b00f3d578d9653f"
+      },
+      {
+        "path": "hub/tests/test_ws_catchup.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61197f43dc3655f98af994aa347ea2bd0c56527b",
+        "size": 6792,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/61197f43dc3655f98af994aa347ea2bd0c56527b"
+      },
+      {
+        "path": "hub/tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d0e31cc9bed3e7e6aaa502318928059f73056de1",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/d0e31cc9bed3e7e6aaa502318928059f73056de1"
+      },
+      {
+        "path": "hub/tools/capture_fixtures.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46a843f15ebfeb4951ba70e0c88cbd727f91cbf0",
+        "size": 5186,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/46a843f15ebfeb4951ba70e0c88cbd727f91cbf0"
+      },
+      {
+        "path": "hub/tools/fake_detector.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e17cf4f249e972c03abac8c01caa476c1229111",
+        "size": 8425,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/0e17cf4f249e972c03abac8c01caa476c1229111"
+      },
+      {
+        "path": "hub/uv.lock",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7adf739ce6d2fa7cafe8722abc2c92ff4acdbdaf",
+        "size": 235129,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7adf739ce6d2fa7cafe8722abc2c92ff4acdbdaf"
+      },
+      {
+        "path": "media",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8195b6e67523b3e45dd671094a5195f714bb4347",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/8195b6e67523b3e45dd671094a5195f714bb4347"
+      },
+      {
+        "path": "media/workbench-2026-09-07",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d6267bba616df873f9d7b42b674b26cdcc0fc3b3",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/d6267bba616df873f9d7b42b674b26cdcc0fc3b3"
+      },
+      {
+        "path": "media/workbench-2026-09-07/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "66d71e309f0dd8ef13a20108b7ce71d70ecbd9b4",
+        "size": 1664,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/66d71e309f0dd8ef13a20108b7ce71d70ecbd9b4"
+      },
+      {
+        "path": "media/workbench-2026-09-07/wall-4up-en.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09ae7c3b9bebbc2aa346438ba46873d666d6de2d",
+        "size": 793281,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/09ae7c3b9bebbc2aa346438ba46873d666d6de2d"
+      },
+      {
+        "path": "media/workbench-2026-09-07/wall-4up-zh.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "158326d1b337475c132effe9b0f36c3900884de9",
+        "size": 783413,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/158326d1b337475c132effe9b0f36c3900884de9"
+      },
+      {
+        "path": "media/workbench-2026-09-07/wall-9up-zh.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71ab645b880640bad89df2d0b088979ccece0ce1",
+        "size": 704161,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/71ab645b880640bad89df2d0b088979ccece0ce1"
+      },
+      {
+        "path": "media/workbench-2026-09-07/wall-add-camera-en.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71e0f6261c08770c46c06512d41e5faca6f6c252",
+        "size": 114991,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/71e0f6261c08770c46c06512d41e5faca6f6c252"
+      },
+      {
+        "path": "media/workbench-2026-09-07/wall-add-camera-timeout-zh.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58e3807e4288c158153e138592653c043140f998",
+        "size": 121301,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/58e3807e4288c158153e138592653c043140f998"
+      },
+      {
+        "path": "media/workbench-2026-09-07/wall-add-camera-zh.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d97ca25853264ec7677e729fd5921cad99df8f39",
+        "size": 109438,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/d97ca25853264ec7677e729fd5921cad99df8f39"
+      },
+      {
+        "path": "media/workbench-2026-09-07/wall-add-camera.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e7a3b1ef5e5aeb0a9ab9e813f0948ae894ffc43",
+        "size": 395848,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/3e7a3b1ef5e5aeb0a9ab9e813f0948ae894ffc43"
+      },
+      {
+        "path": "media/workbench-2026-09-07/wall-confidence-en.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90defd5d00f6b79cc023e1d1e572ca882632f82d",
+        "size": 802337,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/90defd5d00f6b79cc023e1d1e572ca882632f82d"
+      },
+      {
+        "path": "media/workbench-2026-09-07/wall-confidence-zh.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c60f43922a5af22d8fcb3e4367318a2741fce19d",
+        "size": 800341,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c60f43922a5af22d8fcb3e4367318a2741fce19d"
+      },
+      {
+        "path": "media/workbench-2026-09-07/wall-fullscreen-zh.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09f685c862da528c11d2e437248255ad47925588",
+        "size": 739524,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/09f685c862da528c11d2e437248255ad47925588"
+      },
+      {
+        "path": "platforms",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d7dc78250951dd3c7371225778ca09b2cec05f44",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/d7dc78250951dd3c7371225778ca09b2cec05f44"
+      },
+      {
+        "path": "platforms/_shared",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "afafbdbcddf27e2fa484c57259554a86c0a8ca38",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/afafbdbcddf27e2fa484c57259554a86c0a8ca38"
+      },
+      {
+        "path": "platforms/_shared/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7296be009658f6e765c5ea798435172e69aff533",
+        "size": 2940,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7296be009658f6e765c5ea798435172e69aff533"
+      },
+      {
+        "path": "platforms/_shared/esk_core",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3ba6f20f78285a0fbf58de205168ab4817d1335f",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/3ba6f20f78285a0fbf58de205168ab4817d1335f"
+      },
+      {
+        "path": "platforms/_shared/esk_core/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "04cb1a946e8dc21733e11f4232ffa8baa8855d38",
+        "size": 1789,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/04cb1a946e8dc21733e11f4232ffa8baa8855d38"
+      },
+      {
+        "path": "platforms/_shared/esk_core/config_streams.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "42fca79eba16d7e2ae6141a3a01b0b84a201467d",
+        "size": 2786,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/42fca79eba16d7e2ae6141a3a01b0b84a201467d"
+      },
+      {
+        "path": "platforms/_shared/esk_core/control.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96b59769cfcdb7695f47d799fc7dd5d6e80cc567",
+        "size": 6273,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/96b59769cfcdb7695f47d799fc7dd5d6e80cc567"
+      },
+      {
+        "path": "platforms/_shared/esk_core/streams.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f7caca79fd3297b6e9d433820588fcc13964301",
+        "size": 15630,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/2f7caca79fd3297b6e9d433820588fcc13964301"
+      },
+      {
+        "path": "platforms/_shared/esk_core/supervisor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b9e7bb56b04e4914a79465219787054461f7a38d",
+        "size": 10477,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/b9e7bb56b04e4914a79465219787054461f7a38d"
+      },
+      {
+        "path": "platforms/_shared/tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ac2578893f925744749ada3c64014119de32caff",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/ac2578893f925744749ada3c64014119de32caff"
+      },
+      {
+        "path": "platforms/_shared/tests/test_esk_core.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "029a57d1f2c06860a8f0947e2eec3b321fa8fcc5",
+        "size": 10762,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/029a57d1f2c06860a8f0947e2eec3b321fa8fcc5"
+      },
+      {
+        "path": "platforms/generic",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4c7420a5dc39966d8bff561dc3696d42e36fa6db",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/4c7420a5dc39966d8bff561dc3696d42e36fa6db"
+      },
+      {
+        "path": "platforms/generic/.gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d34f6e4fe9715aa99b7131dadcba5efc9121f4b",
+        "size": 213,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/6d34f6e4fe9715aa99b7131dadcba5efc9121f4b"
+      },
+      {
+        "path": "platforms/generic/Dockerfile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d0be76a494e1e6a03e6c06ec30296667ecbaff8",
+        "size": 4529,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/8d0be76a494e1e6a03e6c06ec30296667ecbaff8"
+      },
+      {
+        "path": "platforms/generic/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e29c115ffd40f66f709aaf63cb4f70e0d1ae5e3",
+        "size": 9268,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/9e29c115ffd40f66f709aaf63cb4f70e0d1ae5e3"
+      },
+      {
+        "path": "platforms/generic/config.example.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6b98bff1f058b7e563c66235cd330e7aa3ca1e90",
+        "size": 2357,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/6b98bff1f058b7e563c66235cd330e7aa3ca1e90"
+      },
+      {
+        "path": "platforms/generic/esk_generic",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5c0233b157e41add34c563602da0c0afb72a9f95",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/5c0233b157e41add34c563602da0c0afb72a9f95"
+      },
+      {
+        "path": "platforms/generic/esk_generic/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd513738f8648ab3a727209908dca908a01e5d88",
+        "size": 977,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/bd513738f8648ab3a727209908dca908a01e5d88"
+      },
+      {
+        "path": "platforms/generic/esk_generic/__main__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ef4105d33c859d7eaacffa6a8c91b7bb454bf7e",
+        "size": 2504,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/9ef4105d33c859d7eaacffa6a8c91b7bb454bf7e"
+      },
+      {
+        "path": "platforms/generic/esk_generic/config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "114c849e9b4d4faaa60f11b2c9af58f8bd13e2f3",
+        "size": 5443,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/114c849e9b4d4faaa60f11b2c9af58f8bd13e2f3"
+      },
+      {
+        "path": "platforms/generic/esk_generic/control.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e1c41a31cb3598a7692c00e072e9aff98e527fa",
+        "size": 6098,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7e1c41a31cb3598a7692c00e072e9aff98e527fa"
+      },
+      {
+        "path": "platforms/generic/esk_generic/detector.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "110abd031aa856cf5919c6de460f2deda39d3de4",
+        "size": 19940,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/110abd031aa856cf5919c6de460f2deda39d3de4"
+      },
+      {
+        "path": "platforms/generic/esk_generic/letterbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a287dd43c9a8aba8708cdc40599f05fb35a61592",
+        "size": 3516,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/a287dd43c9a8aba8708cdc40599f05fb35a61592"
+      },
+      {
+        "path": "platforms/generic/esk_generic/preview.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4cdc192489687dea8b8720abe56c55676c609e68",
+        "size": 7510,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/4cdc192489687dea8b8720abe56c55676c609e68"
+      },
+      {
+        "path": "platforms/generic/esk_generic/streams.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c4775884866c74c071684347e546bd5102e3e1cb",
+        "size": 9008,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c4775884866c74c071684347e546bd5102e3e1cb"
+      },
+      {
+        "path": "platforms/generic/esk_generic/tracker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5cb8e27326ec5c228c6bf0a7cd41abd99f165fce",
+        "size": 2950,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/5cb8e27326ec5c228c6bf0a7cd41abd99f165fce"
+      },
+      {
+        "path": "platforms/generic/esk_generic/yolo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2aa07a549fe9461da49862102918ddcae9b67a07",
+        "size": 5529,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/2aa07a549fe9461da49862102918ddcae9b67a07"
+      },
+      {
+        "path": "platforms/generic/evidence-annotated.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "10f3c678800706f88c28bebf609bb0a733b723cb",
+        "size": 108477,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/10f3c678800706f88c28bebf609bb0a733b723cb"
+      },
+      {
+        "path": "platforms/generic/fixtures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "30a66b89318e5ff2fac241a19732d2bcf30f97db",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/30a66b89318e5ff2fac241a19732d2bcf30f97db"
+      },
+      {
+        "path": "platforms/generic/fixtures/detection.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae330b0b9bc6a65d314e296aa4c14d3e41286a52",
+        "size": 640,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ae330b0b9bc6a65d314e296aa4c14d3e41286a52"
+      },
+      {
+        "path": "platforms/generic/fixtures/status-lwt.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa04b6fd24d43bb9460f07d2f1a4317dcf99a471",
+        "size": 149,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/fa04b6fd24d43bb9460f07d2f1a4317dcf99a471"
+      },
+      {
+        "path": "platforms/generic/fixtures/status.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b3ccf647069e688ee182d7ac47bdfa8af98a06c8",
+        "size": 558,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/b3ccf647069e688ee182d7ac47bdfa8af98a06c8"
+      },
+      {
+        "path": "platforms/generic/models",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7810249e4190ee25cb4f25bfc870828dc03bfebf",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/7810249e4190ee25cb4f25bfc870828dc03bfebf"
+      },
+      {
+        "path": "platforms/generic/models/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11d64433fc3d8af25bf0d566a3a1d9b5f3e9833d",
+        "size": 707,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/11d64433fc3d8af25bf0d566a3a1d9b5f3e9833d"
+      },
+      {
+        "path": "platforms/generic/pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "02d8c2976913aadecfa91d9acd63e67e31a14ada",
+        "size": 623,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/02d8c2976913aadecfa91d9acd63e67e31a14ada"
+      },
+      {
+        "path": "platforms/generic/tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5b343bfc5184d759b1085daf30895697db79a99a",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/5b343bfc5184d759b1085daf30895697db79a99a"
+      },
+      {
+        "path": "platforms/generic/tests/test_control.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1344fd0adc8f11a1ea1bf11f1fac293f25fcd46",
+        "size": 5533,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f1344fd0adc8f11a1ea1bf11f1fac293f25fcd46"
+      },
+      {
+        "path": "platforms/generic/tests/test_fixtures_schema.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f76d160861b4ad5ab4baccfff2481314959b8917",
+        "size": 2355,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f76d160861b4ad5ab4baccfff2481314959b8917"
+      },
+      {
+        "path": "platforms/generic/tests/test_letterbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33683f0db669acea6d74087602f6d305962a9d9b",
+        "size": 2988,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/33683f0db669acea6d74087602f6d305962a9d9b"
+      },
+      {
+        "path": "platforms/generic/tests/test_streams.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a52c8e1b0ea6178063b6e7af33cdadffccc84c51",
+        "size": 5330,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/a52c8e1b0ea6178063b6e7af33cdadffccc84c51"
+      },
+      {
+        "path": "platforms/generic/tests/test_tracker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a58cdadaf03802f43b8f819855fd255c4dc2a50",
+        "size": 1425,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/9a58cdadaf03802f43b8f819855fd255c4dc2a50"
+      },
+      {
+        "path": "platforms/generic/uv.lock",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f65a9b3b7226d28e93ea090984f90e7a28332eb0",
+        "size": 208731,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f65a9b3b7226d28e93ea090984f90e7a28332eb0"
+      },
+      {
+        "path": "platforms/hailo",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "27a645681991c4e6927514e04b68527710040719",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/27a645681991c4e6927514e04b68527710040719"
+      },
+      {
+        "path": "platforms/hailo/.gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c016ac27fd6470ae5fb9c73b96058bc48315d6cf",
+        "size": 411,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c016ac27fd6470ae5fb9c73b96058bc48315d6cf"
+      },
+      {
+        "path": "platforms/hailo/Dockerfile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aeebbfdbd311cd32baf3ab1525e86448d08e5548",
+        "size": 7187,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/aeebbfdbd311cd32baf3ab1525e86448d08e5548"
+      },
+      {
+        "path": "platforms/hailo/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25aa823aaa0d62cc0f54b407fca7a66b18ec48f2",
+        "size": 17709,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/25aa823aaa0d62cc0f54b407fca7a66b18ec48f2"
+      },
+      {
+        "path": "platforms/hailo/config.example.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a6c974f4cf31fe90e203d154c32b51d07dd62ce8",
+        "size": 1321,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/a6c974f4cf31fe90e203d154c32b51d07dd62ce8"
+      },
+      {
+        "path": "platforms/hailo/esk_hailo",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "146026207d7bf16f7eea0f2296aafe697e5ff30f",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/146026207d7bf16f7eea0f2296aafe697e5ff30f"
+      },
+      {
+        "path": "platforms/hailo/esk_hailo/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8c970b295d5051b555ab1d1ad43f0e8c41bfb6cb",
+        "size": 1003,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/8c970b295d5051b555ab1d1ad43f0e8c41bfb6cb"
+      },
+      {
+        "path": "platforms/hailo/esk_hailo/__main__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d2a6217a75d25affb30353903308bae7536e4b33",
+        "size": 3151,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/d2a6217a75d25affb30353903308bae7536e4b33"
+      },
+      {
+        "path": "platforms/hailo/esk_hailo/backend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1cee0e01683e531cf73bd432384bad08313f529",
+        "size": 3219,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/d1cee0e01683e531cf73bd432384bad08313f529"
+      },
+      {
+        "path": "platforms/hailo/esk_hailo/config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ce4f905e1c122c697db7e6fe71b6e54dacc46f19",
+        "size": 4236,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ce4f905e1c122c697db7e6fe71b6e54dacc46f19"
+      },
+      {
+        "path": "platforms/hailo/esk_hailo/detector.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0681daa99d368d94fd39a5c58f0acf21c62b2fa8",
+        "size": 12959,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/0681daa99d368d94fd39a5c58f0acf21c62b2fa8"
+      },
+      {
+        "path": "platforms/hailo/esk_hailo/hailo_yolo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "915d6dd41f0f47372c6e268f5e2ce64e5046f395",
+        "size": 24929,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/915d6dd41f0f47372c6e268f5e2ce64e5046f395"
+      },
+      {
+        "path": "platforms/hailo/esk_hailo/letterbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d82157ad507e767ede542d71413c10544f9cfd09",
+        "size": 7314,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/d82157ad507e767ede542d71413c10544f9cfd09"
+      },
+      {
+        "path": "platforms/hailo/esk_hailo/preview.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e1346b57a49243ab2f42e5fda63320487a08c35e",
+        "size": 7098,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/e1346b57a49243ab2f42e5fda63320487a08c35e"
+      },
+      {
+        "path": "platforms/hailo/esk_hailo/tracker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49719bf189b5c79280c30f643e27e83dabed77b5",
+        "size": 3029,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/49719bf189b5c79280c30f643e27e83dabed77b5"
+      },
+      {
+        "path": "platforms/hailo/evidence-emulated-adl-720p.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8f3290667ff18e0d2ceebb08ca38943fd217d36",
+        "size": 111547,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/b8f3290667ff18e0d2ceebb08ca38943fd217d36"
+      },
+      {
+        "path": "platforms/hailo/evidence-emulated-truth-720p.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52bc463f761ed1476cea766cf1199d242a9c7ef1",
+        "size": 80020,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/52bc463f761ed1476cea766cf1199d242a9c7ef1"
+      },
+      {
+        "path": "platforms/hailo/fixtures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "46ae0ca6d8e8b2dfc44d9d17a8a82131deee952b",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/46ae0ca6d8e8b2dfc44d9d17a8a82131deee952b"
+      },
+      {
+        "path": "platforms/hailo/fixtures/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a97b60b14ff0efe6363863579bb94eb38de64e6",
+        "size": 906,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7a97b60b14ff0efe6363863579bb94eb38de64e6"
+      },
+      {
+        "path": "platforms/hailo/fixtures/rpi5-hailo8-detection.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ccaeed315edce3c6c3d75ae5b8b14a99fc22c57",
+        "size": 640,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/8ccaeed315edce3c6c3d75ae5b8b14a99fc22c57"
+      },
+      {
+        "path": "platforms/hailo/fixtures/rpi5-hailo8-evidence-annotated.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e85b194861ea014b71428792669c01dfae69612",
+        "size": 75720,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/9e85b194861ea014b71428792669c01dfae69612"
+      },
+      {
+        "path": "platforms/hailo/fixtures/rpi5-hailo8-status-lwt.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b78c20d35f32ffece4eb80b8b471f2c3b45e92a",
+        "size": 153,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/3b78c20d35f32ffece4eb80b8b471f2c3b45e92a"
+      },
+      {
+        "path": "platforms/hailo/fixtures/rpi5-hailo8-status.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "87b85a56c4614da6e69c9cdf4d2b42fc43cd1789",
+        "size": 616,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/87b85a56c4614da6e69c9cdf4d2b42fc43cd1789"
+      },
+      {
+        "path": "platforms/hailo/models",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "26bf7729db102862507ac210695f05fe8ac88d7c",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/26bf7729db102862507ac210695f05fe8ac88d7c"
+      },
+      {
+        "path": "platforms/hailo/models/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49aefa81cf76becb020323129bb85cd85a733896",
+        "size": 4484,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/49aefa81cf76becb020323129bb85cd85a733896"
+      },
+      {
+        "path": "platforms/hailo/models/SHA256SUMS",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9168019bf7abc4f38ee34a11fc752750ef4cdf5d",
+        "size": 78,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/9168019bf7abc4f38ee34a11fc752750ef4cdf5d"
+      },
+      {
+        "path": "platforms/hailo/models/build_hef.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ebc7899aed4fbf2fb8db0fd0b7a4292543ab22d",
+        "size": 2888,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/6ebc7899aed4fbf2fb8db0fd0b7a4292543ab22d"
+      },
+      {
+        "path": "platforms/hailo/models/yolov8n.alls",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "28fc090a7fa5803a2fdb3f32290cc4bc67095a10",
+        "size": 198,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/28fc090a7fa5803a2fdb3f32290cc4bc67095a10"
+      },
+      {
+        "path": "platforms/hailo/pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c9df102ed91143f9faad8d26ab7227ea10b2aee",
+        "size": 1992,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/6c9df102ed91143f9faad8d26ab7227ea10b2aee"
+      },
+      {
+        "path": "platforms/hailo/tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9751314f78f1bafc520b67f15dd84a267659898b",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/9751314f78f1bafc520b67f15dd84a267659898b"
+      },
+      {
+        "path": "platforms/hailo/tests/test_control_wiring.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "55e5eea209820a5fec580a51c3808518b03f9671",
+        "size": 2482,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/55e5eea209820a5fec580a51c3808518b03f9671"
+      },
+      {
+        "path": "platforms/hailo/tests/test_decode_head.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "773ad6fa8205499b34f4caf3ac289af9427f2935",
+        "size": 11381,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/773ad6fa8205499b34f4caf3ac289af9427f2935"
+      },
+      {
+        "path": "platforms/hailo/tests/test_fixtures_schema.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ac201f515d5ae9b1d95d2fbdd4fd448cb73f8f56",
+        "size": 3616,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ac201f515d5ae9b1d95d2fbdd4fd448cb73f8f56"
+      },
+      {
+        "path": "platforms/hailo/tests/test_letterbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ca032500fe84577ea1ed64626fcc03097e5eb3c",
+        "size": 5051,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/3ca032500fe84577ea1ed64626fcc03097e5eb3c"
+      },
+      {
+        "path": "platforms/hailo/tests/test_tracker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7e3c0f1cf74180fefd05e9ef14c567433fb9fbd",
+        "size": 1423,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/b7e3c0f1cf74180fefd05e9ef14c567433fb9fbd"
+      },
+      {
+        "path": "platforms/hailo/uv.lock",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "12f3a928c6b3802d7d89347e03df98b78f7e9d02",
+        "size": 131951,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/12f3a928c6b3802d7d89347e03df98b78f7e9d02"
+      },
+      {
+        "path": "platforms/jetson",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8c8b79ba6df233450a46ab9f37814ef21723b50b",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/8c8b79ba6df233450a46ab9f37814ef21723b50b"
+      },
+      {
+        "path": "platforms/jetson/.gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77390e67baf319e02454d64192103de929027536",
+        "size": 246,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/77390e67baf319e02454d64192103de929027536"
+      },
+      {
+        "path": "platforms/jetson/Dockerfile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "01c60f63ea77c0abb73cdb872fdec56d81f601fd",
+        "size": 9745,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/01c60f63ea77c0abb73cdb872fdec56d81f601fd"
+      },
+      {
+        "path": "platforms/jetson/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62a45e4156fed34bb375465e2b815ac47874d1c5",
+        "size": 25167,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/62a45e4156fed34bb375465e2b815ac47874d1c5"
+      },
+      {
+        "path": "platforms/jetson/config.example.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c179198192d5facbced2bedda7c599df063a9a6",
+        "size": 1284,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/4c179198192d5facbced2bedda7c599df063a9a6"
+      },
+      {
+        "path": "platforms/jetson/esk_jetson",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "178c58016348f2ff8a737fd7bcd259ba51daa86f",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/178c58016348f2ff8a737fd7bcd259ba51daa86f"
+      },
+      {
+        "path": "platforms/jetson/esk_jetson/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5f06366790f92591b8e045f996f7ee247db10974",
+        "size": 1041,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/5f06366790f92591b8e045f996f7ee247db10974"
+      },
+      {
+        "path": "platforms/jetson/esk_jetson/__main__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "686b2d8ec152d7409848d0d7af92b5ad0f39c8f4",
+        "size": 3399,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/686b2d8ec152d7409848d0d7af92b5ad0f39c8f4"
+      },
+      {
+        "path": "platforms/jetson/esk_jetson/backend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "321af7180683020acea5130f9d51d607def45195",
+        "size": 2708,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/321af7180683020acea5130f9d51d607def45195"
+      },
+      {
+        "path": "platforms/jetson/esk_jetson/config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "834cd92f0c815fbffad3093762daa7e99fa57ed5",
+        "size": 4127,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/834cd92f0c815fbffad3093762daa7e99fa57ed5"
+      },
+      {
+        "path": "platforms/jetson/esk_jetson/detector.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f82cdc1755b4dfe4716a2cea3a15674863ec967",
+        "size": 14829,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/9f82cdc1755b4dfe4716a2cea3a15674863ec967"
+      },
+      {
+        "path": "platforms/jetson/esk_jetson/letterbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f35de066d6a6fc905bf8b0cfa5151857c40db982",
+        "size": 6426,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f35de066d6a6fc905bf8b0cfa5151857c40db982"
+      },
+      {
+        "path": "platforms/jetson/esk_jetson/preview.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ec75ec5990b36508fa71489f75c5dcd5be42de8",
+        "size": 9419,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/8ec75ec5990b36508fa71489f75c5dcd5be42de8"
+      },
+      {
+        "path": "platforms/jetson/esk_jetson/tracker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49719bf189b5c79280c30f643e27e83dabed77b5",
+        "size": 3029,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/49719bf189b5c79280c30f643e27e83dabed77b5"
+      },
+      {
+        "path": "platforms/jetson/esk_jetson/trt_yolo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c937c52e211d0923c88eab28b70eec3c9345348",
+        "size": 14585,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7c937c52e211d0923c88eab28b70eec3c9345348"
+      },
+      {
+        "path": "platforms/jetson/esk_jetson/video_source.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b857a1f89ddaf518b8c10997d7c84903113ff125",
+        "size": 17053,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/b857a1f89ddaf518b8c10997d7c84903113ff125"
+      },
+      {
+        "path": "platforms/jetson/fixtures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4499e4527679efd6e28f1ef358649e8a8f561fb1",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/4499e4527679efd6e28f1ef358649e8a8f561fb1"
+      },
+      {
+        "path": "platforms/jetson/fixtures/detection.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a183cc9dc3473006225da0dc5263872f7c2c4d5",
+        "size": 626,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/4a183cc9dc3473006225da0dc5263872f7c2c4d5"
+      },
+      {
+        "path": "platforms/jetson/fixtures/status-lwt.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3dc203b8ae7d163053333744e36e222117392968",
+        "size": 149,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/3dc203b8ae7d163053333744e36e222117392968"
+      },
+      {
+        "path": "platforms/jetson/fixtures/status.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c65f1ebb26176505a2e4d4494739460a21f78ed",
+        "size": 618,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/9c65f1ebb26176505a2e4d4494739460a21f78ed"
+      },
+      {
+        "path": "platforms/jetson/models",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a9664f8bbf20670f0bddee9a2aabdc88ee1ec6eb",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/a9664f8bbf20670f0bddee9a2aabdc88ee1ec6eb"
+      },
+      {
+        "path": "platforms/jetson/models/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86fd5b7777fd612a67c9b393a1592f0738eb7cd6",
+        "size": 1100,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/86fd5b7777fd612a67c9b393a1592f0738eb7cd6"
+      },
+      {
+        "path": "platforms/jetson/pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c574e0359f38ecab872daa99f6c386fc19a9bbf7",
+        "size": 1123,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c574e0359f38ecab872daa99f6c386fc19a9bbf7"
+      },
+      {
+        "path": "platforms/jetson/tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7303edb9f6ae1fc72abdab13f3b75b3815ec8d50",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/7303edb9f6ae1fc72abdab13f3b75b3815ec8d50"
+      },
+      {
+        "path": "platforms/jetson/tests/test_control_wiring.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "55e5eea209820a5fec580a51c3808518b03f9671",
+        "size": 2482,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/55e5eea209820a5fec580a51c3808518b03f9671"
+      },
+      {
+        "path": "platforms/jetson/tests/test_decode_head.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "66430018d4c88d650825640edd23e5431fea57ce",
+        "size": 5800,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/66430018d4c88d650825640edd23e5431fea57ce"
+      },
+      {
+        "path": "platforms/jetson/tests/test_fixtures_schema.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7765c111b14f4f45ed95ccbfed41cae4200b37e",
+        "size": 2519,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/d7765c111b14f4f45ed95ccbfed41cae4200b37e"
+      },
+      {
+        "path": "platforms/jetson/tests/test_letterbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cde49d3264373d27f773a8c5c36cd3e365ff1b33",
+        "size": 5891,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/cde49d3264373d27f773a8c5c36cd3e365ff1b33"
+      },
+      {
+        "path": "platforms/jetson/tests/test_tracker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a83402dd0d206b5e4500a9b6d064345f381667a0",
+        "size": 1424,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/a83402dd0d206b5e4500a9b6d064345f381667a0"
+      },
+      {
+        "path": "platforms/jetson/tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "18f12cbf4acf0a0cc8e36bd9927d2e3abba6bc35",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/18f12cbf4acf0a0cc8e36bd9927d2e3abba6bc35"
+      },
+      {
+        "path": "platforms/jetson/tools/build_engine.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "c79d03f9358590e01f60c92178991d19974fb579",
+        "size": 3900,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c79d03f9358590e01f60c92178991d19974fb579"
+      },
+      {
+        "path": "platforms/jetson/uv.lock",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "07ea6a2ccb09f558952173a3ab9853544da12db8",
+        "size": 192828,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/07ea6a2ccb09f558952173a3ab9853544da12db8"
+      },
+      {
+        "path": "platforms/recamera-pro",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7fe4674a2a730acf2b747a2fd4b98e2898de617c",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/7fe4674a2a730acf2b747a2fd4b98e2898de617c"
+      },
+      {
+        "path": "platforms/recamera-pro/.gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ede175a6064bbb8fe6d7997405c685a48bb536ce",
+        "size": 33,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ede175a6064bbb8fe6d7997405c685a48bb536ce"
+      },
+      {
+        "path": "platforms/recamera-pro/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7f67d900299e4f2a9aff29fa8f8ca82e709557f7",
+        "size": 26569,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7f67d900299e4f2a9aff29fa8f8ca82e709557f7"
+      },
+      {
+        "path": "platforms/recamera-pro/app.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "42fc549820efceb78ab5013643961f63338ba793",
+        "size": 40743,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/42fc549820efceb78ab5013643961f63338ba793"
+      },
+      {
+        "path": "platforms/recamera-pro/esk",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7f9a66a313dafae9da94c0ed40686c96ca22fd62",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/7f9a66a313dafae9da94c0ed40686c96ca22fd62"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f513768866e6c518d8cea7a21099944f41fe342c",
+        "size": 753,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f513768866e6c518d8cea7a21099944f41fe342c"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/bench_infer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7f1cc7e60665c03eef886daa5535fc7a6abdffb4",
+        "size": 12659,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7f1cc7e60665c03eef886daa5535fc7a6abdffb4"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/cpufreq.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a45e695f989522c592a967fe51fc5653fdacf57b",
+        "size": 10012,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/a45e695f989522c592a967fe51fc5653fdacf57b"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/ctypes_infer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "634c9429e6d092c4eef03a04de00f509c82cb900",
+        "size": 20022,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/634c9429e6d092c4eef03a04de00f509c82cb900"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/decode_evidence.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9bf2bc7edfb65ec734b2a852a4103fb018b5c8bc",
+        "size": 9910,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/9bf2bc7edfb65ec734b2a852a4103fb018b5c8bc"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/equiv_check.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de8d2c7c602a0fc4607a28ad70d721a7ad9a9120",
+        "size": 11080,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/de8d2c7c602a0fc4607a28ad70d721a7ad9a9120"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/file_source.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f363bb3e24d6e897343659f0e07e2e43919b8e70",
+        "size": 6103,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f363bb3e24d6e897343659f0e07e2e43919b8e70"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/letterbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f35de066d6a6fc905bf8b0cfa5151857c40db982",
+        "size": 6426,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f35de066d6a6fc905bf8b0cfa5151857c40db982"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/mem_probe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "00bd37bc7d63b31c8ef236d13826eefff196efbd",
+        "size": 13438,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/00bd37bc7d63b31c8ef236d13826eefff196efbd"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/preview.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a7a998eef51982a67c2d3235b18b6f832abefdca",
+        "size": 11709,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/a7a998eef51982a67c2d3235b18b6f832abefdca"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/publisher.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "636665e63c6a9962125c057596becdc5317682c0",
+        "size": 9537,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/636665e63c6a9962125c057596becdc5317682c0"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/trace.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "131669886197ffb36df942de5b61f7f2ef628c0d",
+        "size": 6293,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/131669886197ffb36df942de5b61f7f2ef628c0d"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/tracker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49719bf189b5c79280c30f643e27e83dabed77b5",
+        "size": 3029,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/49719bf189b5c79280c30f643e27e83dabed77b5"
+      },
+      {
+        "path": "platforms/recamera-pro/esk/zoo_head.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6855d7dbe19467af9354947076f150861faa22f6",
+        "size": 14544,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/6855d7dbe19467af9354947076f150861faa22f6"
+      },
+      {
+        "path": "platforms/recamera-pro/fixtures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "199d10ab957f7338234a894bf452f9ca150dd4ec",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/199d10ab957f7338234a894bf452f9ca150dd4ec"
+      },
+      {
+        "path": "platforms/recamera-pro/fixtures/detection.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "03b1db2f3a294c823fee7760366c2596da78dec3",
+        "size": 636,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/03b1db2f3a294c823fee7760366c2596da78dec3"
+      },
+      {
+        "path": "platforms/recamera-pro/fixtures/evidence-annotated.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1078ea4f17fcbf556cb14f334fad442e0649abc5",
+        "size": 50587,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/1078ea4f17fcbf556cb14f334fad442e0649abc5"
+      },
+      {
+        "path": "platforms/recamera-pro/fixtures/status-offline.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "06779cf1e79dcca93658be26900ec17ece79b31b",
+        "size": 154,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/06779cf1e79dcca93658be26900ec17ece79b31b"
+      },
+      {
+        "path": "platforms/recamera-pro/fixtures/status.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f412b899a2a88a67e9faff02aaf4c0c6639d7f47",
+        "size": 630,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f412b899a2a88a67e9faff02aaf4c0c6639d7f47"
+      },
+      {
+        "path": "platforms/recamera-pro/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d72c8b705b551eed4ba3f12f72df281365fee6f",
+        "size": 10048,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/2d72c8b705b551eed4ba3f12f72df281365fee6f"
+      },
+      {
+        "path": "platforms/recamera-pro/models",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c4de5d42fc9231a4eb6777cc2ccbd48f1180e0d0",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/c4de5d42fc9231a4eb6777cc2ccbd48f1180e0d0"
+      },
+      {
+        "path": "platforms/recamera-pro/models/SHA256SUMS",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ec2e8c58adf602ab9525299117b3ba8448141d2",
+        "size": 96,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/5ec2e8c58adf602ab9525299117b3ba8448141d2"
+      },
+      {
+        "path": "platforms/rknn",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "44aa1f62aae64ab181598a410c124b8faca44247",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/44aa1f62aae64ab181598a410c124b8faca44247"
+      },
+      {
+        "path": "platforms/rknn/.gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "893d7dbea86cd1199dde410fbbcde9e5e84a6341",
+        "size": 360,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/893d7dbea86cd1199dde410fbbcde9e5e84a6341"
+      },
+      {
+        "path": "platforms/rknn/Dockerfile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e50d5ff2df2067a95643854c0521f2822b4c415",
+        "size": 8033,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/6e50d5ff2df2067a95643854c0521f2822b4c415"
+      },
+      {
+        "path": "platforms/rknn/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aef9e745232fb524cc1aaa15f195b73b37760f37",
+        "size": 39855,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/aef9e745232fb524cc1aaa15f195b73b37760f37"
+      },
+      {
+        "path": "platforms/rknn/calibration",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b4651c89d692cf8753e320e35d81f18814a9e951",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/b4651c89d692cf8753e320e35d81f18814a9e951"
+      },
+      {
+        "path": "platforms/rknn/calibration/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8614f12b437053ac2f3c2e488f29a409cd2b75e4",
+        "size": 3705,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/8614f12b437053ac2f3c2e488f29a409cd2b75e4"
+      },
+      {
+        "path": "platforms/rknn/calibration/build_calibration.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "314985b8a51769e19c63a9d770843581473c02e6",
+        "size": 8785,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/314985b8a51769e19c63a9d770843581473c02e6"
+      },
+      {
+        "path": "platforms/rknn/calibration/calib_manifest.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "382ca4c7c12989f9964ee457bf1de60d8aa47ab6",
+        "size": 70241,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/382ca4c7c12989f9964ee457bf1de60d8aa47ab6"
+      },
+      {
+        "path": "platforms/rknn/config.example.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76ebd0972f183c0316dfe52e3db84269e1ce94bf",
+        "size": 1634,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/76ebd0972f183c0316dfe52e3db84269e1ce94bf"
+      },
+      {
+        "path": "platforms/rknn/config.rk3576.example.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "619a99c5fe0788e20790e6a4f52c0cac065bab54",
+        "size": 2048,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/619a99c5fe0788e20790e6a4f52c0cac065bab54"
+      },
+      {
+        "path": "platforms/rknn/esk_rknn",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e20dc8bbc9d236f972d3a9bc00365c6b87f8f23e",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/e20dc8bbc9d236f972d3a9bc00365c6b87f8f23e"
+      },
+      {
+        "path": "platforms/rknn/esk_rknn/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4040110586e150442a015753ec5ab4ee4c5e6772",
+        "size": 1046,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/4040110586e150442a015753ec5ab4ee4c5e6772"
+      },
+      {
+        "path": "platforms/rknn/esk_rknn/__main__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47574175031898c14cb6f769c67c8c56317b0f99",
+        "size": 2931,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/47574175031898c14cb6f769c67c8c56317b0f99"
+      },
+      {
+        "path": "platforms/rknn/esk_rknn/backend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bacf065728ae43106f2f0faab4b56e4b27db66fd",
+        "size": 3581,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/bacf065728ae43106f2f0faab4b56e4b27db66fd"
+      },
+      {
+        "path": "platforms/rknn/esk_rknn/config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c51e42c03e5e60a62bcd506e7af23e3855ae053e",
+        "size": 4570,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c51e42c03e5e60a62bcd506e7af23e3855ae053e"
+      },
+      {
+        "path": "platforms/rknn/esk_rknn/detector.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff2a2757b65a9cebfa2b66f307ee524bf0095394",
+        "size": 14127,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ff2a2757b65a9cebfa2b66f307ee524bf0095394"
+      },
+      {
+        "path": "platforms/rknn/esk_rknn/letterbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f35de066d6a6fc905bf8b0cfa5151857c40db982",
+        "size": 6426,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f35de066d6a6fc905bf8b0cfa5151857c40db982"
+      },
+      {
+        "path": "platforms/rknn/esk_rknn/preview.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0bfe7aabfb428e806d2207bd9a9776794321d769",
+        "size": 9400,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/0bfe7aabfb428e806d2207bd9a9776794321d769"
+      },
+      {
+        "path": "platforms/rknn/esk_rknn/rknn_yolo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f2859f64c9c8055778a2b7b61cabea8bb13f269f",
+        "size": 15222,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f2859f64c9c8055778a2b7b61cabea8bb13f269f"
+      },
+      {
+        "path": "platforms/rknn/esk_rknn/tracker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49719bf189b5c79280c30f643e27e83dabed77b5",
+        "size": 3029,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/49719bf189b5c79280c30f643e27e83dabed77b5"
+      },
+      {
+        "path": "platforms/rknn/esk_rknn/video_source.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b25f0ebb268d8bdecfe3066cd86f7b6f2d60dedf",
+        "size": 16846,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/b25f0ebb268d8bdecfe3066cd86f7b6f2d60dedf"
+      },
+      {
+        "path": "platforms/rknn/fixtures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5a8c28ce202da3d1d8335d4a334b227d4b2d1beb",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/5a8c28ce202da3d1d8335d4a334b227d4b2d1beb"
+      },
+      {
+        "path": "platforms/rknn/fixtures/rk3576-detection.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "027a5fa1db5b35c892f85f98e25ffeaa842cd1f4",
+        "size": 631,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/027a5fa1db5b35c892f85f98e25ffeaa842cd1f4"
+      },
+      {
+        "path": "platforms/rknn/fixtures/rk3576-evidence-annotated-left.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cb647821c0199b8c33157a1aa24fea0bafbf451c",
+        "size": 24788,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/cb647821c0199b8c33157a1aa24fea0bafbf451c"
+      },
+      {
+        "path": "platforms/rknn/fixtures/rk3576-evidence-annotated.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82212e95f397f2069735af828e469e77e256bae9",
+        "size": 25458,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/82212e95f397f2069735af828e469e77e256bae9"
+      },
+      {
+        "path": "platforms/rknn/fixtures/rk3576-status-lwt.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e50de92e88075cfeed1373bacb28208c73f9c4d",
+        "size": 147,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/8e50de92e88075cfeed1373bacb28208c73f9c4d"
+      },
+      {
+        "path": "platforms/rknn/fixtures/rk3576-status.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ee23c5a761aaa3848c77099f4901ba58fd7f211",
+        "size": 622,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/6ee23c5a761aaa3848c77099f4901ba58fd7f211"
+      },
+      {
+        "path": "platforms/rknn/fixtures/rk3588-detection.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1769c98a67eff4ace7ec2ad4ca55e17b7840c28d",
+        "size": 632,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/1769c98a67eff4ace7ec2ad4ca55e17b7840c28d"
+      },
+      {
+        "path": "platforms/rknn/fixtures/rk3588-evidence-annotated.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3111a831fd787af4aabd0208e039194b01d6af26",
+        "size": 32294,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/3111a831fd787af4aabd0208e039194b01d6af26"
+      },
+      {
+        "path": "platforms/rknn/fixtures/rk3588-status-lwt.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efe509efe4fe67a3b26f211224ed77b0093dc540",
+        "size": 148,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/efe509efe4fe67a3b26f211224ed77b0093dc540"
+      },
+      {
+        "path": "platforms/rknn/fixtures/rk3588-status.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68c2910cdaf512a7519b0fe9bd681501b9995802",
+        "size": 622,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/68c2910cdaf512a7519b0fe9bd681501b9995802"
+      },
+      {
+        "path": "platforms/rknn/models",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "23198e5c89974fc6663d6b37f9148005bdd9c8e0",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/23198e5c89974fc6663d6b37f9148005bdd9c8e0"
+      },
+      {
+        "path": "platforms/rknn/models/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71cb6c8cc73d74038dfb5595b64a07583fb3c397",
+        "size": 3210,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/71cb6c8cc73d74038dfb5595b64a07583fb3c397"
+      },
+      {
+        "path": "platforms/rknn/models/SHA256SUMS",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ac93b81da88dfd44e51e31bf6dfe884389e9d136",
+        "size": 471,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ac93b81da88dfd44e51e31bf6dfe884389e9d136"
+      },
+      {
+        "path": "platforms/rknn/pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a2fb935f0a9ccb6d84567eb3cac74ea712c620f",
+        "size": 946,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/0a2fb935f0a9ccb6d84567eb3cac74ea712c620f"
+      },
+      {
+        "path": "platforms/rknn/tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d16663838751a6e429f75d324af683135ae21778",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/d16663838751a6e429f75d324af683135ae21778"
+      },
+      {
+        "path": "platforms/rknn/tests/fixtures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9d1526ff968259275dd98f3322e54ac0cc269868",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/9d1526ff968259275dd98f3322e54ac0cc269868"
+      },
+      {
+        "path": "platforms/rknn/tests/fixtures/tracker_live_recamera_pro.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53750fcb45499a2a8f10f6eab270998407214904",
+        "size": 119460,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/53750fcb45499a2a8f10f6eab270998407214904"
+      },
+      {
+        "path": "platforms/rknn/tests/test_control_wiring.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "55e5eea209820a5fec580a51c3808518b03f9671",
+        "size": 2482,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/55e5eea209820a5fec580a51c3808518b03f9671"
+      },
+      {
+        "path": "platforms/rknn/tests/test_decode_head.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27f935ef1fdd953945b63e5259e716b1cb3cd92f",
+        "size": 3157,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/27f935ef1fdd953945b63e5259e716b1cb3cd92f"
+      },
+      {
+        "path": "platforms/rknn/tests/test_fixtures_schema.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8c1c11f430ace533b675e72de38519592857cbc",
+        "size": 5377,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c8c1c11f430ace533b675e72de38519592857cbc"
+      },
+      {
+        "path": "platforms/rknn/tests/test_letterbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec0694e1d766a4d343ff28f0140106fcb391e8f4",
+        "size": 5889,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ec0694e1d766a4d343ff28f0140106fcb391e8f4"
+      },
+      {
+        "path": "platforms/rknn/tests/test_tracker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8cbe731d0ff5a68d693cb57561c19f6123e1a39b",
+        "size": 1422,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/8cbe731d0ff5a68d693cb57561c19f6123e1a39b"
+      },
+      {
+        "path": "platforms/rknn/tests/test_tracker_id_stability.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62416f020133045dbe30cc44a899ea7f08ff964c",
+        "size": 7877,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/62416f020133045dbe30cc44a899ea7f08ff964c"
+      },
+      {
+        "path": "platforms/rknn/tests/test_zoo_head.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91cea599dd6cc7daaa779d7bdef02d03b0ce13cc",
+        "size": 4850,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/91cea599dd6cc7daaa779d7bdef02d03b0ce13cc"
+      },
+      {
+        "path": "platforms/rknn/tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "102280fb0dc48dfa72f1e0daed94b217c0547cf4",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/102280fb0dc48dfa72f1e0daed94b217c0547cf4"
+      },
+      {
+        "path": "platforms/rknn/tools/compare_annotate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "75abce6537ca14647fe3a1efefcad6fdaf263c27",
+        "size": 5083,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/75abce6537ca14647fe3a1efefcad6fdaf263c27"
+      },
+      {
+        "path": "platforms/rknn/tools/convert_yolov8_rknn.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33930474a86790a9a9cf93db7bcc4c1e88206925",
+        "size": 3835,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/33930474a86790a9a9cf93db7bcc4c1e88206925"
+      },
+      {
+        "path": "platforms/rknn/tools/deploy.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "501df966d361bc06c9e24e6fdae8f46ac0ab244b",
+        "size": 3974,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/501df966d361bc06c9e24e6fdae8f46ac0ab244b"
+      },
+      {
+        "path": "platforms/rknn/tools/eval_coco_person.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "c70a186f7cd834738fcdfd7dcb948b4973f65916",
+        "size": 16268,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c70a186f7cd834738fcdfd7dcb948b4973f65916"
+      },
+      {
+        "path": "platforms/rknn/tools/prepare_model.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "7f94251f6e9fda655316dad640200d2f067317f8",
+        "size": 7411,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7f94251f6e9fda655316dad640200d2f067317f8"
+      },
+      {
+        "path": "platforms/rknn/uv.lock",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "918bc3a95c28ce50ab48a00c1434a70a3598472a",
+        "size": 184660,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/918bc3a95c28ce50ab48a00c1434a70a3598472a"
+      },
+      {
+        "path": "tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "98a05190ec80f9aa21b296a140578e6e35c0f725",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/98a05190ec80f9aa21b296a140578e6e35c0f725"
+      },
+      {
+        "path": "tools/rknn-leak-repro",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "57e6094477941a9cd31c08822b52f9e7b4f153d9",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/57e6094477941a9cd31c08822b52f9e7b4f153d9"
+      },
+      {
+        "path": "tools/rknn-leak-repro/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c12e4abba52dd89f74ea5f7e131ef713ee5e77f",
+        "size": 17564,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/9c12e4abba52dd89f74ea5f7e131ef713ee5e77f"
+      },
+      {
+        "path": "tools/rknn-leak-repro/ctypes_control.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c7cce68e68db58714194252414d1b6c615d538b3",
+        "size": 20381,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c7cce68e68db58714194252414d1b6c615d538b3"
+      },
+      {
+        "path": "tools/rknn-leak-repro/leak_repro.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2aea52ab4fbbf4cb649230b6c60e0c3e15d47a81",
+        "size": 12302,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/2aea52ab4fbbf4cb649230b6c60e0c3e15d47a81"
+      },
+      {
+        "path": "tools/rtsp-fixture",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "58934d6b5763569bea71223d330d0a177bab2b12",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/58934d6b5763569bea71223d330d0a177bab2b12"
+      },
+      {
+        "path": "tools/rtsp-fixture/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b0501fd7eb475eeb64e0ae6bc9abe06f24c51a6",
+        "size": 8794,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/8b0501fd7eb475eeb64e0ae6bc9abe06f24c51a6"
+      },
+      {
+        "path": "tools/rtsp-fixture/build_truth.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "009db6836c13e282eeb54dcf10a52e56d000d801",
+        "size": 9515,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/009db6836c13e282eeb54dcf10a52e56d000d801"
+      },
+      {
+        "path": "tools/rtsp-fixture/diagnose.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ef6712e85eef62165c19c9f02be52d57aefdfe9",
+        "size": 1863,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/3ef6712e85eef62165c19c9f02be52d57aefdfe9"
+      },
+      {
+        "path": "tools/rtsp-fixture/docker-compose.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d5d26f8011b3adea6a3c4f47e99b1bf96ffcc90",
+        "size": 437,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/2d5d26f8011b3adea6a3c4f47e99b1bf96ffcc90"
+      },
+      {
+        "path": "tools/rtsp-fixture/find_person.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b07a61a6fcc68303ce4f000a2f6779db664ba755",
+        "size": 5093,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/b07a61a6fcc68303ce4f000a2f6779db664ba755"
+      },
+      {
+        "path": "tools/rtsp-fixture/mediamtx-jetson.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4074d1c4130f6b03abebcdb0e8e73d5d4c8a8871",
+        "size": 1332,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/4074d1c4130f6b03abebcdb0e8e73d5d4c8a8871"
+      },
+      {
+        "path": "tools/rtsp-fixture/mediamtx-rk.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05ab53f16a189327e0a260e0ffc1ca2ec84cd361",
+        "size": 1314,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/05ab53f16a189327e0a260e0ffc1ca2ec84cd361"
+      },
+      {
+        "path": "tools/rtsp-fixture/mediamtx.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "196aeeb0c86ddd76f7fb877fcf4e3505ad83b49c",
+        "size": 564,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/196aeeb0c86ddd76f7fb877fcf4e3505ad83b49c"
+      },
+      {
+        "path": "tools/rtsp-fixture/mosquitto.conf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fcfccf41178389837b693077eba389e174ad20a2",
+        "size": 360,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/fcfccf41178389837b693077eba389e174ad20a2"
+      },
+      {
+        "path": "tools/rtsp-fixture/publish.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "3112190f947d069d7ae1a741fc043c9432827a41",
+        "size": 1044,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/3112190f947d069d7ae1a741fc043c9432827a41"
+      },
+      {
+        "path": "tools/rtsp-fixture/publish_truth.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "0656975f4b3947e36bca02a52a0ecdedc8fab79a",
+        "size": 610,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/0656975f4b3947e36bca02a52a0ecdedc8fab79a"
+      },
+      {
+        "path": "tools/rtsp-fixture/regress_restart.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "40f721cebc77b142d6e422f65278c155f7917433",
+        "size": 2536,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/40f721cebc77b142d6e422f65278c155f7917433"
+      },
+      {
+        "path": "tools/rtsp-fixture/restart_fixture.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "f859921eccee5863e2398623d4b6910fbd033fc8",
+        "size": 3104,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f859921eccee5863e2398623d4b6910fbd033fc8"
+      },
+      {
+        "path": "tools/rtsp-fixture/restart_hub_verify.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "114023aa6ea0447781db4f59120813d2127c2254",
+        "size": 2956,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/114023aa6ea0447781db4f59120813d2127c2254"
+      },
+      {
+        "path": "tools/rtsp-fixture/start_jetson_fixture.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "379d853ee27023fe46b2ff02ee6f7cde54703d9f",
+        "size": 2086,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/379d853ee27023fe46b2ff02ee6f7cde54703d9f"
+      },
+      {
+        "path": "tools/rtsp-fixture/start_rk_fixture.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "7d6947c4ecfaf29be0075c227f75cdc837794731",
+        "size": 1861,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7d6947c4ecfaf29be0075c227f75cdc837794731"
+      },
+      {
+        "path": "tools/rtsp-fixture/start_stack.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "2a6971e2ea4bd4eee0d5cf583ba192f205322856",
+        "size": 3415,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/2a6971e2ea4bd4eee0d5cf583ba192f205322856"
+      },
+      {
+        "path": "tools/rtsp-fixture/test_shutdown.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "0d9d39a09e8d0fbfdd2b8f51b036d16e27356df7",
+        "size": 1910,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/0d9d39a09e8d0fbfdd2b8f51b036d16e27356df7"
+      },
+      {
+        "path": "tools/rtsp-fixture/test_verify_e2e.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98c2d1f58042db7b655c7f40f7deebabdbb1e7d6",
+        "size": 5883,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/98c2d1f58042db7b655c7f40f7deebabdbb1e7d6"
+      },
+      {
+        "path": "tools/rtsp-fixture/truth.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "112b2d3344a83635dd41ea4d8b21b919acf37a8c",
+        "size": 4862,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/112b2d3344a83635dd41ea4d8b21b919acf37a8c"
+      },
+      {
+        "path": "tools/rtsp-fixture/verify_e2e.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0853e62189a155666f48347a95ee5a93789ec1c",
+        "size": 34091,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/a0853e62189a155666f48347a95ee5a93789ec1c"
+      },
+      {
+        "path": "tools/rtsp-fixture/verify_ws_catchup.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ffdcf2ef5be726dcd89fb49288d999fbf400ea1",
+        "size": 5918,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/6ffdcf2ef5be726dcd89fb49288d999fbf400ea1"
+      },
+      {
+        "path": "web",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "554008885423c39d16c42480a0efaeee6c2912ee",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/554008885423c39d16c42480a0efaeee6c2912ee"
+      },
+      {
+        "path": "web/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7008a0e803c41934e836c4c367b68a0958a048c1",
+        "size": 6318,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7008a0e803c41934e836c4c367b68a0958a048c1"
+      },
+      {
+        "path": "web/dist",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cc0d05df96ae8a2b05b5f94985b514455109a6de",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/cc0d05df96ae8a2b05b5f94985b514455109a6de"
+      },
+      {
+        "path": "web/dist/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0737a5d5a0a6e0e139121af709a34e4bb34a27e1",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/0737a5d5a0a6e0e139121af709a34e4bb34a27e1"
+      },
+      {
+        "path": "web/dist/assets/alert.mp3",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e380e18f714db1c3b8dbdc971f233b96b518655e",
+        "size": 2578,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/e380e18f714db1c3b8dbdc971f233b96b518655e"
+      },
+      {
+        "path": "web/dist/css",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4cdaa2cfc4f9509395e21871b5592c7f6f7b36d5",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/4cdaa2cfc4f9509395e21871b5592c7f6f7b36d5"
+      },
+      {
+        "path": "web/dist/css/app.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf52d6861a7354cc915d82941b7f895950f5c9be",
+        "size": 29740,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/cf52d6861a7354cc915d82941b7f895950f5c9be"
+      },
+      {
+        "path": "web/dist/index.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa73ff3e98b8911e8361eebd869b5b4e4bcfe1ef",
+        "size": 601,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/aa73ff3e98b8911e8361eebd869b5b4e4bcfe1ef"
+      },
+      {
+        "path": "web/dist/js",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d2aa77de59f6008741e2dc98ddecbe7e6f7d2932",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/d2aa77de59f6008741e2dc98ddecbe7e6f7d2932"
+      },
+      {
+        "path": "web/dist/js/api.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d88f530a868832a8f55c28f3060168e8f2648f1",
+        "size": 5714,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7d88f530a868832a8f55c28f3060168e8f2648f1"
+      },
+      {
+        "path": "web/dist/js/components",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6e9e59305eb37cb9b3374a0361acff61caff628b",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/6e9e59305eb37cb9b3374a0361acff61caff628b"
+      },
+      {
+        "path": "web/dist/js/components/topbar.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a90fa9add4c52d9653852b326a24c9504ee032f",
+        "size": 3230,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/3a90fa9add4c52d9653852b326a24c9504ee032f"
+      },
+      {
+        "path": "web/dist/js/components/ui.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f4e8e58a6319308f0ddcc187edef7151765cd586",
+        "size": 4156,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f4e8e58a6319308f0ddcc187edef7151765cd586"
+      },
+      {
+        "path": "web/dist/js/coords.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "583a33ef4eebfc157cac7323ac77b5eceab3c863",
+        "size": 4651,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/583a33ef4eebfc157cac7323ac77b5eceab3c863"
+      },
+      {
+        "path": "web/dist/js/i18n.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c88838c0eaf032c6b04931d8e7ab0ee727286c35",
+        "size": 31073,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/c88838c0eaf032c6b04931d8e7ab0ee727286c35"
+      },
+      {
+        "path": "web/dist/js/icons.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e74d21436fb93164d982fab5f9b305a3426a1d9b",
+        "size": 2406,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/e74d21436fb93164d982fab5f9b305a3426a1d9b"
+      },
+      {
+        "path": "web/dist/js/main.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de261e11f2ec8c208f5261929842ef7cb2d47d5d",
+        "size": 4392,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/de261e11f2ec8c208f5261929842ef7cb2d47d5d"
+      },
+      {
+        "path": "web/dist/js/notify.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f735517c073ec499d4b7928e7806ea9658f76029",
+        "size": 2006,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f735517c073ec499d4b7928e7806ea9658f76029"
+      },
+      {
+        "path": "web/dist/js/pages",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5edf5dac542e0aa892d68455dabd4c1f9637e666",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/5edf5dac542e0aa892d68455dabd4c1f9637e666"
+      },
+      {
+        "path": "web/dist/js/pages/alerts.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "101a4c643cc171ec522121410c2ac1f80f412bf4",
+        "size": 23444,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/101a4c643cc171ec522121410c2ac1f80f412bf4"
+      },
+      {
+        "path": "web/dist/js/pages/debug.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb751e9ea3d4a480a332430d622a3974a5a4b865",
+        "size": 564,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/bb751e9ea3d4a480a332430d622a3974a5a4b865"
+      },
+      {
+        "path": "web/dist/js/pages/devices.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3dc43ca6f364180fab035687cb1acb45bdcc80a5",
+        "size": 13562,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/3dc43ca6f364180fab035687cb1acb45bdcc80a5"
+      },
+      {
+        "path": "web/dist/js/pages/login.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1e5803289053fc0efdd52009f8bad0c166fe395",
+        "size": 4270,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/f1e5803289053fc0efdd52009f8bad0c166fe395"
+      },
+      {
+        "path": "web/dist/js/pages/rules.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f2daf561c81c7478eb2941810d9c9ba59a0905e",
+        "size": 30500,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/2f2daf561c81c7478eb2941810d9c9ba59a0905e"
+      },
+      {
+        "path": "web/dist/js/pages/wall.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "63dce99212f17488b72c9c3b3b6350e283ddc2e8",
+        "size": 22902,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/63dce99212f17488b72c9c3b3b6350e283ddc2e8"
+      },
+      {
+        "path": "web/dist/js/router.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f45ef22228919853c3919988bd3aab4d91376c8",
+        "size": 2570,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/8f45ef22228919853c3919988bd3aab4d91376c8"
+      },
+      {
+        "path": "web/dist/js/sound.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ded00827fb6eed1d7aef44def89cd5b23a5f09bb",
+        "size": 1940,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ded00827fb6eed1d7aef44def89cd5b23a5f09bb"
+      },
+      {
+        "path": "web/dist/js/store.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdd11b48f83717a560ccd3dd48c6e780ad2eb81a",
+        "size": 4232,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/bdd11b48f83717a560ccd3dd48c6e780ad2eb81a"
+      },
+      {
+        "path": "web/dist/js/undo.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "729056f30edc7169736f93f48a439d935482a4cd",
+        "size": 3690,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/729056f30edc7169736f93f48a439d935482a4cd"
+      },
+      {
+        "path": "web/dist/js/util.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fafde612bc31aeb9e602a0ba07bfce012bd1b5f7",
+        "size": 4953,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/fafde612bc31aeb9e602a0ba07bfce012bd1b5f7"
+      },
+      {
+        "path": "web/dist/js/wall.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7395dd75ec7e541b0b8c29b48bbf766180ae10fa",
+        "size": 12209,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/7395dd75ec7e541b0b8c29b48bbf766180ae10fa"
+      },
+      {
+        "path": "web/dist/js/ws.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8370e37304f6fe85a5a3a0185d9059af773fa4b",
+        "size": 5357,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/a8370e37304f6fe85a5a3a0185d9059af773fa4b"
+      },
+      {
+        "path": "web/dist/vendor",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8ccd4bc1f4a71ad2da11088c45099594fd1a83e9",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/8ccd4bc1f4a71ad2da11088c45099594fd1a83e9"
+      },
+      {
+        "path": "web/dist/vendor/preact-htm.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "195177f6a8bcb3ca3d9690d2aeec37379724ec0e",
+        "size": 15848,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/195177f6a8bcb3ca3d9690d2aeec37379724ec0e"
+      },
+      {
+        "path": "web/mock-server.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "391490877fce64dc48a92d6a1f18726684ba9ba6",
+        "size": 36396,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/391490877fce64dc48a92d6a1f18726684ba9ba6"
+      },
+      {
+        "path": "web/mock",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c863bea0fb7f0cd7e67624a8a4f055fdc945a84f",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/c863bea0fb7f0cd7e67624a8a4f055fdc945a84f"
+      },
+      {
+        "path": "web/mock/preview-1280x960.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd8cb7cb729559258d5be1337f3e97c27f52688c",
+        "size": 49481,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/bd8cb7cb729559258d5be1337f3e97c27f52688c"
+      },
+      {
+        "path": "web/mock/preview-1920x1080.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6fdda8e8a4b0dbd7afd9c41bf7a080af43d18e81",
+        "size": 67510,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/6fdda8e8a4b0dbd7afd9c41bf7a080af43d18e81"
+      },
+      {
+        "path": "web/mock/snapshot.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b083ce8b853dd8608e1d3b3254c3b08d3f64b72d",
+        "size": 13202,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/b083ce8b853dd8608e1d3b3254c3b08d3f64b72d"
+      },
+      {
+        "path": "web/screenshots",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c1d24e3c32ee98c7df1aae8f4cd47aaf62d65463",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/c1d24e3c32ee98c7df1aae8f4cd47aaf62d65463"
+      },
+      {
+        "path": "web/screenshots/01-login-zh.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c9d18a3d5e06436ab8c11528bad335aeefacd5e",
+        "size": 14700,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/5c9d18a3d5e06436ab8c11528bad335aeefacd5e"
+      },
+      {
+        "path": "web/screenshots/02-workbench-disposition-undobar.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "977bcccf60d4232d9f7b3f7d78d195d6df1caf00",
+        "size": 93209,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/977bcccf60d4232d9f7b3f7d78d195d6df1caf00"
+      },
+      {
+        "path": "web/screenshots/03-workbench-en-batch-mode.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "888b24ba547d1bc2002ad3bbe6d34cfb7ab97a44",
+        "size": 101672,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/888b24ba547d1bc2002ad3bbe6d34cfb7ab97a44"
+      },
+      {
+        "path": "web/screenshots/04-rules-preview-backdrop-seeded.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29ff7dffc93be034b9ad2b7a5bc3a34be4d8fbde",
+        "size": 72302,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/29ff7dffc93be034b9ad2b7a5bc3a34be4d8fbde"
+      },
+      {
+        "path": "web/screenshots/05-rules-letterbox-draw-zone-line-forward.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9463b72c16901c87979d0341731f0c841d6a3e64",
+        "size": 70453,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/9463b72c16901c87979d0341731f0c841d6a3e64"
+      },
+      {
+        "path": "web/screenshots/06-rules-saved-rev2-simulate.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9cccb5412f6e294e8a3901d0f84f9f4668ab8ab1",
+        "size": 72084,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/9cccb5412f6e294e8a3901d0f84f9f4668ab8ab1"
+      },
+      {
+        "path": "web/screenshots/07-rules-validation-400-issues.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d00edd3dbf7e850b3b551172f08cfd5864892e5e",
+        "size": 72098,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/d00edd3dbf7e850b3b551172f08cfd5864892e5e"
+      },
+      {
+        "path": "web/screenshots/08-devices-table.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "451c5635793e4ad35f2cab1e33c5cf9874e3a1e9",
+        "size": 35651,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/451c5635793e4ad35f2cab1e33c5cf9874e3a1e9"
+      },
+      {
+        "path": "web/screenshots/09-devices-config-panel.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d75ba2c8586dab4c527813b9254a95777776b92a",
+        "size": 43119,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/d75ba2c8586dab4c527813b9254a95777776b92a"
+      },
+      {
+        "path": "web/screenshots/10-devices-lwt-offline-decode-sw.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5666c03967e85c6045425ef8441d9b2f94431447",
+        "size": 44164,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/5666c03967e85c6045425ef8441d9b2f94431447"
+      },
+      {
+        "path": "web/screenshots/11-alert-detail-modal.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6176f4aa1d716006f11cc6bd1f8a09221ebf823f",
+        "size": 71728,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/6176f4aa1d716006f11cc6bd1f8a09221ebf823f"
+      },
+      {
+        "path": "web/screenshots/12-export-csv-dialog.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9905d8f3b4a601874279b60a0473463044083efe",
+        "size": 63817,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/9905d8f3b4a601874279b60a0473463044083efe"
+      },
+      {
+        "path": "web/screenshots/13-ws-disconnected-banner.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b312fe5b5413c899d6b4f68dc2873fd43d64339",
+        "size": 61802,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/5b312fe5b5413c899d6b4f68dc2873fd43d64339"
+      },
+      {
+        "path": "web/screenshots/14-ws-reconnected.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba08771223e9575a14b8616037e2b9cab4044342",
+        "size": 95118,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/ba08771223e9575a14b8616037e2b9cab4044342"
+      },
+      {
+        "path": "web/screenshots/15-debug-placeholder.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d544f97af4a3468fce063f3e3bb0c8f2b998bfbd",
+        "size": 24351,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/d544f97af4a3468fce063f3e3bb0c8f2b998bfbd"
+      },
+      {
+        "path": "web/screenshots/16-login-must-change.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "28b595cc3c18824b97c17aa024f5b55055dff5be",
+        "size": 16041,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/28b595cc3c18824b97c17aa024f5b55055dff5be"
+      },
+      {
+        "path": "web/tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d25454bb67046231b946917bf1fd70272a7c1ef9",
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/trees/d25454bb67046231b946917bf1fd70272a7c1ef9"
+      },
+      {
+        "path": "web/tools/check-i18n.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a03c658f0a93af41f5a886ee6a85d1c4a1bb039a",
+        "size": 3068,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/a03c658f0a93af41f5a886ee6a85d1c4a1bb039a"
+      },
+      {
+        "path": "web/tools/check-streams-shape.mjs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6aa2f8abf5d1f8aea75b74271e1b394fff2ed9c8",
+        "size": 6732,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/6aa2f8abf5d1f8aea75b74271e1b394fff2ed9c8"
+      },
+      {
+        "path": "web/tools/test-coords.mjs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e80cf77d9c36f333c03a7bd068c8340a442ba0c",
+        "size": 4903,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/0e80cf77d9c36f333c03a7bd068c8340a442ba0c"
+      },
+      {
+        "path": "web/tools/test-store.mjs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "838feee5044a6aba592705f97f4c371d3fefd769",
+        "size": 2779,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/838feee5044a6aba592705f97f4c371d3fefd769"
+      },
+      {
+        "path": "web/tools/test-wall.mjs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ed0bb9536c89281e54ee67f1bc2b46284a9e0ca",
+        "size": 17447,
+        "url": "https://api.github.com/repos/suharvest/edge-security-kit/git/blobs/8ed0bb9536c89281e54ee67f1bc2b46284a9e0ca"
+      }
+    ],
+    "truncated": false
+  }
+}

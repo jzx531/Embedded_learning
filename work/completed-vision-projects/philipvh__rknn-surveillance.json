@@ -1,0 +1,1105 @@
+{
+  "repository": "philipvh/rknn-surveillance",
+  "fetched_at_utc": "2026-11-23T05:10:09.8103870Z",
+  "metadata": {
+    "id": 1341835269,
+    "node_id": "R_kgDOT_rIBQ",
+    "name": "rknn-surveillance",
+    "full_name": "philipvh/rknn-surveillance",
+    "private": false,
+    "owner": {
+      "login": "philipvh",
+      "id": 5840552,
+      "node_id": "MDQ6VXNlcjU4NDA1NTI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5840552?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/philipvh",
+      "html_url": "https://github.com/philipvh",
+      "followers_url": "https://api.github.com/users/philipvh/followers",
+      "following_url": "https://api.github.com/users/philipvh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/philipvh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/philipvh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/philipvh/subscriptions",
+      "organizations_url": "https://api.github.com/users/philipvh/orgs",
+      "repos_url": "https://api.github.com/users/philipvh/repos",
+      "events_url": "https://api.github.com/users/philipvh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/philipvh/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/philipvh/rknn-surveillance",
+    "description": "Offline surveillance for Rockchip NPU boards. YOLO detection via the RKNN runtime, PTZ control, PIR trigger on GPIO, and a wall panel that works on an ancient Android tablet. Records events rather than hours: each incident becomes one clip, leaving out the quiet moments. Internet access is possible but not required. Optional LoRa alerting.",
+    "fork": false,
+    "url": "https://api.github.com/repos/philipvh/rknn-surveillance",
+    "forks_url": "https://api.github.com/repos/philipvh/rknn-surveillance/forks",
+    "keys_url": "https://api.github.com/repos/philipvh/rknn-surveillance/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/philipvh/rknn-surveillance/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/philipvh/rknn-surveillance/teams",
+    "hooks_url": "https://api.github.com/repos/philipvh/rknn-surveillance/hooks",
+    "issue_events_url": "https://api.github.com/repos/philipvh/rknn-surveillance/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/philipvh/rknn-surveillance/events",
+    "assignees_url": "https://api.github.com/repos/philipvh/rknn-surveillance/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/philipvh/rknn-surveillance/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/philipvh/rknn-surveillance/tags",
+    "blobs_url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/philipvh/rknn-surveillance/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/philipvh/rknn-surveillance/languages",
+    "stargazers_url": "https://api.github.com/repos/philipvh/rknn-surveillance/stargazers",
+    "contributors_url": "https://api.github.com/repos/philipvh/rknn-surveillance/contributors",
+    "subscribers_url": "https://api.github.com/repos/philipvh/rknn-surveillance/subscribers",
+    "subscription_url": "https://api.github.com/repos/philipvh/rknn-surveillance/subscription",
+    "commits_url": "https://api.github.com/repos/philipvh/rknn-surveillance/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/philipvh/rknn-surveillance/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/philipvh/rknn-surveillance/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/philipvh/rknn-surveillance/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/philipvh/rknn-surveillance/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/philipvh/rknn-surveillance/merges",
+    "archive_url": "https://api.github.com/repos/philipvh/rknn-surveillance/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/philipvh/rknn-surveillance/downloads",
+    "issues_url": "https://api.github.com/repos/philipvh/rknn-surveillance/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/philipvh/rknn-surveillance/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/philipvh/rknn-surveillance/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/philipvh/rknn-surveillance/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/philipvh/rknn-surveillance/labels{/name}",
+    "releases_url": "https://api.github.com/repos/philipvh/rknn-surveillance/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/philipvh/rknn-surveillance/deployments",
+    "created_at": "2026-08-21T13:22:00Z",
+    "updated_at": "2026-10-27T21:49:19Z",
+    "pushed_at": "2026-10-27T21:49:14Z",
+    "git_url": "git://github.com/philipvh/rknn-surveillance.git",
+    "ssh_url": "git@github.com:philipvh/rknn-surveillance.git",
+    "clone_url": "https://github.com/philipvh/rknn-surveillance.git",
+    "svn_url": "https://github.com/philipvh/rknn-surveillance",
+    "homepage": "",
+    "size": 763,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 0,
+    "subscribers_count": 0
+  },
+  "readme_path": "README.md",
+  "readme": "# rknn-surveillance\n\nOffline surveillance for a Rockchip NPU board: YOLOv10 detection through the\nRKNN runtime, PTZ control, a PIR contact on GPIO, and a wall panel that works\non an Android tablet old enough to be stuck on an ES5 browser.\n\nDeveloped on a Radxa Rock 5B (RK3588) against a tennis club's vandalism\nproblem, but nothing here is specific to either. The model is a config value,\nthe board only has to run the RKNN runtime, and the site's name, trigger\nclasses and schedule are all settings.\n\nInternet access is possible but not required. The panel is served from the\nboard over the local network and everything works with no uplink at all; where\nthere is no internet — as at this club — an optional point-to-point LoRa link\ncan still carry an alert to somebody's house, and that far end is the only part\nthat needs to be online.\n\n> **This is a hobby project that runs at one tennis club.** It aids\n> surveillance; it does not guarantee it. See [NOTICE](NOTICE) before relying\n> on it for anything.\n\n## Why it might be useful to you\n\nMost of this is not tennis-specific. If you are putting a camera on an RK3588\nboard, these parts are worth stealing:\n\n- **`yolov10.py` + `preprocess.py`** — running the model zoo's YOLOv10 export\n  without the demo scaffolding, and letterboxing 16:9 into 640×640 rather than\n  squashing it. Squashing makes a standing person short and wide; on one test\n  image it found two people where letterboxing found three.\n- **`capture.py`** — a two-state recording model that keeps footage\n  proportional to *events* rather than to *time*. In `ready`, each new minute\n  drops the previous one. In `triggered`, everything is kept and the minutes\n  are concatenated into one clip when the event ends.\n- **`concat_mgr.py`** — joining ffmpeg segments with `-c copy` (no re-encode),\n  validating the result before deleting the sources, and putting the `moov`\n  atom at the front so a tablet can start playing without fetching the whole\n  file.\n- **`ptz.py`** — driving a camera whose move commands run until stopped.\n  Four independent layers of defence against leaving the motors running,\n  because the failure mode is a motor that burns out overnight.\n- **`health.py`** — a systemd watchdog ping that is *conditional on frames\n  still arriving*. A watchdog that always pings never fires.\n\n## Hardware\n\n| | |\n|---|---|\n| Board | Radxa Rock 5B (RK3588), 8 GB |\n| Model | YOLOv10s, converted to `.rknn` for the NPU |\n| Camera | Foscam SD2X (PTZ dome) — developed against an INSTAR IN-8415 |\n| Trigger | PIR floodlight sensor, dry contact to GPIO |\n| Panel | Samsung Galaxy Tab S, wall-mounted |\n| Storage | separate ext4 volume; recordings never share the root filesystem |\n\n## Getting it running\n\n```bash\ngit clone https://github.com/philipvh/rknn-surveillance\ncd rknn-surveillance\n\ncp config.local.example.yaml config.local.yaml   # your camera's address\ncp secrets.example.yaml secrets.yaml             # camera + panel passwords\nchmod 600 secrets.yaml\n\n# The model is not in the repo: it is Rockchip's, and 16 MB. Convert\n# yolov10s.onnx with the rknn toolkit, or copy model/yolov10.rknn from\n# https://github.com/airockchip/rknn_model_zoo (examples/yolov10).\nmkdir -p model && cp /path/to/yolov10.rknn model/\n\n./install.sh        # packages, systemd unit, journal cap\n./doctor.py         # checks the config, the camera, the disk and the clock\n```\n\nThe panel is then on `http://<board>:8081/`.\n\n`./deploy.sh user@board --watch --restart` re-syncs on every save while you\nwork on it, and restarts the service.\n\nTwo optional services, each installed once and configured from the panel\nafterwards:\n\n```bash\nsudo bash forwarder.sh install   # publish device pages (Settings -> Forwarding)\nsudo bash wan_meter.sh install   # count only the traffic that leaves the site\n```\n\nNeither is needed to record. Skip the meter if the uplink is not metered, and\nskip the forwarder if nothing sits on a segment you cannot already reach.\n\nTo get notifications on a phone, subscribe the [ntfy](https://ntfy.sh) app to\na topic of your own and put it in `secrets.yaml`:\n\n```bash\nopenssl rand -hex 16          # the topic is a password, not a name\n```\n\n```yaml\n# secrets.yaml\nnotify:\n  topic: \"<that random string>\"\n```\n\nThen set `notify.enabled: true` and `alerts.shadow_only: false`. Run\n`./review.py` against a fortnight of shadow log first: it will tell you how\nmany notifications a night you are signing up for, before your phone does.\n\n### Reaching the panel from outside\n\nA phone on the site's own wifi needs nothing. From elsewhere there are three\nshapes, and the board does not care which you pick:\n\n* **A VPN you already run.** The panel is just a web page on the board.\n* **Tailscale** — `sudo bash tailscale.sh install` then `up`. No ports, no\n  DNS, no certificates, and a tailnet address is neither trusted nor\n  directly attached, so a phone gets the password prompt and the metered\n  picture without any configuration.\n* **A public URL** — `tailscale.sh funnel on`, or a tunnel/reverse proxy of\n  your own.\n\nThe last one needs `web.trusted_proxies` set first, and this is not optional.\nEverything in front of the panel proxies from `127.0.0.1`, and three separate\ndecisions are taken from the client's address: whether a password is needed,\nwhether the picture costs money, and whose session is whose. Without it every\nvisitor is read as the proxy — one shared session, so the limit guards the\ntunnel rather than the people, and full-quality video with no cap. `tailscale.sh`\nrefuses to turn Funnel on until it is set; a proxy of your own will not.\n\nAnd resist the obvious shortcut when the password prompt gets annoying:\n**do not add the proxy's address to the trusted networks.** That is the one\nedit that turns a public URL into an open one.\n\n## What it does\n\n**Recording.** Two states. `ready` keeps one minute as pre-roll and throws the\nrest away. A trigger — the detector or the PIR — switches to `triggered`, where\nevery minute is kept and an annotated still is written each second. A minute\nwith no trigger returns it to `ready`, at which point the minutes become one\nclip and the sources are deleted. A clip is capped at ten minutes, and a\nwindow longer than that is **split into consecutive clips** rather than\ntruncated -- keeping only the first ten minutes and letting the keeper reclaim\nthe rest cost this club four days of footage once, and there is a test named\nafter it.\n\n**Triggering.** Configurable COCO classes, tickable from the panel without a\nrestart. Everything else is still detected and drawn dimmed on the live view,\nso you can tell *not detecting* apart from *detecting things we don't care\nabout*.\n\n**Reviewing.** A media browser with a film strip grouped by clip, collapsible\nlike a tree, and a resizable divider. Stills and video share one selected\nmoment, so switching tabs keeps your place.\n\n**Alerting.** Five gates in order, cheapest and most decisive first: the armed\nschedule, PIR corroboration, persistence (duration, sightings, confidence),\nthe class gate, and a rate limit. Every decision is written to a shadow log\nwith the reason it passed or failed — including the rejects, which is what\nmakes \"it is quiet\" distinguishable from \"it is broken and quiet\".\n\nThe class gate exists because cats and birds cross a tennis court at three in\nthe morning. Recording still triggers on the wider set — that footage is worth\nkeeping — while only `person` and vehicles are worth a phone buzzing. It\npasses when *any* label qualifies, so a cat in frame cannot suppress the\nperson beside it.\n\n**Deterring.** Three rungs, in order of how much they cost to be wrong about:\nthe wall panel's screen goes to full brightness, the camera turns to face what\nit saw, and the speaker says something. The screen idles dim rather than\nblanked — a blanked Android screen suspends the page's timers, so the panel\nstops polling and looks dead from the board's side, and a dim panel is still\none somebody can read. All three hang off the same state transition, so a path\nadded later cannot miss them.\n\nThe bright time is capped, because a trigger extends the wake window and a\ntournament produces triggers faster than the window expires: the panel would\nhave sat at full brightness all afternoon and lost the charge race the dimming\nwas introduced to win. After `max_bright_seconds` it drops to dim and refuses\nto brighten for `cooldown_seconds` — at most five minutes bright in any\nfifteen, whatever happens on the courts. The spell resets only after a full\ncooldown of quiet, so activity arriving every few minutes accumulates towards\nthe cap instead of restarting the clock forever. It costs little as\ndeterrence: nobody is burgling the place during a tournament, and at night the\nfirst trigger still brightens the panel at once.\n\nA hand on the glass is its own reason to be bright, with its own budget.\nRefusing somebody standing at the panel because the courts had been busy would\nmake it look broken at the one moment it has an audience; it is also\nself-limiting, since it lasts only as long as a hand keeps it going. The page\nreports its own touches — Fully knows only the *time* of the last one, and\npolling the tablet every second to catch it would cost more than the screen\ndoes.\n\nThe dimming itself is done in pixels rather than in Android. Fully accepts\n`screenBrightness`, answers `Saved and applied`, and changes nothing: on\nAndroid 6 that needs WRITE_SETTINGS, and this tablet's build has no screen to\ngrant it on — `android.settings.MANAGE_WRITE_SETTINGS` resolves to no activity\nat all. So the panel page covers itself in black instead. On the Tab S's AMOLED\na black pixel is an unlit pixel, which is most of the way to the screen being\noff, while the page stays alive, keeps polling, and feels the first touch. It\nalso spares the panel the burn-in of a static UI held bright for hours. On the\nway down the board sends the panel back to its own page, because a tablet left\non the clips browser is a tablet with no cover to draw — and only when it is\nactually showing something else, since an unconditional reload throws up a\nwhite loading page every time the panel settles. The cover belongs to that one\ntablet and is handed out by address: the same page runs on phones on the club\nwifi and on a laptop at the far end of the tunnel, and a viewer whose screen\nwent black because a tablet in the clubhouse fell asleep would have nothing on\nscreen to explain it. Their touches stay theirs too — a tap at home does not\nlight a screen in an empty clubhouse.\n\n**Notifying.** A push notification to a phone via [ntfy](https://ntfy.sh),\nwith the incident's still attached, downscaled first because this runs on a\nmobile bundle — a 277 kB still goes out as 26 kB. The policy above decides\n*whether*; `notify.py` only carries the verdict, so a second way out of the\nbuilding does not mean a second set of rules about when to use it. Nothing is\nbuilt at all while `alerts.shadow_only` is true. There is an optional LoRa\nuplink too, with ChaCha20-Poly1305 and a replay guard, for a site with no\nmobile signal.\n\nOn a public ntfy server the topic *is* the password — anyone who knows it can\nread every alert and see the stills — so it lives in `secrets.yaml`, wants to\nbe long and random, and is never echoed in status output.\n\n**Predicting the volume before switching it on.** The shadow log stores the\nraw facts each decision was made from, not just the verdict, so `review.py`\ncan replay a fortnight against thresholds nobody has tried yet. That turned\n\"will this flood my phone?\" into a number: 12 alerts over 37 days, 0.32 a\nnight, worst night 5. It also caught two things worth catching — that\n`require_pir` was rejecting 636 of 710 incidents at a site with no PIR wired,\nso nothing could ever have been sent; and that arming at 21:00 at weekends was\nalerting on the club's own members, who play until 23:00.\n\nThe shadow log exists because the previous system at this club was abandoned\nafter it flooded everyone with false alarms — see\n[the write-up](#the-write-up).\n\n**Access.** Watching and changing are separate questions. Trusted networks\ndecide who can *watch* without a password; two independent switches decide\nwhether the **settings pages** and **manual control** still ask for one even\nthere. With either on, the panel shows a single *Sign in as manager* button in\nplace of Settings -- a short-lived signed cookie rather than a browser prompt,\nbecause on an old tablet a Basic-auth box can surface out of an XHR mid-stream\nand cannot be signed out of. It lapses after `web.manager_minutes` (30), so a\npanel somebody unlocked and walked away from re-locks itself. Being on the VPN\ndoes not bypass it; a lock the tunnel skipped would only stop people standing\nin the room.\n\n**Forwarding.** A camera or router on a segment you cannot route to, published\non a board port and configured from the panel (*Settings -> Forwarding*). It is\na Host-rewriting reverse proxy, not an iptables DNAT: a DNAT leaves the HTTP\npayload alone, so it works only on devices that ignore `Host`. Measured here,\nthe camera returns 200 for any `Host` while the 4G router redirects everything\nbut its own address to an address the client cannot reach. Every entry is\nchecked against the networks the board is *directly attached to*, so a forward\ncannot be pointed at the internet, at the far side of the tunnel, or at the\nboard itself.\n\n**Metering.** On a mobile bundle, video is the only thing big enough to matter:\nthe overlay view runs about 0.8 GB an hour. Remote viewers get a smaller,\nslower picture and a session that stops itself; viewers on the board's own\nwiring get the full thing. Which networks count as \"own wiring\" is read from\nthe kernel's routing table, not configured -- tunnels excluded, because a\nviewer down the tunnel is exactly who costs money. Usage is counted with\niptables counters that skip every directly-attached subnet, so the wall panel's\nown video is not billed as mobile data.\n\n## Layout\n\n| | |\n|---|---|\n| `surveillance_main.py` | wiring: everything is constructed here |\n| `surveillance_core.py` | the detection loop |\n| `controller.py` | the state machine; the only thing that moves the camera |\n| `capture.py` `concat_mgr.py` `annotated.py` | what is kept, and how clips are made |\n| `webapp.py` `templates/` | the panel and the media browser |\n| `ptz.py` `tracker.py` | camera control: deadlines, motor budget, watchdog |\n| `camera/` | one file per camera make -- the only place a vendor protocol lives |\n| `alerts.py` `review.py` | the gates, the shadow log, and replaying it |\n| `notify.py` | the push notification, and the still that goes with it |\n| `kiosk.py` | the wall panel's screen, as a deterrent rather than a display |\n| `link.py` `uplink.py` `transports.py` `receiver.py` | the radio link |\n| `settings.py` `settings_cli.py` | panel-editable settings, and the shell rescue |\n| `netinfo.py` | which networks this board is on, read from the routing table |\n| `forwarder.py` `forwarder.sh` | device web pages published on board ports |\n| `datausage.py` `wan_meter.sh` | the mobile bundle, counting only what leaves the site |\n| `doctor.py` | one command that says whether this install is healthy |\n| `setup_network.sh` `wan_ports.sh` `tailscale.sh` | the camera segment, and reaching the board from outside (`camera_ui.sh` is superseded by the forwarder) |\n\n## Cameras\n\nThe camera's protocol is isolated in `camera/`. Everything else -- the state\nmachine, the panel, recording -- is written against one small interface, so a\ndifferent camera is a subclass rather than a fork.\n\n```yaml\ncamera:\n  type: foscam        # a backend in camera/, or yourpkg.module:YourBackend\n  host: 192.168.1.50\n  user: admin\n```\n\nEach backend supplies the defaults for its make (ports, stream paths), so a\nconfig usually carries only what differs.\n\n### Adding one\n\n```python\nfrom camera import Cap, CameraBackend, register\n\nclass AxisBackend(CameraBackend):\n    name       = \"axis\"\n    HTTP_PORT  = 80\n    RTSP_PORT  = 554\n    MAIN_PATH  = \"axis-media/media.amp\"\n    SUB_PATH   = \"axis-media/media.amp?resolution=640x480\"\n    CAPABILITIES = {Cap.PRESETS, Cap.ZOOM, Cap.SNAPSHOT}\n\n    def start_move(self, direction): ...     # begin moving, return at once\n    def stop(self, kind=None, timeout=None): ...   # stop, or raise\n    # presets, zoom, snapshot, clock: implement what the camera has\n\nregister(AxisBackend)\n```\n\nThree methods is a working camera. Everything else is optional and raises\n`NotSupported`, which callers use to hide a control rather than to show an\nerror -- so a fixed camera with no presets degrades honestly instead of\nfailing at runtime.\n\n### The rule worth knowing before you start\n\n**A backend starts and stops motion. It never decides when.**\n\nDeadlines, the motor budget, the retry-until-confirmed stop, the rescue stop\nat startup and the watchdog all live in `ptz.py`, above the interface, and\napply to every backend equally. A backend that stopped itself -- \"I'll move\nfor two seconds\" -- would be outside the watchdog, and a camera outside the\nwatchdog is one that can be left grinding against its end stop when a process\ndies. `tests/test_camera.py::TestSomeoneElsesCamera` is the guard: a backend\nthat has never heard of `ptz.py` still gets the watchdog and the budget, and\nthat test failing means the abstraction has become a way to bypass the safety\nlayer instead of a way to inherit it.\n\n`stop()` carries the one hard obligation: stop the camera or raise. Returning\nquietly when the camera did not hear you is the worst thing a backend can do,\nbecause the layer above treats a clean return as proof and stops retrying.\n\n### Where the camera thinks it is pointing\n\nThis dome reports no absolute position: it counts steps from an origin it\ndecides on at power-up. So a power cut mid-move hands it a new origin, and\nevery saved preset is silently displaced by the same offset. Nothing in the\nsoftware can see it. The log still reads `incident closed ... at Home`,\nbecause \"at Home\" is the name it asked for, never what the lens saw.\n\nThat is not hypothetical. An electrician cut the club's power on 15 October\nwhile the camera was sweeping; it came back with its presets offset, and for\ntwelve days every return home parked it on a view of its own mount. The\ndetections kept coming and the health checks stayed green throughout.\n\nTwo things answer it, and they are both in the Manual tab:\n\n- **Calibrate** drives to the mechanical end stops, which are the one\n  position the hardware can find without being told. Presets saved after a\n  calibration survive a power cut, because the camera can get back to the\n  same origin by itself. It is blunt -- it leaves every existing preset\n  meaning the wrong thing -- so it confirms first and is never automatic.\n- **Set Home** now also pins that view as the camera's own post-boot\n  position. Saving home and surviving a power cut are one wish, and making\n  somebody express it twice is how the mount view happened.\n\nNeither helps if the camera slips while it is running, which it did once more\non the evening of 27 October with the mains perfectly steady. This class of\ncamera cannot be trusted to know where it is, so the only account worth\nhaving is a picture.\n\n**`aimwatch.py` keeps that account.** Once a day, from the parked position\nand with the motors settled, it takes one snapshot and asks whether the view\nstill matches a reference -- taken automatically whenever somebody presses\nSet Home, because saving the home position and saying \"watch this\" are the\nsame act. It costs one frame a day and no motor movement at all, which\nmatters: the alternative, a periodic calibration, drives both axes into their\nend stops on a schedule to fix a problem nobody has confirmed is there.\n\nIt measures a *shift*, not a difference. Two pictures of the same place at\nnoon and at midnight have almost no pixels in common; a difference score\nloose enough to survive that would be far too loose to notice a camera\npointing at a ceiling. Phase correlation finds how far the whole picture has\nmoved and divides the magnitude out of the spectrum, so what is left is\nalignment rather than contrast. Measured on real frames off the club camera:\n\n| | shift | confidence |\n|---|---|---|\n| two frames of the same aim, 45s apart | 0 | 238 |\n| the same aim, lit a quarter as brightly | 0 | 243 |\n| home against the view of its own mount | 33 | 7 |\n| home against the post-calibration aim | 56 | 9 |\n| home against a 2.4-second pan right | 30 | 7 |\n\nAnything still aimed where it was scores above 200; anything that is not\nscores under 10. The thresholds are not a matter of taste.\n\nThree things keep it from crying wolf, and one of them is the whole reason\nthe module can be trusted at all:\n\n- **A suspicious reading is looked at again two minutes later**, not\n  tomorrow. Somebody standing in front of the lens and a camera that has\n  moved are the same picture for about a minute.\n- **The check runs at the time of day the reference was taken.** A night\n  reference is never compared against noon.\n- **It reminds once a day while the view stays wrong.** Saying it once is how\n  a thing gets forgotten; saying it every check is how an ntfy topic gets\n  muted.\n\nTwo steps that looked careful did not survive measurement and were deleted:\ngradient magnitude instead of brightness, and subtracting the mean. Both left\nevery number in the third significant figure. A third -- the Hann window --\nearned its place the hard way: without it the club's real 2.4-second pan came\nback as shift 0.0 with a confidence saying the view was unchanged, which is\nthe exact failure the module exists to prevent.\n\n### Capabilities, and being honest about them\n\nCameras differ in ways callers care about. The shipped Foscam backend declares\nthat it *cannot* report absolute position -- `getPTZAbsolutePos` and friends\nanswer `result=-3` -- so anything wanting to draw a compass knows not to try.\nDeclare what yours can do and let the rest raise.\n\n\n## Tests\n\n```bash\npython3 -m unittest discover -s tests\n```\n\n786 of them, no network and no hardware required. They are written against\n*behaviour* rather than implementation, and several exist because the thing\nthey describe actually happened on the board — a sweep that deleted footage a\nqueued cut still needed, an incident that only lived in memory, a clip cap\nthat discarded four days rather than splitting them, a recorder that died at\nmidnight because a tidy-up removed the directory it was about to write to, a\nbrowser that ignores `scrollIntoView` options. Those are the ones worth\nreading first.\n\nEach one is checked by breaking the code it covers and confirming it fails.\nThat habit has paid for itself repeatedly: an \"expired cookie is refused\" test\npassed with the expiry check deleted, because it had also broken the signature\nand was being rejected for the wrong reason; a \"the wall tablet is never cut\noff\" test opened its first stream from the remote address and checked the\nlocal one, so it passed with the exemption removed. Both were rewritten.\n\n## The write-up\n\nA longer piece on the design decisions, the false-alarm problem, and eighteen\ndefects that only appeared on real hardware is published separately.\n\n## Licence\n\nApache 2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).\n\n`yolov10.py` is derived from Rockchip's `rknn_model_zoo` and carries its own\nattribution; it remains under the same licence.\n\nCopyright 2026 Philip van Houtte, magicview.tv, the Netherlands.\n",
+  "tree": {
+    "sha": "ca0d8485dd713bd65694e2887430c99b517c572f",
+    "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/trees/ca0d8485dd713bd65694e2887430c99b517c572f",
+    "tree": [
+      {
+        "path": ".deployignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e4cbd3a0cd671ea91ea761a34f4b9e97886a0eb3",
+        "size": 427,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/e4cbd3a0cd671ea91ea761a34f4b9e97886a0eb3"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "513546a3f8e7ca2f136e08e6ce31c2e5de05f51f",
+        "size": 605,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/513546a3f8e7ca2f136e08e6ce31c2e5de05f51f"
+      },
+      {
+        "path": "KIOSK.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3175fca492862ff53fff8b54af772a112e3e390d",
+        "size": 18193,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/3175fca492862ff53fff8b54af772a112e3e390d"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "size": 11357,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+      },
+      {
+        "path": "NOTICE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af33ee552eff3ecd8d30b09170f7b7d7d16071e6",
+        "size": 1673,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/af33ee552eff3ecd8d30b09170f7b7d7d16071e6"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35e5927f22e7c5efa8f93cae20a8d0039e73c445",
+        "size": 23494,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/35e5927f22e7c5efa8f93cae20a8d0039e73c445"
+      },
+      {
+        "path": "WIRING.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "757c5925b33df5871e61bc528de30e4c0a089135",
+        "size": 2681,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/757c5925b33df5871e61bc528de30e4c0a089135"
+      },
+      {
+        "path": "aimwatch.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4757f08ca15ef6ca3b0445c28fb8a4a5802d177c",
+        "size": 16877,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/4757f08ca15ef6ca3b0445c28fb8a4a5802d177c"
+      },
+      {
+        "path": "alerts.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6bd55d4611780f76cbf99e5330b61c946c549ec6",
+        "size": 11620,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/6bd55d4611780f76cbf99e5330b61c946c549ec6"
+      },
+      {
+        "path": "annotated.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1e4c45d76d2fce1c5c06c81f61ad8f69f7527587",
+        "size": 5326,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/1e4c45d76d2fce1c5c06c81f61ad8f69f7527587"
+      },
+      {
+        "path": "announcer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62d32f53dc586707a5cb6bc5a72f4ffe517a74fa",
+        "size": 7789,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/62d32f53dc586707a5cb6bc5a72f4ffe517a74fa"
+      },
+      {
+        "path": "camera",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8acca6475c496fb77edd915178edd730b744ab6f",
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/trees/8acca6475c496fb77edd915178edd730b744ab6f"
+      },
+      {
+        "path": "camera/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ac9eab8794fdc7c76ddb445251bab22329b644e",
+        "size": 1347,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/7ac9eab8794fdc7c76ddb445251bab22329b644e"
+      },
+      {
+        "path": "camera/base.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "593cb9ab3a3ba41a7f9752b99b0809228ee439fe",
+        "size": 9217,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/593cb9ab3a3ba41a7f9752b99b0809228ee439fe"
+      },
+      {
+        "path": "camera/foscam.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad77dd7d2407158bf28d4c73b1dcd55bd43ed5ea",
+        "size": 9506,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/ad77dd7d2407158bf28d4c73b1dcd55bd43ed5ea"
+      },
+      {
+        "path": "camera/registry.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "434bff603579e18ab9eeb197122e2ecd14ee9c8c",
+        "size": 2888,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/434bff603579e18ab9eeb197122e2ecd14ee9c8c"
+      },
+      {
+        "path": "camera_ui.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "680d091423ae3b5628936e88ea26222ff2b20301",
+        "size": 9090,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/680d091423ae3b5628936e88ea26222ff2b20301"
+      },
+      {
+        "path": "capture.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d50e37984800830d1e9248466dfc06072b27dcfc",
+        "size": 7326,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/d50e37984800830d1e9248466dfc06072b27dcfc"
+      },
+      {
+        "path": "concat_mgr.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a23f7188b21c36d0e178972ecb2560c14e1e900",
+        "size": 11586,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/9a23f7188b21c36d0e178972ecb2560c14e1e900"
+      },
+      {
+        "path": "config.local.example.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b251deeed38ecb4617f249c167654f24a4c431b0",
+        "size": 995,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/b251deeed38ecb4617f249c167654f24a4c431b0"
+      },
+      {
+        "path": "config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "662765437f1b548e41bd8e34017ec411d348aba7",
+        "size": 14498,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/662765437f1b548e41bd8e34017ec411d348aba7"
+      },
+      {
+        "path": "config.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "041a75e39d34c4b721e88f83ef5107f01c73c1e7",
+        "size": 25569,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/041a75e39d34c4b721e88f83ef5107f01c73c1e7"
+      },
+      {
+        "path": "controller.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c755438ae4780e25e527dad6b2096a347eab5855",
+        "size": 37475,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/c755438ae4780e25e527dad6b2096a347eab5855"
+      },
+      {
+        "path": "datausage.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c25368bf84f0941aea0eb055d64c542c22f1d1d",
+        "size": 12676,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/0c25368bf84f0941aea0eb055d64c542c22f1d1d"
+      },
+      {
+        "path": "deploy.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "0623d0b8255d7edbf82378dc1c84c97abab24d3d",
+        "size": 9010,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/0623d0b8255d7edbf82378dc1c84c97abab24d3d"
+      },
+      {
+        "path": "doctor.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "44975d3970df628164f9dbe9ffdc3afffa36873f",
+        "size": 16843,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/44975d3970df628164f9dbe9ffdc3afffa36873f"
+      },
+      {
+        "path": "finish_cleanup.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "bba19f12fe4c2cd962c5d1843e17a2949e7f2c78",
+        "size": 2246,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/bba19f12fe4c2cd962c5d1843e17a2949e7f2c78"
+      },
+      {
+        "path": "fix_unit.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "92a84499a49b6697b83a3e4d51e41a543fac8dbc",
+        "size": 3270,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/92a84499a49b6697b83a3e4d51e41a543fac8dbc"
+      },
+      {
+        "path": "format_data.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "535c39865e41115814f37b31a6ab034baa69b8ab",
+        "size": 6088,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/535c39865e41115814f37b31a6ab034baa69b8ab"
+      },
+      {
+        "path": "forwarder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64bf06405e363790fd14541fce52b3dd6847ddd6",
+        "size": 14180,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/64bf06405e363790fd14541fce52b3dd6847ddd6"
+      },
+      {
+        "path": "forwarder.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "33b1f049228be58487fc6e65c656865d55e0d9f1",
+        "size": 4247,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/33b1f049228be58487fc6e65c656865d55e0d9f1"
+      },
+      {
+        "path": "frames.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86a2670eda1b80240e9dfefd0e4a8f13df58046a",
+        "size": 3463,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/86a2670eda1b80240e9dfefd0e4a8f13df58046a"
+      },
+      {
+        "path": "health.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "918b6b7e30a11b2a781b075200049d09caf50e31",
+        "size": 10166,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/918b6b7e30a11b2a781b075200049d09caf50e31"
+      },
+      {
+        "path": "install.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4c49cd085c1b8184fbe219eb5eaab432cba87f5",
+        "size": 15408,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/a4c49cd085c1b8184fbe219eb5eaab432cba87f5"
+      },
+      {
+        "path": "kiosk.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5234f9ecfee0efda93494988bad21b9dbd68cae6",
+        "size": 25768,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/5234f9ecfee0efda93494988bad21b9dbd68cae6"
+      },
+      {
+        "path": "link.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a4cfbc8b0d36cfb704022763a5f5c3dcfb52298",
+        "size": 8480,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/9a4cfbc8b0d36cfb704022763a5f5c3dcfb52298"
+      },
+      {
+        "path": "link_cli.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "fbc890690adac48a0fb1fbbeaa26855fa0f08b87",
+        "size": 9936,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/fbc890690adac48a0fb1fbbeaa26855fa0f08b87"
+      },
+      {
+        "path": "linkcheck.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "91649df330ea47db23f8cf7af2335b1010d4bab6",
+        "size": 3403,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/91649df330ea47db23f8cf7af2335b1010d4bab6"
+      },
+      {
+        "path": "media_browser.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cbe6df102b75a3c8694dce07dd3021bada7f002c",
+        "size": 1753,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/cbe6df102b75a3c8694dce07dd3021bada7f002c"
+      },
+      {
+        "path": "migrate_data.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "e55b379e0e91adb4b8a075517850511e64fea2e5",
+        "size": 7680,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/e55b379e0e91adb4b8a075517850511e64fea2e5"
+      },
+      {
+        "path": "migrate_service.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "addafd68281d7c678ce05104b704106f84e65d9d",
+        "size": 3287,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/addafd68281d7c678ce05104b704106f84e65d9d"
+      },
+      {
+        "path": "model",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "68cb25ae277b4bd6563ac6c2d0bbc84e11c78ed8",
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/trees/68cb25ae277b4bd6563ac6c2d0bbc84e11c78ed8"
+      },
+      {
+        "path": "model/coco_80_labels_list.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "941cb4e1392266f6a6c09b1fdc5f79503b2e5df6",
+        "size": 621,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/941cb4e1392266f6a6c09b1fdc5f79503b2e5df6"
+      },
+      {
+        "path": "mount_data.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "8f2b8f3e60c2238ed2727e91c60b8d5f797717a1",
+        "size": 4586,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/8f2b8f3e60c2238ed2727e91c60b8d5f797717a1"
+      },
+      {
+        "path": "netinfo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a03a284dc0e4e94441d85b8dadb91811d5c668c",
+        "size": 4527,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/6a03a284dc0e4e94441d85b8dadb91811d5c668c"
+      },
+      {
+        "path": "notify.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6063acc72159c9b40b34e32c4b01f8c18db054bd",
+        "size": 10703,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/6063acc72159c9b40b34e32c4b01f8c18db054bd"
+      },
+      {
+        "path": "outbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29bf7d8111d73472cc530cdc64883a56722464b0",
+        "size": 11004,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/29bf7d8111d73472cc530cdc64883a56722464b0"
+      },
+      {
+        "path": "phase0_survey.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "2958c10f1c586b346605e19a39e8221b5b8b7f7a",
+        "size": 8454,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/2958c10f1c586b346605e19a39e8221b5b8b7f7a"
+      },
+      {
+        "path": "preprocess.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e1302c8a03602e21f50ff7c31625b40f44dbcc5e",
+        "size": 3544,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/e1302c8a03602e21f50ff7c31625b40f44dbcc5e"
+      },
+      {
+        "path": "ptz.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ebd81e59211e73cd6138a8c32d896f9da74575e4",
+        "size": 28356,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/ebd81e59211e73cd6138a8c32d896f9da74575e4"
+      },
+      {
+        "path": "ptz_cli.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "aef5456a7339e7f023a4a323895c1db5cec5c5e6",
+        "size": 11377,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/aef5456a7339e7f023a4a323895c1db5cec5c5e6"
+      },
+      {
+        "path": "purge_orphans.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "adbe19be5f039622d8db6461bdb510bfb49e045d",
+        "size": 3947,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/adbe19be5f039622d8db6461bdb510bfb49e045d"
+      },
+      {
+        "path": "rebuild_from_stills.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "6080961e0b8aae36c356abf322bdd6bbe722e476",
+        "size": 4593,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/6080961e0b8aae36c356abf322bdd6bbe722e476"
+      },
+      {
+        "path": "receiver.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "fbe48f0b4ec53fc9829ea0057bd6980798992320",
+        "size": 10819,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/fbe48f0b4ec53fc9829ea0057bd6980798992320"
+      },
+      {
+        "path": "recorder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cbc1c76b4e2f1099e6e8893e1a1b40d2fdd0604b",
+        "size": 11681,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/cbc1c76b4e2f1099e6e8893e1a1b40d2fdd0604b"
+      },
+      {
+        "path": "retention.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d5d4bfae1a49d7a1b49762701eee9ebdb5f6354f",
+        "size": 9591,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/d5d4bfae1a49d7a1b49762701eee9ebdb5f6354f"
+      },
+      {
+        "path": "review.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0951df6343d175e6cc4d2b6cca227daa7239601b",
+        "size": 5591,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/0951df6343d175e6cc4d2b6cca227daa7239601b"
+      },
+      {
+        "path": "run_test.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "2a41d1651bdb6d8ce2c3c9a75bd20afc1e0603a2",
+        "size": 2343,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/2a41d1651bdb6d8ce2c3c9a75bd20afc1e0603a2"
+      },
+      {
+        "path": "schedule.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2e3f9cf7da652ec26425860bf6eba1a379fda52f",
+        "size": 6114,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/2e3f9cf7da652ec26425860bf6eba1a379fda52f"
+      },
+      {
+        "path": "secrets.example.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb929cf468dc983bc2657a02e1f8ae89ed8c0f0c",
+        "size": 1267,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/bb929cf468dc983bc2657a02e1f8ae89ed8c0f0c"
+      },
+      {
+        "path": "segments.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e74ffd7b91bb0cbddbfa12ad3b6ce83cb1672ae",
+        "size": 5600,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/6e74ffd7b91bb0cbddbfa12ad3b6ce83cb1672ae"
+      },
+      {
+        "path": "settings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96138a1a38993c23545e2d8f1e87500279516d4b",
+        "size": 27209,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/96138a1a38993c23545e2d8f1e87500279516d4b"
+      },
+      {
+        "path": "settings_cli.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "3986f4279ec8506728fde3fdef0a75cd38620533",
+        "size": 9434,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/3986f4279ec8506728fde3fdef0a75cd38620533"
+      },
+      {
+        "path": "setup_network.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "c8d46bf12e33dc97b3f7b86cec005c4ab03b161f",
+        "size": 8525,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/c8d46bf12e33dc97b3f7b86cec005c4ab03b161f"
+      },
+      {
+        "path": "setup_vpn.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "386a5564be884f0190272994010be2b98c41a6cc",
+        "size": 8263,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/386a5564be884f0190272994010be2b98c41a6cc"
+      },
+      {
+        "path": "shadow_cli.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "0a23bc8834717871e53726d2a2e063e76915435e",
+        "size": 11584,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/0a23bc8834717871e53726d2a2e063e76915435e"
+      },
+      {
+        "path": "surveillance_core.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aaea6a492bab307755c7d37847dbe16178d1415f",
+        "size": 13488,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/aaea6a492bab307755c7d37847dbe16178d1415f"
+      },
+      {
+        "path": "surveillance_main.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "60dfc483a342db72c41e957b84c59c0479ebacc1",
+        "size": 26786,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/60dfc483a342db72c41e957b84c59c0479ebacc1"
+      },
+      {
+        "path": "tailscale.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "03a06d6921566a537bfda9bcd313751f6a8b950f",
+        "size": 10894,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/03a06d6921566a537bfda9bcd313751f6a8b950f"
+      },
+      {
+        "path": "templates",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6dd186f492f2731f3f145daa8b4ea38308900469",
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/trees/6dd186f492f2731f3f145daa8b4ea38308900469"
+      },
+      {
+        "path": "templates/base.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d988f36abea1ea890602f1074787cf388dd8b46",
+        "size": 1023,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/7d988f36abea1ea890602f1074787cf388dd8b46"
+      },
+      {
+        "path": "templates/browse.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7601f30f2f65b007f19772f021783b8c7b0ff59d",
+        "size": 343,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/7601f30f2f65b007f19772f021783b8c7b0ff59d"
+      },
+      {
+        "path": "templates/legal.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa2f6095597ffc2aec89b27508199abca85b018c",
+        "size": 479,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/aa2f6095597ffc2aec89b27508199abca85b018c"
+      },
+      {
+        "path": "templates/media.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b82f09b09503094487ee5379ccbfcb041cba1ef4",
+        "size": 31679,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/b82f09b09503094487ee5379ccbfcb041cba1ef4"
+      },
+      {
+        "path": "templates/panel.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cdb843d77fe74739662a4494ee0331bf095e5fec",
+        "size": 34747,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/cdb843d77fe74739662a4494ee0331bf095e5fec"
+      },
+      {
+        "path": "templates/restarting.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "228765ebf459b2c01cdd36093def249e617d7f6a",
+        "size": 2862,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/228765ebf459b2c01cdd36093def249e617d7f6a"
+      },
+      {
+        "path": "templates/settings.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54e3d5847534d6a0fde0fbc6cb790a3b86920a75",
+        "size": 39568,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/54e3d5847534d6a0fde0fbc6cb790a3b86920a75"
+      },
+      {
+        "path": "templates/view.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38ff1ecd97b23bd9124a48211d8027221c1135a3",
+        "size": 531,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/38ff1ecd97b23bd9124a48211d8027221c1135a3"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2c94b5b37691f17181c86a3256e530a8e2859959",
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/trees/2c94b5b37691f17181c86a3256e530a8e2859959"
+      },
+      {
+        "path": "tests/test_aimwatch.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "06195766027cbda26600eb6f56a8f09417cf7d57",
+        "size": 15862,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/06195766027cbda26600eb6f56a8f09417cf7d57"
+      },
+      {
+        "path": "tests/test_annotated.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a708bed4687dd656de926c5eff1ddef93419efce",
+        "size": 4243,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/a708bed4687dd656de926c5eff1ddef93419efce"
+      },
+      {
+        "path": "tests/test_announcer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b045810626ba56ac13169b108dd6d0b4fb4db00",
+        "size": 8590,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/0b045810626ba56ac13169b108dd6d0b4fb4db00"
+      },
+      {
+        "path": "tests/test_camera.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "241038cadda396e4f891337352f10a97291557c5",
+        "size": 13623,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/241038cadda396e4f891337352f10a97291557c5"
+      },
+      {
+        "path": "tests/test_camera_ui.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b730d759f8596a8b16716bbae50e30666f04c762",
+        "size": 7743,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/b730d759f8596a8b16716bbae50e30666f04c762"
+      },
+      {
+        "path": "tests/test_capture.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "32fd44402f35bdd88cf762e7db963bba8c7df56a",
+        "size": 10100,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/32fd44402f35bdd88cf762e7db963bba8c7df56a"
+      },
+      {
+        "path": "tests/test_config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f552c6a860bd084f9377bfd80d5740bed2452ef7",
+        "size": 9338,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/f552c6a860bd084f9377bfd80d5740bed2452ef7"
+      },
+      {
+        "path": "tests/test_controller.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8c16290c2a4016cacf2b8aa90757cfb7b2abb66",
+        "size": 44274,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/a8c16290c2a4016cacf2b8aa90757cfb7b2abb66"
+      },
+      {
+        "path": "tests/test_datausage.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "754017e8a5ee96e674aba264b6e623f8bf45ed0b",
+        "size": 11846,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/754017e8a5ee96e674aba264b6e623f8bf45ed0b"
+      },
+      {
+        "path": "tests/test_doctor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0136a1bf704fdbe44ff9f4a7e9b07cb5ea13e002",
+        "size": 3136,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/0136a1bf704fdbe44ff9f4a7e9b07cb5ea13e002"
+      },
+      {
+        "path": "tests/test_forwarder_proxy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b517be6f34134072a51a3867746142f569613ed9",
+        "size": 6593,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/b517be6f34134072a51a3867746142f569613ed9"
+      },
+      {
+        "path": "tests/test_forwarding.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b554fbffcd6d6acd7e94741f68ad0ecb1743403",
+        "size": 9473,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/7b554fbffcd6d6acd7e94741f68ad0ecb1743403"
+      },
+      {
+        "path": "tests/test_health.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d59bbca3bcd392e05c5db7885270d782f5d07bf8",
+        "size": 8749,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/d59bbca3bcd392e05c5db7885270d782f5d07bf8"
+      },
+      {
+        "path": "tests/test_integration.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "42130d4e3efb38691fce0aff0ef2408223fd8060",
+        "size": 15679,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/42130d4e3efb38691fce0aff0ef2408223fd8060"
+      },
+      {
+        "path": "tests/test_kiosk.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f9976e6451909ae5fdc6fa4ce99ee3b98fb2200",
+        "size": 34876,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/0f9976e6451909ae5fdc6fa4ce99ee3b98fb2200"
+      },
+      {
+        "path": "tests/test_link.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a71a531abc0f6562121c2e84ffbe8aea4c39ce1",
+        "size": 24658,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/9a71a531abc0f6562121c2e84ffbe8aea4c39ce1"
+      },
+      {
+        "path": "tests/test_netinfo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "491c5a3170023fbba15fbae5d5c8ac59cd2e4040",
+        "size": 3795,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/491c5a3170023fbba15fbae5d5c8ac59cd2e4040"
+      },
+      {
+        "path": "tests/test_night.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d28573feedcee7be7693e38df819ef8cca9ef33f",
+        "size": 6339,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/d28573feedcee7be7693e38df819ef8cca9ef33f"
+      },
+      {
+        "path": "tests/test_notify.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad43295dfd0e0c5169a25011aae982d8abafb61b",
+        "size": 9648,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/ad43295dfd0e0c5169a25011aae982d8abafb61b"
+      },
+      {
+        "path": "tests/test_ptz.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2db3d72db212256a05efd0d2508054b1e1babab2",
+        "size": 23054,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/2db3d72db212256a05efd0d2508054b1e1babab2"
+      },
+      {
+        "path": "tests/test_retention.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "825ff68e500171842ba1f418d3f24302013dfaf4",
+        "size": 13067,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/825ff68e500171842ba1f418d3f24302013dfaf4"
+      },
+      {
+        "path": "tests/test_review.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c3fffbe658fa114c6210e97fba2394097661bc4e",
+        "size": 11151,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/c3fffbe658fa114c6210e97fba2394097661bc4e"
+      },
+      {
+        "path": "tests/test_schedule.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df63868fd24aca5361bda912c1f7c5e2c828c336",
+        "size": 6067,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/df63868fd24aca5361bda912c1f7c5e2c828c336"
+      },
+      {
+        "path": "tests/test_segments.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cac74363db39e87eb71997feec6be556f9010989",
+        "size": 6255,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/cac74363db39e87eb71997feec6be556f9010989"
+      },
+      {
+        "path": "tests/test_settings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0764921e9a86c4aa9e206746623cb1d05b5ba0c",
+        "size": 17173,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/f0764921e9a86c4aa9e206746623cb1d05b5ba0c"
+      },
+      {
+        "path": "tests/test_tracker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "679474319e615e6d34aa96677c39239ad75640a7",
+        "size": 11090,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/679474319e615e6d34aa96677c39239ad75640a7"
+      },
+      {
+        "path": "tests/test_trigger.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6b58934ba60120af8c9a55b0073e3477580622c8",
+        "size": 11024,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/6b58934ba60120af8c9a55b0073e3477580622c8"
+      },
+      {
+        "path": "tests/test_vpn.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dcd078d72d5d3e5c546fad706b34c50e4fa28f0b",
+        "size": 9369,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/dcd078d72d5d3e5c546fad706b34c50e4fa28f0b"
+      },
+      {
+        "path": "tests/test_webapp.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb6e71fe0ecd30b6bd3c652004ebc29cbc905274",
+        "size": 107397,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/fb6e71fe0ecd30b6bd3c652004ebc29cbc905274"
+      },
+      {
+        "path": "tests/test_wifi.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7e4c8e01f92e699563311c4a3c904f17ae18aaf",
+        "size": 13787,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/e7e4c8e01f92e699563311c4a3c904f17ae18aaf"
+      },
+      {
+        "path": "tests/test_wifi_mode.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da8f8b3a423663af948564a3c4f0c13de10e3e5c",
+        "size": 5420,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/da8f8b3a423663af948564a3c4f0c13de10e3e5c"
+      },
+      {
+        "path": "tracker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8b0c66b43bafcd7321d1a0fd8b4168ab168e3e1",
+        "size": 7895,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/c8b0c66b43bafcd7321d1a0fd8b4168ab168e3e1"
+      },
+      {
+        "path": "transports.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8cb0f4f88513335d2f7d5a2e6cf2517a49b0f97c",
+        "size": 6377,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/8cb0f4f88513335d2f7d5a2e6cf2517a49b0f97c"
+      },
+      {
+        "path": "trigger.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ca364d4f4a6854251c13a15faa42f02d6c27ca7",
+        "size": 11837,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/7ca364d4f4a6854251c13a15faa42f02d6c27ca7"
+      },
+      {
+        "path": "trigger_cli.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "a335e02b4d1ff9da5aed446ad8d42ecc1f5c3c68",
+        "size": 7450,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/a335e02b4d1ff9da5aed446ad8d42ecc1f5c3c68"
+      },
+      {
+        "path": "uplink.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f2348231b611f34f7aad43c9abd55add6e1f2670",
+        "size": 6465,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/f2348231b611f34f7aad43c9abd55add6e1f2670"
+      },
+      {
+        "path": "vpn.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69a78f57ab1233e463255890017ad0153ac6e0d7",
+        "size": 10198,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/69a78f57ab1233e463255890017ad0153ac6e0d7"
+      },
+      {
+        "path": "vpnctl.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "bf880c08b3c39c1227c80a52d31ecb75f67bd188",
+        "size": 4480,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/bf880c08b3c39c1227c80a52d31ecb75f67bd188"
+      },
+      {
+        "path": "wan_meter.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "57d819f18832941500d8af90e0c56020733c6daa",
+        "size": 10750,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/57d819f18832941500d8af90e0c56020733c6daa"
+      },
+      {
+        "path": "wan_ports.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "24f0e356b25ccaa6d4b54b40429ef2d9571b24d0",
+        "size": 6684,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/24f0e356b25ccaa6d4b54b40429ef2d9571b24d0"
+      },
+      {
+        "path": "webapp.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fccecb926df5e75d463a8d7c356dc794ff440b77",
+        "size": 88113,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/fccecb926df5e75d463a8d7c356dc794ff440b77"
+      },
+      {
+        "path": "wifi.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d912ef84961313c6500c9d906d0537420f16d1d3",
+        "size": 12172,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/d912ef84961313c6500c9d906d0537420f16d1d3"
+      },
+      {
+        "path": "wifi_mode.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "6a9eb6f2de6f14ad0a8b7894962aef1fdc2af00c",
+        "size": 10970,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/6a9eb6f2de6f14ad0a8b7894962aef1fdc2af00c"
+      },
+      {
+        "path": "yolov10.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc302b64b495c60396ee90a44705c1410c553cf0",
+        "size": 8601,
+        "url": "https://api.github.com/repos/philipvh/rknn-surveillance/git/blobs/dc302b64b495c60396ee90a44705c1410c553cf0"
+      }
+    ],
+    "truncated": false
+  }
+}

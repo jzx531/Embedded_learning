@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "full_name": "stephane/libmodbus",
+    "html_url": "https://github.com/stephane/libmodbus",
+    "license": {
+      "key": "lgpl-2.1",
+      "name": "GNU Lesser General Public License v2.1",
+      "spdx_id": "LGPL-2.1",
+      "url": "https://api.github.com/licenses/lgpl-2.1",
+      "node_id": "MDc6TGljZW5zZTEx"
+    },
+    "pushed_at": "2026-07-02T10:16:05Z",
+    "archived": false,
+    "default_branch": "master"
+  },
+  "readme": "# A groovy modbus library\n\n![Build Status](https://github.com/stephane/libmodbus/actions/workflows/build.yml/badge.svg)\n[![Coverity Scan Build Status](https://scan.coverity.com/projects/8058/badge.svg)](https://scan.coverity.com/projects/libmodbus)\n\n## Overview\n\nlibmodbus is a free software library to send/receive data with a device which\nrespects the Modbus protocol. This library can use a serial port or an Ethernet\nconnection.\n\nThe functions included in the library have been derived from the Modicon Modbus\nProtocol Reference Guide which can be obtained from [www.modbus.org](http://www.modbus.org).\n\nThe license of libmodbus is _LGPL v2.1 or later_.\n\nThe official website is [www.libmodbus.org](http://www.libmodbus.org). The\nwebsite contains the latest version of the documentation.\n\nThe library is written in C and designed to run on Linux, Mac OS X, FreeBSD, Embox,\nQNX and Windows.\n\nYou can use the library on MCUs with Embox RTOS.\n\n## Installation\n\nYou will only need to install automake, autoconf, libtool and a C compiler (gcc\nor clang) to compile the library and asciidoc and xmlto to generate the\ndocumentation (optional).\n\nTo install, just run the usual dance, `./configure && make install`. Run\n`./autogen.sh` first to generate the `configure` script if required.\n\nYou can change installation directory with prefix option, eg. `./configure\n--prefix=/usr/local/`. You have to check that the installation library path is\nproperly set up on your system (_/etc/ld.so.conf.d_) and library cache is up to\ndate (run `ldconfig` as root if required).\n\nThe library provides a _libmodbus.pc_ file to use with `pkg-config` to ease your\nprogram compilation and linking.\n\nIf you want to compile with Microsoft Visual Studio, you should follow the\ninstructions in `./src/win32/README.md`.\n\nTo compile under Windows, install [MinGW](http://www.mingw.org/) and MSYS then\nselect the common packages (gcc, automake, libtool, etc). The directory\n_./src/win32/_ contains a Visual C project.\n\nTo compile under OS X with [homebrew](http://mxcl.github.com/homebrew/), you\nwill need to install the following dependencies first: `brew install autoconf\nautomake libtool`.\n\nTo build under Embox, you have to use its build system.\n\n## Testing\n\nSome tests are provided in _tests_ directory, you can freely edit the source\ncode to fit your needs (it's Free Software :).\n\nSee _tests/README_ for a description of each program.\n\nFor a quick test of libmodbus, you can run the following programs in two shells:\n\n1. ./unit-test-server\n2. ./unit-test-client\n\nBy default, all TCP unit tests will be executed (see --help for options).\n\nIt's also possible to run the unit tests with `make check`.\n\n## To report a bug or to contribute\n\nSee [CONTRIBUTING](CONTRIBUTING.md) document.\n\nBy contributing to libmodbus, you agree to the [Contributor License Agreement](CLA.txt).\n\n## Documentation\n\nYou can serve the local documentation with:\n\n```shell\npip install mkdocs-material\nmkdocs serve\n```\n",
+  "fetched_at_utc": "2026-11-21T16:49:11.4273222Z",
+  "readme_url": "https://github.com/stephane/libmodbus/blob/master/README.md"
+}

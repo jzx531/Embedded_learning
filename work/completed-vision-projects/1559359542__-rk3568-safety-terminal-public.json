@@ -1,0 +1,1742 @@
+{
+  "repository": "1559359542/-rk3568-safety-terminal-public",
+  "fetched_at_utc": "2026-11-23T05:07:39.0900899Z",
+  "metadata": {
+    "id": 1358120406,
+    "node_id": "R_kgDOUPNF1g",
+    "name": "-rk3568-safety-terminal-public",
+    "full_name": "1559359542/-rk3568-safety-terminal-public",
+    "private": false,
+    "owner": {
+      "login": "1559359542",
+      "id": 207655712,
+      "node_id": "U_kgDODGCTIA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/207655712?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/1559359542",
+      "html_url": "https://github.com/1559359542",
+      "followers_url": "https://api.github.com/users/1559359542/followers",
+      "following_url": "https://api.github.com/users/1559359542/following{/other_user}",
+      "gists_url": "https://api.github.com/users/1559359542/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/1559359542/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/1559359542/subscriptions",
+      "organizations_url": "https://api.github.com/users/1559359542/orgs",
+      "repos_url": "https://api.github.com/users/1559359542/repos",
+      "events_url": "https://api.github.com/users/1559359542/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/1559359542/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/1559359542/-rk3568-safety-terminal-public",
+    "description": " 系统集成 SHT30 温湿度传感器、BH1750 光照传感器、LD2410 毫米波雷达、门磁和 USB 摄像头，通过 Linux 驱动、设备树、V4L2、RKNN、Qt/QML 和用户态服务完成数据采集、状态判断、告警联动、HMI 展示、   SQLite 记录及 MQTT 事件上报。    项目重点展示：    - RK3568 Linux 设备树与驱动开发   - 字符设备事件接口与用户态通信   - I2C、UART、GPIO、PWM、V4L2 外设接入   - RKNN 目标检测与 ROI 入侵告警   - Qt/QML HMI 实时监控与历史记录   - SQLite 事件持久化和 MQTT 消息上报   - 30 FPS 视频预览与独立 AI 推理链路",
+    "fork": false,
+    "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public",
+    "forks_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/forks",
+    "keys_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/teams",
+    "hooks_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/hooks",
+    "issue_events_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/events",
+    "assignees_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/tags",
+    "blobs_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/languages",
+    "stargazers_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/stargazers",
+    "contributors_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/contributors",
+    "subscribers_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/subscribers",
+    "subscription_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/subscription",
+    "commits_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/merges",
+    "archive_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/downloads",
+    "issues_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/labels{/name}",
+    "releases_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/deployments",
+    "created_at": "2026-09-05T11:26:25Z",
+    "updated_at": "2026-11-14T03:19:07Z",
+    "pushed_at": "2026-09-06T03:06:20Z",
+    "git_url": "git://github.com/1559359542/-rk3568-safety-terminal-public.git",
+    "ssh_url": "git@github.com:1559359542/-rk3568-safety-terminal-public.git",
+    "clone_url": "https://github.com/1559359542/-rk3568-safety-terminal-public.git",
+    "svn_url": "https://github.com/1559359542/-rk3568-safety-terminal-public",
+    "homepage": null,
+    "size": 4660,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "C",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 4,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 0,
+    "subscribers_count": 0
+  },
+  "readme_path": "README.md",
+  "readme": "# 基于 RK3568 Linux 的端侧 AI 工业安全监测与 HMI 告警终端\n\n一个面向学习、面试和家庭环境验证的 RK3568 Linux 嵌入式演示原型。系统将设备树、Linux 驱动、传感器采集、端侧视觉推理、告警规则、事件记录、MQTT 上报和 Qt/QML HMI 组织成一条可解释的数据链路。\n\n> 本项目是辅助监测和异常检测演示原型，不是经过认证的工业安全系统。AI 结果用于疑似事件提示，不作为安全关键决策。\n\n## 项目亮点\n\n- 以 RK3568 Linux 为核心，把设备树、内核字符设备驱动、用户态服务和 Qt/QML HMI 串成可追踪的事件链路。\n- 覆盖 I2C、UART、GPIO、PWM、USB UVC/V4L2 等常见板级接口，并保留源码、配置、脚本和板端运行证据。\n- 将 SHT30（SHT3x 兼容链路）、BH1750、LD2410、门磁和 USB 摄像头统一接入告警状态模型。\n- 使用 RKNN + ROI 规则识别人员进入危险区域，AI 事件与雷达、门磁、温度告警由同一告警服务合并。\n- 预览链路在证据中达到约 29.99 FPS，事件同时写入 SQLite、通过 MQTT 上报并在 HMI 展示。\n\n## 技术栈\n\n`RK3568` · `Linux 4.19` · `Device Tree/DTSI` · `C/C++` · `GPIO/PWM` · `I2C` · `UART` · `USB UVC/V4L2` · `RGA` · `RKNN` ·  `SQLite` · `MQTT` · `systemd`\n\n## 系统功能概览\n\n| 功能域 | 实现内容 |\n| --- | --- |\n| 板级与驱动 | DTS/DTSI 描述 GPIO、PWM、I2C、UART、MIPI；`safety_event` 字符设备提供 `read/poll/ioctl` 和门磁中断事件 |\n| 环境与状态 | SHT30 温湿度、BH1750 光照、LD2410 UART 雷达、门磁采集与阈值告警 |\n| 视觉 AI | USB 摄像头经 OpenCV V4L2 backend 采集，RGA 缩放，RKNN YOLOv5 后处理，人员脚点 ROI 判断 |\n| 告警与数据 | `safety_alarmd` 合并 AI/雷达/门磁/温度来源，控制 GPIO/PWM，写入统一 JSON 状态、SQLite 历史并 MQTT 上报 |\n| HMI | Qt/QML 展示视频预览、实时环境、告警中心、历史记录和系统诊断 |\n\n## 项目成果与验证证据\n\n公开证据包位于 [`assets/运行证据/20260905/`](assets/运行证据/20260905/)，当前可核实：\n\n- 板端运行于 `Linux 4.19.232-safety-v1`、`aarch64` RK3568 EVB；设备节点包含 `/dev/safety_event`、`/dev/ttyS9`、`/dev/video9`。\n- USB UVC 摄像头协商为 `1280x720 MJPG`；状态快照记录 MPP H.264 预览约 `29.99 FPS`、延迟约 `31.5 ms`。\n- AI ROI 进入/清除、门磁打开/恢复、雷达有人/无人、温度超限/恢复和 SQLite 历史事件均有对应文本或 JSON 证据。\n- 证据用于说明一次板端演示状态，不等同于任意环境下的持续性能承诺；源码存在、编译成功、部署和异常场景验证仍按证据等级区分。\n\n## GitHub 仓库和在线展示入口\n\n- GitHub 仓库：<https://github.com/1559359542/-rk3568-safety-terminal-public>\n- GitHub Pages：<https://1559359542.github.io/-rk3568-safety-terminal-public/>\n\n## 项目主线\n\n```text\nDTS/DTSI\n  -> safety_event platform driver\n  -> /dev/safety_event\n  -> safety_alarmd\n  -> state_snapshotd\n  -> system_state.json\n  -> SQLite / MQTT / Qt-QML HMI\n```\n\nAI 支线：\n\n```text\nUSB UVC/V4L2 -> RGA -> RKNN -> 人员检测与危险区域 ROI 判断\n  -> ai_alarm_bridge -> safety_alarmd -> GPIO/PWM 告警\n```\n\n## 核心技术贡献\n\n- 使用项目 DTS/DTSI 描述 GPIO、PWM、I2C、UART 和 MIPI 资源；\n- 设计 `safety_event` platform driver，完成 `probe/remove`、字符设备注册和资源初始化；\n- 支持门磁 GPIO 中断、50 ms 消抖、wait queue、mutex 以及 `read/poll/ioctl` 用户态接口；\n- 使用 PWM 和 GPIO 控制本地告警输出，合并门磁、低照度和用户态告警状态；\n- 通过 I2C 读取 BH1750 光照数据，配合 SHT3x、LD2410B 用户态采集链路；\n- 通过 V4L2 获取 USB 摄像头数据，使用 RGA/RKNN 完成人员检测和固定 ROI 判断；\n- 由状态快照服务统一输出 JSON，供 SQLite、MQTT 和 Qt/QML HMI 读取。\n\n## 目录说明\n\n| 目录 | 内容 |\n| --- | --- |\n| `drivers/` | `safety_event` 和示例内核模块源码 |\n| `userspace/` | 告警服务、传感器解析、AI 桥接、SQLite、MQTT、HMI |\n| `boards/` | RK3568 项目设备树 |\n| `dts_patches/` | 项目设备树补丁和覆盖层 |\n| `kernel_config/` | 内核配置片段 |\n| `kernel_patches/` | 内核侧补丁 |\n| `scripts/` | DTS 同步、构建和配置脚本 |\n| `tests/` | 用户态和接口测试源码 |\n| `docs/` | 引脚、接口和使用说明 |\n\n## 关键接口\n\n| 边界 | 接口 | 作用 |\n| --- | --- | --- |\n| 内核/用户态 | `/dev/safety_event` | 告警事件读取和控制 |\n| 事件通知 | `poll()` + wait queue | 异步事件唤醒 |\n| 参数配置 | `ioctl()` | 设置用户态告警和清除告警 |\n| 状态快照 | `/run/industrial_safety/system_state.json` | HMI、SQLite、MQTT 的统一只读输入 |\n| 摄像头 | `/dev/video*` | USB UVC/V4L2 视频输入 |\n| 雷达 | `/dev/ttyS9` | LD2410B UART 数据输入 |\n\n## 验证状态\n\n项目材料按以下等级区分，避免把计划当成板端结论：\n\n```text\n源码存在 != 编译成功\n编译成功 != 已部署\n已部署 != 板端运行\n板端运行 != 异常场景已验证\n```\n\n当前公开版保留源码、配置、脚本和接口说明；板端日志、网络环境、构建产物和私有 U-Boot 证据未放入公共仓库。后续将在 `docs/test-evidence.md` 中只补充可公开、可复现的验证记录。\n\n## 构建与部署边界\n\n项目依赖目标板的 RK3568 SDK、Linux 4.19 内核、Buildroot rootfs、交叉工具链、RKNN/RGA 和 Qt 运行环境。公开仓库提供源码和脚本，不承诺在任意主机直接编译通过。\n\n推荐验证顺序：\n\n1. 检查 SDK 内核版本、架构和配置；\n2. 使用项目脚本同步 DTS/DTSI 并构建 DTB；\n3. 使用外部模块方式构建 `safety_event.ko`；\n4. 在板端确认 `/dev/safety_event`、`/dev/video*` 和 `/dev/ttyS9`；\n5. 启动告警服务和状态快照服务；\n6. 再启动 HMI、SQLite 和 MQTT 消费者。\n\n## 演示建议\n\n推荐演示一条完整事件链：\n\n```text\n触发门磁/低照度/人员 ROI 事件\n  -> 驱动或用户态采集\n  -> safety_alarmd 规则判断\n  -> LED/PWM 本地告警\n  -> system_state.json 状态更新\n  -> SQLite 记录 / MQTT 上报 / HMI 展示\n```\n\n项目网页使用 `assets/照片素材/` 中的现场照片、HMI 截图、日志截图和板端证据包；本次不制作演示视频。\n\n## 当前视觉证据\n\n`assets/照片素材/` 当前直接保留全部现场图片，不做筛选、裁剪或脱敏。图片用于项目网页和个人展示时，应结合对应板端证据目录阅读。\n\n### 根目录\n\n- [总览包含摄像头位置](assets/照片素材/总览包含摄像头位置.jpg)\n- [板端 HMI、传感器与自制电源](assets/照片素材/板端hmi以及传感器，自制电源.jpg)\n- [MQTT 门磁打开关闭上报](assets/照片素材/MQTT事件上报-门磁打开关闭-脱敏.png)\n\n### HMI 界面\n\n- [监控界面](assets/照片素材/hmi界面/监控界面.jpg)\n- [告警中心](assets/照片素材/hmi界面/告警中心.jpg)\n- [环境监测界面](assets/照片素材/hmi界面/环境监测界面.jpg)\n- [历史记录界面](assets/照片素材/hmi界面/历史记录界面.jpg)\n- [系统诊断界面](assets/照片素材/hmi界面/系统诊断界面.jpg)\n\n### 门磁\n\n- [门磁闭合](assets/照片素材/门磁/门磁闭合.jpg)\n- [门磁告警、蜂鸣器与 LED](assets/照片素材/门磁/门磁告警蜂鸣器响led点亮.jpg)\n- [门磁恢复历史记录](assets/照片素材/门磁/门磁恢复历史记录.jpg)\n- [门磁打开历史记录](assets/照片素材/门磁/门磁打开历史记录.jpg)\n- [门磁打开现场](assets/照片素材/门磁/门磁打开图片.jpg)\n\n### 温湿度\n\n- [SHT30 传感器](assets/照片素材/SHT30温湿度传感器/SHT30温湿度传感器.jpg)\n- [温湿度显示](assets/照片素材/SHT30温湿度传感器/温湿度显示.jpg)\n- [高温告警](assets/照片素材/SHT30温湿度传感器/高温告警.jpg)\n- [高温告警恢复](assets/照片素材/SHT30温湿度传感器/高温告警恢复.jpg)\n- [温湿度历史记录](assets/照片素材/SHT30温湿度传感器/历史记录.jpg)\n\n### 雷达\n\n- [LD2410 毫米波雷达](assets/照片素材/LD2410毫米波雷达/LD2410毫米波雷达图片.jpg)\n\n### 摄像头与 AI\n\n- [摄像头](assets/照片素材/摄像头/摄像头.jpg)\n- [人员进入 ROI](assets/照片素材/摄像头/人员进入ROI.jpg)\n- [AI 告警](assets/照片素材/摄像头/AI告警.jpg)\n- [人员闯入历史事件刷新](assets/照片素材/摄像头/人员闯入历史事件刷新.jpg)\n\n板端运行证据位于 [`assets/运行证据/20260905/`](assets/运行证据/20260905/)。其中包含正常状态、门磁、雷达、温湿度、AI、历史记录等场景的文本和 JSON 证据。传输用的压缩包不作为仓库内容提交。\n\n## 交互式项目说明\n\n- [RK3568 项目全链路阅读器](docs/index.html)\n\n## 进一步阅读\n\n- `docs/pin-plan.md`\n- `drivers/safety_event/safety_event.c`\n- `drivers/safety_event/safety_event_uapi.h`\n- `userspace/safety_alarmd/`\n- `userspace/ai_yolov5/`\n- `userspace/hmi_qml/`\n\n## License\n\n待根据依赖和公开范围补充许可证说明。\n",
+  "tree": {
+    "sha": "1f2c6ebb59a14a376b73b9ebf3611a791af3e913",
+    "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/1f2c6ebb59a14a376b73b9ebf3611a791af3e913",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1c25302b7f782be392d9a4cd0804cc1cf5d65c3",
+        "size": 899,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/d1c25302b7f782be392d9a4cd0804cc1cf5d65c3"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8683f45ef5fd37caa79fcfd62970409020468b6f",
+        "size": 9266,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/8683f45ef5fd37caa79fcfd62970409020468b6f"
+      },
+      {
+        "path": "assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0c77e637b1e28e408a2ed78bfecfb35c351176e9",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/0c77e637b1e28e408a2ed78bfecfb35c351176e9"
+      },
+      {
+        "path": "assets/照片素材",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "10a9e5f4d604c06686042c4b4f3aec0e66b20bd9",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/10a9e5f4d604c06686042c4b4f3aec0e66b20bd9"
+      },
+      {
+        "path": "assets/照片素材/LD2410毫米波雷达",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "124d83b3c63c0482bbafdcf732e36a068b590cfe",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/124d83b3c63c0482bbafdcf732e36a068b590cfe"
+      },
+      {
+        "path": "assets/照片素材/LD2410毫米波雷达/LD2410毫米波雷达图片.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f2d031f91b3ac4b81a141f29f958332716f68f31",
+        "size": 105959,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/f2d031f91b3ac4b81a141f29f958332716f68f31"
+      },
+      {
+        "path": "assets/照片素材/MQTT事件上报-门磁打开关闭-脱敏.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c830a08dda9c9ed224c08267bee8716c2ebea3cf",
+        "size": 119234,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/c830a08dda9c9ed224c08267bee8716c2ebea3cf"
+      },
+      {
+        "path": "assets/照片素材/SHT30温湿度传感器",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3765ce9428a6b62298a7fddd7b7b601c07565b0d",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/3765ce9428a6b62298a7fddd7b7b601c07565b0d"
+      },
+      {
+        "path": "assets/照片素材/SHT30温湿度传感器/SHT30温湿度传感器.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1b3e4aed919cb6c8f529c7fedaa0e13db56c8014",
+        "size": 187414,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/1b3e4aed919cb6c8f529c7fedaa0e13db56c8014"
+      },
+      {
+        "path": "assets/照片素材/SHT30温湿度传感器/历史记录.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b14d90352edbd3e434a4596c1765292c2561484",
+        "size": 241313,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/7b14d90352edbd3e434a4596c1765292c2561484"
+      },
+      {
+        "path": "assets/照片素材/SHT30温湿度传感器/温湿度显示.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e4c02f55637e0aaa3738ec6f218e8f8be599ef21",
+        "size": 192025,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/e4c02f55637e0aaa3738ec6f218e8f8be599ef21"
+      },
+      {
+        "path": "assets/照片素材/SHT30温湿度传感器/高温告警.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "536fa9cbe2e198c550d1f2a1ac1491ab691a93f8",
+        "size": 186723,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/536fa9cbe2e198c550d1f2a1ac1491ab691a93f8"
+      },
+      {
+        "path": "assets/照片素材/SHT30温湿度传感器/高温告警恢复.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8891f054f081fee6625d2f7e5b462076705917a3",
+        "size": 183811,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/8891f054f081fee6625d2f7e5b462076705917a3"
+      },
+      {
+        "path": "assets/照片素材/hmi界面",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3bc8ddc482f75ef56ffe69a5f6bca4811def2822",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/3bc8ddc482f75ef56ffe69a5f6bca4811def2822"
+      },
+      {
+        "path": "assets/照片素材/hmi界面/历史记录界面.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c59e30a2d82ec01ed955d0e82d71a6a5c194755",
+        "size": 229346,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/1c59e30a2d82ec01ed955d0e82d71a6a5c194755"
+      },
+      {
+        "path": "assets/照片素材/hmi界面/告警中心.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e93c77ec5a0b1de491bbe582034440c47112e81",
+        "size": 224808,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/8e93c77ec5a0b1de491bbe582034440c47112e81"
+      },
+      {
+        "path": "assets/照片素材/hmi界面/环境监测界面.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd85c21991133b3cf0ad889fac0259ee4c9485f5",
+        "size": 127067,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/bd85c21991133b3cf0ad889fac0259ee4c9485f5"
+      },
+      {
+        "path": "assets/照片素材/hmi界面/监控界面.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9cf821f49a2093e256d176e83c6056dc9e13d4a",
+        "size": 136919,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/a9cf821f49a2093e256d176e83c6056dc9e13d4a"
+      },
+      {
+        "path": "assets/照片素材/hmi界面/系统诊断界面.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b603dba0f80e5e57d757b01ec714b4ac2f54ff57",
+        "size": 132901,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/b603dba0f80e5e57d757b01ec714b4ac2f54ff57"
+      },
+      {
+        "path": "assets/照片素材/总览包含摄像头位置.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ef3b7bef930f48625e15d0ba04b50209c239bba",
+        "size": 226253,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/5ef3b7bef930f48625e15d0ba04b50209c239bba"
+      },
+      {
+        "path": "assets/照片素材/摄像头",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8f3166dae71051754a8f1241f3a51e47c76462c2",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/8f3166dae71051754a8f1241f3a51e47c76462c2"
+      },
+      {
+        "path": "assets/照片素材/摄像头/AI告警.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "465575df714f5eeb41f7b3ff31e9aba3c1448fdf",
+        "size": 252758,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/465575df714f5eeb41f7b3ff31e9aba3c1448fdf"
+      },
+      {
+        "path": "assets/照片素材/摄像头/人员进入ROI.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e07010514cde4a4ee5ffcf449acda7f54dea80b1",
+        "size": 154052,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/e07010514cde4a4ee5ffcf449acda7f54dea80b1"
+      },
+      {
+        "path": "assets/照片素材/摄像头/人员闯入历史事件刷新.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47158f0c3f2e8c43e745b53b28519cc0baa75684",
+        "size": 231978,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/47158f0c3f2e8c43e745b53b28519cc0baa75684"
+      },
+      {
+        "path": "assets/照片素材/摄像头/摄像头.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82c0e6ce1aba51e8e7c9c97cd2f583eb90b3737b",
+        "size": 111125,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/82c0e6ce1aba51e8e7c9c97cd2f583eb90b3737b"
+      },
+      {
+        "path": "assets/照片素材/板端hmi以及传感器，自制电源.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a35a609d513ca9257a0f22ad1791dacb0419350",
+        "size": 360545,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/3a35a609d513ca9257a0f22ad1791dacb0419350"
+      },
+      {
+        "path": "assets/照片素材/门磁",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8af02be58fbcd4d8f87acd99d72ff1e7121fd708",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/8af02be58fbcd4d8f87acd99d72ff1e7121fd708"
+      },
+      {
+        "path": "assets/照片素材/门磁/门磁告警蜂鸣器响led点亮.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ca18bbf484d8185431f52a72c87ba36dba3395d",
+        "size": 246622,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/0ca18bbf484d8185431f52a72c87ba36dba3395d"
+      },
+      {
+        "path": "assets/照片素材/门磁/门磁恢复历史记录.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90e6e7839c698716854cd0f0db5b5d1492683626",
+        "size": 240364,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/90e6e7839c698716854cd0f0db5b5d1492683626"
+      },
+      {
+        "path": "assets/照片素材/门磁/门磁打开历史记录.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "23cf3de8d0e247012b4e1e5de621c3f4ad1bf63e",
+        "size": 240770,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/23cf3de8d0e247012b4e1e5de621c3f4ad1bf63e"
+      },
+      {
+        "path": "assets/照片素材/门磁/门磁打开图片.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0311534ef7aae3f69d476a918c7c35a016c80b4",
+        "size": 143180,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/a0311534ef7aae3f69d476a918c7c35a016c80b4"
+      },
+      {
+        "path": "assets/照片素材/门磁/门磁闭合.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c09e8183cca56f97b47912dec4c4b0095fda7569",
+        "size": 96909,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/c09e8183cca56f97b47912dec4c4b0095fda7569"
+      },
+      {
+        "path": "assets/运行证据",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2762d228081a29cd5e777c0658e5c1b0bd2366a0",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/2762d228081a29cd5e777c0658e5c1b0bd2366a0"
+      },
+      {
+        "path": "assets/运行证据/20260905",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4b194a92365704645aee919c3b7e940842c1cd58",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/4b194a92365704645aee919c3b7e940842c1cd58"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-clear",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "15828d903fe352a2fa57f7e019a6aaf9baa08570",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/15828d903fe352a2fa57f7e019a6aaf9baa08570"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-clear/ai-state.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "968ff7c4ef6a1e986850ed4061a034c40ca8d8d6",
+        "size": 139,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/968ff7c4ef6a1e986850ed4061a034c40ca8d8d6"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-clear/system-state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6f541d9330dd249cd8201b9381633b339c2f0c4d",
+        "size": 1320,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/6f541d9330dd249cd8201b9381633b339c2f0c4d"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-clear/time.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dbe7a0083f1c9dfe19038816702e7ef6d0e4e1ba",
+        "size": 32,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/dbe7a0083f1c9dfe19038816702e7ef6d0e4e1ba"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-no-person",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "afcbe84bbfc838a2d1c41882fda48a34e51db223",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/afcbe84bbfc838a2d1c41882fda48a34e51db223"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-no-person/ai-preview.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09d6328f2cac4a569ef04bad5741875f16a20945",
+        "size": 128655,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/09d6328f2cac4a569ef04bad5741875f16a20945"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-no-person/ai-state.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7cab56d0964b4fb3399a29be29925720285921ce",
+        "size": 183,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/7cab56d0964b4fb3399a29be29925720285921ce"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-no-person/system-state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "759782acb21bbfb0a8a502d4a9eb8ca352ed9536",
+        "size": 1318,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/759782acb21bbfb0a8a502d4a9eb8ca352ed9536"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-no-person/time.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "753927a0d92ab3bef6ff2e7b54e546807ef52401",
+        "size": 32,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/753927a0d92ab3bef6ff2e7b54e546807ef52401"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-person-roi",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4a1180019af68cab9a89e8576da383f4370cf2e7",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/4a1180019af68cab9a89e8576da383f4370cf2e7"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-person-roi/ai-preview.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "929facd2debc95416ffaa463157e1b5a36ab68fd",
+        "size": 119694,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/929facd2debc95416ffaa463157e1b5a36ab68fd"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-person-roi/ai-state.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76d096ff7a84ba6c7e8e9a0c11b10d44c6663f18",
+        "size": 232,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/76d096ff7a84ba6c7e8e9a0c11b10d44c6663f18"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-person-roi/alarm-preview.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ee72f291813c129d486052174050882feff7ef5",
+        "size": 118034,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/2ee72f291813c129d486052174050882feff7ef5"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-person-roi/alarm-state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68007a2a04e847fedae61eda5402562939cdf342",
+        "size": 1321,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/68007a2a04e847fedae61eda5402562939cdf342"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-person-roi/alarm-time.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91b5f935451ac2e25cdd8d84fb05697bc8c6dc19",
+        "size": 32,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/91b5f935451ac2e25cdd8d84fb05697bc8c6dc19"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-person-roi/system-state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "685557e1dbe7d2195e428a436adade03cb7e896d",
+        "size": 1316,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/685557e1dbe7d2195e428a436adade03cb7e896d"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-person-roi/time.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d882313f80e6f37ff61673ba82dcb3d7229272c4",
+        "size": 32,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/d882313f80e6f37ff61673ba82dcb3d7229272c4"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-person-roi/trace",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1f2760a8ac562837d8390876c8922d04cae3f745",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/1f2760a8ac562837d8390876c8922d04cae3f745"
+      },
+      {
+        "path": "assets/运行证据/20260905/ai-person-roi/trace/ai-alarm-trace.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8546e74ea6298d97574b40293d1ef513477da3b7",
+        "size": 1490,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/8546e74ea6298d97574b40293d1ef513477da3b7"
+      },
+      {
+        "path": "assets/运行证据/20260905/door-closed",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "24c7b3a7b3e9999a15b60bdb4a2a2d9a8d788f0c",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/24c7b3a7b3e9999a15b60bdb4a2a2d9a8d788f0c"
+      },
+      {
+        "path": "assets/运行证据/20260905/door-closed/door-state.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "498e053bdda1b49dedd4ddea78bc07a2c88edf52",
+        "size": 232,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/498e053bdda1b49dedd4ddea78bc07a2c88edf52"
+      },
+      {
+        "path": "assets/运行证据/20260905/door-closed/system-state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7fb2ab65ca45f76485f96923836611f1a5a308e6",
+        "size": 1345,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/7fb2ab65ca45f76485f96923836611f1a5a308e6"
+      },
+      {
+        "path": "assets/运行证据/20260905/door-closed/time.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b94f0d97ba47e4a3c50421e00663f8392ab66bbd",
+        "size": 32,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/b94f0d97ba47e4a3c50421e00663f8392ab66bbd"
+      },
+      {
+        "path": "assets/运行证据/20260905/door-open",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7e5dfada908bd6109c33e0a1cf79176c794ae20c",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/7e5dfada908bd6109c33e0a1cf79176c794ae20c"
+      },
+      {
+        "path": "assets/运行证据/20260905/door-open/door-state.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf9568fbfba5baa98a18a31cc65453b7c31526e6",
+        "size": 227,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/cf9568fbfba5baa98a18a31cc65453b7c31526e6"
+      },
+      {
+        "path": "assets/运行证据/20260905/door-open/system-state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bab82ed55c2b6e3595da258a4275768698ca5f9",
+        "size": 1340,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/3bab82ed55c2b6e3595da258a4275768698ca5f9"
+      },
+      {
+        "path": "assets/运行证据/20260905/door-open/time.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab9507314eb769e44bf8cae3eec4dab0979cb8b7",
+        "size": 32,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/ab9507314eb769e44bf8cae3eec4dab0979cb8b7"
+      },
+      {
+        "path": "assets/运行证据/20260905/door-recovery",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0e9180af71f8df6bdf27a465d1f37e92f1bca6b9",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/0e9180af71f8df6bdf27a465d1f37e92f1bca6b9"
+      },
+      {
+        "path": "assets/运行证据/20260905/door-recovery/door-state.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2e750cae6c1bcc2222b64ea208d1a0a4ed595075",
+        "size": 231,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/2e750cae6c1bcc2222b64ea208d1a0a4ed595075"
+      },
+      {
+        "path": "assets/运行证据/20260905/door-recovery/system-state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f0bdac46d2106e5e3cd7f2ba52278534c265965",
+        "size": 1345,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/4f0bdac46d2106e5e3cd7f2ba52278534c265965"
+      },
+      {
+        "path": "assets/运行证据/20260905/door-recovery/time.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e076a467f781633cedf3aef24dc51058bb6b834e",
+        "size": 32,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/e076a467f781633cedf3aef24dc51058bb6b834e"
+      },
+      {
+        "path": "assets/运行证据/20260905/history",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "76ea55efe7217d2ac5373f1f2a4fc2e28ebaabd9",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/76ea55efe7217d2ac5373f1f2a4fc2e28ebaabd9"
+      },
+      {
+        "path": "assets/运行证据/20260905/history/events-latest-50.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "855b82cc5dfa1298849a65bb88004d324e85ade6",
+        "size": 9152,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/855b82cc5dfa1298849a65bb88004d324e85ade6"
+      },
+      {
+        "path": "assets/运行证据/20260905/history/events-verified-sources.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36b9de142252b687b742dbe273fb30d68fd0f1f7",
+        "size": 6500,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/36b9de142252b687b742dbe273fb30d68fd0f1f7"
+      },
+      {
+        "path": "assets/运行证据/20260905/history/tables.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49a967f60da935b9ef89f3150a05eb582133643e",
+        "size": 7,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/49a967f60da935b9ef89f3150a05eb582133643e"
+      },
+      {
+        "path": "assets/运行证据/20260905/history/time.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "851bc656b8a5e364cdfa0841e22c69ddfce5af45",
+        "size": 32,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/851bc656b8a5e364cdfa0841e22c69ddfce5af45"
+      },
+      {
+        "path": "assets/运行证据/20260905/normal",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e235673b836b4ec3c248cafae94f3994f0d5041e",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/e235673b836b4ec3c248cafae94f3994f0d5041e"
+      },
+      {
+        "path": "assets/运行证据/20260905/normal/device-nodes.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1791c55772255d9c1aadcd15ec273ae5802fc9a",
+        "size": 182,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/c1791c55772255d9c1aadcd15ec273ae5802fc9a"
+      },
+      {
+        "path": "assets/运行证据/20260905/normal/normal-state.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "235b07b0b7ba5ac2e5cb6d15832bccd74029012a",
+        "size": 163,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/235b07b0b7ba5ac2e5cb6d15832bccd74029012a"
+      },
+      {
+        "path": "assets/运行证据/20260905/normal/system_state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd459c03d49c915fb531e7ae2d0e6564a8b1a749",
+        "size": 1320,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/fd459c03d49c915fb531e7ae2d0e6564a8b1a749"
+      },
+      {
+        "path": "assets/运行证据/20260905/normal/video9-format.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "972835cf5f7b0165be1f62d580ccfe0b1044d777",
+        "size": 363,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/972835cf5f7b0165be1f62d580ccfe0b1044d777"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-nobody",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "74d4c60773a14609441ea7d762f0a880c76b41ae",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/74d4c60773a14609441ea7d762f0a880c76b41ae"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-nobody/energy.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6f0765d970e4150010defa0ecb9da218bcbfa757",
+        "size": 81,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/6f0765d970e4150010defa0ecb9da218bcbfa757"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-nobody/gates.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "925e9b3ed2083d5bcbf688201381ddb8a8b485ba",
+        "size": 57,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/925e9b3ed2083d5bcbf688201381ddb8a8b485ba"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-nobody/raw.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "380e17d9d894238015827b9a04228e599b3f6920",
+        "size": 90,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/380e17d9d894238015827b9a04228e599b3f6920"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-nobody/status.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68e25b031b7a00ee2af146598dcd55568288ed54",
+        "size": 223,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/68e25b031b7a00ee2af146598dcd55568288ed54"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-nobody/system-state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b8239d03938a484a68404fb6b9814dea87bb2cd",
+        "size": 689,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/3b8239d03938a484a68404fb6b9814dea87bb2cd"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-nobody/time.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "432beaa7d3724d736617d05c9858ca3eaf3d55ab",
+        "size": 32,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/432beaa7d3724d736617d05c9858ca3eaf3d55ab"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-person",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ba7b21887beefbb2bb5315872774a92b0bf83350",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/ba7b21887beefbb2bb5315872774a92b0bf83350"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-person/energy.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b166c7bf53c90ed1fe0d62b50aa8b5c4196c13e",
+        "size": 81,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/2b166c7bf53c90ed1fe0d62b50aa8b5c4196c13e"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-person/gates.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "925e9b3ed2083d5bcbf688201381ddb8a8b485ba",
+        "size": 57,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/925e9b3ed2083d5bcbf688201381ddb8a8b485ba"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-person/raw.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cad61591e51ad575e7cc1f94b7c54f3b1955254d",
+        "size": 91,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/cad61591e51ad575e7cc1f94b7c54f3b1955254d"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-person/status.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "43b1e4d7f22cd098a755a46d35eabd81a4b603fd",
+        "size": 228,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/43b1e4d7f22cd098a755a46d35eabd81a4b603fd"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-person/system-state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a54b55cb606740321dcda99a1318bc4301357c3d",
+        "size": 688,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/a54b55cb606740321dcda99a1318bc4301357c3d"
+      },
+      {
+        "path": "assets/运行证据/20260905/radar-person/time.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b66b258dfcb3e4b9dc99d2aeac7f51cbb2f1b431",
+        "size": 32,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/b66b258dfcb3e4b9dc99d2aeac7f51cbb2f1b431"
+      },
+      {
+        "path": "assets/运行证据/20260905/temperature-high",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "31468739323ea7f4f172f25c6de1ac2aed06a380",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/31468739323ea7f4f172f25c6de1ac2aed06a380"
+      },
+      {
+        "path": "assets/运行证据/20260905/temperature-high/event.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "541b8d33805882e3ff1ab3815f287993b74f99e5",
+        "size": 330,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/541b8d33805882e3ff1ab3815f287993b74f99e5"
+      },
+      {
+        "path": "assets/运行证据/20260905/temperature-normal",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f0ef2613cfe8ab142757063f45df97acf7afce20",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/f0ef2613cfe8ab142757063f45df97acf7afce20"
+      },
+      {
+        "path": "assets/运行证据/20260905/temperature-normal/sensor-values.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7000a24abbc8ab1f78b21754112d9026399c4f6f",
+        "size": 113,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/7000a24abbc8ab1f78b21754112d9026399c4f6f"
+      },
+      {
+        "path": "assets/运行证据/20260905/temperature-normal/system-state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "157ab9dc4d9b9fd8faa82850d65bdf217b032059",
+        "size": 1327,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/157ab9dc4d9b9fd8faa82850d65bdf217b032059"
+      },
+      {
+        "path": "assets/运行证据/20260905/temperature-normal/time.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "740ccbffbba8a03e7ead98174ef81fc0ed4185c3",
+        "size": 32,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/740ccbffbba8a03e7ead98174ef81fc0ed4185c3"
+      },
+      {
+        "path": "assets/运行证据/20260905/temperature-recovery",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c0441081fd50705a4c0ef5ab90db3e487eb69b4c",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/c0441081fd50705a4c0ef5ab90db3e487eb69b4c"
+      },
+      {
+        "path": "assets/运行证据/20260905/temperature-recovery/event.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e4bb07b0b3fc15d58816650f62ff489773c3f2f",
+        "size": 330,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/4e4bb07b0b3fc15d58816650f62ff489773c3f2f"
+      },
+      {
+        "path": "assets/运行证据/20260905/temperature-recovery/system-state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "269cf3712407bc565515099c3c7616379c81ac2e",
+        "size": 1327,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/269cf3712407bc565515099c3c7616379c81ac2e"
+      },
+      {
+        "path": "boards",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cd509b13bc6dde6cdb0b9da1d1d5fff68df581db",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/cd509b13bc6dde6cdb0b9da1d1d5fff68df581db"
+      },
+      {
+        "path": "boards/rk3568",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ee78c8c5e170e915295632f6791576554fd09252",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/ee78c8c5e170e915295632f6791576554fd09252"
+      },
+      {
+        "path": "boards/rk3568/dts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d57c1b4b1bc55218a9cd557a48d1f5ac767f13d8",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/d57c1b4b1bc55218a9cd557a48d1f5ac767f13d8"
+      },
+      {
+        "path": "boards/rk3568/dts/rk3568-safety-terminal-mipi-10p1-800x1280.dts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd2ecd37e2a976b0304f6556d687db6af7f0a512",
+        "size": 572,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/dd2ecd37e2a976b0304f6556d687db6af7f0a512"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "67f7d0cba3814968786bdeca90568ac3c2b061ee",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/67f7d0cba3814968786bdeca90568ac3c2b061ee"
+      },
+      {
+        "path": "docs/index.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73335b5e3765b1a7a266ec1548337a6545ec3c09",
+        "size": 114416,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/73335b5e3765b1a7a266ec1548337a6545ec3c09"
+      },
+      {
+        "path": "docs/pin-plan.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82869120a7a597a7afa5d4fac92b8870a2ee7566",
+        "size": 686,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/82869120a7a597a7afa5d4fac92b8870a2ee7566"
+      },
+      {
+        "path": "drivers",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7c26ada79e655332965243bdb4125922dc348b70",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/7c26ada79e655332965243bdb4125922dc348b70"
+      },
+      {
+        "path": "drivers/hello_module",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3e2e9bc07acdf7222b8b8e203a25be76535ea933",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/3e2e9bc07acdf7222b8b8e203a25be76535ea933"
+      },
+      {
+        "path": "drivers/hello_module/Makefile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5a4aedb330fe442ef271cc6d45aa913d8bf0294",
+        "size": 285,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/e5a4aedb330fe442ef271cc6d45aa913d8bf0294"
+      },
+      {
+        "path": "drivers/hello_module/hello.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f63f0908bd00e35116425ebc18887a29c8a52c0",
+        "size": 358,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/2f63f0908bd00e35116425ebc18887a29c8a52c0"
+      },
+      {
+        "path": "drivers/safety_event",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "311f522dbe095b687a065c05c1145c9dd7644802",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/311f522dbe095b687a065c05c1145c9dd7644802"
+      },
+      {
+        "path": "drivers/safety_event/Makefile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "005c98446ff8e17f9444ec241a9634917dd05b43",
+        "size": 565,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/005c98446ff8e17f9444ec241a9634917dd05b43"
+      },
+      {
+        "path": "drivers/safety_event/safety_event.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3772b298467935be73b743921ff0cb7a0f51c1dc",
+        "size": 16872,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/3772b298467935be73b743921ff0cb7a0f51c1dc"
+      },
+      {
+        "path": "drivers/safety_event/safety_event_uapi.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a5b34a01dc54bc0e5ecbd4c491ee052b76b3aae4",
+        "size": 1901,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/a5b34a01dc54bc0e5ecbd4c491ee052b76b3aae4"
+      },
+      {
+        "path": "dts_patches",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8efb64cbfb64e18f79496a79df36dd50d11d7838",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/8efb64cbfb64e18f79496a79df36dd50d11d7838"
+      },
+      {
+        "path": "dts_patches/camera-disable-live-fdt-overlay.dts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1e07490f82d99732c593456680fda84b9826585",
+        "size": 829,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/b1e07490f82d99732c593456680fda84b9826585"
+      },
+      {
+        "path": "dts_patches/rk3568-safety-terminal.dts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c8f5ce738b87d9bd40c4de06048b0ed3555f5c1",
+        "size": 438,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/4c8f5ce738b87d9bd40c4de06048b0ed3555f5c1"
+      },
+      {
+        "path": "dts_patches/rk3568-safety-terminal.dtsi",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1e70d1d4e2df74139c5c5013ea2e24a923398b2b",
+        "size": 1939,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/1e70d1d4e2df74139c5c5013ea2e24a923398b2b"
+      },
+      {
+        "path": "kernel_config",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "413d7af75368744c87f958d495604a6a45162a41",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/413d7af75368744c87f958d495604a6a45162a41"
+      },
+      {
+        "path": "kernel_config/sht3x.config",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6bbfe78955b1e99aef565a36ac526404341bccea",
+        "size": 23,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/6bbfe78955b1e99aef565a36ac526404341bccea"
+      },
+      {
+        "path": "kernel_patches",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "03948858fb51d166ffdcbc057166f579fd4ac6d4",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/03948858fb51d166ffdcbc057166f579fd4ac6d4"
+      },
+      {
+        "path": "kernel_patches/0001-hwmon-sht3x-add-of-match.patch",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "779bd593921a39df374fd748e39975de059ec47b",
+        "size": 761,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/779bd593921a39df374fd748e39975de059ec47b"
+      },
+      {
+        "path": "scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f38eaa6f9ac4c280c8488459cc15172ee267e760",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/f38eaa6f9ac4c280c8488459cc15172ee267e760"
+      },
+      {
+        "path": "scripts/apply_sht3x_config.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7e7666a1638e56fe7128eea1470bb440b04a824",
+        "size": 541,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/f7e7666a1638e56fe7128eea1470bb440b04a824"
+      },
+      {
+        "path": "scripts/apply_sht3x_of_match_patch.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe307032f8ea0296f64c4c1eef0ffa50e1ac9eff",
+        "size": 637,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/fe307032f8ea0296f64c4c1eef0ffa50e1ac9eff"
+      },
+      {
+        "path": "scripts/build_project_dtb.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1cb978bb55fb5b30f980130c424c31ab9175debb",
+        "size": 304,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/1cb978bb55fb5b30f980130c424c31ab9175debb"
+      },
+      {
+        "path": "scripts/sync_project_dts_to_sdk.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c62c23082cde2cd207b8104e7759c2d276a3613",
+        "size": 445,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/6c62c23082cde2cd207b8104e7759c2d276a3613"
+      },
+      {
+        "path": "scripts/sync_rk3568_dts.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77b978c27d874ffcc629c239bc46147438d4bf05",
+        "size": 876,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/77b978c27d874ffcc629c239bc46147438d4bf05"
+      },
+      {
+        "path": "userspace",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a18a3a4dbf06d6a125141d39ed563bfdcac94fbf",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/a18a3a4dbf06d6a125141d39ed563bfdcac94fbf"
+      },
+      {
+        "path": "userspace/ai_yolov5",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "eb5c89c117c7617195560c813fc2f5657f129e73",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/eb5c89c117c7617195560c813fc2f5657f129e73"
+      },
+      {
+        "path": "userspace/ai_yolov5/CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e5c1a5d2bcb41ff6f0a16351b184922892427f0",
+        "size": 901,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/4e5c1a5d2bcb41ff6f0a16351b184922892427f0"
+      },
+      {
+        "path": "userspace/ai_yolov5/config",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "214758be199d45c802aaf6aca1ceb81e9d77307d",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/214758be199d45c802aaf6aca1ceb81e9d77307d"
+      },
+      {
+        "path": "userspace/ai_yolov5/config/danger_roi.conf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d1b0324e97257ddbeedba7d0489757f6a1fd7f2",
+        "size": 98,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/1d1b0324e97257ddbeedba7d0489757f6a1fd7f2"
+      },
+      {
+        "path": "userspace/ai_yolov5/config/danger_roi_invalid.conf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "56676a19757fd8324d213c041f29e61c63aea7ee",
+        "size": 102,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/56676a19757fd8324d213c041f29e61c63aea7ee"
+      },
+      {
+        "path": "userspace/ai_yolov5/include",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d09293c8cf37536fc9c92e0d1f28ba528cbe2150",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/d09293c8cf37536fc9c92e0d1f28ba528cbe2150"
+      },
+      {
+        "path": "userspace/ai_yolov5/include/postprocess.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "923dd127b492d59cf6f17ece50b71d58e32a6ab4",
+        "size": 1069,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/923dd127b492d59cf6f17ece50b71d58e32a6ab4"
+      },
+      {
+        "path": "userspace/ai_yolov5/model",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "68cb25ae277b4bd6563ac6c2d0bbc84e11c78ed8",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/68cb25ae277b4bd6563ac6c2d0bbc84e11c78ed8"
+      },
+      {
+        "path": "userspace/ai_yolov5/model/coco_80_labels_list.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "941cb4e1392266f6a6c09b1fdc5f79503b2e5df6",
+        "size": 621,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/941cb4e1392266f6a6c09b1fdc5f79503b2e5df6"
+      },
+      {
+        "path": "userspace/ai_yolov5/src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ffe95735716bf6a1234bc78f7f4f38fa30622329",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/ffe95735716bf6a1234bc78f7f4f38fa30622329"
+      },
+      {
+        "path": "userspace/ai_yolov5/src/CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4681299bcf7bf701b4d910c6189f89871abf437",
+        "size": 800,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/b4681299bcf7bf701b4d910c6189f89871abf437"
+      },
+      {
+        "path": "userspace/ai_yolov5/src/main.cc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7bbea04ad4a34d40f600adc2d5c45862dc3b87d",
+        "size": 70317,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/d7bbea04ad4a34d40f600adc2d5c45862dc3b87d"
+      },
+      {
+        "path": "userspace/ai_yolov5/src/postprocess.cc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97b91ac8cd2e4cf28b3b14c20251df58c436e8e4",
+        "size": 11116,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/97b91ac8cd2e4cf28b3b14c20251df58c436e8e4"
+      },
+      {
+        "path": "userspace/ai_yolov5/toolchain-rk3568.cmake",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "629408545331215bcabf528f8342d54d8b3bbe79",
+        "size": 818,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/629408545331215bcabf528f8342d54d8b3bbe79"
+      },
+      {
+        "path": "userspace/hmi_qml",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2cbb97389c24b2e2e3c993e8ed10e2d40547b38d",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/2cbb97389c24b2e2e3c993e8ed10e2d40547b38d"
+      },
+      {
+        "path": "userspace/hmi_qml/CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd15b708adbdbb4e5c3a220b02ea0096434c47e6",
+        "size": 921,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/dd15b708adbdbb4e5c3a220b02ea0096434c47e6"
+      },
+      {
+        "path": "userspace/hmi_qml/deploy",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dfd99cc4f90e3468db7603eebb066263e21235ac",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/dfd99cc4f90e3468db7603eebb066263e21235ac"
+      },
+      {
+        "path": "userspace/hmi_qml/deploy/industrial_safety",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fefc2531bc4fbfb9d6d6f3edd90203c1fcd81057",
+        "size": 830,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/fefc2531bc4fbfb9d6d6f3edd90203c1fcd81057"
+      },
+      {
+        "path": "userspace/hmi_qml/deploy/industrial_safety.cfg.line",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "492ca45a82a60906e2cfb8ea7898e947f8c6982d",
+        "size": 60,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/492ca45a82a60906e2cfb8ea7898e947f8c6982d"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cb1784cd8674953fc99c03ece2b7fe6139495259",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/cb1784cd8674953fc99c03ece2b7fe6139495259"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd15b708adbdbb4e5c3a220b02ea0096434c47e6",
+        "size": 921,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/dd15b708adbdbb4e5c3a220b02ea0096434c47e6"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/deploy",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dfd99cc4f90e3468db7603eebb066263e21235ac",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/dfd99cc4f90e3468db7603eebb066263e21235ac"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/deploy/industrial_safety",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fefc2531bc4fbfb9d6d6f3edd90203c1fcd81057",
+        "size": 830,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/fefc2531bc4fbfb9d6d6f3edd90203c1fcd81057"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/deploy/industrial_safety.cfg.line",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "492ca45a82a60906e2cfb8ea7898e947f8c6982d",
+        "size": 60,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/492ca45a82a60906e2cfb8ea7898e947f8c6982d"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/qml.qrc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4dec22a667d64cdde20e1ee70a242d08d5c6ae35",
+        "size": 91,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/4dec22a667d64cdde20e1ee70a242d08d5c6ae35"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/qml",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "398a45ee84446787b8c81b06a89e5395a31cfbde",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/398a45ee84446787b8c81b06a89e5395a31cfbde"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/qml/Main.qml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05378f955ef3f53e09438ed447b00b2a3902ff58",
+        "size": 11938,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/05378f955ef3f53e09438ed447b00b2a3902ff58"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6a27ebb9605b6c67b5c2a291b7ccba8d36926523",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/6a27ebb9605b6c67b5c2a291b7ccba8d36926523"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/src/h264_video_bridge.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c9cd549ccad01bb5ed704bb9dfb2d55df4471e1",
+        "size": 5797,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/9c9cd549ccad01bb5ed704bb9dfb2d55df4471e1"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/src/h264_video_bridge.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5428076f73f4fa7ec3301031d05b0fac7bda215d",
+        "size": 1862,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/5428076f73f4fa7ec3301031d05b0fac7bda215d"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/src/history_model.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8c9d03ea6812429a2609f7f0fbe710729e3d3f84",
+        "size": 2309,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/8c9d03ea6812429a2609f7f0fbe710729e3d3f84"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/src/history_model.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d171b64f6dcc0578164571b621bd2c7198939599",
+        "size": 1079,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/d171b64f6dcc0578164571b621bd2c7198939599"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/src/main.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b5f7cc536c13825098d3cbb2f68f086d891ac8ea",
+        "size": 1660,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/b5f7cc536c13825098d3cbb2f68f086d891ac8ea"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/src/runtime_model.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b1addb34b269b560c76bd40815cd93a74dfd44c",
+        "size": 3562,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/2b1addb34b269b560c76bd40815cd93a74dfd44c"
+      },
+      {
+        "path": "userspace/hmi_qml/hmi_qml/src/runtime_model.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc80a1f083b41c70b1657769da4f50c49a8cf91c",
+        "size": 4116,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/bc80a1f083b41c70b1657769da4f50c49a8cf91c"
+      },
+      {
+        "path": "userspace/hmi_qml/qml.qrc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4dec22a667d64cdde20e1ee70a242d08d5c6ae35",
+        "size": 91,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/4dec22a667d64cdde20e1ee70a242d08d5c6ae35"
+      },
+      {
+        "path": "userspace/hmi_qml/qml",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e98e439a6901aad4c7757ce1fbe9f02c7ba39628",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/e98e439a6901aad4c7757ce1fbe9f02c7ba39628"
+      },
+      {
+        "path": "userspace/hmi_qml/qml/Main.qml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21e52f8aa7a6825fd1b0b10645c92809c02a29f8",
+        "size": 20505,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/21e52f8aa7a6825fd1b0b10645c92809c02a29f8"
+      },
+      {
+        "path": "userspace/hmi_qml/src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "613436924691eab9b0e507dbb69e6b0a233f4577",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/613436924691eab9b0e507dbb69e6b0a233f4577"
+      },
+      {
+        "path": "userspace/hmi_qml/src/h264_video_bridge.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25dbb12c86d9cfca35c83d97407f8b231123c772",
+        "size": 6393,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/25dbb12c86d9cfca35c83d97407f8b231123c772"
+      },
+      {
+        "path": "userspace/hmi_qml/src/h264_video_bridge.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83ae52ca0040756defe7b79041b6934d5a027beb",
+        "size": 1933,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/83ae52ca0040756defe7b79041b6934d5a027beb"
+      },
+      {
+        "path": "userspace/hmi_qml/src/history_model.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f6bd2110df5c8dc2c549d7054cfaac7286d9f16",
+        "size": 3575,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/0f6bd2110df5c8dc2c549d7054cfaac7286d9f16"
+      },
+      {
+        "path": "userspace/hmi_qml/src/history_model.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "01d8e0d76c82c1f4a8c6b965cbc36f87472a1791",
+        "size": 1658,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/01d8e0d76c82c1f4a8c6b965cbc36f87472a1791"
+      },
+      {
+        "path": "userspace/hmi_qml/src/main.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4af16546a63dfa1a4836896902b10f63e69edab1",
+        "size": 1877,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/4af16546a63dfa1a4836896902b10f63e69edab1"
+      },
+      {
+        "path": "userspace/hmi_qml/src/runtime_model.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b1addb34b269b560c76bd40815cd93a74dfd44c",
+        "size": 3562,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/2b1addb34b269b560c76bd40815cd93a74dfd44c"
+      },
+      {
+        "path": "userspace/hmi_qml/src/runtime_model.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc80a1f083b41c70b1657769da4f50c49a8cf91c",
+        "size": 4116,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/bc80a1f083b41c70b1657769da4f50c49a8cf91c"
+      },
+      {
+        "path": "userspace/hmi_qt",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d492b77fbcdceddd2c239b195af584c3bfce2828",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/d492b77fbcdceddd2c239b195af584c3bfce2828"
+      },
+      {
+        "path": "userspace/hmi_qt/CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "849527bbd3a3457f95f4e5713cff6541442d00f7",
+        "size": 694,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/849527bbd3a3457f95f4e5713cff6541442d00f7"
+      },
+      {
+        "path": "userspace/hmi_qt/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "622aaaa99fe165e9291046cd30e0c80012b5f32c",
+        "size": 3701,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/622aaaa99fe165e9291046cd30e0c80012b5f32c"
+      },
+      {
+        "path": "userspace/hmi_qt/src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8fdb7271b0cbd0d7801f4ba78fa130d8c873268e",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/8fdb7271b0cbd0d7801f4ba78fa130d8c873268e"
+      },
+      {
+        "path": "userspace/hmi_qt/src/main.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "67ddbbfe01ca8a00431627537a820b3e67a7bb6f",
+        "size": 1530,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/67ddbbfe01ca8a00431627537a820b3e67a7bb6f"
+      },
+      {
+        "path": "userspace/hmi_qt/src/monitor_window.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a75ba292dc46a9bcc6d1613af91369dc77a3fcc0",
+        "size": 26710,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/a75ba292dc46a9bcc6d1613af91369dc77a3fcc0"
+      },
+      {
+        "path": "userspace/hmi_qt/src/monitor_window.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e000811e6ef0aed22a1f19666d0e61a15f1f412",
+        "size": 3526,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/7e000811e6ef0aed22a1f19666d0e61a15f1f412"
+      },
+      {
+        "path": "userspace/ld2410_frame_parser",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f574eada3f2ebc042dc3975f0fe1b04195f51648",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/f574eada3f2ebc042dc3975f0fe1b04195f51648"
+      },
+      {
+        "path": "userspace/ld2410_frame_parser/ld2410_frame_parser.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4be29efd14b6f8c2a6ceccbf15900bff4d6a5948",
+        "size": 8490,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/4be29efd14b6f8c2a6ceccbf15900bff4d6a5948"
+      },
+      {
+        "path": "userspace/ld2410_uart_probe",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "68d94a7998213df6f55edcc9f5d9d3bd28983a7c",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/68d94a7998213df6f55edcc9f5d9d3bd28983a7c"
+      },
+      {
+        "path": "userspace/ld2410_uart_probe/ld2410_uart_probe.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76bdc42470d5cff9d802f10b41aff53eaf7bef4e",
+        "size": 3849,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/76bdc42470d5cff9d802f10b41aff53eaf7bef4e"
+      },
+      {
+        "path": "userspace/mqtt_reporterd",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ec1d3314682a2a25075a2ae058da85258d1df6da",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/ec1d3314682a2a25075a2ae058da85258d1df6da"
+      },
+      {
+        "path": "userspace/mqtt_reporterd/Makefile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6988a41f5c3cf7cd8d2130f952e176c3fad9bec3",
+        "size": 615,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/6988a41f5c3cf7cd8d2130f952e176c3fad9bec3"
+      },
+      {
+        "path": "userspace/mqtt_reporterd/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9bed3f93431622c1f212b6024e585007c88c7d93",
+        "size": 2532,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/9bed3f93431622c1f212b6024e585007c88c7d93"
+      },
+      {
+        "path": "userspace/mqtt_reporterd/S95mqtt_reporterd",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f467fafa33cbcd8e0e091323b59aa0e38ed5988",
+        "size": 2324,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/1f467fafa33cbcd8e0e091323b59aa0e38ed5988"
+      },
+      {
+        "path": "userspace/mqtt_reporterd/jsmn.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f99c22e3a59c1b1570140da10c968803c61de03",
+        "size": 18,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/2f99c22e3a59c1b1570140da10c968803c61de03"
+      },
+      {
+        "path": "userspace/mqtt_reporterd/jsmn.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb436c677a12692525f18bd9dcd8d45f9fd8ce63",
+        "size": 8283,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/fb436c677a12692525f18bd9dcd8d45f9fd8ce63"
+      },
+      {
+        "path": "userspace/mqtt_reporterd/mqtt_reporterd.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8793f8be1525150da682968a41e8d03eaa78c8b3",
+        "size": 35425,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/8793f8be1525150da682968a41e8d03eaa78c8b3"
+      },
+      {
+        "path": "userspace/mqtt_reporterd/mqtt_reporterd.env.example",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5082725ae9370327e7a7158349da05670c092783",
+        "size": 256,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/5082725ae9370327e7a7158349da05670c092783"
+      },
+      {
+        "path": "userspace/safety_alarmd",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ed342c154b6d8ea003c6ca113e1b8925a469c709",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/ed342c154b6d8ea003c6ca113e1b8925a469c709"
+      },
+      {
+        "path": "userspace/safety_alarmd/Makefile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "399c296cacc8a1434263ba3f0671094e99f80e21",
+        "size": 790,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/399c296cacc8a1434263ba3f0671094e99f80e21"
+      },
+      {
+        "path": "userspace/safety_alarmd/S90safety_alarmd",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "03b866c15a0d771370b6b4fa0520e7515f47479e",
+        "size": 1800,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/03b866c15a0d771370b6b4fa0520e7515f47479e"
+      },
+      {
+        "path": "userspace/safety_alarmd/ai_alarm_bridge.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a30c25cf55bc5385071bf74d9b59c8f14e53d96c",
+        "size": 3795,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/a30c25cf55bc5385071bf74d9b59c8f14e53d96c"
+      },
+      {
+        "path": "userspace/safety_alarmd/safety_alarmctl.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e0319dff92391fb837d0961ef35ff23f1c927da",
+        "size": 5487,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/4e0319dff92391fb837d0961ef35ff23f1c927da"
+      },
+      {
+        "path": "userspace/safety_alarmd/safety_alarmd.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59ef9df49b29f68a38d37025c5a209848cd46711",
+        "size": 100110,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/59ef9df49b29f68a38d37025c5a209848cd46711"
+      },
+      {
+        "path": "userspace/safety_event_test",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ca9288770be6327c428616c6dd3344a5e93b31a4",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/ca9288770be6327c428616c6dd3344a5e93b31a4"
+      },
+      {
+        "path": "userspace/safety_event_test/Makefile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b649f4114fe1e90ecad72a98e1f1e531677a879c",
+        "size": 521,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/b649f4114fe1e90ecad72a98e1f1e531677a879c"
+      },
+      {
+        "path": "userspace/safety_event_test/safety_event_uapi_test.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "906d52c67419773cbe66a4113b6aad544405a177",
+        "size": 5882,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/906d52c67419773cbe66a4113b6aad544405a177"
+      },
+      {
+        "path": "userspace/sqlite_eventd",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a6e607133611fe31a3af6a1f5f25ad4f3c179213",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/a6e607133611fe31a3af6a1f5f25ad4f3c179213"
+      },
+      {
+        "path": "userspace/sqlite_eventd/Makefile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f9db148a5510cb53a3921849774559e140d04e2",
+        "size": 322,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/1f9db148a5510cb53a3921849774559e140d04e2"
+      },
+      {
+        "path": "userspace/sqlite_eventd/S94sqlite_eventd",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "383e2394ca2993502800c14afcb83553e937a431",
+        "size": 2310,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/383e2394ca2993502800c14afcb83553e937a431"
+      },
+      {
+        "path": "userspace/sqlite_eventd/sqlite_eventd.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e4ede41943171fefa602247bd0fa0b392d8cd034",
+        "size": 39226,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/e4ede41943171fefa602247bd0fa0b392d8cd034"
+      },
+      {
+        "path": "userspace/state_snapshotd",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "74fad02541294fbd65212977ad99301b56d44a90",
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/trees/74fad02541294fbd65212977ad99301b56d44a90"
+      },
+      {
+        "path": "userspace/state_snapshotd/Makefile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd5ec4a4fcb75224a2e949c296905824be0b778a",
+        "size": 276,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/bd5ec4a4fcb75224a2e949c296905824be0b778a"
+      },
+      {
+        "path": "userspace/state_snapshotd/S92state_snapshotd",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ae2438fc88b83216859094786f5d1c393b83736",
+        "size": 645,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/7ae2438fc88b83216859094786f5d1c393b83736"
+      },
+      {
+        "path": "userspace/state_snapshotd/state_snapshotd.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51c0dd7c778bfceed1edef7d18ce291347136216",
+        "size": 10751,
+        "url": "https://api.github.com/repos/1559359542/-rk3568-safety-terminal-public/git/blobs/51c0dd7c778bfceed1edef7d18ce291347136216"
+      }
+    ],
+    "truncated": false
+  }
+}

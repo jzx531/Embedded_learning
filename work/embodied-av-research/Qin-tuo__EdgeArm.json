@@ -1,0 +1,3010 @@
+{
+  "repository": "Qin-tuo/EdgeArm",
+  "fetched_at_utc": "2026-11-23T11:38:39.6537093Z",
+  "metadata": {
+    "id": 1409856103,
+    "node_id": "R_kgDOVAiyZw",
+    "name": "EdgeArm",
+    "full_name": "Qin-tuo/EdgeArm",
+    "private": false,
+    "owner": {
+      "login": "Qin-tuo",
+      "id": 58831817,
+      "node_id": "MDQ6VXNlcjU4ODMxODE3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58831817?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Qin-tuo",
+      "html_url": "https://github.com/Qin-tuo",
+      "followers_url": "https://api.github.com/users/Qin-tuo/followers",
+      "following_url": "https://api.github.com/users/Qin-tuo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Qin-tuo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Qin-tuo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Qin-tuo/subscriptions",
+      "organizations_url": "https://api.github.com/users/Qin-tuo/orgs",
+      "repos_url": "https://api.github.com/users/Qin-tuo/repos",
+      "events_url": "https://api.github.com/users/Qin-tuo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Qin-tuo/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/Qin-tuo/EdgeArm",
+    "description": "EdgeArm: local voice-controlled SO-101 robotics on RK3588 and RK1828, based on OpenVoiceStream.",
+    "fork": false,
+    "url": "https://api.github.com/repos/Qin-tuo/EdgeArm",
+    "forks_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/forks",
+    "keys_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/teams",
+    "hooks_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/hooks",
+    "issue_events_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/events",
+    "assignees_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/tags",
+    "blobs_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/languages",
+    "stargazers_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/stargazers",
+    "contributors_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/contributors",
+    "subscribers_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/subscribers",
+    "subscription_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/subscription",
+    "commits_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/merges",
+    "archive_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/downloads",
+    "issues_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/labels{/name}",
+    "releases_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/Qin-tuo/EdgeArm/deployments",
+    "created_at": "2026-10-08T06:34:46Z",
+    "updated_at": "2026-11-04T01:23:12Z",
+    "pushed_at": "2026-10-12T08:51:59Z",
+    "git_url": "git://github.com/Qin-tuo/EdgeArm.git",
+    "ssh_url": "git@github.com:Qin-tuo/EdgeArm.git",
+    "clone_url": "https://github.com/Qin-tuo/EdgeArm.git",
+    "svn_url": "https://github.com/Qin-tuo/EdgeArm",
+    "homepage": null,
+    "size": 24667,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 2,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 0,
+    "subscribers_count": 0
+  },
+  "readme_path": "README.md",
+  "readme": "<p align=\"center\">\n  <img src=\"media/logo.png\" alt=\"EdgeArm\" width=\"200\">\n</p>\n\n<h1 align=\"center\">EdgeArm</h1>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg\" alt=\"License: MIT\"></a>\n  <img src=\"https://img.shields.io/badge/Python-3.10%2B-green.svg\" alt=\"Python: 3.10+\">\n  <img src=\"https://img.shields.io/badge/Platform-RK3588%20%7C%20RK1828-orange.svg\" alt=\"Platform: RK3588 / RK1828\">\n  <br>\n  <img src=\"https://img.shields.io/badge/ASR-Qwen3--ASR-2f80ed.svg\" alt=\"ASR: Qwen3-ASR\">\n  <img src=\"https://img.shields.io/badge/LLM-Qwen3--4B-8b5cf6.svg\" alt=\"LLM: Qwen3-4B\">\n  <img src=\"https://img.shields.io/badge/TTS-Matcha%20%7C%20Vocos-f97316.svg\" alt=\"TTS: Matcha / Vocos\">\n  <img src=\"https://img.shields.io/badge/Arm-SO--101-14b8a6.svg\" alt=\"Arm: SO-101\">\n</p>\n\n<p align=\"center\">\n  Qwen3-ASR · Qwen3-4B · Matcha/Vocos — <strong>本地推理 · 按键说话 · SO-101 任务接口</strong>\n</p>\n\n<!-- TODO: 完成板端语音闭环验收后，录制约 15 秒的真实演示 GIF：\n     1. 展示服务健康状态和调试页面。\n     2. 按键说话，展示中文识别、LLM 回复和语音播放。\n     3. 展示 robot_query 状态查询；机械臂动作在完成实机验收后录制。\n     演示和延迟数据以本机实录为准。 -->\n\nEdgeArm 面向 RK3588 主板、PCIe RK1828 加速卡和 SO-101 机械臂，将语音识别、对话、语音合成与机器人任务接口放在同一台设备上。项目基于 [OpenVoiceStream](https://github.com/Seeed-Solution/openvoicestream)，复用其语音服务、会话、音频和工具执行框架，Rockchip 语音推理由固定版本的 [rkvoice-stream](https://github.com/suharvest/rkvoice-stream) 提供。\n\n默认中文链路：**Silero VAD → Qwen3-ASR（RK3588）→ Qwen3-4B（RK1828）→ Matcha/Vocos TTS**。应用入口为 `edgearm`，交互采用按键说话。模型和运行依赖准备完成后，对话推理在本地运行；首次下载模型、镜像和依赖需要网络。\n\n当前已完成软件集成与回归检查。真实录放音、完整语音链路和机械臂动作仍需板端验收；D435i、接触传感器及抓放规划/结果验证仍待接入。默认配置关闭机械臂运动。\n\n## 目录\n\n- [功能](#功能)\n- [目标硬件与运行环境](#目标硬件与运行环境)\n- [快速开始](#快速开始)\n- [模型准备](#模型准备)\n- [配置](#配置)\n- [接口](#接口)\n- [架构](#架构)\n- [测试与验证](#测试与验证)\n- [项目结构](#项目结构)\n- [参与开发](#参与开发)\n- [来源与许可](#来源与许可)\n\n## 功能\n\n### 语音与对话\n\n- **本地 ASR**：Qwen3-ASR 使用 RKNN encoder 和 RKLLM decoder，默认运行在 RK3588 上。\n- **本地 LLM**：Qwen3-4B 通过 RKNN3 在 PCIe RK1828 上运行，提供 OpenAI-compatible HTTP 接口。\n- **流式 TTS**：Matcha 使用 ONNX Runtime 声学模型，Vocos 使用 RKNN 声码器，通过语音服务输出音频。\n- **交互与会话**：复用 OVS 的 WebSocket 会话、音频输入输出、会话预算和工具调用；默认中文、单会话、按键说话。\n- **本地调试**：提供调试页面、服务健康检查和日志，应用入口统一为 `edgearm run`。\n\n### 机械臂任务接口\n\n| 接口 | 用途 | 当前实现范围 |\n|---|---|---|\n| `robot_query` | 查询机器人健康、物体/放置区 ID 和请求令牌 | 状态与结构化观察接口 |\n| `robot_grasp_place` | 请求将物体抓放到指定区域 | 已有任务契约；实际规划与结果验证后端待接入 |\n| `robot_cancel` | 取消任务并请求受控停止 | 软件取消与停止流程，实机效果待验证 |\n\nSO-101 串口调用由一个串行 worker 持有；查询读取缓存。运动使能使用独立的本地操作接口，LLM 工具中没有使能操作。缺少抓放后端或新鲜观察时，任务返回拒绝。\n\n感知、接触和抓放扩展的实现边界见 [项目范围](docs/scope.md) 与 [运行手册](docs/runbook.md)。\n\n## 目标硬件与运行环境\n\n| 组件 | 选定方案 | 职责 |\n|---|---|---|\n| 主板 | RK3588，16 GB 内存 / 128 GB 存储 | 语音、应用运行及后续视觉推理 |\n| 加速卡 | PCIe RK1828 | RKNN3 本地 Qwen3-4B 推理 |\n| 系统 | Ubuntu 22.04 ARM64、Python 3.10、兼容的 Rockchip BSP | 当前开发基线 |\n| 音频 | 麦克风、扬声器及适配的全双工声卡 | 采集和播放，需录放音验收 |\n| 机械臂 | SO-101，五关节及夹爪 | TTL 串口控制与反馈 |\n| 深度相机 | D435i | 后续 RGB-D 感知与外参标定 |\n| 接触传感器 | ADC/MCU 接口待选型 | 后续接触反馈 |\n\n本项目的产品配置针对 RK3588 + RK1828。两者分别使用 RKNN2/RKLLM 和 RKNN3，需要各自配套的驱动、Runtime 与模型。第三方依赖中的其他平台和后端不属于 EdgeArm 的默认部署范围。\n\n## 快速开始\n\n### 1. 获取源码与准备开发环境\n\n在目标 ARM64 板端执行，建议将仓库放在 `/userdata/EdgeArm`，与 Docker 数据目录配置保持一致：\n\n```bash\ncd /userdata\ngit clone --recurse-submodules https://github.com/Qin-tuo/EdgeArm.git\ncd EdgeArm\n\nscripts/setup-tools.sh\nscripts/setup-dev.sh\nsource scripts/activate-env.sh\nscripts/check.sh\n```\n\n已有仓库可从 `cd /userdata/EdgeArm` 开始。项目使用 **venv + pip**，依赖版本固定在 [deploy/python.lock.txt](deploy/python.lock.txt)。`setup-tools.sh` 准备项目内的 Docker CLI、daemon、Compose 和 Buildx；`setup-dev.sh` 安装应用开发依赖及 ARM64 默认后端所需的 Lite2 2.3.2。\n\n当前 BSP 不具备完整容器支持，不更换内核时采用 [原生运行方案](docs/framework-audit.md)。ASR/TTS 基本推理已通过；RK1828 仅 EFFICIENT work / EFFICIENT prefill 在此前厂商服务 33 次、项目 worker 41 次及页面对话样本中通过传输检查。其他已测模式出现断链，两次重启后完全跳过 SMI 的对照也在首条 31-token 请求失败；根因未确定，冷断电首次上电尚未验证。长期稳定性与答案质量未通过，工具请求默认拒绝，录放音及机器人外设尚未完成验收。当前启动命令和测试边界见 [runbook](docs/runbook.md)。\n\n以后每次打开终端，只需：\n\n```bash\ncd /userdata/EdgeArm\nsource scripts/activate-env.sh\n```\n\n激活脚本配置 `.venv`、本地控制 socket、Silero VAD 和 Docker CLI 路径，并清除 ROS 注入的 Python 搜索路径。板端直接运行 RKNN2 后端还需要官方 Lite2 2.3.2 包和匹配的 `librknnrt.so`；应用开发环境的安装不会替代 BSP/NPU Runtime 配置。\n\n### 2. 检查板端条件并启动 Docker\n\n确认 RK1828 设备、RKNN3 Runtime 和 transfer proxy 可用；具体排查步骤见 [运行手册](docs/runbook.md)。\n\n```bash\nsystemctl status rk182x.service --no-pager\nsudo scripts/start-docker.sh\n```\n\n`start-docker.sh` 保持前台运行。已有 Docker daemon 时，先确认其数据目录位于 `/userdata`，再使用它。在另一个终端执行：\n\n```bash\ncd /userdata/EdgeArm\nsource scripts/activate-env.sh\nsudo .venv/bin/python scripts/doctor.py --json\n```\n\n`doctor.py` 检查主机条件；实际 NPU 推理与录放音需要另行验证。\n\n### 3. 构建并启动完整应用\n\n默认 Compose 启动 `speech`、`llm` 和 `agent` 三个服务。基础镜像固定 digest，构建时叠加本项目源码。\n\n**使用本机已有 Qwen3-4B 模型时，先按 [模型说明](docs/model-storage.md) 配置覆盖文件，并为下面的 Compose 命令加入 `-f .local/deploy/models.local.yaml`。** 新克隆的仓库不包含这个本机文件。\n\n```bash\nsudo scripts/compose.sh build\nsudo scripts/compose.sh up -d\nsudo scripts/compose.sh ps\nsudo scripts/compose.sh logs --tail=100\n```\n\n首次启动会按所选清单获取、校验所需模型。启动时间取决于网络、模型准备和加载情况；`agent` 等待语音与 LLM 服务健康后启动。\n\n```bash\ncurl -fsS http://127.0.0.1:8621/health\ncurl -fsS http://127.0.0.1:1828/health\n```\n\n板端调试页面为 **http://127.0.0.1:18000**。通过 SSH 操作时，在 PC 上转发端口，再打开本机同一地址：\n\n```bash\nssh -L 18000:127.0.0.1:18000 ubuntu@BOARD_IP  # 将 BOARD_IP 替换为板子 IP\n```\n\n### 本地调试 agent\n\n语音和 LLM 服务就绪后，可在项目环境中运行 agent；调试前先停止 Compose 中的 agent，避免同时占用音频设备和控制 socket：\n\n```bash\nsudo scripts/compose.sh stop agent\nedgearm run edgearm --config deploy/agent-config.yaml\n```\n\n完整应用的默认部署仍使用上述 Compose。本地命令只启动 agent。\n\n## 模型准备\n\n模型不随 Git 仓库分发。主机默认数据根目录为 `.local/data/`，Compose 将其挂载到对应服务：\n\n| 用途 | 主机目录 | 容器目录 | 完整性清单 |\n|---|---|---|---|\n| Qwen3-ASR | `.local/data/asr/` | `/opt/asr/models/` | [RK 模型清单](deploy/artifacts/rk_manifest.json) |\n| Matcha/Vocos | `.local/data/tts/` | `/opt/tts/models/` | RK 清单与 [Matcha 清单](server/core/matcha_artifacts.json) |\n| Qwen3-4B | `.local/data/llm/` | `/opt/llm/models/` | [默认 RK1828 清单](services/rk1828-llm/artifacts.json)或配套的本机清单 |\n| Silero VAD | `server/core/assets/silero_vad.onnx` | `/opt/voice/assets/silero_vad.onnx` | [版本锁](deploy/baseline.lock.json) |\n\nASR 需要 tokenizer、embedding、mel filters、encoder 和 decoder 等配套资源；Matcha 还需要词典、音素表和语言资源。下载与加载按文件大小和 SHA256 校验。\n\n已有 RK_LLM V1.1.0 导出的 Qwen3-4B 可通过本机模型清单和 Compose 覆盖配置接入，详见 [本机模型位置与启动配置](docs/model-storage.md)。模型图、权重、tokenizer 和 Runtime 必须按配套发布版本核对。\n\n## 配置\n\n| 文件 | 用途 |\n|---|---|\n| [deploy/agent-config.yaml](deploy/agent-config.yaml) | 语言、LLM、音频、交互方式和机器人配置 |\n| [deploy/cm3588.env](deploy/cm3588.env) | Compose 环境变量与模型下载地址 |\n| [deploy/audio_profiles.yaml](deploy/audio_profiles.yaml) | 声卡匹配、通道选择和增益 |\n| [configs/profiles/rk3588-default.json](configs/profiles/rk3588-default.json) | Qwen3-ASR + Matcha/Vocos 语音后端参数 |\n| [deploy/compose.yaml](deploy/compose.yaml) | 服务、设备、模型挂载、内存与健康检查 |\n| [deploy/baseline.lock.json](deploy/baseline.lock.json) | 上游源码、子模块、镜像和模型清单版本 |\n\n默认参数为中文、单会话、2048 token LLM 上下文、按键说话；打断关闭，`metadata.robot.enabled` 为 `false`。\n\n声卡配置可放在忽略 Git 的本机环境文件中：\n\n```bash\ncp deploy/cm3588.env deploy/cm3588.local.env\n# 编辑 EDGEARM_AUDIO_INPUT / EDGEARM_AUDIO_OUTPUT 等配置\nsudo env EDGEARM_ENV_FILE=/userdata/EdgeArm/deploy/cm3588.local.env \\\n  scripts/compose.sh up -d\n```\n\n连接 SO-101 需要真实串口、六电机标定、限位及标定文件 SHA256。`enabled: true` 允许连接与读取反馈，运动仍需通过本地接口人工使能；接入步骤见 [运行手册](docs/runbook.md)。\n\n## 接口\n\n### 语音与 LLM 服务\n\n| 服务 | 方法 | 地址/路径 | 用途 |\n|---|---|---|---|\n| speech · `127.0.0.1:8621` | GET | `/health`、`/readyz` | 健康与就绪检查 |\n| speech | POST | `/asr` | 音频转录 |\n| speech | WS | `/asr/stream` | 流式 ASR |\n| speech | POST | `/tts`、`/tts/stream` | WAV 合成与 PCM 流式合成 |\n| speech | WS | `/v2v/stream` | agent 使用的持续语音会话 |\n| speech | GET | `/v1/capabilities` | 服务能力信息 |\n| llm · `127.0.0.1:1828` | GET | `/health`、`/v1/models` | 健康与模型信息 |\n| llm | POST | `/v1/chat/completions` | OpenAI-compatible 对话 |\n\n协议细节见 [V2V stream](docs/api/v2v-stream.md) 和 [Realtime v2](docs/api/realtime-v2.md)。服务接口的能力以当前选定后端为准。\n\n### 本地机器人操作\n\n操作客户端通过 `.local/run/edgearm/control.sock` 通信，应用运行时可查询状态和请求停止：\n\n```bash\npython scripts/control.py status\npython scripts/control.py stop\n```\n\n人工使能使用 `python scripts/control.py enable`，按运行手册完成接入后执行。客户端需要与服务相应的 socket 访问权限。\n\n## 架构\n\n```mermaid\nflowchart TD\n    Audio[\"麦克风 / 扬声器\"] <--> Agent[\"edgearm agent：音频、会话、工具\"]\n    Agent <--> Speech[\"speech：RK3588 ASR / VAD / TTS\"]\n    Agent <--> LLM[\"llm：RK1828 Qwen3-4B\"]\n    Agent --> Robot[\"SO101Plugin：任务与状态\"]\n    Operator[\"本地操作客户端\"] --> Socket[\"Unix control socket\"]\n    Socket --> Robot\n    Robot --> Worker[\"串行 worker / SOArmActuator\"]\n    Worker --> Arm[\"SO-101 TTL 串口\"]\n    Camera[\"D435i：待接入\"] --> Sensors[\"SensorStore：结构化观察\"]\n    Contact[\"接触 ADC / MCU：待接入\"] --> Sensors\n    Sensors --> Robot\n```\n\nagent 持有音频设备和工具调用；speech 持有语音模型；LLM 服务通过主机 RKNN3 proxy 驱动 RK1828。传感器适配器通过 `SensorStore` 发布带时间和标定版本的观察，抓放后端负责规划与结果验证。\n\n资源所有权、执行器状态和扩展契约见 [当前软件架构](ARCHITECTURE.md)，系统设计见 [SO-101 Rockchip 架构书](01-so101-rockchip-system-architecture.md)。\n\n## 测试与验证\n\n```bash\nsource scripts/activate-env.sh\nscripts/check.sh\n```\n\n检查覆盖依赖、Docker/Compose 配置、产品导入、版本锁、文档链接，以及 agent、server 和机械臂契约回归。日志与 JUnit 报告保存在 `.local/reports/`。\n\n模型文件和真实服务推理可分别检查：\n\n```bash\npython scripts/test-models.py --verify-only\n# speech 和 llm 服务就绪后：\npython scripts/test-models.py --services-only\n```\n\n推理检查覆盖 LLM 回复、有效 TTS 音频和 TTS→ASR 单句回读，报告与试听 WAV 保存在 `.local/reports/model-smoke/`。启动方式及通过条件见 [模型验证](docs/model-storage.md#验证模型)。\n\n| 验证项 | 当前结果 |\n|---|---|\n| 软件回归（2026-10-12） | **1257 项通过、2 项跳过、0 失败** |\n| Silero CPU VAD | 静音与仓库语音样本测试通过 |\n| ASR/TTS 质量与延迟、完整 V2V 链路 | ASR/TTS 单句基本推理通过；完整质量、延迟及长期链路待验收 |\n| 真实声卡、SO-101、D435i、接触反馈 | 待硬件接入与验收 |\n| 语音/视觉 NPU 共存、峰值内存与热运行 | 待整机测量 |\n\n软件测试使用 fake 验证机械臂与传感器契约。性能数据以本项目板端测量为准；验证记录和剩余验收项见 [软件验证](docs/validation.md) 与 [运行手册](docs/runbook.md)。\n\n## 项目结构\n\n```text\nEdgeArm/\n├── agent/ovs_agent/         # 共享语音 runtime 与 apps/edgearm\n├── server/                 # 语音服务、会话及 RK 后端\n├── services/rk1828-llm/     # 本地 LLM HTTP 服务\n├── configs/profiles/       # rk3588-default 语音配置\n├── deploy/                 # Compose、Dockerfile、配置与版本锁\n├── scripts/                # 环境、检查、诊断及操作入口\n├── docs/                   # 协议、部署、模型与验证文档\n├── media/                  # README Logo；SVG 源文件与 PNG\n├── third_party/rkvoice-stream/  # 固定提交的 Rockchip 依赖\n├── tests/                  # 产品契约测试；各组件另有 tests/\n└── .local/                 # 本机模型、工具、状态和报告，不提交 Git\n```\n\nPython 命名空间 `ovs_agent` 保留上游契约，项目命令与应用入口均为 `edgearm`。逐文件来源和裁剪记录见 [文件清单](docs/file-inventory.json)。\n\n## 参与开发\n\n在 [EdgeArm 仓库](https://github.com/Qin-tuo/EdgeArm) 提交问题或 PR。问题报告请附系统/内核、Runtime 与模型版本、复现步骤和相关日志；硬件问题还需提供设备连接与标定信息。\n\n提交修改前运行 `scripts/check.sh`。感知、接触和抓放扩展沿用现有设备所有权与任务接口；新增模型或运行库时同步配套清单和验证记录。\n\n## 来源与许可\n\n- [OpenVoiceStream](https://github.com/Seeed-Solution/openvoicestream)：语音服务、agent、会话、音频和 SO 驱动的上游来源。\n- [rkvoice-stream](https://github.com/suharvest/rkvoice-stream)：固定版本的 Rockchip 语音推理依赖。\n- `voxedge`：文本与语音前端依赖，固定为 `0.0.15a1`。\n- Rockchip RKNN2、RKLLM 与 RKNN3：对应平台的模型及运行工具链。\n\n项目保留上游 [MIT License](LICENSE)。第三方依赖、模型、厂商 Runtime 与容器镜像按各自许可使用；具体来源与版本见 [NOTICE](NOTICE.md) 和 [版本锁](deploy/baseline.lock.json)。\n",
+  "tree": {
+    "sha": "f15348cdbc087b7e431911f6c8ff4b7e641295df",
+    "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/f15348cdbc087b7e431911f6c8ff4b7e641295df",
+    "tree": [
+      {
+        "path": ".dockerignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8235c09e99fb57fd177e18d9f303ece2b3c80c7",
+        "size": 62,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b8235c09e99fb57fd177e18d9f303ece2b3c80c7"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6cd988840ce0f0e38bc3f8995b35bc42b0d5bbda",
+        "size": 205,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/6cd988840ce0f0e38bc3f8995b35bc42b0d5bbda"
+      },
+      {
+        "path": ".gitmodules",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b0cdcb7d6c5830eb9380baa2cf54ff69b676d85",
+        "size": 131,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5b0cdcb7d6c5830eb9380baa2cf54ff69b676d85"
+      },
+      {
+        "path": "01-so101-rockchip-system-architecture.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "24fcb43339cdd528c754565b2c7b4122079874e7",
+        "size": 18294,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/24fcb43339cdd528c754565b2c7b4122079874e7"
+      },
+      {
+        "path": "ARCHITECTURE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89ca2726440cca96da8e9c6f32d8de02d0d87c90",
+        "size": 4635,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/89ca2726440cca96da8e9c6f32d8de02d0d87c90"
+      },
+      {
+        "path": "DEVELOP.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a217a0c081a814f0911509229ac402ed0d4998f",
+        "size": 760,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/2a217a0c081a814f0911509229ac402ed0d4998f"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d684641646a1cc872cd9a9f040a37b77ec618bc",
+        "size": 1072,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5d684641646a1cc872cd9a9f040a37b77ec618bc"
+      },
+      {
+        "path": "NOTICE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a068999b93ea285c224d43364e2bf42b912b9fc",
+        "size": 986,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/9a068999b93ea285c224d43364e2bf42b912b9fc"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc8349fd7d9c4f986728f8487e9589a51e5877bb",
+        "size": 16764,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/dc8349fd7d9c4f986728f8487e9589a51e5877bb"
+      },
+      {
+        "path": "README.zh-CN.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "361e9490127117ea795071f87ae2b656dbf04de3",
+        "size": 223,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/361e9490127117ea795071f87ae2b656dbf04de3"
+      },
+      {
+        "path": "agent",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d88c37c27188dd0af09f4a4bf0860ddbce9905c4",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/d88c37c27188dd0af09f4a4bf0860ddbce9905c4"
+      },
+      {
+        "path": "agent/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "800a2a532fcfb47b12400712d5733b7d295ad246",
+        "size": 628,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/800a2a532fcfb47b12400712d5733b7d295ad246"
+      },
+      {
+        "path": "agent/_ik_envelope_new.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6663dea0ab9c6113a3f25ceced356ae031e7cbc7",
+        "size": 588338,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/6663dea0ab9c6113a3f25ceced356ae031e7cbc7"
+      },
+      {
+        "path": "agent/ovs_agent",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "84ae220a029635a929fb8d52b5acd61941b1ce38",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/84ae220a029635a929fb8d52b5acd61941b1ce38"
+      },
+      {
+        "path": "agent/ovs_agent/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b9a6a1172080eda041db33d6182c782e767622d",
+        "size": 2324,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/2b9a6a1172080eda041db33d6182c782e767622d"
+      },
+      {
+        "path": "agent/ovs_agent/actuators",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4797a0ad812dc8dc73e62c42191d7e2661399f24",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/4797a0ad812dc8dc73e62c42191d7e2661399f24"
+      },
+      {
+        "path": "agent/ovs_agent/actuators/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0f14cca89ec884bc569e184c75233e2d31842e7",
+        "size": 757,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/f0f14cca89ec884bc569e184c75233e2d31842e7"
+      },
+      {
+        "path": "agent/ovs_agent/actuators/actions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b18ee0edb92dc852a0e5f4eceb96c4784f9cdaa",
+        "size": 20801,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/0b18ee0edb92dc852a0e5f4eceb96c4784f9cdaa"
+      },
+      {
+        "path": "agent/ovs_agent/actuators/base.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb95f13e1274d2f088842ada829fc7df993ea181",
+        "size": 4643,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/fb95f13e1274d2f088842ada829fc7df993ea181"
+      },
+      {
+        "path": "agent/ovs_agent/actuators/factory.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c31fdb55a72390adf12a68b93d9205bd2993d3ae",
+        "size": 2156,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/c31fdb55a72390adf12a68b93d9205bd2993d3ae"
+      },
+      {
+        "path": "agent/ovs_agent/actuators/serial_resolve.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "962d664b2c347136acac626394f9385b9f7a05d9",
+        "size": 7513,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/962d664b2c347136acac626394f9385b9f7a05d9"
+      },
+      {
+        "path": "agent/ovs_agent/app_base.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4fb0bc813852a88aee779091de4345a8030c7a8d",
+        "size": 197889,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/4fb0bc813852a88aee779091de4345a8030c7a8d"
+      },
+      {
+        "path": "agent/ovs_agent/app_mode.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a404afd7d29df82459af8ed148d40a8d6c662ca8",
+        "size": 29048,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/a404afd7d29df82459af8ed148d40a8d6c662ca8"
+      },
+      {
+        "path": "agent/ovs_agent/apps",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "35362af55f031f442a28e3a6f6c5114a72271d8c",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/35362af55f031f442a28e3a6f6c5114a72271d8c"
+      },
+      {
+        "path": "agent/ovs_agent/apps/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "agent/ovs_agent/apps/edgearm",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "14cced0123fc8670e9aeaaf82c8048ff0c20cb7e",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/14cced0123fc8670e9aeaaf82c8048ff0c20cb7e"
+      },
+      {
+        "path": "agent/ovs_agent/apps/edgearm/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09b96efda632fc816542c848657ebed671ae845a",
+        "size": 48,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/09b96efda632fc816542c848657ebed671ae845a"
+      },
+      {
+        "path": "agent/ovs_agent/apps/edgearm/app.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "662ab81dcfab017b46411b023c9269a46fcca16b",
+        "size": 3827,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/662ab81dcfab017b46411b023c9269a46fcca16b"
+      },
+      {
+        "path": "agent/ovs_agent/apps/edgearm/config.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bd39ce203786f75126568e6b2c212212267dfe0",
+        "size": 1909,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/3bd39ce203786f75126568e6b2c212212267dfe0"
+      },
+      {
+        "path": "agent/ovs_agent/apps/edgearm/contracts.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da12514767d0ce9bd604ef56de04b0f036538d75",
+        "size": 4718,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/da12514767d0ce9bd604ef56de04b0f036538d75"
+      },
+      {
+        "path": "agent/ovs_agent/apps/edgearm/minimal_so_follower.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "169bc33c3c067c111c1ca2655793ec21dd64e421",
+        "size": 21190,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/169bc33c3c067c111c1ca2655793ec21dd64e421"
+      },
+      {
+        "path": "agent/ovs_agent/apps/edgearm/robot_plugin.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1332a5a972266ada77958e5681b454f6958b46eb",
+        "size": 13116,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/1332a5a972266ada77958e5681b454f6958b46eb"
+      },
+      {
+        "path": "agent/ovs_agent/apps/edgearm/so_arm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8905eabfd42419ffc968e51c1a7b8da4f0e716c3",
+        "size": 9948,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/8905eabfd42419ffc968e51c1a7b8da4f0e716c3"
+      },
+      {
+        "path": "agent/ovs_agent/audio",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "18ddf9cffe31150b27b8d5df191bd1f92e93cc7d",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/18ddf9cffe31150b27b8d5df191bd1f92e93cc7d"
+      },
+      {
+        "path": "agent/ovs_agent/audio/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a3bbab86d171ba07b2dc2e8f9fbd09476083dad",
+        "size": 417,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/6a3bbab86d171ba07b2dc2e8f9fbd09476083dad"
+      },
+      {
+        "path": "agent/ovs_agent/audio/devices.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b35dbcca6952b3ac66ce4b0f5c7f4cc6b7df2152",
+        "size": 15530,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b35dbcca6952b3ac66ce4b0f5c7f4cc6b7df2152"
+      },
+      {
+        "path": "agent/ovs_agent/audio/profiles.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef865ef8fe47f216e9abbed6d02b79ba96fe7cf7",
+        "size": 11703,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/ef865ef8fe47f216e9abbed6d02b79ba96fe7cf7"
+      },
+      {
+        "path": "agent/ovs_agent/audio/sounddevice_backend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a823d9d7c3992120b79a96867b44d54f87cd8209",
+        "size": 428,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/a823d9d7c3992120b79a96867b44d54f87cd8209"
+      },
+      {
+        "path": "agent/ovs_agent/audio/tapped_audio_io.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61092ece0f916ec20c281921c822be0bb52815ab",
+        "size": 12007,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/61092ece0f916ec20c281921c822be0bb52815ab"
+      },
+      {
+        "path": "agent/ovs_agent/audio/vad_gate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0daeb222ff6cf46e2517671e39d35534f7ed6e8b",
+        "size": 6730,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/0daeb222ff6cf46e2517671e39d35534f7ed6e8b"
+      },
+      {
+        "path": "agent/ovs_agent/audio_io.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df20a753ff10e419048c17ffecd46aab61c97652",
+        "size": 36024,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/df20a753ff10e419048c17ffecd46aab61c97652"
+      },
+      {
+        "path": "agent/ovs_agent/cli.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a3b80e05b4003b5babaf6b6c746312d96c7a203",
+        "size": 2768,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/4a3b80e05b4003b5babaf6b6c746312d96c7a203"
+      },
+      {
+        "path": "agent/ovs_agent/config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2496247521f76162ed56a98ea9005bf3cdce46ad",
+        "size": 30723,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/2496247521f76162ed56a98ea9005bf3cdce46ad"
+      },
+      {
+        "path": "agent/ovs_agent/debug_inject.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3517237b4df2b53c371090bcab02c97278107de6",
+        "size": 5123,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/3517237b4df2b53c371090bcab02c97278107de6"
+      },
+      {
+        "path": "agent/ovs_agent/event_bus.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e2f92ce08f314827c2cdeaa7e6033174fdd4e3f",
+        "size": 2502,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5e2f92ce08f314827c2cdeaa7e6033174fdd4e3f"
+      },
+      {
+        "path": "agent/ovs_agent/kws",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "81c114477cf0fa5eb8e3e0006b0f2bc995fb4cfa",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/81c114477cf0fa5eb8e3e0006b0f2bc995fb4cfa"
+      },
+      {
+        "path": "agent/ovs_agent/kws/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bbbe08b6896ccfa6a13ca2fe2190db48dc396d06",
+        "size": 224,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/bbbe08b6896ccfa6a13ca2fe2190db48dc396d06"
+      },
+      {
+        "path": "agent/ovs_agent/kws/compiler.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a871fac7fe6deb02f88abc196d4ed9ead2015214",
+        "size": 3921,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/a871fac7fe6deb02f88abc196d4ed9ead2015214"
+      },
+      {
+        "path": "agent/ovs_agent/kws/sherpa_backend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ade94cc9f463ed17df2694bae715949e5328c956",
+        "size": 4528,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/ade94cc9f463ed17df2694bae715949e5328c956"
+      },
+      {
+        "path": "agent/ovs_agent/llm",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d63d20772bed5c3f161d60f222ae8f5978285fad",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/d63d20772bed5c3f161d60f222ae8f5978285fad"
+      },
+      {
+        "path": "agent/ovs_agent/llm/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f7d4833f03cf4ec21438188b23640e5fccbf2a9",
+        "size": 287,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/0f7d4833f03cf4ec21438188b23640e5fccbf2a9"
+      },
+      {
+        "path": "agent/ovs_agent/llm/base.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0144e10d0fb493c64b25479355f8af6e38a881aa",
+        "size": 846,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/0144e10d0fb493c64b25479355f8af6e38a881aa"
+      },
+      {
+        "path": "agent/ovs_agent/llm/noop.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fbf7d0e1972a351c445073588447d0267259df44",
+        "size": 642,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/fbf7d0e1972a351c445073588447d0267259df44"
+      },
+      {
+        "path": "agent/ovs_agent/llm/openai_compat.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d031664ede04395b202492077fde90ad4ac0e076",
+        "size": 12623,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/d031664ede04395b202492077fde90ad4ac0e076"
+      },
+      {
+        "path": "agent/ovs_agent/modes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "389f92f8e8d77cc0c274098aecf19a63c6727d3d",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/389f92f8e8d77cc0c274098aecf19a63c6727d3d"
+      },
+      {
+        "path": "agent/ovs_agent/modes/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1153b09b92d9a9d70f1fee2918276d2aa80aca8",
+        "size": 122,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b1153b09b92d9a9d70f1fee2918276d2aa80aca8"
+      },
+      {
+        "path": "agent/ovs_agent/modes/chat.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe11013c5bd48c583dc55c42cd104ea78d104c37",
+        "size": 443,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/fe11013c5bd48c583dc55c42cd104ea78d104c37"
+      },
+      {
+        "path": "agent/ovs_agent/plugin.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "568b2c9757613c036e2004813fd3798e7a0a951d",
+        "size": 5243,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/568b2c9757613c036e2004813fd3798e7a0a951d"
+      },
+      {
+        "path": "agent/ovs_agent/plugins",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d8104e34afa2e1bb6cba45da798dca7d278369fa",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/d8104e34afa2e1bb6cba45da798dca7d278369fa"
+      },
+      {
+        "path": "agent/ovs_agent/plugins/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "agent/ovs_agent/plugins/debug_dashboard.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "34431356d9be3626be68c32b12655b1e93ba6295",
+        "size": 69705,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/34431356d9be3626be68c32b12655b1e93ba6295"
+      },
+      {
+        "path": "agent/ovs_agent/plugins/llm_availability.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6d9855cf3bfb9dbf6deba35eaa8d6fbeef11fa7",
+        "size": 23077,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e6d9855cf3bfb9dbf6deba35eaa8d6fbeef11fa7"
+      },
+      {
+        "path": "agent/ovs_agent/plugins/static",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c7293b7ad37ea7fe6dc82019b877014d3b7c63ab",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/c7293b7ad37ea7fe6dc82019b877014d3b7c63ab"
+      },
+      {
+        "path": "agent/ovs_agent/plugins/static/dashboard.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83af50991654652ec3140205b61830f1033b26e0",
+        "size": 23980,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/83af50991654652ec3140205b61830f1033b26e0"
+      },
+      {
+        "path": "agent/ovs_agent/plugins/static/dashboard.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6f580314e07c2e8909eb4156f8219509fca6e64a",
+        "size": 11378,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/6f580314e07c2e8909eb4156f8219509fca6e64a"
+      },
+      {
+        "path": "agent/ovs_agent/plugins/static/dashboard.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49ddc8bdf8d68c859a1973144cde149826be8c43",
+        "size": 51744,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/49ddc8bdf8d68c859a1973144cde149826be8c43"
+      },
+      {
+        "path": "agent/ovs_agent/protocol.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d9b0c2369d37cfac31cee4b4220be656d16eb664",
+        "size": 4302,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/d9b0c2369d37cfac31cee4b4220be656d16eb664"
+      },
+      {
+        "path": "agent/ovs_agent/runtime.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8efbaab9bc98c851ce1b7782984826ee59b3628e",
+        "size": 6623,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/8efbaab9bc98c851ce1b7782984826ee59b3628e"
+      },
+      {
+        "path": "agent/ovs_agent/session.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5413525d6fd31bfdcbb3a4d2453ee496bf5172de",
+        "size": 21851,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5413525d6fd31bfdcbb3a4d2453ee496bf5172de"
+      },
+      {
+        "path": "agent/ovs_agent/slv_client.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ffaf3c19b0047057334f0d128d8ab65ed902d8ae",
+        "size": 60451,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/ffaf3c19b0047057334f0d128d8ab65ed902d8ae"
+      },
+      {
+        "path": "agent/ovs_agent/state.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f50fe763a8eccd32567b5aed22add53d3392534c",
+        "size": 1049,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/f50fe763a8eccd32567b5aed22add53d3392534c"
+      },
+      {
+        "path": "agent/ovs_agent/tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "76ee51c29bb9e8cfa06b19b9fa63b6a585a95313",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/76ee51c29bb9e8cfa06b19b9fa63b6a585a95313"
+      },
+      {
+        "path": "agent/ovs_agent/tools/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "80d54920031b23e74fb15ff2d49323e35f6fbfb2",
+        "size": 493,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/80d54920031b23e74fb15ff2d49323e35f6fbfb2"
+      },
+      {
+        "path": "agent/ovs_agent/tools/builtin.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec6d2cc3fc2ddd96b2c7c804bb23e4607fd49513",
+        "size": 1289,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/ec6d2cc3fc2ddd96b2c7c804bb23e4607fd49513"
+      },
+      {
+        "path": "agent/ovs_agent/tools/registry.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c70ac0077243bad464e54d79a4348b94b5304367",
+        "size": 13405,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/c70ac0077243bad464e54d79a4348b94b5304367"
+      },
+      {
+        "path": "agent/ovs_agent/tools/runner.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c8477a582efc85c9c9dfd58c526f83469a76069",
+        "size": 14539,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/3c8477a582efc85c9c9dfd58c526f83469a76069"
+      },
+      {
+        "path": "agent/ovs_agent/translator",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3dff2fd68771319783c577b67f5068414c353170",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/3dff2fd68771319783c577b67f5068414c353170"
+      },
+      {
+        "path": "agent/ovs_agent/translator/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4eeee6507e0f1b3ec51cd5f0a1cdbd2cbabbee1",
+        "size": 277,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/a4eeee6507e0f1b3ec51cd5f0a1cdbd2cbabbee1"
+      },
+      {
+        "path": "agent/ovs_agent/translator/base.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e84211dba103eb68f19397fff2cab001b503baf5",
+        "size": 549,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e84211dba103eb68f19397fff2cab001b503baf5"
+      },
+      {
+        "path": "agent/ovs_agent/translator/lang_map.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "069fea0210bb52096d87c5b7c13c8258221ebd65",
+        "size": 3960,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/069fea0210bb52096d87c5b7c13c8258221ebd65"
+      },
+      {
+        "path": "agent/ovs_agent/translator/noop.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b9903b60ffb359437df09e5815c763f23df0590",
+        "size": 308,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/2b9903b60ffb359437df09e5815c763f23df0590"
+      },
+      {
+        "path": "agent/ovs_agent/vad.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef3c20e6389708acc1b141840304d329a1324e52",
+        "size": 5844,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/ef3c20e6389708acc1b141840304d329a1324e52"
+      },
+      {
+        "path": "agent/ovs_agent/wake_source.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20756a412dec30d3bfdb8b17c102590a0918e74f",
+        "size": 1524,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/20756a412dec30d3bfdb8b17c102590a0918e74f"
+      },
+      {
+        "path": "agent/ovs_agent/wake_sources",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d92d117333dd79360be2af11141226c6bce88cef",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/d92d117333dd79360be2af11141226c6bce88cef"
+      },
+      {
+        "path": "agent/ovs_agent/wake_sources/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6191abaca71178bb6b589f1a0b9e2c7ed4b7b0ed",
+        "size": 568,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/6191abaca71178bb6b589f1a0b9e2c7ed4b7b0ed"
+      },
+      {
+        "path": "agent/ovs_agent/wake_sources/http.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b3fcf50be1eb3ca5cbf0d09d9610a0ae959a7cf3",
+        "size": 885,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b3fcf50be1eb3ca5cbf0d09d9610a0ae959a7cf3"
+      },
+      {
+        "path": "agent/ovs_agent/wake_sources/runtime_kws.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1f019eb3c0a436e51cb6a8617ca315f22dd945b",
+        "size": 8324,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/d1f019eb3c0a436e51cb6a8617ca315f22dd945b"
+      },
+      {
+        "path": "agent/ovs_agent/wake_sources/stub_ext.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7bb6946e0adcf1b17e9c30d486e278fb6869760",
+        "size": 2529,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e7bb6946e0adcf1b17e9c30d486e278fb6869760"
+      },
+      {
+        "path": "agent/pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "322146840b0993402d83d093e24f6dce027c7788",
+        "size": 784,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/322146840b0993402d83d093e24f6dce027c7788"
+      },
+      {
+        "path": "agent/rebot-sdk-patches",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ba942679143919c545c2a92564e58ccdeffe6eb3",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/ba942679143919c545c2a92564e58ccdeffe6eb3"
+      },
+      {
+        "path": "agent/rebot-sdk-patches/0001-enable-latched-fault-autorecovery.patch",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bad3b6c49e26c516c330d82be784918dd5f2cdf2",
+        "size": 3515,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/bad3b6c49e26c516c330d82be784918dd5f2cdf2"
+      },
+      {
+        "path": "agent/rebot-sdk-patches/0002-move-to-traj-clik-ik-fallback.patch",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "966a84e08d702743407d6a026c6c33fa18005b4f",
+        "size": 2871,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/966a84e08d702743407d6a026c6c33fa18005b4f"
+      },
+      {
+        "path": "agent/scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7d36bc58ed62f66439813d257095aa3f27f11a41",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/7d36bc58ed62f66439813d257095aa3f27f11a41"
+      },
+      {
+        "path": "agent/scripts/kws_loop_contention_experiment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f60763b62ba78ea0b93b3844bf762e09088cb5fb",
+        "size": 12592,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/f60763b62ba78ea0b93b3844bf762e09088cb5fb"
+      },
+      {
+        "path": "agent/scripts/validate_runtime_kws.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1b70d82b9e6e5fdeb7e17ceb0d5572cfb9609808",
+        "size": 3638,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/1b70d82b9e6e5fdeb7e17ceb0d5572cfb9609808"
+      },
+      {
+        "path": "agent/tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a09719238f788e5e4be05aa99a2018abae0fcad1",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/a09719238f788e5e4be05aa99a2018abae0fcad1"
+      },
+      {
+        "path": "agent/tests/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "agent/tests/conftest.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "181dacc98b649844fd9cc374fc2f9182e44b2b64",
+        "size": 1351,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/181dacc98b649844fd9cc374fc2f9182e44b2b64"
+      },
+      {
+        "path": "agent/tests/fixtures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "27e5a08fffb4167a761a3497d6893228656c78bb",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/27e5a08fffb4167a761a3497d6893228656c78bb"
+      },
+      {
+        "path": "agent/tests/fixtures/user_input.wav",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b5a8e6ecc0b3bbd315316e083c01c7e8a9627ecf",
+        "size": 97922,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b5a8e6ecc0b3bbd315316e083c01c7e8a9627ecf"
+      },
+      {
+        "path": "agent/tests/sim_pump.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1bb614013089563bacc8d1e11543690a045bf6f8",
+        "size": 6571,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/1bb614013089563bacc8d1e11543690a045bf6f8"
+      },
+      {
+        "path": "agent/tests/test_advertise_reconnect.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efc7aa020dc432a3bb173a502217642a64ba4ab1",
+        "size": 11261,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/efc7aa020dc432a3bb173a502217642a64ba4ab1"
+      },
+      {
+        "path": "agent/tests/test_advertise_tool_fields.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b5e78fc0bb532eea2213d322d415a9b20c87096e",
+        "size": 1675,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b5e78fc0bb532eea2213d322d415a9b20c87096e"
+      },
+      {
+        "path": "agent/tests/test_asr_segment_accumulation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "355aec0ec9ab1b7f2130f384b75983fe502ed245",
+        "size": 10156,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/355aec0ec9ab1b7f2130f384b75983fe502ed245"
+      },
+      {
+        "path": "agent/tests/test_asr_watchdog.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b712f98198be2e9a77bc0cdc754a59aee8386baa",
+        "size": 5951,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b712f98198be2e9a77bc0cdc754a59aee8386baa"
+      },
+      {
+        "path": "agent/tests/test_audio_auto_hotplug.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db718051b2420fd5d3fa9a7dab21b5ef3e457e26",
+        "size": 12369,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/db718051b2420fd5d3fa9a7dab21b5ef3e457e26"
+      },
+      {
+        "path": "agent/tests/test_audio_devices.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1100ab647bb561bc26ce519b12b2d55f0f33d3e5",
+        "size": 3038,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/1100ab647bb561bc26ce519b12b2d55f0f33d3e5"
+      },
+      {
+        "path": "agent/tests/test_audio_playback_position.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83d6e125922238b5d183357bab6ea8a7ab248d2b",
+        "size": 649,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/83d6e125922238b5d183357bab6ea8a7ab248d2b"
+      },
+      {
+        "path": "agent/tests/test_barge_during_tool.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b82f6810a5a9e41d6794c1b9d70f6e12540ade65",
+        "size": 8424,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b82f6810a5a9e41d6794c1b9d70f6e12540ade65"
+      },
+      {
+        "path": "agent/tests/test_bargein_discard_latch.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f90ee870e94930581682c4131308bdb0895a7f11",
+        "size": 16164,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/f90ee870e94930581682c4131308bdb0895a7f11"
+      },
+      {
+        "path": "agent/tests/test_bargein_keeps_asr_utterance.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d1ec34d58c453c1f517e9e34203414c8240fbcb",
+        "size": 9797,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5d1ec34d58c453c1f517e9e34203414c8240fbcb"
+      },
+      {
+        "path": "agent/tests/test_bargein_mic_forward.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c0ccd0263af5164a33afc3902694316a6c68cb1",
+        "size": 8322,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/7c0ccd0263af5164a33afc3902694316a6c68cb1"
+      },
+      {
+        "path": "agent/tests/test_boot_connect_budget.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2993ef857f97cd2a916e1df27ad6ff42dda68e49",
+        "size": 2465,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/2993ef857f97cd2a916e1df27ad6ff42dda68e49"
+      },
+      {
+        "path": "agent/tests/test_config_unknown_keys.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2af1397d1b8e436a929485a8262bb70d586cc01a",
+        "size": 2209,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/2af1397d1b8e436a929485a8262bb70d586cc01a"
+      },
+      {
+        "path": "agent/tests/test_conversation_app.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "858403958283550f7ff88063596197bf9c1c1bd2",
+        "size": 236,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/858403958283550f7ff88063596197bf9c1c1bd2"
+      },
+      {
+        "path": "agent/tests/test_dashboard_api.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e35e950f4f4a03577c119d626b69fa4b356efcbc",
+        "size": 11776,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e35e950f4f4a03577c119d626b69fa4b356efcbc"
+      },
+      {
+        "path": "agent/tests/test_dashboard_double_start.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aea14283213fbab300645e0eb90b5f4b9f9f97af",
+        "size": 4818,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/aea14283213fbab300645e0eb90b5f4b9f9f97af"
+      },
+      {
+        "path": "agent/tests/test_dashboard_llm_health.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1613d7e95b2053448eb81be0e5ade249a5930649",
+        "size": 11807,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/1613d7e95b2053448eb81be0e5ade249a5930649"
+      },
+      {
+        "path": "agent/tests/test_dashboard_typed_errors.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a18ebde3ebfef89ed98f814302082f878eab2f2c",
+        "size": 7309,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/a18ebde3ebfef89ed98f814302082f878eab2f2c"
+      },
+      {
+        "path": "agent/tests/test_dashboard_v2.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2896fbf9d0be666d670aad705c76a49f6de29df5",
+        "size": 7066,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/2896fbf9d0be666d670aad705c76a49f6de29df5"
+      },
+      {
+        "path": "agent/tests/test_debug_dashboard.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efb87d7a62915b93be7af6ed533eb803e56bb699",
+        "size": 1711,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/efb87d7a62915b93be7af6ed533eb803e56bb699"
+      },
+      {
+        "path": "agent/tests/test_dialogue_app.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2089de53964bc0b78c3d3ea50708391bf9c80678",
+        "size": 24138,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/2089de53964bc0b78c3d3ea50708391bf9c80678"
+      },
+      {
+        "path": "agent/tests/test_dispatch_concurrency.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7a95668099c119f11df780f7bd2cbe0efd1776f",
+        "size": 4558,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/f7a95668099c119f11df780f7bd2cbe0efd1776f"
+      },
+      {
+        "path": "agent/tests/test_echo_recovery.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b9f52b49991ef216e5c94bbbc030250ed2858da8",
+        "size": 3260,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b9f52b49991ef216e5c94bbbc030250ed2858da8"
+      },
+      {
+        "path": "agent/tests/test_eviction_storm_fix.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d9e1e8f32ec2579948fb75da13a788617547337",
+        "size": 8231,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/6d9e1e8f32ec2579948fb75da13a788617547337"
+      },
+      {
+        "path": "agent/tests/test_lifecycle_sleep_wake.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ee834b7bb4b47508f0a10fbe20f7a0604b0630db",
+        "size": 8433,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/ee834b7bb4b47508f0a10fbe20f7a0604b0630db"
+      },
+      {
+        "path": "agent/tests/test_llm_availability.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6ad2aeab77dda84501dc8c6a185c05cf51a3eca",
+        "size": 15496,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/c6ad2aeab77dda84501dc8c6a185c05cf51a3eca"
+      },
+      {
+        "path": "agent/tests/test_llm_availability_health_probe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b9187e4230abcfc3ffd1cf72c99c9d49a6301876",
+        "size": 5405,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b9187e4230abcfc3ffd1cf72c99c9d49a6301876"
+      },
+      {
+        "path": "agent/tests/test_llm_availability_probe_guard.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7b97ff5f68fd92bb4203115aae453e55f29b166",
+        "size": 6786,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/f7b97ff5f68fd92bb4203115aae453e55f29b166"
+      },
+      {
+        "path": "agent/tests/test_llm_failure_broadcast.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd2c0950f5ef6d299f2c85cea92bc6ea05146450",
+        "size": 2393,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/fd2c0950f5ef6d299f2c85cea92bc6ea05146450"
+      },
+      {
+        "path": "agent/tests/test_llm_retry.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aeb0ca0b77809a33e7cbcddb0ec4870b83f9c898",
+        "size": 9754,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/aeb0ca0b77809a33e7cbcddb0ec4870b83f9c898"
+      },
+      {
+        "path": "agent/tests/test_llm_timeout.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "479f72a1738cbc5a1ae96cd253ae7c8791efc552",
+        "size": 6841,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/479f72a1738cbc5a1ae96cd253ae7c8791efc552"
+      },
+      {
+        "path": "agent/tests/test_llm_unavailable_fail_fast.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "739a4299c60e191c57d11b3227ae65210f503f70",
+        "size": 4242,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/739a4299c60e191c57d11b3227ae65210f503f70"
+      },
+      {
+        "path": "agent/tests/test_low_signal_filter.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6dcd26ce5346d9566fc9d1e84070e01e3a66359",
+        "size": 4157,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e6dcd26ce5346d9566fc9d1e84070e01e3a66359"
+      },
+      {
+        "path": "agent/tests/test_mic_pump_preroll.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29d859240dea5b9598617b66bafcb6741db836ca",
+        "size": 5020,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/29d859240dea5b9598617b66bafcb6741db836ca"
+      },
+      {
+        "path": "agent/tests/test_mic_setup_resolution.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4700ddb8cf65525d9199c4f5947825c8267359c2",
+        "size": 5041,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/4700ddb8cf65525d9199c4f5947825c8267359c2"
+      },
+      {
+        "path": "agent/tests/test_minimal_so_follower.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "004f7796dd6cfd480aef370c494da54f74377a6b",
+        "size": 10481,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/004f7796dd6cfd480aef370c494da54f74377a6b"
+      },
+      {
+        "path": "agent/tests/test_parallel_dispatch_lock.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "adc912ec4a2f7ea2367468769c02d8ab55b364c1",
+        "size": 4517,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/adc912ec4a2f7ea2367468769c02d8ab55b364c1"
+      },
+      {
+        "path": "agent/tests/test_reconnect_window_drop.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2aa4fe82a370c3f9efe895c005d174e169609ae7",
+        "size": 3066,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/2aa4fe82a370c3f9efe895c005d174e169609ae7"
+      },
+      {
+        "path": "agent/tests/test_runtime_kws.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ee1ac780afd52c37460ca81f81c2b694e800c51e",
+        "size": 9023,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/ee1ac780afd52c37460ca81f81c2b694e800c51e"
+      },
+      {
+        "path": "agent/tests/test_send_audio_nonblocking.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b97802041ad9232c56e47a95848c4d1e2485d6f",
+        "size": 5950,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/7b97802041ad9232c56e47a95848c4d1e2485d6f"
+      },
+      {
+        "path": "agent/tests/test_server_loop_client.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "148ea884d808ffd9d7148c1d10dc5688713f1f05",
+        "size": 18612,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/148ea884d808ffd9d7148c1d10dc5688713f1f05"
+      },
+      {
+        "path": "agent/tests/test_server_loop_tool_scenarios.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ca04600dce849aa367fe1b2dfeac07a8f8921c8",
+        "size": 22193,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/3ca04600dce849aa367fe1b2dfeac07a8f8921c8"
+      },
+      {
+        "path": "agent/tests/test_server_tool_call_call_id.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3eb02da37e43f66fa73e2f5f68aadf64e9935670",
+        "size": 1896,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/3eb02da37e43f66fa73e2f5f68aadf64e9935670"
+      },
+      {
+        "path": "agent/tests/test_session_budget_env.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5f3c46101d2d0872c0ed79ffbf7e08e95f869c89",
+        "size": 2340,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5f3c46101d2d0872c0ed79ffbf7e08e95f869c89"
+      },
+      {
+        "path": "agent/tests/test_session_revival_readvertise.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90e590f853d6e80ef0724a8b114f3d7c67e137ab",
+        "size": 5729,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/90e590f853d6e80ef0724a8b114f3d7c67e137ab"
+      },
+      {
+        "path": "agent/tests/test_session_tools.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eed8f04bf52556221c833649c42419f9e296ba39",
+        "size": 8837,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/eed8f04bf52556221c833649c42419f9e296ba39"
+      },
+      {
+        "path": "agent/tests/test_session_trim.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b0ea437a2c3843f8b550916e8783132dd89b1e5",
+        "size": 11723,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/7b0ea437a2c3843f8b550916e8783132dd89b1e5"
+      },
+      {
+        "path": "agent/tests/test_session_trim_all_tool_history.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c80a24a70d9d60fab20f3fcba382c01a30d759b8",
+        "size": 4439,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/c80a24a70d9d60fab20f3fcba382c01a30d759b8"
+      },
+      {
+        "path": "agent/tests/test_session_trim_budget.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17082ad8358ecbe4ee3b73e27fa94ac564a18787",
+        "size": 5748,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/17082ad8358ecbe4ee3b73e27fa94ac564a18787"
+      },
+      {
+        "path": "agent/tests/test_slv_client.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b34cc661a9b0dd21ec153d9143717eb6c16b9652",
+        "size": 19319,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b34cc661a9b0dd21ec153d9143717eb6c16b9652"
+      },
+      {
+        "path": "agent/tests/test_slv_config_types.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49d9a9455d03e68ccb66961c5d8106d90d975365",
+        "size": 1063,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/49d9a9455d03e68ccb66961c5d8106d90d975365"
+      },
+      {
+        "path": "agent/tests/test_slv_keepalive.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "95043a30cfe4072529150c45a32122720537c5b3",
+        "size": 6435,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/95043a30cfe4072529150c45a32122720537c5b3"
+      },
+      {
+        "path": "agent/tests/test_slv_link_watchdog.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c9dc5ca6ad5e71b9a5f3503a3b3a52ec0f3856c2",
+        "size": 4043,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/c9dc5ca6ad5e71b9a5f3503a3b3a52ec0f3856c2"
+      },
+      {
+        "path": "agent/tests/test_so101_contracts.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cb7f87f08daabfb4f915decfa8f31f98491a03c5",
+        "size": 13051,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/cb7f87f08daabfb4f915decfa8f31f98491a03c5"
+      },
+      {
+        "path": "agent/tests/test_stall_eos_watchdog.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d9c5c0d869b991b49f7003ba00d1f6eb4aa462e7",
+        "size": 3014,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/d9c5c0d869b991b49f7003ba00d1f6eb4aa462e7"
+      },
+      {
+        "path": "agent/tests/test_state_machine.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5cadd88785a215fd638733056421d8f53b1e6118",
+        "size": 14265,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5cadd88785a215fd638733056421d8f53b1e6118"
+      },
+      {
+        "path": "agent/tests/test_stop_intent.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e3239fb3bf016b25acea897ad2ceedce937c9e7",
+        "size": 4179,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/7e3239fb3bf016b25acea897ad2ceedce937c9e7"
+      },
+      {
+        "path": "agent/tests/test_tone_suppress_onset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "807141806f2adeb0fc059cdd90ce7ba8eae84463",
+        "size": 3823,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/807141806f2adeb0fc059cdd90ce7ba8eae84463"
+      },
+      {
+        "path": "agent/tests/test_tools_registry.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c78387ca78ec919962a436d7407f26105c5fb88",
+        "size": 5654,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/1c78387ca78ec919962a436d7407f26105c5fb88"
+      },
+      {
+        "path": "agent/tests/test_tools_runner.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7792acd771507d3b8dcf66620f895daa40f3826b",
+        "size": 31129,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/7792acd771507d3b8dcf66620f895daa40f3826b"
+      },
+      {
+        "path": "agent/tests/test_trim_budget_validation_error.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1cbd0f871aa70e1bab204fff16640da8da3558af",
+        "size": 3073,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/1cbd0f871aa70e1bab204fff16640da8da3558af"
+      },
+      {
+        "path": "agent/tests/test_v2v_deadlock_defense.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "85746076ee7ae95aa9d45ee4034a53d87e6aced9",
+        "size": 9679,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/85746076ee7ae95aa9d45ee4034a53d87e6aced9"
+      },
+      {
+        "path": "agent/tests/test_vad.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8fe622e9656cded3820da4e7e18535fe69e1b28",
+        "size": 9363,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b8fe622e9656cded3820da4e7e18535fe69e1b28"
+      },
+      {
+        "path": "agent/tests/test_vad_gate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "108dfef22f5383b1f6a2fbfe9462d8243acbff72",
+        "size": 4210,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/108dfef22f5383b1f6a2fbfe9462d8243acbff72"
+      },
+      {
+        "path": "agent/tests/test_wake_mic_skip.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c7d65139e41a6213f832a1a8ee7a130078ea8ce",
+        "size": 1777,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5c7d65139e41a6213f832a1a8ee7a130078ea8ce"
+      },
+      {
+        "path": "agent/tests/test_wake_phrase_strip.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20d72814183b738e2ab552e8bb52b5328c517349",
+        "size": 1979,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/20d72814183b738e2ab552e8bb52b5328c517349"
+      },
+      {
+        "path": "agent/tests/test_wake_reconnect_policy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ddcd5f448df79d090e0e8ea315d77dd8ced6667",
+        "size": 4681,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/6ddcd5f448df79d090e0e8ea315d77dd8ced6667"
+      },
+      {
+        "path": "agent/tests/test_warmup_tools_match_turns.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "18904e2fb18bf302a849d0d0d1e655cb6cce2df0",
+        "size": 3901,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/18904e2fb18bf302a849d0d0d1e655cb6cce2df0"
+      },
+      {
+        "path": "configs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7ba8db579425aeb4829d53780d724be114329e02",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/7ba8db579425aeb4829d53780d724be114329e02"
+      },
+      {
+        "path": "configs/profiles",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "789e889218b8fe955cab048dac61301d0e2c7d2e",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/789e889218b8fe955cab048dac61301d0e2c7d2e"
+      },
+      {
+        "path": "configs/profiles/rk3588-default.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b03288da68e22ab4d45d4585713fa4a4df654279",
+        "size": 2105,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b03288da68e22ab4d45d4585713fa4a4df654279"
+      },
+      {
+        "path": "deploy",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8c959c6362cd4965bc6b96186b3ccdb2466011b3",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/8c959c6362cd4965bc6b96186b3ccdb2466011b3"
+      },
+      {
+        "path": "deploy/Dockerfile.agent",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "653045d0414c780f577dca9e6e6e7f404c5cd327",
+        "size": 805,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/653045d0414c780f577dca9e6e6e7f404c5cd327"
+      },
+      {
+        "path": "deploy/Dockerfile.llm",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2fd4e26425b6108388242b4da83d1ef82ac1307",
+        "size": 535,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e2fd4e26425b6108388242b4da83d1ef82ac1307"
+      },
+      {
+        "path": "deploy/Dockerfile.speech",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a59441e7dc31e9d2cd65e15273979b4a109989da",
+        "size": 697,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/a59441e7dc31e9d2cd65e15273979b4a109989da"
+      },
+      {
+        "path": "deploy/agent-config.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "809e8e32296d7ef6d1e1fb895af0829110cf61be",
+        "size": 1903,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/809e8e32296d7ef6d1e1fb895af0829110cf61be"
+      },
+      {
+        "path": "deploy/artifacts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "716de987aa765a953fedd942d35728584c37937a",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/716de987aa765a953fedd942d35728584c37937a"
+      },
+      {
+        "path": "deploy/artifacts/rk_manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7db7b3cb5cb3acbea1c4824d17a57c7727f30fc1",
+        "size": 6231,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/7db7b3cb5cb3acbea1c4824d17a57c7727f30fc1"
+      },
+      {
+        "path": "deploy/audio_profiles.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d10af83ed552b2438c1a1311d21efe6b0c01ad89",
+        "size": 475,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/d10af83ed552b2438c1a1311d21efe6b0c01ad89"
+      },
+      {
+        "path": "deploy/baseline.lock.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cdb73d3b422dfa7f848026881b309c620ed94441",
+        "size": 4441,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/cdb73d3b422dfa7f848026881b309c620ed94441"
+      },
+      {
+        "path": "deploy/cm3588.env",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f5c31212c823e82efca913b0412a8df6ce4ba63",
+        "size": 114,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/0f5c31212c823e82efca913b0412a8df6ce4ba63"
+      },
+      {
+        "path": "deploy/compose.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7bee3d18127277804947080728948087d382b294",
+        "size": 3606,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/7bee3d18127277804947080728948087d382b294"
+      },
+      {
+        "path": "deploy/constraints.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0d8a916b441ddd7c0cacaa9b484094546131bde7",
+        "size": 147,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/0d8a916b441ddd7c0cacaa9b484094546131bde7"
+      },
+      {
+        "path": "deploy/docker-daemon.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "afa3c0ee55e9a02a6d567bc7a6d8e9fd61a5d7b0",
+        "size": 335,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/afa3c0ee55e9a02a6d567bc7a6d8e9fd61a5d7b0"
+      },
+      {
+        "path": "deploy/kernel",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c2053e5cdb8ca593cad7761c528c11a4232c349b",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/c2053e5cdb8ca593cad7761c528c11a4232c349b"
+      },
+      {
+        "path": "deploy/kernel/docker.config",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf7ed1215d1a40d57c984f7d7d25d3386daca850",
+        "size": 1194,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/bf7ed1215d1a40d57c984f7d7d25d3386daca850"
+      },
+      {
+        "path": "deploy/python.lock.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe943acc17aa7bc58308d41470fd5cdc05e71f69",
+        "size": 1656,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/fe943acc17aa7bc58308d41470fd5cdc05e71f69"
+      },
+      {
+        "path": "deploy/rk1828-runtime",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "eb81492b6d018b4561c87fbd481579f770584676",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/eb81492b6d018b4561c87fbd481579f770584676"
+      },
+      {
+        "path": "deploy/rk1828-runtime/MANIFEST.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "85297180fbb47ee4ffba150df6462ff518dc406f",
+        "size": 2347,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/85297180fbb47ee4ffba150df6462ff518dc406f"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e87576b127b48d1270f63732899e4d305f505db9",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/e87576b127b48d1270f63732899e4d305f505db9"
+      },
+      {
+        "path": "docs/agent",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d4c88ef19c827d8d764f2a6ccdedd5e9a2be31f8",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/d4c88ef19c827d8d764f2a6ccdedd5e9a2be31f8"
+      },
+      {
+        "path": "docs/agent/tool-usage.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17bf2f3bf9d92fbfc705722869f024ffbdeb7356",
+        "size": 1977,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/17bf2f3bf9d92fbfc705722869f024ffbdeb7356"
+      },
+      {
+        "path": "docs/api",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a5edee97e53b74b62144b4c982246c6040de6f08",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/a5edee97e53b74b62144b4c982246c6040de6f08"
+      },
+      {
+        "path": "docs/api/realtime-v2.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fcec6889243d84e3a81bbddf645f00cdcf84d113",
+        "size": 13516,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/fcec6889243d84e3a81bbddf645f00cdcf84d113"
+      },
+      {
+        "path": "docs/api/v2v-stream.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "384ca3c059687c10f0b1ff45c44f00283c651a52",
+        "size": 21164,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/384ca3c059687c10f0b1ff45c44f00283c651a52"
+      },
+      {
+        "path": "docs/file-inventory.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76da25a3282877a40071275be26c97f52f2af42b",
+        "size": 232712,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/76da25a3282877a40071275be26c97f52f2af42b"
+      },
+      {
+        "path": "docs/framework-audit.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "027ef949f3e161d470fc6e77583a98139c6d7130",
+        "size": 25765,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/027ef949f3e161d470fc6e77583a98139c6d7130"
+      },
+      {
+        "path": "docs/model-storage.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29f5d0cdd0ac722b243ba2be2c42b6e3a253cb6b",
+        "size": 4345,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/29f5d0cdd0ac722b243ba2be2c42b6e3a253cb6b"
+      },
+      {
+        "path": "docs/runbook.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5823df6fbf86400495a1e5876bf6ffaff8e36623",
+        "size": 28743,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5823df6fbf86400495a1e5876bf6ffaff8e36623"
+      },
+      {
+        "path": "docs/scope.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e595f7b8b014b5c358dae1d2da0ee4b7f6419277",
+        "size": 2963,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e595f7b8b014b5c358dae1d2da0ee4b7f6419277"
+      },
+      {
+        "path": "docs/software-checks.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77b7a5e3db459cf8d61bedd0c8c85c2eb9e0a603",
+        "size": 1315,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/77b7a5e3db459cf8d61bedd0c8c85c2eb9e0a603"
+      },
+      {
+        "path": "docs/specs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b38b03ce2bf9b7044312286a0048b62b31ddf24e",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/b38b03ce2bf9b7044312286a0048b62b31ddf24e"
+      },
+      {
+        "path": "docs/specs/concurrency-capability-framework.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4da75e365016b2b03b08802fabfb88255bbc2ba7",
+        "size": 1901,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/4da75e365016b2b03b08802fabfb88255bbc2ba7"
+      },
+      {
+        "path": "docs/validation.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9b6143497710d0def68214e2be7f6b11beb585ed",
+        "size": 2780,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/9b6143497710d0def68214e2be7f6b11beb585ed"
+      },
+      {
+        "path": "media",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ba6c564872d4fec237c95e08533266ff6ec2e257",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/ba6c564872d4fec237c95e08533266ff6ec2e257"
+      },
+      {
+        "path": "media/logo.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "15b48a054e529fa2a5afe9d64506c55d89dd3057",
+        "size": 113806,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/15b48a054e529fa2a5afe9d64506c55d89dd3057"
+      },
+      {
+        "path": "media/logo.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20d7f0a9a170b7b98d31e49efb8d280f918636a9",
+        "size": 1756,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/20d7f0a9a170b7b98d31e49efb8d280f918636a9"
+      },
+      {
+        "path": "scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5502c7e9cd6353957511d19b0f7c83c596fafc95",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/5502c7e9cd6353957511d19b0f7c83c596fafc95"
+      },
+      {
+        "path": "scripts/activate-env.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e705cae4acb5220707622ab9be9ff55b20ba2466",
+        "size": 1293,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e705cae4acb5220707622ab9be9ff55b20ba2466"
+      },
+      {
+        "path": "scripts/audit.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "c58a18a5e3b348f47191e049f400cdb2914cd6f0",
+        "size": 3858,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/c58a18a5e3b348f47191e049f400cdb2914cd6f0"
+      },
+      {
+        "path": "scripts/capture-rk1828-console.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "89d4b602a944a11c04743530b09d6694da17dfdb",
+        "size": 942,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/89d4b602a944a11c04743530b09d6694da17dfdb"
+      },
+      {
+        "path": "scripts/capture-rk1828-llm.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "514069e58b0a058c4a7ee1718ff34ebb257da537",
+        "size": 2750,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/514069e58b0a058c4a7ee1718ff34ebb257da537"
+      },
+      {
+        "path": "scripts/check.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "93bff7ad47bb965ede8f34cc2e0f46867e2642a3",
+        "size": 749,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/93bff7ad47bb965ede8f34cc2e0f46867e2642a3"
+      },
+      {
+        "path": "scripts/compose.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "30f84a04e820b77a353e51011f22daea8b044dcd",
+        "size": 416,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/30f84a04e820b77a353e51011f22daea8b044dcd"
+      },
+      {
+        "path": "scripts/control.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "25bcfe2d8919ee9966c25531dbd72b50f229439b",
+        "size": 1084,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/25bcfe2d8919ee9966c25531dbd72b50f229439b"
+      },
+      {
+        "path": "scripts/doctor.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "e67109d8475a21b4fc282fc5701077c0aebb74c4",
+        "size": 7193,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e67109d8475a21b4fc282fc5701077c0aebb74c4"
+      },
+      {
+        "path": "scripts/package-rk1828-logs.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "43e4426aefa324b577a6d66ae42b5d9bbab8605b",
+        "size": 6599,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/43e4426aefa324b577a6d66ae42b5d9bbab8605b"
+      },
+      {
+        "path": "scripts/prepare-rk1828-log-case.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "65c6118e7981926bc38b55ecc75803af8c9b7b85",
+        "size": 3237,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/65c6118e7981926bc38b55ecc75803af8c9b7b85"
+      },
+      {
+        "path": "scripts/reproduce-rk1828-modes.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "196ee1eb541578f128042dc390b8ff73f380ac37",
+        "size": 7208,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/196ee1eb541578f128042dc390b8ff73f380ac37"
+      },
+      {
+        "path": "scripts/run-tests.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "275bdab6af2a3987919e0f97bfbd508c8de78ee3",
+        "size": 2511,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/275bdab6af2a3987919e0f97bfbd508c8de78ee3"
+      },
+      {
+        "path": "scripts/setup-dev.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "dc9040c0c22d82125ba11d7717f67e483ca9218d",
+        "size": 1150,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/dc9040c0c22d82125ba11d7717f67e483ca9218d"
+      },
+      {
+        "path": "scripts/setup-rk1828-mode.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "cf030ed12240d1fca6994c07f4503f398d93868d",
+        "size": 1492,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/cf030ed12240d1fca6994c07f4503f398d93868d"
+      },
+      {
+        "path": "scripts/setup-tools.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "19f2d23c7a9edadedcc4af510424091bb0399800",
+        "size": 2375,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/19f2d23c7a9edadedcc4af510424091bb0399800"
+      },
+      {
+        "path": "scripts/start-docker.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "b523b0456a05fa37ceef0dd64ebafec74454694a",
+        "size": 863,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b523b0456a05fa37ceef0dd64ebafec74454694a"
+      },
+      {
+        "path": "scripts/start-native-agent.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "feab329167c8b49ed7d673bb408036c3146be2a4",
+        "size": 1486,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/feab329167c8b49ed7d673bb408036c3146be2a4"
+      },
+      {
+        "path": "scripts/start-native-llm.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "e902088907b3502109878a9c21b9f2f7d1accdb7",
+        "size": 2271,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e902088907b3502109878a9c21b9f2f7d1accdb7"
+      },
+      {
+        "path": "scripts/start-native-speech.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "0117f01fc26196366b766ad7e3840a6e87bb3eb5",
+        "size": 1639,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/0117f01fc26196366b766ad7e3840a6e87bb3eb5"
+      },
+      {
+        "path": "scripts/test-models.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71578db02a8e02ce42c28ee959ae3af1c08b74f9",
+        "size": 9359,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/71578db02a8e02ce42c28ee959ae3af1c08b74f9"
+      },
+      {
+        "path": "scripts/wait-model-services.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af2042d7cd3d6f96df5519f8464e9732a5dd4875",
+        "size": 3293,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/af2042d7cd3d6f96df5519f8464e9732a5dd4875"
+      },
+      {
+        "path": "server",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1dfbdd630998d11695035977c6508f0be814a49d",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/1dfbdd630998d11695035977c6508f0be814a49d"
+      },
+      {
+        "path": "server/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "server/api",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "50a153972af957ac2329c964cd9f5775caaaf6c4",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/50a153972af957ac2329c964cd9f5775caaaf6c4"
+      },
+      {
+        "path": "server/api/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f2e20bfab136bfbb07fad17dc9e9e0de59d7c068",
+        "size": 58,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/f2e20bfab136bfbb07fad17dc9e9e0de59d7c068"
+      },
+      {
+        "path": "server/api/openai_compat.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f493e6032b0a55480addfd1fe2c322966fd6a76d",
+        "size": 36802,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/f493e6032b0a55480addfd1fe2c322966fd6a76d"
+      },
+      {
+        "path": "server/core",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "db999acd2793f44bbc9bc416e9e4ba26e62235be",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/db999acd2793f44bbc9bc416e9e4ba26e62235be"
+      },
+      {
+        "path": "server/core/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "server/core/admin_auth.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5257804081cc512c8102be48aae28ab4e010f442",
+        "size": 2146,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5257804081cc512c8102be48aae28ab4e010f442"
+      },
+      {
+        "path": "server/core/api_auth.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fddce45cc8d030a78a289603539016c1f435f2b8",
+        "size": 8189,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/fddce45cc8d030a78a289603539016c1f435f2b8"
+      },
+      {
+        "path": "server/core/api_capabilities.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a1d99ee02d4bc003e56691a293ac2491e603800",
+        "size": 25601,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/1a1d99ee02d4bc003e56691a293ac2491e603800"
+      },
+      {
+        "path": "server/core/api_execution.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b3929ac9e7a53a7d1d61982fd3361a30c87f2984",
+        "size": 17422,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b3929ac9e7a53a7d1d61982fd3361a30c87f2984"
+      },
+      {
+        "path": "server/core/artifact_provision.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a5208f46cec98230df0de455354f3359d83c3b24",
+        "size": 7124,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/a5208f46cec98230df0de455354f3359d83c3b24"
+      },
+      {
+        "path": "server/core/asr_backend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26dd89d919e2d9a022f6ee593f7f8920ef6b4749",
+        "size": 7292,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/26dd89d919e2d9a022f6ee593f7f8920ef6b4749"
+      },
+      {
+        "path": "server/core/asr_infer_gate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ea3dd3607d3adcb48f42e352d11d364ebb5da66",
+        "size": 8496,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/7ea3dd3607d3adcb48f42e352d11d364ebb5da66"
+      },
+      {
+        "path": "server/core/asr_segmenter.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "163c47cae482e6ce057af8305685869000f010d2",
+        "size": 26703,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/163c47cae482e6ce057af8305685869000f010d2"
+      },
+      {
+        "path": "server/core/asr_session_manager.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6b04a9a66371c1d786ca7a9c5ed68bff2c989172",
+        "size": 1004,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/6b04a9a66371c1d786ca7a9c5ed68bff2c989172"
+      },
+      {
+        "path": "server/core/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f3c1b9701334d2fa574ee44efb262b7a81ee0ecf",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/f3c1b9701334d2fa574ee44efb262b7a81ee0ecf"
+      },
+      {
+        "path": "server/core/assets/silero_vad.onnx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "80c5592ef1f4c9ede3e357bbd02eb863358a6a9d",
+        "size": 2327524,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/80c5592ef1f4c9ede3e357bbd02eb863358a6a9d"
+      },
+      {
+        "path": "server/core/backend_manager.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0a5dd111e8c7b0133bc9f5ae51062000dfc10ce",
+        "size": 25336,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/d0a5dd111e8c7b0133bc9f5ae51062000dfc10ce"
+      },
+      {
+        "path": "server/core/capability_resolver.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6f0868554408e606f461f7cdfca293159592e01d",
+        "size": 27184,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/6f0868554408e606f461f7cdfca293159592e01d"
+      },
+      {
+        "path": "server/core/composition_boot.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33aa4a6b97fcef6cd2373ff1e41c0c121bf0215b",
+        "size": 8269,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/33aa4a6b97fcef6cd2373ff1e41c0c121bf0215b"
+      },
+      {
+        "path": "server/core/concurrency_capability.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c0f3e6f872699fac3043d68d21a5b41b6689939",
+        "size": 2100,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/4c0f3e6f872699fac3043d68d21a5b41b6689939"
+      },
+      {
+        "path": "server/core/coordinator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5465c5af0ba866158676102cd697afbb9e94a9ed",
+        "size": 6639,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5465c5af0ba866158676102cd697afbb9e94a9ed"
+      },
+      {
+        "path": "server/core/deploy_paths.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7544f700704d3f4469da0e017abc0155810ffc55",
+        "size": 274,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/7544f700704d3f4469da0e017abc0155810ffc55"
+      },
+      {
+        "path": "server/core/diarization.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "85f33910b8541ad07088deb94f10f6960debc62b",
+        "size": 21087,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/85f33910b8541ad07088deb94f10f6960debc62b"
+      },
+      {
+        "path": "server/core/edge_llm_backend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17d00f36331e39ad4ac852dbc091331e9cf22bf6",
+        "size": 3338,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/17d00f36331e39ad4ac852dbc091331e9cf22bf6"
+      },
+      {
+        "path": "server/core/engine_resolver.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0492886deb3b5a483c4fc76194d1c96758af0f3",
+        "size": 36711,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/a0492886deb3b5a483c4fc76194d1c96758af0f3"
+      },
+      {
+        "path": "server/core/env_helpers.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9aad53a66d99c636032277a1e4abbe351837ab99",
+        "size": 1462,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/9aad53a66d99c636032277a1e4abbe351837ab99"
+      },
+      {
+        "path": "server/core/gpu_watchdog.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6a544ff6c2e7dbdfe075b75fb5495c3811fad43",
+        "size": 15489,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/f6a544ff6c2e7dbdfe075b75fb5495c3811fad43"
+      },
+      {
+        "path": "server/core/hf_artifacts.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "305a87e72e18afa7a6f19b934860f1a729dc48d1",
+        "size": 28605,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/305a87e72e18afa7a6f19b934860f1a729dc48d1"
+      },
+      {
+        "path": "server/core/language.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "87819a8980ef7e2311c2263b5884d2ebccfc10c7",
+        "size": 1363,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/87819a8980ef7e2311c2263b5884d2ebccfc10c7"
+      },
+      {
+        "path": "server/core/leaf_composition.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f853ef00b69141ec30d2dd41debf3e8dfeab0b1",
+        "size": 24778,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/3f853ef00b69141ec30d2dd41debf3e8dfeab0b1"
+      },
+      {
+        "path": "server/core/logging_config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "192a99283952334298db244505fbb9d0881c3e9b",
+        "size": 12500,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/192a99283952334298db244505fbb9d0881c3e9b"
+      },
+      {
+        "path": "server/core/matcha_artifacts.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "813dfb2072b3b3d915a172e6efe59ec958f3e841",
+        "size": 1605,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/813dfb2072b3b3d915a172e6efe59ec958f3e841"
+      },
+      {
+        "path": "server/core/metrics.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa473437c80a690ffd463949ed5bffd1314b7e96",
+        "size": 12969,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/aa473437c80a690ffd463949ed5bffd1314b7e96"
+      },
+      {
+        "path": "server/core/model_downloader.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11a46ac6dfaaaaf5ccd14f3f275e3c45f768954e",
+        "size": 6350,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/11a46ac6dfaaaaf5ccd14f3f275e3c45f768954e"
+      },
+      {
+        "path": "server/core/profile_loader.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b394e04439bfb277eb5ee7dcac18602a3bde2cf0",
+        "size": 32046,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b394e04439bfb277eb5ee7dcac18602a3bde2cf0"
+      },
+      {
+        "path": "server/core/profile_selector.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a89f3d6b8525a07b5cba93a05c6563bf9c3501d",
+        "size": 844,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/2a89f3d6b8525a07b5cba93a05c6563bf9c3501d"
+      },
+      {
+        "path": "server/core/punctuation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "39263a5ac5094013a6315b32f4f92e131e18326f",
+        "size": 6324,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/39263a5ac5094013a6315b32f4f92e131e18326f"
+      },
+      {
+        "path": "server/core/realtime_provider.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c7a035d7b264849968df8e3c8963aec58147baf8",
+        "size": 7687,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/c7a035d7b264849968df8e3c8963aec58147baf8"
+      },
+      {
+        "path": "server/core/realtime_relay.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c473d239a148e541d882a2387fb455719eb58ce",
+        "size": 7338,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/1c473d239a148e541d882a2387fb455719eb58ce"
+      },
+      {
+        "path": "server/core/rk_artifacts.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efe031f01969acc1a64f06fa6c40d725d478f33f",
+        "size": 6451,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/efe031f01969acc1a64f06fa6c40d725d478f33f"
+      },
+      {
+        "path": "server/core/rk_profile_contract.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f0f7a9955c0dc973ece9a1a363fe27dcef67aa1",
+        "size": 5205,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/0f0f7a9955c0dc973ece9a1a363fe27dcef67aa1"
+      },
+      {
+        "path": "server/core/rk_runtime.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e85a81ef887964bbebc4f68e503861baf3217f9a",
+        "size": 3889,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e85a81ef887964bbebc4f68e503861baf3217f9a"
+      },
+      {
+        "path": "server/core/session_limiter.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0433c68857215f5f75991e7ae4033b5351a1ece",
+        "size": 13473,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/f0433c68857215f5f75991e7ae4033b5351a1ece"
+      },
+      {
+        "path": "server/core/sparktts_voices.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "727bfe5c5f44c10db88a086d820a26970fc6d1b8",
+        "size": 41692,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/727bfe5c5f44c10db88a086d820a26970fc6d1b8"
+      },
+      {
+        "path": "server/core/speaker_embedding.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "63179fa07dd50a8b4887634f0b2e72b7212a3b65",
+        "size": 11040,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/63179fa07dd50a8b4887634f0b2e72b7212a3b65"
+      },
+      {
+        "path": "server/core/tts_backend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea624aad3b85950b962543cc7e0a794b39a1671e",
+        "size": 5832,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/ea624aad3b85950b962543cc7e0a794b39a1671e"
+      },
+      {
+        "path": "server/core/tts_runtime.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1cf7276ab850a073262236716c8f8f4ff17b7a7c",
+        "size": 6482,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/1cf7276ab850a073262236716c8f8f4ff17b7a7c"
+      },
+      {
+        "path": "server/core/tts_service.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0291db45eb77c6640f8789dd34fd09d1a8a6f56b",
+        "size": 3108,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/0291db45eb77c6640f8789dd34fd09d1a8a6f56b"
+      },
+      {
+        "path": "server/core/tts_speakers.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d26fa29d6e7c5c885dc023f5aa595780f28d9540",
+        "size": 31429,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/d26fa29d6e7c5c885dc023f5aa595780f28d9540"
+      },
+      {
+        "path": "server/core/v2v.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ea7592b254638340e1018e28d360fd6e30b40e3",
+        "size": 38423,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/9ea7592b254638340e1018e28d360fd6e30b40e3"
+      },
+      {
+        "path": "server/core/vad.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d9d57d614d23e5406d2d416cd8385ce14b3521c",
+        "size": 12536,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/2d9d57d614d23e5406d2d416cd8385ce14b3521c"
+      },
+      {
+        "path": "server/core/voxedge_backend_config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a12a1374851fcf39e5159e382757f9f8f50d2c4",
+        "size": 4253,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/3a12a1374851fcf39e5159e382757f9f8f50d2c4"
+      },
+      {
+        "path": "server/core/worker_io.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c36a349539ad6e082d66f35a9fc8c1fb252f22a4",
+        "size": 17240,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/c36a349539ad6e082d66f35a9fc8c1fb252f22a4"
+      },
+      {
+        "path": "server/main.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bbdf12106e022621cb633f6e8b637a341834e5b0",
+        "size": 431982,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/bbdf12106e022621cb633f6e8b637a341834e5b0"
+      },
+      {
+        "path": "server/requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1709f6c820398c299793c9b301bc4cb62a9a8b58",
+        "size": 433,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/1709f6c820398c299793c9b301bc4cb62a9a8b58"
+      },
+      {
+        "path": "server/tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4308b6189f4deefc3b0dd642b7b9befd2307be93",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/4308b6189f4deefc3b0dd642b7b9befd2307be93"
+      },
+      {
+        "path": "server/tests/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "server/tests/conftest.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f8bbaa08d674dd011f96156b0d616f9368ef9ee",
+        "size": 2099,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/3f8bbaa08d674dd011f96156b0d616f9368ef9ee"
+      },
+      {
+        "path": "server/tests/test_admin_auth.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "18c9353c5efae9f3bc5fcac5eec2d2b9f948e14a",
+        "size": 3215,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/18c9353c5efae9f3bc5fcac5eec2d2b9f948e14a"
+      },
+      {
+        "path": "server/tests/test_api_execution_offload.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91276bda494ddf0a5a251a21d895a1df5c9fe27d",
+        "size": 14181,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/91276bda494ddf0a5a251a21d895a1df5c9fe27d"
+      },
+      {
+        "path": "server/tests/test_asr_backend_endpoint_rearm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51685420b0bdb0f5757187aaefff32cb299097ec",
+        "size": 13185,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/51685420b0bdb0f5757187aaefff32cb299097ec"
+      },
+      {
+        "path": "server/tests/test_asr_infer_gate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dec3ab989c7dd2059755f0e7554dfa2dbff8ee52",
+        "size": 10849,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/dec3ab989c7dd2059755f0e7554dfa2dbff8ee52"
+      },
+      {
+        "path": "server/tests/test_asr_segmenter.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c9b0f6fe606b8a56537c274d083219c71d7e757",
+        "size": 26793,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/3c9b0f6fe606b8a56537c274d083219c71d7e757"
+      },
+      {
+        "path": "server/tests/test_asr_sentence_level_locking.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "740441dd1f942754159f864974a75003d962d911",
+        "size": 17923,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/740441dd1f942754159f864974a75003d962d911"
+      },
+      {
+        "path": "server/tests/test_asr_session_manager.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "faeeca0b49080fbecf599011c878ad6d65de1d37",
+        "size": 13988,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/faeeca0b49080fbecf599011c878ad6d65de1d37"
+      },
+      {
+        "path": "server/tests/test_asr_stream_protocol.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e3877ceb9cfd3fb344881756f19cb22da59e541",
+        "size": 5023,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/9e3877ceb9cfd3fb344881756f19cb22da59e541"
+      },
+      {
+        "path": "server/tests/test_backend_manager.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d4c053a7f01516c906c598aea1d465b9709cc80",
+        "size": 28389,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/6d4c053a7f01516c906c598aea1d465b9709cc80"
+      },
+      {
+        "path": "server/tests/test_backend_unload.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "22256ee15f2310b9f8517e60344514820cfb096e",
+        "size": 5136,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/22256ee15f2310b9f8517e60344514820cfb096e"
+      },
+      {
+        "path": "server/tests/test_capability_schema_v1.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3de1d37adf836aac6bd98da1e4b33a0ece1ee1cb",
+        "size": 14121,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/3de1d37adf836aac6bd98da1e4b33a0ece1ee1cb"
+      },
+      {
+        "path": "server/tests/test_coordinator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "113a262d9fd4fc86fc0213d62303b0ebfbebe1ba",
+        "size": 4393,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/113a262d9fd4fc86fc0213d62303b0ebfbebe1ba"
+      },
+      {
+        "path": "server/tests/test_deployment_health.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "526e7f24e2191747ec7796e55cf8fcb9d5a4ab0b",
+        "size": 1090,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/526e7f24e2191747ec7796e55cf8fcb9d5a4ab0b"
+      },
+      {
+        "path": "server/tests/test_doctor_kernel.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e13113c562f2f1345de2f6688e840e04db88939",
+        "size": 1227,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/3e13113c562f2f1345de2f6688e840e04db88939"
+      },
+      {
+        "path": "server/tests/test_env_helpers.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc45825de608fb5c29482ea795f660cacd274142",
+        "size": 810,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/bc45825de608fb5c29482ea795f660cacd274142"
+      },
+      {
+        "path": "server/tests/test_env_truthy_flag.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a52c19a8978c40992b3d2657b483197b6f1a3645",
+        "size": 1235,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/a52c19a8978c40992b3d2657b483197b6f1a3645"
+      },
+      {
+        "path": "server/tests/test_finite_tts_disconnect_asgi.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50380a50e3bbf7ac2e65d971d8b2529f3d4fe4fa",
+        "size": 11786,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/50380a50e3bbf7ac2e65d971d8b2529f3d4fe4fa"
+      },
+      {
+        "path": "server/tests/test_main_hot_swap.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "022619da3e9ba7c96bd752b00bea9b0ac83ceb4e",
+        "size": 75401,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/022619da3e9ba7c96bd752b00bea9b0ac83ceb4e"
+      },
+      {
+        "path": "server/tests/test_model_downloader_archive.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "07b7009b336be1abc6505084e7951f05db90747e",
+        "size": 1230,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/07b7009b336be1abc6505084e7951f05db90747e"
+      },
+      {
+        "path": "server/tests/test_native_service_wait.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f35b8a209e0b2c3592d3fb706c8439b9d4f9ebf9",
+        "size": 3447,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/f35b8a209e0b2c3592d3fb706c8439b9d4f9ebf9"
+      },
+      {
+        "path": "server/tests/test_openai_compat.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0068b83d37e7185af5b0c4091a25b757579c4ca",
+        "size": 15158,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/d0068b83d37e7185af5b0c4091a25b757579c4ca"
+      },
+      {
+        "path": "server/tests/test_profile_loader.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a432a772049184426dd12088acba9d2db919eace",
+        "size": 21359,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/a432a772049184426dd12088acba9d2db919eace"
+      },
+      {
+        "path": "server/tests/test_punctuation_latin.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b39ca940a3d0c342a9350cb9c89010e7076162a",
+        "size": 2849,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/0b39ca940a3d0c342a9350cb9c89010e7076162a"
+      },
+      {
+        "path": "server/tests/test_realtime_v2_protocol.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef742d41808389ab0e33b68f68e77bb35c501503",
+        "size": 11359,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/ef742d41808389ab0e33b68f68e77bb35c501503"
+      },
+      {
+        "path": "server/tests/test_realtime_v2_protocol_sync.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "706d771a9f514364b62a51a51212d002b36b9d09",
+        "size": 1781,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/706d771a9f514364b62a51a51212d002b36b9d09"
+      },
+      {
+        "path": "server/tests/test_rk1828_reproduction.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c37e03c6be59e2aca46c215c5f502be908df9bb",
+        "size": 3314,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5c37e03c6be59e2aca46c215c5f502be908df9bb"
+      },
+      {
+        "path": "server/tests/test_rk_artifacts_contract.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7d4205300babbed92e8a813ee16bc29e544fbc6",
+        "size": 1281,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e7d4205300babbed92e8a813ee16bc29e544fbc6"
+      },
+      {
+        "path": "server/tests/test_rk_health_failures.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b16ad53d8cdeeb4792dc9213cc5452c956de5604",
+        "size": 6492,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b16ad53d8cdeeb4792dc9213cc5452c956de5604"
+      },
+      {
+        "path": "server/tests/test_session_limiter.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4acdd6a33660356731ea6c39b0dbafb0ad384a9e",
+        "size": 3583,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/4acdd6a33660356731ea6c39b0dbafb0ad384a9e"
+      },
+      {
+        "path": "server/tests/test_silero_vad_protocol.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47a081678afe2b964a6fe65ff28487cff558121b",
+        "size": 4734,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/47a081678afe2b964a6fe65ff28487cff558121b"
+      },
+      {
+        "path": "server/tests/test_so101_llm_artifacts.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dab776928d91877878f35f5ec5a841586a0f7a9e",
+        "size": 1915,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/dab776928d91877878f35f5ec5a841586a0f7a9e"
+      },
+      {
+        "path": "server/tests/test_so101_rk_profile.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "088f441805b4983d1ce343299d994845d19a4dae",
+        "size": 1815,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/088f441805b4983d1ce343299d994845d19a4dae"
+      },
+      {
+        "path": "server/tests/test_tts_language.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a8187b7e690e7ca3e86e453885eb0a30f449014",
+        "size": 652,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/0a8187b7e690e7ca3e86e453885eb0a30f449014"
+      },
+      {
+        "path": "server/tests/test_tts_runtime.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf9fcecee043c01bd053b20c0c1a7cf3a9ecacd7",
+        "size": 3896,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/bf9fcecee043c01bd053b20c0c1a7cf3a9ecacd7"
+      },
+      {
+        "path": "server/tests/test_tts_stream_prefetch.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1af58a611feaecf9721fe8e5c8cf8c3bb632822",
+        "size": 3677,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/d1af58a611feaecf9721fe8e5c8cf8c3bb632822"
+      },
+      {
+        "path": "server/tests/test_v2v_abort_keep_asr.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8969d64ee087a271f3bf659deb017eb0fff8c6d9",
+        "size": 4279,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/8969d64ee087a271f3bf659deb017eb0fff8c6d9"
+      },
+      {
+        "path": "server/tests/test_v2v_admission_release_ordering.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4ada5e45c6c84ad5eaf61b10dd2fe77c528bff0f",
+        "size": 15049,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/4ada5e45c6c84ad5eaf61b10dd2fe77c528bff0f"
+      },
+      {
+        "path": "server/tests/test_v2v_asr_concurrency.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c9caf2a9283ca0f60b4c9b127a08d64fbbe215c",
+        "size": 6897,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/4c9caf2a9283ca0f60b4c9b127a08d64fbbe215c"
+      },
+      {
+        "path": "server/tests/test_v2v_asr_desync_selfheal.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1e24332005027c080d17f37b50710ecfc29fd2f",
+        "size": 9055,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b1e24332005027c080d17f37b50710ecfc29fd2f"
+      },
+      {
+        "path": "server/tests/test_v2v_asr_stream_options.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54068c077dd283237b42f640e741cd3701f19b2f",
+        "size": 5947,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/54068c077dd283237b42f640e741cd3701f19b2f"
+      },
+      {
+        "path": "server/tests/test_v2v_endpoint_detector_guard.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f306a262696ef4b5d8a1edda130d817fc3e354d",
+        "size": 2040,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/8f306a262696ef4b5d8a1edda130d817fc3e354d"
+      },
+      {
+        "path": "server/tests/test_v2v_endpoint_gen_race.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57565e9b89d2d0c91b656801f81fcd62ebf3e4db",
+        "size": 19605,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/57565e9b89d2d0c91b656801f81fcd62ebf3e4db"
+      },
+      {
+        "path": "server/tests/test_v2v_eos_multi_utterance.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b69e46e60f8861483dacf3ff543da5c927dcdcbb",
+        "size": 50322,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/b69e46e60f8861483dacf3ff543da5c927dcdcbb"
+      },
+      {
+        "path": "server/tests/test_v2v_low_latency_tts_buffer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7bcef367490a3817e64630c5f8e631f752b6d2f8",
+        "size": 3113,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/7bcef367490a3817e64630c5f8e631f752b6d2f8"
+      },
+      {
+        "path": "server/tests/test_v2v_ping_keepalive.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9abf8c8601b46bc6699f59e1e20697ce48448a80",
+        "size": 3593,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/9abf8c8601b46bc6699f59e1e20697ce48448a80"
+      },
+      {
+        "path": "server/tests/test_v2v_preroll_onset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "205f5b021e25687ae7a427a2dffaf5537c95ce0c",
+        "size": 10403,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/205f5b021e25687ae7a427a2dffaf5537c95ce0c"
+      },
+      {
+        "path": "server/tests/test_v2v_server_loop.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5267e1c3576d38e9dd565ea6e811b74ef1943fde",
+        "size": 11056,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5267e1c3576d38e9dd565ea6e811b74ef1943fde"
+      },
+      {
+        "path": "server/tests/test_v2v_vad_event.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e27ce702e85beaf483368e0f12e943c7c7a5cd1a",
+        "size": 17608,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e27ce702e85beaf483368e0f12e943c7c7a5cd1a"
+      },
+      {
+        "path": "server/tests/test_v2v_vad_event_slicing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "319a2e144845eba551f424f702d9fdda121c09d8",
+        "size": 1310,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/319a2e144845eba551f424f702d9fdda121c09d8"
+      },
+      {
+        "path": "server/tests/test_vad_dependency_contract.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ac699c6199907f83e224532e75be5476a064db4a",
+        "size": 580,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/ac699c6199907f83e224532e75be5476a064db4a"
+      },
+      {
+        "path": "server/tests/test_worker_io.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f71c86604bd91f38051253e2761c91e48c29387c",
+        "size": 18191,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/f71c86604bd91f38051253e2761c91e48c29387c"
+      },
+      {
+        "path": "server/utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9d1dcfdaf1a6857c5f83dc27019c7600e1ffaff8",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/9d1dcfdaf1a6857c5f83dc27019c7600e1ffaff8"
+      },
+      {
+        "path": "server/utils/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "services",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6ca488f6bca6ed84ecdddd6fb44c6397a46808ce",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/6ca488f6bca6ed84ecdddd6fb44c6397a46808ce"
+      },
+      {
+        "path": "services/rk1828-llm",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fc981bc20625601ce8bcd781922f6207de8e1623",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/fc981bc20625601ce8bcd781922f6207de8e1623"
+      },
+      {
+        "path": "services/rk1828-llm/BUILD.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5bb44502c1bc3844ba5481cf6777e3507d62c680",
+        "size": 4049,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5bb44502c1bc3844ba5481cf6777e3507d62c680"
+      },
+      {
+        "path": "services/rk1828-llm/artifacts.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a1021d6f964e5dd163b6bf42377050c5b05dcb5",
+        "size": 2642,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/1a1021d6f964e5dd163b6bf42377050c5b05dcb5"
+      },
+      {
+        "path": "services/rk1828-llm/entrypoint.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "952498ff4e88eadfa798b8745b929c61230b54b6",
+        "size": 9829,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/952498ff4e88eadfa798b8745b929c61230b54b6"
+      },
+      {
+        "path": "services/rk1828-llm/patches",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "78b6a70e22de3872bebfe7183698be6441075ff2",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/78b6a70e22de3872bebfe7183698be6441075ff2"
+      },
+      {
+        "path": "services/rk1828-llm/patches/Qwen3-cpp-main.cc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d5e106d8ec92318b126e9e61516799779d56851a",
+        "size": 31974,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/d5e106d8ec92318b126e9e61516799779d56851a"
+      },
+      {
+        "path": "services/rk1828-llm/rk1828_llm_server.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efd1716b2b598256aa27b4b6405cffa012c58212",
+        "size": 29573,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/efd1716b2b598256aa27b4b6405cffa012c58212"
+      },
+      {
+        "path": "services/rk1828-llm/smoke_worker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa34c4024f8ed352877a6936b9de57dbb85b50d0",
+        "size": 2164,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/aa34c4024f8ed352877a6936b9de57dbb85b50d0"
+      },
+      {
+        "path": "services/rk1828-llm/verify_artifacts.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "78a023c5c78466b620f0ba335d29a40153a1d39b",
+        "size": 1374,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/78a023c5c78466b620f0ba335d29a40153a1d39b"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8216aafaa0e71f1ed54db6831268953615b5b3e6",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/8216aafaa0e71f1ed54db6831268953615b5b3e6"
+      },
+      {
+        "path": "tests/test_api_auth.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c175035cb44aa60a1d80512d45ea7c986c92217",
+        "size": 8167,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/7c175035cb44aa60a1d80512d45ea7c986c92217"
+      },
+      {
+        "path": "tests/test_json_logging.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6c80fc6a028046910d5ea8865e30ecd0c13ce9c",
+        "size": 7522,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/f6c80fc6a028046910d5ea8865e30ecd0c13ce9c"
+      },
+      {
+        "path": "tests/test_livez_readyz.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26071091a21d01ecce42653eaad69649224a17df",
+        "size": 1864,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/26071091a21d01ecce42653eaad69649224a17df"
+      },
+      {
+        "path": "tests/test_metrics.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c7facc9f65f6d1ae2bd5d1e391500ec58be8563",
+        "size": 1578,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/3c7facc9f65f6d1ae2bd5d1e391500ec58be8563"
+      },
+      {
+        "path": "tests/test_metrics_prometheus.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c5f9429e46ace7e97f7f43b49577be47f6bad576",
+        "size": 6506,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/c5f9429e46ace7e97f7f43b49577be47f6bad576"
+      },
+      {
+        "path": "tests/test_session_limiter.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "70b0f31581eea8a196c7f2fd95297a19cb2b9ed5",
+        "size": 8126,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/70b0f31581eea8a196c7f2fd95297a19cb2b9ed5"
+      },
+      {
+        "path": "tests/test_slot_leak_endpoints.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a5e5542883f395220c47998997b787c4636313e",
+        "size": 14639,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/6a5e5542883f395220c47998997b787c4636313e"
+      },
+      {
+        "path": "tests/test_tts_stream_executor_resolve.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cb8d4fdba4771d497609b3cab8a6ddc8ff61af9b",
+        "size": 6063,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/cb8d4fdba4771d497609b3cab8a6ddc8ff61af9b"
+      },
+      {
+        "path": "tests/test_v2v.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ed89adfbf0411decefc7b766003dbfb14e08610",
+        "size": 3198,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/5ed89adfbf0411decefc7b766003dbfb14e08610"
+      },
+      {
+        "path": "tests/test_v2v_eviction.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8cfba853b3b6664db5ea3b0e92a4df82956ccbd",
+        "size": 3447,
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/blobs/d8cfba853b3b6664db5ea3b0e92a4df82956ccbd"
+      },
+      {
+        "path": "third_party",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "29aae0638efedd47f39e5b6b0e292c3929c1f654",
+        "url": "https://api.github.com/repos/Qin-tuo/EdgeArm/git/trees/29aae0638efedd47f39e5b6b0e292c3929c1f654"
+      },
+      {
+        "path": "third_party/rkvoice-stream",
+        "mode": "160000",
+        "type": "commit",
+        "sha": "400e704a535e0ec00fa4f02d4ed2c4bc7b5dc308"
+      }
+    ],
+    "truncated": false
+  }
+}

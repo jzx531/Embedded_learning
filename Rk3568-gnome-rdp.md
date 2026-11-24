@@ -1,5 +1,7 @@
 # KICKPI K1Mini：Ubuntu GNOME 桌面与 RDP 部署记录
 
+> **后续完整记录：** [gnome.md](gnome.md) 包含本地 HDMI 黑屏、点击无反应、最终切换 fbdev、调整为 2560×1440 以及键盘正常的确认。下文主要保留初次部署过程；其中 Mesa-only 和多屏扩展描述属于中间状态，最终本地配置以 `gnome.md` 为准。当前分辨率为运行时设置，尚未配置开机恢复。
+
 配置日期：2026-11-21。通过 SSH 连接 `kickpi@192.168.3.181`，使用 sudo 完成安装和配置。本文对应当前 K1Mini 系统；原先 Ubuntu 20.04 / K1A 的设备资料仍保存在 [Rk3568.md](Rk3568.md)。
 
 ## 最终状态与连接方法
@@ -90,7 +92,7 @@ Yaru GTK / 图标 / 光标主题已设置，Dock 置于左侧且占满高度，�
 2. `/etc/xrdp/sesman.ini` 的 `[Xorg]` 参数新增 `-configdir xrdp/conf.d`，远程 Xorg 不再读取板厂本地配置片段。
 3. `/etc/X11/xrdp/xorg.conf` 设置 `AutoAddGPU=off`、`DRMDevice=""`、`DRI3=0`。
 
-本地 `/etc/X11/xorg.conf.d/20-modesetting.conf` 保留原样。本次隔离解决的是当前镜像实测的配置冲突，不将旧系统强制 `DISPLAY=:0.0` 的问题套用于当前镜像。
+初次 RDP 部署时，本地 `/etc/X11/xorg.conf.d/20-modesetting.conf` 保留原样；后续 HDMI 排障已将它替换为 fbdev 配置，见 [完整过程](gnome.md)。远程 Xorg 仍使用独立目录。本次隔离解决的是当前镜像实测的配置冲突，不将旧系统强制 `DISPLAY=:0.0` 的问题套用于当前镜像。
 
 ### 服务与网络
 

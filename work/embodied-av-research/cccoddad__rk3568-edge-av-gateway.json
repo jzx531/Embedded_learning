@@ -1,0 +1,2127 @@
+{
+  "repository": "cccoddad/rk3568-edge-av-gateway",
+  "fetched_at_utc": "2026-11-23T11:38:34.1975399Z",
+  "metadata": {
+    "id": 1341317391,
+    "node_id": "R_kgDOT_LhDw",
+    "name": "rk3568-edge-av-gateway",
+    "full_name": "cccoddad/rk3568-edge-av-gateway",
+    "private": false,
+    "owner": {
+      "login": "cccoddad",
+      "id": 202125436,
+      "node_id": "U_kgDODAwwfA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/202125436?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cccoddad",
+      "html_url": "https://github.com/cccoddad",
+      "followers_url": "https://api.github.com/users/cccoddad/followers",
+      "following_url": "https://api.github.com/users/cccoddad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cccoddad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cccoddad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cccoddad/subscriptions",
+      "organizations_url": "https://api.github.com/users/cccoddad/orgs",
+      "repos_url": "https://api.github.com/users/cccoddad/repos",
+      "events_url": "https://api.github.com/users/cccoddad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cccoddad/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/cccoddad/rk3568-edge-av-gateway",
+    "description": "RK3568 real-time audio/video edge analytics gateway with V4L2, ALSA, RKNN, MPP, MP4 recording and RTSP streaming.",
+    "fork": false,
+    "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway",
+    "forks_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/forks",
+    "keys_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/teams",
+    "hooks_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/hooks",
+    "issue_events_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/events",
+    "assignees_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/tags",
+    "blobs_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/languages",
+    "stargazers_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/stargazers",
+    "contributors_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/contributors",
+    "subscribers_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/subscribers",
+    "subscription_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/subscription",
+    "commits_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/merges",
+    "archive_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/downloads",
+    "issues_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/labels{/name}",
+    "releases_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/deployments",
+    "created_at": "2026-08-21T02:21:00Z",
+    "updated_at": "2026-10-08T01:24:13Z",
+    "pushed_at": "2026-10-08T01:24:09Z",
+    "git_url": "git://github.com/cccoddad/rk3568-edge-av-gateway.git",
+    "ssh_url": "git@github.com:cccoddad/rk3568-edge-av-gateway.git",
+    "clone_url": "https://github.com/cccoddad/rk3568-edge-av-gateway.git",
+    "svn_url": "https://github.com/cccoddad/rk3568-edge-av-gateway",
+    "homepage": null,
+    "size": 3009,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "C++",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 1,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 0,
+    "subscribers_count": 0
+  },
+  "readme_path": "README.md",
+  "readme": "# RK3568 实时音视频边缘分析网关\n\n[![CI](https://github.com/cccoddad/rk3568-edge-av-gateway/actions/workflows/ci.yml/badge.svg)](https://github.com/cccoddad/rk3568-edge-av-gateway/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n> **English summary.** A production-grade real-time audio/video edge analytics gateway for\n> RK3568 (ARM64, Buildroot Linux): V4L2/ALSA capture → RKNN NPU YOLOv5 detection →\n> CPU OSD overlay → MPP H.264 + AAC encode → RTSP push into ZLMediaKit with\n> RTMP / HTTP-FLV / HLS / WebRTC distribution. A single process with six worker threads\n> and bounded queues. Verified by a **120-hour continuous soak** — one uninterrupted run,\n> zero restarts, zero pipeline errors, **24.5M packets pushed with zero drop**,\n> p99 overlay latency **2.5 ms** — plus 66 automated tests under Debug and ASan/UBSan.\n> All numbers are reproducible; see [docs/BENCHMARKS.md](docs/BENCHMARKS.md).\n\n![OSD overlay on live camera output](docs/assets/osd-overlay-demo.png)\n\n*实板输出实拍：1280×720 MJPEG 摄像头画面上叠加 YOLOv5 检测框、类别置信度与网关 OSD 信息。*\n\n## 项目亮点\n\n1. **全链路自主实现**：从 USB 设备驱动接入、NPU 推理、OSD 叠加到硬件编码与多协议流媒体\n   分发，单进程 6 线程有界队列管道，每类数据独立的背压策略（丢旧 / 保留最新 / 阻塞）。\n2. **工业级长稳证据**：120 小时单次连续运行零重启、零错误、推流零丢包——\n   每个数字都有结果目录、SHA-256 清单与结构化日志可复核（[基准数据](docs/BENCHMARKS.md)）。\n3. **Mock 先行的回归方法**：66 项自动化测试在无硬件环境下全量运行，\n   硬件后端逐个替换而不动公共数据契约与主流程；CI 覆盖 clang-format / clang-tidy /\n   Debug / ASan+UBSan。\n4. **严格的配置契约**：字段拼写、类型、范围、后端可用性全部在**线程启动前**校验拒绝，\n   `--validate-config` 可独立执行。\n5. **自愈与可运维**：崩溃 5 秒自动拉起、SIGTERM 优雅停止、开机自启（SysV 守护），\n   SSH / adb / 串口三通道运维。\n\n## 核心指标（实测，2026-10 完成）\n\n| 指标 | 实测值 |\n|---|---|\n| 120 小时连续长稳 | 单次运行 432,000 s，零重启，exit 0 |\n| 管线错误 / 自动恢复 / 队列异常 | 0 / 0 / 设计内策略丢弃 0.031%（编码入口） |\n| RTSP 推流 | 24,537,112 包，**零丢包** |\n| OSD 叠加延迟 | p99 **2.5 ms**（帧周期 33 ms 的 1/13） |\n| NPU 推理 | 1,558,667 次，请求=结果 **100%**，p99 125.7 ms |\n| 异常帧容错 | 跳帧率 0.0011%，零崩溃（USB 截断帧自动容错） |\n| 端到端播放延迟 | 0.3~0.7 s（WebRTC，最差 1.1 s） |\n| 自动化测试 | **66/66** 全绿（Debug + ASan/UBSan） |\n\n## 系统架构\n\n```mermaid\nflowchart LR\n    CAM[\"USB 摄像头<br/>V4L2 MMAP · 1280×720 MJPEG\"] -->|drop_oldest| VQ[\"视频队列<br/>容量 4\"]\n    MIC[\"USB 麦克风<br/>ALSA 内核 UAPI · 48kHz 双声道\"] -->|block_producer| AQ[\"音频队列<br/>300ms\"]\n    VQ --> DEC[\"libjpeg-turbo 解码\"]\n    DEC --> INF[\"RKNN Runtime 1.4.0<br/>YOLOv5s INT8 · 5 fps\"]\n    VQ --> SRC[\"同源帧校验<br/>sequence/PTS + 400ms 有效期\"]\n    SRC --> OV[\"CPU OSD<br/>检测框 + 置信度文字\"]\n    OV --> ENC[\"MPP H.264 硬编码\"]\n    AQ --> AAC[\"FFmpeg AAC 编码\"]\n    ENC --> RTR[\"PacketRouter\"]\n    AAC --> RTR\n    RTR --> RTSP[\"RTSP 推流<br/>tcp · 断线重连\"]\n    RTSP --> ZLM[\"ZLMediaKit<br/>RTMP / HTTP-FLV / HLS / WebRTC\"]\n```\n\n| 设计点 | 方案 |\n|---|---|\n| 并发模型 | 6 个 worker 线程 + 每输出端独立线程，全部经有界队列 |\n| 队列语义 | 视频丢旧保新鲜、推理保最新、音频背压阻塞——策略跟数据语义走 |\n| 错误处理 | `Result<T>` 分类预期故障；致命错误结构化带根因退出 |\n| 运行监控 | JSON 行日志 + 周期指标（延迟分位/队列水位/最近进展）+ 线程健康看门狗 |\n\n## 快速开始\n\n**Windows**（仓库路径含特殊字符，经短路径 Junction 构建）：\n\n```powershell\npowershell -ExecutionPolicy Bypass -File .\\tools\\build_windows.ps1\n```\n\n**Linux / Ubuntu**：\n\n```bash\nsudo apt install -y build-essential cmake ninja-build git\nsh ./tools/build_and_test.sh\n```\n\n**手动三步**：\n\n```bash\ncmake --preset debug && cmake --build --preset debug -j4\nctest --preset debug                                  # 66 项测试\n./build/debug/rkav-gateway --validate-config --config config/mock.json\n./build/debug/rkav-gateway --config config/mock.json --duration 0   # 跑到 SIGTERM\n```\n\n**板端（RK3568）**：交叉编译产物与部署步骤见\n[docs/09-Buildroot交叉编译与RK3568上板阶段总结](docs/09-Buildroot交叉编译与RK3568上板阶段总结.md)；\n板端一键冒烟 / 长稳工具见 [tools/board_osd_run.sh](tools/board_osd_run.sh)。\n\n## 测试与质量\n\n```text\n100% tests passed, 0 tests failed out of 66\n```\n\n- 单元测试覆盖队列策略、配置契约、错误分类、OSD 坐标变换、JPEG 坏帧恢复；\n- 集成测试跑整条 Mock 管道（含慢推理、限速、设备失联场景）；\n- `asan` 预设（ASan+UBSan）已抓出并修复过 RTSP 重连 FD 泄漏；\n- 配置/格式/静态检查由 [CI](.github/workflows/ci.yml) 强制。\n\n## 文档导航\n\n| 文档 | 内容 |\n|---|---|\n| [docs/BENCHMARKS.md](docs/BENCHMARKS.md) | 实测基准：长稳阶梯、延迟分位、资源、复现判据 |\n| [docs/ENGINEERING-NOTES.md](docs/ENGINEERING-NOTES.md) | 十个代表性问题的根因分析与设计决策 |\n| [docs/CONVENTIONS.md](docs/CONVENTIONS.md) | 编码、验收证据、板端安全、Git 约定 |\n| [docs/01-项目总体代码架构.md](docs/01-项目总体代码架构.md) | 架构与模块边界 |\n| [docs/04-项目配置说明.md](docs/04-项目配置说明.md) | 配置字段与语义 |\n| [docs/19-项目当前开发状态.md](docs/19-项目当前开发状态.md) | 当前状态与路线 |\n| [docs/](docs/) | 阶段验收与交接记录（按编号） |\n\n## 已知观察项\n\n工程上如实记录而非隐藏（详见 [BENCHMARKS §4](docs/BENCHMARKS.md)）：\n\n- 板级偶发网络失联已 5 次，均有串口取证与恢复规程，根因线索已归档（持续观察）；\n- USB 传输 0.0011% 概率的截断帧由解码层容错丢弃，不产生花屏；\n- 板载 RTC 失效，冷启动需对时（已纳入运维规程）。\n\n## 许可证\n\n[MIT](LICENSE)\n",
+  "tree": {
+    "sha": "7e3a94acd7f18f591cd8466425344d005a2261a9",
+    "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/7e3a94acd7f18f591cd8466425344d005a2261a9",
+    "tree": [
+      {
+        "path": ".clang-format",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a2541d456d1a1659c7a7f7a0dd17e045a4792a1",
+        "size": 134,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/6a2541d456d1a1659c7a7f7a0dd17e045a4792a1"
+      },
+      {
+        "path": ".clang-tidy",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f29c0de28c4c8434d66bdfd96b99e84453e7e1c8",
+        "size": 570,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/f29c0de28c4c8434d66bdfd96b99e84453e7e1c8"
+      },
+      {
+        "path": ".editorconfig",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de2ee62fad5b925de8c41487c033ef7f1425755b",
+        "size": 263,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/de2ee62fad5b925de8c41487c033ef7f1425755b"
+      },
+      {
+        "path": ".gitattributes",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7694290ded68ccf5cc8ee87a85c6a6b1ab32bf3e",
+        "size": 538,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/7694290ded68ccf5cc8ee87a85c6a6b1ab32bf3e"
+      },
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b7a8ff97c124118a3e7c260999cb99c9f0ec0d39",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/b7a8ff97c124118a3e7c260999cb99c9f0ec0d39"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cca2e69b723ba31e26068f8488896dea88bced23",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/cca2e69b723ba31e26068f8488896dea88bced23"
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "85f6a907175dad8bee25db48c64437445eee8605",
+        "size": 2978,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/85f6a907175dad8bee25db48c64437445eee8605"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0026ed66b53f1e75ce1d900d045cff6e685f3c50",
+        "size": 280,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/0026ed66b53f1e75ce1d900d045cff6e685f3c50"
+      },
+      {
+        "path": "CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3082e20af4622a4b7d18620c2ddaec9fae81274b",
+        "size": 13908,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/3082e20af4622a4b7d18620c2ddaec9fae81274b"
+      },
+      {
+        "path": "CMakePresets.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "70d883a7d2f878a18cbd7f39ef749ed7ff7bf7d0",
+        "size": 2331,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/70d883a7d2f878a18cbd7f39ef749ed7ff7bf7d0"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e7956aefeaf7aad6f1f87c3598f1a40c42ab504",
+        "size": 1069,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/4e7956aefeaf7aad6f1f87c3598f1a40c42ab504"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31b91c00430cb813025aa4df21185e8b7ea96f0d",
+        "size": 6505,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/31b91c00430cb813025aa4df21185e8b7ea96f0d"
+      },
+      {
+        "path": "app",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "38432de91498af38682cca8e9064bbc761b9e279",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/38432de91498af38682cca8e9064bbc761b9e279"
+      },
+      {
+        "path": "app/main.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "980dcbd98bc3ddc5386fad012153554c34bc20dd",
+        "size": 8584,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/980dcbd98bc3ddc5386fad012153554c34bc20dd"
+      },
+      {
+        "path": "cmake",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3ee6bb5195a1078ae5734fd886cf75426f3fdbca",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/3ee6bb5195a1078ae5734fd886cf75426f3fdbca"
+      },
+      {
+        "path": "cmake/Options.cmake",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2e0f61a6bff4efc1b4c0b862ff29d69e7da4085c",
+        "size": 2530,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/2e0f61a6bff4efc1b4c0b862ff29d69e7da4085c"
+      },
+      {
+        "path": "cmake/Toolchains",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cb717b82c927208205538accb97d2db642ff2fce",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/cb717b82c927208205538accb97d2db642ff2fce"
+      },
+      {
+        "path": "cmake/Toolchains/aarch64-linux-gnu-dynamic.cmake",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "913d5fa0fa79bdb0af4604f531915d17975d5c0a",
+        "size": 595,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/913d5fa0fa79bdb0af4604f531915d17975d5c0a"
+      },
+      {
+        "path": "cmake/Toolchains/aarch64-linux-gnu-static.cmake",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49827e8b3db4fd2ab9dd5d3fec9ab6103ae04288",
+        "size": 795,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/49827e8b3db4fd2ab9dd5d3fec9ab6103ae04288"
+      },
+      {
+        "path": "config",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d98ef7d0801e84a7e25fe95bb7a002ad2e0c408d",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/d98ef7d0801e84a7e25fe95bb7a002ad2e0c408d"
+      },
+      {
+        "path": "config/mock-ffmpeg-mp4.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77b25e78e18634212236091f57ca061bfc510808",
+        "size": 1684,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/77b25e78e18634212236091f57ca061bfc510808"
+      },
+      {
+        "path": "config/mock-ffmpeg-rtsp.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "65ef6af8261e0cad321da0c4ad654210fd38a81d",
+        "size": 1602,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/65ef6af8261e0cad321da0c4ad654210fd38a81d"
+      },
+      {
+        "path": "config/mock.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "125d0400681e8458a24df9ad4ce7055d639d7155",
+        "size": 1957,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/125d0400681e8458a24df9ad4ce7055d639d7155"
+      },
+      {
+        "path": "config/rk3568-rknn-mjpeg-alsa-ffmpeg-mp4.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c7b05e5c89336623f2a0327099ac8d487f683dc9",
+        "size": 1768,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/c7b05e5c89336623f2a0327099ac8d487f683dc9"
+      },
+      {
+        "path": "config/rk3568-rknn-mjpeg-alsa-mpp-h264.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "15b6b0538c15690d192a03a0b6ebe088ba748d65",
+        "size": 1726,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/15b6b0538c15690d192a03a0b6ebe088ba748d65"
+      },
+      {
+        "path": "config/rk3568-rknn-mjpeg-alsa-mpp-osd-autostart.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "94dec07f9fdd7357f555ceb353347d8e3390653e",
+        "size": 2009,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/94dec07f9fdd7357f555ceb353347d8e3390653e"
+      },
+      {
+        "path": "config/rk3568-rknn-mjpeg-alsa-mpp-osd-longrun.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "306f32802571663c34fb290e4af7907afadbaa9a",
+        "size": 2012,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/306f32802571663c34fb290e4af7907afadbaa9a"
+      },
+      {
+        "path": "config/rk3568-rknn-mjpeg-alsa-mpp-osd-smoke.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d254b85efd75c2d6794d199478e0d5ed8ac45b06",
+        "size": 2351,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/d254b85efd75c2d6794d199478e0d5ed8ac45b06"
+      },
+      {
+        "path": "config/rk3568-rknn-mjpeg-alsa.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a4f7319bd4532e9d7358b9c5867921f9a939335",
+        "size": 1636,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/3a4f7319bd4532e9d7358b9c5867921f9a939335"
+      },
+      {
+        "path": "config/rk3568-rknn-mjpeg.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54751d007efcf5da44932d744c18c38638845243",
+        "size": 1627,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/54751d007efcf5da44932d744c18c38638845243"
+      },
+      {
+        "path": "config/rk3568-rknn-rgb.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17e31c258381175fc88728345d19e742f0a718c6",
+        "size": 1590,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/17e31c258381175fc88728345d19e742f0a718c6"
+      },
+      {
+        "path": "config/rk3568-v4l2.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "380c81087bb9202d4b848b5b44c7732d76d42191",
+        "size": 1438,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/380c81087bb9202d4b848b5b44c7732d76d42191"
+      },
+      {
+        "path": "deploy",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "05dbaa4b412e1b5bfe043760a2562250338c846a",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/05dbaa4b412e1b5bfe043760a2562250338c846a"
+      },
+      {
+        "path": "deploy/S85zlm",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9dd01396fb98f3cf7c1256e6c28f1c93a125daee",
+        "size": 957,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/9dd01396fb98f3cf7c1256e6c28f1c93a125daee"
+      },
+      {
+        "path": "deploy/S99rkav",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "511b77e1aaf5263d29b57ff9c514d7ef57e06cf2",
+        "size": 3647,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/511b77e1aaf5263d29b57ff9c514d7ef57e06cf2"
+      },
+      {
+        "path": "deploy/rkav-gateway.service",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92e72b93ed188b87fd698e49147abd06fa566a49",
+        "size": 1643,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/92e72b93ed188b87fd698e49147abd06fa566a49"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1484b3a6b2b6c92100c4b0fc67c2f13d14890ed8",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/1484b3a6b2b6c92100c4b0fc67c2f13d14890ed8"
+      },
+      {
+        "path": "docs/01-项目总体代码架构.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8141cd9634acc411c702ada1f53fb287ca6845f",
+        "size": 22108,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/b8141cd9634acc411c702ada1f53fb287ca6845f"
+      },
+      {
+        "path": "docs/02-仅有开发板条件下的开发方案.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7af41c5326ebcead558c81c080fe8377552ea007",
+        "size": 32816,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/7af41c5326ebcead558c81c080fe8377552ea007"
+      },
+      {
+        "path": "docs/03-项目开发全流程手册.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "768570ebf76ee477b49bfa3f50b99f9ef02e4dcc",
+        "size": 51267,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/768570ebf76ee477b49bfa3f50b99f9ef02e4dcc"
+      },
+      {
+        "path": "docs/04-项目配置说明.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae9693e934020fbd12383b8e8c940937561906eb",
+        "size": 4778,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/ae9693e934020fbd12383b8e8c940937561906eb"
+      },
+      {
+        "path": "docs/05-项目初期实现总结与后续计划.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e820b4272f4efbc124fd06ed743dfe076d4ec5e0",
+        "size": 22054,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/e820b4272f4efbc124fd06ed743dfe076d4ec5e0"
+      },
+      {
+        "path": "docs/08-RK3568开发板M5阶段验收.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b658b5ae4540739c289329daa2d13b1b638bc93b",
+        "size": 3783,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/b658b5ae4540739c289329daa2d13b1b638bc93b"
+      },
+      {
+        "path": "docs/09-Buildroot交叉编译与RK3568开发板部署总结.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ba8d67c2449240fe38efbb789ac53c9f015932c",
+        "size": 16185,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/3ba8d67c2449240fe38efbb789ac53c9f015932c"
+      },
+      {
+        "path": "docs/10-板端联调阶段实现复盘与下一步.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f4a66cdb9c0927d83bb05ec52263759f1f015146",
+        "size": 12697,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/f4a66cdb9c0927d83bb05ec52263759f1f015146"
+      },
+      {
+        "path": "docs/11-绿联摄像头与麦克风验收.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69bfe60e26ead23cdd65cbdef137199f4922b13e",
+        "size": 9310,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/69bfe60e26ead23cdd65cbdef137199f4922b13e"
+      },
+      {
+        "path": "docs/12-真实音视频联调总结与下一步.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc8d2c5458ecbc9e271028a832b2e3b13755e59c",
+        "size": 19414,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/bc8d2c5458ecbc9e271028a832b2e3b13755e59c"
+      },
+      {
+        "path": "docs/13-真实音视频与RKNN阶段问题汇总.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6a092d6e87225810277542f78ff7afbe82f84f4",
+        "size": 22794,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/c6a092d6e87225810277542f78ff7afbe82f84f4"
+      },
+      {
+        "path": "docs/14-真实音视频与RKNN阶段问题汇总-解析.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26712fc2a8aef6591a3480106fabe33cc9d01cb0",
+        "size": 17913,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/26712fc2a8aef6591a3480106fabe33cc9d01cb0"
+      },
+      {
+        "path": "docs/15-RKNN运行时独立冒烟测试.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "455c559b2c853c38d2ecc8d5c329ac2f5c20e80b",
+        "size": 6901,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/455c559b2c853c38d2ecc8d5c329ac2f5c20e80b"
+      },
+      {
+        "path": "docs/16-RK3568-YOLOv5目标检测验证.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "95aafd10b420a5d0582fe3fbe1dea8163f0ca6d0",
+        "size": 8349,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/95aafd10b420a5d0582fe3fbe1dea8163f0ca6d0"
+      },
+      {
+        "path": "docs/17-RKNN-YOLOv5主程序后端接入.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5be3ac564206655fcc50642a6365bcd78e7b45e2",
+        "size": 3997,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/5be3ac564206655fcc50642a6365bcd78e7b45e2"
+      },
+      {
+        "path": "docs/18-本阶段实现总结与下一步.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e06790f38e078dd4b33dd684fad30f50f0ad5c9",
+        "size": 14272,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/0e06790f38e078dd4b33dd684fad30f50f0ad5c9"
+      },
+      {
+        "path": "docs/19-项目当前开发状态.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8ba9912d5227440317cacb400d0beffae1f4cdd",
+        "size": 51734,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/a8ba9912d5227440317cacb400d0beffae1f4cdd"
+      },
+      {
+        "path": "docs/20-Git保存与GitHub上传指南.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cc963446dcfdffdb8791aca12f72e1df52a251a4",
+        "size": 12342,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/cc963446dcfdffdb8791aca12f72e1df52a251a4"
+      },
+      {
+        "path": "docs/21-RK3568环境基线记录模板.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4581313b4ba098aa35e5d63a6676d1067f8a5ba0",
+        "size": 2778,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/4581313b4ba098aa35e5d63a6676d1067f8a5ba0"
+      },
+      {
+        "path": "docs/22-MJPEG解码预处理接入与验收.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3793d77a8a724cd0d6e778499b9fce5ea06624ee",
+        "size": 8793,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/3793d77a8a724cd0d6e778499b9fce5ea06624ee"
+      },
+      {
+        "path": "docs/23-真实三硬件联合验收与ALSA启动修复总结.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5fe16093909d39822bf13f87b848846497a12f3b",
+        "size": 14280,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/5fe16093909d39822bf13f87b848846497a12f3b"
+      },
+      {
+        "path": "docs/24-USB断连与重插恢复验收.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33ea0d8748d15155d5207197d2fac2f17a245a9a",
+        "size": 6702,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/33ea0d8748d15155d5207197d2fac2f17a245a9a"
+      },
+      {
+        "path": "docs/25-FFmpeg软件MP4基线验收与交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a0a0118613067781bb0ffd0f5f587687d8066ed",
+        "size": 7128,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/6a0a0118613067781bb0ffd0f5f587687d8066ed"
+      },
+      {
+        "path": "docs/26-CPU-OSD软件MP4验收与交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b7dc81394f8025613ded080d0f020454b2825bb",
+        "size": 5074,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/7b7dc81394f8025613ded080d0f020454b2825bb"
+      },
+      {
+        "path": "docs/27-MPP-RGA运行时盘点与SDK门禁.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "146a7ab41e1915d397aac768e4c6568a6f144b79",
+        "size": 4255,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/146a7ab41e1915d397aac768e4c6568a6f144b79"
+      },
+      {
+        "path": "docs/28-MPP-RGA候选后端实现与兼容构建交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96e693b362b7d0df8d3a0b31776d15037d56765e",
+        "size": 5062,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/96e693b362b7d0df8d3a0b31776d15037d56765e"
+      },
+      {
+        "path": "docs/29-本阶段实现总结、问题归档与下一步交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aca006e9d772230e74f19ef53dfc266269c02c34",
+        "size": 7163,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/aca006e9d772230e74f19ef53dfc266269c02c34"
+      },
+      {
+        "path": "docs/30-MPP-RGA首次板端ABI短测失败与下一步交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "16c22e72e45b95e6082568db678080b6bb32235c",
+        "size": 5325,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/16c22e72e45b95e6082568db678080b6bb32235c"
+      },
+      {
+        "path": "docs/31-本次板端准备、ABI短测与下一步交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1bb1b03841f1072f289d93d4e849790abc33ec0",
+        "size": 6166,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/d1bb1b03841f1072f289d93d4e849790abc33ec0"
+      },
+      {
+        "path": "docs/32-LubanCat-5.10.209-SDK公开性与GEC-V11迁移评估.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf23954aeacdbd7eec937467839d2f8c6928b7e2",
+        "size": 13851,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/cf23954aeacdbd7eec937467839d2f8c6928b7e2"
+      },
+      {
+        "path": "docs/33-GEC-V11公开资料DTB分析依赖缺失与下一步交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "79ae9ff45aa3a4f55834e41c2f90427a0d189763",
+        "size": 2978,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/79ae9ff45aa3a4f55834e41c2f90427a0d189763"
+      },
+      {
+        "path": "docs/34-GEC-V11-DTB可复核差异基线与板级候选分类交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d23799924671a844f020783564939f0a4ad95d0b",
+        "size": 2841,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/d23799924671a844f020783564939f0a4ad95d0b"
+      },
+      {
+        "path": "docs/35-GEC-V11板级差异首轮分类与最小候选构造交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05f4b0ba7b8744fad351adea79d832fb64a326f9",
+        "size": 4586,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/05f4b0ba7b8744fad351adea79d832fb64a326f9"
+      },
+      {
+        "path": "docs/36-GEC-V11-GMAC1候选DTS离线验证与正式内核构建交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "94906b4a70b437abc62d58f46c7af7f02c1e80c1",
+        "size": 2413,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/94906b4a70b437abc62d58f46c7af7f02c1e80c1"
+      },
+      {
+        "path": "docs/37-GEC-V11-GMAC1候选正式kernel-DTB构建与Image前门禁交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc5f785a122f8f0fe8dcf082b2f1a5d80d84c096",
+        "size": 1902,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/fc5f785a122f8f0fe8dcf082b2f1a5d80d84c096"
+      },
+      {
+        "path": "docs/38-GEC-V11-GMAC1候选Image构建与DTB打包登记门禁交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8133fde383cf1c9c64961d7d0e40c6bb9a9cbce",
+        "size": 1928,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/f8133fde383cf1c9c64961d7d0e40c6bb9a9cbce"
+      },
+      {
+        "path": "docs/39-GEC-V11-SDK-DTB选择链与隔离候选打包准备交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b151cac17fa9b801fdecb3e8ea6ca6eaa81010c5",
+        "size": 1642,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/b151cac17fa9b801fdecb3e8ea6ca6eaa81010c5"
+      },
+      {
+        "path": "docs/40-GEC-V11隔离SDK视图与候选defconfig准备交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe83edde9b94f7ebd68304c240161f6e3597ffd0",
+        "size": 2271,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/fe83edde9b94f7ebd68304c240161f6e3597ffd0"
+      },
+      {
+        "path": "docs/41-GEC-V11首次隔离SDK配置失败与芯片选择修正交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c71fef8cfe1f12304de9259c2310fab7116c0dab",
+        "size": 2092,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/c71fef8cfe1f12304de9259c2310fab7116c0dab"
+      },
+      {
+        "path": "docs/42-GEC-V11隔离SDK候选配置通过与kernel构建门禁交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f81215c782150a570343ce8b89cf82e5a34580a",
+        "size": 1918,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/2f81215c782150a570343ce8b89cf82e5a34580a"
+      },
+      {
+        "path": "docs/43-GEC-V11隔离SDK-normal-kernel构建失败与工具链门禁交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0039ea97d1198c1690b1a068627fe456c1a134c7",
+        "size": 2665,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/0039ea97d1198c1690b1a068627fe456c1a134c7"
+      },
+      {
+        "path": "docs/44-GEC-V11-host-shim复测通过与受控kernel重试交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e8720e11d767108214bcb6e81b813df95d1cff8",
+        "size": 1693,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/6e8720e11d767108214bcb6e81b813df95d1cff8"
+      },
+      {
+        "path": "docs/45-GEC-V11受控kernel重试缺少lz4与依赖门禁交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c991165af175c61381224a82434ed74ab6f59281",
+        "size": 1650,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/c991165af175c61381224a82434ed74ab6f59281"
+      },
+      {
+        "path": "docs/46-GEC-V11-lz4依赖门禁通过与kernel再重试交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "673f0eebf1d88145b3ebf0127c69c8dde6783a08",
+        "size": 1137,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/673f0eebf1d88145b3ebf0127c69c8dde6783a08"
+      },
+      {
+        "path": "docs/47-GEC-V11-kernel前置检查缺少GMP与依赖单测交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c392c8da0af3dcfa79f4ff6eb0b53d8ac93d15ea",
+        "size": 1499,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/c392c8da0af3dcfa79f4ff6eb0b53d8ac93d15ea"
+      },
+      {
+        "path": "docs/48-GEC-V11-GMP通过-MPC缺失与完整前置依赖交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd4615f2e6ffde77c2044b9ab34664c10741c91c",
+        "size": 1822,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/bd4615f2e6ffde77c2044b9ab34664c10741c91c"
+      },
+      {
+        "path": "docs/49-GEC-V11完整kernel前置检查通过与实编交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad4aa5ff1739ca94e7f9fbc022181b010f01761d",
+        "size": 1707,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/ad4aa5ff1739ca94e7f9fbc022181b010f01761d"
+      },
+      {
+        "path": "docs/50-GEC-V11-normal-kernel构建通过与IO电源域门禁交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "298f06d001e42cb3e3e17c562266cfff283c7a83",
+        "size": 2744,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/298f06d001e42cb3e3e17c562266cfff283c7a83"
+      },
+      {
+        "path": "docs/51-GEC-V11-IO电源域差异锁定与候选v2前门禁交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68ffb1c55f66624c8eced16b21a621f053a1d2f6",
+        "size": 2283,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/68ffb1c55f66624c8eced16b21a621f053a1d2f6"
+      },
+      {
+        "path": "docs/52-GEC-V11电源域覆盖label通过与候选v2构建交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98d56766fa91839c41d0a681c30cf01b475380cd",
+        "size": 1938,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/98d56766fa91839c41d0a681c30cf01b475380cd"
+      },
+      {
+        "path": "docs/53-GEC-V11候选v2构建通过与fdtget假失败交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d95ed6d605c22da7071d99e75a87352b29ad2238",
+        "size": 2359,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/d95ed6d605c22da7071d99e75a87352b29ad2238"
+      },
+      {
+        "path": "docs/54-GEC-V11候选v2电源域最终门禁通过与启动节点交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff0ab172f72400086f52b7e3517e071ade751f30",
+        "size": 1972,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/ff0ab172f72400086f52b7e3517e071ade751f30"
+      },
+      {
+        "path": "docs/55-GEC-V11启动节点差异锁定与候选v3交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9cfbc8cf111f1a837a47f19ad011960487f7b4c8",
+        "size": 1841,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/9cfbc8cf111f1a837a47f19ad011960487f7b4c8"
+      },
+      {
+        "path": "docs/56-GEC-V11候选v3创建与SDK配置切换交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "465f8655c0a4623c05562d10f93560346e365ee1",
+        "size": 1005,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/465f8655c0a4623c05562d10f93560346e365ee1"
+      },
+      {
+        "path": "docs/57-GEC-V11候选v3-DTS语法失败与最小修正交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb6bd7b6c3af806ae22a9b38e3cc00a265da5be0",
+        "size": 943,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/bb6bd7b6c3af806ae22a9b38e3cc00a265da5be0"
+      },
+      {
+        "path": "docs/59-GEC-V11候选v3构建通过与产物判据交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "42cdb800ac359bc23013c24ef7eada685c397742",
+        "size": 1839,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/42cdb800ac359bc23013c24ef7eada685c397742"
+      },
+      {
+        "path": "docs/60-GEC-V11v3产物归档与首次启动前门禁交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bef3d95db6111dc9429e60839d46b1a1a8e37500",
+        "size": 1759,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/bef3d95db6111dc9429e60839d46b1a1a8e37500"
+      },
+      {
+        "path": "docs/61-GEC-V11真实板端只读门禁与首次启动确认交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e22f54779efe4c7da258cb67df9f870538f9141",
+        "size": 1778,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/5e22f54779efe4c7da258cb67df9f870538f9141"
+      },
+      {
+        "path": "docs/62-GEC-V11boot-recovery容量门禁与刷写阻断交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dec45e4a8f1ee24e67ddcbe7b1e3d0d6df00da40",
+        "size": 1337,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/dec45e4a8f1ee24e67ddcbe7b1e3d0d6df00da40"
+      },
+      {
+        "path": "docs/63-GEC-V11压缩zboot尺寸可行与U-Boot格式核验交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b2d0129b0e72624b81e4013cb2488cb72c35a852",
+        "size": 1318,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/b2d0129b0e72624b81e4013cb2488cb72c35a852"
+      },
+      {
+        "path": "docs/64-本次5.10迁移评估总结、问题归档与下一段任务交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e21b1e51d39496fb0bab74dc4c91b8c0189ae748",
+        "size": 7758,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/e21b1e51d39496fb0bab74dc4c91b8c0189ae748"
+      },
+      {
+        "path": "docs/65-RTSP网络输出模块实现与systemd服务优化.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0eefa80d9791722f4223c308596a6cf02fd9354",
+        "size": 4748,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/f0eefa80d9791722f4223c308596a6cf02fd9354"
+      },
+      {
+        "path": "docs/67-MPP配置键拼写根因定位与修复交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a37d151e82cd7ac30f8763921a560fba43e8bee",
+        "size": 5727,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/1a37d151e82cd7ac30f8763921a560fba43e8bee"
+      },
+      {
+        "path": "docs/68-RTSP输出PC端到端验证与实现修正交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "638f431c8533fd11e4804e2dff2ac8adb480f0cc",
+        "size": 7617,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/638f431c8533fd11e4804e2dff2ac8adb480f0cc"
+      },
+      {
+        "path": "docs/69-RTSP断连恢复实现与PC端到端验证交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6fef2c59eddd7ec647870c9bb88287c947c4246a",
+        "size": 5901,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/6fef2c59eddd7ec647870c9bb88287c947c4246a"
+      },
+      {
+        "path": "docs/70-RTSP传输选项与超时守卫实现及PC验证交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49f5650d8f4659a474c81b16daa26e3298a1cc80",
+        "size": 5404,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/49f5650d8f4659a474c81b16daa26e3298a1cc80"
+      },
+      {
+        "path": "docs/71-ASan验证与RTSP长稳及重连资源泄漏修复交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5765752f6b37efd3fa656c702ca4efee330ea88a",
+        "size": 7007,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/5765752f6b37efd3fa656c702ca4efee330ea88a"
+      },
+      {
+        "path": "docs/72-ZLMediaKit流媒体服务层升级方案.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53d51fc437e6676c8a73b6a9c12e53273a1a4412",
+        "size": 5661,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/53d51fc437e6676c8a73b6a9c12e53273a1a4412"
+      },
+      {
+        "path": "docs/73-ZLMediaKit阶段1PC验证交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2e54e17919351ac7d91eb98ee86b55b2bcc4e13c",
+        "size": 6556,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/2e54e17919351ac7d91eb98ee86b55b2bcc4e13c"
+      },
+      {
+        "path": "docs/74-ZLMediaKit-aarch64交叉构建与部署包交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e72ac2bdf0d903a4c31bef2c42b490dd8f7761e9",
+        "size": 6698,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/e72ac2bdf0d903a4c31bef2c42b490dd8f7761e9"
+      },
+      {
+        "path": "docs/75-本阶段实现总结、问题归档与下一步交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "670cd5855cd6759e710dfb6b844f51c76895308b",
+        "size": 8402,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/670cd5855cd6759e710dfb6b844f51c76895308b"
+      },
+      {
+        "path": "docs/76-板端MPP复测与RGA虚拟地址映射失败交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e21430544eba2c6cd891babd8d99b3fa0713288",
+        "size": 10567,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/5e21430544eba2c6cd891babd8d99b3fa0713288"
+      },
+      {
+        "path": "docs/77-板端RTSP推流与断连恢复及FFmpeg交叉构建交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6bb9106d257e1d45fde6f7aae860813574c333ec",
+        "size": 9822,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/6bb9106d257e1d45fde6f7aae860813574c333ec"
+      },
+      {
+        "path": "docs/78-GEC-V11压缩启动候选与U-Boot格式核验交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71b3e7d1af6fe921e0527d66136530a1c621252e",
+        "size": 12744,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/71b3e7d1af6fe921e0527d66136530a1c621252e"
+      },
+      {
+        "path": "docs/79-本阶段实现总结、问题归档与下一步交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea4546272424025b9906c781c7d5a23a435a23bb",
+        "size": 7845,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/ea4546272424025b9906c781c7d5a23a435a23bb"
+      },
+      {
+        "path": "docs/80-GEC-V11-B方案DTS移植候选构建与门禁交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f63f3288c9e50505021c1798a355760312e04e36",
+        "size": 12486,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/f63f3288c9e50505021c1798a355760312e04e36"
+      },
+      {
+        "path": "docs/81-GEC-V11白屏变砖串口诊断与419原厂系统恢复交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d4b1e1f3558f982ac92ff27166ec3621fdd831e",
+        "size": 13214,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/2d4b1e1f3558f982ac92ff27166ec3621fdd831e"
+      },
+      {
+        "path": "docs/82-ZLMediaKit阶段2板端验收开工与板端网络失联交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe3c522aa2b0d81931c3ca5138025965c23b38ce",
+        "size": 9004,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/fe3c522aa2b0d81931c3ca5138025965c23b38ce"
+      },
+      {
+        "path": "docs/83-ZLMediaKit阶段2验收全项通过与srtp缺陷修复交接.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "127af50c3e5f3975ecc736956f5b3c24522a8b34",
+        "size": 9553,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/127af50c3e5f3975ecc736956f5b3c24522a8b34"
+      },
+      {
+        "path": "docs/BENCHMARKS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea29fcf69f7074277de6afa587c9d203d6cf0a72",
+        "size": 3634,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/ea29fcf69f7074277de6afa587c9d203d6cf0a72"
+      },
+      {
+        "path": "docs/CONVENTIONS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "63f905459fbd66cd866e4a36416328a5062de9ca",
+        "size": 3363,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/63f905459fbd66cd866e4a36416328a5062de9ca"
+      },
+      {
+        "path": "docs/ENGINEERING-NOTES.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba49f9ffd765f4f9cf3ad5dc8cf3886197e1e806",
+        "size": 9788,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/ba49f9ffd765f4f9cf3ad5dc8cf3886197e1e806"
+      },
+      {
+        "path": "docs/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c81ebf082a9a2c57009609cf4de6dcc072bbdcb1",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/c81ebf082a9a2c57009609cf4de6dcc072bbdcb1"
+      },
+      {
+        "path": "docs/assets/osd-overlay-demo.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c60feb40fd7200aac8da31e8005853fef88d01e",
+        "size": 273007,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/2c60feb40fd7200aac8da31e8005853fef88d01e"
+      },
+      {
+        "path": "include",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3899663c15e8701dc29cc70ad674d35b2bf30bd7",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/3899663c15e8701dc29cc70ad674d35b2bf30bd7"
+      },
+      {
+        "path": "include/rkav",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6b27aa0c018d8198678e51c864fdc35d4d08eccd",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/6b27aa0c018d8198678e51c864fdc35d4d08eccd"
+      },
+      {
+        "path": "include/rkav/app",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3dd978ad17ae3b9eb236655ec8206217dacf705b",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/3dd978ad17ae3b9eb236655ec8206217dacf705b"
+      },
+      {
+        "path": "include/rkav/app/application.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3aa2af923a47c4f77fd7ee526faf7b250203fdc",
+        "size": 7212,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/d3aa2af923a47c4f77fd7ee526faf7b250203fdc"
+      },
+      {
+        "path": "include/rkav/capture",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "43269c3f84ebf0bff8a8d18151cc904313a2d9ea",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/43269c3f84ebf0bff8a8d18151cc904313a2d9ea"
+      },
+      {
+        "path": "include/rkav/capture/alsa_audio_capture.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "18a2b48413dd0c725c822d26ed728ea75f9756e2",
+        "size": 1047,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/18a2b48413dd0c725c822d26ed728ea75f9756e2"
+      },
+      {
+        "path": "include/rkav/capture/audio_capture.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa5a6b36318976355e98c2b7632b1f9629831480",
+        "size": 1937,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/fa5a6b36318976355e98c2b7632b1f9629831480"
+      },
+      {
+        "path": "include/rkav/capture/mock_audio_capture.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e30661cf7cad46f2563b9f2eee31e3bad0801c7",
+        "size": 1846,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/4e30661cf7cad46f2563b9f2eee31e3bad0801c7"
+      },
+      {
+        "path": "include/rkav/capture/mock_video_capture.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "373f4275d6cb72afbc226011b0a0abd11dac8ffe",
+        "size": 1776,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/373f4275d6cb72afbc226011b0a0abd11dac8ffe"
+      },
+      {
+        "path": "include/rkav/capture/v4l2_video_capture.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c5cfd342ad8b140f3b93517ca5f6beaf95ad5651",
+        "size": 1139,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/c5cfd342ad8b140f3b93517ca5f6beaf95ad5651"
+      },
+      {
+        "path": "include/rkav/capture/video_capture.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0504ed37b1d0926e7c95075e0b28489b788e112",
+        "size": 1656,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/a0504ed37b1d0926e7c95075e0b28489b788e112"
+      },
+      {
+        "path": "include/rkav/common",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "acedddd18cfcafcc09983725a7353e859b274d1b",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/acedddd18cfcafcc09983725a7353e859b274d1b"
+      },
+      {
+        "path": "include/rkav/common/buffer.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd5f24546950edd2d2f5acea436fc81aa82ed20b",
+        "size": 1951,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/dd5f24546950edd2d2f5acea436fc81aa82ed20b"
+      },
+      {
+        "path": "include/rkav/common/checksum.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52be7a5dfde0cfbe48fae6debe92c5e5ab9d3a2e",
+        "size": 840,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/52be7a5dfde0cfbe48fae6debe92c5e5ab9d3a2e"
+      },
+      {
+        "path": "include/rkav/common/clock.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d6bbea2e41b3c0a1a8cd3a2cdd524e90cf18d449",
+        "size": 2522,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/d6bbea2e41b3c0a1a8cd3a2cdd524e90cf18d449"
+      },
+      {
+        "path": "include/rkav/common/error.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82088712a0fe657e0abf985bd9fd1860d221f118",
+        "size": 1486,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/82088712a0fe657e0abf985bd9fd1860d221f118"
+      },
+      {
+        "path": "include/rkav/common/logger.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5cfbaf8ed78c69e445a9f59377f8952596ffbd5",
+        "size": 1730,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/e5cfbaf8ed78c69e445a9f59377f8952596ffbd5"
+      },
+      {
+        "path": "include/rkav/common/result.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e4451b29871e9a9aced4e8dbb2beacf2cdc90c9",
+        "size": 4067,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/8e4451b29871e9a9aced4e8dbb2beacf2cdc90c9"
+      },
+      {
+        "path": "include/rkav/common/types.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92c83d391ef5f84002dc838e85b011ce5beaea25",
+        "size": 5544,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/92c83d391ef5f84002dc838e85b011ce5beaea25"
+      },
+      {
+        "path": "include/rkav/config",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4928a5a117610e9e13a9625b9f3610af43cf594a",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/4928a5a117610e9e13a9625b9f3610af43cf594a"
+      },
+      {
+        "path": "include/rkav/config/config.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54377ab29d7ccedd7f2740cef90f5409c1b1b16b",
+        "size": 9183,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/54377ab29d7ccedd7f2740cef90f5409c1b1b16b"
+      },
+      {
+        "path": "include/rkav/media",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f703e6d228f32e5f78e77c26a61b6d12a1cdcca8",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/f703e6d228f32e5f78e77c26a61b6d12a1cdcca8"
+      },
+      {
+        "path": "include/rkav/media/audio_encoder.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8fe95b3274eee1e0288b5acf3284e8bb97bfdc37",
+        "size": 1251,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/8fe95b3274eee1e0288b5acf3284e8bb97bfdc37"
+      },
+      {
+        "path": "include/rkav/media/checksum_encoder.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d4a6a2b646a31cdbd0e3a10ef26690ac42f3fd09",
+        "size": 2267,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/d4a6a2b646a31cdbd0e3a10ef26690ac42f3fd09"
+      },
+      {
+        "path": "include/rkav/media/ffmpeg_encoder.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f9a354a2cec6b05c760485fe76fc4c0af6909ff",
+        "size": 1270,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/3f9a354a2cec6b05c760485fe76fc4c0af6909ff"
+      },
+      {
+        "path": "include/rkav/media/jpeg_video_decoder.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec8ea71df17fc301bbf59ee3022598054acf71cf",
+        "size": 653,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/ec8ea71df17fc301bbf59ee3022598054acf71cf"
+      },
+      {
+        "path": "include/rkav/media/mpp_rga_video_encoder.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "554144789ef5a2e354e9c12e997a3467a78decf4",
+        "size": 825,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/554144789ef5a2e354e9c12e997a3467a78decf4"
+      },
+      {
+        "path": "include/rkav/media/video_decoder.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "466c54b65416e010f0b39a9b4ed453880f88ccfd",
+        "size": 763,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/466c54b65416e010f0b39a9b4ed453880f88ccfd"
+      },
+      {
+        "path": "include/rkav/media/video_encoder.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "600fa430b5527152e036afba803b7fae480ee2ce",
+        "size": 1209,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/600fa430b5527152e036afba803b7fae480ee2ce"
+      },
+      {
+        "path": "include/rkav/monitor",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4aa5296dd5ba5ff6bdda14486e2fc83fe51ed992",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/4aa5296dd5ba5ff6bdda14486e2fc83fe51ed992"
+      },
+      {
+        "path": "include/rkav/monitor/metrics.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1045d78a0896d32e741b32055f54596007ec9e70",
+        "size": 3776,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/1045d78a0896d32e741b32055f54596007ec9e70"
+      },
+      {
+        "path": "include/rkav/output",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6c4b7c3eae7555cc95a3174c87e1066c6c98c98e",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/6c4b7c3eae7555cc95a3174c87e1066c6c98c98e"
+      },
+      {
+        "path": "include/rkav/output/ffmpeg_mp4_sink.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d2d9abe62a933d179cebb204c37fab3c40019ac5",
+        "size": 699,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/d2d9abe62a933d179cebb204c37fab3c40019ac5"
+      },
+      {
+        "path": "include/rkav/output/ffmpeg_rtsp_sink.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84122306872fab5e2ae695b6eabce5c8319c49b6",
+        "size": 1010,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/84122306872fab5e2ae695b6eabce5c8319c49b6"
+      },
+      {
+        "path": "include/rkav/output/packet_router.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f9c21a239fce38eef76d904650970bf77776ae96",
+        "size": 2488,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/f9c21a239fce38eef76d904650970bf77776ae96"
+      },
+      {
+        "path": "include/rkav/output/packet_sink.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a05975f84c4bd57f0fdc302c25ba34a9617dff7b",
+        "size": 1253,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/a05975f84c4bd57f0fdc302c25ba34a9617dff7b"
+      },
+      {
+        "path": "include/rkav/output/sinks.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "02e9379f7a4025e461dabfa69bee53e278c395f0",
+        "size": 3898,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/02e9379f7a4025e461dabfa69bee53e278c395f0"
+      },
+      {
+        "path": "include/rkav/queue",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "940ef22ce6dfd9aeed3f314d19d27c77cde484e1",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/940ef22ce6dfd9aeed3f314d19d27c77cde484e1"
+      },
+      {
+        "path": "include/rkav/queue/bounded_queue.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab1cdae927c3da64f8214c0a2f8085d79601e0f2",
+        "size": 9274,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/ab1cdae927c3da64f8214c0a2f8085d79601e0f2"
+      },
+      {
+        "path": "include/rkav/vision",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3ad26fdc78762eb986b007b6ab1bd2db85310096",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/3ad26fdc78762eb986b007b6ab1bd2db85310096"
+      },
+      {
+        "path": "include/rkav/vision/geometry.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d8deaac4b328c3c8ef4158e0d4146bc14354bd5",
+        "size": 1470,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/5d8deaac4b328c3c8ef4158e0d4146bc14354bd5"
+      },
+      {
+        "path": "include/rkav/vision/inference_engine.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25adbddf76d9eda7006dd3601708e12af9896188",
+        "size": 1217,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/25adbddf76d9eda7006dd3601708e12af9896188"
+      },
+      {
+        "path": "include/rkav/vision/mock_inference_engine.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a2c95e67db5c1a45e7fd9be5bcbbe7956e3d0f96",
+        "size": 1304,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/a2c95e67db5c1a45e7fd9be5bcbbe7956e3d0f96"
+      },
+      {
+        "path": "include/rkav/vision/overlay.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be778d52c7fab730dec8e95523ad65e031fc032c",
+        "size": 847,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/be778d52c7fab730dec8e95523ad65e031fc032c"
+      },
+      {
+        "path": "include/rkav/vision/rknn_inference_engine.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de6a8a3c8b63c9a3a09a6a348e1f426feab7e4cc",
+        "size": 884,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/de6a8a3c8b63c9a3a09a6a348e1f426feab7e4cc"
+      },
+      {
+        "path": "src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "80b36d5440a3ec6f755258ad873c1ab999b5cc48",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/80b36d5440a3ec6f755258ad873c1ab999b5cc48"
+      },
+      {
+        "path": "src/app",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9cbf115ecdb5b48d37eba4cc92caf34d9bef5be2",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/9cbf115ecdb5b48d37eba4cc92caf34d9bef5be2"
+      },
+      {
+        "path": "src/app/application.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69048e2b807f45403e021f2e69630a774d8f84a9",
+        "size": 40150,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/69048e2b807f45403e021f2e69630a774d8f84a9"
+      },
+      {
+        "path": "src/capture",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0762306712c9ad24b44d0e443546da0e21d2064b",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/0762306712c9ad24b44d0e443546da0e21d2064b"
+      },
+      {
+        "path": "src/capture/alsa",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f40e95b4471d111d356141275e7e6953dd29155e",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/f40e95b4471d111d356141275e7e6953dd29155e"
+      },
+      {
+        "path": "src/capture/alsa/alsa_audio_capture.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6afbc4caa123ec44b15c9e9651714fb0e87d37c5",
+        "size": 18632,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/6afbc4caa123ec44b15c9e9651714fb0e87d37c5"
+      },
+      {
+        "path": "src/capture/mock",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c3803578ecf4a7d060c9f81bde7d11d62a9e66ba",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/c3803578ecf4a7d060c9f81bde7d11d62a9e66ba"
+      },
+      {
+        "path": "src/capture/mock/mock_audio_capture.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b48f2e29b79a0c2efc20e44f28be92c72c535f3",
+        "size": 7165,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/3b48f2e29b79a0c2efc20e44f28be92c72c535f3"
+      },
+      {
+        "path": "src/capture/mock/mock_video_capture.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3933cd916450b1dabf32383678ec17f21fe4c15e",
+        "size": 8690,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/3933cd916450b1dabf32383678ec17f21fe4c15e"
+      },
+      {
+        "path": "src/capture/v4l2",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f294610e0be89382564cbadfdca5dc250ce2504e",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/f294610e0be89382564cbadfdca5dc250ce2504e"
+      },
+      {
+        "path": "src/capture/v4l2/v4l2_video_capture.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6f5fbb38b231417ca02bf0a2d9e6cf13066cd619",
+        "size": 14944,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/6f5fbb38b231417ca02bf0a2d9e6cf13066cd619"
+      },
+      {
+        "path": "src/common",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bee5fa2e5799ff9f6ce41f504e39fffe386741ec",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/bee5fa2e5799ff9f6ce41f504e39fffe386741ec"
+      },
+      {
+        "path": "src/common/clock.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44573c14322f45fb2ccee2d2241085e20ccaae5a",
+        "size": 5606,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/44573c14322f45fb2ccee2d2241085e20ccaae5a"
+      },
+      {
+        "path": "src/common/error.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73d6c3b5a2d4dc813735dd2fecf12750899bfa29",
+        "size": 2394,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/73d6c3b5a2d4dc813735dd2fecf12750899bfa29"
+      },
+      {
+        "path": "src/common/logger.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62353a8572f60b68e6e87cce6600073ee57af54e",
+        "size": 3832,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/62353a8572f60b68e6e87cce6600073ee57af54e"
+      },
+      {
+        "path": "src/common/types.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a53723eb880655cf716d3eef02d828ae51b3f395",
+        "size": 9396,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/a53723eb880655cf716d3eef02d828ae51b3f395"
+      },
+      {
+        "path": "src/config",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "74cfccf85aca598b025ff0432b278208ad79b289",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/74cfccf85aca598b025ff0432b278208ad79b289"
+      },
+      {
+        "path": "src/config/config.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31d43de3f93b78a5d13317ae02bb0c698ad86b25",
+        "size": 41081,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/31d43de3f93b78a5d13317ae02bb0c698ad86b25"
+      },
+      {
+        "path": "src/media",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7d11df89fb04126e66f401bc9d4afadabb599fbf",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/7d11df89fb04126e66f401bc9d4afadabb599fbf"
+      },
+      {
+        "path": "src/media/ffmpeg",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2cd93bd47de5c682383eacdc7b11d7ad012ce02b",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/2cd93bd47de5c682383eacdc7b11d7ad012ce02b"
+      },
+      {
+        "path": "src/media/ffmpeg/ffmpeg_encoder.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2cd4b2e11a23ba265a3aa11b217b60387d868757",
+        "size": 27062,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/2cd4b2e11a23ba265a3aa11b217b60387d868757"
+      },
+      {
+        "path": "src/media/jpeg",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dd10c1e6691fd7983f7456de135613959dc50f9f",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/dd10c1e6691fd7983f7456de135613959dc50f9f"
+      },
+      {
+        "path": "src/media/jpeg/jpeg_video_decoder.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "13b01f50502d6a85b857917319def219e21c3990",
+        "size": 5715,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/13b01f50502d6a85b857917319def219e21c3990"
+      },
+      {
+        "path": "src/media/mock",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2e8ea81ff4fd61f22c9802d48594754e40cc5371",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/2e8ea81ff4fd61f22c9802d48594754e40cc5371"
+      },
+      {
+        "path": "src/media/mock/checksum_encoder.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b561169c4dd80fa87e2213cbbc9fdb2bc44b96f",
+        "size": 7379,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/8b561169c4dd80fa87e2213cbbc9fdb2bc44b96f"
+      },
+      {
+        "path": "src/media/mpp",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dbc7fd8e754a1ea323526c37b8c9e7dc2c38f34c",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/dbc7fd8e754a1ea323526c37b8c9e7dc2c38f34c"
+      },
+      {
+        "path": "src/media/mpp/mpp_rga_video_encoder.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5617bd8821adf30bc1eb441c6e352c17c8d8a9c7",
+        "size": 26257,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/5617bd8821adf30bc1eb441c6e352c17c8d8a9c7"
+      },
+      {
+        "path": "src/monitor",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0f9a3e244317ae618f850b455b0b0c244c7183f9",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/0f9a3e244317ae618f850b455b0b0c244c7183f9"
+      },
+      {
+        "path": "src/monitor/metrics.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d88ab592cd357879d9cadbb5f88647e78ccc0223",
+        "size": 6836,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/d88ab592cd357879d9cadbb5f88647e78ccc0223"
+      },
+      {
+        "path": "src/output",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "01cb5f603189ad80a6f4c0a593ad91f09a7bc529",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/01cb5f603189ad80a6f4c0a593ad91f09a7bc529"
+      },
+      {
+        "path": "src/output/ffmpeg",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6aad7d873da7735cc1742a12aaedadb5a42ad70b",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/6aad7d873da7735cc1742a12aaedadb5a42ad70b"
+      },
+      {
+        "path": "src/output/ffmpeg/ffmpeg_mp4_sink.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0235f50ec35545e951fc507726dca13f484584fd",
+        "size": 10118,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/0235f50ec35545e951fc507726dca13f484584fd"
+      },
+      {
+        "path": "src/output/ffmpeg/ffmpeg_rtsp_sink.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d945d6d19e41fc20e5b7b3daa03d801b5a3f1993",
+        "size": 19184,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/d945d6d19e41fc20e5b7b3daa03d801b5a3f1993"
+      },
+      {
+        "path": "src/output/packet_router.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "741f52a3fa0af6d9ea3f428a8559ee326205898a",
+        "size": 11381,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/741f52a3fa0af6d9ea3f428a8559ee326205898a"
+      },
+      {
+        "path": "src/output/sinks.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2e2d6ede192a448f46acfe4b157e2a74264d878a",
+        "size": 13590,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/2e2d6ede192a448f46acfe4b157e2a74264d878a"
+      },
+      {
+        "path": "src/vision",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4c13a7802374e5d948d5e071e7baab2a4bfbc856",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/4c13a7802374e5d948d5e071e7baab2a4bfbc856"
+      },
+      {
+        "path": "src/vision/cpu",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d05a3d41749c117a6b712a641a443c37494f6c0f",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/d05a3d41749c117a6b712a641a443c37494f6c0f"
+      },
+      {
+        "path": "src/vision/cpu/cpu_overlay.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a82b3cc4e181253e64805c6bdd62a64ec670eed1",
+        "size": 7650,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/a82b3cc4e181253e64805c6bdd62a64ec670eed1"
+      },
+      {
+        "path": "src/vision/geometry.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0265f36ca2c08ee319dfd1c9a5b6b8285635d26d",
+        "size": 3807,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/0265f36ca2c08ee319dfd1c9a5b6b8285635d26d"
+      },
+      {
+        "path": "src/vision/mock",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "632f68abf64a514869f42f7008f590cd68d6aadf",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/632f68abf64a514869f42f7008f590cd68d6aadf"
+      },
+      {
+        "path": "src/vision/mock/mock_inference_engine.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "14f50eb213b8a1387e2b91068e1f5bfb79f7c666",
+        "size": 3187,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/14f50eb213b8a1387e2b91068e1f5bfb79f7c666"
+      },
+      {
+        "path": "src/vision/rknn",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "14ccf28c7b4ea1c8ab52854791a8d50c771e68d9",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/14ccf28c7b4ea1c8ab52854791a8d50c771e68d9"
+      },
+      {
+        "path": "src/vision/rknn/rknn_inference_engine.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2762203545533bff8ae1cce647ac51be3ca6b1b",
+        "size": 14519,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/e2762203545533bff8ae1cce647ac51be3ca6b1b"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0fb1f676adc0e99f08b7a68ad1c187209acdf9e7",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/0fb1f676adc0e99f08b7a68ad1c187209acdf9e7"
+      },
+      {
+        "path": "tests/CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e1e4dd4c96ddc245e62f936f381944c7167424f3",
+        "size": 1162,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/e1e4dd4c96ddc245e62f936f381944c7167424f3"
+      },
+      {
+        "path": "tests/integration",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "151574c3a8d0c8aa0f39ab168433f1cc0384c6f3",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/151574c3a8d0c8aa0f39ab168433f1cc0384c6f3"
+      },
+      {
+        "path": "tests/integration/application_test.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89e4b3d3d5dbd6dff596981ece4edd4db0be017a",
+        "size": 8128,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/89e4b3d3d5dbd6dff596981ece4edd4db0be017a"
+      },
+      {
+        "path": "tests/unit",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "07ddfbd109d1a5a5cb8f60ad90797a7d84a2491b",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/07ddfbd109d1a5a5cb8f60ad90797a7d84a2491b"
+      },
+      {
+        "path": "tests/unit/config_test.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a1ed57bb09f1f4a26245161ca5ac5f6352408ae6",
+        "size": 13587,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/a1ed57bb09f1f4a26245161ca5ac5f6352408ae6"
+      },
+      {
+        "path": "tests/unit/core_test.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ecb65273a5ba2d29e2ad8a976aeae2a32c8ef161",
+        "size": 3636,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/ecb65273a5ba2d29e2ad8a976aeae2a32c8ef161"
+      },
+      {
+        "path": "tests/unit/cpu_overlay_test.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b04996833e1f47e4ca43064d1b7b0950022b2fbd",
+        "size": 3089,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/b04996833e1f47e4ca43064d1b7b0950022b2fbd"
+      },
+      {
+        "path": "tests/unit/h264_elementary_sink_test.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9cc5ca8db0e74642fe350ba73a4dbaa116bd643b",
+        "size": 3588,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/9cc5ca8db0e74642fe350ba73a4dbaa116bd643b"
+      },
+      {
+        "path": "tests/unit/jpeg_video_decoder_test.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b291ec65b485add918bbbcee18e16bd1c6b8841b",
+        "size": 8087,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/b291ec65b485add918bbbcee18e16bd1c6b8841b"
+      },
+      {
+        "path": "tests/unit/mock_components_test.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba6b1a4f8b90c774e963aa581965f0ae105321dc",
+        "size": 3514,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/ba6b1a4f8b90c774e963aa581965f0ae105321dc"
+      },
+      {
+        "path": "tests/unit/packet_router_test.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b22a8b21a18299be909507de71eca3a90e701f5",
+        "size": 5716,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/7b22a8b21a18299be909507de71eca3a90e701f5"
+      },
+      {
+        "path": "tests/unit/queue_test.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3fe3b84eb417d74cdeed8bb39de02207c089af8",
+        "size": 2984,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/d3fe3b84eb417d74cdeed8bb39de02207c089af8"
+      },
+      {
+        "path": "tests/unit/rtsp_sink_test.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "603c102bd6df71d94399dc495d52a9a993f21cd4",
+        "size": 4615,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/603c102bd6df71d94399dc495d52a9a993f21cd4"
+      },
+      {
+        "path": "tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "29968ad25786bd777738e31dfc7561a93142e026",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/29968ad25786bd777738e31dfc7561a93142e026"
+      },
+      {
+        "path": "tools/board_osd_run.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d415e1987dcbb85e2c42562b33d5ca524d872e6",
+        "size": 6040,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/8d415e1987dcbb85e2c42562b33d5ca524d872e6"
+      },
+      {
+        "path": "tools/build_aarch64_static.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72dda71380e8af89952859ddb6eacaa4e8f6b8ce",
+        "size": 1570,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/72dda71380e8af89952859ddb6eacaa4e8f6b8ce"
+      },
+      {
+        "path": "tools/build_and_test.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "23fc211ad63af5c0e8a5e04b98368708d5f09144",
+        "size": 583,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/23fc211ad63af5c0e8a5e04b98368708d5f09144"
+      },
+      {
+        "path": "tools/build_and_validate_ffmpeg_baseline.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7630ea090bdde7db45880a16c0f3e6db3bad7687",
+        "size": 3232,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/7630ea090bdde7db45880a16c0f3e6db3bad7687"
+      },
+      {
+        "path": "tools/build_ffmpeg_aarch64_container.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b6f07de1b73863a73f6ba8563d91ef2de3ec7a99",
+        "size": 1825,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/b6f07de1b73863a73f6ba8563d91ef2de3ec7a99"
+      },
+      {
+        "path": "tools/build_mpp_rga_aarch64_offline.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8c98cf4380f264029e82ed511d4bea5f2a4fa4f",
+        "size": 5421,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/f8c98cf4380f264029e82ed511d4bea5f2a4fa4f"
+      },
+      {
+        "path": "tools/build_rknn_gateway.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "382bd328c0338a5967220852310471c4a2999b52",
+        "size": 5551,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/382bd328c0338a5967220852310471c4a2999b52"
+      },
+      {
+        "path": "tools/build_rknn_gateway_container.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "e16600bed33241ca887c2112a26c526452f8879c",
+        "size": 4148,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/e16600bed33241ca887c2112a26c526452f8879c"
+      },
+      {
+        "path": "tools/build_rknn_smoke.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e2c0238ed799fb0bf55f63f3bf58ceb242dfcff",
+        "size": 2364,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/6e2c0238ed799fb0bf55f63f3bf58ceb242dfcff"
+      },
+      {
+        "path": "tools/build_windows.ps1",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7abec031364166b6706c5b146041869e4026c102",
+        "size": 3639,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/7abec031364166b6706c5b146041869e4026c102"
+      },
+      {
+        "path": "tools/collect_baseline.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b2ecb45c9d3ead04799e265e75cbe1daef948ef",
+        "size": 2115,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/4b2ecb45c9d3ead04799e265e75cbe1daef948ef"
+      },
+      {
+        "path": "tools/docker",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f83f02029bbf7e2ac054a4db3b28c454ea1e5253",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/f83f02029bbf7e2ac054a4db3b28c454ea1e5253"
+      },
+      {
+        "path": "tools/docker/rknn-gateway-build-ffmpeg.Dockerfile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8355268792dba9775ce060e2037003f52c6d97ba",
+        "size": 161,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/8355268792dba9775ce060e2037003f52c6d97ba"
+      },
+      {
+        "path": "tools/docker/rknn-gateway-build.Dockerfile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "187615c1c6e4a6374a56def5ab7012daafa445d6",
+        "size": 364,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/187615c1c6e4a6374a56def5ab7012daafa445d6"
+      },
+      {
+        "path": "tools/fetch_rknn_sdk.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86e1a589ca1afcad04905b6143753890688aefc8",
+        "size": 1872,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/86e1a589ca1afcad04905b6143753890688aefc8"
+      },
+      {
+        "path": "tools/m5_board_validation.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8203fb7834902d16317338835dc4cb709390fee",
+        "size": 1811,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/a8203fb7834902d16317338835dc4cb709390fee"
+      },
+      {
+        "path": "tools/rknn_smoke",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "49aef62afd172d568c35548f332849a543b48987",
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/trees/49aef62afd172d568c35548f332849a543b48987"
+      },
+      {
+        "path": "tools/rknn_smoke/CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7bf0f354d7acacd79058bef87d0776411e492481",
+        "size": 1414,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/7bf0f354d7acacd79058bef87d0776411e492481"
+      },
+      {
+        "path": "tools/rknn_smoke/arguments.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "afc8b805d3a7004566cd55a382f176ffb04e7476",
+        "size": 1009,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/afc8b805d3a7004566cd55a382f176ffb04e7476"
+      },
+      {
+        "path": "tools/rknn_smoke/arguments.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0927deb533a6590ae48c76d1f0fa75a983ea45b5",
+        "size": 541,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/0927deb533a6590ae48c76d1f0fa75a983ea45b5"
+      },
+      {
+        "path": "tools/rknn_smoke/main.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "edb867fc34287f56dc8b7d8367cb4a8187f9556f",
+        "size": 21620,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/edb867fc34287f56dc8b7d8367cb4a8187f9556f"
+      },
+      {
+        "path": "tools/rknn_smoke/test_arguments.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "24b60b30a90d7ee67d336279a21993b9a445c34b",
+        "size": 2650,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/24b60b30a90d7ee67d336279a21993b9a445c34b"
+      },
+      {
+        "path": "tools/rknn_smoke/test_yolov5_postprocess.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c01bc275c5e8788dbca2a96fd28b4cd78a04e58",
+        "size": 4349,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/9c01bc275c5e8788dbca2a96fd28b4cd78a04e58"
+      },
+      {
+        "path": "tools/rknn_smoke/yolov5_postprocess.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a0705e41ebd5a3076eec6060ab23867033b7bf0",
+        "size": 13093,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/5a0705e41ebd5a3076eec6060ab23867033b7bf0"
+      },
+      {
+        "path": "tools/rknn_smoke/yolov5_postprocess.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab61baabef292d13e33742441c56e6ee4cf0b98b",
+        "size": 1411,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/ab61baabef292d13e33742441c56e6ee4cf0b98b"
+      },
+      {
+        "path": "tools/run_mpp_rga_aarch64_container.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5849bb7ca97910279179d295bcfe2fb9fc24a2ae",
+        "size": 3692,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/5849bb7ca97910279179d295bcfe2fb9fc24a2ae"
+      },
+      {
+        "path": "tools/signal_test.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f4796d88e564b9c4632d8482062e531020c8aad",
+        "size": 2593,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/4f4796d88e564b9c4632d8482062e531020c8aad"
+      },
+      {
+        "path": "tools/soak_test.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "32519ce3676d46e29f88b0815d91c46b9b6e5aeb",
+        "size": 2840,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/32519ce3676d46e29f88b0815d91c46b9b6e5aeb"
+      },
+      {
+        "path": "tools/soak_test_buildroot.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09c2dfa35e524683fdf65b4f14ff1f7241db2099",
+        "size": 5564,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/09c2dfa35e524683fdf65b4f14ff1f7241db2099"
+      },
+      {
+        "path": "tools/test_yolov5_postprocess.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "4452177b79a3f2172b341892b5bc8bbabfd3af1b",
+        "size": 1042,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/4452177b79a3f2172b341892b5bc8bbabfd3af1b"
+      },
+      {
+        "path": "tools/tftp_receive.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b707856a621ee4ee32e5c8d5f9fcc75009f9bbb2",
+        "size": 8569,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/b707856a621ee4ee32e5c8d5f9fcc75009f9bbb2"
+      },
+      {
+        "path": "tools/validate_mp4.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6252d8e4d13a3bf59fc93c7f34af6005c8e642c8",
+        "size": 3332,
+        "url": "https://api.github.com/repos/cccoddad/rk3568-edge-av-gateway/git/blobs/6252d8e4d13a3bf59fc93c7f34af6005c8e642c8"
+      }
+    ],
+    "truncated": false
+  }
+}

@@ -1,0 +1,677 @@
+{
+  "url": "https://github.com/Qengineering/YoloV8-NPU",
+  "requested_url": "https://github.com/Qengineering/YoloV8-NPU",
+  "fetched_at_utc": "2026-11-23T03:42:03.248169+00:00",
+  "text": "GitHub - Qengineering/YoloV8-NPU: YoloV8 NPU for the RK3566/68/88 · GitHub\nSkip to content\nNavigation Menu\nSign in\nProducts\nPlatform\nGitHub\nRepository hosting, code review, and collaboration\nCopilot\nAI coding agent for tasks, projects, and automated work\nBuild & Ship\nActions\nCI/CD and automation\nCode Quality\nQuality analysis, fixes, and enforcement\nCodespaces\nCloud development environments\nSecure\nCode Security\nVulnerability detection and remediation\nSecret Protection\nSecret scanning and leak prevention\nAll Features\nDevelopers\nLearn\nDocumentation\nTraining\nCertifications\nBuild\nBuild with Copilot\nCustomize Copilot\nIntegrations\nExplore\nTrending repos\nGitHub Sponsors\nDeveloper articles\nChangelog\nChangelog\nYour source for the latest features, improvements, and fixes across GitHub products, all in one place.\nBusinesses\nBy Stage\nEnterprises\nTeam\nStartups\nNonprofits\nBy Industry\nHealthcare\nFinancial services\nManufacturing\nGovernment\nSee all industries\nEvaluate GitHub\nWhy GitHub\nCustomer Stories\nBusiness insights\nTrust Center\nAdd-ons\nGitHub Advanced Security\nEnterprise-grade code security\nCopilot for business\nEnterprise-grade AI features\nPremium Support\nEnterprise-grade 24/7 support\nResources\nLearn & Connect\nDocumentation\nResource center\nBlog\nEvents & webinars\nCommunity Forum\nCustomer Stories\nIntegrations\nSupport\nCustomer support\nTraining\nGitHub Status\nCompany\nAbout\nPartners\nChangelog\nGitHub Universe\nGitHub Universe\nThe event for developers, by developers — talks, workshops, and what’s next for GitHub.\nPricing\nSearch\n/\nSign in\nSign up\nAppearance settings\nYou signed in with another tab or window.\nReload\nto refresh your session.\nYou signed out in another tab or window.\nReload\nto refresh your session.\nYou switched accounts on another tab or window.\nReload\nto refresh your session.\nDismiss alert\n{{ message }}\nQengineering\nYoloV8-NPU\nRepository navigation\nCode\nIssues\n2\n(\n2\n)\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nMore\nitems\nYoloV8-NPU\nPublic\nNotifications\nYou must be signed in to change notification settings\nFork\n21\n(\n21\n)\nStar\n94\n(\n94\n)\nYou must be signed in to star a repository\nAbout\nYoloV8 NPU for the RK3566/68/88\nqengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html\nTopics\ndeep-learning\nnpu\norange-pi-5\nradxa-zero-3-npu\nradxa-zero-3w\nrk3566\nrk3568\nrk3588\nrknpu2\nrock-5\nrock5c\nyolov8\nyolov8n\nResources\nReadme\nBSD-3-Clause license\nActivity\nStars\n94\nstars\nWatchers\n1\nwatching\nForks\n21\nforks\nReport repository\nmain\nBranches\nTags\nGo to file\nCode\nOpen more actions menu\nLatest commit\nHistory\n15 Commits\n15 Commits\nFolders and files\nName\nName\nLast commit message\nLast commit date\ninclude\ninclude\nrk3566\nrk3566\nrk3568\nrk3568\nrk3588\nrk3588\nsrc\nsrc\nCMakeLists.txt\nCMakeLists.txt\nLICENSE\nLICENSE\nREADME.md\nREADME.md\nYoloV8.cbp\nYoloV8.cbp\nbusstop.jpg\nbusstop.jpg\nparking.jpg\nparking.jpg\nView all files\nRepository files navigation\nREADME\nBSD-3-Clause license\nMore\nitems\nYoloV8 NPU\nYoloV8 for RK3566/68/88 NPU (Rock 5, Orange Pi 5, Radxa Zero 3).\nSpecial made for the NPU, see\nQ-engineering deep learning examples\nModel performance benchmark (FPS)\nAll models, with C++ examples can be found on the SD images.\nRock 5 with\nUbuntu 22.04\n, OpenCV, ncnn and\nNPU\nRadxa Zero 3 with\nUbuntu 22.04\n, OpenCV, ncnn and\nNPU\nAll models are quantized to\nint8\n, unless otherwise noted.\ndemo\nmodel_name\nRK3588\nRK3566/68\nyolov5\nyolov5s_relu\n50.0\n14.8\nyolov5n\n58.8\n19.5\nyolov5s\n37.7\n11.7\nyolov5m\n16.2\n5.7\nyolov6\nyolov6n\n63.0\n18.0\nyolov6s\n29.5\n8.1\nyolov6m\n15.4\n4.5\nyolov7\nyolov7-tiny\n53.4\n16.1\nyolov7\n9.4\n3.4\nyolov8\nyolov8n\n53.1\n18.2\nyolov8s\n28.5\n8.9\nyolov8m\n12.1\n4.4\nyolov10\nyolov10n\n35.1\n12.5\nyolov8s\n23.4\n7.3\nyolov8m\n9.7\n3.4\nyolov8x\n5.1\n1.8\nyolox\nyolox_s\n30.0\n10.0\nyolox_m\n12.9\n4.8\nppyoloe\nppyoloe_s\n28.8\n9.2\nppyoloe_m\n13.1\n5.04\nyolov5_seg\nyolov5n-seg\n9.4\n1.04\nyolov5s-seg\n7.8\n0.87\nyolov5m-seg\n6.1\n0.71\nyolov8_seg\nyolov8n-seg\n8.9\n0.91\nyolov8s-seg\n7.3\n0.87\nyolov8m-seg\n4.5\n0.7\nppseg\nppseg_lite_1024x512\n27.5\n2.4\nRetinaFace\nRetinaFace_mobile320\n1\n243.6\n88.5\nRetinaFace_resnet50_320\n1\n43.4\n11.8\nPPOCR-Det\nppocrv4_det\n2\n31.5\n15.1\nPPOCR-Rec\nppocrv4_rec\n3\n35.7\n17.3\n1\nInput size 320x320\n2\nInput size 480x480\n3\nInput size 48x320, FP16\nDue to the pixel-wise filling and drawing, segmentation models are relatively slow\nDependencies.\nTo run the application, you have to:\nOpenCV 64-bit installed.\nOptional: Code::Blocks. (\n$ sudo apt-get install codeblocks\n)\nInstalling the dependencies.\nStart with the usual\n$ sudo apt-get update \n$ sudo apt-get upgrade\n$ sudo apt-get install cmake wget curl\nOpenCV\nFollow the Raspberry Pi 4\nguide\n.\nRKNPU2\n$ git clone https://github.com/airockchip/rknn-toolkit2.git\nWe only use a few files.\nrknn-toolkit2-master\n│      \n└── rknpu2\n    │      \n    └── runtime\n        │       \n        └── Linux\n            │      \n            └── librknn_api\n                ├── aarch64\n                │   └── librknnrt.so\n                └── include\n                    ├── rknn_api.h\n                    ├── rknn_custom_op.h\n                    └── rknn_matmul_api.h\n\n$ cd ~/rknn-toolkit2-master/rknpu2/runtime/Linux/librknn_api/aarch64\n$ sudo cp ./librknnrt.so /usr/local/lib\n$ cd ~/rknn-toolkit2-master/rknpu2/runtime/Linux/librknn_api/include\n$ sudo cp ./rknn_* /usr/local/include\nSave 2 GB of disk space by removing the toolkit. We do not need it anymore.\n$ cd ~\n$ sudo rm -rf ./rknn-toolkit2-master\nInstalling the app.\nTo extract and run the network in Code::Blocks\n$ mkdir *MyDir* <br/>\n$ cd *MyDir* <br/>\n$ git clone https://github.com/Qengineering/YoloV8-NPU.git <br/>\nRunning the app.\nYou can use\nCode::Blocks\n.\nLoad the project file *.cbp in Code::Blocks.\nSelect\nRelease\n, not Debug.\nCompile and run with F9.\nYou can alter command line arguments with\nProject -> Set programs arguments...\nOr use\nCmake\n.\n$ cd *MyDir*\n$ mkdir build\n$ cd build\n$ cmake ..\n$ make -j4\nMake sure you use the model fitting your system.\nMore info or if you want to connect a camera to the app, follow the instructions at\nHands-On\n.\nAbout\nYoloV8 NPU for the RK3566/68/88\nqengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html\nTopics\ndeep-learning\nnpu\norange-pi-5\nradxa-zero-3-npu\nradxa-zero-3w\nrk3566\nrk3568\nrk3588\nrknpu2\nrock-5\nrock5c\nyolov8\nyolov8n\nResources\nReadme\nBSD-3-Clause license\nActivity\nStars\n94\nstars\nWatchers\n1\nwatching\nForks\n21\nforks\nReport repository\nReleases\nPackages\nContributors\nLanguages\nFooter\n© 2026 GitHub, Inc.\nFooter navigation\nTerms\nPrivacy\nSecurity\nStatus\nCommunity\nDocs\nContact\nManage cookies\nDo not share my personal information\nYou can’t perform that action at this time.",
+  "links": [
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#start-of-content",
+      "text": "Skip to content"
+    },
+    {
+      "url": "https://github.com/",
+      "text": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FQengineering%2FYoloV8-NPU",
+      "text": "Sign in"
+    },
+    {
+      "url": "https://github.com/platform",
+      "text": "GitHub Repository hosting, code review, and collaboration"
+    },
+    {
+      "url": "https://github.com/features/copilot",
+      "text": "Copilot AI coding agent for tasks, projects, and automated work"
+    },
+    {
+      "url": "https://github.com/features/actions",
+      "text": "Actions CI/CD and automation"
+    },
+    {
+      "url": "https://github.com/features/code-quality",
+      "text": "Code Quality Quality analysis, fixes, and enforcement"
+    },
+    {
+      "url": "https://github.com/features/codespaces",
+      "text": "Codespaces Cloud development environments"
+    },
+    {
+      "url": "https://github.com/security/advanced-security/code-security",
+      "text": "Code Security Vulnerability detection and remediation"
+    },
+    {
+      "url": "https://github.com/security/advanced-security/secret-protection",
+      "text": "Secret Protection Secret scanning and leak prevention"
+    },
+    {
+      "url": "https://github.com/features",
+      "text": "All Features"
+    },
+    {
+      "url": "https://docs.github.com/en",
+      "text": "Documentation"
+    },
+    {
+      "url": "https://learn.github.com/skills",
+      "text": "Training"
+    },
+    {
+      "url": "https://learn.github.com/credentials",
+      "text": "Certifications"
+    },
+    {
+      "url": "https://github.com/features/ai",
+      "text": "Build with Copilot"
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-copilot-overview",
+      "text": "Customize Copilot"
+    },
+    {
+      "url": "https://github.com/marketplace",
+      "text": "Integrations"
+    },
+    {
+      "url": "https://github.com/trending",
+      "text": "Trending repos"
+    },
+    {
+      "url": "https://github.com/open-source/sponsors",
+      "text": "GitHub Sponsors"
+    },
+    {
+      "url": "https://github.com/resources/articles",
+      "text": "Developer articles"
+    },
+    {
+      "url": "https://github.blog/changelog/",
+      "text": "Changelog Your source for the latest features, improvements, and fixes across GitHub products, all in one place."
+    },
+    {
+      "url": "https://github.com/enterprise",
+      "text": "Enterprises"
+    },
+    {
+      "url": "https://github.com/team",
+      "text": "Team"
+    },
+    {
+      "url": "https://github.com/enterprise/startups",
+      "text": "Startups"
+    },
+    {
+      "url": "https://github.com/solutions/industry/nonprofits",
+      "text": "Nonprofits"
+    },
+    {
+      "url": "https://github.com/solutions/industry/healthcare",
+      "text": "Healthcare"
+    },
+    {
+      "url": "https://github.com/solutions/industry/financial-services",
+      "text": "Financial services"
+    },
+    {
+      "url": "https://github.com/solutions/industry/manufacturing",
+      "text": "Manufacturing"
+    },
+    {
+      "url": "https://github.com/solutions/industry/government",
+      "text": "Government"
+    },
+    {
+      "url": "https://github.com/solutions/industry",
+      "text": "See all industries"
+    },
+    {
+      "url": "https://github.com/why-github",
+      "text": "Why GitHub"
+    },
+    {
+      "url": "https://github.com/customer-stories",
+      "text": "Customer Stories"
+    },
+    {
+      "url": "https://github.com/solutions/executive-insights",
+      "text": "Business insights"
+    },
+    {
+      "url": "https://github.com/trust-center",
+      "text": "Trust Center"
+    },
+    {
+      "url": "https://github.com/security/advanced-security",
+      "text": "GitHub Advanced Security Enterprise-grade code security"
+    },
+    {
+      "url": "https://github.com/features/copilot/copilot-business",
+      "text": "Copilot for business Enterprise-grade AI features"
+    },
+    {
+      "url": "https://github.com/enterprise/premium-support",
+      "text": "Premium Support Enterprise-grade 24/7 support"
+    },
+    {
+      "url": "https://docs.github.com/en",
+      "text": "Documentation"
+    },
+    {
+      "url": "https://github.com/resources",
+      "text": "Resource center"
+    },
+    {
+      "url": "https://github.blog/",
+      "text": "Blog"
+    },
+    {
+      "url": "https://github.com/resources/events",
+      "text": "Events & webinars"
+    },
+    {
+      "url": "https://github.com/orgs/community/discussions",
+      "text": "Community Forum"
+    },
+    {
+      "url": "https://github.com/customer-stories",
+      "text": "Customer Stories"
+    },
+    {
+      "url": "https://github.com/marketplace",
+      "text": "Integrations"
+    },
+    {
+      "url": "https://help.github.com/",
+      "text": "Customer support"
+    },
+    {
+      "url": "https://learn.github.com/skills",
+      "text": "Training"
+    },
+    {
+      "url": "https://www.githubstatus.com/",
+      "text": "GitHub Status"
+    },
+    {
+      "url": "https://github.com/about",
+      "text": "About"
+    },
+    {
+      "url": "https://github.com/partners",
+      "text": "Partners"
+    },
+    {
+      "url": "https://github.blog/changelog/",
+      "text": "Changelog"
+    },
+    {
+      "url": "https://githubuniverse.com/",
+      "text": "GitHub Universe The event for developers, by developers — talks, workshops, and what’s next for GitHub."
+    },
+    {
+      "url": "https://github.com/pricing",
+      "text": "Pricing"
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FQengineering%2FYoloV8-NPU",
+      "text": "Sign in"
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=Qengineering%2FYoloV8-NPU",
+      "text": "Sign up"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU",
+      "text": "Reload"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU",
+      "text": "Reload"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU",
+      "text": "Reload"
+    },
+    {
+      "url": "https://github.com/Qengineering",
+      "text": "Qengineering"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU",
+      "text": "YoloV8-NPU"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU",
+      "text": "Code"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/issues",
+      "text": "Issues 2 ( 2 )"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/pulls",
+      "text": "Pull requests"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/actions",
+      "text": "Actions"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/projects",
+      "text": "Projects"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/security",
+      "text": "Security and quality"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/pulse",
+      "text": "Insights"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU",
+      "text": ""
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU",
+      "text": "YoloV8-NPU"
+    },
+    {
+      "url": "https://github.com/login?return_to=%2FQengineering%2FYoloV8-NPU",
+      "text": "Notifications"
+    },
+    {
+      "url": "https://github.com/login?return_to=%2FQengineering%2FYoloV8-NPU",
+      "text": "Fork 21 ( 21 )"
+    },
+    {
+      "url": "https://github.com/login?return_to=%2FQengineering%2FYoloV8-NPU",
+      "text": "Star 94 ( 94 )"
+    },
+    {
+      "url": "https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html",
+      "text": "qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html"
+    },
+    {
+      "url": "https://github.com/topics/deep-learning",
+      "text": "deep-learning"
+    },
+    {
+      "url": "https://github.com/topics/npu",
+      "text": "npu"
+    },
+    {
+      "url": "https://github.com/topics/orange-pi-5",
+      "text": "orange-pi-5"
+    },
+    {
+      "url": "https://github.com/topics/radxa-zero-3-npu",
+      "text": "radxa-zero-3-npu"
+    },
+    {
+      "url": "https://github.com/topics/radxa-zero-3w",
+      "text": "radxa-zero-3w"
+    },
+    {
+      "url": "https://github.com/topics/rk3566",
+      "text": "rk3566"
+    },
+    {
+      "url": "https://github.com/topics/rk3568",
+      "text": "rk3568"
+    },
+    {
+      "url": "https://github.com/topics/rk3588",
+      "text": "rk3588"
+    },
+    {
+      "url": "https://github.com/topics/rknpu2",
+      "text": "rknpu2"
+    },
+    {
+      "url": "https://github.com/topics/rock-5",
+      "text": "rock-5"
+    },
+    {
+      "url": "https://github.com/topics/rock5c",
+      "text": "rock5c"
+    },
+    {
+      "url": "https://github.com/topics/yolov8",
+      "text": "yolov8"
+    },
+    {
+      "url": "https://github.com/topics/yolov8n",
+      "text": "yolov8n"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#readme-ov-file",
+      "text": "Readme"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#BSD-3-Clause-1-ov-file",
+      "text": "BSD-3-Clause license"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/activity",
+      "text": "Activity"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/forks",
+      "text": "21 forks"
+    },
+    {
+      "url": "https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FQengineering%2FYoloV8-NPU&report=Qengineering+%28user%29",
+      "text": "Report repository"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/branches",
+      "text": "Branches"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/tags",
+      "text": "Tags"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/branches",
+      "text": ""
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/tags",
+      "text": ""
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/commits/main/",
+      "text": "15 Commits"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/commits/main/",
+      "text": ""
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/tree/main/include",
+      "text": "include"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/tree/main/include",
+      "text": "include"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/tree/main/rk3566",
+      "text": "rk3566"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/tree/main/rk3566",
+      "text": "rk3566"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/tree/main/rk3568",
+      "text": "rk3568"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/tree/main/rk3568",
+      "text": "rk3568"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/tree/main/rk3588",
+      "text": "rk3588"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/tree/main/rk3588",
+      "text": "rk3588"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/tree/main/src",
+      "text": "src"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/tree/main/src",
+      "text": "src"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/blob/main/CMakeLists.txt",
+      "text": "CMakeLists.txt"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/blob/main/CMakeLists.txt",
+      "text": "CMakeLists.txt"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/blob/main/LICENSE",
+      "text": "LICENSE"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/blob/main/LICENSE",
+      "text": "LICENSE"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/blob/main/README.md",
+      "text": "README.md"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/blob/main/README.md",
+      "text": "README.md"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/blob/main/YoloV8.cbp",
+      "text": "YoloV8.cbp"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/blob/main/YoloV8.cbp",
+      "text": "YoloV8.cbp"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/blob/main/busstop.jpg",
+      "text": "busstop.jpg"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/blob/main/busstop.jpg",
+      "text": "busstop.jpg"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/blob/main/parking.jpg",
+      "text": "parking.jpg"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/blob/main/parking.jpg",
+      "text": "parking.jpg"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#",
+      "text": "README"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#",
+      "text": "BSD-3-Clause license"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#yolov8-npu",
+      "text": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/e87791c0374db1263e70ee529083763abe4896aaceff4b2fd9b5c5127e8d4ddd/68747470733a2f2f71656e67696e656572696e672e65752f6769746875622f596f6c6f56385f5061726b696e674e50552e77656270",
+      "text": ""
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#yolov8-for-rk35666888-npu-rock-5-orange-pi-5-radxa-zero-3-",
+      "text": ""
+    },
+    {
+      "url": "https://opensource.org/licenses/BSD-3-Clause",
+      "text": ""
+    },
+    {
+      "url": "https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html",
+      "text": "Q-engineering deep learning examples"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#model-performance-benchmark-fps",
+      "text": ""
+    },
+    {
+      "url": "https://camo.githubusercontent.com/0664b7b28c35c904aca0b263d5d171d5c2b6b8a42bbba897884544a3f860306b/68747470733a2f2f71656e67696e656572696e672e65752f6769746875622f526f636b5069355f5562756e74755f32322e6a7067",
+      "text": ""
+    },
+    {
+      "url": "https://github.com/Qengineering/Rock-5-Ubuntu-22-image",
+      "text": "Rock 5 with Ubuntu 22.04 , OpenCV, ncnn and NPU"
+    },
+    {
+      "url": "https://camo.githubusercontent.com/4a0a72f2d856ed4f0f5218a52030337ba18614fba5d8db017120c67ece6e43d3/68747470733a2f2f71656e67696e656572696e672e65752f6769746875622f52616478615a65726f335f5562756e74755f32322e6a7067",
+      "text": ""
+    },
+    {
+      "url": "https://github.com/Qengineering/Radxa-Zero-3-NPU-Ubuntu22",
+      "text": "Radxa Zero 3 with Ubuntu 22.04 , OpenCV, ncnn and NPU"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#dependencies",
+      "text": ""
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#installing-the-dependencies",
+      "text": ""
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#opencv",
+      "text": ""
+    },
+    {
+      "url": "https://qengineering.eu/install-opencv-on-raspberry-64-os.html",
+      "text": "guide"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#rknpu2",
+      "text": ""
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#installing-the-app",
+      "text": ""
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#running-the-app",
+      "text": ""
+    },
+    {
+      "url": "https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html#HandsOn",
+      "text": "Hands-On"
+    },
+    {
+      "url": "https://camo.githubusercontent.com/8edad6b5fdf4ff8ea3dc6fcc9957aa381160300933a18edb2b192ad18865b981/68747470733a2f2f71656e67696e656572696e672e65752f6769746875622f596f6c6f56385f4275735f4e50552e77656270",
+      "text": ""
+    },
+    {
+      "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CPZTM5BB3FCYL",
+      "text": ""
+    },
+    {
+      "url": "https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html",
+      "text": "qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html"
+    },
+    {
+      "url": "https://github.com/topics/deep-learning",
+      "text": "deep-learning"
+    },
+    {
+      "url": "https://github.com/topics/npu",
+      "text": "npu"
+    },
+    {
+      "url": "https://github.com/topics/orange-pi-5",
+      "text": "orange-pi-5"
+    },
+    {
+      "url": "https://github.com/topics/radxa-zero-3-npu",
+      "text": "radxa-zero-3-npu"
+    },
+    {
+      "url": "https://github.com/topics/radxa-zero-3w",
+      "text": "radxa-zero-3w"
+    },
+    {
+      "url": "https://github.com/topics/rk3566",
+      "text": "rk3566"
+    },
+    {
+      "url": "https://github.com/topics/rk3568",
+      "text": "rk3568"
+    },
+    {
+      "url": "https://github.com/topics/rk3588",
+      "text": "rk3588"
+    },
+    {
+      "url": "https://github.com/topics/rknpu2",
+      "text": "rknpu2"
+    },
+    {
+      "url": "https://github.com/topics/rock-5",
+      "text": "rock-5"
+    },
+    {
+      "url": "https://github.com/topics/rock5c",
+      "text": "rock5c"
+    },
+    {
+      "url": "https://github.com/topics/yolov8",
+      "text": "yolov8"
+    },
+    {
+      "url": "https://github.com/topics/yolov8n",
+      "text": "yolov8n"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#readme-ov-file",
+      "text": "Readme"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU#BSD-3-Clause-1-ov-file",
+      "text": "BSD-3-Clause license"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/activity",
+      "text": "Activity"
+    },
+    {
+      "url": "https://github.com/Qengineering/YoloV8-NPU/forks",
+      "text": "21 forks"
+    },
+    {
+      "url": "https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FQengineering%2FYoloV8-NPU&report=Qengineering+%28user%29",
+      "text": "Report repository"
+    },
+    {
+      "url": "https://github.com",
+      "text": ""
+    },
+    {
+      "url": "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
+      "text": "Terms"
+    },
+    {
+      "url": "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement",
+      "text": "Privacy"
+    },
+    {
+      "url": "https://github.com/security",
+      "text": "Security"
+    },
+    {
+      "url": "https://www.githubstatus.com/",
+      "text": "Status"
+    },
+    {
+      "url": "https://github.community/",
+      "text": "Community"
+    },
+    {
+      "url": "https://docs.github.com/",
+      "text": "Docs"
+    },
+    {
+      "url": "https://support.github.com?tags=dotcom-footer",
+      "text": "Contact"
+    }
+  ],
+  "structured": []
+}

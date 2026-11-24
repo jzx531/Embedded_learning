@@ -1,0 +1,552 @@
+{
+  "repository": "jyy629/rknn-yolo-deploy",
+  "fetched_at_utc": "2026-11-23T05:07:41.2331207Z",
+  "metadata": {
+    "id": 1416131118,
+    "node_id": "R_kgDOVGhyLg",
+    "name": "rknn-yolo-deploy",
+    "full_name": "jyy629/rknn-yolo-deploy",
+    "private": false,
+    "owner": {
+      "login": "jyy629",
+      "id": 206828144,
+      "node_id": "U_kgDODFPycA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/206828144?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jyy629",
+      "html_url": "https://github.com/jyy629",
+      "followers_url": "https://api.github.com/users/jyy629/followers",
+      "following_url": "https://api.github.com/users/jyy629/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jyy629/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jyy629/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jyy629/subscriptions",
+      "organizations_url": "https://api.github.com/users/jyy629/orgs",
+      "repos_url": "https://api.github.com/users/jyy629/repos",
+      "events_url": "https://api.github.com/users/jyy629/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jyy629/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/jyy629/rknn-yolo-deploy",
+    "description": "RK3568 real-time object detection: RTSP -> MPP decode -> RGA -> RKNN NPU (YOLOv5/v8) -> MJPEG. Single-stream verified, multi-stream architecture.",
+    "fork": false,
+    "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy",
+    "forks_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/forks",
+    "keys_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/teams",
+    "hooks_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/hooks",
+    "issue_events_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/events",
+    "assignees_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/tags",
+    "blobs_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/languages",
+    "stargazers_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/stargazers",
+    "contributors_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/contributors",
+    "subscribers_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/subscribers",
+    "subscription_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/subscription",
+    "commits_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/merges",
+    "archive_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/downloads",
+    "issues_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/labels{/name}",
+    "releases_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/deployments",
+    "created_at": "2026-10-12T21:07:06Z",
+    "updated_at": "2026-11-21T09:11:52Z",
+    "pushed_at": "2026-10-20T03:08:23Z",
+    "git_url": "git://github.com/jyy629/rknn-yolo-deploy.git",
+    "ssh_url": "git@github.com:jyy629/rknn-yolo-deploy.git",
+    "clone_url": "https://github.com/jyy629/rknn-yolo-deploy.git",
+    "svn_url": "https://github.com/jyy629/rknn-yolo-deploy",
+    "homepage": "https://github.com/jyy629/rknn-yolo-deploy",
+    "size": 16541,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "C++",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [
+      "cpp",
+      "edge-ai",
+      "embedded-linux",
+      "gstreamer",
+      "inference",
+      "mpp",
+      "npu",
+      "object-detection",
+      "quantization",
+      "rga",
+      "rk3568",
+      "rknn",
+      "rockchip",
+      "yolo",
+      "yolov8"
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 3,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 0,
+    "subscribers_count": 1
+  },
+  "readme_path": "README.md",
+  "readme": "# RKNN 端侧实时目标检测部署 Demo（YOLOv8 / YOLOv5）\n\n面向 **Rockchip RK3568** 的端侧实时目标检测部署工程。**当前已完成单路端到端验证，多路流水线架构已实现但尚未做压测。** 跑通\n**RTSP 拉流 → 硬件解码 → RGA 缩放/转色 → RKNN NPU 推理 → 后处理 → HTTP 推流** 全链路，\n从硬解、连续内存、环形缓存、SIMD 后处理到量化误差分析一整套都自己实现，\n并附带模型裁剪工具与逐层量化精度/性能分析。\n\n> 开发时间：2026.03 – 2026.06　·　平台：Rockchip RK3568\n> C++17（板端推理管线）· Bash（交叉编译 / 部署）· Python（ONNX 裁剪工具）\n\n---\n\n## 技术要点\n\n**全硬件流水线，全程不落 CPU 拷贝。**\nRTSP 拉流 → **MPP 硬件解码（H.265 / H.264）** → **RGA 缩放与色彩转换（NV12→RGB）** → **RKNN NPU 推理**，\n帧数据走 **DMA-Heap(CMA) 物理连续内存** 并通过 `rknn_set_io_mem` 直接绑定为模型 I/O 张量，\n避免中间帧在 CPU 与 NPU 之间来回搬运，把延迟压在内存带宽这一环之下。\n\n**有界环形缓存 + 丢帧反压，端到端不堆积。**\n自研模板化环形队列 `circular_list<T, N>`，流水线每一级之间用独立环形缓存解耦；\n队列写满时**自动丢弃最旧帧并触发回调释放硬解帧**（`mpp_frame_deinit`），\n消费者侧用条件变量唤醒、无帧时非阻塞让出 CPU——高负载下主动丢帧保证延迟稳定、内存不涨。\n\n**ARM NEON 向量化热点后处理。**\n后处理最吃 CPU 的两处都用 NEON 重写：\n16 路 int8 并行做置信度阈值筛选（`vcgeq_s8` 出位掩码 → `__builtin_ctzll` 只枚举命中项，跳过绝大多数无效格点）；\nNMS 的 IoU 用 `float32x4` 四路并行计算，配合位图（bitmask）批量置位剔除。\n\n**反量化查表（LUT），后处理零浮点乘除。**\n预构建 256 项**反量化表 / sigmoid 表 / exp 表**，运行时把 `(int8 - zp) * scale`、`sigmoid`、`exp` 全部换成一次查表，\n把后处理里的浮点乘法链直接抹掉。\n\n**多线程多输出头并行解码。**\nYOLOv5 的三个输出头各起一个 worker 线程，用条件变量做令牌式派发（`dispatch_and_wait`）与主线程同步，\n三个头的解码真正并行，随后统一 NMS。\n\n**量化精度可诊断、可定位。**\n内置逐层**量化精度分析**（simulator/runtime 的 cos 相似度与欧氏误差）与逐层**性能分析**（Cycles / MacUsage / 耗时），\n并支持导出逐类命中统计、反量化直方图等诊断报告，用来定位是「哪一层把精度搞崩的」。\n\n**原生中文标签渲染。**\n自带点阵中文字库，直接往帧缓冲（RGB）上绘制中文类别名，不依赖 freetype 等任何重依赖。\n\n---\n\n## 性能实测（RK3568，单路，热稳定）\n\n> 平台 Rockchip RK3568 · 模型 YOLOv8s · 输入 800×448 · 置信度阈值 int8≥32 · IoU 0.5\n\n| 阶段 | Plane A | Plane B |\n|---|---|---|\n| **NPU 推理** | ~80 ms | ~100 ms |\n| sort + box 搜索 | 0.6 ms | 0.4 ms |\n| NMS | 0.08 ms | 0.06 ms |\n| **总耗时** | **~81 ms** | **~101 ms** |\n| **帧率** | **~12.3 FPS** | **~9.9 FPS** |\n\n- **Plane A 比 Plane B 快约 20%**：因为裁掉了 NPU 上的 DFL 卷积层（首次推理有 DVFS 冷启动 penalty +50~70ms，热跑升频后稳定）。\n- **NPU 是唯一瓶颈**：单帧 ~80ms 占端到端约 **99%**，CPU 侧后处理（搜索 + NMS）合计 **< 1ms** 可忽略——优化重心应继续压在 NPU 侧。\n- **后处理开销极小**：阈值 32 下 7350 个 anchor 仅命中 82 个（**1.12%**），NMS 后 **82 → 10 框**；NEON 筛选 + LUT 反量化把后处理压到亚毫秒级。\n- **DFL 数值已验证**：box logits 实测范围 `[-4.60, 17.39]`，`exp` 不溢出 float32，故 DFL softmax 直接查 `exp_table[256]`、无需减最大值。\n\n---\n\n## 已知限制（Known Limitations）\n\n- **多路未压测**：当前仅完成 **单路** RTSP 端到端验证；多路（1–5 路）流水线架构与调度已实现，但 **尚未进行多路并发压力测试**。\n- **单路瓶颈**：单路 800×448 下 NPU 推理占端到端约 99% 耗时，为主要瓶颈；多路场景预计需降低分辨率或跳帧。\n- **模型精度**：裁剪 / 量化后经数值一致性校验（误差 < 1e-3），尚未在标准数据集上进行 mAP 评测。\n\n---\n\n## 流水线架构\n\n```\n   RTSP 摄像头 (1..N 路)\n        │\n        ▼\n ┌────────────┐   ┌──────────────┐   ┌──────────────┐   ┌──────────────┐   ┌────────────┐\n │  PSQ_gts   │ → │  PSQ_vpu     │ → │  PSQ_rga     │ → │  PSQ_rknn /  │ → │  PSQ_http  │\n │ GStreamer  │   │ MPP 硬解码   │   │ 缩放 + 转色  │   │  YOLOv8/5    │   │ MJPEG 推流 │\n │ rtspsrc    │   │ H265 / H264  │   │ NV12→RGB     │   │ NPU + 后处理 │   │ :8080+     │\n └────────────┘   └──────────────┘   └──────────────┘   └──────────────┘   └────────────┘\n        └──── 每级之间 = 独立线程 + 有界环形缓存（circular_list）────┘\n                                              PSQ_observer（USE 设备利用率监控）\n```\n\n每一级都是「独立线程 + 环形缓存」的生产者—消费者，摄像头路数在运行时配置，各级解耦、可独立观测。\n\n---\n\n## 目录结构\n\n```\ndemo/\n├── any_include/            # 通用模块头文件（按职责拆分）\n│   ├── gts_0.0.0.hh        # GStreamer RTSP 拉流\n│   ├── vpu_0.0.0.hh        # MPP 硬件解码 (H265/H264)\n│   ├── vpu_0.0.1.hh\n│   ├── rga_0.0.0.hh        # RGA 缩放 / 格式转换\n│   ├── rga_v4l2_0.0.0.hh\n│   ├── v4l2_0.0.0.hh       # V4L2 本地摄像头采集\n│   ├── rkn_0.0.0.hh        # RKNN 上下文 / 张量 / 内存封装\n│   ├── yolov8_0.0.0.hh     # YOLOv8 后处理\n│   ├── yolov5_0.0.0.hh     # YOLOv5 后处理\n│   ├── http_0.0.0.hh       # HTTP MJPEG 服务\n│   ├── observer.hh         # USE 利用率观测\n│   ├── strategy.hh         # 管线调度 + 环形缓存（核心）\n│   ├── creat_cma.h         # DMA-Heap 连续内存分配\n│   └── sync_0.0.0.h\n├── any_source/             # 上述模块的实现\n│   ├── yolov8_0.0.0.cc     # 后处理（NEON 筛选 / LUT 反量化 / DFL / NMS）\n│   ├── yolov5_0.0.0.cc     # 后处理（多线程多头部 / NEON NMS / 中文标签）\n│   └── http_0.0.0.cc       # MJPEG 推流\n├── yolo8_1.1.0/            # ★ 主程序：多路 RTSP 管线\n│   ├── run.cc              # 入口：解析 set.cfg → 组装并启动管线\n│   ├── set.cfg             # 运行配置\n│   ├── build.sh            # 交叉编译 + 打包 running/\n│   ├── run_devices.sh      # 板端：自动配网 → 校验 → 启动\n│   ├── run_pc.sh           # PC 端：adb 推送 → 配网 → 端口转发 → 启动\n│   ├── use_check.sh        # USE 监控面板\n│   └── running/            # （构建产物，已 gitignore）\n├── yolov5.1.0.3/           # YOLOv5 单路 demo（V4L2 采集）\n│   ├── yolo.cc             # 入口\n│   ├── include/  scrip/    # 头文件与实现\n│   └── build/  system_so/  yolo_so/   # （构建产物，已 gitignore）\n├── fix_a_auto.py           # ONNX 深度裁剪工具（YOLOv8 plan A）\n├── plane_A.txt / plane_B.txt  # RKNN 量化精度分析（逐层 cos/euc 误差）\n├── evel_planA              # RKNN 性能/内存分析（逐层 Cycles / MacUsage / 耗时）\n└── *.rknn                  # 预转换的 RKNN 模型（v5s / v8s plan A / B）\n```\n\n---\n\n## 关键技术实现\n\n### 环形缓存 `circular_list<T, N>`（`strategy.hh`）\n\n- 固定 N 槽的有界队列（拉流/解码 3 槽，RGA/推理/推流 5 槽），每级流水独立一份。\n- **写满即丢最旧帧**，并通过 `abandon_function` 回调收回资源——硬解路径在这里 `mpp_frame_deinit`，防止 MPP 缓冲泄漏。\n- 提供 **阻塞消费** `get_new()`（条件变量等待）与 **非阻塞消费** `try_get_new()`（无帧立即返回、按积压量取舍），\n  供下游在高负载下主动让出或丢帧。\n\n### 硬件解码与 RGA 缩放\n\n- **MPP 硬解**：H.265 / H.264 走 RK 硬件解码器，输出 NV12 的 `MppFrame`（含 `buf_fd` / stride / 物理地址）。\n- **RGA 转色 + 缩放**：`cvtcolor`（NV12→RGB）+ `resize`（到模型输入尺寸）在 RGA 硬件上完成，\n  通过 `mpp_buffer_inc_ref` / `mpp_buffer_put` 精确管理硬解缓冲生命周期。\n\n### RKNN 推理（`rkn_0.0.0`）\n\n- `rknn_create_mem` 分配 I/O 张量内存，`rknn_set_io_mem` 绑定，\n  `rknn_mem_sync` 在 CPU 与 NPU 间同步，输入输出零拷贝。\n\n### YOLOv8 后处理（`yolov8_0.0.0.cc`）\n\n- **NEON 阈值筛选**：以 int8 直接比较置信度（`vcgeq_s8`），产出位掩码后用 `ctz` 逐位枚举命中格点，跳过所有未命中项。\n- **LUT 反量化**：`dequantiz_table` / `dequantiz_sigmoid_table` / `dequantiz_exp` 三张三查表；\n  plane A 的 DFL softmax 直接用 exp 表算（并已验证 box logits 范围 < 20，可直接查表、无需减最大值，兼顾数值稳定）。\n- **按类 NMS**：先按「类别 + 置信度」排序并切出每类区间，再在类内做 IoU 抑制，避免跨类比较。\n\n### YOLOv5 后处理（`yolov5_0.0.0.cc`）\n\n- **三头并行解码**：三个输出头各一个 worker 线程，条件变量令牌式同步（`dispatch_and_wait`），每帧并行解码后归并。\n- **NEON NMS**：检测框先转 **SoA** 布局，NMS 用 `float32x4` 四路并行算交并比，结果写回 **位图**（`uint32_t` 掩码）批量剔除。\n- **自绘中文标签**：`font_cn.h` 点阵字库直接往 RGB 帧缓冲写中文类别名。\n\n### USE 观测（`observer.hh` + `use_check.sh`）\n\n- 分别统计 RGA / VPU / NPU 的 **U（利用率）、S（流水线缓存积压）、E（错误计数）**，终端渲染成表格。\n- `internal` 模式由软件计时采点，`external` 模式从内核节点读取（`/sys/kernel/debug/rknpu/load`、`/sys/kernel/debug/rkrga/load`、`/proc/mpp_service/load`）；可在启动时开关。\n\n---\n\n## 编译与运行\n\n### 1. 交叉编译（PC 上）\n\n`build.sh` 用 aarch64 交叉工具链把 `run.cc` + `any_source/{http,yolov8}*.cc` 编成板端可执行文件，\n并自动生成 `running/`（可执行、依赖 `.so`、`set.cfg`、模型、启动脚本）。\n\n```bash\n./build.sh <模型路径>\n# 例: ./build.sh ./yolov8s_normal_800448_plan_A.rknn\n```\n\n> ⚠️ `build.sh` 顶部的 `GXX / SYSROOT / PROJECT_ROOT` 是写死的本机路径，换环境时请改成你自己的交叉工具链与工程根目录。\n\n### 2. 板端直接运行\n\n```bash\ncd running\n./run_devices.sh\n```\n`run_devices.sh`：扫描所有以太网口 → 按摄像头网段自动配对网口并配置 IP → 逐路 ping 校验连通性 → 启动程序。\n\n### 3. PC 端远程部署运行（需要 adb）\n\n```bash\n./run_pc.sh\n```\n流程：`adb push running/ → 开发板` → 板端自动配网 → `adb forward` 逐路端口转发 → 远程启动。\n\n### 4. 查看画面\n\n浏览器打开 `http://<板子IP或localhost>:8080`（第 2 路 8081，依次递增）。\n\n---\n\n## `set.cfg` 配置说明\n\n```ini\nstream_num=1              # 摄像头路数 (1-5)\ncam1_uri=rtsp://...       # 每路 RTSP 地址 cam1_uri ~ cam5_uri\nmodel_path=./xxx.rknn     # RKNN 模型路径\nvideo_w=1920              # 输入分辨率宽\nvideo_h=1080              # 输入分辨率高\ndst_w=800                 # 送 NPU 的推理宽\ndst_h=448                 # 送 NPU 的推理高\nsearch_extimate=0         # YOLOv8 置信度筛选阈值（int8 域）\niou_extimate=0.5          # NMS 的 IoU 阈值\nhttp_port=8080            # HTTP 起始端口（逐路 +1）\ndebug=quiet               # noisy(详细日志) / quiet(安静)\n```\n\n---\n\n## YOLOv8 后处理：plan A / plan B\n\nRKNN 量化时，YOLOv8 原模型末端把 `box` 与 `sort` 两个分支 `Concat` 成单输出，\n但二者量化参数（scale / zero-point）差异极大（box 量程约 0–800，sort 经 sigmoid 后仅 0–1），\n共用同一套量化参数会导致 **sort 分支精度严重坍缩**。因此本工程使用**裁剪掉 Concat 的双输出模型**：\n\n- **plan A**：去掉 `Concat` 且拔掉 `box` 分支的 DFL 解码，把 DFL(softmax) 放回 **CPU** 软处理。\n  - CPU 侧可先按 sort 分支筛选候选再做 DFL，计算量大幅减小；\n  - box 裁剪到 logits 量程（约 ±16），比原 scale（~3.x）分辨率更细，量化精度更好。\n- **plan B**：仅去掉 `Concat`，保留 `box` 分支的 DFL 在模型内。\n\n后处理统一走「反量化表」法（见上）。裁剪工具见 `fix_a_auto.py`：自动识别 grid / 类别数，剪掉整条 DFL 链，\n输出 `dfl_logits(1,64,N)` 与 `scores(1,nc,N)` 双输出，并内置数值验证（参考解码 vs 原模型，误差断言 < 1e-3）。\n\n```bash\npython fix_a_auto.py <in.onnx> [out.onnx]\n```\n\n---\n\n## 分析文件说明\n\n- `plane_A.txt` / `plane_B.txt`：RKNN Toolkit 的**逐层量化精度分析**，\n  给出每层 simulator / runtime 的 `cos`（余弦相似度，越接近 1 越好）与 `euc`（欧氏误差）。\n- `evel_planA`：RKNN Toolkit 的**性能/内存分析**，含模型内存占用（Weight / Internal Tensor / Total）、各频率设定，\n  以及逐层 `OpType / Target / 耗时(us) / MacUsage` 表。\n\n---\n\n## 依赖\n\n板端运行需以下组件（`build.sh` 会从 sysroot 拷贝到 `running/lib/`）：\n\n- RKNN Runtime（`librknnrt.so`）\n- Rockchip MPP（`librockchip_mpp.so`，硬解）\n- RGA（`librga.so`，缩放/转色）\n- GStreamer 1.0 + gst-plugins-base/app（`libgstreamer-1.0` / `libgstapp-1.0` / `libgstbase-1.0` / `libglib` / `libgobject` / `libgio`）\n- OpenCV 4.14（`core / imgproc / imgcodecs`）\n\n## 工具链\n\n- 交叉编译器：`gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu`（aarch64）\n- 目标 CPU：Cortex-A55（`-mcpu=cortex-a55`）\n- 标准：C++17\n\n---\n\n## 已知注意事项\n\n- `set.cfg` 中的摄像头 RTSP 地址**含示例账号口令，请替换为你自己的**再运行/提交。\n- `build.sh` / `run_pc.sh` 中的路径（工具链、`PROJECT_ROOT`、板端部署目录 `/home/rock/psq/video_haikang`）为示例，按实际环境修改。\n- 仓库提交时已排除编译产物（`.o`、`build/`、预编译可执行文件）与依赖 `.so`，请在构建机上自行生成。\n\n---\n\n## License\n\n未指定。如需开源请补充 License；模型与第三方库（RKNN / MPP / RGA / GStreamer / OpenCV）各自受其原始许可约束。\n",
+  "tree": {
+    "sha": "9db419da1eac8e29511a71f8df552aa7053fc6a8",
+    "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/trees/9db419da1eac8e29511a71f8df552aa7053fc6a8",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "02ba4f36fc30093886d97ecab5e1bd2c4f92e14a",
+        "size": 358,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/02ba4f36fc30093886d97ecab5e1bd2c4f92e14a"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f895bf9775d41cf6a3bf19965e6fd0e194fbbbb8",
+        "size": 15034,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/f895bf9775d41cf6a3bf19965e6fd0e194fbbbb8"
+      },
+      {
+        "path": "any_include",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "74022616599b5a21a768ef61dfcf0cb9503be7bd",
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/trees/74022616599b5a21a768ef61dfcf0cb9503be7bd"
+      },
+      {
+        "path": "any_include/creat_cma.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c891f91188b56eded41e92fbf949c5d8fc7884a5",
+        "size": 2117,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/c891f91188b56eded41e92fbf949c5d8fc7884a5"
+      },
+      {
+        "path": "any_include/gts_0.0.0.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf5812907534eaa6c827087fd6cd8518d0abfc88",
+        "size": 5430,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/bf5812907534eaa6c827087fd6cd8518d0abfc88"
+      },
+      {
+        "path": "any_include/http_0.0.0.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "318c2ff5f02d62280efb2ee07fe9cb2fbe9f3fe8",
+        "size": 1069,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/318c2ff5f02d62280efb2ee07fe9cb2fbe9f3fe8"
+      },
+      {
+        "path": "any_include/observer.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72db5fcc991832c7f6c812bbdbc0123afa27f1cb",
+        "size": 10705,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/72db5fcc991832c7f6c812bbdbc0123afa27f1cb"
+      },
+      {
+        "path": "any_include/rga_0.0.0.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35ab5422e09928cf92ce5040dc98c540353431ca",
+        "size": 9984,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/35ab5422e09928cf92ce5040dc98c540353431ca"
+      },
+      {
+        "path": "any_include/rga_v4l2_0.0.0.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d207a717cdac3dca63fb584e018d093ecee981b",
+        "size": 11052,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/1d207a717cdac3dca63fb584e018d093ecee981b"
+      },
+      {
+        "path": "any_include/rkn_0.0.0.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f476efb0b7da9e513c4967b53f661307f3d20231",
+        "size": 5958,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/f476efb0b7da9e513c4967b53f661307f3d20231"
+      },
+      {
+        "path": "any_include/strategy.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d80a918f7844ec26ca11d514e09b040f67d98705",
+        "size": 25126,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/d80a918f7844ec26ca11d514e09b040f67d98705"
+      },
+      {
+        "path": "any_include/sync_0.0.0.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9918c87db9cc18f00fa86b417a5fa1cef48e7c8d",
+        "size": 1425,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/9918c87db9cc18f00fa86b417a5fa1cef48e7c8d"
+      },
+      {
+        "path": "any_include/v4l2_0.0.0.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2107eae6196c73fe30569d64735c6ee8589ee3a7",
+        "size": 18116,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/2107eae6196c73fe30569d64735c6ee8589ee3a7"
+      },
+      {
+        "path": "any_include/vpu_0.0.0.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2a22e94800bc2e3e50fe98d67a428f27a574b74",
+        "size": 4076,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/e2a22e94800bc2e3e50fe98d67a428f27a574b74"
+      },
+      {
+        "path": "any_include/vpu_0.0.1.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27c472cf2f681aa3e81780e47fe586327caa146b",
+        "size": 14872,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/27c472cf2f681aa3e81780e47fe586327caa146b"
+      },
+      {
+        "path": "any_include/yolov5_0.0.0.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "caa6ff3df7d1c4fb7c700fa5da997727c19605b5",
+        "size": 4869,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/caa6ff3df7d1c4fb7c700fa5da997727c19605b5"
+      },
+      {
+        "path": "any_include/yolov8_0.0.0.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d560ba4dfb743a90be9dd35f3e3ca5431fe32f6c",
+        "size": 4013,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/d560ba4dfb743a90be9dd35f3e3ca5431fe32f6c"
+      },
+      {
+        "path": "any_source",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ed8b07bb124441698710d8d1ba8c8f7bdc8aa422",
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/trees/ed8b07bb124441698710d8d1ba8c8f7bdc8aa422"
+      },
+      {
+        "path": "any_source/http_0.0.0.cc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aaef1f0d7c653632a4a838c21af470f82cabad3d",
+        "size": 8420,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/aaef1f0d7c653632a4a838c21af470f82cabad3d"
+      },
+      {
+        "path": "any_source/yolov5_0.0.0.cc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1371a97ef1dc8c272e1c78d0e8dfa6275717bf5",
+        "size": 22326,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/d1371a97ef1dc8c272e1c78d0e8dfa6275717bf5"
+      },
+      {
+        "path": "any_source/yolov8_0.0.0.cc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "898b216f0d6d486ce5089af31f00898d69ebb95b",
+        "size": 35675,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/898b216f0d6d486ce5089af31f00898d69ebb95b"
+      },
+      {
+        "path": "evel_planA",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "946ea4f8c964d6c855b31d2dbe326c733d8aaf79",
+        "size": 25220,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/946ea4f8c964d6c855b31d2dbe326c733d8aaf79"
+      },
+      {
+        "path": "fix_a_auto.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "78b3a5e676521814021f66694a3a67de66cb53ac",
+        "size": 4813,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/78b3a5e676521814021f66694a3a67de66cb53ac"
+      },
+      {
+        "path": "plane_A.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b60b37a17aee32626710aa5bab8bcfeca92ee652",
+        "size": 23441,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/b60b37a17aee32626710aa5bab8bcfeca92ee652"
+      },
+      {
+        "path": "plane_B.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f62916aea094b96d61d8406f798da8d48719832",
+        "size": 25313,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/9f62916aea094b96d61d8406f798da8d48719832"
+      },
+      {
+        "path": "yolo8_1.1.0",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9a1a2de87b57988b8d22541aa517a634313a9a5e",
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/trees/9a1a2de87b57988b8d22541aa517a634313a9a5e"
+      },
+      {
+        "path": "yolo8_1.1.0/build.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9857024743279963b7471956b1af896f2eccf558",
+        "size": 4831,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/9857024743279963b7471956b1af896f2eccf558"
+      },
+      {
+        "path": "yolo8_1.1.0/run.cc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1e2b6bddc82fdf30fc9cc22e32633297d01fa68",
+        "size": 7206,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/c1e2b6bddc82fdf30fc9cc22e32633297d01fa68"
+      },
+      {
+        "path": "yolo8_1.1.0/run_devices.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b2c33db0d1deab124c03b10b76e9e111e6bf18d",
+        "size": 7136,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/4b2c33db0d1deab124c03b10b76e9e111e6bf18d"
+      },
+      {
+        "path": "yolo8_1.1.0/run_pc.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "288093959ec34984c09cf4ba29458165b97522a5",
+        "size": 5539,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/288093959ec34984c09cf4ba29458165b97522a5"
+      },
+      {
+        "path": "yolo8_1.1.0/running",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e9b0fa30c115d0c3db73e142c392071118cbc013",
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/trees/e9b0fa30c115d0c3db73e142c392071118cbc013"
+      },
+      {
+        "path": "yolo8_1.1.0/running/run_devices.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b2c33db0d1deab124c03b10b76e9e111e6bf18d",
+        "size": 7136,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/4b2c33db0d1deab124c03b10b76e9e111e6bf18d"
+      },
+      {
+        "path": "yolo8_1.1.0/running/set.cfg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e4e6905849ac6621d48d76d247b553727bbd4b9",
+        "size": 964,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/9e4e6905849ac6621d48d76d247b553727bbd4b9"
+      },
+      {
+        "path": "yolo8_1.1.0/running/use_check.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2aaddb6094ba8e2932b8126ad97ec9a5dd10af78",
+        "size": 2568,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/2aaddb6094ba8e2932b8126ad97ec9a5dd10af78"
+      },
+      {
+        "path": "yolo8_1.1.0/running/yolov8s_normal_800448_plan_A.rknn",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fdedfa8ee3ea0e4484f6175b8eae8e57c6a04df2",
+        "size": 12497514,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/fdedfa8ee3ea0e4484f6175b8eae8e57c6a04df2"
+      },
+      {
+        "path": "yolo8_1.1.0/set.cfg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b00e9771067038e98d79b0d486522150a512c2b9",
+        "size": 961,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/b00e9771067038e98d79b0d486522150a512c2b9"
+      },
+      {
+        "path": "yolo8_1.1.0/use_check.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2aaddb6094ba8e2932b8126ad97ec9a5dd10af78",
+        "size": 2568,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/2aaddb6094ba8e2932b8126ad97ec9a5dd10af78"
+      },
+      {
+        "path": "yolov5.1.0.3",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2c703c089d81ad741c2cbd813692a519d315c251",
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/trees/2c703c089d81ad741c2cbd813692a519d315c251"
+      },
+      {
+        "path": "yolov5.1.0.3/include",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b8dd822f051e171ce5d65a72644dcc0f6931b5ee",
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/trees/b8dd822f051e171ce5d65a72644dcc0f6931b5ee"
+      },
+      {
+        "path": "yolov5.1.0.3/include/font_cn.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f46493d973e7c8f58fde4489fa5bbe302a7ac3e0",
+        "size": 23737,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/f46493d973e7c8f58fde4489fa5bbe302a7ac3e0"
+      },
+      {
+        "path": "yolov5.1.0.3/include/http.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d72000734199a24992188bfd396cb821b5fd6ce",
+        "size": 845,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/2d72000734199a24992188bfd396cb821b5fd6ce"
+      },
+      {
+        "path": "yolov5.1.0.3/include/rga.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62067cc66c8decf403cc0c879d7876509c1eded3",
+        "size": 2673,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/62067cc66c8decf403cc0c879d7876509c1eded3"
+      },
+      {
+        "path": "yolov5.1.0.3/include/yolo copy.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62ad493541914c278b0218cf5d726354093c3c58",
+        "size": 7467,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/62ad493541914c278b0218cf5d726354093c3c58"
+      },
+      {
+        "path": "yolov5.1.0.3/include/yolov5.hh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a3cdfdc46eb50daeb89c7f77e8c99191133ed8a",
+        "size": 3197,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/6a3cdfdc46eb50daeb89c7f77e8c99191133ed8a"
+      },
+      {
+        "path": "yolov5.1.0.3/scrip",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f4512dea621ea8dd6f6827c69ed7119019e142d3",
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/trees/f4512dea621ea8dd6f6827c69ed7119019e142d3"
+      },
+      {
+        "path": "yolov5.1.0.3/scrip/http.cc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d276a15850d6929fead039abfe3e495f21ea05ae",
+        "size": 6657,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/d276a15850d6929fead039abfe3e495f21ea05ae"
+      },
+      {
+        "path": "yolov5.1.0.3/scrip/rga.cc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c258ec09e39b51c6145834804182154c8193950a",
+        "size": 3855,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/c258ec09e39b51c6145834804182154c8193950a"
+      },
+      {
+        "path": "yolov5.1.0.3/scrip/yolov5.cc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1371a97ef1dc8c272e1c78d0e8dfa6275717bf5",
+        "size": 22326,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/d1371a97ef1dc8c272e1c78d0e8dfa6275717bf5"
+      },
+      {
+        "path": "yolov5.1.0.3/yolo.cc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1b8d84431261dbfea4ee2af10ad8c353687021de",
+        "size": 3282,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/1b8d84431261dbfea4ee2af10ad8c353687021de"
+      },
+      {
+        "path": "yolov5.1.0.3/yolov5s_relu_kl_512.rknn",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2709dccb6dded618d59030b1bb8cf5b7c56cc4c8",
+        "size": 7683907,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/2709dccb6dded618d59030b1bb8cf5b7c56cc4c8"
+      },
+      {
+        "path": "yolov5s_relu_kl_512.rknn",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0fa87e5cf0f150364c323a774b5f7d4f7f06820b",
+        "size": 7843255,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/0fa87e5cf0f150364c323a774b5f7d4f7f06820b"
+      },
+      {
+        "path": "yolov8s_normal_800448_plan_A.rknn",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fdedfa8ee3ea0e4484f6175b8eae8e57c6a04df2",
+        "size": 12497514,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/fdedfa8ee3ea0e4484f6175b8eae8e57c6a04df2"
+      },
+      {
+        "path": "yolov8s_normal_800448_plan_B.rknn",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ebc98c1dc64936ad03dba36823de83d810c47fb",
+        "size": 12709160,
+        "url": "https://api.github.com/repos/jyy629/rknn-yolo-deploy/git/blobs/8ebc98c1dc64936ad03dba36823de83d810c47fb"
+      }
+    ],
+    "truncated": false
+  }
+}

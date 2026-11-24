@@ -1,0 +1,122 @@
+"""Vision-guided task state machine 鈥?move while centering."""
+
+import time
+from config import *
+
+
+class Task:
+    def __init__(self, motor, servo, ik, odom=None):
+        self.m = motor; self.s = servo; self.ik = ik; self.odom = odom
+        self.st = TASK_IDLE; self.ss = 0; self.tm = 0; self.lm = 0
+        self.cf = 0; self.lo = 0
+        self.cx = CAM_CENTER_X; self.cy = CAM_CENTER_Y
+        self.dp = 0; self.cn = 0; self.peak = 0
+        self.grab_ax = CAM_ARM_OFFSET_X; self.grab_ay = CAM_ARM_OFFSET_Y
+        self.grab_z = CAM_ARM_GRAB_Z
+        self.approach_start = 0; self.approach_ms = 3000
+
+    def _ms(self): return int(time.time() * 1000)
+
+    def cam(self, cx, cy, dp, cf, peak=0):
+        self.cx=cx; self.cy=cy; self.dp=dp; self.cn=cf
+        self.peak=1 if peak else 0
+        if self.st != TASK_IDLE: self._tick()
+
+    def tick(self):
+        if self.st in (TASK_LOCATE,TASK_STOP,TASK_GRAB,TASK_DONE):
+            self._tick()
+
+    def start(self):
+        self.st=TASK_LOCATE; self.ss=0; self.lo=0; self.lm=0
+        self.cx = CAM_CENTER_X; self.cy = CAM_CENTER_Y
+        self.dp = 0; self.cn = 0; self.peak = 0
+        self.approach_start = 0; self.approach_ms = 3000
+        self.m.stop(); print("@TASK_START")
+
+    def abort(self): self.st=TASK_IDLE; self.m.stop(); print("@TASK_STOP")
+
+    def _missing(self): return self.cn < MIN_TARGET_CONF
+
+    def _tick(self):
+        now = self._ms()
+        if self.st == TASK_IDLE: return
+
+        # ===== LOCATE: 杈瑰墠杩涜竟灞呬腑 =====
+        if self.st == TASK_LOCATE:
+            if now - self.lm < 100: return
+            self.lm = now
+
+            # 涓㈢洰鏍?鈫?鏋佹參宸﹁浆鎼滅储
+            if self._missing():
+                self.lo += 1
+                if self.lo > 30: self.m.stop()
+                else: self.m.left(20)  # 缂撴參鎼滅储
+                return
+            self.lo = 0
+
+            # 棣栨鍓嶈繘鏃惰褰曠紪鐮佸櫒璧风偣
+            if self.approach_start == 0:
+                self.approach_start = now
+                if self.odom: self.odom.mark_start()
+
+            # PEAK=1 鈫?鍋滆溅
+            if self.peak:
+                self.m.stop(); self.st = TASK_STOP; self.tm = now
+                self.approach_ms = now - self.approach_start if self.approach_start else 3000
+                print(f"@PEAK_STOP cx={self.cx}")
+                return
+
+            # 杈瑰墠杩涜竟灞呬腑锛氫竴鐩村線鍓嶈蛋锛屽悓鏃舵牴鎹亸绉诲井璋冩柟鍚?            off = self.cx - CAM_CENTER_X
+
+            if abs(off) > CENTER_TOLERANCE:
+                # 姣斾緥鎺ч€燂細鍋忕Щ瓒婂ぇ锛岃浆鍚戝垎閲忚秺澶?                turn = max(10, int(abs(off) * 0.3))
+                if turn > LOCATE_SPEED: turn = LOCATE_SPEED
+                # 鍓嶈繘 + 杞悜娣峰悎
+                fwd = APPROACH_SPEED
+                if off < 0:
+                    # 鍋忓乏 鈫?宸﹁浆 + 鍓嶈繘锛堝乏杞噺閫燂紝鍙宠疆鍔犻€燂級
+                    self.m.run(fwd - turn, fwd, fwd - turn, fwd)
+                else:
+                    # 鍋忓彸 鈫?鍙宠浆 + 鍓嶈繘
+                    self.m.run(fwd, fwd - turn, fwd, fwd - turn)
+            else:
+                # 灞呬腑 鈫?鐩磋蛋
+                self.m.fwd(APPROACH_SPEED)
+
+            return
+
+        # ===== STOP =====
+        if self.st == TASK_STOP:
+            self.m.stop()
+            if now - self.tm > STOP_STABLE_MS:
+                self.st = TASK_GRAB; self.ss = 0; self.tm = now
+                print("@GRAB")
+            return
+
+        # ===== GRAB =====
+        if self.st == TASK_GRAB:
+            if self.ss == 0:
+                self.grab_ax = CAM_ARM_OFFSET_X
+                self.grab_ay = CAM_ARM_OFFSET_Y
+                self.grab_z = CAM_ARM_GRAB_Z
+                print(f"@GRAB_TARGET arm=({self.grab_ax:.0f},{self.grab_ay:.0f},{self.grab_z})", flush=True)
+                self.m.stop()
+                self.s.set(GRIPPER_SERVO, GRIPPER_OPEN_PWM, 500)
+                self.ss = 1; self.tm = now; print("@GRAB_OPEN")
+            elif self.ss == 1 and now - self.tm > 700:
+                self.ik.move(self.grab_ax, self.grab_ay, self.grab_z, GRAB_ARM_TIME, self.s.set)
+                self.ss = 2; self.tm = now; print("@GRAB_DOWN")
+            elif self.ss == 2 and now - self.tm > GRAB_ARM_TIME + 300:
+                self.s.set(GRIPPER_SERVO, GRIPPER_CLOSE_PWM, 800)
+                self.ss = 3; self.tm = now; print("@GRAB_CLOSE")
+            elif self.ss == 3 and now - self.tm > 1000:
+                self.ik.move(self.grab_ax, self.grab_ay, CAM_ARM_LIFT_Z, GRAB_ARM_TIME, self.s.set)
+                self.ss = 4; self.tm = now; print("@GRAB_UP")
+            elif self.ss == 4 and now - self.tm > GRAB_ARM_TIME + 300:
+                self.m.stop(); self.st = TASK_DONE
+            return
+
+        # ===== DONE =====
+        if self.st == TASK_DONE:
+            self.m.stop(); print("@TASK_DONE"); self.st = TASK_IDLE
+

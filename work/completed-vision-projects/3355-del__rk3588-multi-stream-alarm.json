@@ -1,0 +1,1143 @@
+{
+  "repository": "3355-del/rk3588-multi-stream-alarm",
+  "fetched_at_utc": "2026-11-23T05:07:43.8324703Z",
+  "metadata": {
+    "id": 1428429123,
+    "node_id": "R_kgDOVSQZQw",
+    "name": "rk3588-multi-stream-alarm",
+    "full_name": "3355-del/rk3588-multi-stream-alarm",
+    "private": false,
+    "owner": {
+      "login": "3355-del",
+      "id": 309025486,
+      "node_id": "U_kgDOEmtazg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/309025486?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/3355-del",
+      "html_url": "https://github.com/3355-del",
+      "followers_url": "https://api.github.com/users/3355-del/followers",
+      "following_url": "https://api.github.com/users/3355-del/following{/other_user}",
+      "gists_url": "https://api.github.com/users/3355-del/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/3355-del/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/3355-del/subscriptions",
+      "organizations_url": "https://api.github.com/users/3355-del/orgs",
+      "repos_url": "https://api.github.com/users/3355-del/repos",
+      "events_url": "https://api.github.com/users/3355-del/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/3355-del/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/3355-del/rk3588-multi-stream-alarm",
+    "description": "C++17 RK3588 多路边缘目标检测告警：MPP / RGA / RKNN / DMA-BUF，含模拟测试与交互划区。",
+    "fork": false,
+    "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm",
+    "forks_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/forks",
+    "keys_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/teams",
+    "hooks_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/hooks",
+    "issue_events_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/events",
+    "assignees_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/tags",
+    "blobs_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/languages",
+    "stargazers_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/stargazers",
+    "contributors_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/contributors",
+    "subscribers_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/subscribers",
+    "subscription_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/subscription",
+    "commits_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/merges",
+    "archive_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/downloads",
+    "issues_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/labels{/name}",
+    "releases_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/deployments",
+    "created_at": "2026-10-21T13:31:44Z",
+    "updated_at": "2026-11-12T09:12:44Z",
+    "pushed_at": "2026-11-22T16:56:44Z",
+    "git_url": "git://github.com/3355-del/rk3588-multi-stream-alarm.git",
+    "ssh_url": "git@github.com:3355-del/rk3588-multi-stream-alarm.git",
+    "clone_url": "https://github.com/3355-del/rk3588-multi-stream-alarm.git",
+    "svn_url": "https://github.com/3355-del/rk3588-multi-stream-alarm",
+    "homepage": null,
+    "size": 773,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "C++",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 1,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 0,
+    "subscribers_count": 0
+  },
+  "readme_path": "README.md",
+  "readme": "# RK3588 多路边缘目标检测告警系统\n\n## 1. 做什么\n\n在 RK3588 上接入多路视频，完成目标检测和多边形区域告警。C++17 实现采集、预处理、推理、告警四阶段流水线，独立 IO 线程负责截图和事件投递。TCP 只上报事件，视频留在板端。\n\n## 运行画面\n\n![板卡摄像头检测水瓶，显示警戒区、检测框和入库告警](docs/images/board-camera-detection-20261030.jpg)\n\n现场水瓶对应 COCO 类别 39。网页可以冻结画面拖动警戒区顶点，再保存并应用规则；冻结显示时，板卡仍在检测。操作见[实时控制台](docs/live-console.md)。\n\n调试这次水瓶演示时，程序先报了 `mock class id must be an integer 0..4`。隔离部署还在用旧解析器，把硬件类别也限制成了模拟模式的五类。修正后，硬件允许 0–79，mock 保持 0–4；CTest 8/8 和类别边界专项 10/10 通过，随后产生了新的水瓶告警。[运行记录](docs/board-run-20261030.md)\n\n## 2. 数据流\n\n```text\nUSB（V4L2）/ 文件、RTSP（FFmpeg 解复用 + MPP 硬解）\n  → 采集 → 有界队列 → RGA 预处理\n  → 有界队列 → RKNN 推理、DFL 解码、NMS\n  → 有界队列 → 多边形区域判断、告警冷却\n  → 独立 IO 线程：PNG 截图、持久化 outbox、TCP JSON + ACK\n  → Python 接收端：按 event_id 去重，SQLite 提交后返回 ACK\n```\n\n![视频流水线](docs/images/video-pipeline.png)\n\n每路按阶段分线程运行，队列满时丢最旧帧，避免延迟不断累积。`rknn_dup_context` 共享模型上下文，并发门限限制同时推理的数量。MPP、RGA、RKNN 之间使用 DMA-BUF，USB 采集和截图仍有拷贝。\n\n![告警持久化、确认与重试流程](docs/images/alarm-delivery.png)\n\n告警先写本地 outbox；接收端写库成功才发 ACK，未确认的事件保留重试。截图留在本地，TCP 传事件和截图路径。配套的[离线助手](https://github.com/3355-del/rk3588-offline-agent)可读取同一告警库。\n\n源码入口：[流水线](src/pipeline/VideoPipeline.cpp)、[可靠投递](src/hal/DurableAlarmNotifier.cpp)、[接收端](tools/alarm_receiver.py)。`include/` 放接口，`src/hal/` 放硬件与模拟后端，`tests/`、`tools/` 放回归和辅助工具；`module/` 保留构建依赖的练习模块。\n\n## 3. 板卡测试\n\n测试板为 Orange Pi 5，RK3588S，8 GB。\n\n| 项目 | 结果 |\n| --- | --- |\n| 单路同素材 20 秒分组对照 | CPU 预处理+浮点输出 25.39 FPS → DMA-BUF 输入+直读量化输出 35.05 FPS（+38%） |\n| 取帧 / 解码耗时 | 4.9 → 1.33 ms；9.4 → 3.6 ms |\n| 双路文件源 | 各约 29.9 FPS |\n| 四路文件源 | 合计约 67.4 FPS |\n| RTSP 回环 | 约 16.28 FPS |\n| 摄像头 + 文件双路 | 连续 3600.7 秒无崩溃，115 条告警入库，两路丢帧 0 / 508 |\n| 截图路径 / 回归 | ASan 未报告内存错误（未启用泄漏检测）；历史 CTest 4/4 通过 |\n| DMA/CPU 输入与 INT8/float 等价性 | 12 帧，detections=89，PASS |\n\n表中的“取帧”指获取推理输出，“解码”指检测输出后处理。2026-10-30 又补测了 180° 路径：正向和旋转各 12 帧，路径一致性检查通过。[复现方法](docs/detection-quality.md)\n\n## 4. 环境\n\nOrange Pi 5 / Ubuntu 22.04.5 / 内核 6.1.99 / RKNPU 驱动 0.9.8 / RKNN Runtime 2.3.0。MPP 使用自建版本，commit `14729dd578e570e5f00fd1dd2113f5429012d64b`。\n\n硬件构建在板卡上进行，需要 RKNN、RGA、MPP、FFmpeg 开发环境。无硬件构建需要 CMake ≥3.16、C++17 和 Python ≥3.10；Windows 可用 MinGW + Ninja。[依赖说明](docs/dependencies.md)\n\n## 5. 构建与运行\n\n### 先在电脑跑通模拟链路\n\n在仓库根目录执行；Linux 可去掉 `-G Ninja`：\n\n```sh\ncmake -S . -B build -G Ninja -DMSAD_ENABLE_RKNN=OFF -DBUILD_TESTING=ON\ncmake --build build --parallel 2\nctest --test-dir build --output-on-failure\n```\n\n终端一运行接收器，保持窗口开启：\n\n```sh\npython tools/alarm_receiver.py --host 127.0.0.1 --port 9000 --db data/alarms.sqlite3\n```\n\n终端二运行五秒演示（Windows 使用 `.exe`）：\n\n```sh\n./build/multi_stream_alarm_demo config/demo_config.json\n```\n\nWindows 如果报临时目录 `Permission denied`，在当前 PowerShell 设置测试临时目录后重跑：\n\n```powershell\nNew-Item -ItemType Directory -Force build/test-temp | Out-Null\n$env:TEMP = (Resolve-Path build/test-temp).Path\n$env:TMP = $env:TEMP\nctest --test-dir build --output-on-failure\n```\n\n### 在板卡构建硬件版本\n\n先安装外部 SDK，把下面的占位符替换为实际位置。模型放到 `model/model.rknn`，视频源、旋转、类别和区域在配置中设置。\n\n```sh\ncmake -S . -B build-board -DMSAD_ENABLE_RKNN=ON -DBUILD_TESTING=ON \\\n  -DMSAD_RKNN_INCLUDE_DIR=YOUR_RKNN_INCLUDE_DIR \\\n  -DMSAD_RKNN_LIBRARY=YOUR_LIBRKNNRT_FILE \\\n  -DMSAD_MPP_ROOT=YOUR_MPP_INSTALL_PREFIX\ncmake --build build-board --parallel 2\nctest --test-dir build-board --output-on-failure\n./build-board/multi_stream_alarm_demo config/rk3588_config.json\n```\n\n### 准备 YOLOv8n INT8 模型\n\n1. 按 [Rockchip 适配导出说明](https://github.com/airockchip/ultralytics_yolov8/blob/main/RKOPT_README.zh-CN.md)获取权重并设置模型路径，在适配仓库执行 `PYTHONPATH=./ python ultralytics/engine/exporter.py` 导出分离检测头 ONNX。\n2. 安装与目标 Runtime 兼容的 [RKNN-Toolkit2](https://github.com/airockchip/rknn-toolkit2)，记录版本和提交号。\n3. 按 [Model Zoo YOLOv8 指引](https://github.com/airockchip/rknn_model_zoo/tree/main/examples/yolov8)准备实际场景的校准图片清单，修改 `examples/yolov8/python/convert.py` 的 `DATASET_PATH`，执行 `python convert.py YOUR_YOLOV8N.onnx rk3588 i8 YOUR_OUTPUT.rknn`。\n4. 使用 RGB、mean=0、std=255；板端输入原始 uint8。核对输入尺寸、三尺度检测头、COCO 80 类和 scale/zp。\n5. 将产物放入 `model/`，先跑硬件路径和等价性测试，再做带标注样本评测。\n\n交互操作用[统一实时控制台](docs/live-console.md)。离线划区工具为 `python tools/region_editor.py`；保存后的配置需重新启动检测程序加载。\n\n## 许可\n\n自有代码采用 [MIT](LICENSE)。SDK、模型和转换工具分别遵循原许可。\n\n## 6. 当前边界\n\n- 这只 USB 摄像头采集约 10 FPS，`S_PARM` 调节未生效；上表的高帧率来自文件源。四路数据来自文件，并非四个物理摄像头；RTSP 只验证了本机回环流。\n- 使用的是已导出的 INT8 模型，原部署记录为 `agricultureiot/rknn-yolo` 的 YOLOv11n，兼容当前 YOLOv8 风格后处理；上面的 YOLOv8n 转换步骤是复现指引。仓库不含权重、SDK 二进制或原始测试视频。\n- 尚无标注数据集评测，现场水瓶仍有漏检和类别波动；截图框约 31%、首次告警约 32.8% 都是单帧置信度，不是准确率。模拟模式验证业务流程，流程图说明模块关系。\n- DMA-BUF 覆盖部分硬件路径，内存预算不是进程硬上限；outbox 有容量限制，磁盘故障仍会影响投递。两个项目使用 NPU 时遵守会话锁，双 NPU 会话并行仍未解决。\n- 性能记录对应上述板卡、模型和素材，截图与路径一致性测试不替代精度或长稳测试。演示图选用普通物品，原始影像和日志保留在本地。\n",
+  "tree": {
+    "sha": "d91ea0b8465cee5ced1bc2d44147e9e65d286eaa",
+    "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/d91ea0b8465cee5ced1bc2d44147e9e65d286eaa",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "971c2905b5fc094b0fddaaba95febd732962e0fb",
+        "size": 410,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/971c2905b5fc094b0fddaaba95febd732962e0fb"
+      },
+      {
+        "path": "CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9694f0fc5703d4d4e916d8ff94745d4dc84c8816",
+        "size": 7044,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/9694f0fc5703d4d4e916d8ff94745d4dc84c8816"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5dd3867980473f42ac79d465aa091c7ad27bc89c",
+        "size": 1077,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/5dd3867980473f42ac79d465aa091c7ad27bc89c"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2469ae8da0a43c486ead6a9006dcce65f33c0f3d",
+        "size": 7366,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/2469ae8da0a43c486ead6a9006dcce65f33c0f3d"
+      },
+      {
+        "path": "config",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f119c111dc3c2dd4ddd9b2daa36ba92cb17b3f54",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/f119c111dc3c2dd4ddd9b2daa36ba92cb17b3f54"
+      },
+      {
+        "path": "config/demo_config.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86980f29fb88d8993f80828aef1c3fe0982d0e32",
+        "size": 1301,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/86980f29fb88d8993f80828aef1c3fe0982d0e32"
+      },
+      {
+        "path": "config/rk3588_config.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f07fed45882110f9acae73133a606afa6d2d8d8",
+        "size": 752,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/9f07fed45882110f9acae73133a606afa6d2d8d8"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "57ae7d1a2cb89c4fc2d45a95174533e8e0075f6e",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/57ae7d1a2cb89c4fc2d45a95174533e8e0075f6e"
+      },
+      {
+        "path": "docs/board-run-20261030.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26d23edb6e668b35ebb45cee599571b323c19316",
+        "size": 2487,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/26d23edb6e668b35ebb45cee599571b323c19316"
+      },
+      {
+        "path": "docs/dependencies.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76b9e82fe66075df82d101ee6cac6e046ad78b67",
+        "size": 932,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/76b9e82fe66075df82d101ee6cac6e046ad78b67"
+      },
+      {
+        "path": "docs/detection-quality.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd504d20afd411cbd7b1e486e194206e8533f688",
+        "size": 2805,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/fd504d20afd411cbd7b1e486e194206e8533f688"
+      },
+      {
+        "path": "docs/images",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a7abbdb6a37aa5c97c2383e55233fe96f99084f1",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/a7abbdb6a37aa5c97c2383e55233fe96f99084f1"
+      },
+      {
+        "path": "docs/images/alarm-delivery.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38bf64d0760cf5e056b61405d15d53690423524b",
+        "size": 78270,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/38bf64d0760cf5e056b61405d15d53690423524b"
+      },
+      {
+        "path": "docs/images/alarm-delivery.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "745f7bc6661cab19a3149bc3a6f1f003abbf2464",
+        "size": 4024,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/745f7bc6661cab19a3149bc3a6f1f003abbf2464"
+      },
+      {
+        "path": "docs/images/board-camera-detection-20261030.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7574f2b31845946064469ce5f8993bf04f54ef8",
+        "size": 184148,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/b7574f2b31845946064469ce5f8993bf04f54ef8"
+      },
+      {
+        "path": "docs/images/board-detect-night-20261030.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9076e21bf3e7cd6a7ac514b004baf000a437e29a",
+        "size": 77884,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/9076e21bf3e7cd6a7ac514b004baf000a437e29a"
+      },
+      {
+        "path": "docs/images/board-live-preview.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25057969939cae2705df01a8f5e3c6822d707e45",
+        "size": 97534,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/25057969939cae2705df01a8f5e3c6822d707e45"
+      },
+      {
+        "path": "docs/images/video-pipeline.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e3a4fbad29829ea5fd297c2478d127ac7f3634b",
+        "size": 77250,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/4e3a4fbad29829ea5fd297c2478d127ac7f3634b"
+      },
+      {
+        "path": "docs/images/video-pipeline.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0dc0e4412b3cfbb6528878627daa6cd18b3863ca",
+        "size": 4696,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/0dc0e4412b3cfbb6528878627daa6cd18b3863ca"
+      },
+      {
+        "path": "docs/live-console.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a33066b0f94e5ee27348b875eb1c3c67bbced164",
+        "size": 4741,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/a33066b0f94e5ee27348b875eb1c3c67bbced164"
+      },
+      {
+        "path": "include",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "92d1d0d5f3e1669d0e7b56bdd4b62bfd7692c94a",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/92d1d0d5f3e1669d0e7b56bdd4b62bfd7692c94a"
+      },
+      {
+        "path": "include/msad",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "964672f6a8462b2fd92ee537f3f67d3f054eaf77",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/964672f6a8462b2fd92ee537f3f67d3f054eaf77"
+      },
+      {
+        "path": "include/msad/Config.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d713086d69e82eb014800ca9b518111bbae9d98",
+        "size": 3234,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/2d713086d69e82eb014800ca9b518111bbae9d98"
+      },
+      {
+        "path": "include/msad/DmaBuffer.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c028172ae6d10d8c735252138fd8f4800dc5497c",
+        "size": 592,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/c028172ae6d10d8c735252138fd8f4800dc5497c"
+      },
+      {
+        "path": "include/msad/DurableAlarmNotifier.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cb9ce5a932e86b94efed0940c501d6fa0d86c01d",
+        "size": 825,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/cb9ce5a932e86b94efed0940c501d6fa0d86c01d"
+      },
+      {
+        "path": "include/msad/FrameDump.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f4536dd982711def9ccfde2aa554704c601dc681",
+        "size": 1166,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/f4536dd982711def9ccfde2aa554704c601dc681"
+      },
+      {
+        "path": "include/msad/Hal.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed8ea4001b915de5cfe3b72186fa7ec1c9a1e6ef",
+        "size": 3900,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/ed8ea4001b915de5cfe3b72186fa7ec1c9a1e6ef"
+      },
+      {
+        "path": "include/msad/Json.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7d47fc3acbcf2a828fbfa95b0db30289947b6b8",
+        "size": 5968,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/d7d47fc3acbcf2a828fbfa95b0db30289947b6b8"
+      },
+      {
+        "path": "include/msad/Logger.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be3009ad4e213f75cd600e177f3c4874f14490b5",
+        "size": 1736,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/be3009ad4e213f75cd600e177f3c4874f14490b5"
+      },
+      {
+        "path": "include/msad/MockFrameProcessor.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86544ed1e11cebc954b574d3967ff564b9e5d80c",
+        "size": 579,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/86544ed1e11cebc954b574d3967ff564b9e5d80c"
+      },
+      {
+        "path": "include/msad/MockInferenceEngine.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d4d60d0b768c5ec8a9b34ec186cea4067026f72",
+        "size": 999,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/1d4d60d0b768c5ec8a9b34ec186cea4067026f72"
+      },
+      {
+        "path": "include/msad/MockVideoSource.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ec262723e012a8c7f1717a3cc6d1835c66ba9e6",
+        "size": 1016,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/1ec262723e012a8c7f1717a3cc6d1835c66ba9e6"
+      },
+      {
+        "path": "include/msad/Nms.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb0f8171b414b58388ea34ee1a1317a9e8d26da3",
+        "size": 945,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/fb0f8171b414b58388ea34ee1a1317a9e8d26da3"
+      },
+      {
+        "path": "include/msad/PngWriter.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e80172b2796e3eee6845c36ebf1a5b0dd4ab050",
+        "size": 2776,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/9e80172b2796e3eee6845c36ebf1a5b0dd4ab050"
+      },
+      {
+        "path": "include/msad/PolygonRegion.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f00dda3c56793bc4b7ce854dc574e930308e1b85",
+        "size": 1690,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/f00dda3c56793bc4b7ce854dc574e930308e1b85"
+      },
+      {
+        "path": "include/msad/PreviewPublisher.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "439d9e8c3861d78203a482f21661107c84df59ce",
+        "size": 832,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/439d9e8c3861d78203a482f21661107c84df59ce"
+      },
+      {
+        "path": "include/msad/RealComponents.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2294fd4b237f6f688bf10a4b6900b4558d895d11",
+        "size": 5838,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/2294fd4b237f6f688bf10a4b6900b4558d895d11"
+      },
+      {
+        "path": "include/msad/ReconnectingSource.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0b94d694e01efc1fb31b865df8a9d65992006e6",
+        "size": 2072,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/f0b94d694e01efc1fb31b865df8a9d65992006e6"
+      },
+      {
+        "path": "include/msad/RingBuffer.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cfd65ccbea61cf56da5af3e408760ab1433161db",
+        "size": 4068,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/cfd65ccbea61cf56da5af3e408760ab1433161db"
+      },
+      {
+        "path": "include/msad/RkMppSource.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61d183ad364f2f7b2cb41c02a6bdbce72f5572a5",
+        "size": 799,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/61d183ad364f2f7b2cb41c02a6bdbce72f5572a5"
+      },
+      {
+        "path": "include/msad/SimScene.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f4805e3b17b4cfa357943e71137897b77868dd4d",
+        "size": 2096,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/f4805e3b17b4cfa357943e71137897b77868dd4d"
+      },
+      {
+        "path": "include/msad/TcpAlarmNotifier.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0df8d40df57f225b6741c909442f1b379aef8fb9",
+        "size": 1636,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/0df8d40df57f225b6741c909442f1b379aef8fb9"
+      },
+      {
+        "path": "include/msad/TensorView.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47caef57a36e9567ec032f8ff7e0b087b448ae5e",
+        "size": 1853,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/47caef57a36e9567ec032f8ff7e0b087b448ae5e"
+      },
+      {
+        "path": "include/msad/Types.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97dd1f1ee93883912bf5e9891417584d153282f1",
+        "size": 5773,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/97dd1f1ee93883912bf5e9891417584d153282f1"
+      },
+      {
+        "path": "include/msad/VideoPipeline.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "93a9e7c1840e7695b724546f9ce5f6107f6cb97a",
+        "size": 5707,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/93a9e7c1840e7695b724546f9ce5f6107f6cb97a"
+      },
+      {
+        "path": "module",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9993e290a10ef00f3f56749074a430f50613f8f7",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/9993e290a10ef00f3f56749074a430f50613f8f7"
+      },
+      {
+        "path": "module/decode_infer",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f6366519993042ddadd3d63b64883006d1f41f40",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/f6366519993042ddadd3d63b64883006d1f41f40"
+      },
+      {
+        "path": "module/decode_infer/CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "647f45b19c9253a0e370cb0c5db86166d108c0ce",
+        "size": 1731,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/647f45b19c9253a0e370cb0c5db86166d108c0ce"
+      },
+      {
+        "path": "module/decode_infer/include",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3cf126197fdc3c153818e019f6e614c862633619",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/3cf126197fdc3c153818e019f6e614c862633619"
+      },
+      {
+        "path": "module/decode_infer/include/DetectionResult.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aebfa304421da5c3e099137db3eb3fac80836494",
+        "size": 1020,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/aebfa304421da5c3e099137db3eb3fac80836494"
+      },
+      {
+        "path": "module/decode_infer/include/IAiInfer.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c9a19b922fe602414efd6fda2411121bd98fd6bd",
+        "size": 1059,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/c9a19b922fe602414efd6fda2411121bd98fd6bd"
+      },
+      {
+        "path": "module/decode_infer/include/IDecoder.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "894a3c3acaf5645793d490af06b4f6df388397df",
+        "size": 1424,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/894a3c3acaf5645793d490af06b4f6df388397df"
+      },
+      {
+        "path": "module/decode_infer/include/MockAiInfer.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e55b1a62e6dd224a628bdaa76bdcf0b8381cac29",
+        "size": 838,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/e55b1a62e6dd224a628bdaa76bdcf0b8381cac29"
+      },
+      {
+        "path": "module/decode_infer/include/MockDecoder.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44c97903a355e3be8e0ef696daa235ec0ffa98ca",
+        "size": 1105,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/44c97903a355e3be8e0ef696daa235ec0ffa98ca"
+      },
+      {
+        "path": "module/decode_infer/include/MultiStreamEngine.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bda7fb0d39f46873d729f37375278a349d905296",
+        "size": 3010,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/bda7fb0d39f46873d729f37375278a349d905296"
+      },
+      {
+        "path": "module/decode_infer/src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "682d51bfe14331e0eb4823d7786ad67d66d04ebb",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/682d51bfe14331e0eb4823d7786ad67d66d04ebb"
+      },
+      {
+        "path": "module/decode_infer/src/MockAiInfer.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71fa963ae86326872968b61c3db3148fbda7e7b8",
+        "size": 837,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/71fa963ae86326872968b61c3db3148fbda7e7b8"
+      },
+      {
+        "path": "module/decode_infer/src/MockDecoder.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d28a09fd0cae0a6adff91272f38dd87af13da86",
+        "size": 1395,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/7d28a09fd0cae0a6adff91272f38dd87af13da86"
+      },
+      {
+        "path": "module/decode_infer/src/MultiStreamEngine.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "065d0de680e5ddf315e6e04e862dbd9933606ba6",
+        "size": 6645,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/065d0de680e5ddf315e6e04e862dbd9933606ba6"
+      },
+      {
+        "path": "module/decode_infer/src/main.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab53dc877b7263c86a427768511ff071f85b933b",
+        "size": 2207,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/ab53dc877b7263c86a427768511ff071f85b933b"
+      },
+      {
+        "path": "module/voice_mq",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1c8e99ad8a56bc365fefa80e512347df0c1d5da8",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/1c8e99ad8a56bc365fefa80e512347df0c1d5da8"
+      },
+      {
+        "path": "module/voice_mq/CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d2df6a9e82c7e94b4ef04aca2dce6565cbc8979e",
+        "size": 1157,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/d2df6a9e82c7e94b4ef04aca2dce6565cbc8979e"
+      },
+      {
+        "path": "module/voice_mq/include",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c597a0868393cfbf9cd3b47b4eab0b478d30ce3b",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/c597a0868393cfbf9cd3b47b4eab0b478d30ce3b"
+      },
+      {
+        "path": "module/voice_mq/include/VoiceMqSim.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e4f5c8f0573b2727c25fe68fd9bc2019d401c61c",
+        "size": 2625,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/e4f5c8f0573b2727c25fe68fd9bc2019d401c61c"
+      },
+      {
+        "path": "module/voice_mq/src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "361882fbb0e81eb5fef37acbb0f6c56f18cf5a6e",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/361882fbb0e81eb5fef37acbb0f6c56f18cf5a6e"
+      },
+      {
+        "path": "module/voice_mq/src/VoiceMqSim.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4d086be6e896ecb300dca8ed5fd065e9c2cba54",
+        "size": 5726,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/b4d086be6e896ecb300dca8ed5fd065e9c2cba54"
+      },
+      {
+        "path": "module/voice_mq/src/main.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e9ada7063b34b30ea55e7030f176659a0ef075c",
+        "size": 2350,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/8e9ada7063b34b30ea55e7030f176659a0ef075c"
+      },
+      {
+        "path": "src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "be9dbc4c9dd377b23444264b7e49fec047038537",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/be9dbc4c9dd377b23444264b7e49fec047038537"
+      },
+      {
+        "path": "src/algo",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b62875a7b00cd7a0aedfdf249621a295638e1dfd",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/b62875a7b00cd7a0aedfdf249621a295638e1dfd"
+      },
+      {
+        "path": "src/algo/Nms.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b708efe5288fdf02cc38004a29ebdd13f36b5029",
+        "size": 2330,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/b708efe5288fdf02cc38004a29ebdd13f36b5029"
+      },
+      {
+        "path": "src/algo/PngWriter.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec7837d3ccd96d73a285c07608bf1ef848730478",
+        "size": 14007,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/ec7837d3ccd96d73a285c07608bf1ef848730478"
+      },
+      {
+        "path": "src/algo/PolygonRegion.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f596dccdf50d9ca46c617e0297b3467be82f3d1c",
+        "size": 1732,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/f596dccdf50d9ca46c617e0297b3467be82f3d1c"
+      },
+      {
+        "path": "src/app",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6d2a8d48d40fc01533da793827b9322cba28810d",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/6d2a8d48d40fc01533da793827b9322cba28810d"
+      },
+      {
+        "path": "src/app/Config.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c59f7f33f21180f92d57d78858be665116581bd",
+        "size": 13445,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/1c59f7f33f21180f92d57d78858be665116581bd"
+      },
+      {
+        "path": "src/app/PreviewPublisher.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6234fbb4a06d6e55132d58f1d096bb67d7954795",
+        "size": 4810,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/6234fbb4a06d6e55132d58f1d096bb67d7954795"
+      },
+      {
+        "path": "src/common",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dce59c3d0d8baea9edbb412d0d8cf3cb7aa8453b",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/dce59c3d0d8baea9edbb412d0d8cf3cb7aa8453b"
+      },
+      {
+        "path": "src/common/Json.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "204a5c7ff1ebee455970583d165e408a72f124c9",
+        "size": 10632,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/204a5c7ff1ebee455970583d165e408a72f124c9"
+      },
+      {
+        "path": "src/common/Logger.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2682495209a44f1cc3d128b9d44333329a5e2fe9",
+        "size": 1089,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/2682495209a44f1cc3d128b9d44333329a5e2fe9"
+      },
+      {
+        "path": "src/hal",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "88b1c43b25e6d0c0672f6b421553da0be4362150",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/88b1c43b25e6d0c0672f6b421553da0be4362150"
+      },
+      {
+        "path": "src/hal/DmaBuffer.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea7b38351b6e74733d7d4ac472a20e9d820154c4",
+        "size": 2037,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/ea7b38351b6e74733d7d4ac472a20e9d820154c4"
+      },
+      {
+        "path": "src/hal/DurableAlarmNotifier.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2901f9a53737d4670f2a7f8e86648761b6c0b592",
+        "size": 7477,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/2901f9a53737d4670f2a7f8e86648761b6c0b592"
+      },
+      {
+        "path": "src/hal/MockFrameProcessor.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c51ec94c616d98b2e862a8b082860880c46cf2c",
+        "size": 616,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/6c51ec94c616d98b2e862a8b082860880c46cf2c"
+      },
+      {
+        "path": "src/hal/MockInferenceEngine.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a7a5808b859c6a23f3dcfcc2178885e331fffaaf",
+        "size": 726,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/a7a5808b859c6a23f3dcfcc2178885e331fffaaf"
+      },
+      {
+        "path": "src/hal/MockVideoSource.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "deb1aadaaaf5adc321180d79088e06e4bdfccb05",
+        "size": 1404,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/deb1aadaaaf5adc321180d79088e06e4bdfccb05"
+      },
+      {
+        "path": "src/hal/RealFrameProcessor.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ae39beff780a8fc8161db90d29e99a50e7c8906",
+        "size": 7517,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/3ae39beff780a8fc8161db90d29e99a50e7c8906"
+      },
+      {
+        "path": "src/hal/RealInferenceEngine.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba31c0b2af31207d915243ce1458b78126b5112a",
+        "size": 17435,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/ba31c0b2af31207d915243ce1458b78126b5112a"
+      },
+      {
+        "path": "src/hal/RealVideoSource.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b02fcf1c3fcadfdb85a7d1f3b42323cd37293ea7",
+        "size": 9169,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/b02fcf1c3fcadfdb85a7d1f3b42323cd37293ea7"
+      },
+      {
+        "path": "src/hal/RkMppSource.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7415a5b5d31c5563eefcd2a08bf6a5041aaba645",
+        "size": 7177,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/7415a5b5d31c5563eefcd2a08bf6a5041aaba645"
+      },
+      {
+        "path": "src/hal/SimScene.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eb645b7a8a608fd86c167852218bed3614708c07",
+        "size": 5096,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/eb645b7a8a608fd86c167852218bed3614708c07"
+      },
+      {
+        "path": "src/hal/TcpAlarmNotifier.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e48e79cd2347d4fe1c3f9c02cbfb01beb7fdf08",
+        "size": 8484,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/6e48e79cd2347d4fe1c3f9c02cbfb01beb7fdf08"
+      },
+      {
+        "path": "src/hal/npu_session_lease.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af4985ab5b0b3aa41d18bb2001000feecf8dcf24",
+        "size": 1682,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/af4985ab5b0b3aa41d18bb2001000feecf8dcf24"
+      },
+      {
+        "path": "src/main.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "23a6f66700927c21f97903f375cfb13ee724129d",
+        "size": 4095,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/23a6f66700927c21f97903f375cfb13ee724129d"
+      },
+      {
+        "path": "src/pipeline",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b117c9050188be5223265d09174d622add1e90db",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/b117c9050188be5223265d09174d622add1e90db"
+      },
+      {
+        "path": "src/pipeline/VideoPipeline.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "634488e04c61d8cfb15843d94fcd93bb9cfa23fa",
+        "size": 15752,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/634488e04c61d8cfb15843d94fcd93bb9cfa23fa"
+      },
+      {
+        "path": "src/pipeline/VideoPipelineAlarm.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da6a573589d54a2fdd507ff11f1f3777753f21f5",
+        "size": 7859,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/da6a573589d54a2fdd507ff11f1f3777753f21f5"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "81b53273c15ed1f4955adf4835c0267f987f9043",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/81b53273c15ed1f4955adf4835c0267f987f9043"
+      },
+      {
+        "path": "tests/alarm_tests.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "554e6b426325f57bec8488ade970e4eae204da92",
+        "size": 9743,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/554e6b426325f57bec8488ade970e4eae204da92"
+      },
+      {
+        "path": "tests/core_tests.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "427b0a484e5bd9a586fe9dc3c447ac9d19262f77",
+        "size": 7646,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/427b0a484e5bd9a586fe9dc3c447ac9d19262f77"
+      },
+      {
+        "path": "tests/delivery_driver.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44945baf4f6f12bc10f2f2448b5728d3f46eac39",
+        "size": 585,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/44945baf4f6f12bc10f2f2448b5728d3f46eac39"
+      },
+      {
+        "path": "tests/hardware_tests.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf325e5026cee63c40504f91255db5a421fea841",
+        "size": 4177,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/bf325e5026cee63c40504f91255db5a421fea841"
+      },
+      {
+        "path": "tests/module_tests.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d1033f82aa8a47ca31c53bf22cd02b31837bccd",
+        "size": 462,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/1d1033f82aa8a47ca31c53bf22cd02b31837bccd"
+      },
+      {
+        "path": "tests/motion_eval.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d755b9fb0c07ce1f6cd80e612779f966e116b8eb",
+        "size": 14717,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/d755b9fb0c07ce1f6cd80e612779f966e116b8eb"
+      },
+      {
+        "path": "tests/reconnect_tests.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97e9bbda4bcb78f49425ce866e99d264c33e1b65",
+        "size": 2019,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/97e9bbda4bcb78f49425ce866e99d264c33e1b65"
+      },
+      {
+        "path": "tests/rga_quant_probe.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c3266c14f4f32d7961c7ca749298f8d65dbb3f85",
+        "size": 1272,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/c3266c14f4f32d7961c7ca749298f8d65dbb3f85"
+      },
+      {
+        "path": "tests/tensor_tests.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f24ca94682cdae374ab07c7515e70dcf11d1761b",
+        "size": 1216,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/f24ca94682cdae374ab07c7515e70dcf11d1761b"
+      },
+      {
+        "path": "tests/test_detection_score.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "598451c21a12005f67e4b8bf7741cc3a9acacfde",
+        "size": 1837,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/598451c21a12005f67e4b8bf7741cc3a9acacfde"
+      },
+      {
+        "path": "tests/test_live_console.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e767d7f1e742734c1de91d9c75d95daa0889ef06",
+        "size": 11091,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/e767d7f1e742734c1de91d9c75d95daa0889ef06"
+      },
+      {
+        "path": "tests/test_region_editor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b75249b6da1d85f6b2135224ffbb2a4861207d0a",
+        "size": 5127,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/b75249b6da1d85f6b2135224ffbb2a4861207d0a"
+      },
+      {
+        "path": "tests/voice_tests.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84176cb2b854088ce5ae1f3e43ed71cf0fd030e7",
+        "size": 391,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/84176cb2b854088ce5ae1f3e43ed71cf0fd030e7"
+      },
+      {
+        "path": "tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8081f1b96e071665bd426e260822792e44d2d276",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/8081f1b96e071665bd426e260822792e44d2d276"
+      },
+      {
+        "path": "tools/alarm_receiver.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2675524fa6ca5808b9ba614c678eaaee61931b03",
+        "size": 3484,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/2675524fa6ca5808b9ba614c678eaaee61931b03"
+      },
+      {
+        "path": "tools/build_private_mpp.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a5399f6045b55dce8b9c2d2e1c402767fae0b4ec",
+        "size": 1177,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/a5399f6045b55dce8b9c2d2e1c402767fae0b4ec"
+      },
+      {
+        "path": "tools/check.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f402b181973a414fd8dc1864e5f3349e14c8be98",
+        "size": 10535,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/f402b181973a414fd8dc1864e5f3349e14c8be98"
+      },
+      {
+        "path": "tools/check_delivery.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9697ba747ad215f17e4967606ec0b21f831d05b1",
+        "size": 4002,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/9697ba747ad215f17e4967606ec0b21f831d05b1"
+      },
+      {
+        "path": "tools/check_end_to_end.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90b87d7157fee03439d05040aa873cb9849dc36b",
+        "size": 3140,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/90b87d7157fee03439d05040aa873cb9849dc36b"
+      },
+      {
+        "path": "tools/check_rtsp_recovery.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "682bfb94d6bc716f486985232c06dbbc8ec72b6f",
+        "size": 2370,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/682bfb94d6bc716f486985232c06dbbc8ec72b6f"
+      },
+      {
+        "path": "tools/live_console.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "13e7c8baf363ff33143c28ac5a46c0565eaf4bf0",
+        "size": 20055,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/13e7c8baf363ff33143c28ac5a46c0565eaf4bf0"
+      },
+      {
+        "path": "tools/live_console",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7df36c28822a305d8ba2ccb33303c7586e4ac950",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/7df36c28822a305d8ba2ccb33303c7586e4ac950"
+      },
+      {
+        "path": "tools/live_console/app.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ce7291e38ced82e1a8cca7a557c43fadcb4a2350",
+        "size": 4985,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/ce7291e38ced82e1a8cca7a557c43fadcb4a2350"
+      },
+      {
+        "path": "tools/live_console/app.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3de560ab4c6dee89d68aa74bff7a89664e1125ac",
+        "size": 16722,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/3de560ab4c6dee89d68aa74bff7a89664e1125ac"
+      },
+      {
+        "path": "tools/live_console/index.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc0239f2d0893c86d50bf1b378755cd0892ba955",
+        "size": 4431,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/dc0239f2d0893c86d50bf1b378755cd0892ba955"
+      },
+      {
+        "path": "tools/region_editor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1db264f3c1e9392e4fdac10ba47f2cad1991f46a",
+        "size": 10705,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/1db264f3c1e9392e4fdac10ba47f2cad1991f46a"
+      },
+      {
+        "path": "tools/region_editor",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6e5962e9971c6151d5ed64d476e80d688edc6a8d",
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/trees/6e5962e9971c6151d5ed64d476e80d688edc6a8d"
+      },
+      {
+        "path": "tools/region_editor/editor.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9361f5adc758f8df5a29a4d696a700cfd886b158",
+        "size": 1968,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/9361f5adc758f8df5a29a4d696a700cfd886b158"
+      },
+      {
+        "path": "tools/region_editor/editor.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b7d646e7d3f43e501a3535f3986444bd48ee1a7",
+        "size": 11371,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/5b7d646e7d3f43e501a3535f3986444bd48ee1a7"
+      },
+      {
+        "path": "tools/region_editor/index.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46dd7ff6eb94f05c87d394985efdc4e48fe96f03",
+        "size": 3069,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/46dd7ff6eb94f05c87d394985efdc4e48fe96f03"
+      },
+      {
+        "path": "tools/rtsp_fixture.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "395c7820e449cf9c9bfc200d7c9b27736e839836",
+        "size": 850,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/395c7820e449cf9c9bfc200d7c9b27736e839836"
+      },
+      {
+        "path": "tools/score_detections.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9cd2593382784f2942c588484eeb9440ade04a99",
+        "size": 4837,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/9cd2593382784f2942c588484eeb9440ade04a99"
+      },
+      {
+        "path": "tools/summarize_motion_eval.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efd6207da1eb3f3d6499ed0c57efa7627b1c102c",
+        "size": 1071,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/efd6207da1eb3f3d6499ed0c57efa7627b1c102c"
+      },
+      {
+        "path": "tools/test_alarm_receiver.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "804c18d6f6806808c4d13ec79a114827e769efff",
+        "size": 1793,
+        "url": "https://api.github.com/repos/3355-del/rk3588-multi-stream-alarm/git/blobs/804c18d6f6806808c4d13ec79a114827e769efff"
+      }
+    ],
+    "truncated": false
+  }
+}

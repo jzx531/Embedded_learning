@@ -1,0 +1,1053 @@
+{
+  "repository": "xiaohaha08/rk3588-face-stream-runtime",
+  "fetched_at_utc": "2026-11-23T05:07:41.9528560Z",
+  "metadata": {
+    "id": 1219149481,
+    "node_id": "R_kgDOSKq-qQ",
+    "name": "rk3588-face-stream-runtime",
+    "full_name": "xiaohaha08/rk3588-face-stream-runtime",
+    "private": false,
+    "owner": {
+      "login": "xiaohaha08",
+      "id": 193761595,
+      "node_id": "U_kgDOC4yROw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193761595?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xiaohaha08",
+      "html_url": "https://github.com/xiaohaha08",
+      "followers_url": "https://api.github.com/users/xiaohaha08/followers",
+      "following_url": "https://api.github.com/users/xiaohaha08/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xiaohaha08/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xiaohaha08/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xiaohaha08/subscriptions",
+      "organizations_url": "https://api.github.com/users/xiaohaha08/orgs",
+      "repos_url": "https://api.github.com/users/xiaohaha08/repos",
+      "events_url": "https://api.github.com/users/xiaohaha08/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xiaohaha08/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/xiaohaha08/rk3588-face-stream-runtime",
+    "description": "Deployment-oriented face recognition video runtime for RK3588 with USB/RTSP/file input, RKNN inference, RTSP/file output, and a browser-based Flask dashboard for live preview, runtime control, face library/alarm management, local video handling, and stage-level frontend debugging.",
+    "fork": false,
+    "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime",
+    "forks_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/forks",
+    "keys_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/teams",
+    "hooks_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/hooks",
+    "issue_events_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/events",
+    "assignees_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/tags",
+    "blobs_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/languages",
+    "stargazers_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/stargazers",
+    "contributors_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/contributors",
+    "subscribers_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/subscribers",
+    "subscription_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/subscription",
+    "commits_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/merges",
+    "archive_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/downloads",
+    "issues_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/labels{/name}",
+    "releases_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/deployments",
+    "created_at": "2026-04-23T15:22:34Z",
+    "updated_at": "2026-04-23T15:36:27Z",
+    "pushed_at": "2026-04-23T15:36:23Z",
+    "git_url": "git://github.com/xiaohaha08/rk3588-face-stream-runtime.git",
+    "ssh_url": "git@github.com:xiaohaha08/rk3588-face-stream-runtime.git",
+    "clone_url": "https://github.com/xiaohaha08/rk3588-face-stream-runtime.git",
+    "svn_url": "https://github.com/xiaohaha08/rk3588-face-stream-runtime",
+    "homepage": null,
+    "size": 155038,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 1,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 0,
+    "subscribers_count": 0
+  },
+  "readme_path": "README.md",
+  "readme": "# RK3588 人脸识别视频系统\n\n面向 RK3588 的单路实时视频推理工程，聚焦正式部署场景。\n\n当前仓库提供完整的运行时主链路、控制面和部署资源，支持：\n\n- USB 摄像头、RTSP 流、本地视频文件输入\n- 人脸检测、质量分类、可选的人脸识别\n- 处理结果叠框后推送到 RTSP，或保存为本地视频文件\n- Web 控制面支持启动/停止运行时、实时预览、SSE/WebSocket 状态更新、Debug 页签、本地视频管理、人脸库和告警管理\n\n本仓库已经去掉测试链路和阶段性验证资产，只保留正式运行所需代码与资源。\n\n## 开源发布说明\n\n- 本仓库按“自包含部署仓库”方式组织，`deploy_assets/` 和 `models/` 会随仓库一起发布，当前仓库体积约 `204 MB`，首次 clone 会相对较慢。\n- 以下运行时目录和产物不纳入版本控制：`gallery/`、`video/input/`、`video/output/`、`outputs/face_alarm_images/`、`logs/`、`tmp/`、`temp/`，以及运行过程中生成的人脸库数据库、快照、日志和临时文件。\n- 根目录 `LICENSE` 只覆盖本项目自有代码；随仓库分发的第三方二进制、wheel、运行时库和模型文件，仍分别受其上游许可证或分发条款约束。\n- 第三方资源来源、许可证和发布前核验项见 `THIRD_PARTY_NOTICES.md`。如果其中某项的再分发权限还没有确认，请在公开发布前将对应文件移出仓库，并改为文档化下载步骤。\n\n## 项目能力\n\n- 单路实时视频推理：适配 RK3588 + RKNN Runtime 的正式运行链路\n- 人脸检测与质量分类：在主链路完成检测和质量打分\n- 人脸识别：基于人脸库进行身份匹配，空库时仍可运行检测和质量分类\n- 结果叠加：在输出画面中绘制人脸框和识别标签\n- 告警抓拍：目标身份出现时记录告警事件并周期性保存快照\n- 控制面：提供基于 Flask 的浏览器控制台、实时预览、SSE、可选 WebSocket、配置切换与运行控制\n- 人脸库管理：支持身份 CRUD、样本管理、运行时重载\n- 本地视频管理：支持上传、选择、删除本地输入/输出视频，并生成浏览器预览\n- 实时监控：查看 FPS、时延、丢帧、队列、CPU/NPU/内存/温度等状态，并提供阶段级性能调试视图，用于查看主链耗时、detector/classifier 耗时、识别 sidecar 耗时、队列深度、丢帧原因和最近链路快照\n- 推流信息：当 MediaMTX 可用时，可直接查看 RTSP / HLS / WebRTC / RTMP 地址\n\n## 目录说明\n\n### 仓库内代码与资源\n\n- `adapters/`：RKNN 模型适配层\n- `api/`：Flask 控制面、SSE、WebSocket 接口\n- `configs/`：运行配置样例\n- `deploy_assets/`：离线部署资源、MediaMTX、FFmpeg、Python wheels\n- `inputs/`：输入源实现\n- `metrics/`：运行指标统计\n- `models/`：默认模型文件\n- `outputs/`：画面合成与输出实现\n- `pipelines/`：主链路编排\n- `scripts/`：启动入口\n- `services/`：配置、运行管理、人脸库、告警、系统监控\n- `stream/`：FFmpeg / MediaMTX 相关能力\n- `web/`：控制台前端\n- `workers/`：推理 worker\n\n### 运行时目录\n\n以下目录不是代码目录，首次使用时请自行创建：\n\n- `gallery/`：人脸库目录，默认会在其中生成 `face_library.db` 和样本图片\n- `video/input/`：本地视频输入目录\n- `video/output/`：本地视频输出目录\n- `outputs/face_alarm_images/`：告警快照默认目录\n\n上述目录已在 `.gitignore` 中排除，建议仅作为本地运行数据目录使用。\n\n## 运行环境\n\n生产环境建议：\n\n- 硬件：RK3588\n- 系统：Linux `aarch64`\n- Python：`3.9.x`\n- 推理依赖：`rknn-toolkit-lite2`、`librknnrt.so`\n- 媒体依赖：`ffmpeg`、`ffprobe`\n- 控制面依赖：`flask`、`simple-websocket`（可选，SSE 不依赖）\n\n仓库已提供离线部署资源：\n\n- `deploy_assets/linux_arm64/rknn_runtime/`\n- `deploy_assets/linux_arm64/python_wheels/`\n- `deploy_assets/linux_arm64/mediamtx/`\n- `deploy_assets/linux_arm64/ffmpeg/`\n\n第三方资源的许可证边界和发布前核验项见 `THIRD_PARTY_NOTICES.md`。\n\n## 快速开始\n\n以下命令默认都在仓库根目录执行。\n\n### 1. 安装 RKNN Runtime\n\n```bash\nsudo cp deploy_assets/linux_arm64/rknn_runtime/librknnrt.so /usr/lib/\nsudo ldconfig\n```\n\n如果系统使用 `aarch64-linux-gnu` 目录：\n\n```bash\nsudo cp deploy_assets/linux_arm64/rknn_runtime/librknnrt.so /usr/lib/aarch64-linux-gnu/\nsudo ldconfig\n```\n\n### 2. 安装 Python 依赖\n\n推荐直接使用仓库内的离线安装脚本：\n\n```bash\nchmod +x deploy_assets/linux_arm64/install_py39_offline.sh\n./deploy_assets/linux_arm64/install_py39_offline.sh --with-api\n```\n\n如果你想手动安装，也可以执行：\n\n```bash\npython3 -m pip install --no-index \\\n  --find-links deploy_assets/linux_arm64/python_wheels/py39_offline \\\n  --find-links deploy_assets/linux_arm64/python_wheels \\\n  numpy \\\n  opencv-python-headless \\\n  psutil \\\n  ruamel.yaml \\\n  rknn-toolkit-lite2 \\\n  flask \\\n  simple-websocket\n```\n\n### 3. 准备运行时目录\n\n```bash\nmkdir -p gallery video/input video/output outputs/face_alarm_images\n```\n\n### 4. 检查模型文件\n\n默认配置依赖以下模型文件，仓库已经提供：\n\n- `models/rk-yolov8n-face-to-rk3588-640x640.rknn`\n- `models/ResNet_6face_model_210.onnx-to-rk3588-224x224.rknn`\n- `models/XcFaceNet20241110-to-rk3588-160x160.rknn`\n\n如需替换模型，请同步修改配置中的 `models.detector`、`models.classifier`、`models.recognizer`。\n\n## 配置流程\n\n建议从 `configs/` 中选一个最接近的样例开始修改。\n\n### 第 1 步：选择场景模板\n\n| 配置文件 | 输入类型 | 输出类型 | 适用场景 |\n| --- | --- | --- | --- |\n| `configs/usb_camera_rtsp.json` | USB 摄像头 | RTSP 推流 | 板端摄像头实时推流 |\n| `configs/rtsp_input_rtsp.json` | RTSP 拉流 | RTSP 推流 | 拉一路 RTSP，处理后重新发布 |\n| `configs/video_file_rtsp.json` | 本地视频文件 | RTSP 推流 | 对离线视频跑推理，并发布 RTSP |\n| `configs/video_file_save.json` | 本地视频文件 | 本地文件保存 | 对离线视频跑推理，并保存处理结果 |\n\n### 第 2 步：修改输入配置\n\n- `input.kind`：可选 `usb_camera`、`rtsp`、`video_file`\n- `input.device`：USB 摄像头设备号，如 `0`\n- `input.path`：RTSP 地址或本地视频路径\n- `input.ffmpeg_path` / `input.ffprobe_path`：默认填 `ffmpeg` / `ffprobe`，前提是已加入 `PATH`\n- `input.io_backend`：`rtsp` / `video_file` 可选 `ffmpeg` 或 `opencv`\n\n说明：\n\n- 本地视频模式建议统一使用 `video/input/...`\n- 配置中的相对路径都相对于仓库根目录解析\n\n### 第 3 步：确认模型与识别能力\n\n- `models.detector`：人脸检测模型，必填\n- `models.classifier`：质量分类模型，建议保留\n- `models.recognizer`：识别模型；如果为空，则不执行身份识别\n\n说明：\n\n- 即使启用了识别模型，如果 `gallery/` 中没有可用身份样本，系统仍会正常运行，但只做检测和质量分类，不输出已识别身份\n\n### 第 4 步：配置人脸库\n\n- `gallery.directory`：人脸库根目录，默认是 `gallery`\n- `gallery.max_images_per_identity`：目录扫描模式下每个身份最多加载多少张图\n\n控制台方式：\n\n- 先启动控制面\n- 在页面中的“人脸库管理”里新增身份、上传样本\n- 样本会写入 `gallery/face_library_samples/`\n- 数据库默认写入 `gallery/face_library.db`\n\n### 第 5 步：配置输出方式\n\nRTSP 推流模式：\n\n- `output.sink` 设为 `ffmpeg_rtsp`\n- `output.stream_url` 设为目标推流地址，例如 `rtsp://127.0.0.1:8554/live/usb-face-recog`\n- `output.ffmpeg_path` 默认填 `ffmpeg`\n\n本地保存模式：\n\n- `output.sink` 设为 `ffmpeg_file`\n- `output.output_path` 设为输出文件路径，例如 `video/output/demo_processed.mp4`\n\n### 第 6 步：配置 MediaMTX\n\n只有在 RTSP 推流模式下才需要重点关注这一段。\n\n- `mediamtx.enabled`：是否启用 MediaMTX 服务探测/管理\n- `mediamtx.auto_start`：端口未就绪时是否自动拉起仓库内的 `mediamtx`\n- `mediamtx.binary_path`：默认是 `deploy_assets/linux_arm64/mediamtx/mediamtx`\n- `mediamtx.config_path`：默认是 `deploy_assets/linux_arm64/mediamtx/mediamtx.yml`\n\n说明：\n\n- 如果 `mediamtx.enabled=true` 且 `auto_start=true`，运行时会优先尝试自动拉起服务\n- 如果你已有外部 MediaMTX，只要目标端口可访问，运行时会直接复用\n\n### 第 7 步：配置控制面与告警\n\n- `api.host` / `api.port`：控制面监听地址\n- `api.auto_start`：启动控制面时是否自动启动 Runtime\n- `api.enable_websocket`：是否启用 `/ws`\n- `alarm.enabled`：是否启用告警\n- `alarm.image_dir`：告警快照目录，默认是 `outputs/face_alarm_images`\n\n说明：\n\n- 告警只针对已识别且启用的身份\n- 未识别为目标身份的 `unknown` 不会进入告警库\n\n## 启动方式\n\n### 直接运行视频主链路\n\n```bash\npython3 scripts/run_video_runtime.py --config configs/usb_camera_rtsp.json --timeout 0\n```\n\n`--timeout 0` 表示持续运行，直到手动中断。\n\n### 启动控制面\n\n```bash\npython3 scripts/run_control_plane.py --config configs/usb_camera_rtsp.json\n```\n\n默认情况下，如果配置里 `api.auto_start=true`，控制面启动后会自动拉起 Runtime。\n\n如果只想先打开控制台、不自动启动：\n\n```bash\npython3 scripts/run_control_plane.py --config configs/video_file_save.json --no-autostart\n```\n\n浏览器访问：\n\n- `http://设备IP:5000/`\n- `http://设备IP:5000/dashboard`\n\n## 控制台可以做什么\n\n- 查看运行状态、模型状态、服务状态\n- 启动 / 停止 Runtime\n- 切换配置预设\n- 查看实时 FPS、端到端时延、队列、丢帧和阶段耗时\n- 在 Web 控制面的 Debug 页签查看主链阶段耗时、队列/丢帧、最近整帧链路快照和板端资源状态\n- 查看 CPU / NPU / 内存 / 温度信息\n- 查看推流地址和预览\n- 管理本地 `video/input` / `video/output` 视频\n- 管理人脸库身份和样本\n- 查看、删除告警记录和快照\n\n## 已验证的典型场景\n\n### 1. USB 摄像头输入，处理后推送到 RTSP\n\n```bash\npython3 scripts/run_video_runtime.py --config configs/usb_camera_rtsp.json --timeout 0\n```\n\n### 2. RTSP 输入，处理后重新推送到 RTSP\n\n```bash\npython3 scripts/run_video_runtime.py --config configs/rtsp_input_rtsp.json --timeout 0\n```\n\n### 3. 本地视频输入，处理后推送到 RTSP\n\n```bash\npython3 scripts/run_video_runtime.py --config configs/video_file_rtsp.json --timeout 0\n```\n\n### 4. 本地视频输入，处理后保存到文件\n\n```bash\npython3 scripts/run_video_runtime.py --config configs/video_file_save.json --timeout 0\n```\n\n## 注意事项\n\n- 当前仓库聚焦单路视频运行，不包含多路调度与训练部分\n- 配置中的相对路径以仓库根目录为基准，尽量不要在配置里写本机绝对路径\n- `ffmpeg` / `ffprobe` 不在 `PATH` 时，需要在配置中明确指定路径\n- 本地视频模式下，请先确保输入文件已经放入 `video/input/`\n- 浏览器不一定能直接播放所有原始视频格式，控制面会用 `ffmpeg` 自动生成兼容预览\n- 如果识别结果没有命中，输出画面会显示为 `unknown`\n- 如需关闭识别但保留检测链路，可在控制台关闭“人脸识别开关”，或移除 `models.recognizer`\n\n## 更多部署资料\n\n- [deploy_assets/README.md](deploy_assets/README.md)\n- [deploy_assets/linux_arm64/INSTALL_PY39_OFFLINE.md](deploy_assets/linux_arm64/INSTALL_PY39_OFFLINE.md)\n",
+  "tree": {
+    "sha": "4d27de30ba9666fdb4282a00d72875e2242878bb",
+    "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/4d27de30ba9666fdb4282a00d72875e2242878bb",
+    "tree": [
+      {
+        "path": ".gitattributes",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a682d3354d6d2287b8445f6840de5df84a820ccf",
+        "size": 325,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/a682d3354d6d2287b8445f6840de5df84a820ccf"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0dc66838e4b995fb0552875ed491dff22e4ffbd2",
+        "size": 4109,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/0dc66838e4b995fb0552875ed491dff22e4ffbd2"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e8d3b4a74e691a979a548d8f48e121441a85e33",
+        "size": 1067,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/3e8d3b4a74e691a979a548d8f48e121441a85e33"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86b5e544388fcddc2d5bb5ddedeb065335175cdf",
+        "size": 11669,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/86b5e544388fcddc2d5bb5ddedeb065335175cdf"
+      },
+      {
+        "path": "THIRD_PARTY_NOTICES.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d74d60c868840f556ebc0367e760dcc491a7ad2c",
+        "size": 7277,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/d74d60c868840f556ebc0367e760dcc491a7ad2c"
+      },
+      {
+        "path": "adapters",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bb239fc4a340270ada139c7dc3a0965c62ec12bc",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/bb239fc4a340270ada139c7dc3a0965c62ec12bc"
+      },
+      {
+        "path": "adapters/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e5e4cd7bc2a71791403fddb634366b0cf8b70e9",
+        "size": 51,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/7e5e4cd7bc2a71791403fddb634366b0cf8b70e9"
+      },
+      {
+        "path": "adapters/common.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92ab7e26567e3de6f13f202da891f8b20cfd363b",
+        "size": 5764,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/92ab7e26567e3de6f13f202da891f8b20cfd363b"
+      },
+      {
+        "path": "adapters/face_detector.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "81d07bef2ec54d1b559ca287ffe1998431e8e51b",
+        "size": 2447,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/81d07bef2ec54d1b559ca287ffe1998431e8e51b"
+      },
+      {
+        "path": "adapters/face_embedding.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a293bdb594aac214f0d0a919521c52ae692acba",
+        "size": 3420,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/0a293bdb594aac214f0d0a919521c52ae692acba"
+      },
+      {
+        "path": "adapters/face_quality.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "577a44fed0132e1da605ca18f6ad4ac59bee6b64",
+        "size": 4480,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/577a44fed0132e1da605ca18f6ad4ac59bee6b64"
+      },
+      {
+        "path": "adapters/rknn_runtime.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "938cfc2ca59bcb89c9a82868beb19459e6d44ba5",
+        "size": 2770,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/938cfc2ca59bcb89c9a82868beb19459e6d44ba5"
+      },
+      {
+        "path": "adapters/yolov8_face_postprocess.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ae859387ba90a26b39268122a520cec905906e9",
+        "size": 4490,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/6ae859387ba90a26b39268122a520cec905906e9"
+      },
+      {
+        "path": "api",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "80f74bc8dc53cfdde350ad8c54d3b616a263a664",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/80f74bc8dc53cfdde350ad8c54d3b616a263a664"
+      },
+      {
+        "path": "api/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "583e0791333a12545046b0a5d3907607efd173ed",
+        "size": 39,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/583e0791333a12545046b0a5d3907607efd173ed"
+      },
+      {
+        "path": "api/serializers.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f83ab5a99a60c71cc41732bc39d8078ac030f398",
+        "size": 6989,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/f83ab5a99a60c71cc41732bc39d8078ac030f398"
+      },
+      {
+        "path": "api/server.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36a4508bf41bfb3f1c6b8f5687ec283a0c26183e",
+        "size": 31705,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/36a4508bf41bfb3f1c6b8f5687ec283a0c26183e"
+      },
+      {
+        "path": "configs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d1ae848f7289f58764782da2f2fce8ef716f1f6e",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/d1ae848f7289f58764782da2f2fce8ef716f1f6e"
+      },
+      {
+        "path": "configs/rtsp_input_rtsp.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57f018a337f6463bb8bf45b74755918882b70c5f",
+        "size": 2137,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/57f018a337f6463bb8bf45b74755918882b70c5f"
+      },
+      {
+        "path": "configs/usb_camera_rtsp.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cadfb64446f0fbff0c5e305bc7304b195de20635",
+        "size": 2823,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/cadfb64446f0fbff0c5e305bc7304b195de20635"
+      },
+      {
+        "path": "configs/video_file_rtsp.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "461d9ad82c30c415db94bb1eb489d4afd8f7f94d",
+        "size": 2069,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/461d9ad82c30c415db94bb1eb489d4afd8f7f94d"
+      },
+      {
+        "path": "configs/video_file_save.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ac8f81a57b4ce6afc68fa12194d23747deda9d33",
+        "size": 2055,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/ac8f81a57b4ce6afc68fa12194d23747deda9d33"
+      },
+      {
+        "path": "deploy_assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cba068a0a10679387eebfcf52848673aaa2a52c0",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/cba068a0a10679387eebfcf52848673aaa2a52c0"
+      },
+      {
+        "path": "deploy_assets/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73029633b1880a4d178f9d6f34d8a0917ac62cc7",
+        "size": 2038,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/73029633b1880a4d178f9d6f34d8a0917ac62cc7"
+      },
+      {
+        "path": "deploy_assets/linux_arm64",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8df82bf451c179b468d3e6cf515978245987a1c7",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/8df82bf451c179b468d3e6cf515978245987a1c7"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/INSTALL_PY39_OFFLINE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "75f107df8008c6e8319b94878150359a5fc6ab35",
+        "size": 1942,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/75f107df8008c6e8319b94878150359a5fc6ab35"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/ffmpeg",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1a551de21949f38a2922237ae691634874ce3c18",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/1a551de21949f38a2922237ae691634874ce3c18"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/ffmpeg/ffmpeg-rockchip-usr.tar.gz",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "daf2aa66e271bddd4f8777d1c026afb1100819b2",
+        "size": 29221219,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/daf2aa66e271bddd4f8777d1c026afb1100819b2"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/install_py39_offline.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "651b4d82f295e71c98bade4f113978013c358eb5",
+        "size": 1768,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/651b4d82f295e71c98bade4f113978013c358eb5"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/mediamtx",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cb4889d48d86457d185b0a38b4c4e1432e027be1",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/cb4889d48d86457d185b0a38b4c4e1432e027be1"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/mediamtx/mediamtx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82c19859422910c234721895042a50810410df0c",
+        "size": 37109219,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/82c19859422910c234721895042a50810410df0c"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/mediamtx/mediamtx.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f66bfb5c9ef77e6dc69d9669d867669ff80eea3",
+        "size": 28295,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/0f66bfb5c9ef77e6dc69d9669d867669ff80eea3"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/mediamtx/mediamtx_v1.9.0_linux_arm64v8.tar.gz",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40168169a0cff3777a76636ab589e1b94285b32a",
+        "size": 17714562,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/40168169a0cff3777a76636ab589e1b94285b32a"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7ff2a7481167e3691f2c8f1b814e5a68aa47e6b0",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/7ff2a7481167e3691f2c8f1b814e5a68aa47e6b0"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b81d52682965d57861ab1dca68a525481203c7cc",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/b81d52682965d57861ab1dca68a525481203c7cc"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/blinker-1.9.0-py3-none-any.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62dd87bd2a694646bec030081e855ed78dd7f36f",
+        "size": 8458,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/62dd87bd2a694646bec030081e855ed78dd7f36f"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/click-8.1.8-py3-none-any.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db2c6b31bd51e5434a6a56b15506fe7cba357986",
+        "size": 98188,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/db2c6b31bd51e5434a6a56b15506fe7cba357986"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/colorama-0.4.6-py2.py3-none-any.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f666ce989f84a46703ead9fa296a74c24e60b590",
+        "size": 25335,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/f666ce989f84a46703ead9fa296a74c24e60b590"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/flask-3.1.3-py3-none-any.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37464c3f4f85fc42e75096333d3d680679d94a18",
+        "size": 103424,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/37464c3f4f85fc42e75096333d3d680679d94a18"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/h11-0.16.0-py3-none-any.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f12b3ce76d7e422f27eb873b155506de68239ef3",
+        "size": 37515,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/f12b3ce76d7e422f27eb873b155506de68239ef3"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/importlib_metadata-9.0.0-py3-none-any.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "805e6a46711df9e8706ae721253b7014ff8f9f94",
+        "size": 27789,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/805e6a46711df9e8706ae721253b7014ff8f9f94"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/itsdangerous-2.2.0-py3-none-any.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "359ea0c5d10e319e3d89e13d58423f5b2f18938e",
+        "size": 16234,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/359ea0c5d10e319e3d89e13d58423f5b2f18938e"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/jinja2-3.1.6-py3-none-any.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5046d779c56d2860a70740532e02e2917567fe95",
+        "size": 134899,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/5046d779c56d2860a70740532e02e2917567fe95"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/markupsafe-3.0.3-cp39-cp39-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "864fe1ca49ff1e7dc443a1ae7fca77c11d0e94dc",
+        "size": 21923,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/864fe1ca49ff1e7dc443a1ae7fca77c11d0e94dc"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/numpy-2.0.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d20d07d47353bd2f02a02af61e430900169151e5",
+        "size": 13912596,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/d20d07d47353bd2f02a02af61e430900169151e5"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/opencv_python_headless-4.13.0.92-cp37-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cb12492e289901ddbac10a3d25fd7b0464e60060",
+        "size": 33703709,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/cb12492e289901ddbac10a3d25fd7b0464e60060"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/psutil-7.2.2-cp36-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1b8588d87f362395bbccd94b4fdb2fd14f847034",
+        "size": 156997,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/1b8588d87f362395bbccd94b4fdb2fd14f847034"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/ruamel_yaml-0.19.1-py3-none-any.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "88f673c110e22814c63ef0f5d9ac7c4ce54fc260",
+        "size": 118102,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/88f673c110e22814c63ef0f5d9ac7c4ce54fc260"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/simple_websocket-1.1.0-py3-none-any.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "03d0f758f68de93f1ca9a9181583f8102a974741",
+        "size": 13842,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/03d0f758f68de93f1ca9a9181583f8102a974741"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/werkzeug-3.1.8-py3-none-any.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6f47eba7b2d0ed013eaa049d2d5950d86ff1de06",
+        "size": 226459,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/6f47eba7b2d0ed013eaa049d2d5950d86ff1de06"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/wsproto-1.2.0-py3-none-any.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46c2da30bcd49a2d40899d85b5be270f91803f4d",
+        "size": 24226,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/46c2da30bcd49a2d40899d85b5be270f91803f4d"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/py39_offline/zipp-3.23.0-py3-none-any.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b65cb52853fa06eaf3c11b8f85b8de61d019ccc",
+        "size": 10276,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/4b65cb52853fa06eaf3c11b8f85b8de61d019ccc"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/python_wheels/rknn_toolkit_lite2-2.3.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5dfc03e067b5838c4193614181a85b587d854277",
+        "size": 559831,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/5dfc03e067b5838c4193614181a85b587d854277"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/rknn_runtime",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "130f8a37178f4fe69eccabd9ec937f754c041958",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/130f8a37178f4fe69eccabd9ec937f754c041958"
+      },
+      {
+        "path": "deploy_assets/linux_arm64/rknn_runtime/librknnrt.so",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec8a545124751e08aaf6f67c1dc433afcd2e154b",
+        "size": 7259064,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/ec8a545124751e08aaf6f67c1dc433afcd2e154b"
+      },
+      {
+        "path": "deploy_assets/windows_amd64",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b869d70350fcf09d39c61435b42d173de00652ff",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/b869d70350fcf09d39c61435b42d173de00652ff"
+      },
+      {
+        "path": "deploy_assets/windows_amd64/mediamtx",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "32386fd91dbb5eea3177a770e30196969cab3779",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/32386fd91dbb5eea3177a770e30196969cab3779"
+      },
+      {
+        "path": "deploy_assets/windows_amd64/mediamtx/mediamtx.exe",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52bd9f7ab7186b5172cd68d09e07fc94857e969f",
+        "size": 49105408,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/52bd9f7ab7186b5172cd68d09e07fc94857e969f"
+      },
+      {
+        "path": "deploy_assets/windows_amd64/mediamtx/mediamtx.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "252289723f13c245c7f0fe3e7ce2b615da7d69f3",
+        "size": 31740,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/252289723f13c245c7f0fe3e7ce2b615da7d69f3"
+      },
+      {
+        "path": "inputs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "deb9fdd4d343923cfae8c357f3542f2c98e6e62a",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/deb9fdd4d343923cfae8c357f3542f2c98e6e62a"
+      },
+      {
+        "path": "inputs/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec6df6d5750fe72467e9e887aa20b20f186008e8",
+        "size": 21,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/ec6df6d5750fe72467e9e887aa20b20f186008e8"
+      },
+      {
+        "path": "inputs/base.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0be2ea01864da0252a660de19d53830c5d06c0ad",
+        "size": 643,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/0be2ea01864da0252a660de19d53830c5d06c0ad"
+      },
+      {
+        "path": "inputs/opencv_capture.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0ec53729233b888270f40aa2e43e1d60a824fcd",
+        "size": 8244,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/d0ec53729233b888270f40aa2e43e1d60a824fcd"
+      },
+      {
+        "path": "inputs/stream_capture.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31fac0c9bfddd6292addd495b13dffce6328e57b",
+        "size": 4386,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/31fac0c9bfddd6292addd495b13dffce6328e57b"
+      },
+      {
+        "path": "metrics",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d9181dba33a9799bbd98b49f16f75a7a5d7bb257",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/d9181dba33a9799bbd98b49f16f75a7a5d7bb257"
+      },
+      {
+        "path": "metrics/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1794ecfbbeea8a2673229cee404f5c3d0dab741",
+        "size": 23,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/b1794ecfbbeea8a2673229cee404f5c3d0dab741"
+      },
+      {
+        "path": "metrics/store.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae8ad79ed13726d4e3c96e19b6e43b1294d5ea25",
+        "size": 10280,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/ae8ad79ed13726d4e3c96e19b6e43b1294d5ea25"
+      },
+      {
+        "path": "models",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "70a32be0ec1ad26f753d5be463db637a121f86b7",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/70a32be0ec1ad26f753d5be463db637a121f86b7"
+      },
+      {
+        "path": "models/ResNet_6face_model_210.onnx-to-rk3588-224x224.rknn",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38941d5d9943c8554295a7529090b8c33ad9dbd2",
+        "size": 11474120,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/38941d5d9943c8554295a7529090b8c33ad9dbd2"
+      },
+      {
+        "path": "models/XcFaceNet20241110-to-rk3588-160x160.rknn",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8366d3d7470c0a5cc807f261793af9070a694dc4",
+        "size": 3706250,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/8366d3d7470c0a5cc807f261793af9070a694dc4"
+      },
+      {
+        "path": "models/rk-yolov8n-face-to-rk3588-640x640.rknn",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "734bd7191fc1da7055d15c31424aa3901dd54c6d",
+        "size": 4167944,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/734bd7191fc1da7055d15c31424aa3901dd54c6d"
+      },
+      {
+        "path": "outputs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2fe20de00bf66744f7b414ceb17d3b5af438d5ef",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/2fe20de00bf66744f7b414ceb17d3b5af438d5ef"
+      },
+      {
+        "path": "outputs/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5193eea7ebc99c0752859564b63a09117bdeef2b",
+        "size": 22,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/5193eea7ebc99c0752859564b63a09117bdeef2b"
+      },
+      {
+        "path": "outputs/composer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "886f0328325fcc2e8c7fdcf51a95ab1decef85c1",
+        "size": 5159,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/886f0328325fcc2e8c7fdcf51a95ab1decef85c1"
+      },
+      {
+        "path": "outputs/sink.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "062a8bff3fb7ff864ab4db9a3bee033a9c455c38",
+        "size": 3719,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/062a8bff3fb7ff864ab4db9a3bee033a9c455c38"
+      },
+      {
+        "path": "pipelines",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "543ef61b3306ea43086de8f088adae48b3e9f7fe",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/543ef61b3306ea43086de8f088adae48b3e9f7fe"
+      },
+      {
+        "path": "pipelines/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aba436c934e6471476fadb85dd6ace013f331e5f",
+        "size": 29,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/aba436c934e6471476fadb85dd6ace013f331e5f"
+      },
+      {
+        "path": "pipelines/reorder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dcd58672e055ce79f353d9d3d0d2ec851bed0581",
+        "size": 2414,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/dcd58672e055ce79f353d9d3d0d2ec851bed0581"
+      },
+      {
+        "path": "pipelines/source_runtime.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72e9b63b84acb2f2c21cbc530f5f1f67e6630c45",
+        "size": 27819,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/72e9b63b84acb2f2c21cbc530f5f1f67e6630c45"
+      },
+      {
+        "path": "pipelines/types.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0d1fa4eb80629b0ee94f9d41b47b2e1bbbf17558",
+        "size": 1783,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/0d1fa4eb80629b0ee94f9d41b47b2e1bbbf17558"
+      },
+      {
+        "path": "schedulers",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "defa38b060a7012e00f2919ff2c628fdd386a07a",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/defa38b060a7012e00f2919ff2c628fdd386a07a"
+      },
+      {
+        "path": "schedulers/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e9ba4ad28cd652f2a0976041541be8ad85d65d8",
+        "size": 25,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/8e9ba4ad28cd652f2a0976041541be8ad85d65d8"
+      },
+      {
+        "path": "schedulers/latest_wins.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cc72098bb8ff4c4d565200d5e5b26e8955dbaae2",
+        "size": 1652,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/cc72098bb8ff4c4d565200d5e5b26e8955dbaae2"
+      },
+      {
+        "path": "scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "31e724af374358f35b3861fcec5693d73fa47557",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/31e724af374358f35b3861fcec5693d73fa47557"
+      },
+      {
+        "path": "scripts/run_control_plane.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8bcc993500fc1b8a5238afe98587873b7ee35f0",
+        "size": 2763,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/d8bcc993500fc1b8a5238afe98587873b7ee35f0"
+      },
+      {
+        "path": "scripts/run_video_runtime.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6c61492ca7120e35acb40ff89453a8666f25f08",
+        "size": 2694,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/c6c61492ca7120e35acb40ff89453a8666f25f08"
+      },
+      {
+        "path": "services",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0de6c694a1e2496b2d76026c5d626ad3d332c435",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/0de6c694a1e2496b2d76026c5d626ad3d332c435"
+      },
+      {
+        "path": "services/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b9bdba2a1e77644c3b7dfdb24767867290389161",
+        "size": 23,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/b9bdba2a1e77644c3b7dfdb24767867290389161"
+      },
+      {
+        "path": "services/bootstrap.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6a622f87b3809b3bc6f5402101cd9b259e934d1",
+        "size": 7580,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/c6a622f87b3809b3bc6f5402101cd9b259e934d1"
+      },
+      {
+        "path": "services/config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f1c52776a46a84658cdd0d9d80cc4cecd2d684f",
+        "size": 11072,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/8f1c52776a46a84658cdd0d9d80cc4cecd2d684f"
+      },
+      {
+        "path": "services/event_bus.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d49bf1f6af7742701dcbddf2c1292fd9bf2584d",
+        "size": 2695,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/8d49bf1f6af7742701dcbddf2c1292fd9bf2584d"
+      },
+      {
+        "path": "services/face_alarm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "204f08b24dc8ed3ca11e6d6c1024a5cbe7bf0a2b",
+        "size": 22515,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/204f08b24dc8ed3ca11e6d6c1024a5cbe7bf0a2b"
+      },
+      {
+        "path": "services/face_library.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "835c6048a3e4192a81ed7efeac7694fef99d205f",
+        "size": 24455,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/835c6048a3e4192a81ed7efeac7694fef99d205f"
+      },
+      {
+        "path": "services/gallery_store.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a2f49acf41516f77fb8f6bc88892494ea600f2d",
+        "size": 5192,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/6a2f49acf41516f77fb8f6bc88892494ea600f2d"
+      },
+      {
+        "path": "services/managed_runtime.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "60133d0595a2e89f9516a002fd7629b2e337b900",
+        "size": 8775,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/60133d0595a2e89f9516a002fd7629b2e337b900"
+      },
+      {
+        "path": "services/recognition.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ac36c8b480ee4e7784089de9fc6d87c100b2e3f",
+        "size": 18222,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/0ac36c8b480ee4e7784089de9fc6d87c100b2e3f"
+      },
+      {
+        "path": "services/result_enricher.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e22163bbbc4f760373425652357418c6c19f32e2",
+        "size": 2135,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/e22163bbbc4f760373425652357418c6c19f32e2"
+      },
+      {
+        "path": "services/runtime_manager.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e483a0de174f212d119d66f9a794013ad88bd1c",
+        "size": 19577,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/3e483a0de174f212d119d66f9a794013ad88bd1c"
+      },
+      {
+        "path": "services/system_monitor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4656d8895132d46867126ff93f0c23a32d353641",
+        "size": 10891,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/4656d8895132d46867126ff93f0c23a32d353641"
+      },
+      {
+        "path": "stream",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f06c39b3773c4925648c8069d006cb22141f3540",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/f06c39b3773c4925648c8069d006cb22141f3540"
+      },
+      {
+        "path": "stream/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf61d88f978617443fc7acf75760f5d9392eb119",
+        "size": 556,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/bf61d88f978617443fc7acf75760f5d9392eb119"
+      },
+      {
+        "path": "stream/common.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5e358b0f98f82c4e542d91875218f5f79661d0c",
+        "size": 1837,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/e5e358b0f98f82c4e542d91875218f5f79661d0c"
+      },
+      {
+        "path": "stream/ffmpeg_publisher.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57270a44fb4646ea3843c3f6dcc5b7c73c54dea8",
+        "size": 7281,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/57270a44fb4646ea3843c3f6dcc5b7c73c54dea8"
+      },
+      {
+        "path": "stream/ffmpeg_reader.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd5755622fb4db24a97b15782f4396433a4605d5",
+        "size": 9296,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/cd5755622fb4db24a97b15782f4396433a4605d5"
+      },
+      {
+        "path": "stream/ffmpeg_rtsp.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6764af6abd2848a340dc1beec42ffc8d24d245b1",
+        "size": 1529,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/6764af6abd2848a340dc1beec42ffc8d24d245b1"
+      },
+      {
+        "path": "stream/mediamtx.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8b1638db8b602566532d1cefedca51caa233c63",
+        "size": 2710,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/b8b1638db8b602566532d1cefedca51caa233c63"
+      },
+      {
+        "path": "stream/probe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8705e59dab31502286172b56f57552b5797137f",
+        "size": 2284,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/f8705e59dab31502286172b56f57552b5797137f"
+      },
+      {
+        "path": "utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "538af0fe5f7a452bce6ae82ed0b16e61d8f27475",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/538af0fe5f7a452bce6ae82ed0b16e61d8f27475"
+      },
+      {
+        "path": "utils/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "88c371e524d6714df76d03579e7454ef7cc04aa1",
+        "size": 23,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/88c371e524d6714df76d03579e7454ef7cc04aa1"
+      },
+      {
+        "path": "utils/logging.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d9ae5895e261105bea238cb19917634beb08b315",
+        "size": 447,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/d9ae5895e261105bea238cb19917634beb08b315"
+      },
+      {
+        "path": "utils/queues.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a64ec147d94447f6453d326693e486f008ce709",
+        "size": 587,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/7a64ec147d94447f6453d326693e486f008ce709"
+      },
+      {
+        "path": "web",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "619d7256294f6867bb8bfe6fe88ff3faa49455ea",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/619d7256294f6867bb8bfe6fe88ff3faa49455ea"
+      },
+      {
+        "path": "web/dashboard.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3383ad14af42c5d93cd28a3ac24a180e1a3a9df1",
+        "size": 25387,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/3383ad14af42c5d93cd28a3ac24a180e1a3a9df1"
+      },
+      {
+        "path": "web/dashboard.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3193091a81acec40a682ec9e0cdd5f92b76b65ce",
+        "size": 19136,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/3193091a81acec40a682ec9e0cdd5f92b76b65ce"
+      },
+      {
+        "path": "web/dashboard.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e62fe1940084a0eb1d4ef3626f935b94b1c737c1",
+        "size": 65106,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/e62fe1940084a0eb1d4ef3626f935b94b1c737c1"
+      },
+      {
+        "path": "workers",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c5243823f04be7eb92205fa41bf79233837d3c85",
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/trees/c5243823f04be7eb92205fa41bf79233837d3c85"
+      },
+      {
+        "path": "workers/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7a32eec8f5122c0507164b60e075181df36ad14",
+        "size": 22,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/e7a32eec8f5122c0507164b60e075181df36ad14"
+      },
+      {
+        "path": "workers/face_detect_quality.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31d0cb11a8d37b9f65ddf2c43d61a64e81701e4c",
+        "size": 3692,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/31d0cb11a8d37b9f65ddf2c43d61a64e81701e4c"
+      },
+      {
+        "path": "workers/runtime_worker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e1a3e817b07b8b17dc51a1ad5c6cc4140d24ec0",
+        "size": 4729,
+        "url": "https://api.github.com/repos/xiaohaha08/rk3588-face-stream-runtime/git/blobs/5e1a3e817b07b8b17dc51a1ad5c6cc4140d24ec0"
+      }
+    ],
+    "truncated": false
+  }
+}
